@@ -1,0 +1,11 @@
+protocol FiniteStateMachine {
+    
+    typealias Input
+    typealias Output
+    typealias State = Self
+    
+    var state: State { get }
+    
+    mutating func push(Input) -> Output
+    
+}

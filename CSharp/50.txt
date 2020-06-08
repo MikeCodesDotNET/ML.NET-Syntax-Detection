@@ -1,0 +1,6 @@
+private readonly ICache<IEnumerable<Members>> _distcache;
+
+public ActisureController(ICache<IEnumerable<Members>> distcache)
+{
+       this._distcache = distcache;
+}

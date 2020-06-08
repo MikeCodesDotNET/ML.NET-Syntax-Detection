@@ -1,0 +1,2 @@
+val list_1: List<Programmer> = listOf(Programmer("James"))
+val list_2: List<Employee> = list_1

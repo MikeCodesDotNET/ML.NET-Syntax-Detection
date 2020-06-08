@@ -1,0 +1,57 @@
+import UIKit
+
+/**
+Presents a wrapping grid of tokens presented as pills.
+Implements sizeThatFits, so it can communicate its
+required height to auto layout or other consumers.
+*/
+class MultilineLabelCloudView: UIView, UICollectionViewDataSource
+{
+  var pillBackgroundColor:UIColor = UIColor.lightGrayColor()
+  var pillTextColor:UIColor = UIColor.darkGrayColor()
+  var pillTextFontSize:CGFloat = CGFloat(9)
+  var horizontalSpacing:CGFloat = CGFloat(8)
+  
+  var tokens:[String] = [] { didSet {
+    self.collectionView.reloadData()
+    self.collectionView.collectionViewLayout.invalidateLayout()
+    self.setNeedsLayout()
+    self.layoutIfNeeded()
+    } }
+  
+  private weak var collectionView:UICollectionView!
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    self.setup()
+  }
+  
+  required  init(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    self.setup()
+  }
+  
+  private func setup() {
+    self.backgroundColor = UIColor.clearColor()
+    let layout =  CenteredFlowLayout()
+    layout.minimumInteritemSpacing = self.horizontalSpacing
+    let cv = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
+    cv.registerClass(LabelViewCell.self, forCellWithReuseIdentifier: "LabelViewCellIdentifier")
+    cv.dataSource = self
+    layout.estimatedItemSize = CGSize(width: 60, height: 60)
+    cv.backgroundColor = self.backgroundColor
+    self.addSubview(cv)
+    fillSuperview(cv)
+    self.collectionView = cv
+  }
+  
+  /// Returns the size that would present all its content
+  override func sizeThatFits(size: CGSize) -> CGSize {
+    return self.collectionView.contentSize
+  }
+  
+  // MARK: UICollectionViewDataSource
+  
+  func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    return 1
+  }

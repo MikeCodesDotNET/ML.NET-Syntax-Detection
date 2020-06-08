@@ -1,0 +1,13 @@
+use core::hashmap::HashMap;
+
+fn main() {
+    let b: ~[u8] = ~[0, 1, 1, 2, 3, 3, 3, 4];
+    let mut counts: HashMap<u8, uint> = HashMap::new();
+
+    for b.each |ch| {
+        let count = *counts.find_or_insert(*ch, 0);
+        counts.insert(*ch, count + 1);
+    }
+
+    println(fmt!("counts = %?", counts));
+}

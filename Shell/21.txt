@@ -1,0 +1,2 @@
+$ brew cask info netbeans-java-ee
+$ brew cask install netbeans-java-ee

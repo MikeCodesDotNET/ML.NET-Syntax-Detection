@@ -1,0 +1,11 @@
+git filter-branch -f --commit-filter '
+	if [ "$GIT_COMMITTER_NAME" = "OldName" ];
+	then
+		GIT_COMMITTER_NAME="NewName";
+		GIT_AUTHOR_NAME="NewName";
+		GIT_COMMITTER_EMAIL="NewEmail@site.com";
+		GIT_AUTHOR_EMAIL="NewEmail@site.com";
+		git commit-tree "$@";
+	else
+		git commit-tree "$@";
+	fi' HEAD

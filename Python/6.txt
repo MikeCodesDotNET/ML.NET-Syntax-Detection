@@ -1,0 +1,469 @@
+spew_info = False #If you change this to True, we'll spew info that should help to determine roughly how long it will take the program to run. 
+
+from copy import *
+
+# Import Psyco if available for a slight speedup
+try:
+    import psyco
+    psyco.full()
+except ImportError:
+    pass
+
+class Spectrum(dict):
+    '''A multiset of polyforms.'''
+    #This is a hotspot.
+    def __add__(self, other):
+        out = Spectrum({})
+        for key, value in self.iteritems():
+            x = out[key] = value + other[key]
+            if  x > 1:
+                out.is_legal = False
+                return out
+        return out
+
+    def __radd__(self, other):
+        return self
+
+    def is_cover(self):
+        for i in self.itervalues():
+            if i != 1:
+                return False
+        return True
+
+    is_legal = True
+
+    def increment_value(self, key):
+        self[key] +=1
+        if self[key] > 1:
+            self.is_legal = False
+    
+    @classmethod
+    def new_spectrum(cls, pset, initform=None):
+        out = cls.fromkeys(pset, 0)
+        if initform:
+            out[initform] += 1
+        out.piece_size = len(out.iterkeys().next())
+        return out
+
+# currently, due to the way the best cover algorithm works, this is broken.
+class DoubleCoverSpectrum(Spectrum):
+    def __add__(self, other):
+        out = Spectrum({})
+        for key, value in self.iteritems():
+            x = out[key] = value + other[key]
+            if  x > 2:
+                out.is_legal = False
+                return out
+        return out
+    def is_cover(self):
+        for i in self.itervalues():
+            if i != 2:
+                return False
+        return True
+    def increment_value(self, key):
+        self[key] +=1
+        if self[key] > 2:
+            self.is_legal = False
+
+class Poly(tuple):
+    '''Base polyomino class.'''
+    def __eq__(self, other):
+        return tuple.__eq__(self.canonicalize(), other.canonicalize())
+    def __ne__(self, other):
+        return tuple.__ne__(self.canonicalize(), other.canonicalize())
+    def __gt__(self, other):
+        return tuple.__gt__(self.canonicalize(), other.canonicalize())
+    def __ge__(self, other):
+        return tuple.__ge__(self.canonicalize(), other.canonicalize())
+    def __lt__(self, other):
+        return tuple.__lt__(self.canonicalize(), other.canonicalize())
+    def __le__(self, other):
+        return tuple.__le__(self.canonicalize(), other.canonicalize())
+
+    # This function, especially the list comprehension, is a hotspot,
+    # and has been slightly optimized for speed.
+    def canonpos(self):
+        '''Determine the canonical position of a polyform in the plane.'''
+        poly = list(self)
+        poly.sort()
+        if poly[0] == (0,0):
+            return Poly(poly)
+        x_min, y_min = poly[0]
+        return Poly([(x - x_min, y - y_min) for x, y in poly])
+
+        
+    is_canonical = False
+    spectrum_class = Spectrum
+    spectrum = None
+    
+    def canonicalize(self):
+        '''Cache canonicalization.'''
+        if self.is_canonical:
+            return self
+        else:
+            return self.canonpos()
+        
+    connections = [lambda (x, y) : (x + 1, y),
+                   lambda (x, y) : (x, y + 1),
+                   lambda (x, y) : (x - 1, y),
+                   lambda (x, y) : (x, y - 1)]
+
+    def enlargements(self):
+        '''A generator yielding all polyforms that can be made by adding a cell adjacent to this polyform.''' 
+        used_neighbors = set()
+        for cell in self:
+            for i in self.connections:
+                neighbor = i(cell)
+                if neighbor not in self and neighbor not in used_neighbors:
+                    used_neighbors.add(neighbor)
+                    out = list(self)
+                    out.append(neighbor)
+                    out.sort()
+                    out = self.__class__(out)
+                    yield (neighbor, out)
+
+    def enlarge_spectrum(self, newcell):
+        '''Add to the spectrum the polyforms that include the cell being added.'''
+        if not self.spectrum:
+            return None
+        test_poly_list = [(newcell,)]
+        for test_poly in test_poly_list:
+            if len(test_poly) < self.spectrum.piece_size:
+                for (test_newcell, test_enlarged) in self.__class__(test_poly).enlargements():
+                    if test_newcell in self:
+                        if tuple(test_enlarged) not in test_poly_list:
+                            if len(test_enlarged) <= self.spectrum.piece_size:
+                                test_poly_list.append(tuple(test_enlarged))
+                                if len(test_enlarged) == self.spectrum.piece_size:
+                                    test_canon = test_enlarged.canonicalize()
+                                    self.spectrum.increment_value(test_canon)
+                                    if not self.spectrum.is_legal:
+                                        return
+
+    def clone_with_spectrum(self, pset):
+        new_pws = self.__class__(copy(self))
+        new_pws.spectrum = self.spectrum_class.new_spectrum(pset, new_pws)
+        new_pws.size = len(new_pws)
+        return new_pws
+
+#a dict to cache correspondences between polyominoes and their canonical form. This is time-useful but space-problematic so as a compromise, only small polyominoes go in.
+canon_dict = {}
+            
+class SymPoly(Poly):
+    '''Polyforms with symmetries defined. Classes for specific kinds of polyforms should subclass this.''' 
+    syms = [lambda (x, y) : ( x,  y)]
+    def canonicalize(self):
+        if self.is_canonical:
+            return self
+        
+        symforms = []
+        min_symform = None
+        for sym in self.syms:
+            curr_symform = self.__class__([sym(x) for x in self]).canonpos()
+            t_curr_symform = tuple(curr_symform)
+            if len(self) < 8:
+                if t_curr_symform in canon_dict:
+                    return canon_dict[t_curr_symform]
+            symforms.append(t_curr_symform)
+            if not min_symform or curr_symform < min_symform:
+                min_symform = curr_symform
+        
+        out = self.__class__(min_symform)
+        
+        if len(self) < 8:
+            for i in symforms:
+                canon_dict[i] = out
+                
+        out.is_canonical = True
+        out.spectrum = self.spectrum
+        return out
+    
+    @classmethod
+    def n_ominoes(cls, n):
+        '''Returns a list of n-ominoes, that is, shapes with n connected cells.'''
+        n_omino_list = []     
+        for i in range(n):
+            prev_n_omino_list = n_omino_list
+            n_omino_list = []            
+            if i == 0:
+                n_omino_list.append(cls(((0,0),)))
+            else:
+                for poly in prev_n_omino_list:
+                    for enlargement in poly.enlargements():
+                        newpoly = enlargement[1].canonicalize()
+                        if newpoly not in n_omino_list:
+                            n_omino_list.append(newpoly)
+
+        return n_omino_list
+
+    @classmethod
+    def cover_report(cls, n):
+        '''Generate a report with information about a set of polyominoes and its minimal succinct cover.'''
+        om = cls.n_ominoes(n)
+        print "Type: %s, Size: %s" %(cls.__name__, n)
+        print "Number in Set: %s" %len(om)
+        pieces, cover = Polyset(om).get_best_cover(n)
+        print "Minimal cover size: %s" %cover.size()
+        print "Number of pieces in minimal cover: %s" %len(cover)
+        print cover
+        return pieces, cover
+
+class TwoSidedPolyomino(SymPoly):
+    '''The standard polyomino variant, where all reflections and rotations of a polyomino are equivalent.
+
+    This should be used as the default polyform class wherever it is appropriate to use a default.''' 
+    syms = [lambda (x, y) : ( x,  y),
+            lambda (x, y) : ( x, -y),
+            lambda (x, y) : (-x,  y),
+            lambda (x, y) : (-x, -y),
+            lambda (x, y) : ( y,  x),
+            lambda (x, y) : ( y, -x),
+            lambda (x, y) : (-y,  x),
+            lambda (x, y) : (-y, -x)]
+
+class OneSidedPolyomino(SymPoly):
+    '''A polyomino variant where only rotations are equivalent; reflections are considered to be distinct.'''
+    syms = [lambda (x, y) : ( x,  y),
+            lambda (x, y) : ( y, -x),
+            lambda (x, y) : (-x, -y),
+            lambda (x, y) : (-y,  x)]
+
+class FixedPolyomino(SymPoly):
+    '''A polyomino variant where rotations and reflections are considered distinct.'''
+    syms = [lambda (x, y) : ( x,  y)]
+
+class RectangularPolyomino(SymPoly):
+    '''A polyomino variant where cells have rectangular symmetry.'''
+    syms = [lambda (x, y) : ( x,  y),
+            lambda (x, y) : ( x, -y),
+            lambda (x, y) : (-x,  y),
+            lambda (x, y) : (-x, -y)]
+
+class RhombicPolyomino(SymPoly):
+    '''A polyomino variant where cells have rhombic symmetry.'''
+    syms = [lambda (x, y) : ( x,  y),
+            lambda (x, y) : ( y,  x),
+            lambda (x, y) : (-y, -x),
+            lambda (x, y) : (-x, -y)]
+
+class PolyKing(TwoSidedPolyomino):
+    '''A polyomino variant where diagonally adjacent cells are considered connected.'''
+    #We add the diagonals
+    connections =  Poly.connections + [lambda (x, y) : (x + 1, y + 1),
+                                       lambda (x, y) : (x - 1, y + 1),
+                                       lambda (x, y) : (x - 1, y - 1),
+                                       lambda (x, y) : (x + 1, y - 1)]
+
+class OneSidedPolyhex(SymPoly):
+    '''A polyform of cells in a hexagonal lattice, with rotations considered equivalent, and reflections distinct.'''
+    connections = [lambda (x, y) : (x + 1, y),
+                   lambda (x, y) : (x, y + 1),
+                   lambda (x, y) : (x - 1, y),
+                   lambda (x, y) : (x, y - 1),
+                   lambda (x, y) : (x + 1, y + 1),
+                   lambda (x, y) : (x - 1, y - 1)]
+    
+    syms = [lambda (x, y) : ( x,  y),
+            lambda (x, y) : ( y, y - x),
+            lambda (x, y) : (y - x, -x),
+            lambda (x, y) : (-x,  -y),
+            lambda (x, y) : (-y,  x - y),
+            lambda (x, y) : (x - y,  x)]
+
+class TwoSidedPolyhex(OneSidedPolyhex):
+    '''A polyform of cells in a hexagonal lattice, with rotations and reflections considered equivalent.'''
+    syms = OneSidedPolyhex.syms + [lambda (x, y) : (y - x, y),
+                                   lambda (x, y) : (y, x),
+                                   lambda (x, y) : (x, x - y),
+                                   lambda (x, y) : (x - y, -y),
+                                   lambda (x, y) : (-y, -x),
+                                   lambda (x, y) : (-x, y - x)] #reflections
+
+
+
+class CheckerPoly(Poly):
+    '''Base class for polyominos where squares have a checkered coloring pattern.'''
+#Sometimes it's convenient to use 1,0 to denote colors, other times 1,-1
+    @staticmethod
+    def cell_color (x, y):
+        return (x % 2) ^ (y % 2)
+
+    @staticmethod
+    def cell_parity(x, y):
+        return 2 * cell_color((x,y)) - 1
+
+    def canonpos(self):
+        '''Determine the canonical position of a checkered polyomino. Colors are preserved.'''
+        o1 = list(self)
+        o1.sort()
+        if o1[0] == (0,0):
+            return CheckerPoly(o1)
+        color =  self.cell_color(o1[0][0], o1[0][1])
+            
+        x_min, y_min = o1[0]
+        return CheckerPoly([(x - x_min + color, y - y_min) for x, y in o1])
+
+class TwoSidedCheckerPolyomino(CheckerPoly, TwoSidedPolyomino):
+    '''A polyomino variant with squares with a checkered coloring pattern; different colorings of a polyomino are considered distinct.'''
+
+
+class PolyStick(CheckerPoly, SymPoly):
+    '''A polyform of connected edges in a square lattice.'''
+    connections = [lambda (x, y) : (x + 1, y),
+                   lambda (x, y) : (x, y + 1),
+                   lambda (x, y) : (x - 1, y),
+                   lambda (x, y) : (x, y - 1),
+                   lambda (x, y) : ((x + 1, y + CheckerPoly.cell_parity(x,y))),
+                   lambda (x, y) : ((x - 1, y - CheckerPoly.cell_parity(x,y))),]
+    
+    syms =  [lambda (x, y) : ( x,  y),
+             lambda (x, y) : ( y,  x),
+             lambda (x, y) : (-y, -x),
+             lambda (x, y) : (-x, -y),         
+             lambda (x, y) : (-x,  y + 1),
+             lambda (x, y) : (-y,  x + 1),
+             lambda (x, y) : ( y, -x + 1),
+             lambda (x, y) : ( x, -y + 1),]
+
+class OneSidedPolyiamond(CheckerPoly, SymPoly):
+    '''One sided polyforms in a triangular lattice.'''
+    @staticmethod
+    def cell_parity(x, y):
+        d = (x + y) % 3
+        if d == 0:
+            parity = 1
+        elif d == 1:
+            parity = -1
+        else:
+            parity = None
+        return parity
+        
+    @staticmethod
+    def cell_color(x, y):
+        color = (x + y) % 3
+        return color
+
+    connections = [lambda (x, y) : (x + OneSidedPolyiamond.cell_parity(x,y), y),
+                   lambda (x, y) : (x, y + OneSidedPolyiamond.cell_parity(x,y)),
+                   lambda (x, y) : (x - OneSidedPolyiamond.cell_parity(x,y), y - OneSidedPolyiamond.cell_parity(x,y))]
+    syms = [ lambda (x, y) : (x, y),
+             lambda (x, y) : (y - x, -x),
+             lambda (x, y) : (-y, x - y),
+             # 180 rotations
+             lambda (x, y) : (-x + 1, -y),
+             lambda (x, y) : (x - y + 1, x),
+             lambda (x, y) : (y + 1, y - x)]
+
+class TwoSidedPolyiamond(OneSidedPolyiamond):
+    '''Two sided polyforms in a triangular lattice.'''
+    syms = OneSidedPolyiamond.syms + [lambda (x, y) : (y, x),
+                                      lambda (x, y) : (-x, y - x),
+                                      lambda (x, y) : (x - y, -y),
+                                      lambda (x, y) : (-y, -x + 1),
+                                      lambda (x, y) : (x, x - y + 1),
+                                      lambda (x, y) : (y - x, y + 1)] 
+
+
+             
+# currently, due to the way the best cover algorithm works, this is broken.
+class DoubleTwoSidedPolyomino(TwoSidedPolyomino):
+    spectrum_class = DoubleCoverSpectrum
+
+# Not actually a set but a list. The order that we iterate through it can be important for speed.
+class Polyset(list):
+    '''A set of polyforms.'''
+    def size(self):
+        '''The total number of cells in all polyforms in the set'''
+        return sum((len(x) for x in self))
+    
+    def largest(self):
+        '''A tuple containing the size of a largest piece and a largest piece'''
+        return max(((len(x),x) for x in pieces))
+
+    def most_prolific(self):
+        '''A tuple containing the largest number of polyforms in our target set that can be placed in a piece and said piece'''
+        return max(((sum(x.spectrum.values()),x) for x in pieces))
+
+    def most_efficient(self):
+        '''A tuple containing the highest ratio of pieces in our target set that can be placed in a piece to the size of the piece, and said piece'''
+        return max(((float(sum(x.spectrum.values())) / len(x),x) for x in pieces))
+    
+    def get_cover_pieces(self):
+        '''The set of polyforms that are legal pieces for succinct covers.'''
+        cover_pieces = [i.clone_with_spectrum(self) for i in self]
+        for i in cover_pieces:
+            for newcell, new_cp in i.enlargements():
+                new_cp.spectrum = copy(i.spectrum)
+                new_cp.enlarge_spectrum(newcell)
+                if new_cp.spectrum.is_legal:
+                    new_cp = new_cp.canonicalize()
+                    if new_cp not in cover_pieces:
+                        cover_pieces.append(new_cp)
+                        if spew_info and len(cover_pieces) % 1000 == 0:
+                            #If the two numbers printed are converging, the function might not take an inordinate amount of time to complete.
+                            print "piece %s of %s" %(cover_pieces.index(i), len(cover_pieces))
+        return cover_pieces
+    # A cover piece that is the same size or larger than another cover piece with the same spectrum is redundant for the purpose of finding a minimal succinct cover.
+    def trim_cover_pieces(self, pieces):
+        '''Remove redundant cover pieces.'''
+        spectrum_dict = {}
+        out_pieces = []
+        for i in pieces:
+            spec_items = tuple(i.spectrum.items())
+            best_size = spectrum_dict.get(spec_items)
+            if (not best_size) or best_size > len(i):
+                spectrum_dict[spec_items] = len(i)
+                out_pieces.append(i)
+        return out_pieces
+    
+    # The algorithm here is a bit clever. Naively, one might think we'd have to search the entire power set of the set of cover pieces to find our minimal succinct cover. Instead we can, for each polyomino, iterate through the cover pieces it is contained by (and skip down the list of polyominoes if one of the cover pieces we have already has it.) We speed things up a little by sorting the "covered by" list and cutting off branches where we have exceeded the size of the best cover found so far. This way instead of being O(2^number of cover pieces) we are, roughly, O((number of pieces / number of polyominoes)^number of polyominoes). I *think* this is an improvement.
+    def get_best_cover(self, min_omino_size=0):
+        '''Get the minimal succinct cover of the set.'''
+        best_size = self.size() + 1
+        best_cover = None
+        pieces1 = self.get_cover_pieces()
+        print "Number of legal cover pieces: %s" %len(pieces1)
+        pieces = self.trim_cover_pieces(pieces1)
+        if spew_info:
+            print "Number of cover pieces after trimming: %s" %len(pieces)
+        for i in self:
+            i.contained_by = [x for x in pieces if x.spectrum[i]]
+            i.contained_by.sort(lambda x, y : sum(y.spectrum.itervalues()) - sum(x.spectrum.itervalues()))
+        self.sort(lambda x, y : len(x.contained_by) - len(y.contained_by))
+        
+        # this next bit ensures that we won't ever look at a piece that is already in our partial cover. It therefore breaks 2-succinct covers, but those are broken anyway.
+        already_seen_pieces = set()
+        for i in self:
+            for j in i.contained_by:
+                if j in already_seen_pieces:
+                    i.contained_by.remove(j)
+                else:
+                    already_seen_pieces.add(j)
+                    
+        cp_indices = [0]
+        while True:
+            partial = Polyset([self[i].contained_by[cp_indices[i]] for i in range(len(cp_indices)) if not cp_indices[i] is None])
+            spectrum = sum([x.spectrum for x in partial], None)
+            size = partial.size()
+            
+            if spectrum.is_legal and size < best_size:
+                if spectrum.is_cover():
+                    best_cover = copy(cp_indices)
+                    best_size = size
+                else:
+                    while len(cp_indices) < len(self) and spectrum[self[len(cp_indices) -1]] == 1:
+                        cp_indices.append(None)
+                    cp_indices[-1] = 0
+                    
+            if not spectrum.is_legal or not size < best_size:
+                cp_indices[-1] += 1
+                while cp_indices[-1] is None or cp_indices[-1] == len(self[len(cp_indices) -1].contained_by):
+                        cp_indices.pop()
+                        if cp_indices == []:
+                            return pieces1, Polyset([self[i].contained_by[best_cover[i]] for i in range(len(best_cover)) if not best_cover[i] is None])
+                        if not cp_indices[-1] is None:
+                            cp_indices[-1] += 1
+
+if __name__ == '__main__':
+    #Pick a class and size of polyform, and change the following line to suit.
+    pieces, cover = TwoSidedPolyomino.cover_report(6)

@@ -1,0 +1,7 @@
+10165,Adak Island,AK,Adak
+10299,Anchorage,AK,Ted Stevens Anchorage Internationa
+10304,Aniak,AK,Aniak Airport
+10754,Barrow,AK,Wiley Post/Will Rogers Memorial
+10551,Bethel,AK,Bethel Airport
+10926,Cordova,AK,Merle K Mudhole Smith
+14709,Deadhorse,AK,Deadhorse Airport

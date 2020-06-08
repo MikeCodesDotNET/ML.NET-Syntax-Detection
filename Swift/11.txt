@@ -1,0 +1,17 @@
+infix operator ¢ {
+    associativity left
+    precedence 140
+}
+
+// Intercal interleave (mingle)
+func ¢(var lhs: UInt16, var rhs: UInt16) -> UInt32 {
+    let msb = 1 << UInt16(sizeof(UInt16)*8-1)
+
+    var result: UInt32 = 0
+    for i in 0..<(sizeof(UInt16) * 8) {
+        result <<= 1; result |= (msb & rhs != 0) ? 1 : 0; rhs <<= 1
+        result <<= 1; result |= (msb & lhs != 0) ? 1 : 0; lhs <<= 1
+    }
+    
+    return result
+}

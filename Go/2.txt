@@ -1,0 +1,54 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+/* Worker:
+* Reads from the jobs channel.
+* Does something using what it receives.
+* Decrement the wait group counter to indicate that the work is done.
+* Writes to the results channel.
+ */
+func worker(workerId int, wg *sync.WaitGroup, jobs <-chan int, results chan<- string) {
+	for j := range jobs {
+		defer wg.Done()
+
+		results <- fmt.Sprintf("Worker %d returned: %d", workerId, j*j)
+	}
+}
+
+func main() {
+	wg := new(sync.WaitGroup)
+	jobAmount := 10000
+	workerAmount := 5
+	jobs := make(chan int, jobAmount)
+	results := make(chan string, jobAmount)
+
+	// Start workers.
+	for w := 1; w <= workerAmount; w++ {
+		go worker(w, wg, jobs, results)
+	}
+
+	// Wait for all goroutines to finish then close the results channel.
+	go func() {
+		wg.Wait()
+		fmt.Println("Done.")
+		close(results)
+	}()
+
+	// Increment the wait group counter.
+	// Send jobs down the channel.
+	// Close the channel when done.
+	for i := 0; i <= jobAmount; i++ {
+		wg.Add(1)
+		jobs <- i
+	}
+	close(jobs)
+
+	// Output results.
+	for result := range results {
+		fmt.Println(result)
+	}
+}

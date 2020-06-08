@@ -1,0 +1,1 @@
+$ az aks use-dev-spaces -g MyResourceGroup -n MyAKS --space dev --yes

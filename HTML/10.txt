@@ -1,0 +1,165 @@
+<link rel="import" href="../core-signals/core-signals.html">
+<link rel="import" href="../cx-user-fieldset/cx-user-fieldset.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../cx-user-name/global-user.html">
+<link rel="import" href="../cx-user-address/global-address.html">
+<link rel="import" href="../cx-user-banking-account/banking-account.html">
+<link rel="import" href="../core-label/core-label.html">
+<link rel="import" href="../paper-checkbox/paper-checkbox.html">
+<link rel="import" href="../cx-user-permissions/cx-user-permissions.html">
+<link rel="import" href="../cx-user-buttons/cx-user-buttons.html">
+<link rel="import" href="../cx-user-history/cx-user-history.html">
+<link rel="import" href="../cx-user-matching-profiles/cx-profile-list.html">
+<link rel="import" href="../cx-user-transactions/cx-user-transactions.html">
+<link rel="import" href="../cx-user-transaction/cx-user-transaction.html">
+<link rel="import" href="../cx-user-star-rating/cx-user-star-rating.html">
+<link rel="import" href="../cx-user-social-media/social-media.html">
+<link rel="import" href="../cx-user-social-media-icons/cx-user-social-media-icons.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #section {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(145, 160, 178);
+        margin: 10px 0px;
+        left: 40px;
+        top: 50px;
+        position: absolute;
+      }
+      #section1 {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(145, 160, 178);
+        margin: 10px 0px;
+        left: 1070px;
+        top: 60px;
+        position: absolute;
+      }
+      #section2 {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(145, 160, 178);
+        margin: 10px 0px;
+        left: 530px;
+        top: 50px;
+        position: absolute;
+      }
+      #section3 {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(145, 160, 178);
+        margin: 10px 0px;
+        left: 530px;
+        top: 340px;
+        position: absolute;
+      }
+      #cx_user_transaction {
+        left: 810px;
+        top: 540px;
+        position: absolute;
+      }
+      #cx_user_transaction1 {
+        left: 1120px;
+        top: 440px;
+        position: absolute;
+      }
+      #cx_user_transaction2 {
+        left: 1110px;
+        top: 450px;
+        position: absolute;
+      }
+      #cx_user_transaction3 {
+        left: 1270px;
+        top: 860px;
+        position: absolute;
+      }
+      #cx_user_star_rating {
+        left: 1000px;
+        top: 450px;
+        position: absolute;
+      }
+      #cx_user_transaction4 {
+        left: 1210px;
+        top: 800px;
+        position: absolute;
+      }
+      #social_media {
+        left: 900px;
+        top: 620px;
+        position: absolute;
+      }
+      #section4 {
+        left: 660px;
+        top: 640px;
+        position: absolute;
+      }
+      #user_communication {
+        left: 1670px;
+        top: 620px;
+      }
+      #core_pages {
+        width: 400px;
+        height: 400px;
+        border: 1px solid silver;
+        left: 1730px;
+        top: 710px;
+      }
+    </style>
+    <section id="section" layout>
+      <cx-user-fieldset id="cx_user_fieldset" layout></cx-user-fieldset>
+      <global-user id="global_user" layout vertical></global-user>
+      <global-address id="global_address" layout vertical></global-address>
+      <banking-account id="banking_account" layout vertical></banking-account>
+      <cx-user-permissions id="cx_user_permissions" layout vertical></cx-user-permissions>
+      <cx-user-buttons id="cx_user_buttons" layout horizontal></cx-user-buttons>
+    </section>
+    <section id="section1" layout>
+      <cx-user-fieldset id="cx_user_fieldset1" layout></cx-user-fieldset>
+      <cx-user-history id="cx_user_history" layout vertical></cx-user-history>
+    </section>
+    <section id="section2" layout>
+      <cx-user-fieldset id="cx_user_fieldset2" layout></cx-user-fieldset>
+      <cx-profile-list id="cx_profile_list" layout vertical></cx-profile-list>
+    </section>
+    <section id="section3" layout>
+      <cx-user-fieldset id="cx_user_fieldset3" layout></cx-user-fieldset>
+      <cx-user-transactions id="cx_user_transactions" layout vertical></cx-user-transactions>
+    </section>
+    <cx-user-transaction id="cx_user_transaction" layout vertical></cx-user-transaction>
+    <cx-user-transaction id="cx_user_transaction1" layout vertical></cx-user-transaction>
+    <cx-user-transaction id="cx_user_transaction2" layout vertical></cx-user-transaction>
+    <cx-user-star-rating id="cx_user_star_rating"></cx-user-star-rating>
+    <cx-user-transaction id="cx_user_transaction3" layout vertical></cx-user-transaction>
+    <cx-user-transaction id="cx_user_transaction4" layout vertical></cx-user-transaction>
+    <social-media id="social_media" layout vertical></social-media>
+    <section id="section4">
+      <cx-user-social-media-icons id="cx_user_social_media_icons"></cx-user-social-media-icons>
+    </section>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

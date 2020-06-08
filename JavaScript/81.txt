@@ -1,0 +1,12 @@
+const ConnectedCounter = connect(
+  // Given Redux state, return props
+  state => ({
+    value: state.counter,
+  }),
+  // Given Redux dispatch, return callback props
+  dispatch => ({
+    onIncrement() {
+      dispatch({ type: 'INCREMENT' })
+    }
+  })
+)(Counter)

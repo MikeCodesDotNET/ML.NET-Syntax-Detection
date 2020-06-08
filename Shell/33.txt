@@ -1,0 +1,30 @@
+#!/bin/bash
+load1=$(uptime | awk -F : '{ print $5 }' | sed 's/,//g'| awk '{print $1}')
+load2=$(uptime | awk -F : '{ print $5 }' | sed 's/,//g'| awk '{print $2}')
+load3=$(uptime | awk -F : '{ print $5 }' | sed 's/,//g'| awk '{print $3}')
+LOAD1=$(/usr/bin/printf "%d\n" $load1 2>/dev/null)
+LOAD2=$(/usr/bin/printf "%d\n" $load2 2>/dev/null)
+LOAD3=$(/usr/bin/printf "%d\n" $load3 2>/dev/null)
+pid=$(cat /proc/loadavg| awk '{print $5}')
+if [ $LOAD1 -gt 5 ]; then
+               echo "CRITICAL: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 2)
+        elif [ $LOAD2 -eq 5 ]; then
+               echo "CRITICAL: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 2)
+        elif [ $LOAD3 -eq 5 ]; then
+               echo "CRITICAL: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 2)
+        elif [ $LOAD1 -eq 4 ]; then
+               echo "WARNING: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 1)
+        elif [ $LOAD2 -eq 4 ]; then
+               echo "WARNING: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 1)
+        elif [ $LOAD3 -eq 4 ]; then
+               echo "WARNING: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 1)
+        else
+                echo "OK: $load1/1min encolados... $load2/5min encolados... $load3/15min encolados... ultimo PID creado: $pid"
+               $(exit 0)
+        fi

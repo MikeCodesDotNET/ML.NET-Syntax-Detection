@@ -1,0 +1,9 @@
+import { conservator } from './middleware/conservator';
+
+const middleware = [thunk, conservator];
+
+const store = createStore(
+  rootReducer,
+  initialState,
+  compose(applyMiddleware(...middleware))
+);

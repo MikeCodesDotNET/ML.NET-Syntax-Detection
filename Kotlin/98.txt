@@ -1,0 +1,16 @@
+ fun Application.main() {
+
+        val pusher = Pusher("PUSHER_APP_ID", "PUSHER_APP_KEY", "PUSHER_APP_SECRET")
+        pusher.setCluster("PUSHER_APP_CLUSTER")
+
+        install(DefaultHeaders)
+        install(CallLogging)
+        install(Routing) {
+            get("/{message}") {
+                val i = call.parameters["message"]!!
+                pusher.trigger("my-channel", "my-event", Collections.singletonMap("message", i))
+                call.respond("response sent")
+            }
+
+        }
+    }

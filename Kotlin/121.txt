@@ -1,0 +1,5 @@
+val scores = listOf(1, 2, 3, 4, 5)
+scores
+    .filter { it % 2 == 0 }
+    .map { it * 4 }
+    .forEach { println(it) }

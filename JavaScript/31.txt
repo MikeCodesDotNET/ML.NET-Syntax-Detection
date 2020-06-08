@@ -1,0 +1,7 @@
+const car = {
+  model: "BMW",
+  color:"red",
+  drive: function(){
+    console.log("Car is driving");
+  }
+};

@@ -1,0 +1,23 @@
+def stop_instances(region, instance_tag="my_instance" , instance_state="running"):
+	"""
+		The function
+		1. filters all the instances by tag and instance-state
+		2. stops the filtered instances (does not terminate/delete them)
+		3. returns the just stopped instances (ids) for future reference
+	"""
+	c = boto.ec2.connect_to_region(region_name			= region,
+								  aws_access_key_id 	= aws_access_key_id,
+								  aws_secret_access_key = aws_secret_access_key,
+								  )
+
+	stopped_instances = []
+
+	reserves = c.get_all_instances(filters={"tag-value":instance_tag , "instance-state-name":instance_state})
+	for r in reserves:
+		for instance in r.instances:
+			instance.stop()
+			print "OK! instance -"+str(instance.id)+"- was stopped. \n"
+			# save the just stopped instances
+			stopped_instances.append( instance.id )
+
+	return stopped_instances

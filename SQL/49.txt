@@ -1,0 +1,8 @@
+UPDATE
+        first_table ft
+        JOIN second_table st ON st.some_id = ft.some_id
+        JOIN third_table tt  ON tt.some_id = st.some_id
+        .....
+    SET
+        ft.some_column = some_value
+    WHERE ft.some_column = 123456 AND st.some_column = 123456

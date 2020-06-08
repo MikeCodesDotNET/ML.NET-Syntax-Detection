@@ -1,0 +1,13 @@
+{
+  "title": "Quote: Control is an Illusion",
+  "categories": [
+    "quotes"
+  ],
+  "tags": [
+    "control",
+    "illusion",
+    "delusion"
+  ],
+  "date": "2015-07-22 19:27",
+  "body": "<blockquote>\n  <p>Control is an illusion. Giving in to chaos is the only way\nthrough. You don’t surf by telling the waves what to do.</p>\n  <footer><a href=\"http://tamouse.org\">tamouse</a></footer>\n</blockquote>\n"
+}

@@ -1,0 +1,48 @@
+class Beer
+  attr_reader :name, :case_quantity, :ingredient
+  def initialize(params = {})
+    @name = params.fetch(:name, "Guinness")
+    @case_quantity = params.fetch(:case_quantity, 12)
+    @ingredient = params.fetch(:ingredient, "barley")
+  end
+end
+
+
+class Brewery
+  attr_reader :menu
+  def initialize
+    @menu = []
+  end
+
+  def search(params={})
+    s_name = params.fetch(:name, nil)
+    s_ingredient = params.fetch(:ingredient, nil)
+    @menu.each do |beer|
+      if beer.name == s_name || beer.ingredient == s_ingredient
+        puts "In Stock"
+        return
+      end
+    end
+    puts "Out of Stock"
+    return
+  end
+
+  def stock_beer(beer)
+    @menu << beer
+  end
+end
+
+thirstymonkey = Brewery.new
+pacifico = Beer.new({name: "Pacifico", ingredient: "hops"})
+corona = Beer.new({name: "Corona", ingredient: "corn"})
+bud = Beer.new({name: "Budweiser", ingredient: "water"})
+stella = Beer.new({name: "Stella Artois", ingredient: "yeast"})
+thirstymonkey.stock_beer(pacifico)
+thirstymonkey.stock_beer(corona)
+thirstymonkey.stock_beer(bud)
+thirstymonkey.stock_beer(stella)
+
+thirstymonkey.menu
+
+thirstymonkey.search({name:"Pacifico"})
+thirstymonkey.search({ingredient:"water"})

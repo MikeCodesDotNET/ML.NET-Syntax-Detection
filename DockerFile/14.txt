@@ -1,0 +1,33 @@
+# Set ubuntu 16.04 as base image
+FROM ubuntu:16.04
+
+# Update software repo
+RUN apt-get update
+
+# Install nginx, php
+RUN apt-get install -y nginx php
+
+# Volume configure
+VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/nginx.conf", "/var/log/nginx"]
+
+# Define working dir
+WORKDIR /usr/share/nginx/html
+
+# Copy all
+COPY . .
+
+
+# Necessary commands
+# go to root -> sudo -i
+# update soft repo -> apt-get update
+# install docker -> apt-get install docker.io
+# start docker -> systemctl start docker
+# new dir for dockerfile -> mkdir projects
+# create dockerfile -> touch Dockerfile
+# edit dockerfile -> nano Dockerfile
+# build Dockerfile -> docker image build -t hello-nginx .
+# make container -> docker container run -t -d -p 8080:80 -v $(pwd):/usr/share/nginx/html --name hello-web hello-nginx
+# move projects to /opt -> mv -v projects /opt
+# create index.html file -> nano index.html
+# create info.php file -> nano info.php
+# run log file -> rm -f /var/log/nginx/*

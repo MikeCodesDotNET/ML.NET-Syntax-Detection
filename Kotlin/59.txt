@@ -1,0 +1,1 @@
+class Workday(override val start: Time, override val endInclusive: Time) : ClosedRange<Time>

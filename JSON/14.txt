@@ -1,0 +1,12 @@
+{
+        "name": "package",
+        "version": "1.0.0",
+        "private": true,
+        "devDependencies": {
+                "gulp": "3.8.11",
+                "gulp-bower": "0.0.10",
+                "gulp-config": "0.3.0",
+                "gulp-less": "3.0.3",
+                "gulp-plumber": "1.0.0"
+        }
+}

@@ -1,0 +1,9 @@
+public FileResult ExportCsv()
+{
+    return File(_pusheenService.GetAllPusheens(), "pusheen.csv");
+}
+
+public virtual PusheenCsvResult File(IEnumerable<Pusheen> pusheenData, string fileDownloadName)
+{
+    return new PusheenCsvResult(pusheenData, fileDownloadName);
+}

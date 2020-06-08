@@ -1,0 +1,42 @@
+	override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+		println("Touches BEGAN!")
+		let touch:UITouch = touches.anyObject() as UITouch
+		for subview in chessboardView.subviews {
+			var subview = subview as UIView
+			for move in chessModel.validMoves {
+				if subview.tag == move {
+					subview.backgroundColor = UIColor(red: 208.0/255.0, green: 224.0/255.0, blue: 227.0/255.0, alpha: 0.8)
+					//	println("identified: \(subview.tag)")
+				}
+			}
+
+			if touch.view == subview  {
+				println("subview Touched")
+				self.origin = subview.center
+				self.piece = subview
+
+				// Increase chesspiece size
+				if subview.tag > 88 {
+					pieceDefaultSize = subview.frame.size
+					subview.frame.size.width = (subview.frame.size.width * 1.2)
+					subview.frame.size.height = (subview.frame.size.height * 1.2)
+					subview.center = self.origin
+
+					// Knowing from where the piece left
+					for view in chessboardView.subviews {
+						var view = view as UIView
+						if view.frame.contains(subview.center) && view.tag <= 88 {
+							self.gFrom = view.tag
+							println(view.tag)
+						}
+					}
+				} else {
+					self.gFrom = subview.tag
+					println(subview.tag)
+				}
+
+			}
+			
+		}
+
+	}

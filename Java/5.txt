@@ -1,0 +1,41 @@
+/*
+(Needle)Word.len == m
+(Haystack)Text.len == n
+Prefix Function: Time O(m)
+String Matching: Time O(n) 
+
+Prefix Table Example:
+	char:  | a | b | a | b | a | b | c | a |
+	index: | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 
+ v(value): | 0 | 0 | 1 | 2 | 3 | 4 | 0 | 1 |
+*/
+private static int[] getPrefixTable(char[] word) {  
+   int len = word.length;  
+   int[] prefixTable = new int[len];  
+   int v = 0;  
+   prefixTable[0] = 0;  //the firt char has no prefix
+   for(int i = 1; i < len; i++) {  
+        while(v > 0 && word[v] != word[i]) { 
+    	    v = prefixTable[v]; 
+        }
+        if(word[v] == word[i]) { 
+    	    v++; 
+        }  
+        prefixTable[i] = v;
+   }  
+   return prefixTable;  
+} 
+
+public static void kmpSearch(String text, String word) {  
+	int[] S = getPrefixTable(word.toCharArray());
+	int t = 0, p = 0;
+	while(p + t < haystack.length()) {
+		if(haystack.charAt(t + p) != needle.charAt(p)) {
+		    t = t + p - S[p];
+		    p = (-1 < S[p]) ? S[p] : 0;
+		}else if(p++ == needle.length() - 1) {
+		    return t;
+		}
+	}
+	return -1;
+}  

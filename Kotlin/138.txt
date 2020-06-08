@@ -1,0 +1,3 @@
+@Test fun should_accept_different_partition_size() {
+    assertEquals(emptyList<List<Int>>(), emptyList<Int>().myPartition(3))
+}

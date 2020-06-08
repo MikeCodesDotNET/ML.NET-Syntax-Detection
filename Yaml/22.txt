@@ -1,0 +1,22 @@
+db:
+  image: 'postgres:9'
+app:
+  build: ./api/
+  environment:
+    RACK_ENV: development
+  links:
+    - db:postgres
+  volumes:
+    - ./api/public:/home/rubier/tephi/public
+    - ./api:/home/rubier/tephi
+  command: rbenv exec rerun "rbenv exec ruby /home/rubier/tephi/app.rb"
+nginx:
+  build: ./nginx/
+  links:
+    - app:app
+  volumes_from:
+    - app
+  volumes:
+    - ./client:/tephi
+  ports:
+    - '80:80'

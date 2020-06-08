@@ -1,0 +1,8 @@
+//Create Template Marker Processor
+ITemplateMarkersProcessor marker = workbook.CreateTemplateMarkersProcessor();
+
+//Get first 5 items in the collection and bind them to the marker
+marker.AddVariable("SalesList", GetCustomerAsObjects().Take<Customer>(5).ToArray());
+
+//Process the markers in the template
+marker.ApplyMarkers();

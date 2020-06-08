@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+from neutron.agent.linux import ovs_lib
+
+class ModifiedBaseOVS(ovs_lib.BaseOVS):
+    def __init__(self, root_helper, dbspec=None):
+        self.dbspec = dbspec
+        super(ModifiedBaseOVS, self).__init__(root_helper)
+
+    def run_vsctl(self, args, **kwargs):
+        if (self.dbspec):
+            args = ['--db', self.dbspec ] + args
+        return super(ModifiedBaseOVS, self).run_vsctl(args, **kwargs)
+
+ovs_lib.BaseOVS = ModifiedBaseOVS

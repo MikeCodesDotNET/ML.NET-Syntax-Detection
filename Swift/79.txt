@@ -1,0 +1,28 @@
+protocol TestProtocol {
+}
+
+class TestClass : TestProtocol {
+}
+
+class TestClass2 {
+}
+
+struct Test {
+  var a: TestClass.Type {
+    get {
+      return TestClass.self
+    }
+  }
+
+  var b: TestProtocol.Type {
+    get {
+      return TestClass.self
+    }
+  }
+
+  var c: TestProtocol.Type {
+    get {
+      return TestClass2.self // Type 'TestClass2' does not conform to protocol 'TestProtocol'
+    }
+  }
+}

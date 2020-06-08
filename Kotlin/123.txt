@@ -1,0 +1,14 @@
+val numbers = listOf(1, 2, 3, 4, 5)
+
+val evenMultipliedNumbers = numbers.map {
+    println("Initial Map $it")
+    it + 3
+}.filter {
+    println("Filtering $it")
+    it % 2 == 0
+}.map {
+    println("Mapping $it")
+    it * 5
+}
+
+evenMultipliedNumbers.forEach { println(it) }

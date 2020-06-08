@@ -1,0 +1,43 @@
+package main
+
+import (
+	"fmt"
+	"gopkg.in/mgo.v2"
+)
+
+func main() {
+	// connect to mongod
+	sess, err := mgo.Dial("localhost:33333")
+	if err != nil {
+		fmt.Println("error dialing mongod: ", err)
+		return
+	}
+	
+	sess.SetSafe(nil)
+
+	gfs := sess.DB("mongofiles_test_db").GridFS("fs")
+
+	tf, err := gfs.Create("testfile2")
+	if err != nil {
+		fmt.Println("error creating file: ", err)
+		return
+	}
+	_, err = tf.Write([]byte("abcdefghijklmnopqrst"))
+
+	if err != nil {
+		fmt.Println("error writing file contents: ", err)
+		return
+	}
+	err = tf.Close()
+
+	if err != nil {
+		fmt.Println("error closing file: ", err)
+	}
+
+	err = gfs.Remove("testfile2")
+	if err != nil {
+		fmt.Println("error removing file: ", err)
+		return
+	}
+
+}

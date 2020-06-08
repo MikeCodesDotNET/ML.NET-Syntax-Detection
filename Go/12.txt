@@ -1,0 +1,41 @@
+package main
+
+import (
+	"encoding/binary"
+	"fmt"
+	"net"
+)
+
+// Derive the broadcast address from an address in CIDR notation
+func broadcastAddress(s string) (net.IP, error) {
+
+	// Parse the CIDR
+	_, ipnet, err := net.ParseCIDR(s)
+	if err != nil {
+		return nil, err
+	}
+
+	// Convert the IP address and mask to 32-bit integers
+	// Note that byte order is actually irrelevant here
+	ip := binary.LittleEndian.Uint32(ipnet.IP)
+	mask := binary.LittleEndian.Uint32(ipnet.Mask)
+
+	// Calculate the broadcast address
+	addr := make([]byte, 4)
+	binary.LittleEndian.PutUint32(addr, ip&mask|^mask)
+
+	return addr, nil
+}
+
+func main() {
+
+	cidr := "192.168.1.1/24"
+	bcast, err := broadcastAddress(cidr)
+
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println("CIDR:", cidr)
+	fmt.Println("Broadcast:", bcast)
+}

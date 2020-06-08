@@ -1,0 +1,25 @@
+var promise: Promise<Int, NSError>!
+var testSubject: SomeObject!
+
+beforeEach {
+    promise = Promise<Int, NSError>()
+    testSubject = SomeObject(future: promise.future)
+}
+
+describe("when the request succeeds") {
+    beforeEach {
+        try! promise.success(99)
+    }
+    it("should have 99 problems") {
+        //Test
+    }
+}
+
+describe("when the request succeeds") {
+    beforeEach {
+        try! promise.failure(NSError(domain: "", code: 0, userInfo: nil))
+    }
+    it("should have 99 problems") {
+        //Test
+    }
+}

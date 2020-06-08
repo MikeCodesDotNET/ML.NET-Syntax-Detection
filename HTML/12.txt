@@ -1,0 +1,18 @@
+//通常時の画像には「_off」を、マウスオーバー時の画像には「_on」を付けて保存
+
+/* javascript */
+$(function(){
+  $('a img').hover(function(){
+    $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+  }, function(){
+    if (!$(this).hasClass('currentPage')) {
+      $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+    }
+  });
+});
+
+
+/* html */
+<a href="#">
+  <img src="http://www.placehold.it/images/btn_sample_off.jpg" alt="btn_sample_off" />
+</a>

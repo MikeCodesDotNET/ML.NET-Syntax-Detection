@@ -1,0 +1,70 @@
+public abstract class AbstractController<T extends Model> {
+
+	private final Form<T> form;
+	private final Template1<Form<T>, Html> template;
+
+	public FormController(
+			Class<T> tClass,
+			Template1<Form<T>, Html> template) {
+
+		this.form = Form.form(tClass);
+		this.template = template;
+	}
+
+	protected abstract void whenFormHasErrors();
+	protected abstract void whenFormIsValid(T t); 
+
+	public final Result show() {
+		return Results.ok(template.render(form));
+	}
+
+	public final Result submit(Call validFormRoute) {
+		Result result = null;
+
+		Form<T> boundForm = form.bindFromRequest();
+		if (boundForm.hasErrors()) {
+			whenFormHasErrors();
+			result = Results.badRequest(template.render(boundForm));
+		} else {
+			whenFormIsValid(boundForm.get());
+			result = Results.redirect(validFormRoute);
+		}
+
+		return result;
+	}
+}
+
+public class MyModelController<T extends MyModel> extends AbstractController {
+
+	public MyModelController(Template1<Form<T>, Html> template) {
+		super(MyModel.class, template);
+	}
+
+	public MyModelController(
+			Class<T> myModelClass,
+			Template1<Form<T>, Html> template) {
+
+		super(myModelClass, template);
+	}
+
+	@Override
+	protected void whenFormHasErrors() {
+	}
+
+	@Override
+	protected void whenFormIsValid(Model model) {
+	}
+}
+
+public class MyModels extends Controller {
+
+	public static final AbstractController controller = new MyModelController(sometemplate.ref());
+
+	public static Result index() {
+		return controller.show();
+	}
+
+	public static Result submit() {
+		return controller.submit(routes.MyModels.index());
+	}
+}

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Temporarily disables Terraria, so that I can't play it during work hours.
+
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/steamapps/common/Terraria/Content/Images/'
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/steamapps/common/Terraria/Content/Fonts/'
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/steamapps/common/Terraria/Content/Sounds/'
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/steamapps/common/Terraria/Content/'
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/steamapps/common/Terraria/'
+chmod -x '/home/dee/.wine/drive_c/Program Files/Steam/'

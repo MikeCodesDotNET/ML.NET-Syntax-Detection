@@ -1,0 +1,42 @@
+function addBraces(code_str) {
+
+	code_arr = code_str.split(/\r|\r\n|\n/g);
+
+	var spliter_length_stack = [];
+
+	var add_brace_code_arr = code_arr.map(v => {
+		let spliter, before_spliter_length, now_spliter_length;
+		let match_tab_arr = v.match(/^\t+|^\s+/g);
+
+		if (! spliter_length_stack.length) {
+			before_spliter_length = 0;
+		} else {
+			before_spliter_length = spliter_length_stack[spliter_length_stack.length - 1];
+		}
+
+		if (match_tab_arr) {
+			now_spliter_length = match_tab_arr[0].length;
+		} else {
+			now_spliter_length = 0;
+		}
+
+		if (before_spliter_length < now_spliter_length) {
+			spliter_length_stack.push(now_spliter_length);
+			spliter = '{';
+		} else if (before_spliter_length == now_spliter_length) {
+			spliter = '';
+		} else if (before_spliter_length > now_spliter_length) {
+			spliter_length_stack.pop();
+			spliter = '}';
+		}
+		
+		return spliter + v;
+	});
+	
+	if (spliter_length_stack.length) {
+		var code_arr_last_idx = add_brace_code_arr.length-1;
+		spliter_length_stack.map(v => add_brace_code_arr[code_arr_last_idx] = add_brace_code_arr[code_arr_last_idx] + '}');
+	}
+
+	return add_brace_code_arr.join('');
+}

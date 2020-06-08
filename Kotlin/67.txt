@@ -1,0 +1,2 @@
+val user1 = User("John", "Doe", 50)
+val user2 = user1.copy(age = 20)

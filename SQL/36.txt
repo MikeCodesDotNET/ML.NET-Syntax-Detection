@@ -1,0 +1,3 @@
+SELECT UnitPrice, OrderQty, 
+       UnitPrice * OrderQty AS Total
+FROM   Purchasing.PurchaseOrderDetail

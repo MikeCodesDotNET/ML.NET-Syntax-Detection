@@ -1,0 +1,23 @@
+// Compare to https://gist.github.com/jaekwon/8025b9f3a482b3219a21
+
+package main
+
+import "fmt"
+
+type Human struct{}
+
+func (h Human) walk()     { h.moveFeet() }
+func (h Human) moveFeet() { fmt.Println("Human.walkFeet") }
+
+type Dork struct {
+	Human // embedded struct, so Human methods are exposed on Dork.
+}
+
+func (d Dork) moveFeet() { fmt.Println("Dork.walkFeet") }
+
+func main() {
+	d := Dork{}
+	d.walk()           // Human.walkFeet
+	d.moveFeet()       // Dork.walkFeet
+	d.Human.moveFeet() // Human.walkFeet
+}

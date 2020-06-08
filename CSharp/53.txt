@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using FileUploadApp.Data;
+using FileUploadApp.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+
+namespace FileUploadApp.Controllers
+{
+    public class HomeController : Controller
+    {
+
+        private ApplicationDbContext DbContext { get; }
+        private IWebHostEnvironment WebHostEnvironment { get; }
+        public HomeController(ApplicationDbContext dbContext, IWebHostEnvironment webHostEnvironment)
+        {
+            DbContext = dbContext;
+            WebHostEnvironment = webHostEnvironment;
+        }
+
+        public IActionResult Index()
+        {
+            var users = DbContext.Users;
+            return View(users);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ApplicationUser user, IFormFile photo)
+        {
+            // if there is a selected photo
+            if (photo != null)
+            {
+                string photoPath = Path.Combine(WebHostEnvironment.WebRootPath, "Images", "Photos");
+                Directory.CreateDirectory(photoPath);
+                user.ProfilePhotoExtension = Path.GetExtension(photo.FileName);
+                using (var stream = new FileStream(
+                    Path.Combine(photoPath, user.Id + user.ProfilePhotoExtension), FileMode.CreateNew, FileAccess.ReadWrite
+                    ))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+            }
+            await DbContext.Users.AddAsync(user);
+            await DbContext.SaveChangesAsync();
+            var users = DbContext.Users;
+            return RedirectToAction("Index", users);
+        }
+
+
+    }
+}

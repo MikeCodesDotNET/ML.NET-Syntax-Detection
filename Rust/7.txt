@@ -1,0 +1,27 @@
+use std::thread;
+use std::sync::mpsc::{channel, Sender};
+
+fn pi(n: i32) -> f64 {
+    let (tx, rx) = channel();
+    for k in 0..n {
+        let tx = tx.clone();
+        thread::spawn(move || {
+            term(tx, k as f64);
+        });
+    }
+    
+    let mut f = 0f64;
+    for _k in 0..n {
+        f += rx.recv().unwrap();
+    }
+    
+    f
+}
+
+fn term(tx: Sender<f64>, k: f64) {
+    tx.send(4f64 * (-1f64).powf(k) / (2f64 * k + 1f64)).unwrap();
+}
+
+fn main() {
+    println!("{}", pi(500));
+}

@@ -1,0 +1,391 @@
+cameras:
+    perspective:
+        type: perspective
+        vanishing_point: [0, -500]
+lights:
+    directional1:
+        type: directional
+        direction: [.5, .1, -1]
+        diffuse: .4
+        ambient: 0.6
+styles:
+    tools:
+        shaders:
+            blocks:
+                global: |
+                    // Tile Coord
+                    //=============================
+                    varying vec3 v_pos;
+                    vec2 TileCoords(){return fract(v_pos.xy*0.0002445);}
+                    // GridTile
+                    //=============================
+                    float grid(in vec2 st, in float res, in float press){
+                        st = fract(st*res);
+                        return 1.0-(step(press*res,st.x) * step(press*res,st.y));
+                    }
+                    vec3 TileGrid(float res){
+                        vec2 st = TileCoords()*100.*res;
+                        vec3 color = vec3(0.0);
+                        float press = 0.5+(1.0-fract(u_map_position.z))*0.1;
+                        color += vec3(0.1)*grid(st,0.02,press);
+                        color += vec3(0.5)*grid(st,0.01,press);
+                        color += 0.1*grid(st,0.1,press);
+                        return color;
+                    }
+                    vec3 TileGrid(){ return mix(TileGrid(1.), TileGrid(2.), fract(u_map_position.z));}
+                    // Grain
+                    //=============================
+                    float random(vec2 p) { return fract(1e4 * sin(17.0 * p.x + p.y * 0.1) * (0.1 + abs(sin(p.y * 13.0 + p.x)))); }
+                    float noise(vec2 x) {
+                        vec2 i = floor(x);
+                        vec2 f = fract(x);
+                        float a = random(i);
+                        float b = random(i + vec2(1.0, 0.0));
+                        float c = random(i + vec2(0.0, 1.0));
+                        float d = random(i + vec2(1.0, 1.0));
+                        vec2 u = f * f * (3.0 - 2.0 * f);
+                        return mix(a, b, u.x) + (c - a) * u.y * (1.0 - u.x) + (d - b) * u.x * u.y;
+                    }
+                    float fbm( in vec2 p ){
+                        float s = 0.0;
+                        float m = 0.0;
+                        float a = 0.5;
+                        for(int i=0; i<2; i++ ){
+                            s += a * noise(p);
+                            m += a;
+                            a *= 0.5;
+                            p *= 2.0;
+                        }
+                        return s/m;
+                    }
+                    float grain(vec2 pos){
+                        vec2 st = pos/u_resolution.xy-vec2(.5);
+                        return dot(st,st)+(fbm(pos*0.6)*0.1);
+                    }
+                position: |
+                    // GridTile
+                    v_pos = a_position;
+    buildings:
+        base: polygons
+        mix: tools
+        shaders:
+            blocks:
+                color: |
+                    color.rgb *= vec3(min((v_world_position.z*.001 + .9),1.));
+                filter: |
+                    color.rgb -= grain(gl_FragCoord.xy)*0.1;
+                    
+                    
+                    
+    flat:
+        base: polygons
+        mix: tools
+        shaders:
+            blocks:
+                filter: | 
+                    color.rgb -= grain(gl_FragCoord.xy)*0.3;
+    flat-lines:
+        base: lines
+        mix: tools
+        shaders:
+            blocks:
+                filter: | 
+                    color.rgb -= grain(gl_FragCoord.xy)*0.3;
+sources:
+    osm:
+        type: TopoJSONTiles
+        url:  //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson??api_key=vector-tiles-x4i7gmA
+layers:
+    water:
+        data: { source: osm }
+        draw:
+            flat:
+                order: 3
+                color: '#b5d6f1'
+    earth:
+        data: { source: osm }
+        draw:
+            flat:
+                order: 0
+                color: '#fffcfa'
+    landuse:
+        data: { source: osm }
+        # draw:
+           # flat:
+           #     order: 60
+           #     color: '#f66'
+        builtup:
+            filter: { kind: 'urban area'}
+            draw:
+                flat:
+                    order: 2
+                    color: '#eee4e4'
+        ne_parks:
+            filter: { kind: ['park or protected land', scrub]}
+            draw:
+                flat:
+                    order: 2
+                    color: '#bde3cb'
+        allotments:
+            filter: { kind: [allotments, village_green] }
+            draw:
+                flat:
+                    order: 2
+                    color: '#bde3cb'
+        park:
+            filter: { kind: [park, cemetery] }
+            draw:
+                flat:
+                    order: 2
+                    color: '#CDF6C9'
+        beach:
+            filter: { kind: beach } # Missing the beach!
+            draw:
+                flat:
+                    order: 8
+                    color: '#ff0'
+        recreation:
+            filter: { kind: recreation_ground }
+            draw:
+                flat:
+                    order: 2
+                    color: '#bde3cb'
+        residential:
+            filter: { kind: residential }
+            draw:
+                flat:
+                    order: 2
+                    color: '#e4e4e4'
+        commercial:
+            filter: { kind: commercial }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ffffc0'
+        retail:
+            filter: { kind: retail }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ffebeb'
+        railway:
+            filter: { kind: railway }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ecd8ff'
+        industrial:
+            filter: { kind: industrial }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ecd8ff'
+        forest:
+            filter: { kind: [forest, wood] }
+            draw:
+                flat:
+                    order: 3
+                    color: '#6fc18e' 
+        maedow:
+            filter: { kind: meadow }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ebfff2'
+        aeroway:
+            filter: { kind: apron }
+            draw:
+                flat:
+                    order: 4
+                    color: 'f0f0f0'
+        farmland:
+            filter: { kind: [farmland, farm, grass] }
+            draw:
+                flat:
+                    order: 2
+                    color: '#ebfff2'
+        university:
+            filter: { kind: [university, school, college]}
+            draw:
+                flat:
+                    order: 4
+                    color: '#cdabde'
+                lines:
+                    order: 5
+                    color: '#e9dd72'
+                    width: 2
+        hospital:
+            filter: { kind: [hospital]}
+            draw:
+                flat:
+                    order: 4
+                    color: '#e2a9a1'
+        track: 
+            filter: { kind: [sports_centre, stadium]}
+            draw:
+                flat:
+                    order: 4
+                    color: '#bde3cb'
+                lines:
+                    order: 5
+                    color: '#6fc18e'
+                    width: 2            
+        pitch:
+            filter: { kind: [pitch, playground, playing_fields]}
+            draw:
+                flat:
+                    order: 5
+                    color: '#c7f1a3'
+                lines:
+                    order: 6
+                    color: '#6fc18e'
+                    width: 2
+        parking:
+            filter: { kind: [parking]}
+            draw:
+                flat:
+                    order: 2
+                    color: '#ffffc0'
+        highway:
+            filter: { kind: [pedestrian, footway] }
+            draw:
+                flat:
+                    order: 3
+                    color: '#ffffff'
+  
+    roads:
+        data: { source: osm }
+        properties: { width: 3 }
+        
+        draw:
+            flat-lines:
+                order: 4
+                color: '#fff'
+                width: 10
+                cap: round
+                outline:
+                    color: '#777'
+                    width: 1.2px
+        rail:
+            filter: { kind: rail }
+            draw:
+                flat-lines:
+                    cap: butt
+                    order: 5
+                    color: '#555'
+                    width: 2
+                    outline:
+                        color: '#ccc'
+                        width: 1.2px
+        path:
+            filter: { kind: path }
+            draw:
+                flat-lines:
+                    cap: butt
+                    order: 3
+                    color: '#eee'
+                    width: 2
+                    outline:
+                        color: '#aaa'
+                        width: 0.5px
+        service:
+            filter: { highway: service }
+            draw:
+                flat-lines:
+                    cap: butt
+                    order: 4
+                    color: '#fff'
+                    width: 4
+                    outline:
+                        color: '#aaa'
+                        width: 1.5
+        motorway:
+            filter: { highway: motorway }
+            draw:
+                flat-lines:
+                    order: 3
+                    color: '#809bc0'
+                    width: 12
+        trunk:
+            filter: { highway: trunk }
+            draw:
+                flat-lines:
+                    order: 5
+                    color: '#7fc97f'
+                    width: 12
+        primary:
+            filter: { highway: primary }
+            draw:
+                flat-lines:
+                    order: 5
+                    color: '#e46d71'
+                    width: 13
+        secondary:
+            filter: { highway: secondary }
+            draw:
+                flat-lines:
+                    order: 5
+                    color: '#fdbf6f'
+                    width: 12
+        tertiary:
+            filter: { highway: tertiary }
+            draw:
+                flat-lines:
+                    order: 5
+                    color: '#ffff90'
+                    width: 12
+    buildings:
+        data: { source: osm }
+        filter: { $zoom: { min: 14 } }
+        draw:
+            buildings:
+                order: 50
+                color: '#f8daba'
+            lines:
+                order: 51
+                color: [0.671, 0.634, 0.605]
+                width: 1px
+                
+        extruded:
+            filter: { $zoom: { min: 15 } }
+            draw:
+                buildings:
+                    #color: '#fff'
+                    extrude: true
+                    order: 52
+                lines:
+                    width: [[12, .1px], [14, 0.1px], [15, 0.5px], [17, 1.0px], [18, 1px]]
+                    order: 53
+                    extrude: true
+                
+    road_labels:
+        data: { source: osm, layer: roads }
+        filter: { name: true, aeroway: false, tunnel: false, railway: false, not: { kind: rail } }
+
+        highway:
+            filter: { kind: highway, $zoom: { min: 7 } }
+            draw:
+                text:
+                    font:
+                        fill: white
+                        typeface: 500 16px Helvetica
+
+        not_highway:
+            filter: { not: { kind: highway }, $zoom: { min: 13 } }
+            draw:
+                text:
+                    font:
+                        fill: black
+                        typeface: 200 14px Helvetica
+                        stroke: { color: 'rgba(255,255,255,0.2)' , width: 4 }
+                        
+                        
+    places:
+        data: { source: osm }
+        filter: {  name: true }
+        draw:
+            text:
+                font:
+                    typeface: 100 18px Helvetica
+                    fill: black
+                    stroke: { color: white,width: 5 }

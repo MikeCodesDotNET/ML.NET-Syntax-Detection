@@ -1,0 +1,21 @@
+struct Position {
+    var x: Int = 0
+    var y: Int = 0
+    
+    func string() -> String {
+        return "(\(x), \(y))"
+    }
+}
+
+// CustomStringConvertible provides "description" property. 
+// Before Xcode 7 beta 3 it was called "Printable" protocol.
+// Using this protocol it cause that printing object under 
+// debugger will gives better description by default.
+struct Position: CustomStringConvertible {
+    var x = 0
+    var y = 0
+    
+    var description: String {
+        return "(\(x), \(y))"
+    }
+}

@@ -1,0 +1,3 @@
+ let components = UnsafeMutablePointer<CGFloat>.alloc(4)
+      UIColor.redColor().getRed(&components[0], green: &components[1], blue: &components[2], alpha: &components[3])
+      CGContextSetFillColor(ctx, components)

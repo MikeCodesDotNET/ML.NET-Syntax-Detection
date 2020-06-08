@@ -1,0 +1,135 @@
+<link rel="import" href="../core-drawer-panel/core-drawer-panel.html">
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../core-header-panel/core-header-panel.html">
+<link rel="import" href="../core-menu/core-submenu.html">
+<link rel="import" href="../core-animated-pages/core-animated-pages.html">
+<link rel="import" href="../core-animated-pages/transitions/hero-transition.html">
+<link rel="import" href="../core-animated-pages/transitions/cross-fade.html">
+<link rel="import" href="../core-animated-pages/transitions/slide-down.html">
+<link rel="import" href="../core-animated-pages/transitions/slide-up.html">
+<link rel="import" href="../core-animated-pages/transitions/tile-cascade.html">
+
+<polymer-element name="spa-blog">
+
+  <template>
+    <style>  
+      <style>
+        html,body {
+        font-family: 'RobotoDraft', sans-serif;
+        }
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: 0px;
+        left: 0px;
+      }
+      #section {
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+        background-color: rgb(250, 250, 250);
+      }
+      #core_drawer_panel {
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+      #section1 {
+        box-sizing: border-box;
+        background-color: rgb(221, 221, 221);
+      }
+      #core_header_panel {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        background-color: rgb(234, 223, 223);
+      }
+      #core_toolbar {
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #section2 {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230));
+      }
+      #core_menu {
+        font-size: 16px;
+      }
+      #core_header_panel1 {
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        width: 100%;
+      }
+      #core_toolbar1 {
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #section3 {
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230));
+      }
+      #sidebar {
+        background-color: rgb(245, 235, 235);
+      }
+    </style>
+    </style>
+    <link rel="stylesheet" href="spa-blog.css"></link>
+    <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
+      <core-header-panel id="sidebar" drawer>
+        <core-toolbar id="core_toolbar">
+          <div id="sitename">sitename </div>
+        </core-toolbar>
+        <nav>
+          <core-menu selected="{{ route }}" valueattr="label" selecteditem="{{ menuItemSelected }}" id="core_menu" fit>
+            <template repeat="{{category in categorys}}"></template>
+          </core-menu>
+        </nav>
+      </core-header-panel>
+      <core-header-panel id="core_header_panel1" main>
+        <core-toolbar id="core_toolbar1">
+          <core-icon-button icon="menu" id="core_icon_button" core-drawer-toggle></core-icon-button>
+          <div id="page_title"> </div>
+        </core-toolbar>
+        <div layout fit>
+          <core-animated-pages valueattr="label" notap>
+            <template repeat="{{category in categorys}}"></template>
+          </core-animated-pages>
+        </div>
+      </core-header-panel>
+    </core-drawer-panel>
+    <post-service id="service" filename url="http://127.0.0.1:8000/components/spa-blog/articles/articles-list.json">
+        </post-service>
+    <menu-array-generator inputobject outputobject>
+        </menu-array-generator>
+  </template>
+
+  <script>
+
+    Polymer({
+      routeChanged: function () {
+                console.log(this.route)
+            },
+      subcategorys12Changed: function () {
+                console.log(this.subcategorys12)
+            }
+    });
+
+  </script>
+
+</polymer-element>

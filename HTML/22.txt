@@ -1,0 +1,182 @@
+<link rel="import" href="../core-signals/core-signals.html">
+<link rel="import" href="../cx-user-fieldset/cx-user-fieldset.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../cx-user-name/global-user.html">
+<link rel="import" href="../cx-user-address/global-address.html">
+<link rel="import" href="../cx-user-banking-account/banking-account.html">
+<link rel="import" href="../cx-user-communication/user-communication.html">
+<link rel="import" href="../core-label/core-label.html">
+<link rel="import" href="../paper-checkbox/paper-checkbox.html">
+<link rel="import" href="../cx-user-permissions/cx-user-permissions.html">
+<link rel="import" href="../cx-user-voice-to-text/cx-user-voice-to-text.html">
+<link rel="import" href="../cx-user-buttons/cx-user-buttons.html">
+<link rel="import" href="../cx-user-matching-profiles/cx-profile-list.html">
+<link rel="import" href="../cx-user-history/cx-user-history.html">
+<link rel="import" href="../cx-user-star-rating/cx-user-star-rating.html">
+<link rel="import" href="../cx-user-charts/cx-user-charts.html">
+<link rel="import" href="../cx-user-social-media-icons/cx-user-social-media-icons.html">
+<link rel="import" href="../cx-user-photo-album/cx-user-photo-album.html">
+<link rel="import" href="../cx-user-documents/cx-user-documents.html">
+<link rel="import" href="../cx-user-file-upload/cx-user-file-upload.html">
+<link rel="import" href="../cx-user-history-details/cx-user-history-details.html">
+<link rel="import" href="../cx-user-video-facebook/cx-user-video-facebook.html">
+<link rel="import" href="../cx-logo/cx-logo.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #section {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 20px;
+        top: 90px;
+        position: absolute;
+      }
+      #section5 {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 1040px;
+        top: 670px;
+        position: absolute;
+      }
+      #section8 {
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 1290px;
+        top: 670px;
+        position: absolute;
+      }
+      #section9 {
+        left: 1040px;
+        top: 30px;
+        position: absolute;
+      }
+      #section1 {
+        min-width: 200px;
+        max-width: 600px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 390px;
+        top: 90px;
+        position: absolute;
+      }
+      #section2 {
+        min-width: 200px;
+        max-width: 600px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 390px;
+        top: 340px;
+        position: absolute;
+      }
+      #section3 {
+        min-width: 200px;
+        max-width: 600px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 390px;
+        top: 670px;
+        position: absolute;
+      }
+      #section4 {
+        min-width: 200px;
+        max-width: 600px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(127, 189, 231);
+        margin: 10px 0px;
+        left: 1040px;
+        top: 90px;
+        position: absolute;
+      }
+      #cx_logo {
+        left: 20px;
+        top: 20px;
+        position: absolute;
+      }
+    </style>
+    <section id="section" layout>
+      <cx-user-fieldset fieldset_label="Profile Analytics" id="cx_user_fieldset" layout></cx-user-fieldset>
+      <global-user id="global_user" layout vertical></global-user>
+      <global-address id="global_address" layout vertical></global-address>
+      <banking-account id="banking_account" layout vertical></banking-account>
+      <user-communication id="user_communication" layout vertical></user-communication>
+      <cx-user-permissions id="cx_user_permissions" layout vertical></cx-user-permissions>
+      <cx-user-voice-to-text id="cx_user_voice_to_text" layout vertical></cx-user-voice-to-text>
+      <cx-user-buttons id="cx_user_buttons" layout horizontal></cx-user-buttons>
+    </section>
+    <section id="section1" layout>
+      <cx-user-fieldset fieldset_label="Matching Profiles" id="cx_user_fieldset1" layout></cx-user-fieldset>
+      <cx-profile-list id="cx_profile_list" layout vertical></cx-profile-list>
+    </section>
+    <section id="section2" layout>
+      <cx-user-fieldset fieldset_label="History" id="cx_user_fieldset2" layout></cx-user-fieldset>
+      <cx-user-history id="cx_user_history" layout vertical></cx-user-history>
+    </section>
+    <section id="section3" layout>
+      <cx-user-fieldset fieldset_label="Profile Analytics" id="cx_user_fieldset3" layout></cx-user-fieldset>
+      <cx-user-star-rating id="cx_user_star_rating"></cx-user-star-rating>
+      <cx-user-charts id="cx_user_charts"></cx-user-charts>
+    </section>
+    <section id="section5" layout>
+      <cx-user-fieldset fieldset_label="Social Media" id="cx_user_fieldset5" layout></cx-user-fieldset>
+      <section id="section6" horizontal center-justified layout>
+        <cx-user-social-media-icons id="cx_user_social_media_icons" horizontal center-justified layout></cx-user-social-media-icons>
+      </section>
+      <section id="section7">
+        <cx-user-photo-album id="cx_user_photo_album" layout vertical center></cx-user-photo-album>
+      </section>
+    </section>
+    <section id="section8" layout>
+      <cx-user-fieldset fieldset_label="Documents" id="cx_user_fieldset6" layout></cx-user-fieldset>
+      <cx-user-documents id="cx_user_documents" layout vertical></cx-user-documents>
+      <cx-user-file-upload id="cx_user_file_upload" layout vertical></cx-user-file-upload>
+    </section>
+    <section id="section4" layout>
+      <cx-user-fieldset fieldset_label="History Details" id="cx_user_fieldset4" layout></cx-user-fieldset>
+      <cx-user-history-details id="cx_user_history_details" layout vertical></cx-user-history-details>
+    </section>
+    <section id="section9">
+      <cx-user-video-facebook id="cx_user_video_facebook"></cx-user-video-facebook>
+    </section>
+    <cx-logo id="cx_logo"></cx-logo>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

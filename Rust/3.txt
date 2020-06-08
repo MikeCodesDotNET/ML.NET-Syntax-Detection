@@ -1,0 +1,47 @@
+trait Polygon {
+    fn area(&self) -> f32;
+}
+
+struct Circle<'a> {
+    radius: &'a f32,
+}
+
+impl<'a> Polygon for Circle<'a> {
+    fn area(&self) -> f32 {
+        self.radius * std::f32::consts::PI * 2.0
+    }
+}
+
+struct Rectangle<'a> {
+    width: &'a f32,
+    height: &'a f32,
+}
+
+impl<'a> Polygon for Rectangle<'a> {
+    fn area(&self) -> f32 {
+        self.width * self.height
+    }
+}
+
+enum Thing {
+    Shape(Box<Polygon>),
+    Point,
+}
+
+fn exec(t: Thing) {
+    match t {
+        Thing::Shape(p) => println!("Polygon with area: {}", p.area()),
+        Thing::Point => println!("Point"),
+    }
+}
+
+fn do_stuff(nums: &[f32]) {
+    exec(Thing::Shape(Box::new(Circle{radius: &nums[0]})));
+    exec(Thing::Shape(Box::new(Rectangle{width: &nums[1], height: &nums[2]})));
+    exec(Thing::Point);
+}
+
+fn main() {
+    let nums = vec![5.0, 7.0, 14.0];
+    do_stuff(&nums);
+}

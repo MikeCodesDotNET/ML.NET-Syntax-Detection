@@ -1,0 +1,13 @@
+use std::fs::File;
+use std::io::{ Read, BufRead, BufReader };
+
+fn main() {
+    let filename = "text.txt";
+
+    let f = BufReader::new(File::open(filename).ok().expect("Failed to open file."));
+
+    for line in f.lines() {
+        println!("{}", line.ok().expect("IO Error, couldn't read line.")
+                           .chars().count());
+    }
+}

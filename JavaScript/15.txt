@@ -1,0 +1,7 @@
+ let res = "";
+
+    while(num > 0) {
+        let digit = num % 16;
+        res = arr[digit] + res;
+        num = Math.floor(num / 16);
+    }

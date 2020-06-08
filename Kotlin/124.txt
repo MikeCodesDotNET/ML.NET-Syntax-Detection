@@ -1,0 +1,4 @@
+val numbers = listOf(1, 2, 3, 4, 5)
+val greaterNums = numbers.filter { it > 3 }
+println("Variable value $greaterNums")
+println("Class Type: ${greaterNums.javaClass.name}")

@@ -1,0 +1,8 @@
+class User < ActiveRecord::Base
+  validates :name, :length => { :minimum => 10, :maximum => 100 }
+  validates :email, :format => { :with => /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/ }
+  validates :status, :inclusion => { :in => %w(active inactive suspended) }
+
+  attr_accessible :name, :email
+  attr_accessible :name, :email, :status, :as => :admin
+end

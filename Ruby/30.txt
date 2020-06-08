@@ -1,0 +1,23 @@
+def score(dice)
+  score=0
+
+  # find first group of 3 and add score. Break out if we find one since
+  # you can't have 2 groups of 3 with only 5 dice.
+  for outcome in (1..6)
+    if dice.count(outcome) >=3
+      score += outcome == 1 ? 1000 : 100 * outcome
+      
+      # Remove the 3 items we matched.
+      3.times do dice.delete_at(dice.index(outcome)) end 
+      break
+    end
+  end
+
+  # now score up what's left.
+  for die in dice
+    score += 100 if die == 1
+    score += 50  if die == 5
+  end
+
+  score
+end

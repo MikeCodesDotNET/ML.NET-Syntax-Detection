@@ -1,0 +1,16 @@
+# Base container
+RUN apt-get install gcc build-essential git python-dev ...
+
+docker build --force-rm=true --rm=true --no-cache -t=yourapp/base .
+
+# yourwebapp:latest
+FROM yourwebapp:base
+ADD yoursource ....
+
+docker build --force-rm=true --rm=true --no-cache -t=yourapp:latest
+ 
+# yourwebapp:1.0
+FROM yourwebapp:base
+ADD yoursource ....
+
+docker build --force-rm=true --rm=true --no-cache -t=yourapp:$(VERSION)

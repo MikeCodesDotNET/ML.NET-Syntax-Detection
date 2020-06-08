@@ -1,0 +1,25 @@
+import UIKit
+import XCTest
+
+func dictSetValue(value: AnyObject, forKey key: String, inout #dictionary: [String : AnyObject]) {
+  dictSetValue(value, forKeyPathComponents: key.componentsSeparatedByString("."), dictionary: &dictionary)
+}
+
+func dictSetValue(value: AnyObject, forKeyPathComponents components: [String], inout #dictionary: [String : AnyObject]) {
+  if components.isEmpty {
+    return
+  }
+  
+  let head = components.first!
+  
+  if components.count == 1 {
+    dictionary[head] = value
+  } else {
+    var child = (dictionary[head] as? [String : AnyObject]) ?? [:]
+    
+    let tail = Array(components[1..<components.count])
+    dictSetValue(value, forKeyPathComponents: tail, dictionary: &child)
+    
+    return dictionary[head] = child // <- crash here
+  }
+}

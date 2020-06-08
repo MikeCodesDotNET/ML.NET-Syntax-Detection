@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title>Forms Demo!</title>
+</head>
+<body>
+<h1>Forms Demo!</h1>
+<h2>Login</h2>
+<form action="/login" method="post">
+  <p>
+    <label for="username-field">Username</label>
+    <input type="text" name="username" id="username-field">
+  </p>
+  <p>
+    <label for="password-field">Password</label>
+    <input type="password" name="password" id="password-field">
+  </p>
+  <p>
+    By checking this box you agree to have read and will abide by our terms of service............
+  </p>
+  <p>
+    <input type="checkbox" name="agree" id="agree-field">
+    <label for="agree-field">I agree</label>
+  </p>
+  <p>
+    <button type="reset">Reset</button>
+    <button>Login</button>
+  </p>
+</form>
+<h2>Create a new newsletter</h2>
+<form action="" method="post">
+  <p>
+    <label for="type-field">Type</label>
+    <select name="type" id="type-field">
+      <option value="1">Weekly</option>
+      <option value="2">Monthly</option>
+      <option value="3">Annual</option>
+    </select>
+  </p>
+  <p>
+    <label for="subject-field">Subject</label>
+    <input type="text" name="subject" id="subject-field">
+  </p>
+  <p>
+    <label for="content-field">Content</label>
+    <textarea rows="10" cols="60" name="content" id="content-field"></textarea>
+  </p>
+  <p>
+    <label for="date-field">Date to send</label>
+    <input type="date" name="date" id="date-field">
+    <input type="time" name="time">
+  </p>
+  <p>
+    <button>Send</button>
+  </p>
+</form>
+<form action="kitchen-sink" method="get" style="margin-bottom:20em">
+  <p>
+    <input type="radio" id="male-radio" name="gender" value="male">
+    <label for="male-radio">Male</label>
+    <input type="radio" id="female-radio" name="gender" value="female">
+    <label for="female-radio">Female</label>
+  </p>
+  <p>
+    <label for="multi-field">Type</label>
+    <select multiple="multiple" size="3" name="multiple" id="multi-field">
+      <option value="1">Weekly</option>
+      <option value="2">Monthly</option>
+      <option value="3">Annual</option>
+    </select>
+  </p>
+</form>
+</body>
+</html>

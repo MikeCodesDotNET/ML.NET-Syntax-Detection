@@ -1,0 +1,51 @@
+package com.fondesa.manganow.database.api.client.reader
+
+import android.database.Cursor
+
+/**
+ * Implementation of [DatabaseReader] using a [Cursor].
+ *
+ * @param cursor [Cursor] used to provide read access to the result set returned
+ * by a database query.
+ */
+open class SQLiteReader(protected val cursor: Cursor) :
+    DatabaseReader {
+
+    override fun isNull(index: Int): Boolean = index == -1 || cursor.isNull(index)
+
+    override fun getBoolean(index: Int): Boolean = getInt(index) != 0
+
+    override fun getNullableBoolean(index: Int): Boolean? =
+        if (isNull(index)) null else getBoolean(index)
+
+    override fun getShort(index: Int): Short = cursor.getShort(index)
+
+    override fun getNullableShort(index: Int): Short? = if (isNull(index)) null else getShort(index)
+
+    override fun getInt(index: Int): Int = cursor.getInt(index)
+
+    override fun getNullableInt(index: Int): Int? = if (isNull(index)) null else getInt(index)
+
+    override fun getLong(index: Int): Long = cursor.getLong(index)
+
+    override fun getNullableLong(index: Int): Long? = if (isNull(index)) null else getLong(index)
+
+    override fun getFloat(index: Int): Float = cursor.getFloat(index)
+
+    override fun getNullableFloat(index: Int): Float? = if (isNull(index)) null else getFloat(index)
+
+    override fun getDouble(index: Int): Double = cursor.getDouble(index)
+
+    override fun getNullableDouble(index: Int): Double? =
+        if (isNull(index)) null else getDouble(index)
+
+    override fun getString(index: Int): String = cursor.getString(index)
+
+    override fun getNullableString(index: Int): String? =
+        if (isNull(index)) null else getString(index)
+
+    override fun getBlob(index: Int): ByteArray = cursor.getBlob(index)
+
+    override fun getNullableBlob(index: Int): ByteArray? =
+        if (isNull(index)) null else getBlob(index)
+}

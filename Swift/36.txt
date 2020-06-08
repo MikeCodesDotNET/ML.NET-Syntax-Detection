@@ -1,0 +1,17 @@
+func saveContexts(contexts: [NSManagedObjectContext]) throws {
+    var successfulContextSaves = [NSManagedObjectContext]()
+    
+    for context in contexts where context.hasChanges {
+        do {
+            try context.save()
+            successfulContextSaves += [context]
+        } catch {
+            for savedContext in successfulContextSaves {
+                // roll back all changes made since the last save operation
+                savedContext.rollback()
+            }
+            
+            throw error
+        }
+    }
+}

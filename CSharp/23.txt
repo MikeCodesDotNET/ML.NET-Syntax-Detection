@@ -1,0 +1,1 @@
+Marshal.WriteInt32(ptr, casted.PropertyA);

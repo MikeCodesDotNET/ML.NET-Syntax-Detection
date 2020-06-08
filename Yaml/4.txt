@@ -1,0 +1,167 @@
+apiVersion: skaffold/v1alpha2
+kind: Config
+# default build profile builds every image in the repository without pushing
+# used to verify build
+build:
+  tagPolicy:
+    sha256: {}
+  artifacts:
+  - imageName: &grady registry.ng.bluemix.net/dev-infra/grady
+    # &ws -> "workspace"
+    # intended to be ran from root of project, and workspace is relatiave to
+    # current working directory, not file location
+    workspace: &ws .
+    docker:
+      dockerfilePath: &chartdfile build/docker/chart/Dockerfile
+      buildArgs:
+        CHART: grady
+  - imageName: &phoenix registry.ng.bluemix.net/dev-infra/phoenix
+    workspace: *ws
+    docker:
+      dockerfilePath: *chartdfile
+      buildArgs:
+        CHART: phoenix
+  - imageName: &wendy registry.ng.bluemix.net/dev-infra/wendy
+    workspace: *ws
+    docker:
+      dockerfilePath: *chartdfile
+      buildArgs:
+        CHART: wendy
+  - imageName: &autodialer registry.ng.bluemix.net/dev-infra/autodialer
+    workspace: *ws
+    docker:
+      dockerfilePath: &cmddfile build/docker/cmd/Dockerfile
+      buildArgs:
+        CMD: autodialer
+  - imageName: &rower registry.ng.bluemix.net/dev-infra/rower
+    workspace: *ws
+    docker:
+      dockerfilePath: *cmddfile
+      buildArgs:
+        CMD: rower
+  - imageName: &slipway registry.ng.bluemix.net/dev-infra/slipway
+    workspace: *ws
+    docker:
+      dockerfilePath: *cmddfile
+      buildArgs:
+        CMD: slipway
+  - imageName: &cartographer registry.ng.bluemix.net/dev-infra/cartographer
+    workspace: *ws
+    docker:
+      dockerfilePath: *cmddfile
+      buildArgs:
+        CMD: cartographer
+  local:
+    skipPush: true
+deploy:
+  helm: {}
+
+# each project gets a profile so that it can be deployed or built independently
+profiles:
+# HELM CHARTS
+- name: wendy
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *wendy
+      workspace: *ws
+      docker:
+        dockerfilePath: *chartdfile
+        buildArgs:
+          CHART: wendy
+    local: {}
+  deploy:
+    helm:
+      releases:
+      - name: &release "{{.RELEASE}}"
+        chartPath: charts/wendy
+        values:
+          image: *wendy
+- name: grady
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *grady
+      workspace: *ws
+      docker:
+        dockerfilePath: *chartdfile
+        buildArgs:
+          CHART: grady
+    local: {}
+  deploy:
+    helm:
+      releases:
+      - name: *release
+        chartPath: charts/grady
+        values:
+          image: *grady
+- name: phoenix
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *phoenix
+      workspace: *ws
+      docker:
+        dockerfilePath: *chartdfile
+        buildArgs:
+          CHART: phoenix
+    local: {}
+  deploy:
+    helm:
+      releases:
+      - name: *release
+        chartPath: charts/phoenix
+        values:
+          image: *phoenix
+# TYPESCRIPT CLI
+- name: autodialer
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *autodialer
+      workspace: *ws
+      docker:
+        dockerfilePath: *cmddfile
+        buildArgs:
+          CMD: autodialer
+    local: {}
+- name: rower
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *rower
+      workspace: *ws
+      docker:
+        dockerfilePath: *cmddfile
+        buildArgs:
+          CMD: rower
+    local: {}
+- name: slipway
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *slipway
+      workspace: *ws
+      docker:
+        dockerfilePath: *cmddfile
+        buildArgs:
+          CMD: slipway
+    local: {}
+- name: cartographer
+  build:
+    tagPolicy:
+      sha256: {}
+    artifacts:
+    - imageName: *cartographer
+      workspace: *ws
+      docker:
+        dockerfilePath: *cmddfile
+        buildArgs:
+          CMD: cartographer
+    local: {}

@@ -1,0 +1,4 @@
+var ptr = Marshal.AllocHGlobal(sizeof(int) + casted.PropertyB.Length);
+Marshal.WriteInt32(ptr, casted.PropertyA);
+var bytes = Encoding.UTF8.GetBytes(casted.PropertyB);
+Marshal.Copy(bytes, 0, ptr + 4, bytes.Length);

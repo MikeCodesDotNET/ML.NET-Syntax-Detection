@@ -1,0 +1,5 @@
+public class TestFnParams
+{
+    public int PropertyA { get; set; }
+    public string PropertyB { get; set; }
+}

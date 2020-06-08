@@ -1,0 +1,20 @@
+public class HouseKeeping {
+
+    private Map<String, ICommand> works = new HashMap<>();
+
+    public void addWork(String cmd_name, ICommand cmd) {
+        works.put(cmd_name, cmd);
+    }
+
+    public void doAllWorks() {
+        for (String name: works.keySet()) {
+            works.get(name).execute();
+        }
+    }
+
+    public void work(String cmd) {
+        if (works.containsKey(cmd)) {
+            works.get(cmd).execute();
+        }
+    }
+}

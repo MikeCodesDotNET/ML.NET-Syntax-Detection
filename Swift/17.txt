@@ -1,0 +1,12 @@
+func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
+        
+        imageData = UIImageJPEGRepresentation(image, 0.9)
+        
+        //base64String = imageData.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
+        //println(imageData)
+        //println(base64String)
+        
+        var dataString = NSString(data: imageData, encoding: NSUTF8StringEncoding) as! String
+        println(dataString)
+    
+}

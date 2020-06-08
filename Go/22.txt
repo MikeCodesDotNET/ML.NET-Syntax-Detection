@@ -1,0 +1,132 @@
+package main
+
+import (
+	"fmt"
+)
+
+// We use a new struct to capture the url and the associated
+// information to pass over channels
+type Results struct {
+	url  string
+	body string
+	urls []string
+	err  error
+}
+
+var dummyResult Results
+
+type Fetcher interface {
+	// Fetch returns the body of URL and
+	// a slice of URLs found on that page.
+	Fetch(url string) (body string, urls []string, err error)
+}
+
+// concurrent function
+func crawl_helper(url string, ch chan *Results, fetcher Fetcher) {
+	var res Results
+	var resp *Results
+
+	resp = &res
+	resp.url = url
+	resp.body, resp.urls, resp.err = fetcher.Fetch(url)
+	ch <- resp
+}
+
+// Crawl uses fetcher to crawl pages starting with url, to a maximum of depth.
+func Crawl(url string, depth int, fetcher Fetcher) {
+	mapofurl := make(map[string]*Results)
+	ch := make(chan *Results)
+
+	// We will use a closure. This function take a slice of urls and returns a slice
+	// of urls got after fetching the urls
+	innerCrawl := func(urls []string) []string {
+		retUrls := make([]string, 10)
+		numRes := 0
+		for _, url := range urls {
+			if mapofurl[url] == nil {
+				// Mark this url as in process
+		                mapofurl[url] = &dummyResult
+				// Only fetch if url is not already fetched
+				go crawl_helper(url, ch, fetcher)
+				numRes++
+			}
+		}
+		// Wait for the number of responses equal to the number
+		// of go routines we spawned
+		for numRes > 0 {
+			resp := <-ch
+			if resp.err == nil {
+				fmt.Printf("found: %s %q\n", resp.url, resp.body)
+				mapofurl[resp.url] = resp
+				retUrls = append(retUrls, resp.urls...)
+			}
+
+			numRes--
+		}
+		return retUrls
+	}
+
+	urlsslice := make([]string, 10)
+	urlsslice = append(urlsslice, url)
+
+	for depth > 0 {
+		returls := innerCrawl(urlsslice)
+		urlsslice = returls
+		depth = depth - 1
+	}
+
+	return
+}
+
+func main() {
+	Crawl("http://golang.org/", 4, fetcher)
+}
+
+// fakeFetcher is Fetcher that returns canned results.
+type fakeFetcher map[string]*fakeResult
+
+type fakeResult struct {
+	body string
+	urls []string
+}
+
+func (f fakeFetcher) Fetch(url string) (string, []string, error) {
+	if res, ok := f[url]; ok {
+		return res.body, res.urls, nil
+	}
+	return "", nil, fmt.Errorf("not found: %s", url)
+}
+
+// fetcher is a populated fakeFetcher.
+var fetcher = fakeFetcher{
+	"http://golang.org/": &fakeResult{
+		"The Go Programming Language",
+		[]string{
+			"http://golang.org/pkg/",
+			"http://golang.org/cmd/",
+		},
+	},
+	"http://golang.org/pkg/": &fakeResult{
+		"Packages",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/cmd/",
+			"http://golang.org/pkg/fmt/",
+			"http://golang.org/pkg/os/",
+		},
+	},
+	"http://golang.org/pkg/fmt/": &fakeResult{
+		"Package fmt",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/pkg/",
+		},
+	},
+	"http://golang.org/pkg/os/": &fakeResult{
+		"Package os",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/pkg/",
+		},
+	},
+}

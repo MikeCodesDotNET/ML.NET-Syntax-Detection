@@ -1,0 +1,58 @@
+# Based on: https://gist.github.com/aslakknutsen/2422117
+GIT_REPO=$1
+START_TAG=$2
+ 
+MVN_COMMAND="mvn clean install -fn"
+SONAR_COMMAND="mvn org.codehaus.sonar:sonar-maven3-plugin:3.7:sonar"
+ 
+if [ -z "$GIT_REPO" ]; then
+    echo "Missing program argument: repository"
+    echo "Usage: ./sonar_history.sh git_repository_path [start-tag]"
+    exit
+fi
+ 
+pushd $GIT_REPO
+ 
+# set these for partial imports
+done=0
+skip=0
+toProcess=100
+ 
+for tag in `git for-each-ref --format="%(taggerdate): %(refname)" --sort=taggerdate | grep -iv ^: | cut -d " " -f 7 | cut -c 11- | grep -i <release-prefix>`
+do
+    echo $tag
+    if [ $((done - skip)) -eq "$toProcess" ]; then
+      break
+    fi
+     
+    if [[ -n "$START_TAG" && "$START_TAG" > "$tag" ]] ; then
+        echo "Skipping $tag (start tag $START_TAG)"
+        continue
+    fi
+ 
+    if [ "$done" -ge "$skip" ]; then
+      TAG_DATE=`git show $tag --date=iso | grep Date: -m1 | cut -d' ' -f 4`
+      echo "Checking out source from $TAG_DATE tagged as $tag"
+ 
+      # we force a complete cleanup each time
+      git fetch --all
+      git reset --hard origin/master
+      git checkout -f $tag
+      git clean -df
+ 
+      SONAR_PROJECT_COMMAND="$SONAR_COMMAND -Dsonar.projectDate=$TAG_DATE -Dsonar.jdbc.url=jdbc:oracle:thin:@<host>:1521:DBELBLD -Dsonar.jdbc.username=<username> -Dsonar.jdbc.password=<password>"
+ 
+      echo "Executing Maven: $MVN_COMMAND"
+      $MVN_COMMAND
+ 
+      # not all files have the correct version set, which messes up the push to sonar
+      # replace the version with the release property for correct processing
+      sed -i -- "s/<version>00_00_00-SNAPSHOT<\/version>/<version>$tag<\/version>/g" pom.xml
+ 
+      echo "Executing Sonar: $SONAR_PROJECT_COMMAND"
+      $SONAR_PROJECT_COMMAND
+    fi
+ 
+    done=$((done+1))
+done
+popd

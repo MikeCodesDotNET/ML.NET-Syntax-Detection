@@ -1,0 +1,11 @@
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = <<YourStrongPassword1>>'; 
+GO 
+ 
+CREATE DATABASE SCOPED CREDENTIAL msi_cred WITH IDENTITY = 'Managed Identity'; 
+GO 
+ 
+CREATE EXTERNAL DATA SOURCE MyAzureBlobStorage2 WITH ( TYPE = BLOB_STORAGE, LOCATION = 'https://<<stgacct>>.blob.core.windows.net/<<stgacctcontainername>>' , CREDENTIAL= msi_cred);
+GO
+ 
+BULK INSERT dbo.airports FROM 'airports_noheader.csv' WITH (DATA_SOURCE = 'MyAzureBlobStorage2', FIELDTERMINATOR=',')
+GO

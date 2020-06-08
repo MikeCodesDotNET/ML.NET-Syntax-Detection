@@ -1,0 +1,13 @@
+// Basic actions as functions
+
+function heal(amount) {
+   // heal this character
+}
+
+function setLevel(level) {
+   // sets level of this character
+}
+
+function mute() {
+   // mute this character
+}

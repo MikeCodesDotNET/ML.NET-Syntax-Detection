@@ -1,0 +1,10 @@
+props: {
+  name: {
+    type: String,
+    default: 'foo'
+  },
+  items:{
+    type: Array,
+    default: ['foo','bar']
+  }
+}

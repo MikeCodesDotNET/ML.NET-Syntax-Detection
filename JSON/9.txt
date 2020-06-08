@@ -1,0 +1,6 @@
+{
+    "heading": "This should be a heading",
+    "paragraph": "This should be a paragraph",
+    "quote": "This should be a quote",
+    "colors": ["blue","green", "red", "black"]
+}

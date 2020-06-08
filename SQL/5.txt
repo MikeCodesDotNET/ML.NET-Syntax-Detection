@@ -1,0 +1,16 @@
+CREATE PARTITION FUNCTION RangePartFunction (datetime)
+AS RANGE RIGHT FOR VALUES ('20200101', '20200201');
+
+CREATE PARTITION SCHEME RangePartScheme AS PARTITION RangePartFunction
+TO ([PartBefore2020], [Part202001], [Part202002]);
+
+CREATE TABLE [dbo].[timesheets](
+    [timesheet_id] [int] IDENTITY(1,1) NOT NULL,
+    [employee_id] [int] NOT NULL,
+    [checkin_time_utc] [datetime] NOT NULL,
+    [checkout_timeutc] [datetime] NULL,
+ CONSTRAINT [PK_timesheets] PRIMARY KEY CLUSTERED ([timesheet_id] ASC)
+) ON RangePartScheme (checkin_time_utc);
+
+CREATE CLUSTERED INDEX IDX_Part On [dbo].[timesheets](datetime) 
+ON RangePartScheme (checkin_time_utc);

@@ -1,0 +1,17 @@
+var image: UIImage?
+        var imageURL = "Some url"
+        if let url = NSURL(string: imageURL) {
+            let request: NSURLRequest = NSURLRequest(URL: url)
+            let mainQueue = NSOperationQueue.mainQueue()
+            NSURLConnection.sendAsynchronousRequest(request, queue: mainQueue, completionHandler: { (response, data, error) -> Void in
+                if error == nil {
+                    let image = UIImage(data: data)
+                    dispatch_async(dispatch_get_main_queue(), {
+                        // Update image
+                    })
+                }
+                else {
+                    println("Error: \(error.localizedDescription)")
+                }
+            })
+        }

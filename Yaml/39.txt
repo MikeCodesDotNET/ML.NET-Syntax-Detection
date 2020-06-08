@@ -1,0 +1,779 @@
+- hosts: localhost
+  remote_user: dirn
+
+  vars:
+    ansible: ~/.ansible
+    dotfiles: "{{ ansible }}/dotfiles"
+    rc_file: ~/.extra
+    pyenv: /Users/{{ ansible_ssh_user }}/.pyenv
+    python_version: 3.4.3
+    python_versions: [2.6.9, 2.7.9, 3.3.6, 3.4.3, pypy-2.5.0, pypy3-2.4.0]
+    python_xp_version: 2.7.9
+    ruby_version: 2.2.0
+    ruby_versions: [2.0.0-p598, 2.1.5, 2.2.0]
+    venv: ~/.pyenv/versions/{{ python_version }}/bin/pyvenv
+
+    osx_config:
+      dock:
+        # Dock: dim hidden apps
+        - domain: com.apple.dock
+          key: showhidden
+        # Dock: icon size
+        - domain: com.apple.dock
+          key: tilesize
+          type: int
+          value: '42'
+        # Dock: position
+        - domain: com.apple.dock
+          key: orientation
+          type: string
+          value: left
+        # Dashboard: don't show as a Space
+        - domain: com.apple.dock
+          key: "dashboard-in-overlay"
+      finder:
+        # Finder: empty Trash securely
+        - domain: com.apple.finder
+          key: EmptyTrashSecurely
+      itunes:
+        # iTunes: disable radio stations
+        - domain: com.apple.iTunes
+          key: disableRadio
+      menubar:
+        # Menu bar: show battery percentage
+        - domain: com.apple.menuextra.battery
+          key: ShowPercent
+        # Menu bar: show date and time
+        - domain: com.apple.menuextra.clock
+          key: DateFormat
+          type: string
+          value: "\"EEE MMM d  h:mm a\""
+      misc:
+        # enable natural scrolling
+        - domain: NSGlobalDomain
+          key: com.apple.swipescrolldirection
+        # Universal Access: use Ctrl (^) key to zoom
+        - domain: com.apple.universalaccess
+          key: HIDScrollZoomModifierMask
+          type: int
+          value: '262144'
+
+  tasks:
+    # Dotfiles
+
+    - name: Ensure the Ansible directory exists
+      file: path={{ ansible }} state=directory
+
+    - name: Ensure the local bin folder exists
+      file: path=~/.local/bin state=directory
+
+    - name: Download dotfiles
+      git: repo=git@github.com:dirn/dotfiles.git dest={{ dotfiles }} force=no
+      ignore_errors: yes
+      tags: dotfiles
+
+    # Beautification
+
+    - name: Download colorschemes
+      git: repo=git@github.com:{{ item.src }}.git dest={{ ansible }}/colorschemes/{{ item.dest }}
+      with_items:
+        - src: chriskempson/base16-iterm2
+          dest: base16-iterm2
+        - src: altercation/solarized
+          dest: solarized
+
+    - name: Download fonts
+      git: repo=git@github.com:{{ item.src }}.git dest={{ ansible }}/fonts/{{ item.dest }}
+      with_items:
+        - src: Lokaltog/powerline-fonts
+          dest: powerline-fonts
+
+    # Configuration
+
+    - name: Add alias to run this playbook
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="alias play=\"ansible-playbook --ask-sudo-pass --inventory-file localhost, --connection=local {{ dotfiles }}/playbook.yml\""
+
+    - name: Check the Dock configuration
+      command: defaults read {{ item.domain }} {{ item.key }}
+      register: dock
+      changed_when: dock.stdout != item.value|default('1')
+      with_items: osx_config.dock
+      tags: osx
+
+    - name: Configure the Dock
+      command: defaults write {{ item.domain }} {{ item.key }} -{{ item.type|default('bool') }} {{ item.value|default('YES') }}
+      when: dock.changed
+      with_items: osx_config.dock
+      tags: osx
+
+    - name: Restart the Dock
+      command: killall Dock
+      when: dock.changed
+      tags: osx
+
+    - name: Check the Finder configuration
+      command: defaults read {{ item.domain }} {{ item.key }}
+      register: finder
+      changed_when: finder.stdout != item.value|default('1')
+      with_items: osx_config.finder
+      tags: osx
+
+    - name: Configure Finder
+      command: defaults write {{ item.domain }} {{ item.key }} -{{ item.type|default('bool') }} {{ item.value|default('YES') }}
+      when: finder.changed
+      with_items: osx_config.finder
+      tags: osx
+
+    - name: Restart Finder
+      command: killall Finder
+      when: finder.changed
+      tags: osx
+
+    - name: Check the iTunes configuration
+      command: defaults read {{ item.domain }} {{ item.key }}
+      register: itunes
+      changed_when: itunes.stdout != item.value|default('1')
+      with_items: osx_config.itunes
+      tags: osx
+
+    - name: Configure iTunes
+      command: defaults write {{ item.domain }} {{ item.key }} -{{ item.type|default('bool') }} {{ item.value|default('YES') }}
+      when: itunes.changed
+      with_items: osx_config.itunes
+      tags: osx
+
+    - name: Restart iTunes
+      command: killall iTunes
+      when: itunes.changed
+      tags: osx
+
+    - name: Check the Menu bar configuration
+      command: defaults read {{ item.domain }} {{ item.key }}
+      register: menubar
+      changed_when: menubar.stdout != item.value|default('1')
+      with_items: osx_config.menubar
+      tags: osx
+
+    - name: Configure the Menu bar
+      command: defaults write {{ item.domain }} {{ item.key }} -{{ item.type|default('bool') }} {{ item.value|default('YES') }}
+      when: menubar.changed
+      with_items: osx_config.menubar
+      tags: osx
+
+    - name: Restart the Menu bar
+      command: killall SystemUIServer
+      when: menubar.changed
+      tags: osx
+
+    - name: Check the OS X configuration
+      command: defaults read {{ item.domain }} {{ item.key }}
+      register: misc
+      changed_when: misc.stdout != item.value|default('1')
+      with_items: osx_config.misc
+      tags: osx
+
+    - name: Configure OS X
+      command: defaults write {{ item.domain }} {{ item.key }} -{{ item.type|default('bool') }} {{ item.value|default('YES') }}
+      when: misc.changed
+      with_items: osx_config.misc
+      tags: osx
+
+    # Homebrew
+
+    - name: Download Homebrew's installer
+      git: repo=git@github.com:Homebrew/install.git dest={{ ansible }}/homebrew-installer
+
+    - name: Install Homebrew
+      command: creates=/usr/local/bin/brew {{ ansible }}/homebrew-installer/install
+
+    - name: Update Homebrew
+      homebrew: update_homebrew=yes upgrade_all=yes
+
+    - name: Install Homebrew libraries
+      homebrew: name={{ item }} state=present
+      with_items:
+        - ag # the_silver_searcher
+        - ansible
+        - aspell
+        - ctags
+        - go
+        - hg # mercurial
+        - keybase
+        - openssl
+        - readline
+        - tree
+        - wget
+
+    # Zsh
+
+    - name: Install Zsh
+      homebrew: name=zsh state=present
+      tags: zsh
+
+    - name: Add Homebrew's Zsh to /etc/shells
+      sudo: yes
+      lineinfile: dest=/etc/shells line="/usr/local/bin/zsh" state=present
+      tags: zsh
+
+    - name: Check shell
+      shell: echo $SHELL
+      register: shell_name
+      changed_when: shell_name.stdout != '/usr/local/bin/zsh'
+      tags: zsh
+
+    - name: Use Homebrew's Zsh
+      shell: chsh -s /usr/local/bin/zsh
+      register: zsh_test
+      when: shell_name.stdout != '/usr/local/bin/zsh'
+      tags: zsh
+
+    - name: Install Prezto
+      git: repo=git@github.com:sorin-ionescu/prezto.git dest=~/.zprezto
+      tags: zsh
+
+    - name: Link Prezto's dotfiles
+      file: src=~/.zprezto/runcoms/{{ item }} dest=~/.{{ item }} state=link
+      with_items:
+        - zlogin
+        - zlogout
+        - zprofile
+        - zshenv
+      tags: zsh
+
+    - name: Link Zsh's dotfiles
+      file: src={{ dotfiles }}/zsh/{{ item }} dest=~/.{{ item }} state=link
+      with_items:
+        - zpreztorc
+        - zshrc
+        - aliases
+        - exports
+        - functions
+      tags: zsh
+
+    # Docker
+
+    - name: Install Docker
+      homebrew: name={{ item }} state=present
+      with_items:
+        - boot2docker
+        - docker
+        - docker-compose
+      tags: docker
+
+    - name: Configure Docker
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="{{ item }}"
+      with_items:
+        - export DOCKER_HOST=tcp://192.168.59.103:2376
+        - export DOCKER_CERT_PATH=/Users/{{ ansible_ssh_user }}/.boot2docker/certs/boot2docker-vm
+        - export DOCKER_TLS_VERIFY=yes
+      tags: docker
+
+    # Git
+
+    - name: Install Git
+      homebrew: name={{ item }} state=present
+      with_items:
+        - gh
+        - git
+      tags: git
+
+    - name: Install Homebrew tap for gitsh
+      homebrew_tap: tap=thoughtbot/formulae state=present
+      tags: git
+
+    - name: Install gitsh
+      homebrew: name=gitsh state=present
+      tags: git
+
+    - name: Use gh
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="eval \"$(gh alias -s)\""
+      tags: git
+
+    - name: Use gitsh with gh
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="alias gsh='gitsh --git $(which gh)'"
+      tags: git
+
+    - name: Link Git's dotfiles
+      file: src={{ dotfiles }}/git/{{ item.src }} dest=~/.{{ item.dest }} state=link
+      with_items:
+        - src: gitconfig
+          dest: gitconfig
+        - src: gitignore
+          dest: gitignoreglobal
+      tags: git
+
+    # Python
+
+    - name: Install Python
+      homebrew: name={{ item }} state=present
+      with_items:
+        - pyenv
+        - pyenv-virtualenv
+        - pyenv-virtualenvwrapper
+      tags: python
+
+    - name: Configure virtualenvwrapper
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="{{ item }}"
+      with_items:
+        - export WORKON_HOME=\"$HOME/.virtualenvs\"
+        - export PROJECT_HOME=\"$HOME/development\"
+      tags: python
+
+    - name: Source pyenv
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="{{ item }}"
+      with_items:
+        - if which pyenv > /dev/null; then
+        - "    export PYENV_ROOT=\\\"$HOME/.pyenv\\\""
+        - "    export PATH=\\\"$PYENV_ROOT/bin:$PATH\\\""
+        - "    eval \\\"$(pyenv init -)\\\""
+        - "    pyenv virtualenvwrapper_lazy"
+        - "fi # pyenv"
+      tags: python
+
+    - name: Install Python versions
+      command: creates=~/.pyenv/versions/{{ item }} pyenv install {{ item }}
+      with_items: python_versions
+      tags: python
+
+    - name: Set global Python versions
+      lineinfile: >
+        dest={{ pyenv }}/version
+        state=present
+        create=yes
+        insert{{ item.insert_at|default('after') }}={{ item.pattern|default('EOF') }}
+        line={{ item.version }}
+      with_items:
+        - version: 2.7.9 # First for stuff that installs with Python
+          insert_at: before
+          pattern: BOF
+        - version: 3.4.3
+          insert_at: after
+          pattern: 2.7.9
+        - version: 2.6.9
+        - version: 3.3.6
+        - version: pypy-2.5.0
+        - version: pypy3-2.4.0
+      tags: python
+
+    - name: Exclude old global Python versions
+      lineinfile: >
+        dest={{ pyenv }}/version
+        state=absent
+        line={{ item }}
+      with_items:
+        - 3.4.2
+      tags: python
+
+    - name: Set local Python versions
+      lineinfile: >
+        dest=~/.python-version
+        state=present
+        create=yes
+        insert{{ item.insert_at|default('after') }}={{ item.pattern|default('EOF') }}
+        line={{ item.version }}
+      with_items:
+        - version: 3.4.3
+          insert_at: before
+          pattern: BOF
+        - version: 2.7.9
+          insert_at: after
+          pattern: 3.4.3
+        - version: 2.6.9
+        - version: 3.3.6
+        - version: pypy-2.5.0
+        - version: pypy3-2.4.0
+      tags: python
+
+    - name: Exclude old local Python versions
+      lineinfile: >
+        dest=~/.python-version
+        state=absent
+        line={{ item }}
+      with_items:
+        - 3.4.2
+      tags: python
+
+    # Install and link devpi first so other pip tasks can use it.
+    - name: Install devpi
+      pip: >
+        name=devpi
+        executable=/Users/{{ ansible_ssh_user }}/.local/venvs/devpi/bin/pip
+        virtualenv=~/.local/venvs/devpi
+        virtualenv_command={{ venv }}
+        state=present
+      tags: python
+
+    - name: Link devpi
+      file: src=~/.local/venvs/devpi/bin/{{ item }} dest=~/.local/bin/{{ item }} state=link
+      with_items:
+        - devpi
+        - devpi-server
+      tags: python
+
+    - name: Start devpi
+      command: ~/.local/bin/devpi-server --start
+      register: devpi
+      changed_when: devpi.stdout.startswith('starting background')
+      tags: python
+
+    - name: Configure pip to use devpi
+      lineinfile: >
+        dest=~/.pip/pip.conf
+        state=present
+        create=yes
+        line="{{ item }}"
+      with_items:
+        - "[global]"
+        - index-url = http://localhost:3141/adirnberger/dev/+simple/
+      tags: python
+
+    - name: Install bpython
+      pip: >
+        name=bpython
+        executable=/Users/{{ ansible_ssh_user }}/.local/venvs/bpython/bin/pip
+        virtualenv=~/.local/venvs/bpython
+        virtualenv_command={{ venv }}
+        state=latest
+      tags: python
+
+    - name: Install twine
+      pip: >
+        name=twine
+        executable=/Users/{{ ansible_ssh_user }}/.local/venvs/twine/bin/pip
+        virtualenv=~/.local/venvs/twine
+        virtualenv_command={{ venv }}
+        state=latest
+      tags: python
+
+    - name: Install Sphinx
+      pip: >
+        name=sphinx
+        executable=/Users/{{ ansible_ssh_user }}/.local/venvs/sphinx/bin/pip
+        virtualenv=~/.local/venvs/sphinx
+        virtualenv_command={{ venv }}
+        state=latest
+      tags: python
+
+    - name: Install hovercraft
+      pip: >
+        name=hovercraft
+        executable=/Users/{{ ansible_ssh_user }}/.local/venvs/hovercraft/bin/pip
+        virtualenv=~/.local/venvs/hovercraft
+        virtualenv_command={{ venv }}
+        state=latest
+      tags: python
+
+    - name: Link global Python executables
+      file: src=~/.local/venvs/{{ item.venv }}/bin/{{ item.executable|default(item.venv) }} dest=~/.local/bin/{{ item.executable|default(item.venv) }} state=link
+      with_items:
+        - venv: bpython
+        - venv: twine
+        - venv: sphinx
+          executable: sphinx-build
+        - venv: sphinx
+          executable: sphinx-quickstart
+        - venv: hovercraft
+      tags: python
+
+    - name: Install pip libraries (2.7)
+      pip: name={{ item }} executable={{ pyenv }}/versions/{{ python_xp_version }}/bin/pip state=latest
+      with_items:
+        - bpython
+        - flake8-docstrings # flake8 plus pep257
+        - pip
+        - setuptools
+      tags: python
+
+    - name: Install pip libraries (3.4)
+      pip: name={{ item }} executable={{ pyenv }}/versions/{{ python_version }}/bin/pip state=latest
+      with_items:
+        - bpython
+        - flake8-docstrings # flake8 plus pep257
+        - pip
+        - setuptools
+      tags: python
+
+    - name: Configure virtualenvwrapper
+      lineinfile: >
+        dest=~/.virtualenvs/postmkvirtualenv
+        state=present
+        create=yes
+        mode=0775
+        line="{{ item }}"
+      with_items:
+        - "#!/bin/zsh"
+        - pip install bpython
+        - pip install flake8-docstrings
+        - pip install neovim
+        - pip install wheel
+      tags: python
+
+    # Ruby
+
+    - name: Install Ruby
+      homebrew: name={{ item }} state=present
+      with_items:
+        - rbenv
+        - ruby-build
+      tags: ruby
+
+    - name: Source rbenv
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="if which rbenv > /dev/null; then eval \"$(rbenv init -)\"; fi"
+      tags: ruby
+
+    - name: Install Ruby versions
+      command: creates=~/.rbenv/versions/{{ item }} rbenv install {{ item }}
+      with_items: ruby_versions
+      tags: ruby
+
+    - name: Set global Ruby version
+      lineinfile: >
+        dest=~/.rbenv/version
+        state=present
+        create=yes
+        insertbefore=BOF
+        line={{ ruby_version }}
+      tags: ruby
+
+    - name: Install gems
+      gem: name={{ item }} executable=~/.rbenv/versions/{{ ruby_version }}/bin/gem state=latest
+      with_items:
+        - lunchy
+      tags: ruby
+
+    # Postgres
+
+    - name: Install Postgres
+      homebrew: name=postgresql state=present
+      tags: psql
+
+    - name: Link Postgres's dotfiles
+      file: src={{ dotfiles }}/postgresql/psqlrc dest=~/.psqlrc state=link
+      tags: psql
+
+    # Vim
+
+    - name: Install Vim
+      homebrew: name=vim state=present
+      tags: vim
+
+    - name: Install MacVim
+      homebrew: name=macvim install_options=with-cscope state=present
+      tags: vim
+
+    - name: Install Homebrew tap for NeoVim
+      homebrew_tap: tap=neovim/neovim state=present
+      tags: vim
+
+    - name: Install NeoVim
+      homebrew: name=neovim state=head
+      tags: vim
+
+    - name: Install NeoVim Python libraries
+      pip: name=neovim executable={{ pyenv }}/versions/{{ item }}/bin/pip state=latest
+      with_items:
+        - "{{ python_version }}" # This isn't supported yet. 23 Jan 2015
+        - "{{ python_xp_version }}"
+      tags: vim
+
+    - name: Install NeoBundle
+      git: repo=git@github.com:shougo/neobundle.vim.git dest=~/.vim/bundle/neobundle.vim update=no
+      tags: vim
+
+    - name: Link Vim's dotfiles
+      file: src={{ dotfiles }}/vim/{{ item.src }} dest=~/{{ item.dest }} state=link
+      with_items:
+        - src: vimrc
+          dest: .vimrc
+        - src: ftplugin
+          dest: .vim/ftplugin
+      tags: vim
+
+    - name: Link NeoVim's dotfiles
+      file: src=~/.vimrc dest=~/.nvimrc state=link
+      tags: vim
+
+    - name: Use Vim when other variants aren't available
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="which {{ item }} &> /dev/null; if [[ $? -ne 0 ]]; then alias {{ item }}='vim'; fi"
+      with_items:
+        - mvim
+        - nvim
+      tags: vim
+
+    - name: Make MacVim/Vim the default editor
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="export EDITOR='mvim'"
+      tags: vim
+
+    # Tmux
+
+    - name: Install Tmux
+      homebrew: name={{ item }} state=present
+      with_items:
+        - reattach-to-user-namespace
+        - tmux
+      tags: tmux
+
+    - name: Install tmuxinator
+      gem: name=tmuxinator executable=~/.rbenv/versions/{{ ruby_version }}/bin/gem state=latest
+      tags: tmux
+
+    - name: Link Tmux's dotfiles
+      file: src={{ dotfiles }}/tmux/{{ item }} dest=~/.{{ item }} state=link
+      with_items:
+        - tmux.conf
+        - tmux.battery.sh
+      tags: tmux
+
+    # Weechat
+
+    - name: Install WeeChat
+      homebrew: name=weechat install_options=with-aspell,with-perl,with-python,with-ruby state=present
+      tags: weechat
+
+    - name: Install WeeChat gems
+      gem: name={{ item }} state=present
+      with_items:
+        - terminal-notifier
+        - weechat
+      tags: weechat
+
+    # http://stackoverflow.com/questions/4495120/combine-user-with-prefix-error-with-setup-py-install
+    - name: Disable global disutils prefix
+      lineinfile: >
+        dest=~/.pydistutils.cfg
+        state=present
+        create=yes
+        line={{ item }}
+      with_items:
+        - "[install]"
+        - prefix=
+      changed_when: false
+      tags: weechat
+
+    - name: Install WeeChat pip libraries
+      pip: name=pync executable=/usr/local/bin/pip2 extra_args=--user state=latest
+      tags: weechat
+
+    # Leaving this around would use pip to try to install things to /lib.
+    - name: Reenable global disutils prefix
+      file: path=~/.pydistutils.cfg state=absent
+      changed_when: false
+      tags: weechat
+
+    - name: Link WeeChat's dotfiles
+      file: src={{ dotfiles }}/weechat dest=~/.weechat state=link
+      tags: weechat
+
+    # SSH
+
+    - name: Link SSH dotfiles
+      file: src={{ dotfiles }}/ssh/config dest=~/.ssh/config state=link
+      tags: ssh
+
+    # npm
+
+    - name: Install npm
+      homebrew: name=npm
+      tags: npm
+
+    # MongoDB
+
+    - name: Install MongoDB
+      homebrew: name=mongodb state=present
+      tags: mongo
+
+    - name: Install MongoDB Shell Enhancements
+      npm: name=mongo-hacker global=yes state=latest
+      tags: mongo
+
+    # OS X Apps
+
+    - name: Install Homebrew tap for Homebrew Cask
+      homebrew_tap: name=caskroom/cask state=present
+      tags: osx
+
+    - name: Install Homebrew Cask
+      homebrew: name=brew-cask state=present
+      tags: osx
+
+    - name: Configure Homebrew Cask
+      lineinfile: >
+        dest={{ rc_file }}
+        state=present
+        create=yes
+        line="export HOMEBREW_CASK_OPTS=\"--appdir=/Applications\""
+      tags: osx
+
+    - name: Install Homebrew Cask apps
+      homebrew_cask: name={{ item }} state=present
+      with_items:
+        # 1password only syncs with iCloud when installed from the App Store.
+        - alfred
+        - amazon-music
+        - appzapper
+        # cloud comes from the appstore
+        # dash comes from the appstore
+        - dropbox
+        - flux
+        # google-chrome-beta only in homebrew/versions tap
+        - hipchat
+        - iterm2
+        - kaleidoscope
+        - parallels-desktop
+        - rdio
+        - skitch
+        - transmit
+        # - virtualbox
+        - vmware-fusion
+        - xquartz
+      tags: osx
+
+    - name: Install Homebrew Cask apps with sudo
+      homebrew_cask: name={{ item }} state=present
+      sudo: yes
+      with_items:
+        - seil
+      tags: osx
+
+    - name: Install Homebrew Cask apps that might fail
+      homebrew_cask: name={{ item }} state=present
+      ignore_errors: yes
+      with_items:
+        - virtualbox # If VirtualBox is installed and running, it will fail.
+      tags: osx

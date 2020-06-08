@@ -1,0 +1,32 @@
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+    let wireframe: Wireframe = Wireframe()
+
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool 
+    {
+        // Override point for customization after application launch.
+
+        addWindowToWireframe(self.window)
+        showInitialUseCase()
+        
+        return true
+    }
+    
+    
+    // MARK: Private Implementation
+    
+    private func addWindowToWireframe(window: UIWindow?)
+    {
+        self.wireframe.window = window
+    }
+    
+    
+    private func showInitialUseCase()
+    {
+        self.wireframe.showInitialUseCase()
+    }
+}

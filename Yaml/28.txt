@@ -1,0 +1,13 @@
+---
+
+# --------------------------------------------
+#   Add static hostnames to local /etc/hosts
+# --------------------------------------------
+
+- name: Add container names to /etc/hosts
+  lineinfile:
+    dest: '/etc/hosts'
+    regexp: '{{ item.name }}'
+    line: '{{ item.template_options.split("--address=")[1].split()[0] }} {{ item.name }}'
+  when: '"hosts_entry" in item.keys()'
+  with_items: lxc_containers

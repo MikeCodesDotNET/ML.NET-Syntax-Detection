@@ -1,0 +1,4 @@
+ interface ApiService {
+        @GET("/{message}")
+        fun sendMessage(@Path("message") title: String):Call<String>
+    }

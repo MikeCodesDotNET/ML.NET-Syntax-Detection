@@ -1,0 +1,50 @@
+# -*- coding: sjis -*-
+
+# -----------------------------------
+# sxorする文字列の長さが違う場合
+# 短いほうに合わせて文字列を延長する
+# -----------------------------------
+
+def sxor(s1,s2):
+
+    if len(s1) < len(s2):
+
+        q = len(s2) / len(s1)
+        r = len(s2) % len(s1)
+
+        if r == 0:
+            s1 = s1 * q
+
+        else:
+            s0 = s1
+            s1 = s1 * q
+
+            for i in range(0, r):
+                s1 = s1 + (s0[i])
+
+    if len(s1) > len(s2):
+
+        q = len(s1) / len(s2)
+        r = len(s1) % len(s2)
+
+        if r == 0:
+            s2 = s2 * q
+
+        else:
+            s0 = s2
+            s2 = s2 * q
+
+            for i in range(0, r):
+                s2 = s2 + (s0[i])
+
+    return ''.join(chr(ord(a) ^ ord(b)) for a,b in zip(s1,s2))
+
+if __name__ == "__main__":
+
+    x = "F05RR"
+    y = "ABCDEFGHI"
+
+    z = sxor(x, y)
+
+    for x in z:
+        print hex(ord(x)),

@@ -1,0 +1,9 @@
+pub extern fn number_to_char_array() -> Vec<String> {
+  let mut utf_chars: Vec<String> = vec![];
+
+  for i in 33..126 {
+    let maybe_char: Option<char> = std::char::from_u32(i);
+    utf_chars.push(maybe_char.unwrap().to_string());
+  }
+  utf_chars
+}

@@ -1,0 +1,49 @@
+private readonly InstagramApi _api;
+private readonly ILogger<IndexModel> _logger;
+
+public List<Media> Media { get; } = new List<Media>();
+
+public IndexModel(InstagramApi api, ILogger<IndexModel> logger)
+{
+    _api = api;
+    _logger = logger;
+}
+
+// code is passed by Instagram, the state is whatever you passed in _api.Authorize sent back to you
+public async Task<IActionResult> OnGetAsync(string code, string state)
+{
+    // this returns an access token that will last for 1 hour - short-lived access token
+    var response = await _api.AuthenticateAsync(code, state).ConfigureAwait(false);
+
+    // this returns an access token that will last for 60 days - long-lived access token
+    // var response = await _api.AuthenticateAsync(code, state, true).ConfigureAwait(false);
+
+    // store and log
+    var media = await _api.GetMediaListAsync(response).ConfigureAwait(false);
+
+    _logger.LogInformation("Initial media response returned with [{count}] records ", media.Data.Count);
+
+    _logger.LogInformation("First caption: {caption}, First media url: {url}",media.Data[0].Caption, media.Data[0].MediaUrl);
+
+    //
+    // toggle the following boolean for a quick and dirty way of getting all a user's media.
+    //
+    if(false)
+    {
+        while (!string.IsNullOrWhiteSpace(media?.Paging?.Next))
+        {
+            var next = media?.Paging?.Next;
+            var count = media?.Data?.Count;
+            _logger.LogInformation("Getting next page [{next}]", next);
+
+            media = await _api.GetMediaListAsync(next).ConfigureAwait(false);
+
+            _logger.LogInformation("next media response returned with [{count}] records ", count);
+
+            // add to list
+            Media.Add(media);
+        }
+
+        _logger.LogInformation("The user has a total of {count} items in their Instagram feed", Media.Count);
+    }
+}

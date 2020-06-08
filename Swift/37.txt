@@ -1,0 +1,8 @@
+func foo(a: Int, what b: Int, _ name: String) -> Void {
+    print(a)
+    print(b)
+    print(name)
+}
+
+let arguments = (4, what: 3, "hello")
+foo(arguments)

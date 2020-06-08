@@ -1,0 +1,9 @@
+infix operator ** {
+associativity left
+precedence 150
+}
+
+func **(lhs: Float, rhs: Int) -> Float {
+    let result = Array(count: abs(rhs), repeatedValue: lhs).reduce(1, combine: { lhs, rhs in lhs * rhs })
+    return rhs >= 0 ? result : 1 / result
+}

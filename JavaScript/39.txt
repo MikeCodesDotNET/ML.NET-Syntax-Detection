@@ -1,0 +1,30 @@
+import { FETCH_ARTICLES_SUCCESS } from '../actions';
+
+const isCached = actionType => {
+  return [ FETCH_ARTICLES_SUCCESS ].includes(actionType);
+};
+
+const setToCache = action => {
+  window.localStorage.setItem(
+    action.key,
+    JSON.stringify(action.data)
+  );
+};
+
+export const getFromCache = key => {
+  const data = window.localStorage.getItem(key);
+
+  if (!data) {
+    return null;
+  }
+
+  return JSON.parse(data);
+};
+
+export const conservator = store => next => action => {
+  if (isCached(action.type)) {
+    setToCache(action);
+  }
+
+  next(action);
+};

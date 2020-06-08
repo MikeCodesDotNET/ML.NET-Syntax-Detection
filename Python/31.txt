@@ -1,0 +1,16 @@
+import numpy as np
+from lib import get_scale_local_maximas_orignal, get_scale_local_maximas_vectorized
+from compiled import get_scale_local_maximas_cython
+
+lapl_dummy = np.random.rand(100,100,100)
+coords = np.random.random_integers(0,99, size=(1000,3))
+
+%timeit get_scale_local_maximas_orignal(coords, lapl_dummy)
+%timeit get_scale_local_maximas_cython(coords, lapl_dummy)
+
+%timeit get_scale_local_maximas_vectorized(coords, lapl_dummy)
+
+# Output:
+#1000 loops, best of 3: 1.6 ms per loop
+#1000 loops, best of 3: 328 µs per loop
+#10000 loops, best of 3: 103 µs per loop

@@ -1,0 +1,35 @@
+# Pin to a known release for sanity
+FROM jupyter/pyspark-notebook:0017b56d93c9
+
+# Become root to do the apt-gets
+USER root
+
+RUN apt-get update && \
+                apt-get install -y curl && \
+                curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash - && \
+                apt-get install --yes nodejs && \
+                npm install -g bower
+
+# Add jupyterhub
+RUN pip install jupyterhub
+RUN npm install -g configurable-http-proxy
+
+# Install dashboard layout and preview within Jupyter Notebook
+RUN pip install jupyter_dashboards && \
+        jupyter dashboards install --symlink && \
+        jupyter dashboards activate
+
+# Install declarative widgets for Jupyter Notebook
+RUN pip install 'jupyter_declarativewidgets==0.5.0.dev0' && \
+        jupyter declarativewidgets install --symlink && \
+        jupyter declarativewidgets activate
+
+# Install content management to support dashboard bundler options
+RUN pip install jupyter_cms && \
+        jupyter cms install --symlink && \
+        jupyter cms activate
+RUN pip install jupyter_dashboards_bundlers && \
+        jupyter dashboards_bundlers activate
+
+# new added
+CMD jupyterhub --no-ssl

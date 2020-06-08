@@ -1,0 +1,30 @@
+class LetItGoTableViewController: UITableViewController {
+    
+    private enum SignInField: Int {
+        case Username
+        case Password
+        case RememberMe
+        case SignInButton
+    }
+    
+    // MARK: - Table view data source
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let identifier: String = {
+            guard let type = SignInField(rawValue: indexPath.row) else { return "defaultCell" }
+            switch type {
+            case .Username: return "textFieldCell"
+            case .Password: return "secureTextFieldCell"
+            case .RememberMe: return "switchWithTextCell"
+            case .SignInButton: return "buttonCell"
+            }
+        }()
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath)
+        // cell configuration goes here
+        return cell
+    }
+}

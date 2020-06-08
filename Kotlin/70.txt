@@ -1,0 +1,5 @@
+// empty list, need to specify the type argument explicitly
+val myList = mutableListOf<String>()
+
+// pre-filled list, no need for type argument
+val yourList = mutableListOf("Hello", "World"!)

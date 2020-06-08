@@ -1,0 +1,48 @@
+USE tempdb;
+GO
+IF(OBJECT_ID('target') > 0)DROP TABLE dbo.target
+IF(OBJECT_ID('source') > 0)DROP TABLE dbo.source
+CREATE TABLE dbo.Target
+    (
+      EmployeeID INT ,
+      EmployeeName VARCHAR(100) ,
+      CONSTRAINT Target_PK PRIMARY KEY ( EmployeeID )
+    );
+CREATE TABLE dbo.Source
+    (
+      EmployeeID INT ,
+      EmployeeName VARCHAR(100) ,
+      CONSTRAINT Source_PK PRIMARY KEY ( EmployeeID )
+    );
+GO
+INSERT  dbo.Target
+        ( EmployeeID, EmployeeName )
+VALUES  ( 100, 'Mary' );
+INSERT  dbo.Target
+        ( EmployeeID, EmployeeName )
+VALUES  ( 101, 'Sara' );
+INSERT  dbo.Target
+        ( EmployeeID, EmployeeName )
+VALUES  ( 102, 'Stefano' );
+
+GO
+INSERT  dbo.Source
+        ( EmployeeID, EmployeeName )
+VALUES  ( 100, 'Bob' );
+INSERT  dbo.Source
+        ( EmployeeID, EmployeeName )
+VALUES  ( 104, 'Steve' );
+GO
+
+SELECT * FROM dbo.Source
+SELECT * FROM dbo.Target
+
+MERGE Target AS T
+USING Source AS S
+ON ( T.EmployeeID = S.EmployeeID )
+WHEN MATCHED THEN
+    UPDATE SET T.EmployeeName = S.EmployeeName + '[Updated]';
+GO 
+SELECT '-------After Merge----------'
+SELECT * FROM dbo.Source
+SELECT * FROM dbo.Target

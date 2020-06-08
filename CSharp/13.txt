@@ -1,0 +1,14 @@
+var options = new DbContextOptionsBuilder<BloggingContext>()
+    .UseSqlServer(new SqlConnection(connectionString))
+    .Options;
+
+using (var context1 = new BloggingContext(options))
+{
+    using (var transaction = context1.Database.BeginTransaction())
+    {
+        using (var context2 = new BloggingContext(options))
+        {
+            ...
+        }
+    }
+}

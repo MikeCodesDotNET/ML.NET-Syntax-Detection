@@ -1,0 +1,125 @@
+version: "3"
+services:
+
+  # WORKS
+  philme:
+    container_name: philme
+    build:
+      context: ${PROJECT_ROOT}/phil-me
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - "${PROJECT_ROOT}/phil-me:/usr/src/app"
+
+  philmddash:
+    container_name: philmddash
+    build:
+      context: ${PROJECT_ROOT}/phil-md-dashboard
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - "${PROJECT_ROOT}/phil-md-dashboard:/usr/src/app"
+
+  # WORKS
+  # philmddash:
+  #   container_name: philmddash
+  #   build: 
+  #     context: ./phil-md-dashboard
+  #     dockerfile: Dockerfile.dev
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - "${PROJECT_ROOT}/phil-md-dashboard:/usr/src/app"
+
+  #WORKS
+  # philserver:
+  #   container_name: philserver
+  #   build:
+  #     context: ./PhilServer
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./PhilServer/api:/usr/src/app/api
+
+  # WORKS
+  # Reference: https://hub.docker.com/_/mongo
+  # phildb:
+  #   container_name: phildb
+  #   image: mongo
+  #   command: --serviceExecutor adaptive
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+  #     - MONGO_INITDB_ROOT_PASSWORD=mongoadmin
+  #   volumes:
+  #     - ./storage:/data/db
+  #   ports:
+  #     - "27017:27017"
+  
+  #WORKS
+  # Reference: https://hub.docker.com/_/mongo-express
+  # mongoexpress:
+  #   container_name: mongoexpress
+  #   image: mongo-express
+  #   environment:
+  #     - ME_CONFIG_MONGODB_PORT=27017
+  #     - ME_CONFIG_MONGODB_SERVER=phildb
+  #     - ME_CONFIG_MONGODB_ADMINUSERNAME=mongoadmin
+  #     - ME_CONFIG_MONGODB_ADMINPASSWORD=mongoadmin
+  #   ports:
+  #     - "8081:8081"
+
+  # philweb:
+  #   container_name: philweb
+  #   build:  
+  #     context: ./phil-web
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "3000:3000"
+
+  # Works 
+  # capi:
+  #   container_name: capi
+  #   build:
+  #     context: ./capi
+  #     dockerfile: Dockerfile.dev
+  #     args:
+  #       SSH_PRIVATE_KEY: ${SSH_PRIVATE_KEY}
+  #   environment:
+  #     - DATABASE_URL=${DATABASE_URL}
+  #   ports:
+  #     - "8888:8888"
+  #   volumes:
+  #     - ./capi:/go/src/github.com/phil-inc/capi
+  #     - ./storage/capi/glide:/root/.glide/cache
+
+  # WORKS
+  # aapi:
+  #   container_name: aapi
+  #   build:
+  #     context: ./aapi
+  #   ports:
+  #     - "9292:9292"
+
+  # philworker:
+  #   container_name: philworker
+  #   build:
+  #     context: ./phil-worker
+  #     dockerfile: Dockerfile.dev
+  #     args:
+  #       SSH_PRIVATE_KEY: ${SSH_PRIVATE_KEY}
+  #   ports:
+  #     - "8585:8585"
+  #   environment:
+  #     - DATABASE_URL=${DATABASE_URL}
+  #   volumes:
+  #     - ./phil-worker:/go/src/github.com/phil-inc/phil-worker
+  #     - ./storage/phil-worker/glide:/root/.glide/cache
+
+  
+  # sonarcube:
+  #   image: sonarqube:7.4-community
+  #   ports:
+  #     - "9000:9000"

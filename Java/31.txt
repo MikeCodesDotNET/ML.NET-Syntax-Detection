@@ -1,0 +1,30 @@
+public class Upload {
+  
+    public interface UserService {
+      @Multipart
+      @POST("user/uploadavatar")
+      Observable<ResponseBody> uploadAvatar(
+        @Part("name") RequestBody name,
+        @Part MultipartBody.Part file,
+      );
+  	}  
+
+	public static void avatarUpload(String filePath, Observer<ResponseBody> observer){
+		File file = new File(filePath);
+        if (!file.exists()){
+            Log.e(TAG, "pictureUpload: filePath = " + filePath + "，该文件不存在");
+            return;
+        }
+
+        RequestBody name = RequestBody.create(MediaType.parse("multipart/form-data"), file.getName());
+
+        RequestBody fileRequestBody = RequestBody.create(MediaType.parse("multipart/form-data"), file);
+        MultipartBody.Part filePart = MultipartBody.Part.createFormData("file", file.getName(), fileRequestBody);
+
+       	UserService()
+                .uploadAvatar(name, filePart)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(observer);
+    }
+}

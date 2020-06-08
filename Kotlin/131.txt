@@ -1,0 +1,6 @@
+val number = sum(5,10) //normal call
+val number = sum(first = 5, second = 10) //named parameters
+val number = sum(second = 5, first = 10) //with named parameters we can
+                                         //call them in any order we want
+val number = sum(second = 22) //with default values we can omit
+                              //any parameter and call just the one we need

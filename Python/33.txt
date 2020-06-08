@@ -1,0 +1,36 @@
+words = []
+
+def evenPal(word):
+    steps = 0
+    l = len(word)
+    w1 = word[:l/2]
+    w2 = word[l/2:]
+    w2 = w2[::-1]
+    for i in xrange(0, len(w1)):
+        steps += abs(ord(w1[i]) - ord(w2[i]))
+    print steps
+    
+    
+    
+def oddPal(word): #Different approach
+    steps = 0
+    l = len(word)
+    mid = l/2
+    j = -1
+    for i in xrange(0, mid):
+        steps += abs(ord(word[i]) - ord(word[j]))
+        j -= 1
+    print steps
+        
+        
+
+for _ in xrange(int(raw_input())):
+    words.append(raw_input().strip())
+    
+for word in words:
+    if word == word[::-1]:
+        print 0
+    elif len(word) % 2 == 0:
+        evenPal(word)
+    else :
+        oddPal(word)

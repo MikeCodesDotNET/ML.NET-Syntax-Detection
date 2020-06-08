@@ -1,0 +1,134 @@
+use std::sync::Arc;
+use std::fmt;
+
+pub struct List<A> {
+    node: Arc<Node<A>>
+}
+
+enum Node<A> {
+    Cons(A, Arc<Node<A>>),
+    Nil
+}
+
+impl<A> List<A> {
+    pub fn prepend(&self, next: A) -> List<A> {
+        List { node: Arc::new(Node::Cons(next, self.node.clone())) }
+    }
+
+    pub fn empty() -> List<A> {
+        List { node: Arc::new(Node::Nil) }
+    }
+
+    pub fn is_empty(&self) -> bool {
+        match *self.node {
+            Node::Nil => true,
+            Node::Cons(_, _) => false
+        }
+    }
+
+    pub fn len(&self) -> usize {
+        self.iter().count()
+    }
+
+    pub fn head(&self) -> Option<&A> {
+        match *self.node {
+            Node::Nil => None,
+            Node::Cons(ref head, _) => Some(head)
+        }
+    }
+
+    pub fn tail(&self) -> Option<List<A>> {
+        match *self.node {
+            Node::Nil => None,
+            Node::Cons(_, ref rest) => Some(List { node: rest.clone() })
+        }
+    }
+
+    pub fn iter <'a> (&'a self) -> ListIterator<'a, A> {
+        ListIterator { node: &self.node }
+    }
+
+    pub fn reverse(&self) -> List<&A> {
+        self.iter().fold(List::empty(), |list, elem| list.prepend(elem))
+    }
+}
+
+pub struct ListIterator<'a, A:'a> {
+    node: &'a Node<A>
+}
+
+impl<'a, A> Iterator for ListIterator<'a, A> {
+    type Item = &'a A;
+
+    fn next(&mut self) -> Option<&'a A> {
+        match *self.node {
+            Node::Nil => None,
+            Node::Cons(ref next, ref rest) => {
+                self.node = rest;
+                Some(next)
+            }
+        }
+    }
+}
+
+impl<'a, A> IntoIterator for &'a List<A> {
+    type Item = &'a A;
+    type IntoIter = ListIterator<'a, A>;
+
+    fn into_iter(self) -> ListIterator<'a, A> {
+        self.iter()
+    }
+}
+
+impl<A: fmt::Display> fmt::Display for List<A> {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        let mut iter = self.iter();
+
+        let first = iter
+            .next()
+            .iter()
+            .fold(write!(f, "List("), |result, elem| result.and(write!(f, "{}", elem)));
+
+        iter.fold(first, |result, elem| result.and(write!(f, ", {}", elem)))
+            .and(write!(f, ")"))
+    }
+}
+
+impl<A: fmt::Debug> fmt::Debug for List<A> {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        let mut iter = self.iter();
+
+        let first = iter
+            .next()
+            .iter()
+            .fold(write!(f, "List("), |result, elem| result.and(write!(f, "{:?}", elem)));
+
+        iter.fold(first, |result, elem| result.and(write!(f, ", {:?}", elem)))
+            .and(write!(f, ")"))
+    }
+}
+
+impl<A> Default for List<A> {
+    fn default() -> List<A> {
+        List::empty()
+    }
+}
+
+fn main() {
+    let list0 = List::empty();
+    let list1 = list0.prepend("hello".to_string());
+    let list2 = list1.prepend("world".to_string());
+    let list3 = list2.reverse();
+    let head = list2.head();
+    let tail = list2.tail();
+
+    println!("List0: {:?}, length: {}, empty: {}", list0, list0.len(), list0.is_empty());
+    println!("List1: {:?}, length: {}, empty: {}", list1, list1.len(), list1.is_empty());
+    println!("List2: {:?}, length: {}, empty: {}", list2, list2.len(), list2.is_empty());
+    println!("List3: {:?}, length: {}, empty: {}", list3, list3.len(), list3.is_empty());
+    println!("head: {:?}, tail: {:?}", head, tail);
+
+    for elem in list3.iter() {
+        println!("{}", elem);
+    }
+}

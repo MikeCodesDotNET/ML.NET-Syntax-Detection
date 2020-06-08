@@ -1,0 +1,4 @@
+SELECT     *
+FROM account a
+JOIN s IN c.subscriptions
+WHERE s.id = "bob"

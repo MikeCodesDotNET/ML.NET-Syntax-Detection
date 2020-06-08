@@ -1,0 +1,19 @@
+fn fib() -> Box<FnMut() -> i32> {
+    let (mut a, mut b) = (0, 1);
+    
+    Box::new(move || {
+        let c = a + b;
+        a = b;
+        b = c;
+        
+        a
+    })
+}
+
+fn main() {
+    let mut f = fib();
+    
+    for _i in 0..5 {
+        println!("{}", f());
+    }
+}

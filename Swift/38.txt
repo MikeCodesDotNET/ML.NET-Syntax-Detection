@@ -1,0 +1,12 @@
+enum Host {
+  case Staging = “http://staging.myblog.com/api”
+  case Production = “https://myblog.com/api”
+}
+
+class API {
+  class var host: Host
+  func blog(…) -> (…) {
+    let apiPath = “\(API.host.rawValue)/blog”
+    
+  }
+}

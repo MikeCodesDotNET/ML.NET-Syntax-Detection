@@ -1,0 +1,12 @@
+Observable.combineLatest(arrayOf(name, age), {
+    val n = it[0] as String
+    val a = it[1] as Int
+    "$n - age:${a}" })
+        .subscribe({
+            Log.d("combineLatest", "onNext - ${it}")
+        })
+
+
+name.onNext("saito")
+age.onNext(24)
+name.onNext("yoshida")

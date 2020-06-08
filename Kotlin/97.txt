@@ -1,0 +1,69 @@
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContentView(R.layout.activity_main)
+
+        // list to hold our messages
+        var arrayList: ArrayList<String> = ArrayList()
+
+        // Initialize our adapter
+        val adapter = RecyclerViewAdapter(this)
+
+        // assign a layout manager to the recycler view
+        recycler_view.layoutManager = LinearLayoutManager(this)
+
+        // assign adapter to the recycler view
+        recycler_view.adapter = adapter
+
+        // Initialize Pusher
+        val options = PusherOptions()
+        options.setCluster("PUSHER_APP_CLUSTER")
+        val pusher = Pusher("PUSHER_APP_KEY", options)
+
+        // Subscribe to a Pusher channel
+        val channel = pusher.subscribe("my-channel")
+
+        // this listener recieves any new message from the server
+        channel.bind("my-event") { channelName, eventName, data ->
+            val jsonObject = JSONObject(data)
+            arrayList.add(jsonObject.getString("message"))
+            runOnUiThread { adapter.setList(arrayList) }
+        }
+        pusher.connect()
+
+        // We check for button clicks and if any text was inputed, we send the message
+        button_send.setOnClickListener(View.OnClickListener {
+            if (edit_text.text.length>0) {
+                sendMessage(edit_text.text.toString())
+            }
+        })
+
+    } // end of onCreate method
+
+    fun sendMessage(message:String) {
+        val call = RetrofitClient().getClient().sendMessage(message)
+
+        call.enqueue(object : Callback<String> {
+            override fun onResponse(call: Call<String>, response: Response<String>) {
+                edit_text.setText("")
+                hideKeyboard(this@MainActivity)
+            }
+            override fun onFailure(call: Call<String>, t: Throwable) {
+
+            }
+        })
+    } // end of sendMessage method
+
+    fun hideKeyboard(activity: Activity) {
+        val imm = activity.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+
+        // Find the currently focused view, so we can grab the correct window token from it.
+        var view = activity.currentFocus
+
+        // If no view currently has focus, create a new one, just so we can grab a window token from it
+        if (view == null) {
+            view = View(activity)
+        }
+
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
+    } // end of hideKeybnoard method

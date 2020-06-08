@@ -1,0 +1,44 @@
+module Docs
+  def self.extended(version)
+    version.include Swagger::Blocks
+  end
+ 
+  def root
+    Swagger::Blocks.build_root_json [self]
+  end
+
+  concerning :App do
+    def call(env)
+      request = Rack::Request.new env
+   
+      Rack::Response.new.tap do |response|
+        if request.path.ends_with?('.json')
+          response.body = [ root.to_json ]
+        else
+          json_path = request.path + '.json'
+          response.body = [ swagger_page(json_path) ]
+        end
+      end
+    end
+   
+    private
+   
+    def swagger_page(json)
+      renderer.render inline: <<-ERB, locals: { json: json }
+        <html>
+        <head>
+          <%= stylesheet_link_tag 'swagger-ui' %>
+          <%= javascript_include_tag 'swagger-ui' %>
+        </head>
+        <body class='swagger-section'>
+          <%= render 'swagger_ui/swagger_ui', discovery_url: json %>
+        </body>
+        </html>
+      ERB
+    end
+   
+    def renderer
+      ActionView::Base.new ActionController::Base.view_paths
+    end
+  end
+end

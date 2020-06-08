@@ -1,0 +1,4 @@
+val doubleMeatWithEverything = Hamburger(
+            meats = 2,
+            hasKetchup = true,
+            hasTom

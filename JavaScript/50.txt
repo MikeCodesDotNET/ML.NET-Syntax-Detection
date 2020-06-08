@@ -1,0 +1,20 @@
+// EXAMPLE WITH NUMBERS
+var one = 1;
+var two = one;
+
+two = 2;
+
+// Value of one doesn't change
+
+console.log(one) // 1
+console.log(two) // 2
+
+
+// EXAMPLE WITH STRINGS
+var foo = "You are amazing"
+var bam = foo.slice(0, 7)
+
+// Value of foo doesn't change
+
+console.log(bam) // "You are"
+console.log(foo) // "You are amazing"

@@ -1,0 +1,4 @@
+fun <T> List<T>.myPartition(partitionSize: Int = 2) : List<T> {
+    if (partitionSize < 1) throw IllegalArgumentException("Partition sizz should be strictly greater than 0, ${partitionSize} is invalid")
+    return emptyList<List<T>>()
+}

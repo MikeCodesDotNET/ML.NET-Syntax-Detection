@@ -1,0 +1,14 @@
+fn main() {
+    let bar = |x: int| { x * 2 };
+    bar.foo();
+}
+
+trait Foo {
+    fn foo(self);
+}
+
+impl<'self, T> Foo for &'self fn(T) -> T {
+    fn foo(self) {
+        println("hello");
+    }
+}

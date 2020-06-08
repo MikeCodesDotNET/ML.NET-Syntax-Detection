@@ -1,0 +1,7 @@
+function sayHi() {
+  console.log('Hi!');
+}
+
+console.log('Program starts'); // prints: Program starts
+sayHi();                      // prints: Hi!
+console.log('Program ends'); // prints: Program ends

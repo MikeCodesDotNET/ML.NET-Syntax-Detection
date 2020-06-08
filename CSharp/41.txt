@@ -1,0 +1,5 @@
+public void Process()
+{
+    String script = "alert('" + "Welcome" + " " + Person.Username + " to Web App :) ')";
+    Context.ResourceManager.AddStartupScript(script);
+}

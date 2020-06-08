@@ -1,0 +1,27 @@
+// based on https://twitter.com/francesc/status/602606902187458560
+
+package main
+
+import (
+	"log"
+	"time"
+)
+
+func main() {
+	runTask("my-task")
+}
+
+func whenDone(msg string, args  ...interface{}) func() {
+	start := time.Now()
+	return func() {
+		log.Printf(msg, append(args, time.Since(start))...)
+	}
+	
+}
+
+func runTask(name string) {
+	defer whenDone("Done running '%v'. Total time: %v.", name)()
+	
+	log.Printf("Start running '%v' ...", name)
+	time.Sleep(time.Second)
+}

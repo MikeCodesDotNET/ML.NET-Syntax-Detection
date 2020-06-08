@@ -1,0 +1,32 @@
+public class File implements IFile {
+
+    private final static String TAG = "Adapter";
+    private int filp = -1;
+
+    @Override
+    public int open(String name) {
+        filp = (int)(Math.random() * 100);
+        Log.i(TAG, "open file: " + name + ", file descriptor: " + filp);
+        return filp;
+    }
+
+    @Override
+    public String read() {
+        Log.i(TAG, "read content...");
+        return "this is content";
+    }
+
+    @Override
+    public int write(String data) {
+        Log.i(TAG, "write data: " + data);
+        return data.length();
+    }
+
+    @Override
+    public void close() {
+        if (filp != -1) {
+            Log.i(TAG, "close file");
+            filp = -1;
+        }
+    }
+}

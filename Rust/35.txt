@@ -1,0 +1,24 @@
+#![feature(slice_chars)]
+
+extern crate hyper;
+
+use hyper::Client;
+use hyper::header::Connection;
+use std::io::Read;
+
+fn get_body(url: &str) -> String {
+  let client = Client::new();
+  let temp_resp = client.get(url).header(Connection::close()).send();
+  let mut resp = temp_resp.unwrap();
+  let mut body = String::new();
+  resp.read_to_string(&mut body).unwrap();
+  body
+}
+
+#[test]
+fn it_works() {
+  assert_eq!(
+    get_body(&"http://www.rust-lang.org".to_string()).slice_chars(73, 105),
+    "<title>The Rust Programming Lang"
+  );
+}

@@ -1,0 +1,70 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- task: UsePythonVersion@0
+  displayName: 'Use Python 3.6'
+  inputs:
+    versionSpec: 3.6
+    
+- script: |
+   pip install flake8
+   pip install flake8_formatter_junit_xml
+   flake8 --format junit-xml --output-file $(Build.BinariesDirectory)/flake8_report.xml --exit-zero --ignore E111
+  displayName: 'Check code quality'
+  
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFiles: '$(Build.BinariesDirectory)/*_report.xml'
+    testRunTitle: 'Publish test results'
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az extension add -n azure-cli-ml'
+    workingDirectory: 'model-training'
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ml folder attach -w sahilWorkspace -g ML'
+    workingDirectory: ''
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ml computetarget create amlcompute -n mycomputetarget --min-nodes 1 --max-nodes 1 -s STANDARD_D3_V2'
+    workingDirectory: 'model-training'
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ml run submit-script -c sklearn -e test -d training-env.yml train-sklearn.py'
+    workingDirectory: 'model-training'
+
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ml model register -n mymodel -p sklearn_regression_model.pkl -t model.json'
+    workingDirectory: 'model-deployment'
+    
+- task: AzureCLI@1
+  inputs:
+    azureSubscription: 'ML'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az ml computetarget delete -n mycomputetarget'
+    workingDirectory: ''

@@ -1,0 +1,79 @@
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var target1Text: UITextField!
+
+    @IBOutlet weak var target2Text: UITextField!
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBOutlet var tapGesture: UITapGestureRecognizer!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    
+        // ジェスチャー追加
+        self.view.addGestureRecognizer(self.tapGesture)
+    }
+
+    @IBAction func calculate(sender: AnyObject) {
+
+        let target1Text = self.target1Text.text
+        let target2Text = self.target2Text.text
+        
+        // 計算条件を満たさない場合はアラートメッセージを出力
+        let isAlert = self.alertMessage(target1Text, target2: target2Text)
+        
+        // 結果を表示
+        if !isAlert {
+            let target1Num = (target1Text as NSString).doubleValue
+            let target2Num = (target2Text as NSString).doubleValue
+        
+            let result = target1Num / target2Num
+            self.resultLabel.text = NSString(format: "%.5f", result)
+        } else {
+            self.resultLabel.text = "0"
+        }
+    }
+    
+    func alertMessage(target1: String, target2: String) -> Bool {
+        
+        // アラートメッセージが出力されたかのフラグ
+        var isAlert = false
+        
+        // アラート出力
+        func alert(message: String) {
+            
+            let title = "課題5"
+            let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+            
+            let ok = UIAlertAction(title: "OK", style: .Default, handler: nil)
+            alert.addAction(ok)
+            
+            presentViewController(alert, animated: true, completion: nil)
+            
+            isAlert = true
+        }
+
+        // バリデーションチェック
+        if target1.isEmpty || target2.isEmpty {
+            let message = "割る数を入力してください"
+            alert(message)
+        } else if target2 == "0" {
+            let message = "割る数には0を入力しないでください"
+            alert(message)
+        }
+        
+        return isAlert
+    }
+    
+    // キーボード外をタップしてナンバーパッドを閉じる
+    @IBAction func closeNumberPad(sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+    }
+}

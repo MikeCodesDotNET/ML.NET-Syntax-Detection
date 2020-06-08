@@ -1,0 +1,7 @@
+CREATE TABLE ud (id integer, assid integer);
+CREATE TABLE sales (id integer, udid integer, assid integer);
+
+UPDATE ud
+SET assid = sales.assid
+FROM sales
+WHERE sales.id = ud.id;

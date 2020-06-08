@@ -1,0 +1,54 @@
+public protocol Section {
+    typealias U
+    var count: Int { get }
+    func itemAtRow(row: Int) -> U
+    subscript(index: Int) -> U { get }
+}
+
+public struct ArraySection<T>: Section {
+    typealias U = T
+    
+    public let items: [T]
+    
+    public init(items: [T]) {
+        self.items = items
+    }
+    
+    public var count: Int {
+        get {
+            return items.count
+        }
+    }
+    
+    public func itemAtRow(row: Int) -> U {
+        return items[row]
+    }
+    
+    public subscript(index: Int) -> U {
+        return itemAtRow(index)
+    }
+}
+
+public struct RLMArraySection<T: RLMObject>: Section {
+    typealias U = T
+    
+    public let items: RLMArray
+    
+    public init(items: RLMArray, type: T.Type) {
+        self.items = items
+    }
+    
+    public var count: Int {
+        get {
+            return Int(items.count)
+        }
+    }
+    
+    public func itemAtRow(row: Int) -> U {
+        return items[UInt(row)] as! U
+    }
+    
+    public subscript(index: Int) -> U {
+        return itemAtRow(index)
+    }
+}

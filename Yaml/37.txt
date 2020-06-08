@@ -1,0 +1,104 @@
+en:
+  new: "New"
+  edit: "Edit"
+  delete: "Delete"
+  cancel: "Cancel"
+  import: "Import"
+
+  error: "Error"
+
+  toggle_navigation: "Toggle Navigation"
+  toggle_dropdown: "Toggle Dropdown"
+
+  sign_in: "Sign In"
+  sign_out: "Sign Out"
+  login_required: "You'll need to log in before using this feature"
+  password_incorrect: "Username or password is incorrect. <a class='alert-link' href='http://www.rrncommunity.org/forgot'>Do you need help remembering them?</a>"
+
+  none_added: "No %{model} added yet."
+  add_one_now: "Add one now."
+  choose_one: "Choose a %{model}"
+
+  all_collections: "All Collections"
+  collection_delete_confirm: "This collection AND ITS ITEMS will be DELETED PERMANENTLY"
+
+  download_import_template: "Download Import Template"
+  import_hint_html: "You can use the %{template_link} to batch upload Items. Existing Items will be updated with the uploaded changes. Items are matched based on their Identification Number (case sensitive)."
+  import_item_hint_html: "<strong>Note:</strong> Items that have since been updated by another import will appear in that import's items list, not this one."
+
+  messages:
+    item:
+      custom_fields_instruction: "Choose a collection to populate additional fields"
+      set_up_custom_fields: "Click to customize additional fields"
+  activerecord:
+    models:
+      collection: "Collection"
+      import: "Import"
+      item: "Item"
+    attributes:
+      collection:
+        name: "Name"
+        collaborators: "Collaborators"
+        custom_field_names: "Custom field names"
+      import:
+        file: "File"
+        status: "Status"
+        errors: "Errors"
+        created_at: "Date Imported"
+        user: "User"
+      item:
+        name: "Name"
+        updated_at: "Last Updated"
+        image_files: "Images"
+        item_type_names: "Item Type(s)"
+        culture_names: "Culture(s)"
+        material_names: "Material(s)"
+        manufacturing_technique_names: "Manufacturing Technique(s)"
+        creation_dates: "Date Created"
+        creation_people_names: "Maker"
+        creation_location_names: "Place Made"
+        collection_dates: "Date Collected"
+        collection_people_names: "Collector"
+        collection_location_names: "Place Collected"
+        ownership_dates: "Date Owned"
+        ownership_people_names: "Owner"
+        ownership_location_names: "Location While Owned"
+        other_dates: "Event Date"
+        other_people_names: "Event Participant"
+        other_location_name: "Event Location"
+      event:
+        event_type: "Event"
+
+  simple_form:
+    "yes": "Yes"
+    "no": "No"
+    required:
+      text: "required"
+      mark: "*"
+    error_notification:
+      default_message: "Please review the problems below:"
+    placeholders:
+      item:
+        creation_location_names: "e.g. Vancouver, BC, Canada"
+        collection_location_names: "e.g. Vancouver, BC, Canada"
+        item_type_names: "e.g. headdress mask"
+        culture_names: "e.g. Musqueam, Haida"
+        material_names: "e.g. wood, wolf fur, wolf teeth"
+        manufacturing_technique_names: "e.g. carved, sewn"
+    labels:
+      login:
+        email_address: "Email Address"
+        password: "Password"
+      events:
+        end_date: "End date (Optional)"
+        people_names: "Who was involved"
+        location_names: "Where it occurred"
+
+  controllers:
+    items:
+      create:
+        flash:
+          notice: "Item Created"
+      update:
+        flash:
+          notice: "Item Updated"

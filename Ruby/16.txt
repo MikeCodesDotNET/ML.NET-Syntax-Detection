@@ -1,0 +1,21 @@
+  sortedbikepaths = bikepaths.sort do |p1,p2|
+    current_path = p1['bike_path_name'] <=> p2['bike_path_name']
+    if current_path.zero?
+      lat1 = p1['latitude']
+      lon1 = p1['longitude']
+      lat2 = p2['latitude']
+      lon2 = p2['longitude']
+      distance = distance_between(lat1, lon1, lat2, lon2)
+      best_distance = distance
+      possible_sections = bikepaths.select{|hash| hash['bike_path_name'] == p1['bike_path_name']}
+      possible_sections.each do |section|
+        next if section == p1 || section == p2
+        lat2 = section['latitude']
+        lon2 = section['longitude']
+        best_distance =[best_distance, distance_between(lat1, lon1, lat2, lon2)].min
+      end
+      best_distance <=> distance
+    else
+      current_path
+    end
+  end

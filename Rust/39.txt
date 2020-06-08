@@ -1,0 +1,82 @@
+extern crate rand;
+use rand::distributions::{IndependentSample, Range};
+
+/// Modular exponentiation
+fn mod_exp(mut b: u64, mut e: u64, m: u64) -> u64 {
+    let mut r = 1;
+    while e != 0 {
+        let temp_b = b * b % m;
+        if e % 2 == 1 {
+            r = r * b % m;
+        }
+        e = e / 2;
+        b = temp_b;
+    }
+    return r;
+}
+
+/// Finds values of k and q such that n = 1 + 2^k * q,
+/// where n is assumed to be odd, and q is odd.
+fn express(n: u64) -> (u64, u64) {
+    let mut q = n - 1;
+    let mut k = 0;
+    while q % 2 == 0 {
+        q = q / 2;
+        k = k + 1;
+    }
+    return (q, k);
+}
+
+/// Verifies that a number is probably prime with a single test
+fn test_prime(rand_num: u64, n: u64) -> bool {
+    match n {
+        1 => return false,
+        2 => return true,
+        _ => {
+            let (q, k) = express(n);
+            let mut y = mod_exp(rand_num, q, n);
+            let mut j = 0;
+            loop {
+                match (y, j) {
+                    (1, 0) => return true,
+                    (1, _) => return false,
+                    (y, _) if y == n - 1 => return true,
+                    (_, j) if j >= k => return false,
+                    _ => {
+                        y = mod_exp(y, 2, n);
+                        j = j + 1;
+                    } // repeated
+                } // curly
+            } // braces
+        } // are
+    } // so
+} // GROSS
+
+/// Runs multiple trials of test_prime to determine if a number is
+/// almost definitely prime (chance of false-positive is in the neighborhood
+/// of (1/4)^trials).
+fn is_prime(mut trials: u64, n: u64) -> bool {
+    let mut rng = rand::thread_rng();
+    let range = Range::new(2, n);
+    let r = range.ind_sample(&mut rng);
+    while trials > 0 {
+        if trials == 1 {
+            return test_prime(r, n);
+        } else if test_prime(r, n) {
+            trials = trials - 1;
+        } else {
+            return false;
+        }
+    }
+    return false;
+}
+
+fn main() {
+    let mut i = 7;
+    loop {
+        if is_prime(25, i) {
+            print!("{}, ", i);
+        }
+        i = i + 1;
+    }
+}

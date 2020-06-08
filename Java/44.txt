@@ -1,0 +1,52 @@
+// パーミッションを確認
+int cameraPermission = ContextCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA);
+int stragePermission = ContextCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
+if (cameraPermission == PackageManager.PERMISSION_GRANTED &&
+    stragePermission == PackageManager.PERMISSION_GRANTED ) {
+    // すべて許可されている
+} else {
+    // 許可されていないものがある
+    if ((cameraPermission == PackageManager.PERMISSION_DENIED && !ActivityCompat.shouldShowRequestPermissionRationale(getActivity(), Manifest.permission.CAMERA)) ||
+        (stragePermission == PackageManager.PERMISSION_DENIED && !ActivityCompat.shouldShowRequestPermissionRationale(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE))) {
+        // 「二度と表示しない」が設定されているためrequestPermissionsできない
+
+        // アラートダイアログを表示してシステムのアプリ設定画面にとばせるようにする
+        new AlertDialog.Builder(getActivity())
+          .setTitle("権限がありません")
+          .setMessage("この機能を使用するためには、端末の設定で\nカメラ、ストレージへのアクセスを\n許可してください。")
+          .setPositiveButton("設定", new DialogInterface.OnClickListener() {
+              @Override
+              public void onClick(DialogInterface dialog, int which) {
+                  // システムのアプリ設定画面
+                  Intent intent = new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:" + getActivity().getPackageName()));
+                  intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                  getActivity().startActivity(intent);
+              }
+          })
+          .setNegativeButton("キャンセル", new DialogInterface.OnClickListener() {
+              @Override
+              public void onClick(DialogInterface dialog, int which) {
+              }
+          })
+          .setCancelable(false)
+          .show();
+    } else {
+      // 許可ダイアログ表示
+      String[] PERMISSIONS = {
+        Manifest.permission.CAMERA,
+        Manifest.permission.WRITE_EXTERNAL_STORAGE
+      };
+      requestPermissions(PERMISSIONS, 0);
+    }
+}
+
+@Override
+public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    switch (requestCode) {
+        case 0: { 
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            }
+            break;
+        }
+    }
+}

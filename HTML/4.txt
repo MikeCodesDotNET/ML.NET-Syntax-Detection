@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+p{
+  color:maroon;
+}
+</style>
+</head>
+<body>
+<p id='paragraphText'> This is awesome <p/>
+
+  <input type='text' id='changeUserText'>
+  <button onclick='changeTheText()'> Change the text</button>
+ 
+  <p> This is another paragraph</p>
+  
+<script id="jsbin-javascript">
+var coolNumber = 3;
+
+ 
+alert("Pop");
+
+function changeTheText(){
+
+  document.getElementById('paragraphText').style.color ='orange';
+  
+  // change the paragraph text
+ var changeTextVariable = document.getElementById('changeUserText').value;
+  
+    document.getElementById('paragraphText').innerHTML = changeTextVariable;
+ 
+ 
+}
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">p{
+  color:maroon;
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">var coolNumber = 3;
+
+ 
+alert("Pop");
+
+function changeTheText(){
+
+  document.getElementById('paragraphText').style.color ='orange';
+  
+  // change the paragraph text
+ var changeTextVariable = document.getElementById('changeUserText').value;
+  
+    document.getElementById('paragraphText').innerHTML = changeTextVariable;
+ 
+ 
+}
+
+
+</script></body>
+</html>

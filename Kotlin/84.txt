@@ -1,0 +1,6 @@
+//Works…
+ObjectFileParserFactory.createFromFileName("filename.foo")
+ 
+//...and this still works
+val fileParser = ObjectFileParserFactory
+fileParser.createFromFileName("filename.json")

@@ -1,0 +1,29 @@
+require 'open-uri'
+require 'zlib'
+require 'yajl'
+require 'net/http'
+require 'json'
+
+
+Net::HTTP.start('localhost', 5984, read_timeout: 3600) do |http|
+  24.times do |d|
+    24.times do |h|
+      url = 'http://data.githubarchive.org/2015-03-%02d-%d.json.gz' % [d + 1, h]
+      puts 'importing %s' % url
+
+      gz = open(url)
+      js = Zlib::GzipReader.new(gz).read
+
+      body = '{"docs":[%s]}' % js.gsub!(/[\n]+/, ',').chomp(',');
+      # puts body
+
+      req = Net::HTTP::Post.new('/events/_bulk_docs')
+      req["content-type"] = "application/json"
+      req.body = body
+      http.request(req)
+    end
+  end
+end
+
+# curl http://localhost:5984/events -X DELETE
+# curl http://localhost:5984/events -X PUT

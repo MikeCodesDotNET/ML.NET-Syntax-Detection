@@ -1,0 +1,82 @@
+#!/usr/bin/python
+
+import urllib2
+from HTMLParser import HTMLParser
+import re
+import sys
+
+class ThreadScraper(HTMLParser):
+	def __init__(self, collection):
+		HTMLParser.__init__(self)
+		self.collection = collection
+		self.post_regex = re.compile("post-(\d+)")
+		self.post_number = 0
+		self.trigger = False
+		self.found = False
+
+	def handle_starttag(self, tag, attrs):
+		if tag == 'div':
+			for pair in attrs:
+				name, val = pair
+				if name == 'id':
+					match = self.post_regex.search(val)
+					if match:
+						self.post_number = int(match.group(1))
+				if name == 'class' and val == 'author-pane':
+					self.trigger = True
+
+
+	def handle_data(self, data):
+		if self.trigger:
+			self.trigger = False
+			if self.post_number not in collection:
+				collection[self.post_number] = data
+				self.found = True
+
+
+
+def loadPage(threadNum, pageNum, collection):
+	if pageNum > 0:
+		url = "https://lockedinlace.com/main/node/%s?page=%s" % (threadNum, pageNum)
+	else:
+		url = "https://lockedinlace.com/main/node/%s" % (threadNum)
+
+	connect = urllib2.urlopen(url)
+	data = connect.read()
+
+	connect.close()
+
+	parser= ThreadScraper(collection)
+	try:
+		ucode = urllib2.unquote(data).decode('utf8')
+		parser.feed(ucode)
+	except:
+		print "something went wrong", sys.exc_info()
+	return parser.found
+
+
+
+
+collection = dict()
+
+found = True
+page = 0
+while found:
+	print "Loading page", page
+	found = loadPage(2413, page, collection)	
+	page += 1
+
+
+#collection now is a list of  [postId]=username (in unicode)
+sorter = []
+[sorter.append((v.lower(),v,k)) for k,v in collection.iteritems()]
+
+sorter.sort()
+for (sort_name, name, post_id) in sorter:
+	print "<A HREF=\"https://lockedinlace.com/main/comment/%s#comment-%s\">%s</A>" %(post_id, post_id, name.encode('utf-8')) 
+
+
+# 2414 = submissive, 2413 = dominant
+#loadPage(2414, 33, collection)
+#loadPage(2414, 2, collection)
+#print collection

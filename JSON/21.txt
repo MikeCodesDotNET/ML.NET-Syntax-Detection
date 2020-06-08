@@ -1,0 +1,25 @@
+{
+    "took": 7,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+    },
+    "hits": {
+        "total": 354173,
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "kafka-log",
+                "_type": "kafka-event",
+                "_id": "d7d19ddc418415d5b59efeb857c4339c3980b171870435abec443772c85921ac",
+                "_score": 1,
+                "_source": {
+                    ...
+                }
+                    
+            }
+        ]
+    }
+}

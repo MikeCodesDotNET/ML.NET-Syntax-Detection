@@ -1,0 +1,8 @@
+//Create Template Marker Processor
+ITemplateMarkersProcessor marker = workbook.CreateTemplateMarkersProcessor();
+
+//Add marker variable
+marker.AddVariable("NumbersTable", GetTable());
+
+//Process the markers in the template
+marker.ApplyMarkers();

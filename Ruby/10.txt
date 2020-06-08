@@ -1,0 +1,29 @@
+# http://andora.us/blog/2011/03/03/choosing-foreground-using-luminosity-contrast-ratio/
+# color contrast ratio ranges from 1 (least) to 21 (most, white/black)
+class Color
+  attr_reader :r, :g, :b
+
+  def initialize(hex)
+    raise 'Invalid hex code' unless hex =~ /[0-9a-f]{6}/i
+    hexes = hex.scan /.{2}/
+    @r,@g,@b = hexes.map { |h| h.hex.to_i }
+  end
+
+  def self.f(component)
+    c = component/255.0
+    c <= 0.03928 ? c : ((c + 0.055)/1.055)**2.4
+  end
+
+  def self.luminance(r,g,b)
+    (0.2126 * f(r)) + (0.7152 * f(g)) + (0.0722 * f(b))
+  end
+
+  def luminance
+    self.class.luminance(r,g,b)
+  end
+
+  def self.contrast_ratio(c1, c2)
+    l1, l2 = [c1, c2].map(&:luminance).sort
+    (l2 + 0.05) / (l1 + 0.05)
+  end
+end

@@ -1,0 +1,36 @@
+public static class android.app.Notification$Builder extends Object {
+    public Notification$Builder setLargeIcon(Icon);
+    public Notification$Builder setSmallIcon(Icon);
+}
+
+ public static final class android.app.Notification$CarExtender extends Object implements Notification$Extender {
+    public Notification$CarExtender();
+    public Notification$CarExtender(Notification);
+    public Notification$CarExtender setColor(int);
+    public int getColor();
+    public Notification$Builder extend(Notification$Builder);
+    public Notification$CarExtender setLargeIcon(Bitmap);
+    public Bitmap getLargeIcon();
+    public Notification$CarExtender$UnreadConversation getUnreadConversation();
+    public Notification$CarExtender setUnreadConversation(Notification$CarExtender$UnreadConversation);
+  }
+
+ public static class android.app.Notification$CarExtender$Builder extends Object {
+    public Notification$CarExtender$Builder(String);
+    public Notification$CarExtender$UnreadConversation build();
+    public Notification$CarExtender$Builder addMessage(String);
+    public Notification$CarExtender$Builder setReadPendingIntent(PendingIntent);
+    public Notification$CarExtender$Builder setLatestTimestamp(long);
+    public Notification$CarExtender$Builder setReplyAction(PendingIntent, RemoteInput);
+  }
+
+ public static class android.app.Notification$CarExtender$UnreadConversation extends Object {
+    Notification$CarExtender$UnreadConversation();
+    public String getParticipant();
+    public long getLatestTimestamp();
+    public RemoteInput getRemoteInput();
+    public PendingIntent getReadPendingIntent();
+    public PendingIntent getReplyPendingIntent();
+    public String[] getParticipants();
+    public String[] getMessages();
+  }

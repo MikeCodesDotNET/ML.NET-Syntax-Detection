@@ -1,0 +1,23 @@
+public class ATM implements IBank {
+
+    private IBank bank;
+
+    public ATM(int count) {
+        bank = new Bank(count);
+    }
+
+    @Override
+    public int save(int count) {
+        return bank.save(count);
+    }
+
+    @Override
+    public int get(int count) {
+        return bank.get(count);
+    }
+
+    @Override
+    public int check() {
+        return bank.check();
+    }
+}

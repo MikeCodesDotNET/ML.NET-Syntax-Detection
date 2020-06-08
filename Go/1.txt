@@ -1,0 +1,53 @@
+package main
+
+import (
+	"fmt"
+)
+
+//参考资料：
+// 1. http://developer.51cto.com/art/201403/430986.htm
+// 2. http://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F
+
+func qsort(data []int) {
+	if len(data) < 2 {
+		return
+	}
+
+	//定义左右两端下标
+	left, right := 0, len(data) - 1
+	//定义基准数和它的下标
+	mid, idx := data[0], 0
+
+	//从两端向中间开始探测，目标是把大于基数的值放到右边，小于基数的值放左边，最后把基数放中间
+	for left != right {
+		//从右往左找出第一个比基准数小的值
+		for data[right] >= mid && right > left {
+			right--
+		}
+		//从左到右找出第一个比基准数大的值
+		for data[left] <= mid && left < right {
+			left++
+		}
+		//如果左右两端还没相遇，交换值，并继续查找交换
+		if left < right {
+			data[left], data[right] = data[right], data[left]
+		}
+	}
+	
+	//把基数跟中间值交换
+	data[left],data[idx] = data[idx], data[left]
+	
+	//接下来中间值把左右两端分别做同样的排序，一直递归下去，直到完成
+	qsort(data[0:left])
+	qsort(data[left+1:])
+}
+
+
+func main() {
+
+	data := []int{5, 3, 7, 4, 1, 9, 8, 6, 2, 10}
+
+	qsort(data)
+
+	fmt.Println(data)
+}

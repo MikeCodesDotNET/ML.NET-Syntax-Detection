@@ -1,0 +1,22 @@
+# Pre-requisites
+yum groupinstall -y 'development tools'
+
+# First install Nettle
+git clone https://git.lysator.liu.se/nettle/nettle.git
+cd nettle
+./.bootstrap
+./configure
+make
+make install
+
+# Register the libraries we just built
+ldconfig /usr/local/lib64
+
+# Now install rdfind
+cd ..
+wget http://rdfind.pauldreik.se/rdfind-1.3.4.tar.gz
+tar -xzvf rdfind-1.3.4.tar.gz
+cd rdfind-1.3.4
+./configure
+make
+make install

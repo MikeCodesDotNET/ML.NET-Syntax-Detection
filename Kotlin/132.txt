@@ -1,0 +1,6 @@
+fun whatAmI(value: Any?) = when(value) {
+    3 -> "value is exactly 3"
+    is Int -> "double the value = ${value * 2}"
+    "What the fuck?" -> "Swich case + if statement!"
+    else -> "No value"
+}

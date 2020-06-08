@@ -1,0 +1,20 @@
+# RedCloth doesn't work well with the Prism syntax highlighting lirbary due to the way it handles <code> blocks when it comes to newlines using bc..
+# But we can add a config/initializers/redcloth.yml file to our Rails app and monkey patch it so it does.
+#
+# So, this monkey patch is to make RedCloth not split the bc.. code blocks on newlines.
+# To actually use it with Prism the syntax should look like this:
+# bc(language-ruby).. whatever multi-line code you want to display goes here
+module RedCloth::Formatters::HTML
+  def bc_open(opts)
+    opts[:block] = true
+    "<pre#{pba(opts)}><code>"
+  end
+
+  def bc_close(opts)
+    "</code></pre>\n"
+  end
+
+  def code(opts)
+    "#{opts[:text]}"
+  end
+end

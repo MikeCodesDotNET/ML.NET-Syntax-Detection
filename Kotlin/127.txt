@@ -1,0 +1,8 @@
+val webappContext = WebappContext("Graphql Context", "/")
+
+webappContext.addServlet("GraphQL Endpoint", graphqlServlet)
+             .addMapping("/graphql")
+
+val server = HttpServer.createSimpleServer()
+
+webappContext.deploy(server)

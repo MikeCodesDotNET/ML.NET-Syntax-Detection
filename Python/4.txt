@@ -1,0 +1,33 @@
+### Answer for 3.5
+def mapReduce(text):
+	combined = {}
+	for text_kv in text:
+		mapped_kv = map(lambda w: (w, 1), text_kv[1].split())
+		
+		for interm_kv in mapped_kv:
+			if interm_kv[0] not in combined.keys():
+				combined[interm_kv[0]] = [interm_kv[1]]
+			else:
+				combined[interm_kv[0]] += [interm_kv[1]]
+
+	wc_list = []
+	for rid in sorted(combined):
+		word_count = (rid, reduce(int.__add__, combined[rid]))
+		wc_list.append(word_count)
+	
+	return wc_list
+###
+
+inputData = [(1, "this is this  is this ok"), (2, "i think this is ok")]
+inputData2 = [(1, "how how brown cow"), (2, "how does it work now")]
+fo = open("pyzen.txt","rw+")
+inputData3 = []
+i = 1
+for line in fo:
+	sline = line.strip()
+	inputData3.append( (i, sline) )
+	i += 1
+
+print mapReduce(inputData)
+print mapReduce(inputData2)
+print mapReduce(inputData3)

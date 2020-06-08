@@ -1,0 +1,25 @@
+class Program
+{
+    static void Main(string[] args)
+    {
+        var path = "c:\\temp\\notfound.txt";
+        try
+        {
+            File.Delete(path);
+        }
+        catch (UnauthorizedAccessException)
+        {
+            FileAttributes attributes = File.GetAttributes(path);
+            if ((attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
+            {
+                attributes &= ~FileAttributes.ReadOnly;
+                File.SetAttributes(path, attributes);
+                File.Delete(path);
+            }
+            else
+            {
+                throw;
+            }
+        }
+    }
+}

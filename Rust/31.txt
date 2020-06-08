@@ -1,0 +1,53 @@
+struct Point {
+    x: int,
+    y: int
+}
+
+trait Positioned {
+    fn x(&self)-> int;
+    fn y(&self)-> int;
+    fn setX(&mut self, int);
+    fn setY(&mut self, int);
+}
+
+trait Movable: Positioned {
+    fn translate(&mut self, dx: int, dy: int);
+}
+
+struct Entity {
+    pos: Point,
+}
+
+impl Positioned for Entity {
+    fn x(&self)-> int {
+        self.pos.x
+    }
+    fn y(&self)-> int {
+        self.pos.y
+    }
+    fn setX(&mut self, v: int) {
+        self.pos.x = v;
+    }
+    fn setY(&mut self, v: int) {
+        self.pos.y = v;
+    }
+}
+
+impl Movable for Entity {
+    fn translate(&mut self, dx: int, dy: int) {
+        let x = self.x();
+        let y = self.y();
+        self.setX(x + dx);
+        self.setY(y + dy);
+    }
+}
+
+fn main() {
+    let mut e = Entity {
+        pos: Point { x: 0, y: 0 },
+    };
+
+    println(fmt!("%?, %?", e.x(), e.y()));
+    e.translate(5, 10);
+    println(fmt!("%?, %?", e.x(), e.y()));
+}

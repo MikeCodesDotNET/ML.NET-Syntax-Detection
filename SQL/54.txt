@@ -1,0 +1,8 @@
+UPDATE p
+SET    p.category = c.category
+FROM   products p
+       INNER JOIN prodductcatagories pg
+            ON  p.productid = pg.productid
+       INNER JOIN categories c
+            ON  pg.categoryid = c.cateogryid
+WHERE  c.categories LIKE 'whole%'

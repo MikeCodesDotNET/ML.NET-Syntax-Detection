@@ -1,0 +1,7 @@
+FROM alpine:latest AS devel
+RUN apk --no-cache add git
+RUN mkdir /app
+RUN touch /app/foo
+
+FROM scratch AS runtime
+COPY --from=devel /app/. /app

@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[timesheets](
+    [timesheet_id] [int] IDENTITY(1,1) NOT NULL,
+    [employee_id] [int] NOT NULL,
+    [checkin_time_utc] [datetime] NOT NULL,
+    [checkout_timeutc] [datetime] NULL,
+ CONSTRAINT [PK_timesheets] PRIMARY KEY CLUSTERED ([timesheet_id] ASC)
+) ON [PRIMARY];

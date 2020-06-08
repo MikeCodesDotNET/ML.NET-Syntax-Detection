@@ -1,0 +1,2 @@
+SELECT UPPER(FirstName) + ' ' + UPPER(LastName) AS FullName
+FROM   Person.Person

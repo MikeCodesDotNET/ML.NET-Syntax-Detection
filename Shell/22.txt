@@ -1,0 +1,5 @@
+$ sudo easy_install pip
+$ sudo pip install --upgrade pip
+$ sudo pip install mssql-cli
+$ brew install postgres
+$ brew cask install mysql-shell

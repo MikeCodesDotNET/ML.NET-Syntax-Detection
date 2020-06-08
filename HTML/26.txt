@@ -1,0 +1,82 @@
+<link rel="import" href="../google-map/google-map-search.html">
+<link rel="import" href="../google-map/google-map.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../paper-calculator/paper-calculator.html">
+<link rel="import" href="../paper-tabs/paper-tabs.html">
+<link rel="import" href="../paper-tabs/paper-tab.html">
+<link rel="import" href="../paper-ripple/paper-ripple.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      #google_map {
+        width: 500px;
+        height: 500px;
+        left: -10px;
+        top: 30px;
+        position: absolute;
+      }
+      #paper_button {
+        left: 660px;
+        top: 210px;
+        position: absolute;
+      }
+      #paper_calculator {
+        width: 400px;
+        height: 560px;
+        left: 620px;
+        top: 270px;
+        position: absolute;
+      }
+      #section {
+        width: 420px;
+        height: 630px;
+        border: 5px solid rgb(204, 204, 204);
+        left: 90px;
+        top: 30px;
+        position: absolute;
+      }
+      #paper_tabs {
+        background-color: rgb(0, 188, 212);
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
+      }
+      #paper_ripple {
+        width: 300px;
+        height: 300px;
+        left: 790px;
+        top: 110px;
+        position: absolute;
+      }
+    </style>
+    <google-map-search query="Pizza" map="{{ map }}" result="{{result}}"></google-map-search>
+    <div>Result: 39.980679, -75.128129</div>
+    <google-map latitude="37.90480159026226" longitude="-121.94837358398439" id="google_map" map="{{map}}"></google-map>
+    <paper-button id="paper_button">button</paper-button>
+    <paper-calculator expression="9874" responsivewidth="2000px" id="paper_calculator"></paper-calculator>
+    <section id="section" layout vertical>
+      <paper-tabs noink nobar selected="0" selectedindex="0" id="paper_tabs" horizontal center layout>
+        <paper-tab id="paper_tab" inline flex center-center horizontal layout active>ITEM ONE</paper-tab>
+        <paper-tab id="paper_tab1" inline flex center-center horizontal layout>ITEM TWO</paper-tab>
+      </paper-tabs>
+      <section id="section1" flex relative>
+      </section>
+    </section>
+    <paper-ripple id="paper_ripple"></paper-ripple>
+  </template>
+
+  <script>
+
+    Polymer({
+      map: null,
+      result: {
+        "latitude": 39.980679,
+        "longitude": -75.128129,
+        "show": true
+      }
+    });
+
+  </script>
+
+</polymer-element>

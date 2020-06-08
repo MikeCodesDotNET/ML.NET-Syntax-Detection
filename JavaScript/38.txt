@@ -1,0 +1,28 @@
+const customElement = [
+  {
+    id: "1",
+    style: {
+      background: "#454052",
+      width: 200,
+      color: "#fff",
+      fontSize: "20px",
+      fontFamily: "Helvetica",
+      boxShadow: "5px 5px 5px 0px rgba(0,0,0,.10)"
+    },
+    data: { label: "My custom node" },
+    position: { x: 500, y: 250 }
+  },
+  {
+    id: "2",
+    style: {
+      background: "#fff",
+      width: 400,
+      color: "#454052",
+      fontSize: "25px",
+      fontFamily: "Helvetica",
+      boxShadow: "5px 5px 5px 0px rgba(0,0,0,.10)"
+    },
+    data: { label: "My second custom node 😉" },
+    position: { x: 550, y: 300 }
+  }
+];

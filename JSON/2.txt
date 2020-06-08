@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "name": "query",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "documentDB",
+      "name": "documents",
+      "databaseName": "<your-database-name>",
+      "collectionName": "<your-collection-name>",
+      "sqlQuery": "SELECT * FROM d WHERE d.name = {Name} and d.city = {City}",
+      "connection": "<connectionstring-setting-name>",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

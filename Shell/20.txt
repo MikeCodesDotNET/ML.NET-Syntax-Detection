@@ -1,0 +1,3 @@
+$ brew cask search java
+$ brew cask info java8
+$ brew cask install java8

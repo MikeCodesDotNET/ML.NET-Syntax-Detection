@@ -1,0 +1,26 @@
+Rails.application.routes.draw do
+
+  concern :scrobbles do
+    resources :scrobbles, only: [:index]
+  end
+
+  concern :users do
+    resources :users, only: [:index]
+  end
+
+  concern :tracks do
+    resources :tracks, only: [:index]
+  end
+
+  resources :scrobbles, only: [:index, :show]
+
+  resources :users, only: [:index, :show], concerns: [:scrobbles, :tracks]
+
+  constraints(id: /.+/) do
+    resources :artists, only: [:index, :show], concerns: [:scrobbles, :users] do
+      resources :tracks, only: [:index, :show], concerns: [:scrobbles, :users]
+    end
+  end
+
+  root 'home#index'
+end

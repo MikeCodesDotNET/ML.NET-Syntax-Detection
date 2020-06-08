@@ -1,0 +1,18 @@
+# nginx dockerfile
+
+# build stage
+FROM node:14.3.0-alpine3.10 as build-stage
+WORKDIR /app/
+COPY frontend/package.json /app/
+RUN npm cache verify
+RUN npm install
+COPY frontend /app/
+RUN npm run build
+
+# production stage
+FROM nginx:1.17.10-alpine as production-stage
+COPY nginx/prod/prod.conf /etc/nginx/nginx.conf
+COPY backend/static /usr/src/app/static/    ### problem yaranan yer, bu build olanda static foler yaranmamis olur
+COPY --from=build-stage /app/dist /dist/
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

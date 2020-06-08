@@ -1,0 +1,128 @@
+import string, operator
+
+def get_books(filename='books.txt'):
+    books_file = open(filename, 'r')
+    books_file_lines = books_file.readlines()
+    books_file.close()
+
+    books = map(lambda line: line.strip().split(','), books_file_lines)
+
+    return books
+
+def book_by_index(books, index):
+    book = books[index]
+    book_string = book[0] + ': ' + book[1]
+    return book_string
+
+
+def get_ratings(filename='ratings.txt'):
+    ratings_file = open(filename, 'r')
+    ratings_file_lines = ratings_file.readlines()
+    ratings_file.close()
+    ratings = []
+    i = 0
+    while i < len(ratings_file_lines):
+        name        = ratings_file_lines[i].strip()
+        rating_data = map(int, ratings_file_lines[i+1].split()) 
+        rating = [name, rating_data]
+        ratings.append(rating)
+        i += 2
+    return ratings
+
+def ratings_by_user(ratings, username):
+    filtered = filter(lambda rating: rating[0] == username, ratings)
+    if len(filtered) == 0:
+        return None
+    else:
+        return filtered[0][1]
+
+    
+
+
+
+def dot_product(a, b):
+    return reduce(operator.add, map(operator.mul, a, b))
+    
+def get_similarities(ratings, user_ratings):
+    return map(lambda rating: [rating[0], dot_product(rating[1], user_ratings)], ratings)
+
+def get_recommendations(ratings, user_ratings, targetcount):
+    similarities = get_similarities(ratings, user_ratings)
+    similarities.sort(key=lambda x: x[1])
+
+    recommendations = []
+    seen = []
+    
+    count = 0
+    while count < targetcount and len(similarities) > 0:
+        similar_user = similarities.pop()
+        similar_user_name    = similar_user[0]
+        similar_user_ratings = ratings_by_user(ratings, similar_user_name)
+        user_recs = []
+        i = 0
+        while i < len(similar_user_ratings):
+            sur = similar_user_ratings[i]
+            ur  = user_ratings[i]
+            if ur == 0 and sur > 3 and i not in seen:
+                seen.append(i)
+                user_recs.append([i, sur])
+            i = i + 1
+        user_recs.sort(key=lambda x: x[1], reverse=True)
+        l = len(user_recs)
+        left = targetcount-count
+        if l > left:
+            user_recs = user_recs[0:left]
+            l = left
+        if l != 0:            
+            user_recs = [similar_user_name, map(lambda x: x[0], user_recs)]
+            recommendations.append(user_recs)
+            count = count + l
+        
+    return recommendations
+
+
+def format_recommendations(recommendations, username, books):
+    output = []
+    output.append('Book recommendations for ' + username + ':')
+    for user_rec in recommendations:
+        user, urec_books = user_rec
+        output.append('')
+        output.append('[Recommended by ' + user + ']')
+        for book in urec_books:
+            output.append('  * ' + book_by_index(books, book))
+    output.append('')
+    output_string = string.join(output, sep='\n')
+    return output_string
+
+def save_to_file(data, filename='output.txt'):
+    fh = open(filename, 'w')
+    fh.write(data)
+    fh.close()
+
+
+def get_user(ratings, books):
+    username = raw_input('Username: ')
+    user_ratings = ratings_by_user(ratings, username)
+    if user_ratings is None:
+        print 'TODO: input ratings'
+
+    n_recs = raw_input('Number of recommendations: ')
+    n_recs = int(n_recs)
+    
+
+    return username, user_ratings, n_recs
+    
+def main():
+    books   = get_books()
+    ratings = get_ratings()
+
+    username, user_ratings, n_recs = get_user(ratings, books)
+
+    recommendations = get_recommendations(ratings, user_ratings, n_recs)
+
+    output = format_recommendations(recommendations, username, books)
+    print output
+    save_to_file(output)
+    
+
+main()

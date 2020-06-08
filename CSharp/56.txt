@@ -1,0 +1,12 @@
+private readonly InstagramApi _api;
+
+public IndexModel(InstagramApi api)
+{
+    _api = api;
+}
+
+public ActionResult OnGet()
+{
+    var url = _api.Authorize("anything-passed-here-will-be-returned-as-state-variable");
+    return Redirect(url);
+}

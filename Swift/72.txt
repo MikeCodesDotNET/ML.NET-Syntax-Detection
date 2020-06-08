@@ -1,0 +1,18 @@
+import CoreGraphics
+
+public protocol Tweenable {
+    
+    typealias ScalarMultiplierType: FloatingPointType
+    
+    func +(lhs: Self, rhs: Self) -> Self
+    func *(lhs: Self, rhs: ScalarMultiplierType) -> Self
+    func *(lhs: Self, rhs: ScalarMultiplierType.Stride) -> Self
+    
+}
+
+public typealias ScalarMultiplierType = CGFloat
+
+public func tween<T: Tweenable>(#from: T, to: T, at t: T.ScalarMultiplierType) -> T {
+    let f = T.ScalarMultiplierType(1) - t
+    return (from * f) + (to * t)
+}

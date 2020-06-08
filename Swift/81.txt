@@ -1,0 +1,31 @@
+import UIKit
+
+extension UIFont {
+    class func systemFontOfSize(size: CGFloat) -> UIFont {
+        return UIFont(name: "CustomFont-Regular", size: size)!
+    }
+    func lightSystemFontOfSize(size: CGFloat) -> UIFont {
+        return UIFont(name: "CustomFont-Light", size: size)!
+    }
+    func boldSystemFontOfSize(size: CGFloat) -> UIFont {
+        return UIFont(name: "CustomFont-Bold", size: size)!
+    }
+    func preferredFontForTextStyle(style: String) -> UIFont {
+        switch(style) {
+        case UIFontTextStyleBody:
+            return UIFont.systemFontOfSize(17)
+        case UIFontTextStyleHeadline:
+            return UIFont.boldSystemFontOfSize(17)
+        case UIFontTextStyleSubheadline:
+            return UIFont.systemFontOfSize(15)
+        case UIFontTextStyleFootnote:
+            return UIFont.systemFontOfSize(13)
+        case UIFontTextStyleCaption1:
+            return UIFont.systemFontOfSize(12)
+        case UIFontTextStyleCaption2:
+            return UIFont.systemFontOfSize(11)
+        default:
+            return UIFont.systemFontOfSize(17)
+        }
+    }
+}

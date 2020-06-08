@@ -1,0 +1,15 @@
+val name = PublishSubject.create<String>()
+val age = PublishSubject.create<Int>()
+
+// Can not omit Type parameters and BiFunction 
+Observable.combineLatest<String, Int, String>(
+        name, age, BiFunction { n, a -> "$n - age:${a}" })
+        .subscribe({
+            Log.d("combineLatest", "onNext - ${it}")
+        })
+
+// If you introduce RxKotlin then you can use type inference
+Observables.combineLatest(name, age) { n, a -> "$n - age:${a}" }
+        .subscribe({
+            Log.d("combineLatest", "onNext - ${it}")
+        })

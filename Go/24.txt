@@ -1,0 +1,34 @@
+package main
+
+import (
+	"net"
+)
+
+type Chat struct {
+	clients []*Client
+	joins   chan net.Conn
+}
+
+func NewChat() *Chat {
+	chat := &Chat{
+		joins: make(chan net.Conn, 10),
+	}
+	go chat.run()
+	return chat
+}
+
+func (chat *Chat) Broadcast(message *Message) {
+	for _, client := range chat.clients {
+		if client == message.Client {
+			client.Write([]byte("\x1b[A\r"))
+		}
+		client.Write(message.Bytes())
+	}
+}
+
+func (chat *Chat) run() {
+	for conn := range chat.joins {
+		client := NewClient(conn.RemoteAddr().String(), conn, chat)
+		chat.clients = append(chat.clients, client)
+	}
+}

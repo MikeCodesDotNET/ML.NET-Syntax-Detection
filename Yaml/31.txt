@@ -1,0 +1,29 @@
+- hosts: ec2hosts
+  user: ec2-user
+  vars:
+    ansible_ssh_private_key_file: "~/.ssh/aws-default.pem"
+  
+  tasks:
+    - name: Subscribe via subscription-manager
+      redhat_subscription: 
+        state: present 
+        username: "{{ lookup('env','CP_USER') }}" 
+        password: "{{ lookup('env','CP_PASSWORD') }}" 
+        pool: "8a85f9814999f69101499bf4247825f4"
+    - name: Disable all repos
+      command: subscription-manager repos --disable="*"
+    - name: Enable OSE repo
+      command: subscription-manager repos --enable="rhel-7-server-ose-3.0-rpms"
+    - name: Install php and git 
+      yum: name={{ item }} state=present
+      with_items:
+        - deltarpm 
+        - wget 
+        - vim-enhanced 
+        - net-tools 
+        - bind-utils 
+        - tmux 
+        - git 
+        - httpd-tools 
+        - docker 
+        - lvm2

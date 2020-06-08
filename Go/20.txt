@@ -1,0 +1,13 @@
+func (cpe *Cpe) Add() error {
+
+	stmt, err := cpe.db.Prepare("INSERT INTO cpe (`userid`,`ipaddr`,`macaddr`,`name`,`location`) VALUES (?,?,?,?,?)")
+	response, err := stmt.Exec(cpe.Userid, cpe.Ipaddr, cpe.Macaddr, cpe.Name, cpe.Location)
+
+	if err != nil {
+		return err
+	}
+	lastId, err := response.LastInsertId()
+	cpe.Cpeid = lastId
+
+	return nil
+}

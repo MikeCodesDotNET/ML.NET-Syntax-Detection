@@ -1,0 +1,6 @@
+class MyClass {
+   companion object {
+       @JvmStatic
+       fun myStaticMethod(/*...*/) { /*...*/ }
+   }
+}

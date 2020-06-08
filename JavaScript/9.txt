@@ -1,0 +1,11 @@
+const actions = {
+   heal(amount) {
+      return this.health += amount;
+   },
+   setLevel(level) {
+      return this.level = level;
+   },
+   mute() {
+      return this.sound = false;
+   }
+}

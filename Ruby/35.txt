@@ -1,0 +1,18 @@
+class Ancestor; end
+
+class Ancestor::DescOne
+  def self.desc_one_defined?
+    !!defined?(DescOne)
+  end
+end
+
+# Spork defines Spork::TestFramework::RSpec as:
+# Spork::TestFramework::RSpec < Spork::TestFramework
+class Ancestor::DescTwo < Ancestor
+  def self.desc_two_defined?
+    !!defined?(DescTwo)
+  end
+end
+
+puts "DescOne defined?: #{Ancestor::DescOne.desc_one_defined?}"    # returns false
+puts "DescTwo defined?: #{Ancestor::DescTwo.desc_two_defined?}"    # returns true

@@ -1,0 +1,40 @@
+import unittest
+
+import solution
+
+
+class TestGrandmaPickles(unittest.TestCase):
+
+    def test_jars_content_result_elements_are_generators(self):
+        for jar in solution.jars_content(
+            jars=2,
+            carrots=3,
+            celeries=2,
+            bell_peppers=7,
+            cauliflowers=4
+        ):
+            self.assertTrue(hasattr(jar, '__iter__'))
+            self.assertTrue(hasattr(jar, '__next__'))
+            self.assertFalse(hasattr(jar, '__getitem__'))
+            self.assertFalse(hasattr(jar, '__len__'))
+
+    def test_sample_grandma_always_tries_to_take_fixed_combo(self):
+        jars = solution.jars_content(
+            jars=2,
+            carrots=5,
+            celeries=4,
+            bell_peppers=1,
+            cauliflowers=5
+        )
+
+        first_jar_content = list(jars[0])
+        second_jar_content = list(jars[1])
+        self.assertEqual(first_jar_content.count('cauliflower'), 3)
+        self.assertEqual(second_jar_content.count('bell_pepper'), 0)
+        self.assertEqual(second_jar_content.count('cauliflower'), 2)
+        self.assertEqual(second_jar_content.count('carrot'), 1)
+        self.assertEqual(second_jar_content.count('celery'), 1)
+
+
+if __name__ == '__main__':
+    unittest.main()

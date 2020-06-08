@@ -1,0 +1,5 @@
+UPDATE A
+SET foo = B.bar
+FROM TableA A
+JOIN TableB B
+    ON A.col1 = B.colx

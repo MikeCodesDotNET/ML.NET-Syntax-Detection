@@ -1,0 +1,67 @@
+---
+- hosts:
+    - localhost
+  connection: local
+  gather_facts: False
+  vars:
+    ami_id: ami-29ebb519  # Ubuntu 14.04 amd64 server
+    region: us-west-2  # XXX: Arbitrarily chosen
+    http_port: 80
+    domain_name: haverer.jml.io
+    static_domain_name: static.haverer.jml.io
+  tasks:
+    - name: configure security group
+      ec2_group:
+        name: webserver
+        description: "Allow web and SSH"
+        region: "{{ region }}"
+        rules:
+          - proto: tcp
+            from_port: 80
+            to_port: "{{ http_port }}"
+            cidr_ip: 0.0.0.0/0
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            cidr_ip: 0.0.0.0/0
+
+    - name: provision app servers
+      ec2:
+         key_name: "mumak aws"  # XXX: Should we make this?
+         group: webserver
+         instance_type: t2.micro
+         image: "{{ ami_id }}"
+         wait: true
+         exact_count: 1
+         region: "{{ region }}"
+         count_tag:
+            Name: haverer-api
+         instance_tags:
+            Name: haverer-api
+      register: ec2
+
+    - name: obtain IP address
+      ec2_eip:
+        region: "{{ region }}"
+        state: present
+        instance_id: "{{ ec2.tagged_instances[0].id }}"
+        reuse_existing_ip_allowed: yes
+      register: eip
+
+    - name: configure app server DNS
+      route53:
+        command: create
+        overwrite: yes
+        zone: jml.io
+        record: "{{ domain_name }}"
+        type: A
+        value: "{{ eip.public_ip }}"
+
+    - name: configure static server DNS
+      route53:
+        command: create
+        overwrite: yes
+        zone: jml.io
+        record: "{{ static_domain_name }}"
+        type: A
+        value: "{{ eip.public_ip }}"

@@ -1,0 +1,32 @@
+#![crate_type="dylib"]
+#![feature(rustc_private, plugin, quote, custom_derive, plugin_registrar)]
+
+extern crate syntax;
+extern crate rustc;
+extern crate aster;
+
+use std::io;
+use std::io::Write;
+
+pub trait Serialize {
+    fn serialize<T>(&self, writer: T) where T : io::Write;
+}
+
+mod serialize;
+
+pub struct Serializer;
+    
+impl Serializer {
+    pub fn serialize<T>(name: String, value: String, writer: &mut io::BufWriter<T>) where T : io::Write 
+    {        
+        writer.write_fmt(format_args!("{}: '{}',", name, value));
+    }
+}
+
+#[plugin_registrar]
+pub fn plugin_registrar(reg: &mut rustc::plugin::Registry) {
+    reg.register_syntax_extension(
+        syntax::parse::token::intern("derive_Serialize"),
+        syntax::ext::base::MultiDecorator(
+            Box::new(serialize::expand_derive_serialize)));
+}

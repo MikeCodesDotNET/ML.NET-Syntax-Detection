@@ -1,0 +1,9 @@
+function appendCss() {
+    var b = "HEADERCSS";
+    var a = document.createElement("link");
+    a.rel = "Stylesheet";
+    a.href = "http://game.daum.net/css/header.css";
+    a.type = "text/css";
+    a.charset = "utf-8";
+    document.getElementsByTagName("head")[0].appendChild(a)
+}

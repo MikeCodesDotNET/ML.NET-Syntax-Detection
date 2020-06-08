@@ -1,0 +1,8 @@
+function Character (name, type, health) {
+   this.name = name;
+   this.type = type;
+   this.health = health;
+}
+
+const Jessica = new Character("Jessica", "wizard", 10);
+const Patrick = new Character("Patrick", "warrior", 10);

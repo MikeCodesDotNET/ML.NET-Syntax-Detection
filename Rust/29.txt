@@ -1,0 +1,95 @@
+extern mod extra;
+
+pub mod irc {
+    use extra::net::ip;
+    use extra::net::tcp;
+    use extra::uv_global_loop;
+    use std::result::unwrap;
+    use std::result::is_err;
+
+    struct IrcIdentity {
+        nick: ~str,
+        name: ~str,
+        fullname: ~str
+    }
+
+    pub enum IrcMessage {
+        Line(~str)
+    }
+
+    struct IrcConnection {
+        connection: tcp::TcpSocketBuf,
+        chan: ~Chan<IrcMessage>
+    }
+
+    impl IrcConnection {
+
+        pub fn join( &self, channel: &str ) {
+            self.send( fmt!( "JOIN %s\n", channel ) );
+        }
+
+        fn identify(&self, nick: &str, user: &str, name: &str ) {
+            self.send( fmt!( "NICK %s\n", nick ) );
+            self.send( fmt!( "USER %s 0 * :%s\n", user, name ) );
+        }
+
+        fn send(&self, raw: &str) {
+            debug!( "> %s", raw );
+            self.connection.write_str( raw );
+        } 
+
+        fn reader(&self) {
+            loop {
+                let line = self.connection.read_line();
+
+                self.chan.send( Line( line ) );
+            }
+        }
+    }
+
+    
+    pub fn connect( server: &str, port: uint ) -> Result<Port<IrcMessage>, ~str> {
+        let iotask = uv_global_loop::get();
+
+        let ip_address = ip::get_addr( server, &iotask );
+
+        if( is_err( &ip_address ) ) {
+            return Err( fmt!( "Couldn't get IP address: %?", ip_address ) );
+        }
+
+        let ip_address = copy unwrap(ip_address)[0];
+
+        info!( "Connecting to %s:%u", ip::format_addr( &ip_address ), port );
+
+        let connection = tcp::connect( ip_address, port, &iotask );
+
+        if( is_err( &connection ) ) {
+            return Err( fmt!( "Failed to connect: %?", connection ) );
+        }
+
+        let connection = unwrap( connection );
+        let buffer = tcp::socket_buf( connection );
+
+        let (port, chan): (Port<IrcMessage>, Chan<IrcMessage>) = stream();
+
+        let irc = ~IrcConnection {
+            connection: buffer,
+            chan: ~chan
+        };
+
+        info!( "%?", irc );
+
+        do spawn {
+            irc.identify( "hugbot", "hugbot", "Hug Bot, the hugginest bot in town" );
+            irc.join("#rust");
+            irc.reader();
+        }
+
+        return Ok(port);
+    }
+}
+
+fn main() {
+    let x = irc::connect("irc.mozilla.org", 6667);
+    println(fmt!("%?", x));
+}

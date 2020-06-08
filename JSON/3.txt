@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "InstagramCredentials": {
+    "Name": "friendly name or your app name can go here - this is passed to Instagram as the user-agent",
+    "ClientId": "client-id",
+    "ClientSecret": "client-secret",
+    "RedirectUrl": "https://localhost:5001/auth/oauth"
+  }
+}

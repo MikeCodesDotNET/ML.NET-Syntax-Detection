@@ -1,0 +1,2 @@
+public string Title { get; set;}
+public PersonModel Person { get; set; } = new PersonModel { EnrollmentDate = DateTime.UtcNow.Date };

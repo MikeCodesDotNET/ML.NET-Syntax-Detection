@@ -1,0 +1,102 @@
+# Don't forget to:
+# * Create Azure Storage Container
+# * Create BlobFuse Secrets: kubectl create secret generic blobfusecreds --from-literal accountname=ACCOUNT-NAME --from-literal accountkey="ACCOUNT-KEY" --type="azure/blobfuse"
+# * Deploy BlobFuse Agent on hosts:  https://github.com/Azure/kubernetes-volume-drivers/tree/master/flexvolume/blobfuse#2-install-blobfuse-driver-on-every-agent-vm
+# PV for Blob Fuse
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-blobfuse-flexvol
+spec:
+  capacity:
+    storage: 100Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Retain
+  flexVolume:
+    driver: "azure/blobfuse"
+    secretRef:
+      name: blobfusecreds
+    options:
+      container: blobfuse
+      tmppath: /tmp/blobfuse
+      mountoptions: "--file-cache-timeout-in-seconds=120 --use-https=true"
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pvc-blobfuse-flexvol
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+  volumeName: pv-blobfuse-flexvol
+  storageClassName: ""
+---
+# PVC for Azure Managed Disk
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: azure-managed-disk
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: managed-premium
+  resources:
+    requests:
+      storage: 5Gi
+---
+# Storage Class for Azure Files
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: azure-files
+provisioner: kubernetes.io/azure-file
+mountOptions:
+  - dir_mode=0777
+  - file_mode=0777
+  - uid=1000
+  - gid=1000
+parameters:
+  storageAccount: aks19
+---
+# PVC for Azure Files
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: azure-files
+spec:
+  accessModes:
+    - ReadWriteMany
+  storageClassName: azure-files
+  resources:
+    requests:
+      storage: 5Gi
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: azure-volumes
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      volumeMounts:
+      - mountPath: "/mnt/azure-managed-disk"
+        name: azure-managed-disk
+      - mountPath: "/mnt/azure-files"
+        name: azure-files
+      - mountPath: "/mnt/azure-blobfuse"
+        name: azure-blobfuse
+  volumes:
+    - name: azure-managed-disk
+      persistentVolumeClaim:
+        claimName: azure-managed-disk
+    - name: azure-files
+      persistentVolumeClaim:
+        claimName: azure-files
+    - name: azure-blobfuse
+      persistentVolumeClaim:
+        claimName: pvc-blobfuse-flexvol

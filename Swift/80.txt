@@ -1,0 +1,34 @@
+import UIKit
+
+struct Dynamic<T> {
+    var value: T {
+        didSet {
+            if let listener = listener {
+                listener(value)
+            }
+        }
+    }
+    
+    typealias Listener = T -> Void
+    var listener: Listener?
+    
+    mutating func bind (listener: Listener) {
+        self.listener = listener
+        self.listener!(value)
+    }
+    
+    init(_ value: T) {
+        self.value = value
+    }
+}
+
+// --
+var myLabel = UILabel(frame: CGRectMake(0, 0, 100, 20))
+myLabel.text = "Inital Text"
+
+var labelText = Dynamic("Label Text")
+labelText.bind { myLabel.text = $0 }
+
+println("\(myLabel.text)")
+labelText.value = "New Label Text"
+println("\(myLabel.text)")

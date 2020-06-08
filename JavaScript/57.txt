@@ -1,0 +1,24 @@
+// Get users
+		$(function() {
+			$('#btn-search').on('click', function(e) {
+
+				unameSearch = $('#uname_search').val()
+
+				e.preventDefault()
+				$.ajax({
+					url: 'requests.php',
+					dataType: 'json',
+					data: {f: 'users', uname: unameSearch},
+					method: 'GET',
+					success: function(data) {
+
+						console.log(data)
+
+						$(data).each(function(index, item) {
+							$('#table').append('<tr><td>' + item.uname + '</td><td>' + item.ids + '</td></tr>');
+						})
+
+					}
+				})
+			})
+		})

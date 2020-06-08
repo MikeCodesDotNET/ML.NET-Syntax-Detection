@@ -1,0 +1,14 @@
+  networkResources := &networkResource{}
+  if err := json.NewDecoder(strings.NewReader(testDat)).Decode(networkResources); err != nil {
+    return fmt.Errorf("Error reading remote info: %v", err)
+  }
+  fmt.Fprintf(cli.out, "Network Id: %s\n", networkResources.ID)
+  fmt.Fprintf(cli.out, "Network Name: %s\n", networkResources.Name)
+  fmt.Fprintf(cli.out, "Network Type: %s\n", networkResources.Type)
+  if networkResources.Endpoints != nil {
+    for _, networkResource := range networkResources.Endpoints {
+      fmt.Fprintf(cli.out, "Type: %d\n", networkResource.ID)
+      fmt.Fprintf(cli.out, "Type: %d\n", networkResource.Name)
+      fmt.Fprintf(cli.out, "Type: %d\n", networkResource.Info)
+    }
+  }

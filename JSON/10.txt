@@ -1,0 +1,14 @@
+{
+   "rajaongkir":{
+      "status":{
+         "code":200,
+         "description":"OK"
+      },
+      "result":{
+         "value":13140,
+         "last_update":"2015-03-20",
+         "source_name":"Bank Sentral Republik Indonesia (BI)",
+         "source_link":"http:\/\/www.bi.go.id\/en\/moneter\/informasi-kurs\/transaksi-bi\/Default.aspx"
+      }
+   }
+}

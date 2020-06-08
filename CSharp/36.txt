@@ -1,0 +1,24 @@
+public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddRazorPages();
+            services.AddServerSideBlazor();
+            services.AddSingleton<WeatherForecastService>();
+
+            #region Localization
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                // Define the list of cultures which support your app
+                var supportedCultures = new List<CultureInfo>()
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("fr-FR")
+                };
+
+                // Set the default culture
+                options.DefaultRequestCulture = new RequestCulture("en-US");
+
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
+            #endregion
+        }

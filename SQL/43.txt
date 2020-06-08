@@ -1,0 +1,4 @@
+update ud
+  set assid = s.assid
+from sale s 
+where ud.id = s.udid;

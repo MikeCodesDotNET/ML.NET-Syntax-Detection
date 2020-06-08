@@ -1,0 +1,59 @@
+private var queueContextKey = UnsafeMutablePointer<Void>.alloc(1)
+private var queueContextValue = UnsafeMutablePointer<Void>.alloc(1)
+private var mainQueueContextValue = UnsafeMutablePointer<Void>.alloc(1)
+
+class QueueTest {
+    private let onQueue: dispatch_queue_t
+
+    init(useBackgroundQueue: Bool = false) {
+        if useBackgroundQueue {
+            let queueAttribs = dispatch_queue_attr_make_with_qos_class(DISPATCH_QUEUE_SERIAL, QOS_CLASS_UTILITY, 0)
+            self.onQueue = dispatch_queue_create("com.plangrid.dispatcher", queueAttribs)
+            dispatch_queue_set_specific(self.onQueue, queueContextKey, queueContextValue, nil)
+        }
+        else {
+            self.onQueue = dispatch_get_main_queue()
+        }
+
+        dispatch_queue_set_specific(dispatch_get_main_queue(), queueContextKey, mainQueueContextValue, nil)
+    }
+
+    func doAThing(f:()->Void) {
+        sync {
+            print("did a thing!")
+            f()
+        }
+    }
+
+    //sketchy or not?
+    private func isOwnQueue() -> Bool {
+        let value = dispatch_get_specific(queueContextKey)
+        return value == queueContextValue || (self.onQueue == dispatch_get_main_queue() && value == mainQueueContextValue)
+    }
+    
+    private class func isMainQueue() -> Bool {
+        return dispatch_get_specific(queueContextKey) == mainQueueContextValue
+    }
+
+    private func sync<T>(action: ()->T) -> T {
+        return _sync(action)
+    }
+
+    private func sync(action: ()->Void) {
+        _sync(action)
+    }
+
+    private func _sync<T>(action: ()->T) -> T {
+        if isOwnQueue() {
+            //prevent deadlocks by detecting if we are on our own queue
+            return action()
+        }
+        else {
+            var result: T!
+            dispatch_sync(self.onQueue) {
+                result = action()
+            }
+            return result
+        }
+    }
+}

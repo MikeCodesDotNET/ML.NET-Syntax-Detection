@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	type key struct {
+		door string
+	}
+
+	keys := []key{key{door: "x"}, key{door: "y"}, key{door: "z"}}
+	fmt.Print(keys[0])
+	// find the key to open door y
+}

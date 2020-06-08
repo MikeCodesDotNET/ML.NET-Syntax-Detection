@@ -1,0 +1,4 @@
+Object.defineProperty(Function.prototype, 'initializing', {
+    value: false,
+    writable: true,
+});

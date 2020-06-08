@@ -1,0 +1,15 @@
+class Program
+{
+    static void Main(string[] args)
+    {
+        var path = "c:\\temp\\readonly.txt";
+        try
+        {
+            File.Delete(path);
+        }
+        catch (UnauthorizedAccessException e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+}

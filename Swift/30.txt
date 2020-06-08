@@ -1,0 +1,11 @@
+func invokeLater(delay: CGFloat, code: () -> Void) {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(delay * CGFloat(NSEC_PER_SEC))), dispatch_get_main_queue(), code)
+}
+
+// Usage:
+invokeLater(0.1) {
+    doSomething()
+}
+
+// Documents Directory in Simulator
+println("Documents Directory: \(NSFileManager.defaultManager().URLsForDirectory(NSSearchPathDirectory.DocumentDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask))")

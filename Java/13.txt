@@ -1,0 +1,46 @@
+class Student implements Serializable {
+	private String name;
+	private int mark;
+	//if attribute contains transient, not save.
+	transient private String city;
+	
+	public Student(String name, int mark, String city) {
+		this.name = name;
+		this.mark = mark;
+		this.city = city;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", mark=" + mark + "]";
+	}
+}
+class Group implements Serializable {
+	private ArrayList<Student> students;
+	
+	public Group() {
+		students = new ArrayList<Student>();
+	}
+	public void add(Student s){
+		students.add(s);
+	}
+	@Override
+	public String toString() {
+		return "Group [students=" + students + "]";
+	}
+}
+
+//Create groups, save in binary file and retrieve from this file
+	Group g = new Group();
+	g.add(new Student("John", 10, "Barcelona"));
+	g.add(new Student("Daniel", 5, "Madrid"));
+		
+	ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("group"));
+	out.writeObject(g);
+	out.close();
+		
+	Group g2;
+	ObjectInputStream in = new ObjectInputStream(new FileInputStream("group"));
+	g2 = (Group) in.readObject();
+	in.close();
+	System.out.println(g2);

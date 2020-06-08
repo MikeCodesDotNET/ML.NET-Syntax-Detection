@@ -1,0 +1,117 @@
+# ========= Stages build image ========= #
+FROM golang:1.11-alpine as stage
+
+RUN apk add --no-cache -t build-deps bash build-base curl git make gcc 
+
+RUN go get -v -u github.com/onsi/ginkgo/ginkgo \
+  github.com/onsi/ginkgo \
+  github.com/onsi/gomega \
+  golang.org/x/tools/cmd/cover 
+
+RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+RUN curl -sfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh| sh -s -- -b $GOPATH/bin v1.12.3
+
+# ========= Adorns stage with build args ========= #
+FROM stage as build
+
+ARG GOARCH
+ENV GOARCH ${ARCH:-amd64}
+
+ARG CGO_ENABLED
+ENV CGO_ENABLED ${CGO_ENABLED:-0}
+
+ARG GOOS
+ENV GOOS ${GOOS:-linux}
+
+ARG PKG
+ENV PKG ${PKG:-github.com/johnt337}
+
+ARG VERSION
+ENV VERSION ${VERSION:-1.0.0}
+
+ARG GIT_COMMIT
+ENV GIT_COMMIT ${GIT_COMMIT:-""}
+
+ARG GIT_DIRTY
+ENV GIT_DIRTY ${GIT_DIRTY:-""}
+
+ARG PRERELEASE
+ENV PRERELEASE ${PRERELEASE:-dev}
+
+ARG UNIT
+ENV UNIT ${UNIT:-myapp}
+
+ARG BUILDDIR
+ENV BUILDDIR ${BUILDDIR:-./_build}
+
+COPY . /go/src/${PKG}/${UNIT}
+
+WORKDIR /go/src/${PKG}/${UNIT}
+
+# ========= Allow us to dep only
+FROM build as vendor
+
+ARG VENDOR_OPTS
+ENV VENDOR_OPTS ${VENDOR_OPTS:-""}
+RUN echo "running: dep ensure ${VENDOR_OPTS}"
+RUN dep ensure ${VENDOR_OPTS}
+
+VOLUME /go/src/${PKG}/${UNIT}/vendor
+
+# ========= Allow us to lint only
+FROM build as lint
+
+COPY --from=vendor /go/src/${PKG}/${UNIT}/vendor /go/src/${PKG}/${UNIT}/vendor
+RUN golangci-lint run ./...
+
+# ========= Allow us to test only
+FROM build as test
+
+ARG TEST_OPTS
+ENV TEST_OPTS ${TEST_OPTS:--v}
+RUN echo "running: go test ${TEST_OPTS} ./..."
+COPY --from=vendor /go/src/${PKG}/${UNIT}/vendor /go/src/${PKG}/${UNIT}/vendor
+RUN go test ${TEST_OPTS} ./...
+
+# ========= Allow us to compile only
+FROM build as compile
+
+RUN echo "GOARCH=$GOARCH" && \
+  echo "CGO_ENABLED=$CGO_ENABLED" && \
+  echo "GOOS=$GOOS" && \
+  echo "PKG=$PKG" && \
+  echo "VERSION=$VERSION" && \
+  echo "GIT_COMMIT=$GIT_COMMIT" && \
+  echo "GIT_DIRTY=$GIT_DIRTY" && \
+  echo "PRERELEASE=$PRERELEASE" && \
+  echo "UNIT=$UNIT" && \
+  echo "BUILDDIR=$BUILDDIR"
+
+COPY --from=vendor /go/src/${PKG}/${UNIT}/vendor /go/src/${PKG}/${UNIT}/vendor
+RUN CGO_ENABLED=${CGO_ENABLED} GOARCH=${GOARCH} GOOS=${GOOS} go build -a -installsuffix cgo \
+  -ldflags "-w -X ${PKG}/${UNIT}/cmd.GitCommit=${GIT_COMMIT}${GIT_DIRTY} -X ${PKG}/${UNIT}/cmd.Version=${VERSION} -X ${PKG}/${UNIT}/cmd.Unit=${UNIT} -X ${PKG}/${UNIT}/cmd.VersionPrerelease=${PRERELEASE}" \
+  -o ${BUILDDIR}/${GOOS}/${UNIT} main.go
+
+# ========= Adorns stage with build args ========= #
+FROM scratch as production
+
+ARG PKG
+ENV PKG ${PKG:-github.com/johnt337}
+
+ARG UNIT
+ENV UNIT ${UNIT:-myapp}
+
+ARG GOOS
+ENV GOOS ${GOOS:-linux}
+
+ARG BUILDDIR
+ENV BUILDDIR ${BUILDDIR:-./_build}
+
+WORKDIR /
+
+COPY --from=compile /go/src/${PKG}/${UNIT}/${BUILDDIR}/${GOOS}/${UNIT} /usr/local/${UNIT}/bin/${UNIT}
+ADD ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
+
+VOLUME ["/usr/local/${UNIT}"]
+ENTRYPOINT [ "/usr/local/myapp/bin/myapp"]
+CMD []

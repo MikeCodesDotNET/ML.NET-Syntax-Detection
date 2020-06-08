@@ -1,0 +1,329 @@
+<div id="container" style="position: relative; width: 500px; height: 300px;"></div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="http://datamaps.github.io/scripts/datamaps.usa.js"></script>
+<script>
+var map = new Datamap({
+element: document.getElementById('container'), 
+scope: 'usa',
+geographyConfig: {
+highlightFillColor: '#000000',
+highlightBorderColor: '#000000',
+popupTemplate: function(geography, data) {
+return '<div class="hoverinfo">' + geography.properties.name + '&#013; Soda:' +  data.sodaVotes + '&#013; Coke:' + data.cokeVotes + '&#013; Pop:' + data.popVotes
+  },
+  highlightBorderWidth: 3
+  },
+
+  fills: {
+  'Coke': '#fc8d62',
+  'Soda': '#66c2a5',
+  'Pop': '#8da0cb',
+  defaultFill: '#FFFFFF'
+  },
+  data:{
+  "AZ": {
+  "fillKey": "Soda",
+  "sodaVotes": 2748,
+  "popVotes": 578,
+  "cokeVotes": 433
+  },
+  "CO": {
+  "fillKey": "Pop",
+  "sodaVotes": 1891,
+  "popVotes": 2879,
+  "cokeVotes": 323
+  },
+  "DE": {
+  "fillKey": "Soda",
+  "sodaVotes": 689,
+  "popVotes": 24,
+  "cokeVotes": 41
+  },
+  "FL": {
+  "fillKey": "Soda",
+  "sodaVotes": 5226,
+  "popVotes": 340,
+  "cokeVotes": 3602
+  },
+  "GA": {
+  "fillKey": "Coke",
+  "sodaVotes": 1371,
+  "popVotes": 138,
+  "cokeVotes": 4876
+  },
+  "HI": {
+  "fillKey": "Soda",
+  "sodaVotes": 665,
+  "popVotes": 35,
+  "cokeVotes": 36
+  },
+  "ID": {
+  "fillKey": "Pop",
+  "sodaVotes": 507,
+  "popVotes": 939,
+  "cokeVotes": 63
+  },
+  "IL": {
+  "fillKey": "Pop",
+  "sodaVotes": 7105,
+  "popVotes": 16157,
+  "cokeVotes": 877
+  },
+  "IN": {
+  "fillKey": "Pop",
+  "sodaVotes": 1436,
+  "popVotes": 5481,
+  "cokeVotes": 1968
+  },
+  "IA": {
+  "fillKey": "Pop",
+  "sodaVotes": 1202,
+  "popVotes": 6187,
+  "cokeVotes": 66
+  },
+  "KS": {
+  "fillKey": "Pop",
+  "sodaVotes": 913,
+  "popVotes": 2907,
+  "cokeVotes": 340
+  },
+  "KY": {
+  "fillKey": "Coke",
+  "sodaVotes": 672,
+  "popVotes": 1220,
+  "cokeVotes": 2230
+  },
+  "LA": {
+  "fillKey": "Coke",
+  "sodaVotes": 369,
+  "popVotes": 80,
+  "cokeVotes": 2703
+  },
+  "MD": {
+  "fillKey": "Soda",
+  "sodaVotes": 5052,
+  "popVotes": 203,
+  "cokeVotes": 671
+  },
+  "ME": {
+  "fillKey": "Soda",
+  "sodaVotes": 1404,
+  "popVotes": 35,
+  "cokeVotes": 21
+  },
+  "MA": {
+  "fillKey": "Soda",
+  "sodaVotes": 5798,
+  "popVotes": 113,
+  "cokeVotes": 237
+  },
+  "MN": {
+  "fillKey": "Pop",
+  "sodaVotes": 1727,
+  "popVotes": 11478,
+  "cokeVotes": 117
+  },
+  "MI": {
+  "fillKey": "Pop",
+  "sodaVotes": 10836,
+  "popVotes": 20148,
+  "cokeVotes": 231
+  },
+  "MS": {
+  "fillKey": "Coke",
+  "sodaVotes": 176,
+  "popVotes": 73,
+  "cokeVotes": 1411
+  },
+  "MO": {
+  "fillKey": "Soda",
+  "sodaVotes": 6646,
+  "popVotes": 1915,
+  "cokeVotes": 537
+  },
+  "MT": {
+  "fillKey": "Pop",
+  "sodaVotes": 279,
+  "popVotes": 1045,
+  "cokeVotes": 36
+  },
+  "NC": {
+  "fillKey": "Soda",
+  "sodaVotes": 2608,
+  "popVotes": 226,
+  "cokeVotes": 1831
+  },
+  "NE": {
+  "fillKey": "Pop",
+  "sodaVotes": 647,
+  "popVotes": 2999,
+  "cokeVotes": 54
+  },
+  "NV": {
+  "fillKey": "Soda",
+  "sodaVotes": 797,
+  "popVotes": 113,
+  "cokeVotes": 129
+  },
+  "NH": {
+  "fillKey": "Soda",
+  "sodaVotes": 1416,
+  "popVotes": 18,
+  "cokeVotes": 34
+  },
+  "NJ": {
+  "fillKey": "Soda",
+  "sodaVotes": 8204,
+  "popVotes": 127,
+  "cokeVotes": 262
+  },
+  "NY": {
+  "fillKey": "Soda",
+  "sodaVotes": 16448,
+  "popVotes": 7513,
+  "cokeVotes": 486
+  },
+  "ND": {
+  "fillKey": "Pop",
+  "sodaVotes": 251,
+  "popVotes": 1121,
+  "cokeVotes": 15
+  },
+  "NM": {
+  "fillKey": "Coke",
+  "sodaVotes": 486,
+  "popVotes": 92,
+  "cokeVotes": 741
+  },
+  "OH": {
+  "fillKey": "Pop",
+  "sodaVotes": 2992,
+  "popVotes": 19065,
+  "cokeVotes": 448
+  },
+  "OK": {
+  "fillKey": "Pop",
+  "sodaVotes": 680,
+  "popVotes": 1662,
+  "cokeVotes": 1465
+  },
+  "OR": {
+  "fillKey": "Pop",
+  "sodaVotes": 1859,
+  "popVotes": 3044,
+  "cokeVotes": 170
+  },
+  "PA": {
+  "fillKey": "Pop",
+  "sodaVotes": 11245,
+  "popVotes": 12964,
+  "cokeVotes": 329
+  },
+  "RI": {
+  "fillKey": "Soda",
+  "sodaVotes": 929,
+  "popVotes": 15,
+  "cokeVotes": 16
+  },
+  "SC": {
+  "fillKey": "Coke",
+  "sodaVotes": 852,
+  "popVotes": 59,
+  "cokeVotes": 1276
+  },
+  "SD": {
+  "fillKey": "Pop",
+  "sodaVotes": 297,
+  "popVotes": 1138,
+  "cokeVotes": 22
+  },
+  "TN": {
+  "fillKey": "Coke",
+  "sodaVotes": 864,
+  "popVotes": 224,
+  "cokeVotes": 3618
+  },
+  "TX": {
+  "fillKey": "Coke",
+  "sodaVotes": 4702,
+  "popVotes": 354,
+  "cokeVotes": 14362
+  },
+  "UT": {
+  "fillKey": "Soda",
+  "sodaVotes": 1063,
+  "popVotes": 844,
+  "cokeVotes": 158
+  },
+  "WI": {
+  "fillKey": "Soda",
+  "sodaVotes": 8622,
+  "popVotes": 3360,
+  "cokeVotes": 84
+  },
+  "VA": {
+  "fillKey": "Soda",
+  "sodaVotes": 4964,
+  "popVotes": 553,
+  "cokeVotes": 1442
+  },
+  "VT": {
+  "fillKey": "Soda",
+  "sodaVotes": 670,
+  "popVotes": 19,
+  "cokeVotes": 9
+  },
+  "WA": {
+  "fillKey": "Pop",
+  "sodaVotes": 2982,
+  "popVotes": 6700,
+  "cokeVotes": 210
+  },
+  "WV": {
+  "fillKey": "Pop",
+  "sodaVotes": 478,
+  "popVotes": 1528,
+  "cokeVotes": 236
+  },
+  "WY": {
+  "fillKey": "Pop",
+  "sodaVotes": 148,
+  "popVotes": 459,
+  "cokeVotes": 74
+  },
+  "CA": {
+  "fillKey": "Soda",
+  "sodaVotes": 19806,
+  "popVotes": 915,
+  "cokeVotes": 2869
+  },
+  "CT": {
+  "fillKey": "Soda",
+  "sodaVotes": 4232,
+  "popVotes": 70,
+  "cokeVotes": 101
+  },
+  "AK": {
+  "fillKey": "Soda",
+  "sodaVotes": 624,
+  "popVotes": 322,
+  "cokeVotes": 59
+  },
+  "AR": {
+  "fillKey": "Coke",
+  "sodaVotes": 330,
+  "popVotes": 149,
+  "cokeVotes": 1433
+  },
+  "AL": {
+  "fillKey": "Coke",
+  "sodaVotes": 563,
+  "popVotes": 149,
+  "cokeVotes": 2824
+  }
+  }
+  });
+  map.labels();
+  map.legend();
+</script>

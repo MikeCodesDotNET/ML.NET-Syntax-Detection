@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<title>&pi;, approximately</title>
+<style>
+.formula {
+  height: 150px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+td {
+  padding: 4px 4px 4px 0;
+}
+
+.results {
+  font-family: monospace;
+  text-align: left;
+  min-width: 65em;
+}
+</style>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script>
+function scalar() {
+  var NPTS = 100000000;
+  var pi = 0;
+
+  var start = performance.now();
+  for (var i = 1; i <= NPTS; i++) {
+    pi += 0.5 / ((i - 0.75) * (i - 0.25));
+  }
+  var end = performance.now();
+
+  var mflops = NPTS * 5.0 / (end - start) / 1000;
+
+  return {
+    NPTS: NPTS,
+    pi: pi,
+    elapsed: (end - start) / 1000,
+    mflops: mflops
+  };
+}
+
+function array() {
+  var NPTS = 1000000;
+  var NLOOP = 100;
+
+  var pi = new Float64Array(NPTS);
+
+  var start = performance.now();
+  for (var loop = 0; loop < NLOOP; loop++) {
+    pi[0] = 0;
+    for (var i = 1; i <= NPTS; i++) {
+        pi[i] = pi[i - 1] + 0.5 / ((i - 0.75) * (i - 0.25));
+    }
+  }
+  var end = performance.now();
+  var mflops = NPTS * NLOOP * 5.0 / (end - start) / 1000;
+
+  return {
+    NPTS: NPTS,
+    pi: pi[NPTS-1],
+    elapsed: (end - start) / 1000,
+    mflops: mflops
+  };
+}
+
+function simd32() {
+  var NPTS = 100000000;
+
+  var offsets = SIMD.float32x4(0, 1, 2, 3);
+
+  var point75 = SIMD.float32x4.splat(0.75);
+  var point25 = SIMD.float32x4.splat(0.25);
+  var point5 = SIMD.float32x4.splat(0.5);
+
+  var sum = SIMD.float32x4.splat(0);
+
+  var start = performance.now();
+  for (var i = 1; i <= NPTS; i += 4) {
+    var row = SIMD.float32x4.splat(i);
+    var indices = SIMD.float32x4.add(row, offsets);
+    var factor1 = SIMD.float32x4.sub(indices, point75);
+    var factor2 = SIMD.float32x4.sub(indices, point25);
+    var product = SIMD.float32x4.mul(factor1, factor2);
+    var quotient = SIMD.float32x4.div(point5, product);
+    sum = SIMD.float32x4.add(sum, quotient);
+  }
+  var pi = sum.x + sum.y + sum.z + sum.w;
+  var end = performance.now();
+
+  var mflops = (NPTS * 24.0 + 3) / (end - start) / 1000;
+
+  return {
+    NPTS: NPTS,
+    pi: pi,
+    elapsed: (end - start) / 1000,
+    mflops: mflops
+  };
+}
+
+function simd64() {
+  var NPTS = 100000000;
+
+  var offsets = SIMD.float64x2(0, 1);
+
+  var point75 = SIMD.float64x2.splat(0.75);
+  var point25 = SIMD.float64x2.splat(0.25);
+  var point5 = SIMD.float64x2.splat(0.5);
+
+  var sum = SIMD.float64x2.splat(0);
+
+  var start = performance.now();
+  for (var i = 1; i <= NPTS; i += 2) {
+    var row = SIMD.float64x2.splat(i);
+    var indices = SIMD.float64x2.add(row, offsets);
+    var factor1 = SIMD.float64x2.sub(indices, point75);
+    var factor2 = SIMD.float64x2.sub(indices, point25);
+    var product = SIMD.float64x2.mul(factor1, factor2);
+    var quotient = SIMD.float64x2.div(point5, product);
+    sum = SIMD.float64x2.add(sum, quotient);
+  }
+  var pi = sum.x + sum.y;
+  var end = performance.now();
+
+  var mflops = (NPTS * 12.0 + 1) / (end - start) / 1000;
+
+  return {
+    NPTS: NPTS,
+    pi: pi,
+    elapsed: (end - start) / 1000,
+    mflops: mflops
+  };
+}
+
+function run(id, thunk) {
+  document.querySelector("#" + id).innerHTML = JSON.stringify(thunk());
+}
+</script>
+</head>
+<body>
+
+<div class="formula">
+<p>$$\pi \approx \sum^{N}_{i=1} \frac{0.5}{(i - 0.75) \times (i - 0.25)}$$</p>
+</div>
+
+<table>
+  <tr>
+    <td><a href="" onclick="run('scalar', scalar); return false">Compute scalar:</a></td>
+    <td id="scalar" class="results"></td>
+  </tr>
+  <tr>
+    <td><a href="" onclick="run('array', array); return false">Compute array:</a></td>
+    <td id="array" class="results"></td>
+  </tr>
+  <tr>
+    <td><a href="" onclick="run('simd32', simd32); return false">Compute 32-bit vector:</a></td>
+    <td id="simd32" class="results"></td>
+  </tr>
+  <tr>
+    <td><a href="" onclick="run('simd64', simd64); return false">Compute 64-bit vector (SLOW):</a></td>
+    <td id="simd64" class="results"></td>
+  </tr>
+</table>
+
+<p>
+Ported from Gershenfeld, <a href="http://bit.ly/nature-of-mathematical-modeling"><i>The Nature of Mathematical Modeling</i></a>, Cambridge University Press, 2011. This code is released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.
+</p>
+
+</body>
+</html>

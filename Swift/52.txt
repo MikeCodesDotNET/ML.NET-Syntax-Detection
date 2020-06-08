@@ -1,0 +1,59 @@
+// Requires the excellent "Signals" library: https://github.com/artman/Signals
+
+import Foundation
+
+// Define a *Change enum for each type that you're going to observe.
+// This is very explicit and non-magical, but has the advantage of compiler
+// type/parameter enforcement later on.
+//
+public enum PersonChange {
+    case NameChange( name : String )
+    case AgeChange( person : Person, age : Int )
+}
+
+public class Person {
+
+    // I use the same name, onChange for every type that is observable
+    // so it's easy to remember when writing the listener code later on.
+    //
+    public let onChange = Signal<PersonChange>()
+
+    public var name : String {
+        // Fire the change event.
+        didSet { onChange.fire( .NameChange( name:name ) ) }
+    }
+
+    public var age : Int {
+
+        // Notice that the parameters can be different for every
+        // property in the PersonChange enum, not hidden behind
+        // some Any/AnyObject 'context' parameter.
+        //
+        didSet { onChange.fire( .AgeChange( person:self, age:age ) ) }
+
+    }
+
+    public init( name : String, age : Int ) {
+        self.name = name
+        self.age = age
+    }
+
+}
+
+public class PersonListener {
+
+    public init( aPerson : Person ) {
+
+        aPerson.onChange.listen( self ) { change in
+
+            // The compiler checks the type and associated values - winning!
+            //
+            if case .AgeChange( let person, let age ) = change {
+                print( "\(person.name)'s age changed: \(age)" )
+            }
+
+        }
+
+    }
+
+}

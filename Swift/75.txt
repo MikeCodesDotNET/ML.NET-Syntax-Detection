@@ -1,0 +1,8 @@
+import Foundation
+
+struct Constants {
+    struct Parse {
+        static let ApplicationId = "dv7TEqTCbTshbH6cuVpHiVYOZ1GqFxFhbOB64kfX"
+        static let ClientKey = "fsx6YsirINZHPCwXse6IlQFIzfXYuLVms4cVjcgb"
+    }
+}

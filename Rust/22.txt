@@ -1,0 +1,14 @@
+fn unwords(args: &[~str]) -> ~str {
+    return str::connect(args, " ");
+}
+
+fn echo(args: &[~str]) {
+    match args.tail() {
+        [~"-n", ..strs] => print(unwords(strs)),
+        strs => println(unwords(strs)),
+    }
+}
+
+fn main() {
+    echo(os::args());
+}

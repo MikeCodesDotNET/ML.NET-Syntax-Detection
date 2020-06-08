@@ -1,0 +1,1 @@
+SELECT * FROM d WHERE d.name = {Name} and d.city = {City}

@@ -1,0 +1,11 @@
+val scores = listOf(1, 2, 3, 4, 5)
+scores
+    .filter {
+        println("Filtering $it")
+        it % 2 == 0
+    }
+    .map {
+        println("Mapping $it")
+        it * 4
+    }
+    .forEach { println(it) }

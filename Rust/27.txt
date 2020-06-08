@@ -1,0 +1,24 @@
+struct Box {
+  mut data : ~[float]
+}
+
+pub impl ops::Add<Box, Box> for Box
+{
+  pure fn add(&self, other: &Box) -> Box {
+    let mut new_data : ~[float]=~[];
+
+    let mut ctr=0;
+    for self.data.each |value| {
+      new_data.push(value+other.data[ctr]);
+      ctr+=1;
+    }
+
+    Box{data:new_data}
+  }
+}
+
+fn main() {
+  let box1=Box{data:~[1.0,2.0,3.0]};
+  let box2=Box{data:~[4.0,5.0,6.0]};
+  let box3=box1+box2;
+}

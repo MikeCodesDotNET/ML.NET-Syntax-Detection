@@ -1,0 +1,6 @@
+// Example 1:
+let aDifferentDataType: Float = 3.14
+let anInt: Int = Int(aDifferentDataType)
+
+// Example 2:
+let aString: String = String(anInt)

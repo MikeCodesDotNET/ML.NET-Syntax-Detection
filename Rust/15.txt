@@ -1,0 +1,32 @@
+trait Test {
+    fn toto(&self) -> String;
+}
+
+impl Test for uint {
+    fn toto(&self) -> String {
+        "uint".to_string()
+    }
+}
+
+impl Test for int {
+    fn toto(&self) -> String {
+        "int".to_string()
+    }
+}
+
+fn print_toto_dynamic(value: &Test) {
+    println!("{}", value.toto());
+}
+
+fn print_toto_static<T: Test>(value: T) {
+    println!("{}", value.toto());
+}
+
+// This code is editable and runnable!
+fn main() {
+    print_toto_dynamic(&1u);
+    print_toto_dynamic(&1i);
+    
+    print_toto_static(1u);
+    print_toto_static(1i);
+}

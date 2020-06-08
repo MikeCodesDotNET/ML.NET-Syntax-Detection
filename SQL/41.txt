@@ -1,0 +1,4 @@
+update ud u
+inner join sale s on
+    u.id = s.udid
+set u.assid = s.assid

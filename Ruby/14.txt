@@ -1,0 +1,70 @@
+# vim: fileencoding=utf-8
+
+require 'pp'
+require 'parslet'
+
+# require_relative 'calc_nodes'
+
+# 計算機モジュール
+module Calc
+  class BinaryOpNode
+    attr_reader :operator
+    attr_reader :left
+    attr_reader :right
+
+    def initialize(left, operator, right)
+      @left = left
+      @operator = operator
+      @right = right
+    end
+
+    def to_s
+      "(#{@operator} #{@left} #{@right})"
+    end
+  end
+
+  class Parser < Parslet::Parser
+    root(:expr)
+
+    rule(:expr) {
+      term.as(:left) >> (add | sub).repeat(1).as(:lassoc_rest) |
+      term
+    }
+    rule(:add)     { str('+').as(:op) >> term.as(:right) }
+    rule(:sub)     { str('-').as(:op) >> term.as(:right) }
+
+    rule(:term) {
+      unary.as(:left) >> (mul | div).repeat(1).as(:lassoc_rest) |
+      unary
+    }
+    rule(:mul)     { str('*').as(:op) >> unary.as(:right) }
+    rule(:div)     { str('/').as(:op) >> unary.as(:right) }
+
+    rule(:unary)   { pos | neg | primary }
+    rule(:pos)     { str('+').as(:op) >> primary.as(:primary) }
+    rule(:neg)     { str('-').as(:op) >> primary.as(:primary) }
+    rule(:primary) { parened | number }
+    rule(:parened) { str('(') >> expr >> str(')') }
+
+    rule(:number)  { int }
+    rule(:int)     { match['0-9'].repeat(1).as(:int) }
+  end
+
+  class Transform < Parslet::Transform
+    rule(left: simple(:l), lassoc_rest: subtree(:rest)) {
+      current_left = l
+      current_node = nil
+      until rest.empty?
+        sub = rest.shift
+        op = sub[:op]
+        right = sub[:right]
+        current_node = BinaryOpNode.new(current_left, op, right)
+        current_left = current_node
+      end
+
+      current_node
+    }
+
+    rule(int: simple(:value)) { value.to_i }
+  end
+end

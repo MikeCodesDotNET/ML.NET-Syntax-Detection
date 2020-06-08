@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+class Igrf09 extends ExternalModel {
+  ArrayList<String> arrayList;
+
+  Igrf09(){
+    arrayList = new ArrayList<String>();
+    command = getClass().getSimpleName()+getSuffix();
+    arrayList.add(command);
+  }
+  
+  run(){
+    arrayList.add("example.txt");  
+    this.exec(arrayList);
+  }
+}

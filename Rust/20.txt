@@ -1,0 +1,19 @@
+struct Node
+{
+    Name : ~str,
+    Children : ~[Node]
+}
+
+impl Drop for Node
+{
+    fn finalize(&self)
+    {
+        io::println(self.Name);
+    }
+}
+
+fn main()
+{
+    let mut parent = ~Node{Name : ~"parent", Children : ~[]};
+    parent.Children.push(Node{Name : ~"child", Children : ~[]});
+}

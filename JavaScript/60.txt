@@ -1,0 +1,6 @@
+Object.defineProperty(Function.prototype, '$super', {
+    value: function () {
+        throw new Error('The $super method is not available.');
+    },
+    writable: true,
+});

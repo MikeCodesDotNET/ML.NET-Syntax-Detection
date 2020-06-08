@@ -1,0 +1,26 @@
+
+//str = "abc"
+//print => {abc,acb,bac,bca,cab,cba}
+public void printPermutations(String str){
+  char[] charStr = str.toCharArray();
+  int level = 0, len = str.length();
+  boolean[] used = new boolean[len];
+  StringBuilder sb = new StringBuilder();
+  if(len == 0)
+    System.out.println("");
+  doPermute(charStr, sb, level, used);
+}
+
+public void doPermute(char[] charStr, StringBuilder sb, int level, boolean[] used){
+  if(level == charStr.length)
+    System.out.println(sb.toString);//If it converts the content to proper string, not checked
+  for(int i = 0; i < charStr.length; i++){
+    if(used[i])
+      continue;
+    sb.append(charStr[i]);
+    used[i] = true;
+    doPermute(charStr, sb, level+1, used);
+    used[i] = false;
+    sb.setLength(sb.length()-1);//if there are such methods
+  }
+}

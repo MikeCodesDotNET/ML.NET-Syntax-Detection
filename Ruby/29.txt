@@ -1,0 +1,13 @@
+class Agb
+  @@team = %w(Barreto Douglas Fabio Giovanni Paulo Raphael Tiago)
+
+  def sort
+    team, i = @@team, 1
+    while team.length > 0
+      puts "| #{i} - #{team.delete_at(rand(team.length))} |"
+      i += 1
+    end
+  end
+end
+
+Agb.new.sort

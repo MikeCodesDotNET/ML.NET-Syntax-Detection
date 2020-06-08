@@ -1,0 +1,7 @@
+class Foo {
+	private(set) lazy var foo : Int = { return 42 }()
+}
+
+var y = Foo()  // {nil}
+y.foo = 99     // {{Some 99}}
+y.foo          // 99

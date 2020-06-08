@@ -1,0 +1,94 @@
+trigger:
+- master
+
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    displayName: "Build sources"
+    pool:
+      vmImage: 'windows-latest' # or: 'ubuntu-latest'
+    steps:
+    - task: UseNode@1
+      displayName: 'Use Node.js 8.10.0'
+      inputs:
+        version: '8.10.0'
+
+    - task: Npm@1
+      displayName: 'Install application dependencies'
+      inputs:
+        command: 'install'
+        workingDir: 'Application'
+
+    - task: Npm@1
+      displayName: 'Install test dependencies'
+      inputs:
+        command: 'install'
+        workingDir: 'Tests'
+
+    - task: Gulp@1
+      displayName: 'Run unit tests'
+      inputs:
+        gulpFile: 'Tests/gulpfile.js'
+        targets: 'unittest'
+        gulpjs: 'Tests/node_modules/gulp/bin/gulp.js'
+        publishJUnitResults: true
+        testResultsFiles: '**/TEST-*.xml'
+        testRunTitle: 'Unit Tests'
+
+    - task: ArchiveFiles@2
+      displayName: 'Archive application'
+      inputs:
+        rootFolderOrFile: '$(Build.SourcesDirectory)/Application'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.StagingDirectory)/Application/$(Build.BuildId).zip'
+
+    - publish: '$(Build.StagingDirectory)/Application'
+      displayName: 'Publish artifact: Application'
+      artifact: 'Application'
+
+    - publish: '$(Build.SourcesDirectory)/Tests'
+      displayName: 'Publish artifact: Tests'
+      artifact: 'Tests'
+
+    - publish: '$(Build.SourcesDirectory)/armTemplates'
+      displayName: 'Publish artifact: ArmTemplates'
+      artifact: 'ArmTemplates'
+
+  # Requires extension: https://marketplace.visualstudio.com/items?itemName=jessehouwing.vsts-ensure-tests-tasks
+  - job: EnsureTests
+    displayName: 'Ensure test results exist'
+    dependsOn: Build
+    pool: server
+    steps:
+    - task: Ensure tests have executed.@0
+      inputs:
+        minNumOfExpectedTests: 1
+
+- template: BuildTemplates/deploy.yml
+  parameters:
+    name:               'DEV'
+    azureRegion:        'North Europe'
+    azureResourceGroup: 'prep-ct19-dev-rg'
+    azureWebAppName:    'prep-ct19-dev'
+    azureHostingPlan:   'prep-ct19-dev-plan'
+    azureWebAppUrl:     'https://prep-ct19-dev.azurewebsites.net'
+
+- template: BuildTemplates/deploy.yml
+  parameters:
+    name:               'QA'
+    azureRegion:        'North Europe'
+    azureResourceGroup: 'prep-ct19-qa-rg'
+    azureWebAppName:    'prep-ct19-qa'
+    azureHostingPlan:   'prep-ct19-qa-plan'
+    azureWebAppUrl:     'https://prep-ct19-qa.azurewebsites.net'
+
+- template: BuildTemplates/deploy.yml
+  parameters:
+    name:               'PROD'
+    azureRegion:        'North Europe'
+    azureResourceGroup: 'prep-ct19-prod-rg'
+    azureWebAppName:    'prep-ct19-prod'
+    azureHostingPlan:   'prep-ct19-prod-plan'
+    azureWebAppUrl:     'https://prep-ct19-prod.azurewebsites.net'

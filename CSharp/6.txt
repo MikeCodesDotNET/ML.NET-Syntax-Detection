@@ -1,0 +1,51 @@
+//Code omitted for brevity :)
+namespace PusheenCustomExportCsv.Web.Controllers
+{
+    public class PusheenController : Controller
+    {
+        private readonly PusheenCustomExportCsvContext _context;
+
+        public PusheenController(PusheenCustomExportCsvContext context)
+        {
+            _context = context;
+        }
+
+        //Code omitted for brevity :)
+
+        // GET: Pusheen/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var pusheen = await _context.Pusheens
+                .SingleOrDefaultAsync(m => m.ID == id);
+            if (pusheen == null)
+            {
+                return NotFound();
+            }
+
+            return View(pusheen);
+        }
+
+        // GET: Pusheen/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Pusheen/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Name,FavouriteFood,SuperPower")] Pusheen pusheen)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(pusheen);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(pusheen);
+        }

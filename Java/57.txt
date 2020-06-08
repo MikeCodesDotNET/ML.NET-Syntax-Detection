@@ -1,0 +1,17 @@
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ICommand laundry = new Laundry();
+        ICommand clean_house = new CleanHouse();
+        HouseKeeping manager = new HouseKeeping();
+        manager.addWork("laundry", laundry);
+        manager.addWork("cleanhouse", clean_house);
+
+        manager.doAllWorks();
+        manager.work("cleanhouse");
+    }
+}

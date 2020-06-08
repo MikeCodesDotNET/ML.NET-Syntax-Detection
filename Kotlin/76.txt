@@ -1,0 +1,15 @@
+// primary constructor
+class PersonA(val firstName: String, val lastName: String) { }
+
+// regular constructor
+class PersonB {
+
+    val firstName: String
+    val lastName: String
+
+    constructor(firstName: String, lastName: String){
+        this.firstName = firstName
+        this.lastName = lastName
+    }
+
+}

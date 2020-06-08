@@ -1,0 +1,13 @@
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        IBank atm = new ATM(100);
+        Client client = new Client(atm);
+        Log.i("ProxyPattern", "save 10 money, total: " + client.saveMoney(10));
+        Log.i("ProxyPattern", "if we try to get 200, result: " + client.getMoney(200));
+    }
+}

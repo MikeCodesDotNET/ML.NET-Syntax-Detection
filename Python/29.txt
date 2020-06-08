@@ -1,0 +1,57 @@
+from sqlalchemy import Column, String, Integer, DateTime
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+
+# Just create a class by subclassing the Base, the easiest way to define your mapping.
+# As you can see, it is obvious that the table we are going to create is 'users'.
+class User(Base):
+    __tablename__ = 'users'
+    
+    id         = Column(Integer, primary_key = True)
+    first_name = Column(String(255))
+    last_name  = Column(String(255))
+    email      = Column(String(255))
+    password   = Column(String(255))
+    created_at = Column(DateTime)
+
+    #Just to represent the class with a specific name, helps while printing
+    #the object on standard output
+    def __repr__(self):
+        return self.first_name+"_"+self.last_name
+
+
+from sqlalchemy import create_engine
+engine = create_engine('sqlite:///:memory:', echo=True)
+
+#Create table.  Yes, Sqlalchemy can create tables, but it cannot alter table
+#for that you need to use another package for database migrations.
+#Alembic is the database migration tools written by the author of the Sqlalchemy.
+print "========= creating table =============="
+Base.metadata.create_all(engine)
+
+print "=========== session starts ============="
+#Now the fun part, we need to create a session.
+#This is the cool part of the sqlalchemy. Other ORMs just couple your
+#mapping by default with one data, but by creating session, 
+#Sqlalchemy makes it easy to decouple the mapping and database communication.
+#This session definition might also change depending on where you are using the sqlalchemy.
+from sqlalchemy.orm import sessionmaker
+Session = sessionmaker(bind=engine)
+session = Session()
+
+print "========== creating objects/rows ========="
+#Let us create some objects, which are inserted into our table.
+for i in range(10):
+    u = User(first_name = "fname"+str(i), last_name = "lname"+str(i), email = "email"+str(i)+"@domain")
+    session.add(u) #add the object to the session
+#commit once, this is called unit of work pattern.  
+#We have just added 10 objects into our session
+#once we call commit, you will insert all rows at once.
+session.commit()
+
+print "=========== querying the data  (the fun part :) ==========="
+
+users = session.query(User).all()
+for user in users:
+    print user

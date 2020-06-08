@@ -1,0 +1,63 @@
+package com.ibm.in.test;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.fluent.Executor;
+import org.apache.http.client.fluent.Request;
+import org.apache.http.client.fluent.Response;
+import org.apache.http.entity.ContentType;
+import org.apache.http.message.BasicNameValuePair;
+
+public class PersonalityInsights {
+
+	// If running locally complete the variables below with the information in
+	// VCAP_SERVICES
+	private static String baseURL = "https://gateway.watsonplatform.net/personality-insights/api";
+	private static String username = "277c1c9c-9253-4b2c-9218-68519e719b3b";
+	private static String password = "AYwJkSpZH0vL";
+
+	public static void main(String[] args) throws ClientProtocolException, URISyntaxException, IOException {
+		doStuff();
+	}
+
+	static void doStuff() throws URISyntaxException, ClientProtocolException,
+			IOException {
+
+		System.out.println("starting");
+
+		String text = FileUtils.readFileToString(new File("bio.txt"), "UTF-8");
+		
+		System.out.println("text:"+text);
+		
+		String sid = "ie-en-news";
+
+		List<NameValuePair> qparams = new ArrayList<NameValuePair>();
+		qparams.add(new BasicNameValuePair("txt", text));
+		qparams.add(new BasicNameValuePair("sid", sid));
+		qparams.add(new BasicNameValuePair("rt", "xml"));
+
+		URI profileURI = new URI(baseURL + "/v2/profile").normalize();
+		Request profileRequest = Request.Post(profileURI)
+				.addHeader("Accept", "application/json")
+				.bodyString(text, ContentType.TEXT_PLAIN);
+
+		Executor executor = Executor.newInstance().auth(username, password);
+		Response response = executor.execute(profileRequest);
+		 HttpResponse httpResponse = response.returnResponse();
+		
+		  
+		   httpResponse.getEntity().writeTo(System.out);
+		System.out.println("done");
+
+	}
+
+}

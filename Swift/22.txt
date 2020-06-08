@@ -1,0 +1,7 @@
+FBSDKAppEvents.logEvent(FBSDKAppEventNameAddedToCart,
+            valueToSum: 20.0,
+            parameters: [
+                FBSDKAppEventParameterNameCurrency    : "USD",
+                FBSDKAppEventParameterNameContentType : "shoes",
+                FBSDKAppEventParameterNameContentID   : "HDFU-8452"
+            ]

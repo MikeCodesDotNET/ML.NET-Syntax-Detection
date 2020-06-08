@@ -1,0 +1,6 @@
+let op:[Int?] = [1,2,3,nil,5]
+func a() { print("brown") }
+func a(value:Int) -> Bool { print("yellow"); return true }
+func a() -> Bool {print("green");return true}
+for case let v? in op where a(v) { print(v) }
+for case let v? in op where a() { print(v) }

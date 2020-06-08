@@ -1,0 +1,4 @@
+UPDATE ud
+SET assid = s.assid
+FROM ud u
+JOIN sale s ON u.id=s.id

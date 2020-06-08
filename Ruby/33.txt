@@ -1,0 +1,3 @@
+cert = OpenSSL::X509::Certificate.new(x)
+fingerprint = OpenSSL::Digest::SHA1.new(cert.to_der).to_s
+puts fingerprint.scan(/.{2}/).join(":").upcase

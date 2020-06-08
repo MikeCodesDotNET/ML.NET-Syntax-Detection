@@ -1,0 +1,49 @@
+import AVFoundation
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let session = AVCaptureSession()
+        
+        let camera = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+        let cameraInput = AVCaptureDeviceInput(device: camera, error: nil)
+        
+        var bestFormat: AVCaptureDeviceFormat?
+        var frameRateRange: AVFrameRateRange?
+        var formatFound = false
+        
+        for format in camera.formats as! [AVCaptureDeviceFormat] {
+            let dimensions = CMVideoFormatDescriptionGetDimensions(format.formatDescription)
+            let pixelArea = dimensions.width * dimensions.height
+            
+            if pixelArea <= 1080 * 1920 && !formatFound {
+                bestFormat = format
+                
+                for range in format.videoSupportedFrameRateRanges as! [AVFrameRateRange] {
+                    if range.maxFrameRate == 60 {
+                        bestFormat = format
+                        frameRateRange = range
+                        formatFound = true
+                    }
+                }
+            }
+        }
+        
+        if camera.lockForConfiguration(nil) {
+            camera.activeFormat = bestFormat
+            camera.activeVideoMinFrameDuration = frameRateRange!.minFrameDuration
+            camera.activeVideoMaxFrameDuration = frameRateRange!.maxFrameDuration
+            camera.unlockForConfiguration()
+        }
+        
+        let previewLayer = AVCaptureVideoPreviewLayer(session: session)
+        self.view.layer.addSublayer(previewLayer)
+        previewLayer.frame = UIScreen.mainScreen().bounds
+        
+        session.addInput(cameraInput)
+        session.startRunning()
+    }
+}

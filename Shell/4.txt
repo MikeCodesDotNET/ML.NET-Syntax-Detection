@@ -1,0 +1,6 @@
+$ az storage account create \
+  --name $StorageAccountName \
+  --resource-group $ResourceGroup \
+  --location $Region \
+  --sku Standard_GRS \
+  --kind StorageV2

@@ -1,0 +1,7 @@
+function display_daumLayer() {
+    if (DUI.$("DaumUI__service_layer").style.display == "none") {
+        DUI.$("DaumUI__service_layer").style.display = "block"
+    } else {
+        DUI.$("DaumUI__service_layer").style.display = "none"
+    }
+}

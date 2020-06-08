@@ -1,0 +1,27 @@
+- name: bootstrap python with toolbox
+  hosts: coreos
+  gather_facts: False
+
+  vars:
+    ansible_bin: /home/coreos/bin
+    ansible_python_interpreter: "{{ansible_bin}}/python"
+    python_shim: |
+      #!/bin/bash
+      toolbox -q --bind=/home:/home python "$@"
+
+  tasks:
+    - raw: '[ -d {{ansible_bin}} ]'
+      ignore_errors: True
+      register: has_bin
+
+    - raw: "mkdir {{ansible_bin}}"
+      when: has_bin|failed
+
+    - raw: '[ -e {{ansible_python_interpreter}} ]'
+      ignore_errors: True
+      register: has_python
+
+    - raw: echo '{{python_shim}}' > "{{ansible_python_interpreter}}" && chmod 755 "{{ansible_python_interpreter}}"
+      when: has_python|failed
+
+    - raw: "{{ansible_python_interpreter}} --version"

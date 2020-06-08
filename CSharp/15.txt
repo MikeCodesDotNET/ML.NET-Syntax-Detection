@@ -1,0 +1,2 @@
+[DllImport("Dll1.dll")]
+public static extern void Test();

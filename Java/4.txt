@@ -1,0 +1,96 @@
+package some;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.*;
+import java.io.IOException;
+import java.io.StringWriter;
+
+public class PersistenceDescriptorModifier {
+
+    private final Document doc;
+    private final XPath xPath;
+    private final XPathExpression persistenceUnitExpression;
+    private final XPathExpression propertiesExpression;
+
+    public PersistenceDescriptorModifier(InputSource inputSource) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        final DocumentBuilder builder = factory.newDocumentBuilder();
+        this.doc = builder.parse(inputSource);
+        final XPathFactory xPathFactory = XPathFactory.newInstance();
+        this.xPath = xPathFactory.newXPath();
+        this.persistenceUnitExpression = xPath.compile("/persistence/persistence-unit");
+        this.propertiesExpression = xPath.compile("properties");
+    }
+
+    public void setProperty(String name, String value) throws XPathExpressionException {
+        final Node persistenceUnit = (Node) persistenceUnitExpression.evaluate(doc, XPathConstants.NODE);
+        if (persistenceUnit == null) {
+            // no persistence unit
+            throw new IllegalStateException("no persistence unit");
+        }
+
+        final Node properties = (Node) propertiesExpression.evaluate(persistenceUnit, XPathConstants.NODE);
+        if (properties == null) {
+            // construct a properties element which contains a property element
+            persistenceUnit.appendChild(createPropertiesElement(doc, name, value));
+            return;
+        }
+
+        final Node property = (Node) xPath.evaluate("property[@name='" + name + "']", persistenceUnit, XPathConstants.NODE);
+        if (property != null) {
+            // delete the existing property element
+            properties.removeChild(property);
+        }
+
+        // add a property element
+        properties.appendChild(createPropertyElement(doc, name, value));
+    }
+
+    @Override
+    public String toString() {
+        try {
+            return toString(doc);
+        } catch (TransformerException | IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private static Element createPropertiesElement(Document doc, String name, String value) {
+        final Element properties = doc.createElement("properties");
+        properties.appendChild(createPropertyElement(doc, name, value));
+        return properties;
+    }
+
+    private static Element createPropertyElement(Document doc, String name, String value) {
+        final Element property = doc.createElement("property");
+        property.setAttribute("name", name);
+        property.setAttribute("value", value);
+        return property;
+    }
+
+    private static String toString(Document doc) throws TransformerException, IOException {
+        final TransformerFactory factory = TransformerFactory.newInstance();
+        factory.setAttribute("indent-number", 4);
+        final Transformer transformer = factory.newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        try (final StringWriter sw = new StringWriter()) {
+            transformer.transform(new DOMSource(doc), new StreamResult(sw));
+            return sw.toString();
+        }
+    }
+}

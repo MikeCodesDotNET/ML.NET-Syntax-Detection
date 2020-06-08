@@ -1,0 +1,122 @@
+struct Key<T> {
+  let name: String
+}
+
+
+// Extensions to NSUserDefaults for subscripting using keys.
+// Apparently generics don't work with subscript.
+// But this code should be in a library somewhere, so who cares about a little repetition.
+extension NSUserDefaults {
+  subscript(key: Key<String>) -> String? {
+    get {
+      return stringForKey(key.name)
+    }
+    set {
+      if let value = newValue {
+        setValue(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+
+  subscript(key: Key<Int>) -> Int? {
+    get {
+      return integerForKey(key.name)
+    }
+    set {
+      if let value = newValue {
+        setInteger(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+
+  subscript(key: Key<Double>) -> Double? {
+    get {
+      return doubleForKey(key.name)
+    }
+    set {
+      if let value = newValue {
+        setDouble(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+
+  subscript(key: Key<Bool>) -> Bool? {
+    get {
+      return boolForKey(key.name)
+    }
+    set {
+      if let value = newValue {
+        setBool(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+
+  subscript(key: Key<NSData>) -> NSData? {
+    get {
+      return dataForKey(key.name)
+    }
+    set {
+      if let value = newValue {
+        setValue(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+
+  subscript(key: Key<NSDate>) -> NSDate? {
+    get {
+      return objectForKey(key.name) as? NSDate
+    }
+    set {
+      if let value = newValue {
+        setValue(value, forKey: key.name)
+      }
+      else {
+        removeObjectForKey(key.name)
+      }
+    }
+  }
+}
+
+
+
+// We create three keys for values to be stored in NSUserDefaults
+//
+// The 'Keys' struct is merely used as a namespace, to avoid poluting the global namespace
+struct Keys {
+  static let name = Key<String>(name: "nameKey")
+  static let birthdate = Key<NSDate>(name: "birthdateKey")
+  static let lastCompletedOnboardingVersion = Key<Int>(name: "lastCompletedOnboardingVersion")
+}
+
+
+// Example of using NSUserDefaults with phantom type Keys:
+let userDefaults = NSUserDefaults.standardUserDefaults()
+
+if userDefaults[Keys.lastCompletedOnboardingVersion] < 3 {
+  presentAwesomeOnboardingFlowVersion3()
+  userDefaults[Keys.lastCompletedOnboardingVersion] = 3
+}
+
+if let name = userDefaults[Keys.name] {
+  if let birthdate = userDefaults[Keys.birthdate] where birthdate.isToday() {
+    println("Hi \(name), happy birthday!")
+  }
+  else {
+    println("Hi \(name)")
+  }
+}

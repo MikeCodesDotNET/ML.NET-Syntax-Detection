@@ -1,0 +1,24 @@
+  this.fieldHolder.setCompletionListener(new FieldHolder.FieldHolderCompletionListener() {
+            @Override
+            public void onCompletion(FieldHolder fieldHolder) {
+                zipCodeField.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        zipCodeField.requestFocus();
+                    }
+                });
+            }
+        });
+
+        this.zipCodeField.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                zipCodeField.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                        mgr.showSoftInput(zipCodeField, InputMethodManager.SHOW_IMPLICIT);
+                    }
+                });
+            }
+        });

@@ -1,0 +1,5 @@
+for(element in iterator) { ... } /* works! */
+
+iterator.asSequence().filter { ... } /* works! */
+
+myList.addAll(iterable) /* works! */

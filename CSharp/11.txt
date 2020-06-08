@@ -1,0 +1,9 @@
+public class Startup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddDbContext<MyDbContext>((IServiceProvider serviceProvider, DbContextOptionsBuilder options) => {
+        DbConnection connection = // Get your database connection here.
+        options.UseSqlServer(connection);
+    });
+}

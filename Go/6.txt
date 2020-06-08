@@ -1,0 +1,39 @@
+package main
+
+import (
+	"bytes"
+	"testing"
+)
+
+var d = make([]byte, 256)
+
+func init() {
+	for i, l := 0, len(d); i < l; i++ {
+		d[i] = 0
+	}
+}
+
+func loopEqual(a, b []byte) bool {
+	al, bl := len(a), len(b)
+	if al != bl {
+		return false
+	}
+	for i := 0; i < al; i++ {
+		if a[i] != b[i] {
+			return false
+		}
+	}
+	return true
+}
+
+func Benchmark_loop(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		loopEqual(d, d)
+	}
+}
+
+func Benchmark_bytesEqual(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		bytes.Equal(d, d)
+	}
+}

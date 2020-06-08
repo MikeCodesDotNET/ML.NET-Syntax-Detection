@@ -1,0 +1,110 @@
+package com.example.student.cal;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    TextView mtextView;
+    double num1,num2;
+    int flag,res;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ((Button)findViewById(R.id.button)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button2)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button3)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button4)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button5)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button6)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button7)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button8)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button9)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button10)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button11)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button12)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button13)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button14)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button15)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button16)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button17)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button18)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button19)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button20)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button21)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button22)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button23)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button24)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button25)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button26)).setOnClickListener(this);
+
+        mtextView=(TextView)findViewById(R.id.textView);
+        mtextView.setText("");
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        String s=((Button)v).getText().toString();
+
+        if(s.equalsIgnoreCase("del")){
+            mtextView.setText("");
+            flag=0;
+            num2=num1=0.0;
+        }
+
+        if("1234567890.".contains(s)){
+            mtextView.append(s);
+        }
+
+        if("sincostanloginv".contains(s)&&!mtextView.getText().toString().equals("")){
+           // Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
+            if("sin".equalsIgnoreCase(s)){
+                mtextView.setText(""+Math.sin(Double.parseDouble(mtextView.getText().toString())));
+            }
+            if("cos".equalsIgnoreCase(s)){
+                mtextView.setText(""+Math.sin(Double.parseDouble(mtextView.getText().toString())));
+            }
+            if("tan".equalsIgnoreCase(s)){
+                mtextView.setText(""+Math.sin(Double.parseDouble(mtextView.getText().toString())));
+            }
+        }
+
+        if("+-/*%=".contains(s)&&!mtextView.getText().toString().equals("")){
+            if(flag==0){
+
+                flag++;
+                num1=Double.parseDouble(mtextView.getText().toString());
+                Toast.makeText(getApplicationContext(),"n1:"+num1,Toast.LENGTH_SHORT).show();
+                mtextView.setText("");
+            }
+            else{
+                flag=0;
+                num2=Double.parseDouble(mtextView.getText().toString());
+                Toast.makeText(getApplicationContext(),"n2:"+num2,Toast.LENGTH_SHORT).show();
+                if(s.equals("+")){
+                    num1=num1+num2;
+                }
+                if(s.equals("-")){
+                    num1=num1-num2;
+                }
+                if(s.equals("/")&&num2!=0){
+                    num1=num1/num2;
+                }
+                if(s.equals("*")){
+                    num1=num1*num2;
+                }
+                mtextView.setText(""+num1);
+                num1=num2=0;
+            }
+        }
+    }
+}

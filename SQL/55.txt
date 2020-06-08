@@ -1,0 +1,6 @@
+UPDATE
+    shopping_cart sc
+    LEFT JOIN
+    package pc ON sc. package_id = pc.id    
+SET
+    sc. amount = pc.amount

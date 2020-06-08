@@ -1,0 +1,8 @@
+$ az synapse workspace create \
+  --name $SynapseWorkspaceName \
+  --resource-group $ResourceGroup \
+  --account-url $StorageEndpointUrl \
+  --file-system $FileShareName \
+  --sql-admin-login-user $SqlUser \
+  --sql-admin-login-password $SqlPassword \
+  --location $Region

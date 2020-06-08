@@ -1,0 +1,15 @@
+Benchmark.ips do |x|
+  x.report('merge')  { {}.merge  :a => 1 }  
+  x.report('merge!') { {}.merge! :a => 1 }  
+  x.compare!  
+end  
+Calculating -------------------------------------
+               merge    34.220k i/100ms
+              merge!    33.039k i/100ms
+-------------------------------------------------
+               merge      1.923M (±32.2%) i/s -      7.631M
+              merge!      2.582M (±34.2%) i/s -      6.740M
+
+Comparison:
+              merge!:  2582064.1 i/s
+               merge:  1922744.2 i/s - 1.34x slower

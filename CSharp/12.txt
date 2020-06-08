@@ -1,0 +1,14 @@
+public class MyDbContext : DbContext
+{
+    private readonly DbConnection connection;
+
+    public MyDbContext(DbContextOptions options, DbConnection connection) : base(options)
+    {
+        this.connection = connection;
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        options.UseSqlServer(connection);
+    }
+}

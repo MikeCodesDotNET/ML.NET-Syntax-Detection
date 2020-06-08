@@ -1,0 +1,23 @@
+require 'pathname'
+
+SRC = FileList["*.txt"]
+DESTDIR = './dest'
+
+task :default => :renamecopy
+
+directory DESTDIR
+
+task :renamecopy => DESTDIR do
+  SRC.each do |path|
+    # ファイル名を変更してコピー
+    destName = Pathname(path).sub_ext('.html.markdown')
+
+    destDir = Pathname(DESTDIR)
+    destFile = destDir + destName.basename
+
+    # Shift-JISでファイルを読み込み
+    filestr = File.read(path, encoding: 'CP932:UTF-8')
+
+    File.write(destFile.to_s, filestr)
+  end
+end

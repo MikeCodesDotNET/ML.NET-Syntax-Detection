@@ -1,0 +1,32 @@
+# Measures runtime, memory usage,
+# of GC calls
+class Measurer
+  require "json"
+  require "benchmark"
+
+  def self.measure(opts = {}, &block)
+    use_gc = opts.has_key?(:use_gc) ? opts[:use_gc] : true
+    if use_gc
+      # collect memory allocated during library loading
+      # and our own code before the measurement
+      GC.start
+    else
+      GC.disable
+    end
+    memory_before = `ps -o rss= -p #{Process.pid}`.to_i/1024
+    gc_stat_before = GC.stat
+    time = Benchmark.realtime do
+      yield
+    end
+    gc_stat_after = GC.stat
+    GC.start if use_gc
+    memory_after = `ps -o rss= -p #{Process.pid}`.to_i/1024
+    GC.enable
+    puts({
+      RUBY_VERSION => {
+        gc: use_gc ? 'enabled' : 'disabled',
+        time: time.round(2),
+        gc_count: gc_stat_after[:count] - gc_stat_before[:count], memory: "%dM" % (memory_after - memory_before)
+      } }.to_json)
+  end
+end

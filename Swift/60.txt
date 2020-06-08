@@ -1,0 +1,25 @@
+func flatMapEarliest<E, R>(transform: E -> Observable<R>) -> Observable<E> -> Observable<R> {
+    return { source in
+        var acceptNew = true
+
+        return source >- flatMap { (n: E) in
+            if !acceptNew {
+                return empty()
+            }
+
+            acceptNew = false
+
+            return create { o in
+                let subscription = transform(n)
+                    >- subscribe { e in
+                        return send(o, e)
+                    }
+
+                return AnonymousDisposable {
+                    subscription.dispose()
+                    acceptNew = true
+                }
+            }
+        }
+    }
+}

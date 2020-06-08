@@ -1,0 +1,16 @@
+func isTextValid(input: String, completion: (result: Bool) -> Void) {
+  if (input == "Vea Software") {
+    completion(result: true)
+  } else {
+    completion(result: false)
+  }
+})
+ 
+//Call a Completion Handler
+isTextValid("Vea Software", { (result) -> Void in
+  if (result == true) {
+    println("working")
+  }else {
+    println("not working")
+  }
+})

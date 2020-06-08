@@ -1,0 +1,11 @@
+fun convertToTime(time: Number): Time {
+    return when (time) {
+        is Double -> {
+            val fullHours = Math.floor(time).toInt()
+            Time(fullHours, ((time - fullHours) * 60).toInt())
+        }
+        is Float -> convertToTime(time.toDouble())
+        is Int -> Time(time)
+        else -> Time(time.toInt())
+    }
+}

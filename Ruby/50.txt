@@ -1,0 +1,17 @@
+class OneTimeSwitch < ActiveRecord::Base
+  def self.switch(name)
+    if off?(name)
+      return_value = yield
+      create!(name: name)
+      return_value
+    end
+  end
+
+  def self.on?(name)
+    OneTimeSwitch.find_by_name(name)
+  end
+
+  def self.off?(name)
+    !on?(name)
+  end
+end

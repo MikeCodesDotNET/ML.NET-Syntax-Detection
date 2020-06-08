@@ -1,0 +1,19 @@
+puts "Enter starting year:"
+start_year = gets.chomp.to_i
+puts "Enter ending year:"
+end_year = gets.chomp.to_i
+
+## start_year to end_year, inclusive
+## if can % by 4, but not 100, unless can % by 400, put year
+
+puts "These are the leap years in that range! (if there are any)"
+year = start_year
+while year <= end_year
+	if year%4 == 0
+		if year%100 != 0 || year%400 == 0
+			print "#{year} "
+		end
+	end
+	year += 1
+end
+puts " "

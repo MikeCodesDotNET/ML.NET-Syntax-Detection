@@ -1,0 +1,41 @@
+<link rel="import" href="../cx-fieldset/cx-fieldset.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../cx-user-banking-account/banking-account.html">
+<link rel="import" href="../core-signals/core-signals.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #section {
+        width: 420px;
+        height: 420px;
+        padding: 10px;
+        border: 2px solid rgb(193, 193, 193);
+        margin: 10px 0px;
+        left: 80px;
+        top: 30px;
+        position: absolute;
+      }
+    </style>
+    <section id="section" layout>
+      <cx-fieldset id="cx_fieldset" layout horizontal></cx-fieldset>
+      <banking-account iban="asd" bic="asds" id="banking_account" layout vertical></banking-account>
+    </section>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

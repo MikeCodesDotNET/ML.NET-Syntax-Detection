@@ -1,0 +1,45 @@
+function checkActive() {
+
+  var code = $$('#start-form #code').val();
+
+  var accessToken = localStorage.getItem("access_token");
+
+  var url = api_packages_code + '?code=' + code + '&access_token=' + accessToken;
+  var xhr = new XMLHttpRequest();
+
+  xhr.onreadystatechange = function() {
+
+    if (this.readyState != 4) return;
+
+    if (this.status == 200) {
+
+      if (this.responseText) {
+
+        var data = JSON.parse(this.response);
+
+        if (data['status'] == 200) {
+
+          LoaderGo('main.html');
+
+        } else if (data['status'] == 400) {
+          app.dialog.alert(data['error_msg']);
+        }
+
+        return;
+      }
+
+      checkActive();
+      return;
+
+    }
+
+    if (this.status != 502) {
+      console.log(this.statusText);
+    }
+
+    setTimeout(checkActive, 1000);
+  }
+
+  xhr.open("GET", url, true);
+  xhr.send();
+}

@@ -1,0 +1,15 @@
+import React, { Component } from 'react';
+
+function withData(ComposedComponent, name) {
+  return class Data extends Component {
+    state = { data: null };
+    componentDidMount() {
+      this.setState({ data: `Hello, ${name}!` });
+    }
+    render() {
+      return <ComposedComponent {...this.props} data={this.state.data} />;
+    }
+  };
+}
+
+export default withData;

@@ -1,0 +1,117 @@
+#[deriving(Eq, Ord, PartialOrd, PartialEq)]
+enum Go{
+	Set(Vec<String>),
+	String(String)
+}
+/*
+impl PartialEq for Go{
+	fn eq(&self, other :&Go)->bool{
+		let mut r_big = false;
+		let mut l_big = false;
+		match self{
+			&Go::Set(..) =>l_big = true,
+			_ =>()
+		}
+		match other{
+			&Go::Set(..) =>r_big = true,
+			_ =>()
+		}
+		!(r_big ^ l_big)
+	}
+}
+*/
+/*
+impl Eq for Go{}
+*/
+/*
+impl PartialOrd for Go{
+	fn partial_cmp(&self, other :&Go)->Option<Ordering>{
+		let mut r_big = false;
+		let mut l_big = false;
+		match self{
+			&Go::Set(..) =>l_big = true,
+			_ =>()
+		}
+		match other{
+			&Go::Set(..) =>r_big = true,
+			_ =>()
+		}
+		Some(if l_big && !r_big{
+			Less
+		}else if r_big && !l_big{
+			Greater
+		}else{
+			Equal
+		})
+	}
+	fn lt(&self, other :&Go)->bool{
+		let mut r_big = false;
+		let mut l_big = false;
+		match self{
+			&Go::Set(..) =>l_big = true,
+			_ =>()
+		}
+		match other{
+			&Go::Set(..) =>r_big = true,
+			_ =>()
+		}
+		!l_big && r_big
+	}
+	fn le(&self, other :&Go)->bool{
+		match other{
+			&Go::Set(..) =>true,
+			_ =>false
+		}
+	}
+	fn gt(&self, other :&Go)->bool{
+		let mut r_big = false;
+		let mut l_big = false;
+		match self{
+			&Go::Set(..) =>l_big = true,
+			_ =>()
+		}
+		match other{
+			&Go::Set(..) =>r_big = true,
+			_ =>()
+		}
+		l_big && !r_big
+	}
+	fn ge(&self, _ :&Go)->bool{
+		match self{
+			&Go::Set(..) =>true,
+			_ =>false
+		}
+	}
+}
+*/
+/*
+impl Ord for Go{
+	fn cmp(&self, other :&Go)->Ordering{
+		let mut r_big = false;
+		let mut l_big = false;
+		match self{
+			&Go::Set(..) =>l_big = true,
+			_ =>()
+		}
+		match other{
+			&Go::Set(..) =>r_big = true,
+			_ =>()
+		}
+		if l_big && !r_big{
+			Greater
+		}else if r_big && !l_big{
+			Less
+		}else{
+			Equal
+		}
+	}
+}
+*/
+fn main(){
+	let l = Go::Set(Vec::new());
+	let r = Go::String(String::new());
+	println!("{}", l.cmp(&l));
+	println!("{}", l.cmp(&r));
+	println!("{}", r.cmp(&l));
+	println!("{}", r.cmp(&r));
+}

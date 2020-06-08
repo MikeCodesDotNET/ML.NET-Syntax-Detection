@@ -1,0 +1,7 @@
+$ StorageAccountName='<come up with a name for your storage account>'
+$ ResourceGroup='<come up with a name for your resource group>'
+$ Region='<come up with a name of the region, e.g. eastus>'
+$ FileShareName='<come up with a name of the storage file share>'
+$ SynapseWorkspaceName='<come up with a name for Synapse Workspace>'
+$ SqlUser='<come up with a username>'
+$ SqlPassword='<come up with a secure password>'

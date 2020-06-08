@@ -1,0 +1,8 @@
+update
+    (select
+        u.assid as new_assid,
+        s.assid as old_assid
+    from ud u
+        inner join sale s on
+            u.id = s.udid) up
+set up.new_assid = up.old_assid

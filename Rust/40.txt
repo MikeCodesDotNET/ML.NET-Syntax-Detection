@@ -1,0 +1,20 @@
+struct A<T: Test> {
+  a: T,
+}
+
+impl<T: Test> A<T> {
+  fn new<U: Test>(t: T) -> A<T> {
+    A { a: t }
+  }
+}
+
+trait Test {
+  fn t() -> () { }
+}
+
+struct A0;
+impl Test for A0 { }
+
+fn main() -> () {
+  let a: A<A0> = A::new(A0);
+}

@@ -1,0 +1,13 @@
+public interface List<out E> : Collection<E> {  // (1)
+    override val size: Int
+    override fun isEmpty(): Boolean
+    override fun contains(element: @UnsafeVariance E): Boolean
+    override fun iterator(): Iterator<E>
+    override fun containsAll(elements: Collection<@UnsafeVariance E>): Boolean
+    public operator fun get(index: Int): E
+    public fun indexOf(element: @UnsafeVariance E): Int
+    public fun lastIndexOf(element: @UnsafeVariance E): Int
+    public fun listIterator(): ListIterator<E>
+    public fun listIterator(index: Int): ListIterator<E>
+    public fun subList(fromIndex: Int, toIndex: Int): List<E>
+}

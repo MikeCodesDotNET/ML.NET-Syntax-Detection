@@ -1,0 +1,4 @@
+$ StorageEndpointUrl=$(az storage account show \
+  --name $StorageAccountName \
+  --resource-group $ResourceGroup \
+  | jq -r '.primaryEndpoints | .dfs')

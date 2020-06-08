@@ -1,0 +1,35 @@
+import pytest
+
+def params(n):
+    fn = range(n)
+    return {'name': 'a', 'args': fn, 'ids': ['a: {}'.format(i) for i in fn]}
+
+named_args = params(3)
+
+@pytest.mark.parametrize(
+        named_args['name'], named_args['args'], ids=named_args['ids'])
+def test_funcs_with_naming_func(a):
+    assert a ** 3 == a * (a ** 2)
+
+###############################################################################
+
+## Our parametrize wrapper:
+
+def myparametrize(argnames, argvalues):
+    def fmt(ns, vs):
+        return ', '.join('{}: {}'.format(n, v) for n, v in zip(ns, vs))
+    return pytest.mark.parametrize(argnames, argvalues,
+                                   ids=[fmt(argnames, vs) for vs in argvalues])
+
+
+# As you can see, the single argument case looks a bit pathological,
+# as pytest.mark.parametrize is doing extra work that we are no longer
+# taking advantage of. But I assume this is not the usual case so it may not matter.
+@myparametrize(('a',), [(0,), (1,), (2,)])
+def test_func_with_myparametrize(a):
+    pass
+
+
+@myparametrize(('a','b','c'), [(1, 2, 3), (10, 20, 30)])
+def test_more_complicated_example(a, b, c):
+    pass

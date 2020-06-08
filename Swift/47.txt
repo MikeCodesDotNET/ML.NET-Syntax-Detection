@@ -1,0 +1,21 @@
+   func setupCellForPublic() {
+        let name: String = utils.getParamFromDictionary(cellData, searchKey: "message_author_name", defaultStr: "?")
+        titleLabel?.text = name
+
+        let currentVenue = utils.getParamFromDictionary(cellData, searchKey: "message_current_venue", defaultStr: "?")
+        
+        messageSenderLabel?.text = currentVenue
+
+        let timeAgo = utils.getParamFromDictionary(cellData, searchKey: "message_last_message_time", defaultStr: "?")
+
+        messageTimeLabel?.text = timeAgo
+
+        let preview = utils.getParamFromDictionary(cellData, searchKey: "message_preview", defaultStr: "?")
+        messageLabel?.text = preview
+
+        if let imageName = cellData?["message_main_image_url"] as? String {
+            utils.downloadImage(imageName, handler: {image in self.userImage?.image = image})
+        } else {
+            userImage?.image = UIImage(named:"group_chat_icon")
+        }
+    }

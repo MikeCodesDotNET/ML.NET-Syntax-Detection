@@ -1,0 +1,10 @@
+fn main() {
+  for int::range(1, 101) |x| {
+    match ( x % 3, x % 5) {
+      (0, 0) => io::println("fizbuzz"),
+      (0, _) => io::println("fizz"),
+      (_, 0) => io::println("buzz"),
+      (_, _) => io::println(x.to_str())
+    }
+  }
+}

@@ -1,0 +1,2 @@
+[DllImport("Dll1.dll", CallingConvention = CallingConvention.StdCall, EntryPoint = "TestFunction")]
+public static extern void TestFunctionOtherCookie([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CustomMarshaler), MarshalCookie = "OtherCookie")]TestFnParams p);

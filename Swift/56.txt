@@ -1,0 +1,16 @@
+class AppDelegate: UIResponder, UIApplicationDelegate, PNObjectEventListener {
+
+    var client : PubNub
+    var config : PNConfiguration
+    
+    override init() {
+        config = PNConfiguration(publishKey: "Demo", subscribeKey: "Demo")
+        client = PubNub.clientWithConfiguration(config)
+        client.subscribeToChannels(["Your_Channel"], withPresence: false)
+        client.publish("Swift+PubNub!", toChannel: "Your_Channel", compressed: false, withCompletion: nil)
+
+        super.init()
+        client.addListener(self)
+    }
+    
+}

@@ -1,0 +1,11 @@
+update ud 
+     set assid = (
+          select sale.assid 
+          from sale 
+          where sale.udid = ud.id
+     )
+ where RowID in (
+      select RowID 
+      from ud 
+      where sale.udid = ud.id
+ );

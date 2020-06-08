@@ -1,0 +1,13 @@
+package org.s1h
+
+import org.opencv.core.Core
+import org.opencv.core.CvType
+import org.opencv.core.Mat
+
+
+fun main(args: Array<String>) {
+    System.loadLibrary(Core.NATIVE_LIBRARY_NAME)
+
+    val mat = Mat.eye(5, 5, CvType.CV_8UC1)
+    println("mat = ${mat.dump()}")
+}

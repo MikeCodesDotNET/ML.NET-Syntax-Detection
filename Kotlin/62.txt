@@ -1,0 +1,12 @@
+
+import javax.persistence.*
+
+@Entity
+data class TaskList(
+    @Id @GeneratedValue
+    val id: Int = 0,
+    val name: String
+) {
+    @OneToMany(mappedBy = "taskList")
+    val tasks: MutableSet<Task> = HashSet()
+}

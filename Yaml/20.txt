@@ -1,0 +1,15 @@
+default:
+  all:
+    return: "Request worked"
+    on_error: "Shit failed {error_msg}"
+  create:
+    pulL_repo: true
+  delete:
+    pull_repo: true
+  pull_request:
+    pull_repo: true
+  ping:
+    pull_repo: false
+    return: "PONG: {datetime}"
+  push:
+    pull_repo: true

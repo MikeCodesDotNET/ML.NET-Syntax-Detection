@@ -1,0 +1,34 @@
+from urllib.request import urlretrieve
+from hashlib import md5
+from shutil import move
+from os import remove
+
+url = 'http://www.vstu.ru/files/uo/2015-01/9242/fakultet_elektroniki_i_vychislitelnoy_tehniki-5_kurs.xls'
+home = '<путь до папки с расписанием>'
+tmp = '/tmp/'
+scheduleFile = 'расписание.xls'
+
+def getHash(filename):
+    hasher = md5()
+    try:
+        with open(filename, 'rb') as file:
+            buf = file.read()
+            hasher.update(buf)
+        return hasher.hexdigest()
+    except:
+        return None
+
+if __name__ == '__main__':
+    oldHash = getHash(home + scheduleFile)
+    urlretrieve(url, tmp + scheduleFile)
+    newHash = getHash(tmp + scheduleFile)
+    if oldHash == None:
+        print('[!] Скачано расписание')
+        move(tmp + scheduleFile, home + scheduleFile)
+    elif oldHash != newHash:
+        print('[!] Скачано свежее расписание')
+        remove(home + scheduleFile)
+        move(tmp + scheduleFile, home + scheduleFile)
+    else:
+        print('[!] У вас уже самое свежее расписание')
+        remove(tmp + scheduleFile)

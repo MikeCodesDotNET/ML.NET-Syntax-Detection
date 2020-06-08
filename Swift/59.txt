@@ -1,0 +1,8 @@
+func cachePrevious<E>(source: Observable<E>) -> Observable<(E?, E)> {
+    var previous: E?
+    return source >- map {
+        let pre = previous
+        previous = $0
+        return (pre, $0)
+    }
+}

@@ -1,0 +1,7 @@
+IntPtr ICustomMarshaler.MarshalManagedToNative(object ManagedObj)
+{
+  var casted = ManagedObj as TestFnParams;
+  if (casted == null)
+  {
+    return IntPtr.Zero;
+  }

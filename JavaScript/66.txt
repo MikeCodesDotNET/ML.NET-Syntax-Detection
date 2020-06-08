@@ -1,0 +1,24 @@
+$(document).ready(function(){
+
+	(function(){
+		var moduleName = {
+
+			init: function(){
+				this._setUpListeners();
+			},
+
+			_setUpListeners: function(){
+				$('#selector').on('click', moduleName.privateMethod );
+			},
+
+			privateMethod: function(event){
+	    		event.preventDefault();
+				console.log('privateMethod runs');
+			}
+		};
+
+		moduleName.init();
+
+	}());
+
+});

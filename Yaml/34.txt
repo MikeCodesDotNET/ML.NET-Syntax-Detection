@@ -1,0 +1,405 @@
+node:
+  prefix:
+  - 9vasg
+  - jtaleric
+  - null
+  - rh
+  - pud
+  - rmgr
+tmp:
+  node_prefix: '{{ node.prefix | reject("none") | join("-") }}-'
+  hostname_prefix: '{{ hostname.prefix | reject("none") | join("-") }}-'
+  anchors:
+  - http://rhos-release.virt.bos.redhat.com/repos/rhos-release/
+  - http://ayanami.boston.devel.redhat.com/poodles/rhos-devel-ci/7.0
+  - /latest/RHOS-6/x86_64/os/
+product:
+  rpmrepo:
+    CentOS: http://rhos-release.virt.bos.redhat.com/repos/rhos-release/
+    Fedora: http://rhos-release.virt.bos.redhat.com/repos/rhos-release/
+    RedHat: http://rhos-release.virt.bos.redhat.com/repos/rhos-release/
+  repo_type: puddle
+  name: rhos
+  short_name: rh
+  config:
+    enable_epel: n
+  full_version: 7-director
+  short_version: 7d
+  repo:
+    core_product_version: 7
+    poodle_pin_version: latest
+    location: bos
+    puddle_pin_version: latest
+    foreman_pin_version: latest
+    poodle:
+      RedHat:
+        '7.1': http://ayanami.boston.devel.redhat.com/poodles/rhos-devel-ci/7.0/latest/RHOS-6/x86_64/os/
+      CentOS:
+        '7.1': http://ayanami.boston.devel.redhat.com/poodles/rhos-devel-ci/7.0/latest/RHOS-6/x86_64/os/
+    puddle_director_pin_version: 2015-07-30.1
+    mirror: download.eng.bos.redhat.com
+    release: latest
+    rhos_release:
+      extra_args:
+      - -p
+      - latest
+    type: puddle
+    foreman_poodle_pin_version: latest
+    short_type: pud
+  version:
+    major: 7
+    minor: 0
+    code_name: kilo
+  rpm: http://rhos-release.virt.bos.redhat.com/repos/rhos-release/rhos-release-latest.noarch.rpm
+  rpmrepo_override:
+    RedHat: http://rhos-release.virt.bos.redhat.com/repos/rhos-release/rhos-release-latest.noarch.rpm
+  short_repo: pu
+  repo_type_override: none
+workaround:
+  set_key_encrypted_volumes: true
+hostname:
+  prefix:
+  - 8bi56
+  - rmgr
+jenkins:
+  job_name:
+  - ''
+  workspace: /home/jtaleric/jenkins/workspace
+job:
+  archive:
+  - /root/
+  - /var/log/
+  - /etc/yum.repos.d
+  - /etc/selinux
+  - /var/lib/mysql
+  - /etc/nova
+  - /etc/ceilometer
+  - /etc/cinder
+  - /etc/glance
+  - /etc/keystone
+  - /etc/neutron
+  - /etc/swift
+  - /etc/heat
+  - /etc/libvirt
+  - /etc/rabbitmq
+  - /etc/ntp
+  - /etc/puppet
+  - /etc/qpid
+  - /etc/qpidd.conf
+  - /home/stack/.instack/install-undercloud.log
+  - /home/stack/stackrc
+  - /home/stack/*.log
+  - /home/stack/*.json
+  - /home/stack/*.conf
+  - /home/stack/deploy-overcloudrc
+  - /home/stack/network-environment.yaml
+  - /home/stack/tempest/*.xml
+  - /home/stack/tempest/*.log
+  - /home/stack/tempest/etc/*.conf
+location:
+  map:
+    rdu: download.eng.rdu.redhat.com
+    tlv: download.eng.tlv.redhat.com
+    pnq: download.eng.pnq.redhat.com
+    bos: download.eng.bos.redhat.com
+    brq: download.eng.brq.redhat.com
+    blr: download.eng.blr.redhat.com
+    nay: download.eng.nay.redhat.com
+    bne: download.eng.bne.redhat.com
+  defaultrepo_string: download.lab.bos.redhat.com
+provisioner:
+  beaker_variant: Server
+  pub_file: /home/jtaleric/Code/Work/auto/khaleesi/../khaleesi-settings/settings/provisioner/beaker/site/bkr/user/keys/id_rsa_rdoci-jenkins.pub
+  whiteboard_message: InstackTesting
+  network:
+    public_allocation_end: 172.17.0.220
+    public_allocation_start: 172.17.0.200
+    vlan:
+      internal:
+        range:
+          start: 290
+          end: 340
+      external:
+        tag: ''
+    network_list:
+      external:
+        subnet_cidr: ''
+        subnet_gateway: ''
+        allocation_end: ''
+        allocation_start: ''
+    public_subnet_cidr: 172.17.0.0/16
+    public_subnet_gateway: 172.17.0.1
+    type: none
+  beaker_group: openstack-m
+  beaker_family: RedHatEnterpriseLinux7
+  skip: skip_provision
+  beaker_arch: x86_64
+  key_file_name: rdoci-jenkins.pem
+  host_lab_controller: lab-02.rhts.eng.brq.redhat.com
+  strategy:
+    libvirt:
+      node: tempest
+      ks_extra_args: null
+      default_ip_prefix: 192.168.122
+      image:
+        fedora:
+          '20':
+            initimage: fedora20
+            os_variant: fedora20
+            install_url: http://download.eng.bos.redhat.com/released/F-20/GOLD/Fedora/x86_64/os/
+        rhel:
+          '7.0':
+            initimage: rhel7
+            os_variant: rhel7
+            install_url: http://download.eng.bos.redhat.com/released/RHEL-7/7.0/Server/x86_64/os/
+      poolpath: /var/lib/libvirt/images
+  remote_user: stack
+  pub_file_name: id_rsa.pub
+  beaker_checkout_script: khaleesi-settings/settings/provisioner/beaker/files/beakerCheckOut.sh
+  key_file: /home/jtaleric/Code/Work/auto/khaleesi/../khaleesi-settings/settings/provisioner/beaker/site/bkr/user/keys/rdoci-jenkins.pem
+  type: beaker
+  beaker_distro: RHEL-7.1
+  beaker_user_name: rdoci-jenkins/rhos-qe-jenkins.rhev-ci-vms.eng.rdu2.redhat.com@REDHAT.COM
+  distro:
+    name: rhel
+installer:
+  topology_name: minimal
+  network:
+    auto_assign_floating_ip: false
+    name: public
+    plugin: ml2
+    isolation: none
+    variant: vxlan
+    label: myphysnet
+    type: neutron
+  firewall:
+    rules:
+    - ' -A INPUT -p tcp -m tcp --dport 22 -m comment --comment "001 QA incoming SSH"
+      -j ACCEPT'
+    - ' -A INPUT -p icmp -m comment --comment "002 QA incoming ICMP" -j ACCEPT'
+    - ' -A INPUT -m state --state ESTABLISHED,RELATED -m comment --comment "003 QA
+      incoming related session exist the host interface MGMT" -j ACCEPT'
+    - ' -A INPUT -i lo -m comment --comment "004 QA incoming loopback" -j ACCEPT'
+    - ' -A INPUT -p udp --sport 53 -m comment --comment "005 QA incoming DNS" -j ACCEPT'
+    - ' -A INPUT -p udp --sport 123 -m comment --comment "006 QA incoming NTP" -j
+      ACCEPT'
+    - ' -P INPUT DROP'
+  network_restart: true
+  env:
+    type: baremetal
+  images:
+    rhos:
+      7-director:
+        rhel:
+          '7.1': http://rhos-release.virt.bos.redhat.com/mburns/latest-images/
+  nodes:
+    blockstorage:
+      nova_list_type: cinderstorage
+      type: Cinder-Storage
+    compute:
+      nova_list_type: compute
+      type: Compute
+    tester:
+      remote_user: root
+    cephstorage:
+      nova_list_type: cephstorage
+      type: Ceph-Storage
+    controller:
+      nova_list_type: controller
+      remote_user: heat-admin
+    swiftstorage:
+      nova_list_type: swiftstorage
+      type: Swift-Storage
+  type: rdo-manager
+  tempest:
+    test_regex: tempest\.api
+    whitelist: []
+    enabled: true
+    blacklist: []
+    images:
+      cirros:
+        url: null
+        id: cirros-0.3.1-x86_64-disk.img
+    dir: tempest
+  overcloud_images: import
+  short_type: rmgr
+workarounds:
+  enabled: true
+distro:
+  epel_release: http://mirror.umd.edu/fedora/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  name: rhel
+  short_name: rh
+  short_version: 71
+  repo:
+    rhpkg: http://download.devel.redhat.com/rel-eng/dist-git/rhel/rhpkg.repo
+    rdopkg: https://copr.fedoraproject.org/coprs/jruzicka/rdopkg/repo/epel-7/jruzicka-rdopkg-epel-7.repo
+  version: '7.1'
+  rhel:
+    '6.6':
+      kickstart_url: http://download.eng.bos.redhat.com/released/RHEL-6/6.6/Server/x86_64/os/
+      repos:
+      - section: rhel6.5-server-rpms
+        name: Packages for RHEL 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/$basearch/os/Server
+        gpgcheck: 0
+      - section: rhel-6.5-server-update-rpms
+        name: Update Packages for Enterprise Linux 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/rel-eng/repos/RHEL-6.6-Z/$basearch/
+        gpgcheck: 0
+      - section: rhel-6.5-server-optional-rpms
+        name: Optional Packages for Enterprise Linux 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/optional/$basearch/os
+        gpgcheck: 0
+      - section: rhel6.5-server-rpms-32bit
+        name: Packages for RHEL 6.5 - i386
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/i386/os/Server
+        gpgcheck: 0
+        enabled: 1
+      - section: rhel-6.5-server-update-rpms-32bit
+        name: Update Packages for Enterprise Linux 6.5 - i686
+        baseurl: http://download.lab.bos.redhat.com/rel-eng/repos/RHEL-6.6-Z/i686/
+        gpgcheck: 0
+        enabled: 1
+      - section: rhel-6.5-server-optional-rpms-32bit
+        name: Optional Packages for Enterprise Linux 6.5 - i386
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/optional/i386/os
+        gpgcheck: 0
+        enabled: 1
+    '7.0':
+      kickstart_url: http://download.eng.bos.redhat.com/released/RHEL-7/7.0/Server/x86_64/os/
+      repos:
+      - section: rhel7-server-rpms
+        name: Packages for RHEL 7 - $basearch
+        baseurl: http://download.eng.bos.redhat.com/rel-eng/repos/rhel-7.0/x86_64/
+        gpgcheck: 0
+      - section: rhel7-server-update-rpms
+        name: Updated Packages for RHEL 7 - $basearch
+        baseurl: http://ayanami.boston.devel.redhat.com/poodles/rhel-7.0-z/7.0/latest/rhel-7.0-z/$basearch/os/
+        gpgcheck: 0
+      - section: rhel-7-server-optional-rpms
+        name: Optional Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://download.devel.redhat.com/released/RHEL-7/7.0/Server-optional/x86_64/os/
+        gpgcheck: 0
+      - section: rhel-7-server-extras-rpms
+        name: Optional Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://download.devel.redhat.com/rel-eng/EXTRAS-7.0-RHEL-7-20140610.0/compose/Server/x86_64/os/
+        gpgcheck: 0
+    '7.1':
+      kickstart_url: http://download.eng.bos.redhat.com/released/RHEL-7/7.1-Beta/Server/x86_64/os/
+      repos:
+      - section: rhel7-server-rpms
+        name: Packages for RHEL 7 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/composes/latest-RHEL7/compose/Server/x86_64/os/
+        gpgcheck: 0
+      - section: rhel7-server-update-rpms
+        name: Updated Packages for RHEL 7 - $basearch
+        baseurl: http://ayanami.boston.devel.redhat.com/poodles/rhel-7.0-z/7.0/latest/rhel-7.0-z/$basearch/os/
+        gpgcheck: 0
+      - section: rhel-7-server-optional-rpms
+        name: Optional Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/composes/latest-RHEL7/compose/Server-optional/x86_64/os/
+        gpgcheck: 0
+      - section: rhel-7-server-common-rpms
+        name: Common Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://ayanami.boston.devel.redhat.com/poodles/rhel-7-common/7.0/latest/RHEL-7-COMMON/x86_64/os/
+        gpgcheck: 0
+      - section: rhel-7-server-HA-rpms
+        name: HA Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://download.eng.bos.redhat.com/composes/latest-RHEL7/compose/Server/x86_64/os/addons/HighAvailability/
+        gpgcheck: 0
+      - section: rhel-7-server-EXTRAS-rpms
+        name: Extra Packages for Enterprise Linux 7 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/composes/nightly/latest-EXTRAS-7-RHEL-7/compose/Server/x86_64/os/
+        gpgcheck: 0
+    '6.5':
+      kickstart_url: http://download.eng.bos.redhat.com/released/RHEL-6/6.6/Server/x86_64/os/
+      repos:
+      - section: rhel6.5-server-rpms
+        name: Packages for RHEL 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/$basearch/os/Server
+        gpgcheck: 0
+      - section: rhel-6.5-server-update-rpms
+        name: Update Packages for Enterprise Linux 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/rel-eng/repos/RHEL-6.6-Z/$basearch/
+        gpgcheck: 0
+      - section: rhel-6.5-server-optional-rpms
+        name: Optional Packages for Enterprise Linux 6.5 - $basearch
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/optional/$basearch/os
+        gpgcheck: 0
+      - section: rhel6.5-server-rpms-32bit
+        name: Packages for RHEL 6.5 - i386
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/i386/os/Server
+        gpgcheck: 0
+        enabled: 1
+      - section: rhel-6.5-server-update-rpms-32bit
+        name: Update Packages for Enterprise Linux 6.5 - i686
+        baseurl: http://download.lab.bos.redhat.com/rel-eng/repos/RHEL-6.6-Z/i686/
+        gpgcheck: 0
+        enabled: 1
+      - section: rhel-6.5-server-optional-rpms-32bit
+        name: Optional Packages for Enterprise Linux 6.5 - i386
+        baseurl: http://download.lab.bos.redhat.com/released/RHEL-6/6.6/Server/optional/i386/os
+        gpgcheck: 0
+        enabled: 1
+    subscription:
+      username: qa@redhat.com
+      physical_pool: 8a85f9823e3d5e43013e3ddd4e2a0977
+      password: uBLybd5JSmkRHebA
+      physical_pool_small: 8a85f9843affb61f013b1fae79e26a75
+      pool: 8a85f9823e3d5e43013e3ddd4e9509c4
+  images:
+    rhel:
+      '6.7':
+        remote_file_server: http://download.eng.bos.redhat.com/brewroot/packages/rhel-guest-image/6.7/20150427.0/images/
+        remote_user: cloud-user
+        guest_image_name: rhel-guest-image-6.7-20150427.0.x86_64.qcow2
+      '6.6':
+        remote_file_server: http://download.eng.bos.redhat.com/brewroot/packages/rhel-guest-image/6.6/20150127.0/images/
+        remote_user: cloud-user
+        guest_image_name: rhel-guest-image-6.6-20150127.0.x86_64.qcow2
+      '7.0':
+        remote_file_server: http://download.devel.redhat.com/brewroot/packages/rhel-guest-image/7.0/20150126.0/images/
+        remote_user: cloud-user
+        guest_image_name: rhel-guest-image-7.0-20150126.0.x86_64.qcow2
+      '7.1':
+        remote_file_server: http://rhos-qe-mirror-brq.usersys.redhat.com/images/
+        remote_user: cloud-user
+        guest_image_name: rhel-guest-image-7.1-20150224.0.x86_64.qcow2
+    centos:
+      7.0.1406:
+        remote_file_server: http://cloud.centos.org/centos/7/devel/
+        remote_user: cloud-user
+        guest_image_name: CentOS-7-x86_64-GenericCloud-GA-7.0.1406_01.qcow2
+      '7.0':
+        remote_file_server: http://cloud.centos.org/centos/7/devel/
+        remote_user: cloud-user
+        guest_image_name: CentOS-7-x86_64-GenericCloud-GA-7.0.1406_01.qcow2
+      7.1.1503:
+        remote_file_server: http://cloud.centos.org/centos/7/devel/
+        remote_user: cloud-user
+        guest_image_name: CentOS-7-x86_64-GenericCloud-GA-7.0.1406_01.qcow2
+    fedora:
+      '20':
+        remote_file_server: http://dl.fedoraproject.org/pub/alt/openstack/20/x86_64/
+        remote_user: fedora
+        guest_image_name: Fedora-x86_64-20-20140618-sda.qcow2
+      '21':
+        remote_file_server: http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/Images/x86_64/
+        remote_user: fedora
+        guest_image_name: Fedora-Cloud-Base-20141203-21.x86_64.qcow2
+  config:
+    ntp_server_ip: 10.5.26.10
+    ntp_server: clock.redhat.com
+    dns_servers:
+    - 10.34.32.1
+    - 10.34.32.3
+    reboot_delay: 1
+    initial_boot_timeout: 180
+hw_env:
+  neutron_public_interface: nic1
+  remote_mgmt: dracs
+  answers_local_interface: em2
+  env_type: bagl-lab
+  libvirt_type: kvm
+  network_gateway: 10.16.159.254
+  network_cidr: 172.21.0.0/16

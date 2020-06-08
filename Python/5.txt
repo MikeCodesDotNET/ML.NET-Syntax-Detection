@@ -1,0 +1,68 @@
+class TestCharmRelations(unittest.TestCase):
+
+    """ Use NovaCompute to determine if certain relations
+    are supported as it contains an optional charm relation.
+
+    NovaCompute includes an optional relation for ceilometer, this
+    class will test to make sure that relation is dropped
+    since that service is unavailable in this test.
+    """
+
+    def setUp(self):
+        self.mock_jujuclient = MagicMock(name='jujuclient')
+        self.mock_juju_state = MagicMock(name='juju_state')
+        self.mock_ui = MagicMock(name='ui')
+        self.mock_config = MagicMock(name='config')
+
+        files_path = os.path.join(os.path.dirname(__file__), 'juju-output')
+        services = yaml.load(utils.slurp(
+            os.path.join(files_path,
+                         'juju-status-api.yaml')))
+        loaded_services = []
+
+        for name, service in services.get('Services', {}).items():
+            loaded_services.append(Service(name, service))
+
+        def service_side_effect(name):
+            for s in loaded_services:
+                if s.service_name == name:
+                    return s
+            return Service(name, {})
+        self.mock_juju_state.service.side_effect = service_side_effect
+
+        self.charm = CharmNovaCompute(
+            juju=self.mock_jujuclient,
+            juju_state=self.mock_juju_state,
+            ui=self.mock_ui,
+            config=self.mock_config)
+
+        self.relations = [
+            ('nova-compute:neutron-plugin',
+             'neutron-openvswitch:neutron-plugin'),
+            ('nova-compute:amqp',
+             'rabbitmq-server:amqp'),
+            ('mysql:shared-db',
+             'nova-compute:shared-db'),
+            ('nova-compute:image-service',
+             'glance:image-service'),
+            ('nova-cloud-controller:cloud-compute',
+             'nova-compute:cloud-compute'),
+            ('ntp:juju-info',
+             'nova-compute:juju-info'),
+            ('nova-compute:nova-ceilometer',
+             'ceilometer-agent:nova-ceilometer')]
+
+        self.expected_relation = self.relations[:-1]
+        self.unexpected_relation = self.relations[-1]
+
+    def test_expected_relations(self):
+        """ Test valid relations are provided """
+        valid_relations = self.charm.filter_valid_relations(self.relations)
+        from pprint import pprint
+        pprint(self.expected_relation)
+        self.assertIn(self.expected_relation, valid_relations)
+
+    def test_unexpected_relations(self):
+        """ Test invalid relations are removed """
+        valid_relations = self.charm.filter_valid_relations(self.relations)
+        self.assertNotIn(self.unexpected_relation, valid_relations)

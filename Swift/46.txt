@@ -1,0 +1,18 @@
+func setupCellForCheckins() {
+        let venueName: String = utils.getParamFromDictionary(cellData, searchKey: "check_in_title", defaultStr: "No data")
+        titleLabel?.text = venueName
+
+        let usersCheckedIn: String = utils.getParamFromDictionary(cellData, searchKey: "check_in_location_appended_data_collection", defaultStr: "No data")
+        messageSenderLabel?.text = usersCheckedIn
+
+        let timeAgo: String = utils.getParamFromDictionary(cellData, searchKey: "user_creation_date_ago", defaultStr: "No data")
+        messageTimeLabel?.text = timeAgo
+
+        let checkInComment = utils.getParamFromDictionary(cellData, searchKey: "check_in_description", defaultStr: "No data")
+
+        if let imageName = cellData?["check_in_cover_image_url"] as? String {
+            utils.downloadImage(imageName, handler: {image in self.userImage?.image = image})
+        } else {
+            userImage?.image = UIImage(named:"location_chat_icon_vector")
+        }
+    }

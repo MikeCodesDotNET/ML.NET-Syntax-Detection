@@ -1,0 +1,49 @@
+class NodeTrie:
+	
+	def __init__(self,data):
+		self.data = data
+		self.pointers = [None for i in xrange(97,123)]
+		
+class Trie:
+	
+	def __init__(self):
+		self.sqr = NodeTrie(False)
+		self.actPtr = self.sqr
+	
+	def _find(self,string):
+		self.actPtr,find,tord = self.sqr,False,ord
+		while self.actPtr!=None and find==False:
+			if len(string)==0: find=self.actPtr.data; self.actPtr=None
+			else:
+				self.actPtr = self.actPtr.pointers[tord(string[0])-97]
+				if self.actPtr!=None: string = string[1:]
+		return find		
+	
+	def _insert(self,string):
+		self.actPtr,index,tord = self.sqr,0,ord
+		for char in string[0:-1]:
+			index = tord(char)-97
+			if self.actPtr.pointers[index]==None: self.actPtr.pointers[index] = NodeTrie(False)
+			self.actPtr = self.actPtr.pointers[index]
+		index = tord(string[-1])-97
+		if self.actPtr.pointers[index]==None: self.actPtr.pointers[index] = NodeTrie(True)
+		else: self.actPtr.pointers[index].data = True
+		
+	def _delete(self,string):
+		if self._find(string)==False: return False
+		self.actPtr,tord = self.sqr,ord
+		for char in string[0:-1]: self.actPtr = self.actPtr.pointers[tord(char)-97]
+		self.actPtr.pointers[tord(string[-1])-97].data = False
+		return True
+				
+	
+	def __str__(self):
+		pass
+if __name__ == "__main__":
+	MyTrie = Trie()
+	print "Insertado hola."
+	MyTrie._insert("hola")
+	print "Encontrado hola? -> " , MyTrie._find("hola")
+	print "Encontrado aloha? -> " , MyTrie._find("aloha")
+	print "Borrado hola? -> " , MyTrie._delete("hola")
+	print "Enontrado hola? -> " , MyTrie._find("hola")

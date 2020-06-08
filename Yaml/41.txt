@@ -1,0 +1,66 @@
+cleanup:
+    description: |
+        **Warning** THIS IS DESTRUCTIVE **WARNING** WILL REMOVE STOPPED DATA CONTAINERS
+        Destructive action to clean up non-running/intermediate containers/images
+    params:
+        type:
+            description: "containers or images"
+            default: "images"
+run:
+    description: Pulls a docker container from the docker registry, and run with a restart policy
+    params:
+        name:
+            description: Name of the docker file in the registry. eg: redis
+            default: ""
+        ports:
+            description: array notation of ports to bind-mount to the host
+            default: ""
+        daemonize:
+            type: boolean
+            description: Generate an upstart script w/ restart policy to manage the container
+            default: True
+fig:
+    description: Runs a fig based deployment from filesystem/http/git
+    params:
+        yaml:
+            description: http / filesystem pointer to a YAML file to read into fig
+            type: string
+        repository:
+            description: Git repository containing `fig.yml`
+            type: string
+stop:
+    description: Stops a docker container
+    params:
+        name:
+            description: UUID / Container name
+            type: string
+commit:
+    description: Create a new image from a container's changes
+    params:
+        author:
+            description: Author (e.g.,"John Hannibal Smith <hannibal@a-team.com")
+            type: string
+        message:
+            description: Commit message
+            type: string
+        pause:
+            description: Pause container during commit
+            type: boolean
+log:
+    description: Return the logs from a docker container
+    params:
+        name:
+            description: UUID / Container name
+            type: string
+pause:
+    description: Pause a running docker container
+    params:
+        name:
+            description: UUID / Container name
+            type: string
+unpause:
+    description: UnPause a Paused docker container
+    params:
+        name:
+            description: UUID / Container name
+            type: string

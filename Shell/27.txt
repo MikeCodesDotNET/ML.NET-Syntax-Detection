@@ -1,0 +1,6 @@
+#replace th0 with interface name and the 1st ip with nic ip and 2nd ip with proxy ip
+ip="$(ifconfig eth0|grep 'inet addr'|awk -F':' '{print $2}'| awk -F' ' '{print $1}')" 
+if [[ $ip = "172.24.0.2" ]]
+then
+        export http_proxy="http://172.24.0.1:3128"
+fi

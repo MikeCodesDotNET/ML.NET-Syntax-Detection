@@ -1,0 +1,5 @@
+# From Zed shaw. I like this kill command.
+def dead(why)
+  puts why, 'Good job!'
+  exit(0)
+end

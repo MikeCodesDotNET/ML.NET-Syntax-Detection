@@ -1,0 +1,21 @@
+//Declare these in your Activity:
+
+Handler handler = new Handler();
+Runnable timedTask = new Runnable(){
+
+    @Override
+    public void run() {
+        getUrlText();
+        handler.postDelayed(timedTask, 1000);
+    }};
+//Then set your onClick:
+
+button.setOnClickListener(new OnClickListener() {
+
+    @Override
+        public void onClick(View v) {
+            getUrlText();
+            handler.post(timedTask);
+        }
+    });
+//This will execute timedTask every 1000 milliseconds. Increase this number as necessary.

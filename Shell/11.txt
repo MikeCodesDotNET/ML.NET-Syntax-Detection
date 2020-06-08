@@ -1,0 +1,2 @@
+$ git clone https://github.com/USERNAME/dev-spaces
+$ cd dev-spaces/samples/BikeSharingApp/

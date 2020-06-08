@@ -1,0 +1,138 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+type Fetcher interface {
+	// Fetch returns the body of URL and
+	// a slice of URLs found on that page.
+	Fetch(url string) (body string, urls []string, err error)
+}
+
+type Page struct {
+	url string
+	dataChannel chan Page
+	depth int
+}
+
+func (page *Page) Fetch() {
+	body, urls, err := fetcher.Fetch(page.url)
+	if err != nil {
+		fmt.Println(err)
+		close(page.dataChannel)
+		return
+	}
+	fmt.Printf("found: %s %q\n", page.url, body)
+	for _, u := range urls {
+		page.dataChannel <- Page{url: u, depth: page.depth - 1}
+	}
+	
+	close(page.dataChannel)
+}
+
+type alist map[string]struct{}
+func (l *alist) Contains(s string) bool {
+	_, exists := (*l)[s]
+
+	if exists {
+		return true
+	} else {
+		(*l)[s] = struct{}{}
+		return false
+	}
+}
+
+// Crawl uses fetcher to recursively crawl
+// pages starting with url, to a maximum of depth.
+func Crawl(url string, depth int, fetcher Fetcher) {
+	// TODO: Fetch URLs in parallel.
+	// TODO: Don't fetch the same URL twice.
+	// This implementation doesn't do either:
+	if depth <= 0 {
+		return
+	}
+
+	alreadySeen := make(alist)
+	alreadySeen.Contains(url)
+	
+	pages := make([]Page, 1)
+	pages[0] = Page{url, make(chan Page), depth}
+
+	go pages[0].Fetch()
+	
+	for channel := 0 ; len(pages) > 0 ; {
+		channel=(channel+1)%len(pages)
+		
+		newPage, ok := <- pages[channel].dataChannel
+		if ok {
+			if !alreadySeen.Contains(newPage.url) && newPage.depth > 0 {
+				newPage.dataChannel = make(chan Page)
+				
+				pages = append(pages, newPage)
+				
+				go newPage.Fetch()
+			}
+		} else {
+			pages = append(pages[:channel], pages[channel+1:]...)
+		}
+
+	}
+	return
+}
+
+func main() {
+	Crawl("http://golang.org/", 4, fetcher)
+}
+
+// fakeFetcher is Fetcher that returns canned results.
+type fakeFetcher map[string]*fakeResult
+
+type fakeResult struct {
+	body string
+	urls []string
+}
+
+func (f fakeFetcher) Fetch(url string) (string, []string, error) {
+	time.Sleep(30 * time.Millisecond)
+	
+	if res, ok := f[url]; ok {
+		return res.body, res.urls, nil
+	}
+	return "", nil, fmt.Errorf("not found: %s", url)
+}
+
+// fetcher is a populated fakeFetcher.
+var fetcher = fakeFetcher{
+	"http://golang.org/": &fakeResult{
+		"The Go Programming Language",
+		[]string{
+			"http://golang.org/pkg/",
+			"http://golang.org/cmd/",
+		},
+	},
+	"http://golang.org/pkg/": &fakeResult{
+		"Packages",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/cmd/",
+			"http://golang.org/pkg/fmt/",
+			"http://golang.org/pkg/os/",
+		},
+	},
+	"http://golang.org/pkg/fmt/": &fakeResult{
+		"Package fmt",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/pkg/",
+		},
+	},
+	"http://golang.org/pkg/os/": &fakeResult{
+		"Package os",
+		[]string{
+			"http://golang.org/",
+			"http://golang.org/pkg/",
+		},
+	},
+}

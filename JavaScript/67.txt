@@ -1,0 +1,4 @@
+let result = [0, 1, 2, 3, 4, 5].sort(() => { /* Shuffle */
+  return Math.random() - .5
+})
+console.log(result[0])

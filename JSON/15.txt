@@ -1,0 +1,341 @@
+[
+
+  {
+    "matchNumber": 1,
+    "kickOff": "2015-09-18T20:00:00.000Z",
+    "pool": "A",
+    "teamA": "England",
+    "teamB": "Fiji",
+    "location": "Twickenham, London"
+  },
+
+  {
+    "matchNumber": 2,
+    "kickOff": "2015-09-19T12:00:00.000Z",
+    "pool": "C",
+    "teamA": "Tonga",
+    "teamB": "Georgia",
+    "location": "Kingsholm, Gloucester"
+  },
+  {
+    "matchNumber": 3,
+    "kickOff": "2015-09-19T14:30:00.000Z",
+    "pool": "D",
+    "teamA": "Ireland",
+    "teamB": "Canada",
+    "location": "Millennium Stadium, Cardiff"
+  },
+  {
+    "matchNumber": 4,
+    "kickOff": "2015-09-19T16:45:00.000Z",
+    "pool": "B",
+    "teamA": "South Africa",
+    "teamB": "Japan",
+    "location": "Brighton Community Stadium, Brighton"
+  },
+  {
+    "matchNumber": 5,
+    "kickOff": "2015-09-19T20:00:00.000Z",
+    "pool": "D",
+    "teamA": "France",
+    "teamB": "Italy",
+    "location": "Twickenham, London"
+  },
+
+  {
+    "matchNumber": 6,
+    "kickOff": "2015-09-20T12:00:00.000Z",
+    "pool": "B",
+    "teamA": "Samoa",
+    "teamB": "USA",
+    "location": "Brighton Community Stadium, Brighton"
+  },
+  {
+    "matchNumber": 7,
+    "kickOff": "2015-09-20T14:30:00.000Z",
+    "pool": "A",
+    "teamA": "Wales",
+    "teamB": "Uruguay",
+    "location": "Millennium Stadium, Cardiff"
+  },
+  {
+    "matchNumber": 8,
+    "kickOff": "2015-09-20T16:45:00.000Z",
+    "pool": "C",
+    "teamA": "New Zealand",
+    "teamB": "Argentina",
+    "location": "Wembley Stadium, London"
+  },
+
+  {
+    "matchNumber": 9,
+    "kickOff": "2015-09-23T14:30:00.000Z",
+    "pool": "B",
+    "teamA": "Scotland",
+    "teamB": "Japan",
+    "location": "Kingsholm, Gloucester"
+  },
+  {
+    "matchNumber": 10,
+    "kickOff": "2015-09-23T16:45:00.000Z",
+    "pool": "A",
+    "teamA": "Australia",
+    "teamB": "Fiji",
+    "location": "Millennium Stadium, Cardiff"
+  },
+  {
+    "matchNumber": 11,
+    "kickOff": "2015-09-23T20:00:00.000Z",
+    "pool": "D",
+    "teamA": "France",
+    "teamB": "Romania",
+    "location": "Olympic Stadium, London"
+  },
+
+  {
+    "matchNumber": 12,
+    "kickOff": "2015-09-24T20:00:00.000Z",
+    "pool": "C",
+    "teamA": "New Zealand",
+    "teamB": "Namibia",
+    "location": "Olympic Stadium, London"
+  },
+
+  {
+    "matchNumber": 13,
+    "kickOff": "2015-09-25T16:45:00.000Z",
+    "pool": "C",
+    "teamA": "Argentina",
+    "teamB": "Georgia",
+    "location": "Kingsholm, Gloucester"
+  },
+
+  {
+    "matchNumber": 14,
+    "kickOff": "2015-09-26T14:30:00.000Z",
+    "pool": "D",
+    "teamA": "Italy",
+    "teamB": "Canada",
+    "location": "Elland Road, Leeds"
+  },
+  {
+    "matchNumber": 15,
+    "kickOff": "2015-09-26T16:45:00.000Z",
+    "pool": "B",
+    "teamA": "South Africa",
+    "teamB": "Samoa",
+    "location": "Villa Park, Birmingham"
+  },
+  {
+    "matchNumber": 16,
+    "kickOff": "2015-09-26T20:00:00.000Z",
+    "pool": "A",
+    "teamA": "England",
+    "teamB": "Wales",
+    "location": "Twickenham, London"
+  },
+
+  {
+    "matchNumber": 17,
+    "kickOff": "2015-09-27T12:00:00.000Z",
+    "pool": "A",
+    "teamA": "Australia",
+    "teamB": "Uruguay",
+    "location": "Villa Park, Birmingham"
+  },
+  {
+    "matchNumber": 18,
+    "kickOff": "2015-09-27T14:30:00.000Z",
+    "pool": "B",
+    "teamA": "Scotland",
+    "teamB": "USA",
+    "location": "Elland Road, Leeds"
+  },
+  {
+    "matchNumber": 19,
+    "kickOff": "2015-09-27T16:45:00.000Z",
+    "pool": "D",
+    "teamA": "Ireland",
+    "teamB": "Romania",
+    "location": "Wembley Stadium, London"
+  },
+
+  {
+    "matchNumber": 20,
+    "kickOff": "2015-09-29T16:45:00.000Z",
+    "pool": "C",
+    "teamA": "Tonga",
+    "teamB": "Namibia",
+    "location": "Sandy Park, Exeter"
+  },
+
+  {
+    "matchNumber": 21,
+    "kickOff": "2015-10-01T16:45:00.000Z",
+    "pool": "A",
+    "teamA": "Wales",
+    "teamB": "Fiji",
+    "location": "Millennium Stadium, Cardiff"
+  },
+  {
+    "matchNumber": 22,
+    "kickOff": "2015-10-01T20:00:00.000Z",
+    "pool": "D",
+    "teamA": "France",
+    "teamB": "Canada",
+    "location": "Stadiummk, Milton Keynes"
+  },
+
+  {
+    "matchNumber": 23,
+    "kickOff": "2015-10-02T20:00:00.000Z",
+    "pool": "C",
+    "teamA": "New Zealand",
+    "teamB": "Georgia",
+    "location": "Millennium Stadium, Cardiff"
+  },
+
+  {
+    "matchNumber": 24,
+    "kickOff": "2015-10-03T14:30:00.000Z",
+    "pool": "B",
+    "teamA": "Samoa",
+    "teamB": "Japan",
+    "location": "Stadiummk, Milton Keynes"
+  },
+  {
+    "matchNumber": 25,
+    "kickOff": "2015-10-03T16:45:00.000Z",
+    "pool": "B",
+    "teamA": "South Africa",
+    "teamB": "Scotland",
+    "location": "St James Park, Newcastle upon Tyne"
+  },
+  {
+    "matchNumber": 26,
+    "kickOff": "2015-10-03T20:00:00.000Z",
+    "pool": "A",
+    "teamA": "England",
+    "teamB": "Australia",
+    "location": "Twickenham, London"
+  },
+
+  {
+    "matchNumber": 27,
+    "kickOff": "2015-10-04T14:30:00.000Z",
+    "pool": "C",
+    "teamA": "Argentina",
+    "teamB": "Tonga",
+    "location": "Leicester City Stadium, Leicester"
+  },
+  {
+    "matchNumber": 28,
+    "kickOff": "2015-10-04T16:45:00.000Z",
+    "pool": "D",
+    "teamA": "Ireland",
+    "teamB": "Italy",
+    "location": "Olympic Stadium, London"
+  },
+
+  {
+    "matchNumber": 29,
+    "kickOff": "2015-10-06T16:45:00.000Z",
+    "pool": "D",
+    "teamA": "Canada",
+    "teamB": "Romania",
+    "location": "Leicester City Stadium, Leicester"
+  },
+  {
+    "matchNumber": 30,
+    "kickOff": "2015-10-06T20:00:00.000Z",
+    "pool": "A",
+    "teamA": "Fiji",
+    "teamB": "Uruguay",
+    "location": "Stadiummk, Milton Keynes"
+  },
+
+  {
+    "matchNumber": 31,
+    "kickOff": "2015-10-07T16:45:00.000Z",
+    "pool": "B",
+    "teamA": "South Africa",
+    "teamB": "USA",
+    "location": "Olympic Stadium, London"
+  },
+  {
+    "matchNumber": 32,
+    "kickOff": "2015-10-07T20:00:00.000Z",
+    "pool": "C",
+    "teamA": "Namibia",
+    "teamB": "Georgia",
+    "location": "Sandy Park, Exeter"
+  },
+
+  {
+    "matchNumber": 33,
+    "kickOff": "2015-10-09T20:00:00.000Z",
+    "pool": "C",
+    "teamA": "New Zealand",
+    "teamB": "Tonga",
+    "location": "St James Park, Newcastle upon Tyne"
+  },
+
+  {
+    "matchNumber": 34,
+    "kickOff": "2015-10-10T14:30:00.000Z",
+    "pool": "B",
+    "teamA": "Samoa",
+    "teamB": "Scotland",
+    "location": "St James Park, Newcastle upon Tyne"
+  },
+  {
+    "matchNumber": 35,
+    "kickOff": "2015-10-10T16:45:00.000Z",
+    "pool": "A",
+    "teamA": "Australia",
+    "teamB": "Wales",
+    "location": "Twickenham, London"
+  },
+  {
+    "matchNumber": 36,
+    "kickOff": "2015-10-10T20:00:00.000Z",
+    "pool": "A",
+    "teamA": "England",
+    "teamB": "Uruguay",
+    "location": "Manchester City Stadium, Manchester"
+  },
+
+  {
+    "matchNumber": 37,
+    "kickOff": "2015-10-11T12:00:00.000Z",
+    "pool": "C",
+    "teamA": "Argentina",
+    "teamB": "Namibia",
+    "location": "Leicester City Stadium, Leicester"
+  },
+  {
+    "matchNumber": 38,
+    "kickOff": "2015-10-11T14:30:00.000Z",
+    "pool": "D",
+    "teamA": "Italy",
+    "teamB": "Romania",
+    "location": "Sandy Park, Exeter"
+  },
+  {
+    "matchNumber": 39,
+    "kickOff": "2015-10-11T16:45:00.000Z",
+    "pool": "D",
+    "teamA": "France",
+    "teamB": "Ireland",
+    "location": "Millennium Stadium, Cardiff"
+  },
+  {
+    "matchNumber": 40,
+    "kickOff": "2015-10-11T20:00:00.000Z",
+    "pool": "B",
+    "teamA": "USA",
+    "teamB": "Japan",
+    "location": "Kingsholm, Gloucester"
+  },
+  
+]

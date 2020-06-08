@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+from time import time
+import happybase
+
+MY_N = 138
+
+connection = happybase.Connection('172.31.25.248')
+table = connection.table('mikhail.klimin')
+
+# input comes from STDIN (standard input)
+for line in sys.stdin:
+    # remove leading and trailing whitespace
+    if not line.strip():
+        # skip blank lines
+        continue
+
+    # split the line into tuple
+    uid, timestamp, url  = line.split("\t")
+
+
+    # convert uid (currently a string) to int
+    # skip blank url
+    try:
+        uid = int(uid)
+        timestamp = float(timestamp)
+        if not url.strip():
+            raise ValueError
+
+    except ValueError:
+        # uid was not a integer, so silently
+        # ignore/discard this line
+        continue
+
+
+    # write the results to STDOUT (standard output);
+    # tab-delimited
+    if uid % 256 == MY_N:
+        # print '{0}\t{1}\t{2}'.format(str(uid), int(timestamp*1000), url)
+        table.put(str(uid), {'data:url': url}, timestamp=int(timestamp*1000))

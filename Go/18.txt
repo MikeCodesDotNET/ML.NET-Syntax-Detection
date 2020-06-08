@@ -1,0 +1,31 @@
+func main() {
+	h := beehive.NewHive()
+	taskq.RegisterTaskQ(h)
+	go h.Start()
+	defer h.Stop()
+
+	q := taskq.Queue("MyQueue")
+	b := "copy f1 to f2"
+
+	enq := taskq.Enque{Task: taskq.Task{Queue: q, Body: []byte(b)}}
+	if _, err := h.Sync(context.TODO(), enq); err != nil {
+		panic(err)
+	}
+
+	deq := taskq.Deque{Queue: q}
+	var t taskq.Task
+	if res, err := h.Sync(context.TODO(), deq); err != nil {
+		panic(err)
+	} else {
+		t = res.(taskq.Task)
+	}
+
+	fmt.Printf("processed task #%v: %s\n", t.ID, string(t.Body))
+
+	ack := taskq.Ack{ID: t.ID, Queue: q}
+	if _, err := h.Sync(context.TODO(), ack); err != nil {
+		panic(err)
+	}
+
+	fmt.Printf("acked task #%v: %s\n", t.ID, string(t.Body))
+}

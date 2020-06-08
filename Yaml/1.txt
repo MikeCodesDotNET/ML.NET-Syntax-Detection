@@ -1,0 +1,37 @@
+version: '2'
+
+services:
+  db:
+    image: postgres # ultimo postgres
+    ports:
+      - 5432:5432 # Para tener acceso con pgadmin desde la maquina local (host: localhost / username: postgres / password: empty)
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile # usar el dockerfile definido arriba
+    volumes:
+      - .:/usr/src/app # compartir los archivos de desarrollo
+    ports:
+      - 3000:3000 # tener acceso a la app desde http://localhost:3000
+    depends_on: # Prender cuando esten listos la base de datos, la gemas, y spring
+      - db
+      - gems
+      - spring
+    volumes_from:
+      - gems # usa las gemas
+  spring:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: bundle exec spring server # prender el servidor de spring
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - gems
+    volumes_from:
+      - gems # tambien necesita las gemas
+  gems:
+    image: busybox # imagen la mas chiquita que tiene docker, no sirve para nada sino para tener el volumen compartido
+    command: tail -f /dev/null
+    volumes:
+      - /ruby_gems # donde se almacenaran las gemas

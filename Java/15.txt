@@ -1,0 +1,17 @@
+public class FiveArray extends Matrix{
+	//int[][] data;
+	//int w;
+	//int h;
+
+	public FiveArray(int h) {
+		super(h, h);
+	}
+
+	public static void main(String[] args) {
+		Matrix data = new FiveArray(10);
+		
+		data.print();
+		System.out.print("Diagonal is: " + data.diagonal());
+	}
+
+}

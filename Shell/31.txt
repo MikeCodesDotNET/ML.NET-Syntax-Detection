@@ -1,0 +1,10 @@
+cd /opt
+sudo wget https://download.elastic.co/kibana/kibana/kibana-4.3.1-linux-x64.tar.gz
+sudo tar -zxvf kibana-4.3.1-linux-x64.tar.gz
+sudo mv kibana-4.3.1-linux-x64 kibana
+sudo rm kibana-4.3.1-linux-x64.tar.gz
+
+
+cd /etc/init.d
+sudo wget https://raw.githubusercontent.com/akabdog/scripts/master/kibana4_init
+sudo update-rc.d kibana4_init defaults 95 10

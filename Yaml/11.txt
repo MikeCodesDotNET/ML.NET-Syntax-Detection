@@ -1,0 +1,47 @@
+- stage: live_site_post_deploy
+  displayName: Live site post deployment
+  dependsOn: 
+    - live_site_build_deploy
+  # always build on pushes to master
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  jobs:
+    - deployment: exec_search_reindex
+      displayName: Reindex Azure Search
+      pool:
+        vmImage: ubuntu-latest
+      environment: azure_accom_live_site
+      strategy:
+        runOnce:
+          deploy:
+            steps: 
+              ######################################################################
+              # login to Azure CLI with service principal
+              ######################################################################
+              - script: az login --service-principal --tenant $AZURE_ACCOM_BOT_SVCPRCPL_TENANTID 
+                                                     --username $AZURE_ACCOM_BOT_SVCPRCPL_CLIENTID
+                                                     --password $AZURE_ACCOM_BOT_SVCPRCPL_CLIENTSECRET
+                displayName: Login to Azure CLI
+                env:
+                  AZURE_ACCOM_BOT_SVCPRCPL_CLIENTID: $(AZURE_ACCOM_BOT_SVCPRCPL_CLIENTID)
+                  AZURE_ACCOM_BOT_SVCPRCPL_CLIENTSECRET: $(AZURE_ACCOM_BOT_SVCPRCPL_CLIENTSECRET)
+                  AZURE_ACCOM_BOT_SVCPRCPL_TENANTID: $(AZURE_ACCOM_BOT_SVCPRCPL_TENANTID)
+              ######################################################################
+              # Purge search index & search page(s) from CDN
+              ######################################################################
+              - script: az cdn endpoint purge --resource-group accom-site 
+                                              --profile-name cdn-acccom 
+                                              --name cdn-acccom 
+                                              --content-paths '/azureindex/feed.json'
+                                                              '/search'
+                                                              '/search/index.html'
+                displayName: Purge search assets from CDN
+              ######################################################################
+              # Use Azure REST API to invoke search indexer
+              ######################################################################
+              - script: "curl -H 'api-key:$AZURE_SEARCH_ADMINKEY' 
+                              -H 'content-length:0'
+                              -X POST 'https://accom-site.search.windows.net/indexers
+                                              /accom-live-indexer/run?api-version=2019-05-06'"
+                displayName: Run Azure Search Indexer
+                env:
+                  AZURE_SEARCH_ADMINKEY: $(AzureSearchAdminKey)

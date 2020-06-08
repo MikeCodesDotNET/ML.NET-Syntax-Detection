@@ -1,0 +1,30 @@
+private String readConfig(String path) {
+
+    FileInputStream input = null;
+    StringBuffer buffer = new StringBuffer();
+
+    try {
+        input = new FileInputStream(new File(path));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+
+        String line;
+        while (true) {
+            line = reader.readLine();
+            if (line == null) {
+                break;
+            }
+            buffer.append(line).append("\n");
+        }
+    } catch (Exception err) {
+        err.printStackTrace();
+        return "";
+    } finally {
+        try {
+            input.close();
+        } catch (Exception err) {
+            err.printStackTrace();
+        }
+    }
+
+    return buffer.toString();
+}

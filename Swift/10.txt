@@ -1,0 +1,10 @@
+class SwiftObjectMapperBugTests: XCTestCase {
+  
+  func testCrash() {
+    var dict: [String: AnyObject] = [:]
+    dictSetValue(1, forKey: "a.b", dictionary: &dict)
+    dictSetValue(2, forKey: "a.c", dictionary: &dict) // <- crash
+    XCTAssert(true, "crashes before here")
+  }
+  
+}

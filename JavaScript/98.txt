@@ -1,0 +1,11 @@
+console.log(1);
+(_ => console.log(2))();
+eval('console.log(3);');
+console.log.call(null, 4);
+console.log.apply(null, [5]);
+new Function('console.log(6)')();
+Reflect.apply(console.log, null, [7])
+Reflect.construct(function(){console.log(8)}, []);
+Function.prototype.apply.call(console.log, null, [9]);
+Function.prototype.call.call(console.log, null, 10);
+new (require('vm').Script)('console.log(11)').runInThisContext();

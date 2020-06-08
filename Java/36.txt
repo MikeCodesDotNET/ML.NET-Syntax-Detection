@@ -1,0 +1,7 @@
+	private void imageFromCamera() {
+		if (mediaPlayer != null && mediaPlayer.isPlaying()) mediaPlayer.pause();
+		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+		cameraUri = MediaFileUtil.getOutputMediaFileUri(MediaFileUtil.MEDIA_TYPE_IMAGE);
+		intent.putExtra(MediaStore.EXTRA_OUTPUT, cameraUri);
+		startActivityForResult(intent, REQ_CAMERA);
+	}

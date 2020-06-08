@@ -1,0 +1,23 @@
+class TestClass: UIViewController {
+
+// Storyboardに表示されているLabelと紐付いてる部分
+@IBOutlet weak var viewLabel: UILabel!
+
+// Modelの初期化
+var viewModel = TestViewModel()
+
+// 画面が生成された時に呼ばれるメソッド。AndroidでいうonCreate()みたいなもの
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    setViewFunction()
+    }
+
+
+// Model担当のプログラムから値をもらってくるメソッド
+func setViewFunction() {
+
+    // Modelのメソッドの返り値をViewのLabelにセットする。
+    viewLabel.text = viewModel.getTextData()
+    }
+}

@@ -1,0 +1,74 @@
+ {
+   "rajaongkir":{
+      "query":{
+         "waybill":"SOCAG00183235715",
+         "courier":"jne"
+      },
+      "status":{
+         "code":200,
+         "description":"OK"
+      },
+      "result":{
+         "delivered":true,
+         "summary":{
+            "courier_code":"jne",
+            "courier_name":"Jalur Nugraha Ekakurir (JNE)",
+            "waybill_number":"SOCAG00183235715",
+            "service_code":"OKE",
+            "waybill_date":"2015-03-03",
+            "shipper_name":"IRMA F",
+            "receiver_name":"RISKA VIVI",
+            "origin":"WONOGIRI,KAB.WONOGIRI",
+            "destination":"PALEMBANG",
+            "status":"DELIVERED"
+         },
+         "details":{
+            "waybill_number":"SOCAG00183235715",
+            "waybill_date":"2015-03-03",
+            "waybill_time":"13:23",
+            "weight":"1",
+            "origin":"WONOGIRI,KAB.WONOGIRI",
+            "destination":"PALEMBANG",
+            "shippper_name":"IRMA F",
+            "shipper_address1":"WONOGIRI",
+            "shipper_address2":null,
+            "shipper_address3":null,
+            "shipper_city":"WONOGIRI",
+            "receiver_name":"RISKA VIVI",
+            "receiver_address1":"PERUMAHAN BUKIT SEJAHTERA",
+            "receiver_address2":"AF 05 RT 074\/022",
+            "receiver_address3":"PALEMBANG",
+            "receiver_city":"PALEMBANG"
+         },
+         "delivery_status":{
+            "status":"DELIVERED",
+            "pod_receiver":"RISKA",
+            "pod_date":"2015-03-05",
+            "pod_time":"13:22"
+         },
+         "manifest":[
+            {
+               "manifest_code":"1",
+               "manifest_description":"Manifested",
+               "manifest_date":"2015-03-04",
+               "manifest_time":"03:41",
+               "city_name":"SOLO"
+            },
+            {
+               "manifest_code":"2",
+               "manifest_description":"On Transit",
+               "manifest_date":"2015-03-04",
+               "manifest_time":"15:44",
+               "city_name":"JAKARTA"
+            },
+            {
+               "manifest_code":"3",
+               "manifest_description":"Received On Destination",
+               "manifest_date":"2015-03-05",
+               "manifest_time":"08:57",
+               "city_name":"PALEMBANG"
+            }
+         ]
+      }
+   }
+}

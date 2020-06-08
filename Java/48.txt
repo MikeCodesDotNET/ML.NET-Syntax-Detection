@@ -1,0 +1,14 @@
+public abstract class IState {
+
+    protected Map<String, IState> stateList;
+    protected MediaPlayer player;
+
+    public IState(MediaPlayer player, Map<String, IState> stateList) {
+        this.player = player;
+        this.stateList = stateList;
+    }
+
+    public abstract boolean play();
+    public abstract boolean stop();
+    public abstract boolean pause();
+}

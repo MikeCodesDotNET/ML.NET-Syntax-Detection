@@ -1,0 +1,175 @@
+use std::io::File;
+use std::io::BufferedReader;
+use std::collections::HashMap;
+use std::from_str::from_str;
+use std::collections::ring_buf::RingBuf;
+
+struct Edge {
+    data : HashMap<String, f64>
+}
+
+struct Graph {
+    data : HashMap<String, Edge>
+}
+
+impl Graph {
+    pub fn new() -> Graph {
+        return Graph{
+            data: HashMap::new()
+        }
+    }
+
+    pub fn add(&mut self, from: String, to: String, weight: f64)  {
+        let already_exists = self.data.contains_key(&from);
+        let mut edge = {
+            if !already_exists {
+                self.data.insert(from.clone(), Edge{
+                    data: HashMap::new()
+                });
+            }
+            self.data.get_mut(&from).unwrap()
+        };
+        edge.data.insert(to, weight);
+    }
+
+    fn _depth_first_search<'a>(&'a self, from: &'a String, to: &'a String, seen: &mut HashMap<&'a String, bool>, references: &mut HashMap<&'a String, &'a String>) {
+        seen.insert(from, true);
+        if from == to {
+            return;
+        }
+
+        let edge = self.data.get(from).unwrap();
+        for connected_vertex in edge.data.keys() {
+            if !seen.contains_key(&connected_vertex) {
+                self._depth_first_search(connected_vertex, to, seen, references);
+                references.insert(connected_vertex, from);
+            }
+        }
+    }
+
+    pub fn depth_first_search(&self, from: &String, to: &String) -> Vec<String> {
+
+        let mut seen : HashMap<&String, bool> = HashMap::new();
+        let mut references : HashMap<&String, &String> = HashMap::new();
+        self._depth_first_search(from, to, &mut seen, &mut references);
+
+        let mut res : Vec<String> = Vec::new();
+        let mut current_idx = to;
+        while current_idx != from {
+            res.push(current_idx.clone());
+            let new : &String = *references.get(&current_idx).unwrap();
+            current_idx = new;
+        }
+        res.reverse();
+        return res;
+    }
+
+    pub fn breath_first_search(&self, from: &String, to: &String) -> Vec<String> {
+        let mut queue : RingBuf<&String> = RingBuf::new();
+        let mut seen : HashMap<&String, bool> = HashMap::new();
+        let mut references : HashMap<&String, &String> = HashMap::new();
+        queue.push_back(from);
+        while !queue.is_empty() {
+            let current = queue.pop().unwrap();
+            seen.insert(current, true);
+
+            if current == to {
+                break;
+            }
+
+            let edge = self.data.get(current).unwrap();
+            for connected_vertex in edge.data.keys() {
+                if !seen.contains_key(&connected_vertex) {
+                    references.insert(connected_vertex, current);
+                    queue.push_back(connected_vertex);
+                }
+            }
+        }
+
+        let mut res : Vec<String> = Vec::new();
+        let mut current : &String = to;
+        while current != from {
+            res.push(current.clone());
+            current = references[current];
+        }
+        res.push(from.clone());
+        res.reverse();
+        return res;
+    }
+
+    pub fn shortest_path(&self, from: &String, to: &String) -> Vec<String> {
+        let mut fronteer : Vec<&String> = Vec::new();
+        let mut distances : HashMap<&String, f64> = HashMap::new();
+        let mut references : HashMap<&String, &String> = HashMap::new();
+
+        {
+            fronteer.push(from);
+            distances.insert(from, Float::infinity());
+
+            while !fronteer.is_empty() {
+
+                fronteer.sort_by(|a, b| {
+                    let val_a = distances[*a];
+                    let val_b = distances[*b];
+                    val_b.partial_cmp(&val_a).unwrap_or(Equal)
+                });
+                let smallest_idx = fronteer.pop().unwrap();
+                if smallest_idx == to {
+                    break;
+                }
+                let distance_idx = distances[smallest_idx];
+
+                let edge : &Edge = self.data.get(smallest_idx).unwrap();
+                for (vertex, distance_edge) in edge.data.iter() {
+                    let current_to_edge_distance = distance_idx + *distance_edge;
+                    if !distances.contains_key(&vertex) || distances[vertex] > current_to_edge_distance {
+                        distances.insert(vertex, current_to_edge_distance);
+                        references.insert(vertex, smallest_idx);
+                        fronteer.push(vertex);
+                    }
+                }
+            }
+        }
+
+        let mut res : Vec<String> = Vec::new();
+        let mut current_idx = to;
+        while current_idx != from {
+            res.push(current_idx.clone());
+            let new : &String = *references.get(&current_idx).unwrap();
+            current_idx = new;
+        }
+        res.push(from.clone());
+        res.reverse();
+        return res;
+    }
+}
+
+fn main() {
+    let mut g = Graph::new();
+
+    {
+        let path = Path::new("/tmp/rome99.txt");
+        let mut file = BufferedReader::new(File::open(&path));
+        for line_iter in file.lines() {
+            match line_iter {
+                Ok(data) => {
+                    let trimmed_data = data.trim();
+                    let splitted_data : Vec<&str> = trimmed_data.as_slice().split(' ').collect();
+                    
+                    let from : String = splitted_data.get(0).unwrap().to_string();
+                    let to : String = splitted_data.get(1).unwrap().to_string();
+                    let weight: f64 = from_str(*splitted_data.get(2).unwrap()).unwrap();
+                    g.add(from, to, weight);
+                }
+                Err(e) => {
+                    println!("ERROR");
+                }
+            }
+        }
+    }
+    {
+        let from = "2958".to_string();
+        let to = "780".to_string();
+        println!("OK {}", g.breath_first_search(&from, &to));
+    }
+}

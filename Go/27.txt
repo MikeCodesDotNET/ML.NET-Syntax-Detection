@@ -1,0 +1,14 @@
+items := []string{"One", "Two", "Three"}
+
+for _, item := range items {
+  fmt.Println("Active tasks:", len(track))
+  track <- true
+  go worker(track, item)
+}
+
+for len(track) > 0 {
+  fmt.Println("Waiting for task execution to complete:", len(track))
+  time.Sleep(time.Second*1)
+}
+
+fmt.Println("Processed all items")

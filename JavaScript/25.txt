@@ -1,0 +1,32 @@
+function MyComponent() {
+  const [state, setState] = useState(null)
+  const [blocked, setBlocked] = useState(false)
+
+  function mutateA() {
+    if(!blocked) {
+      setBlocked(true)
+      await fetch('https://api.for.A');
+      setState('A');
+      setBlocked(false)
+    }
+
+  }
+
+  function mutateB() {
+    if(!blocked) {
+      setBlocked(true)
+      await fetch('https://api.for.B');
+      setState('B');
+      setBlocked(false)
+    }
+
+  }
+
+  return (
+    <div>
+      <span>Result: {state}</span>
+      <button disabled={blocked} onClick={mutateA}>Get A</button>
+      <button disabled={blocked} onClick={mutateB}>Get B</button>
+    </div>
+  )
+}

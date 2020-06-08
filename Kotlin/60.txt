@@ -1,0 +1,9 @@
+class Workday(override val start: Time, override val endInclusive: Time) : ClosedRange<Time> {
+
+    init {
+        // higher order function
+        require(isValid()) { "Range `${this.start} to ${this.endInclusive}` does not define a valid workday." }
+    }
+
+    fun isValid() = start >= Time(0, 0) && endInclusive <= Time(23, 59)
+}

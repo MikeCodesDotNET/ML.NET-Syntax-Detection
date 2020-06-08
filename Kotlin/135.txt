@@ -1,0 +1,2 @@
+infix fun Int.maxValue(other: Int) = if (this > other) this else other
+val max = 3 maxValue 4

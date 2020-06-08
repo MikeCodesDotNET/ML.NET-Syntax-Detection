@@ -1,0 +1,9 @@
+intMap := make(map[string]int)
+
+// Valid
+value, ok := intMap["foo"]
+println(value, ok)
+
+// Also valid
+value := intMap["foo"]
+println(value)

@@ -1,0 +1,13 @@
+data class Time(val hours: Int, val minutes: Int) : Comparable<Time> {
+
+    companion object {
+        @JvmStatic
+        fun convertToTime(time: Number): Time {
+            // implementation
+        }
+        @JvmStatic
+        fun convertToDouble(time: Time): Double {
+            // implementation
+        }
+    }
+}

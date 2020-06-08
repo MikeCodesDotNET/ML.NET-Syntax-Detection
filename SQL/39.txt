@@ -1,0 +1,2 @@
+SELECT * FROM c
+where ARRAY_CONTAINS(c.subscriptions,{"id": "e5969a3c-2729-cb3c-a01b-2e62e0473646"},true)

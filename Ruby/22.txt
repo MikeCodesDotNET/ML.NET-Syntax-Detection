@@ -1,0 +1,36 @@
+class EratosthenesSieve
+  attr_reader :finish_number
+
+  def initialize(finish_number)
+    @finish_number = finish_number
+  end
+
+  def array_of_prime_numbers
+    @array_of_primes ||= prime_numbers
+  end
+
+  private
+
+  def prime_numbers
+    result_array = (2..finish_number).to_a
+
+    current_prime = 2
+
+    while current_prime ** 2 <= finish_number
+      current_prime_in_exp = current_prime ** 2
+
+      while current_prime_in_exp <= finish_number
+        result_array[current_prime_in_exp-2] = nil
+        current_prime_in_exp += current_prime
+      end
+
+      current_prime = next_prime(result_array, current_prime)
+    end
+
+    result_array.compact
+  end
+
+  def next_prime(array, cur_prime)
+    array.last(finish_number - cur_prime).find { |number| !number.nil? }
+  end
+end

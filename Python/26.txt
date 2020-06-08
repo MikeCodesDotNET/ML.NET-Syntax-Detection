@@ -1,0 +1,259 @@
+'''
+ryA2.py
+
+a homework, deadline= 2015/04/10
+
+A2 Problem Domain: Deoxyribonucleic Acid (DNA)
+
+http://spark-public.s3.amazonaws.com/programming1/a2/a2.html
+
+author: Renyuan Lyu
+
+2015/03/25
+
+'''
+
+def main():
+
+    main01()
+    main02()
+    main03()
+
+
+def main03():
+    # not yet done
+    pass
+
+def get_complement(nucleotide):
+    '''
+    (str) -> str
+    
+    The first parameter is a nucleotide ('A', 'T', 'C' or 'G'). 
+    Return the nucleotide's complement.
+    '''
+    
+    # not yet done
+    
+    return
+    
+def get_complementary_sequence(dna):
+    '''
+    (str) -> str
+    
+    The parameter is a DNA sequence. 
+    Return the DNA sequence that is complementary to the given DNA sequence.
+    For exmaple, if you call this function with 'AT' as the argument, 
+    it should return 'TA'.
+    
+    >>> get_complementary_sequence('AT')
+    'TA'
+    
+    '''
+    
+    # not yet done
+    
+    return
+
+def main02():
+
+    '''
+    >>> is_valid_sequence('ATCGATCGAATTCCGG')
+    True
+    >>> is_valid_sequence('ATCGATBGAATZCCGG')
+    False
+    >>> is_valid_sequence('aTCGATCGAAtTCCgG')
+    False
+    >>> insert_sequence('CCGG','AT',2)
+    'CCATGG'
+    >>> insert_sequence('CCGG','AT')
+    'ATCCGG'
+    >>> insert_sequence('CCGG','AT',10)
+    'CCGGAT'
+    '''
+    
+    t1= is_valid_sequence('ATCGATCGAATTCCGG')==True
+    t2= is_valid_sequence('ATCGATBGAATZCCGG')==False
+    t3= is_valid_sequence('aTCGATCGAAtTCCgG')==False
+    t4= insert_sequence('CCGG','AT',2)=='CCATGG'
+    t5= insert_sequence('CCGG','AT')=='ATCCGG'
+    t6= insert_sequence('CCGG','AT',10)=='CCGGAT'
+    
+    if all([t1,t2,t3,t4,t5,t6]):
+        print('pass!')
+    else:
+        print('has bugs!')
+        if t1==False:
+            print('bug in t1')
+        elif t2==False:
+            print('bug in t2')
+        elif t3==False:
+            print('bug in t3')    
+        elif t4==False:
+            print('bug in t4')
+        elif t5==False:
+            print('bug in t5')
+        elif t6==False:
+            print('bug in t6')
+        else:
+            print('bugs unknown where!')               
+    
+    return
+
+def is_valid_sequence(dna):
+    '''
+    (str) -> bool
+    
+    The parameter is a potential DNA sequence. 
+    Return True if and only if the DNA sequence is valid, 
+    that is, it contains no characters other 
+    than 'A', 'T', 'C' and 'G'.
+    
+    >>> is_valid_sequence('ATCGATCGAATTCCGG')
+    True
+    >>> is_valid_sequence('ATCGATBGAATZCCGG')
+    False
+    >>> is_valid_sequence('aTCGATCGAAtTCCgG')
+    False
+    
+    '''
+    for x in dna:
+        if x not in ['A','T','C','G']:
+            return False
+    return True
+
+def insert_sequence(dna1, dna2, index= 0):
+    '''
+    (str, str, int) -> str
+    
+    The first two parameters are DNA sequences 
+    and the third parameter is an index. 
+    Return the DNA sequence obtained 
+    by inserting the second DNA sequence 
+    into the first DNA sequence 
+    at the given index.
+    
+    if index is out of range of dna1, 
+    assume it just after the last position of dna1.
+    
+    >>> insert_sequence('CCGG','AT',2)
+    'CCATGG'
+    
+    >>> insert_sequence('CCGG','AT')
+    'ATCCGG'
+    
+    >>> insert_sequence('CCGG','AT',10)
+    'CCGGAT'
+    
+    '''
+    index= min(index, len(dna1))
+    s= dna1[0:index] + dna2 + dna1[index:]
+    return s
+
+
+    
+def main01():
+    '''
+    # this program should pass all the following tests
+    
+    >>> get_length('ATCGAT')
+    6
+    >>> get_length('ATCG')
+    4
+    >>> is_longer('ATCG', 'AT')
+    True
+    >>> is_longer('ATCG', 'ATCGGA')
+    False
+    >>> count_nucleotides('ATCGGC', 'G')
+    2
+    >>> count_nucleotides('ATCTA', 'G')
+    0
+    >>> contains_sequence('ATCGGC', 'GG')
+    True
+    >>> contains_sequence('ATCGGC', 'GT')
+    False
+    '''
+    
+    t1= get_length('ATCGAT')==6
+    t2= get_length('ATCG')==4
+    t3= is_longer('ATCG', 'AT')==True
+    t4= is_longer('ATCG', 'ATCGGA')==False
+    t5= count_nucleotides('ATCGGC', 'G')==2
+    t6= count_nucleotides('ATCTA', 'G')==0
+    t7= contains_sequence('ATCGGC', 'GG')==True
+    t8= contains_sequence('ATCGGC', 'GT')==False
+    
+    if all([t1,t2,t3,t4,t5,t6,t7,t8]):
+        print('pass!')
+    else:
+        print('has bugs!')
+
+def get_length(dna):
+    """ (str) -> int
+
+    Return the length of the DNA sequence dna.
+
+    >>> get_length('ATCGAT')
+    6
+    >>> get_length('ATCG')
+    4
+    """
+    
+    長度= len(dna)
+    
+    return 長度
+
+
+def is_longer(dna1, dna2):
+    """ (str, str) -> bool
+
+    Return True if and only if DNA sequence dna1 is longer than DNA sequence
+    dna2.
+
+    >>> is_longer('ATCG', 'AT')
+    True
+    >>> is_longer('ATCG', 'ATCGGA')
+    False
+    """
+    
+    if len(dna1)>len(dna2):
+        return True
+    else:
+        return False
+
+
+def count_nucleotides(dna, nucleotide):
+    """ (str, str) -> int
+
+    Return the number of occurrences of nucleotide in the DNA sequence dna.
+
+    >>> count_nucleotides('ATCGGC', 'G')
+    2
+    >>> count_nucleotides('ATCTA', 'G')
+    0
+    """
+    
+    出現次數= dna.count(nucleotide)
+    
+    return 出現次數
+    
+
+
+def contains_sequence(dna1, dna2):
+    """ (str, str) -> bool
+
+    Return True if and only if DNA sequence dna2 occurs in the DNA sequence
+    dna1.
+
+    >>> contains_sequence('ATCGGC', 'GG')
+    True
+    >>> contains_sequence('ATCGGC', 'GT')
+    False
+
+    """
+    if dna2 in dna1:
+        return True
+    else:
+        return False
+
+if __name__=='__main__':
+    main()

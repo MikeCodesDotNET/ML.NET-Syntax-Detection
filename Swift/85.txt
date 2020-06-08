@@ -1,0 +1,105 @@
+import Foundation
+
+public func indexAt(string:String,elem:String) -> Int? {
+	var p = NSString(string:string).rangeOfString(elem)
+	if p.length == 0 {
+		return nil
+	}
+	return p.location
+}
+
+
+public class FenRecord:Printable {
+	let validSymbols = "KQRNBPkqrnbp"
+	public var chessboard: ChessboardDict = [:]
+	var fenString: String = ""
+	var color: ColorType = .White
+	var casteling: String = "KQkq"
+	var enPassant: String = "-"
+	var halfmoveClock: Int = 0
+	var fullmoveNumber: Int = 1
+
+	public init(fen:String) {
+		var segments = split(fen, { $0 == " "} )
+		let items = segments.count - 1
+
+		chessboard = parsePiecePosition(segments[0])
+
+		if items>0 {
+			color = parseColor(segments[1])
+		}
+		if items>1 {
+			casteling = parseCasteling(segments[2])
+		}
+		if items>2 {
+			enPassant = parseEnPassant(segments[3])
+		}
+		if items>3 {
+			halfmoveClock = parseHalfmoveClock(segments[4])
+		}
+		if items>4 {
+			fullmoveNumber = parseFullmoveNumber(segments[5])
+		}
+	}
+
+	func parsePiecePosition(segment:String) -> ChessboardDict {
+		var chessboard: ChessboardDict = [:]
+
+		fenString = segment
+		var j: Int = 1
+		for eachChar in segment {
+			let aFile = 1+((j-1) % 8)
+			let aRank = 8-((j-1) / 8)
+
+			if let x = indexAt(validSymbols,String(eachChar)) {
+				let key = PositionKey(x:aFile, y:aRank)
+				chessboard[key] = String(eachChar)
+			} else {
+				if let x = String(eachChar).toInt() {
+					j += x-1
+				} else {
+					if eachChar == "/" {
+						j--
+					}
+				}
+			}
+			j++
+		}
+		return chessboard
+	}
+	func parseColor(segment:String) -> ColorType {
+		if let x = indexAt(segment,"b") {
+			return .Black
+		} else {
+			return .White
+		}
+	}
+	func parseCasteling(segment:String) -> String {
+		return segment
+	}
+	func parseEnPassant(segment:String) -> String {
+		return segment
+	}
+	func parseHalfmoveClock(segment:String) -> Int {
+		return segment.toInt() ?? 0
+	}
+	func parseFullmoveNumber(segment:String) -> Int {
+		return segment.toInt() ?? 1
+	}
+
+	public var description: String {
+		var result = ""
+
+		for rank in 1...8 {
+			for file in 1...8 {
+				if let p = chessboard[PositionKey(x:file, y:(9-rank) )] {
+					result += "\t\(p)"
+				} else {
+					result += "\t."
+				}
+			}
+			result += "\n"
+		}
+		return result
+	}
+}

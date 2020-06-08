@@ -1,0 +1,3 @@
+func choose<S : SequenceType, T : SequenceType, U : SequenceType where U.Generator.Element == Bool, S.Generator.Element == T.Generator.Element>(onTrue: S, onFalse: T, picker: U) -> [S.Generator.Element]{
+    return map2(Zip2(onTrue, onFalse), picker, { zipped, choice in choice ? zipped.0 : zipped.1 })
+}

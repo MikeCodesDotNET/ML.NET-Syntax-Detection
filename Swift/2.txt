@@ -1,0 +1,29 @@
+dispatch_async(dispatch_get_main_queue()) {
+            if((self.defaults.valueForKey(self.facilityBoolKeyConstant) as Bool) != false) {
+                self.getCloseLocations("fc")
+            }
+            if((self.defaults.valueForKey(self.medicareBoolKeyConstant) as Bool) != false) {
+                self.getCloseLocations("md")
+            }
+            if((self.defaults.valueForKey(self.vaHospitalBoolKeyConstant) as Bool) != false) {
+                self.getCloseLocations("vh")
+            }
+            if((self.defaults.valueForKey(self.vaClinicBoolKeyConstant) as Bool) != false) {
+                self.getCloseLocations("vc")
+            }
+        }
+        if((self.defaults.valueForKey(self.showRadiusKeyConstant) as Bool) != false) {
+            println("Called on start: \(self.vHLocations.count)")
+            var countLocations = self.vHLocations.count
+            if countLocations > 0 {
+                //self.mapView.removeOverlays(self.mapView.overlays)
+                for i in 0..<countLocations {
+                    var vH = self.vHLocations[i] as PinPointAnnotation
+                    var lat = vH.coordinate.latitude
+                    var lon = vH.coordinate.longitude
+                    var radius = CLLocation(latitude: lat as CLLocationDegrees, longitude: lon as CLLocationDegrees)
+                    println("Test insert VA radius initial")
+                    self.addRadiusCircle(radius)
+                }
+            }
+        }

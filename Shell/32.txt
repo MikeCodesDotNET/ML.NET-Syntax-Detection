@@ -1,0 +1,13 @@
+cd ~/dev/biovis/
+git pull
+
+cp -r ~/dev/biovis/web/* ~/public_html/biovis
+cp -r ~/dev/biovis/assignments/* ~/public_html/biovis/assignments
+cp -r ~/dev/biovis/lectures/* ~/public_html/biovis/lectures
+cp -r ~/dev/biovis/labs/* ~/public_html/biovis/labs
+cp -r ~/dev/biovis/vid/* ~/public_html/biovis/vid
+
+cd ~/public_html/biovis
+sed -i "s/readme/Biovisualization/" index.html
+find ~/public_html -type f -print0 | xargs -0 chmod 644
+find ~/public_html -type d -print0 | xargs -0 chmod 755

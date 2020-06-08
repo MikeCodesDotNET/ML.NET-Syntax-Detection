@@ -1,0 +1,8 @@
+function Car(mode, color){
+  this.model = model;
+  this.color = color;
+  this.drive = function(){
+    console.log("Car is driving");
+  }
+}
+const car = new Car("Porsche", "black");

@@ -1,0 +1,68 @@
+package main
+
+import (
+	// "bytes"
+	"bufio"
+	_ "database/sql"
+	"fmt"
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/jmoiron/sqlx"
+	"github.com/tanji/mariadb-tools/dbhelper"
+	"log"
+	"net"
+)
+
+var (
+	db    *sqlx.DB
+	delay int64
+)
+
+const port string = "6789"
+
+func main() {
+	srv, err := net.Listen("tcp", ":"+port)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Listening on port", port)
+	for {
+		conn, err := srv.Accept()
+		if err != nil {
+			log.Fatal(err)
+		}
+		go handleRequest(conn)
+	}
+}
+
+func handleRequest(conn net.Conn) {
+	writer := bufio.NewWriter(conn)
+	fmt.Fprintln(writer, setWeight())
+	writer.Flush()
+}
+
+func setWeight() string {
+	db, err := sqlx.Connect("mysql", "haproxy_agent:SlaveMonitor@tcp(127.0.0.1:3306)/")
+	if err != nil {
+		log.Println(err)
+		return ""
+	}
+	defer db.Close()
+	ss, err := dbhelper.GetSlaveStatus(db)
+	if err != nil {
+		log.Fatalln("Slave not configured")
+	}
+	if ss.Seconds_Behind_Master.Valid == false {
+		log.Println("Slave stopped or not setup")
+		return "down #slavestopped"
+	} else {
+		delay = ss.Seconds_Behind_Master.Int64
+	}
+	log.Printf("Delay: %d", delay)
+	if delay < 15 {
+		return "up 100%"
+	} else if delay >= 15 && delay <= 60 {
+		return "up 5%"
+	} else {
+		return "down #slavedelay"
+	}
+}

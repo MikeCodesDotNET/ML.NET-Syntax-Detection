@@ -1,0 +1,38 @@
+#simulate omega network
+import math
+import sys
+import cProfile, pstats
+
+class simulate:
+	def __init__(self):
+    self.a = range(int(input('Enter number of inputs:')))
+		self.b = self.a[:]
+		self.count = int(math.log(len(self.a),2))
+		self.var = 1
+
+	def shuffle(self,list):
+		print('call', str(self.var))
+		self.var += 1
+		return_list = []
+		for x in list:
+			if x == len(list)-1 or x == 0:
+				return_list.append(x)
+			else:
+				return_list.append((x<<1) % (len(self.a) - 1))
+		return return_list
+
+	def sim(self):
+		while(self.count):
+			self.a = self.shuffle(self.a)
+			self.count -= 1
+		for x,y in zip(self.b,self.a):
+			print(str(x), '\t=>\t', str(y))
+
+if __name__ == '__main__':
+	sim = simulate()
+	profiler = cProfile.Profile()
+	profiler.enable()		            #start collecting profiling data
+	sim.sim()
+	profiler.disable()		          #stop collecting profile data
+	stats = pstats.Stats(profiler)	#generate stats
+	stats.print_stats()		          #print stats

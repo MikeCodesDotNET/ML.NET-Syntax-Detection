@@ -1,0 +1,34 @@
+- hosts: all
+  remote_user: eyasuyuki
+  sudo: yes
+  vars:
+    limits_conf: /etc/security/limits.conf
+    sysctl_conf: /etc/sysctl.conf
+  tasks:
+    - name: before install fluentd check ulimit
+      shell: grep "{{ item }}" {{ limits_conf }}
+      with_items:
+        - "root soft nofile 65536"
+        - "root hard nofile 65536"
+        - "* soft nofile 65536"
+        - "* hard nofile 65536"
+      register: result
+      ignore_errors: yes
+    - name: before install fluentd set ulimit
+      shell: echo '{{ item.item }}' >> {{ limits_conf }}
+      with_items: result.results
+      when: item.rc == 1
+    - name: before install fluentd check sysctl
+      shell: grep "{{ item }}" {{ sysctl_conf }}
+      with_items:
+        - "net.ipv4.tcp_tw_recycle = 1"
+        - "net.ipv4.tcp_tw_reuse = 1"
+        - "net.ipv4.ip_local_port_range = 10240    65535"
+      register: result
+      ignore_errors: yes
+    - name: before install fluentd set sysctl
+      shell: echo '{{ item.item }}' >> {{ sysctl_conf }}
+      with_items: result.results
+      when: item.rc == 1
+    - name: before install fluentd sysctl restart
+      command: /sbin/sysctl -w

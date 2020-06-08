@@ -1,0 +1,22 @@
+flags:
+  darcsden:
+    ssh: true
+    closing: true
+packages:
+- .
+resolver: lts-2.19
+extra-deps:
+- ConfigFile-1.1.4
+- CouchDB-1.2.2
+- darcs-2.10.1
+- data-ordlist-0.4.7.0
+- dataenc-0.14.0.7
+- directory-1.2.2.0  # to use 1.2.3+, resolve withCurrentDirectory clash
+- hsp-0.10.0
+- redis-0.14.1
+- regex-compat-tdfa-0.95.1.4
+- RSA-1.2.2.0
+- SimpleAES-0.4.2
+- ssh-0.3.1
+- taggy-0.2.0
+- taggy-lens-0.1.2

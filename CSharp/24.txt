@@ -1,0 +1,6 @@
+var bytes = Encoding.UTF8.GetBytes(casted.PropertyB);
+var strPtr = Marshal.AllocHGlobal(bytes.Length + 1);
+Marshal.Copy(bytes, 0, strPtr, bytes.Length);
+Marshal.WriteByte(strPtr + bytes.Length, 0);
+Marshal.WriteIntPtr(ptr + sizeof(int), strPtr);
+return ptr;

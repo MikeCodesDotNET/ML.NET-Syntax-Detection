@@ -1,0 +1,36 @@
+from fabric.api import *
+from fabric.api import run, roles, sudo, local
+
+from yourapp import version
+
+env.roledefs = {
+	'docker_eu': ['root@127.0.0.1'],
+	'docker_us': ['root@127.0.0.2']
+}
+
+def eu():
+    env.hosts = ['docker_eu']
+
+def us():
+    env.hosts = ['docker_us']
+
+def push_container():
+    local('docker push username/app:{0}'.format(version))
+
+@roles('docker_eu', 'docker_us')
+def deploy_container():
+	sudo('docker pull username/app:{0}'.format(version))
+    
+# To run this on different hosts
+# fab eu run_container
+# fab us run_container
+def run_container():
+    sudo('docker run username/app:{0}')
+
+@roles('docker_eu', 'docker_us')
+def list_images():
+	sudo('docker images')
+
+@roles('docker_eu', 'docker_us')
+def running_containers():
+	sudo('docker ps -a')

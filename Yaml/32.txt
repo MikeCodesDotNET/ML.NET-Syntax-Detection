@@ -1,0 +1,5 @@
+- settings: [site: "fp", intl: "nz", device: "/.*/"]
+    meta.tag.2: '<meta name="p:domain_verify" content="a936a0538df79c3bbb09725eda61ef54"/>'
+
+- settings: [site: "fp", intl: "nz", device: "/(smartphone|tablet)/"]    
+    meta.tag.1: '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">'

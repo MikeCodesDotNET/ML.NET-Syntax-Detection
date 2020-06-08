@@ -1,0 +1,5 @@
+class Hamburger(
+        val meats: Int,
+        val hasKetchup: Boolean = false, 
+        val hasTomatoes: Boolean = false
+)

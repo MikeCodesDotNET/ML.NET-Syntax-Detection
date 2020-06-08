@@ -1,0 +1,12 @@
+data class System(
+        val name: String,
+        val user: User
+)
+
+val user = User("Jane", "Doe", 50)
+val system1 = System("Blog", user)
+
+val system2 = system1.copy()
+
+system1 === system2             // false
+system1.user === system2.user   // true

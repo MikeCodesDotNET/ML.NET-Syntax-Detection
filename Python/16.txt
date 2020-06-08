@@ -1,0 +1,22 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='This program calculates eGFR using the MDRD formula')
+parser.add_argument('creatinine', type=float, help='creatinine concentration (micromol/l)')
+parser.add_argument('age', type=int, help='age of the patient')
+parser.add_argument('gender', choices=['male', 'female'])
+parser.add_argument('-b', '--black', action='store_true')
+args = parser.parse_args()
+
+gfr = (args.creatinine ** -1.154) * 32788
+gfr = (args.age ** -0.203) * gfr
+
+# Work out Gender
+if args.gender == 'female':
+     gfr = gfr * 0.742
+
+# Work out if Black
+if args.black:
+    gfr = gfr * 1.21
+
+print "Patient gfr is (ml/min/1.732m^2)"
+print (gfr)

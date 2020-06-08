@@ -1,0 +1,6 @@
+#!/bin/bash
+# Hacky fix for Google Chrome unstable (43.0.2342.2 dev) on a HiDPI screen.
+# See https://code.google.com/p/chromium/issues/detail?id=469373 for more details
+
+xprop -root -remove _NET_WORKAREA
+google-chrome-unstable --force-device-scale-factor=2 > /dev/null 2>&1 &

@@ -1,0 +1,4 @@
+public inline fun require(
+    value: Boolean,
+    lazyMessage: () -> Any
+): Unit

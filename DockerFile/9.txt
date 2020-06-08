@@ -1,0 +1,12 @@
+
+FROM alpine:3.2
+RUN apk --update add git perl cmake alpine-sdk linux-headers openssl-dev pcre-dev
+RUN mkdir /git \
+ && git clone --recursive https://github.com/luvit/luvi.git /git/luvi
+RUN echo '#!/bin/sh' > /usr/bin/entrypoint \
+ && echo '# shebang directives mandatory for entrypoint scripts' >> /usr/bin/entrypoint \
+ && echo 'LUVI_VERSION=${1} LUVI_MAKE=${2} sh /shared/make_luvi' >> /usr/bin/entrypoint \
+ && chmod +x /usr/bin/entrypoint
+VOLUME ["/shared"]
+ENTRYPOINT ["entrypoint"]
+CMD ["v2.1.7", "regular"]

@@ -1,0 +1,43 @@
+package main
+
+import (
+  "net/http"
+  "sort"
+  "strings"
+  
+  "golang.org/x/net/websocket"
+)
+
+var (
+  clients []*websocket.Conn
+)
+
+func sortMessage(s string) string {
+  sl := strings.Split(s, "")
+  sort.Strings(sl)
+  return strings.Join(sl, "")
+}
+
+func main() {
+  http.Handle("/", http.FileServer(http.Dir(".")))
+  
+  http.Handle("/echo", websocket.Handler(func(ws *websocket.Conn) {
+    defer ws.Close()
+    clients = append(clients, ws)
+    
+    for {
+      var message string
+      websocket.Message.Receive(ws, &message)
+      message = sortMessage(message)
+      
+      for _, c := range clients {
+        websocket.Message.Send(c, message)
+      }
+    }
+  }))
+  
+  err := http.ListenAndServe(":1337", nil)
+  if err != nil {
+    panic(err.Error())
+  }
+}

@@ -1,0 +1,7 @@
+class ListPartitionerKtTest {
+
+    @Test
+    fun empty_list_should_return_an_empty_list() {
+        assertEquals(emptyList<List<String>>(), emptyList<String>().myPartition())
+    }
+}

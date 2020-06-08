@@ -1,0 +1,85 @@
+import Foundation
+
+struct SpellChecker {
+  
+  var knownWords: [String:Int] = [:]
+  
+  init?(contentsOfFile file: String) {
+    
+    if let text = String(contentsOfFile: file, encoding: NSUTF8StringEncoding, error: nil)?.lowercaseString {
+      
+      self.knownWords = split(text.unicodeScalars){!("a"..."z").contains($0)}
+        .map{String($0)}
+        .reduce([String:Int]()) {
+          (var accu, word) in
+          accu[word] = accu[word]?.successor() ?? 1
+          return accu
+        }
+      
+    } else {
+      
+      return nil
+      
+    }
+  }
+  
+  private func edit(word: String) -> Set<String> {
+    
+    if word.isEmpty { return [] }
+    
+    let splits = (word.startIndex.successor()..<word.endIndex)
+      .map { (word.substringToIndex($0), word.substringFromIndex($0)) }
+      + [(word, "")]
+    
+    let deletes = splits.map {
+      dropLast($0) + $1
+    }
+    
+    let transposes = dropLast(splits).map{
+      "\(dropLast($0))\(first($1)!)\(last($0)!)\(dropFirst($1))"
+    }
+    
+    let alphabet: [String] = [
+      "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+      "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+    ]
+    
+    let replaces = splits.flatMap {
+      left, right in alphabet.map { "\(dropLast(left))\($0)\(right)" }
+    }
+    
+    let inserts = splits.flatMap {
+      left, right in alphabet.map { "\(left)\($0)\(right)" }
+    }
+    
+    return Set(deletes + transposes + replaces + inserts)
+    
+  }
+  
+  func correct(s: String) -> String {
+    
+    var (edits, best) = (Set([s]), (s, 0))
+    
+    for _ in 0...2 {
+      
+      best = reduce(edits, best) {
+        prev, word in
+        self.knownWords[word].map{ $0 > prev.1 ? (word, $0) : prev } ?? prev
+      }
+      
+      if best.1 != 0 {
+  
+        break
+        
+      } else {
+        
+        edits = reduce(edits, Set<String>()) { $0.union(edit($1)) }
+        
+      }
+    }
+    
+    return best.0
+    
+  }
+  
+}

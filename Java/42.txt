@@ -1,0 +1,16 @@
+alert_button.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MenuActivity.this);
+        builder.setMessage(R.string.wordgame_acknowledgements);
+        builder.setCancelable(false);
+        builder.setPositiveButton(R.string.ok_label,
+            new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    // nothing
+                }
+            });
+        acknowDialog = builder.show();
+    }
+});

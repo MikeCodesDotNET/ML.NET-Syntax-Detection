@@ -1,0 +1,5 @@
+
+FROM alpine:3.2
+RUN apk --update add openssl libgcc
+ADD ./luvi ./lit ./luvit /usr/local/bin/
+CMD ["luvit"]

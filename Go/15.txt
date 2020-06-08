@@ -1,0 +1,48 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+type Video struct {
+	Name string
+}
+
+const NUM_VIDEOS = 20
+
+func main() {
+	queue := make(chan Video, NUM_VIDEOS)
+	processed := make(chan Video, NUM_VIDEOS)
+	uploaded := make(chan Video, NUM_VIDEOS)
+
+	for i := 0; i < NUM_VIDEOS; i++ {
+		queue <- Video{Name: fmt.Sprintf("Cats %d", i)}
+	}
+
+	for i := 0; i < 10; i++ {
+		go process(i, queue, processed)
+		go upload(i, processed, uploaded)
+	}
+
+	for i := 0; i < NUM_VIDEOS; i++ {
+		video := <-uploaded
+		fmt.Println("Finished with", video.Name)
+	}
+}
+
+func process(num int, in <-chan Video, out chan<- Video) {
+	for video := range in {
+		fmt.Println("Worker", num, "processing", video.Name)
+		time.Sleep(time.Second * 1)
+		out <- video
+	}
+}
+
+func upload(num int, in <-chan Video, out chan<- Video) {
+	for video := range in {
+		fmt.Println("Worker", num, "uploading", video.Name)
+		time.Sleep(time.Second * 1)
+		out <- video
+	}
+}

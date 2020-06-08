@@ -1,0 +1,49 @@
+//> RandomJokeActivity
+
+controller = ChuckNorrisApiController.getInstance(this);
+controller.getRandomJoke(new Response.Listener<JSONObject>() {
+        @Override
+        public void onResponse(JSONObject jsonObject) {
+            try {
+                txtJoke.setText(jsonObject.getJSONObject("value").getString("joke"));
+            } catch (JSONException e) {
+                txtJoke.setText(e.getMessage());
+            }
+        }
+    }, new Response.ErrorListener() {
+        @Override
+        public void onErrorResponse(VolleyError volleyError) {
+            txtJoke.setText(volleyError.getMessage());
+        }
+    }
+
+
+
+//> ChuckNorrisApiController
+
+private ChuckNorrisApiDao apiDao;
+apiDao.getRandomJoke(id, responseListener, errorListener);
+
+
+
+//> ChuckNorrisApiDao
+
+private ChuckNorrisApiUtil apiUtil;
+public void getRandomJoke(Response.Listener<JSONObject> responseListener, Response.ErrorListener errorListener) {
+        apiUtil.queueGetRandomJoke(responseListener, errorListener);
+}
+
+
+
+//> ChuckNorrisApiUtil
+
+private RequestQueue requestQueue;
+
+public ChuckNorrisApiUtil(Context context) {
+        requestQueue = Volley.newRequestQueue(context);
+}
+    
+private static final String RANDOM_URL = "http://api.icndb.com/jokes/random";    
+public void queueGetRandomJoke(Response.Listener<JSONObject> responseListener, Response.ErrorListener errorListener) {
+    queueRequest(RANDOM_URL, responseListener, errorListener);
+}

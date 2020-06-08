@@ -1,0 +1,659 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <link rel='stylesheet' href='//cdn.oesmith.co.uk/morris-0.4.2.min.css'>
+    
+    
+    
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js' type='text/javascript'></script>
+    
+    <script src='//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js' type='text/javascript'></script>
+    
+    <script src='//cdn.oesmith.co.uk/morris-0.4.2.min.js' type='text/javascript'></script>
+    
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart379279d4882e' class = 'rChart morris'></div>    
+    <script type='text/javascript'>
+    var chartParams = {
+ "element": "chart379279d4882e",
+"width":            800,
+"height":            400,
+"xkey": "date",
+"ykeys": [
+ "Edinburgh" 
+],
+"data": [
+ {
+ "Time":           1700,
+"date": "1700",
+"London":            208,
+"Scotland":             40 
+},
+{
+ "Time":           1701,
+"date": "1701",
+"London":            173,
+"Scotland":             11 
+},
+{
+ "Time":           1702,
+"date": "1702",
+"London":            175,
+"Scotland":             19 
+},
+{
+ "Time":           1703,
+"date": "1703",
+"London":            101,
+"Scotland":             14 
+},
+{
+ "Time":           1704,
+"date": "1704",
+"London":            118,
+"Scotland":             17 
+},
+{
+ "Time":           1705,
+"date": "1705",
+"London":            118,
+"Scotland":             17 
+},
+{
+ "Time":           1706,
+"date": "1706",
+"London":            110,
+"Scotland":             88 
+},
+{
+ "Time":           1707,
+"date": "1707",
+"London":            110,
+"Scotland":             32 
+},
+{
+ "Time":           1708,
+"date": "1708",
+"London":            111,
+"Scotland":              8 
+},
+{
+ "Time":           1709,
+"date": "1709",
+"London":            102,
+"Scotland":             10 
+},
+{
+ "Time":           1710,
+"date": "1710",
+"London":            144,
+"Scotland":             14 
+},
+{
+ "Time":           1711,
+"date": "1711",
+"London":            127,
+"Scotland":              7 
+},
+{
+ "Time":           1712,
+"date": "1712",
+"London":            142,
+"Scotland":             16 
+},
+{
+ "Time":           1713,
+"date": "1713",
+"London":            102,
+"Scotland":             17 
+},
+{
+ "Time":           1714,
+"date": "1714",
+"London":            140,
+"Scotland":              8 
+},
+{
+ "Time":           1715,
+"date": "1715",
+"London":            159,
+"Scotland":             12 
+},
+{
+ "Time":           1716,
+"date": "1716",
+"London":            131,
+"Scotland":              7 
+},
+{
+ "Time":           1717,
+"date": "1717",
+"London":            147,
+"Scotland":              6 
+},
+{
+ "Time":           1718,
+"date": "1718",
+"London":            142,
+"Scotland":              6 
+},
+{
+ "Time":           1719,
+"date": "1719",
+"London":            115,
+"Scotland":              3 
+},
+{
+ "Time":           1720,
+"date": "1720",
+"London":            108,
+"Scotland":              5 
+},
+{
+ "Time":           1721,
+"date": "1721",
+"London":             87,
+"Scotland":              8 
+},
+{
+ "Time":           1722,
+"date": "1722",
+"London":             60,
+"Scotland":              6 
+},
+{
+ "Time":           1723,
+"date": "1723",
+"London":             63,
+"Scotland":              1 
+},
+{
+ "Time":           1724,
+"date": "1724",
+"London":             73,
+"Scotland":              9 
+},
+{
+ "Time":           1725,
+"date": "1725",
+"London":             67,
+"Scotland":              1 
+},
+{
+ "Time":           1726,
+"date": "1726",
+"London":             70,
+"Scotland":              6 
+},
+{
+ "Time":           1727,
+"date": "1727",
+"London":            115,
+"Scotland":              4 
+},
+{
+ "Time":           1728,
+"date": "1728",
+"London":             81,
+"Scotland":              2 
+},
+{
+ "Time":           1729,
+"date": "1729",
+"London":             72,
+"Scotland":              4 
+},
+{
+ "Time":           1730,
+"date": "1730",
+"London":             90,
+"Scotland":              2 
+},
+{
+ "Time":           1731,
+"date": "1731",
+"London":             81,
+"Scotland":              0 
+},
+{
+ "Time":           1732,
+"date": "1732",
+"London":             95,
+"Scotland":              8 
+},
+{
+ "Time":           1733,
+"date": "1733",
+"London":             77,
+"Scotland":              5 
+},
+{
+ "Time":           1734,
+"date": "1734",
+"London":             77,
+"Scotland":             11 
+},
+{
+ "Time":           1735,
+"date": "1735",
+"London":             95,
+"Scotland":              8 
+},
+{
+ "Time":           1736,
+"date": "1736",
+"London":             60,
+"Scotland":              5 
+},
+{
+ "Time":           1737,
+"date": "1737",
+"London":             66,
+"Scotland":              7 
+},
+{
+ "Time":           1738,
+"date": "1738",
+"London":             59,
+"Scotland":              9 
+},
+{
+ "Time":           1739,
+"date": "1739",
+"London":            101,
+"Scotland":              4 
+},
+{
+ "Time":         1739.5,
+"date": "1739.5",
+"London":              1,
+"Scotland":              0 
+},
+{
+ "Time":           1740,
+"date": "1740",
+"London":            102,
+"Scotland":              8 
+},
+{
+ "Time":           1741,
+"date": "1741",
+"London":             79,
+"Scotland":             11 
+},
+{
+ "Time":           1742,
+"date": "1742",
+"London":             87,
+"Scotland":              8 
+},
+{
+ "Time":           1743,
+"date": "1743",
+"London":             80,
+"Scotland":              7 
+},
+{
+ "Time":           1744,
+"date": "1744",
+"London":            105,
+"Scotland":              8 
+},
+{
+ "Time":           1745,
+"date": "1745",
+"London":            120,
+"Scotland":             14 
+},
+{
+ "Time":           1746,
+"date": "1746",
+"London":             94,
+"Scotland":              8 
+},
+{
+ "Time":           1747,
+"date": "1747",
+"London":             85,
+"Scotland":             13 
+},
+{
+ "Time":           1748,
+"date": "1748",
+"London":             50,
+"Scotland":             12 
+},
+{
+ "Time":           1749,
+"date": "1749",
+"London":             71,
+"Scotland":             13 
+},
+{
+ "Time":           1750,
+"date": "1750",
+"London":             75,
+"Scotland":             14 
+},
+{
+ "Time":           1751,
+"date": "1751",
+"London":             51,
+"Scotland":             21 
+},
+{
+ "Time":           1752,
+"date": "1752",
+"London":             51,
+"Scotland":             17 
+},
+{
+ "Time":           1753,
+"date": "1753",
+"London":             69,
+"Scotland":             12 
+},
+{
+ "Time":           1754,
+"date": "1754",
+"London":             67,
+"Scotland":              6 
+},
+{
+ "Time":           1755,
+"date": "1755",
+"London":             90,
+"Scotland":             12 
+},
+{
+ "Time":           1756,
+"date": "1756",
+"London":            126,
+"Scotland":              8 
+},
+{
+ "Time":           1757,
+"date": "1757",
+"London":            122,
+"Scotland":              3 
+},
+{
+ "Time":           1758,
+"date": "1758",
+"London":             72,
+"Scotland":             11 
+},
+{
+ "Time":           1759,
+"date": "1759",
+"London":             83,
+"Scotland":             11 
+},
+{
+ "Time":           1760,
+"date": "1760",
+"London":             84,
+"Scotland":             15 
+},
+{
+ "Time":           1761,
+"date": "1761",
+"London":             70,
+"Scotland":             15 
+},
+{
+ "Time":           1762,
+"date": "1762",
+"London":             91,
+"Scotland":             21 
+},
+{
+ "Time":           1763,
+"date": "1763",
+"London":             84,
+"Scotland":             20 
+},
+{
+ "Time":           1764,
+"date": "1764",
+"London":             83,
+"Scotland":             10 
+},
+{
+ "Time":           1765,
+"date": "1765",
+"London":             80,
+"Scotland":             14 
+},
+{
+ "Time":           1766,
+"date": "1766",
+"London":             95,
+"Scotland":             24 
+},
+{
+ "Time":           1767,
+"date": "1767",
+"London":             55,
+"Scotland":             13 
+},
+{
+ "Time":           1768,
+"date": "1768",
+"London":             52,
+"Scotland":             13 
+},
+{
+ "Time":           1769,
+"date": "1769",
+"London":             79,
+"Scotland":             16 
+},
+{
+ "Time":           1770,
+"date": "1770",
+"London":             99,
+"Scotland":             11 
+},
+{
+ "Time":           1771,
+"date": "1771",
+"London":             63,
+"Scotland":             10 
+},
+{
+ "Time":           1772,
+"date": "1772",
+"London":             77,
+"Scotland":             10 
+},
+{
+ "Time":           1773,
+"date": "1773",
+"London":             68,
+"Scotland":             14 
+},
+{
+ "Time":           1774,
+"date": "1774",
+"London":             94,
+"Scotland":              9 
+},
+{
+ "Time":           1775,
+"date": "1775",
+"London":            119,
+"Scotland":             19 
+},
+{
+ "Time":           1776,
+"date": "1776",
+"London":            140,
+"Scotland":             26 
+},
+{
+ "Time":           1777,
+"date": "1777",
+"London":             96,
+"Scotland":             22 
+},
+{
+ "Time":           1778,
+"date": "1778",
+"London":            103,
+"Scotland":             26 
+},
+{
+ "Time":           1779,
+"date": "1779",
+"London":            124,
+"Scotland":             29 
+},
+{
+ "Time":           1780,
+"date": "1780",
+"London":            111,
+"Scotland":             14 
+},
+{
+ "Time":           1781,
+"date": "1781",
+"London":            104,
+"Scotland":              3 
+},
+{
+ "Time":           1782,
+"date": "1782",
+"London":            119,
+"Scotland":             13 
+},
+{
+ "Time":           1783,
+"date": "1783",
+"London":            125,
+"Scotland":             15 
+},
+{
+ "Time":           1784,
+"date": "1784",
+"London":            108,
+"Scotland":              8 
+},
+{
+ "Time":           1785,
+"date": "1785",
+"London":            130,
+"Scotland":             14 
+},
+{
+ "Time":           1786,
+"date": "1786",
+"London":            131,
+"Scotland":             12 
+},
+{
+ "Time":           1787,
+"date": "1787",
+"London":            108,
+"Scotland":             16 
+},
+{
+ "Time":           1788,
+"date": "1788",
+"London":            122,
+"Scotland":             18 
+},
+{
+ "Time":           1789,
+"date": "1789",
+"London":            115,
+"Scotland":             12 
+},
+{
+ "Time":           1790,
+"date": "1790",
+"London":            196,
+"Scotland":             26 
+},
+{
+ "Time":           1791,
+"date": "1791",
+"London":            173,
+"Scotland":             14 
+},
+{
+ "Time":           1792,
+"date": "1792",
+"London":            166,
+"Scotland":             22 
+},
+{
+ "Time":           1793,
+"date": "1793",
+"London":            248,
+"Scotland":             28 
+},
+{
+ "Time":           1794,
+"date": "1794",
+"London":            207,
+"Scotland":             24 
+},
+{
+ "Time":           1795,
+"date": "1795",
+"London":            223,
+"Scotland":             14 
+},
+{
+ "Time":           1796,
+"date": "1796",
+"London":            187,
+"Scotland":             17 
+},
+{
+ "Time":           1797,
+"date": "1797",
+"London":            193,
+"Scotland":             19 
+},
+{
+ "Time":           1798,
+"date": "1798",
+"London":            288,
+"Scotland":             14 
+},
+{
+ "Time":           1799,
+"date": "1799",
+"London":            189,
+"Scotland":             21 
+} 
+],
+"pointSize":              0,
+"lineWidth":              1,
+"id": "chart379279d4882e",
+"labels": "Edinburgh" 
+},
+      chartType = "Line"
+    new Morris[chartType](chartParams)
+</script>
+    
+    <script></script>    
+  </body>
+</html>

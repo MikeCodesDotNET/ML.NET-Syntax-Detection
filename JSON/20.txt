@@ -1,0 +1,48 @@
+{
+    "mappings": {
+        "place": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "location": {
+                    "type": "geo_point"
+                }
+            }
+        }
+    }
+}
+
+POST /geo_sort/place
+{
+    "name": "test",
+    "location": {
+        "lat": 50,
+        "lon": 10
+    }
+}
+
+POST /geo_sort/place
+{
+    "name": "test2",
+    "location": {
+        "lat": 100,
+        "lon": 20
+    }
+}
+
+POST /geo_sort/_search
+{
+    "sort": [
+       {
+            "_geo_distance" : {
+                "location" : [48.8583, 2.2945],
+                "order" : "asc",
+                "unit" : "km"
+            }
+       }
+    ],
+    "query": {
+        "match_all": {}
+    }
+}

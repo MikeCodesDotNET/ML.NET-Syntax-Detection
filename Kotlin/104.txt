@@ -1,0 +1,2 @@
+class Group<T>
+val a:Group<Employee> = Group<Programmer>()

@@ -1,0 +1,20 @@
+private static async Task SendEvent(string msg)
+{
+    List<object> events = new List<object>();
+    dynamic payload = new JObject();
+    payload.Id = Guid.NewGuid().ToString();
+    payload.EventType = "BuildMessage";
+    payload.Subject = msg;
+    payload.EventTime = DateTimeOffset.Now.ToString("o");
+    payload.Data = new JObject();
+    payload.Data.message = msg;
+    events.Add(payload);
+    var content = JsonConvert.SerializeObject(events);
+    Console.WriteLine(content);
+    var client = new HttpClient();
+    client.DefaultRequestHeaders.Add("aeg-sas-key", Key);
+    var httpContent = new StringContent(content, Encoding.UTF8, "application/json");
+    var result = await client.PostAsync(Endpoint, httpContent);
+    var resultText = await result.Content.ReadAsStringAsync();
+    Console.WriteLine($"Response: {result.StatusCode} - {resultText}.");
+}

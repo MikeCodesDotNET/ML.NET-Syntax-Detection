@@ -1,0 +1,106 @@
+import UIKit
+import AVFoundation
+
+protocol FileConverterDelegate {
+  func fileConversionCompleted()
+}
+
+class FileConverter : NSObject {
+  
+  var delegate : FileConverterDelegate?
+
+  func convertIpodAudioWithAsset(asset: AVURLAsset, exportPath: String)
+  {
+    // MARK: Reader Setup
+    // create a reader
+    var assetError = NSErrorPointer()
+    let assetReader = AVAssetReader(asset: asset, error: assetError)
+    if (assetError != nil) {
+      println(assetError)
+      return
+    }
+    // create an asset for the reader
+    var assetReaderOutput : AVAssetReaderOutput = AVAssetReaderAudioMixOutput(audioTracks: asset.tracks, audioSettings: nil)
+    // confirm we can add an output to the reader...
+    if (assetReader.canAddOutput(assetReaderOutput) == false) {
+      println("can't add reader output... die!")
+      return // ...and bail if we can't
+      }
+    // but if we can, then add our output to the asset reader
+    assetReader.addOutput(assetReaderOutput)
+    
+    // create an export url from our exportPath (AVAssetWriter requires an NSURL)
+    let exportURL = NSURL.fileURLWithPath(exportPath)
+    
+    // MARK: Writer Setup
+    // create an asset writer with our new exportURL
+    let assetWriter = AVAssetWriter(URL: exportURL, fileType: AVFileTypeCoreAudioFormat, error: assetError)
+    // make sure we're good, bail if we're not
+    if (assetError != nil) {
+      println(assetError)
+      return
+    }
+    // set up the channel layout
+    var channelLayout = AudioChannelLayout()
+    memset(&channelLayout, 0, sizeof(AudioChannelLayout));
+    channelLayout.mChannelLayoutTag = kAudioChannelLayoutTag_Stereo;
+    
+    // set up a dictionary with our outputsettings
+    var outputSettings = [
+      AVFormatIDKey: kAudioFormatLinearPCM,
+      AVSampleRateKey: 44100,
+      AVNumberOfChannelsKey: 2,
+      AVChannelLayoutKey: NSData(bytes:&channelLayout, length:sizeof(AudioChannelLayout)),
+      AVLinearPCMBitDepthKey: 16,
+      AVLinearPCMIsNonInterleaved: false,
+      AVLinearPCMIsFloatKey: false,
+      AVLinearPCMIsBigEndianKey: false
+    ]
+      
+    // create an asset writer input
+    let assetWriterInput = AVAssetWriterInput(mediaType:AVMediaTypeAudio, outputSettings:outputSettings as NSDictionary as [NSObject : AnyObject])
+    if (assetWriter.canAddInput(assetWriterInput)) {
+      assetWriter.addInput(assetWriterInput)
+    } else {
+      println("can't add asset writer input... die!")
+      return
+    }
+    assetWriterInput.expectsMediaDataInRealTime = false
+    
+    // MARK: File Conversion
+    assetWriter.startWriting()
+    assetReader.startReading()
+    
+    let audioTrack = asset.tracks[0] as! AVAssetTrack
+    let startTime = CMTimeMake(0, audioTrack.naturalTimeScale)
+    assetWriter.startSessionAtSourceTime(startTime)
+      
+    // we need to do this on another thread, so let's set up a dispatch group...
+    var convertedByteCount : Int = 0
+    let dispatchGroup = dispatch_group_create()
+    let mediaInputQueue = dispatch_queue_create("mediaInputQueue", nil)
+    // ... and go
+    dispatch_group_enter(dispatchGroup)
+      assetWriterInput.requestMediaDataWhenReadyOnQueue(mediaInputQueue) {
+        while assetWriterInput.readyForMoreMediaData {
+          var nextBuffer = assetReaderOutput.copyNextSampleBuffer()
+          if nextBuffer != nil {
+            // append buffer
+            assetWriterInput.appendSampleBuffer(nextBuffer)
+            convertedByteCount += CMSampleBufferGetTotalSampleSize(nextBuffer)
+          } else {
+            // done!
+            assetWriterInput.markAsFinished()
+            assetReader.cancelReading()
+            dispatch_group_leave(dispatchGroup)
+            // notify our delegate that we're done with the conversion
+            dispatch_group_notify(dispatchGroup, dispatch_get_main_queue(), {
+                self.delegate?.fileConversionCompleted()
+            })
+            break
+          }
+        }
+      } // end assetWriterInput block
+  }
+
+}

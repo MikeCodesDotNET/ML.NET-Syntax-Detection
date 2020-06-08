@@ -1,0 +1,9 @@
+let myArray = [1, 2, 3, 4, 5]
+
+let longMap = myArray.map({ (number) in
+    return number * 10
+})
+let convienceMap = myArray.map { number in
+    return number * 10
+}
+let shortMap = myArray.map { $0 * 10 }

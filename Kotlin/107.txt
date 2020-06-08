@@ -1,0 +1,2 @@
+var j:Programmer? = Programmer("Ted") // assign non-null to nullable Programmer
+j = null. // then we assign a null to j

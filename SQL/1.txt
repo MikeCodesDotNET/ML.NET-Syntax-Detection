@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[airports](
+       [airport_id] [int] NULL,
+       [city] [varchar](50) NULL,
+       [state] [varchar](50) NULL,
+       [name] [varchar](50) NULL
+) ON [PRIMARY]

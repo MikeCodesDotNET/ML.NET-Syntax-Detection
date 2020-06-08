@@ -1,0 +1,119 @@
+#!/usr/bin/env python
+import os
+import difflib
+import subprocess
+from osgeo import gdal
+from osgeo import osr
+from glob import glob
+
+gdal.UseExceptions()
+osr.UseExceptions()
+
+gdal_data = os.environ.get('GDAL_DATA')
+if not gdal_data:
+    gdal_data = os.path.join(os.path.dirname(osr.__file__), 'data', 'gdal')
+if not os.path.isdir(gdal_data):
+    stdout, stderr = subprocess.Popen(
+        ['gdal-config', '--datadir'],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE).communicate()
+    gdal_data = stdout.strip()
+
+def read_epsg_codes(fname):
+    codes = set()
+    print('opening ' + fname)
+    with open(fname) as fp:
+        for ln, line in enumerate(fp, 1):
+            if line.startswith('include'):
+                incl_fname = os.path.join(
+                        os.path.dirname(fname),
+                        line.lstrip('include').strip())
+                if os.path.isfile(incl_fname):
+                    print('including: ' + incl_fname)
+                    codes.update(read_epsg_codes(incl_fname))
+                else:
+                    print('could not find included file: ' + incl_fname)
+            elif ',' in line and line[:line.index(',')].isdigit():
+                key = int(line[:line.index(',')])
+                codes.add(key)
+            elif line.startswith('#') or line.strip() == '':
+                continue
+            else:
+                continue
+    return codes
+
+codes = set()
+for fname in glob(os.path.join(gdal_data, '*.wkt')):
+    codes.update(read_epsg_codes(fname))
+codes.update(read_epsg_codes(os.path.join(gdal_data, 'gcs.csv')))
+codes.update(read_epsg_codes(os.path.join(gdal_data, 'pcs.csv')))
+
+print('harvested %d potential EPSG codes from %s' % (len(codes), gdal_data))
+
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
+def test_prj_roundtrip(code, driver='GTiff', show_proj4_diff=True, show_wkt_diff=False):
+    srs = osr.SpatialReference()
+    try:
+        srs.ImportFromEPSG(code)
+    except RuntimeError as e:
+        return str(e).replace('\n', ' ')
+    srs_wkt = srs.ExportToWkt()
+    if isinstance(srs_wkt, unicode):
+        if not is_ascii(srs_wkt):
+            return('Unicode! ' + wrs_wkt)
+        srs_wkt = str(srs_wkt)
+
+    fname = '/vsimem/tmp'
+    drv = gdal.GetDriverByName(driver)
+    ds = drv.Create(fname, 1, 1)
+    assert ds.SetProjection(srs_wkt) == 0
+
+    # Close and re-open
+    ds = None
+    ds = gdal.Open(fname)
+    srs_out = osr.SpatialReference()
+    assert srs_out.ImportFromWkt(ds.GetProjection()) == 0
+    ds = None
+    gdal.Unlink(fname)
+
+    # Show differences
+    ret = ''
+    if show_proj4_diff:
+        try:
+            srs_proj4 = srs.ExportToProj4()
+        except RuntimeError as e:
+            return str(e).replace('\n', ' ')
+        srs_out_proj4 = srs_out.ExportToProj4()
+        if not srs_proj4 and not srs_out_proj4:
+            ret += 'no PROJ.4 to compare'
+        elif not srs_proj4 and srs_out_proj4:
+            ret += 'only output has PROJ.4 : ' + srs_out_proj4
+        elif srs_proj4 and not srs_out_proj4:
+            ret += 'only source has PROJ.4 : ' + srs_proj4
+        elif srs_proj4 != srs_out_proj4:
+            ret += 'Differences in PROJ.4:\n'
+            ret += ''.join(difflib.ndiff(
+                [srs_proj4 + '\n'],
+                [srs_out_proj4 + '\n'])).rstrip()
+    if show_wkt_diff:
+        if ret:
+            ret += '\n'
+        try:
+            srs_wkt = srs.ExportToPrettyWkt()
+        except RuntimeError as e:
+            return str(e).replace('\n', ' ')
+        srs_out_wkt = srs_out.ExportToPrettyWkt()
+        if srs_wkt != srs_out_wkt:
+            ret += ('Differences in WKT:\n')
+            ret += ''.join(difflib.ndiff(
+                srs_wkt.splitlines(True),
+                srs_out_wkt.splitlines(True))).rstrip()
+    if not ret:
+        ret = 'good'
+    return ret
+
+for code in sorted(codes):
+    result = test_prj_roundtrip(code)
+    print('EPSG:%d : %s' % (code, result))

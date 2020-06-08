@@ -1,0 +1,11 @@
+import Foundation
+
+let items: [Any?] = [0, [], "a", nil, "b", nil, "c"]
+let strings = reduce(items, [String]()) {
+  if let string = $1 as? String {
+    return $0 + [string]
+  } else {
+    return $0
+  }
+}
+println(strings)

@@ -1,0 +1,6 @@
+// Command to move Patrick back to base
+const patrickToBase = actions.move.bind(Patrick, 0, 0, 0)
+
+// Move Patrick back
+patrickToBase();
+console.log(Patrick.position); // { x: 0, y: 0, z: 0 }

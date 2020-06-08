@@ -1,0 +1,53 @@
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        var length = getLength(textField.text)
+        if length == 10 {
+            if range.length == 0 {
+                return false
+            }
+        }
+        if length == 3 {
+            var num = formatNumber(textField.text)
+            textField.text = "(\(num))"
+            if range.length > 0 {
+                textField.text = (num as NSString).substringToIndex(3)
+            }
+        }
+        else if length == 6 {
+            var num = formatNumber(textField.text)
+            textField.text = "(\((num as NSString).substringToIndex(3))) \((num as NSString).substringFromIndex(3))-"
+            if range.length > 0 {
+                textField.text = "(\((num as NSString).substringToIndex(3))) \((num as NSString).substringFromIndex(3))"
+            }
+        }
+        return true
+    }
+
+    
+    func getLength(string: String) -> Int {
+        var str = removeNonNumber(string)
+        
+        return count(str)
+    }
+    
+    func formatNumber(string: String) -> String {
+        var str = removeNonNumber(string)
+        
+        var length = count(str)
+        if length > 10 {
+            str = (str as NSString).substringFromIndex(length - 10)
+        }
+        return str
+    }
+    
+    func removeNonNumber(string: String) -> String {
+        var str = string
+        
+        str = str.stringByReplacingOccurrencesOfString("(", withString: "", options: nil, range: nil)
+        str = str.stringByReplacingOccurrencesOfString(")", withString: "", options: nil, range: nil)
+        str = str.stringByReplacingOccurrencesOfString(" ", withString: "", options: nil, range: nil)
+        str = str.stringByReplacingOccurrencesOfString("-", withString: "", options: nil, range: nil)
+        str = str.stringByReplacingOccurrencesOfString("-", withString: "", options: nil, range: nil)
+        str = str.stringByReplacingOccurrencesOfString("+", withString: "", options: nil, range: nil)
+        
+        return str
+    }

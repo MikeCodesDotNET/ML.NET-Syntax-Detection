@@ -1,0 +1,14 @@
+#!/usr/bin/rust run
+
+struct Bomb;
+
+impl Drop for Bomb {
+    fn finalize(&self) {
+        io::println("Somebody set up us the bomb!");
+    }
+}
+
+fn main() {
+    let b = Bomb;
+    io::println(fmt!("b = %?", b));
+}

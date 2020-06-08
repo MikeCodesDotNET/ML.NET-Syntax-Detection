@@ -1,0 +1,17 @@
+@Entity 
+@IdClass(PersonKey.class) 
+public class Person{ 
+	@Id 
+	int taxid; 
+	@Id 
+	String countryCd;
+	@Transient 
+	PersonKey key   
+
+	public PersonKey getKey(){ 
+
+		if(key==null) key = new PersonKey(taxid, countryCd); 
+
+		return key; 
+	} 
+}

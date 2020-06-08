@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+
+import re
+import requests
+from bs4 import BeautifulSoup
+import pickle
+import MeCab
+
+def cleanhtml(raw_html):
+    r = re.compile('<.*?>')
+    return re.sub(r, '', raw_html)
+
+db = {}
+def load():
+    global db
+    try:
+        file = open('url.db', 'rb')
+        db = pickle.load(file)
+        file.close()
+    except:
+        db = {}
+
+def save():
+    global db
+    file = open('url.db', 'wb')
+    pickle.dump(db, file)
+    print(db)
+    file.close()
+
+def retrieve(url):
+    global db
+    try:
+        body = db[url]
+    except KeyError:
+        print("Retrieve " + url)
+        body = requests.get(url)
+        db[url] = body
+    return db[url]
+
+class AmazonReview:
+    def __init__(self):
+        self.score = 0
+        self.subject = ''
+        self.text = ''
+
+    def set_score(self, score):
+        self.score = score
+
+    def set_subject(self, subject):
+        self.subject = subject
+
+    def set_text(self, text):
+        self.text = text
+
+def main():
+    reviews = []
+    for i in range(0, 12):
+        url = "http://www.amazon.co.jp/product-reviews/B00QT9X9EK?sortBy=byRankDescending&pageNumber=" + str(i)
+        body = retrieve(url)
+        soup = BeautifulSoup(body.text)
+        table = soup.find('table', {"id":"productReviews"})
+
+        if table == None:
+            continue
+
+        txt = table.find_all("div", {"class":"reviewText"})
+        subj = table.find_all('span', {"style":"vertical-align:middle;"})
+        stars = table.find_all(class_=re.compile('s_star_'))
+
+        for i in range(len(txt)):
+            rv = AmazonReview()
+            rv.set_text(txt[i])
+            rv.set_subject(subj[i])
+            rv.set_score(stars[i])
+            reviews.append(rv)
+
+    print(reviews)
+    r = reviews[0]
+    print(r.score)
+    print(r.subject)
+    print(r.text)
+
+    mecab = MeCab.Tagger("-Ochasen")
+    for i in range(len(reviews)):
+        pass
+        #print(i)
+        #print(mecab.parse(reviews[i]))
+
+if __name__ == '__main__':
+    load()
+    main()
+    save()

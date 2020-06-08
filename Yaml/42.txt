@@ -1,0 +1,26 @@
+meshblu:
+  image: octoblu/meshblu:0c3e5bd
+  volumes:
+    - .:/var/www
+    - ./docker:/etc/supervisor/conf.d
+    - /opt/docker_apps/certs/meshblu:/opt/meshblu/certs
+  environment:
+   - PORT=80
+   - MQTT_PORT=1883
+   - MQTT_PASSWORD=skynetpass
+   - MONGODB_URI=mongodb://mongo:27017/skynet
+   - SSL_PORT=443
+   - SSL_CERT=/opt/meshblu/certs/server.crt
+   - SSL_KEY=/opt/meshblu/certs/server.key
+  ports:
+    - "80:80"
+    - "443:443"
+    - "5683:5683"
+    - "1883:1883"
+  links:
+    - redis
+    - mongo
+redis:
+  image: redis
+mongo:
+  image: mongo

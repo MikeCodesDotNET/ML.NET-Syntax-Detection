@@ -1,0 +1,11 @@
+let state = null;
+
+async function mutateA() {
+  await /* asynchronous code */
+  state = 'A';
+}
+
+async function mutateB() {
+  await /* asynchronous code */
+  state = 'B';
+}

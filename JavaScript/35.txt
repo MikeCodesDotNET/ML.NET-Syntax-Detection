@@ -1,0 +1,14 @@
+function formHandle(inputText) {
+  var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,6})+$/;
+  if (inputText.value.match(mailformat)) {
+    document.getElementById("normal").style.display = "none";
+    document.getElementById("success").style.display = "inline-flex";
+    document.getElementById("error").style.display = "none";
+    return true;
+  } else {
+    document.getElementById("normal").style.display = "none";
+    document.getElementById("success").style.display = "none";
+    document.getElementById("error").style.display = "inline-flex";
+    return false;
+  }
+}

@@ -1,0 +1,29 @@
+import Foundation
+import CoreLocation
+
+// Calculate destination location based on origin location, distance (meters) and direction (degrees from north).
+// Playing: myOriginLocation.destinationBy(distance: 5.0, direction: 45.0)
+// http://www.geomidpoint.com/destination/calculation.html (Spherical earth model)
+extension CLLocation {
+    func destinationBy(# distance: CLLocationDistance, direction: CLLocationDirection) -> CLLocation {
+        let earthRadius     = 6372.7976
+        let angularDistance = (distance / 1000) / earthRadius
+        let originLatRad    = self.coordinate.latitude * (M_PI / 180)
+        let originLngRad    = self.coordinate.longitude * (M_PI / 180)
+        let directionRad    = direction * (M_PI / 180)
+        
+        let destinationLatRad = asin(
+            sin(originLatRad) * cos(angularDistance) +
+                cos(originLatRad) * sin(angularDistance) *
+                cos(directionRad))
+        
+        let destinationLngRad = originLngRad + atan2(
+            sin(directionRad) * sin(angularDistance) * cos(originLatRad),
+            cos(angularDistance) - sin(originLatRad) * sin(destinationLatRad))
+        
+        let destinationLat: CLLocationDegrees = destinationLatRad * (180 / M_PI)
+        let destinationLng: CLLocationDegrees = destinationLngRad * (180 / M_PI)
+        
+        return CLLocation(latitude: destinationLat, longitude: destinationLng)
+    }
+}

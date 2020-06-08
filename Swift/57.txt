@@ -1,0 +1,55 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var str = "Hello, playground"
+
+// A very (very) simple linked list
+enum List<Element> {
+    case End
+    indirect case Node(Element, next: List<Element>)
+}
+
+// Let's write a method to create a new node and prepend it to the list
+extension List {
+    func cons(x: Element) -> List {
+        return .Node(x, next: self)
+    }
+}
+
+let l = List<Int>.End.cons(1).cons(2).cons(3) // three element list: 3, 2, 1
+
+// Our list is also a stack
+extension List {
+    mutating func push(x: Element) {
+        self = self.cons(x)
+    }
+    
+    mutating func pop() -> Element? {
+        switch self {
+        case .End: return nil
+        case let .Node(x, next: xs):
+            self = xs
+            return x
+        }
+    }
+}
+
+var stack = List<Int>.End.cons(1).cons(2).cons(3)
+var a = stack
+var b = stack
+
+a.pop() // 3
+a.pop() // 2
+a.pop() // 1
+
+stack.pop() // 3
+stack.push(4)
+
+b.pop() // 3
+b.pop() // 2
+b.pop() // 1
+
+stack.pop() // 4
+stack.pop() // 2
+stack.pop() // 1

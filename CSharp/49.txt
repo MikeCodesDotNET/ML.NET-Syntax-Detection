@@ -1,0 +1,79 @@
+public class CacheProvider<T> : ICache<T>
+                           where T: class
+    {
+
+        private readonly IDistributedCache _cache;
+
+        public CacheProvider(IDistributedCache cache)
+        {
+            this._cache = cache;
+        }
+
+        public async Task<T> GetCached(string Key)
+        {
+            if (!String.IsNullOrEmpty(Key))
+            {
+                byte[] cached_data = await this._cache.GetAsync(Key);
+
+                if(cached_data != null)
+                {
+                    // convert to object
+                    T item = GetObject(cached_data);
+                    return item;
+                }
+                return (T)null;
+            }
+            else
+            {
+                throw new ArgumentNullException("Cache Key can't be null");
+            }
+        }
+
+        public async Task RefreshCache(string Key)
+        {
+            if (!String.IsNullOrEmpty(Key))
+            {
+                await this._cache.RefreshAsync(Key);
+            }
+        }
+
+        public async Task SetCache(string Key, T entity)
+        {
+            if (entity != null && !String.IsNullOrEmpty(Key))
+            {
+                //convert to byte array
+                byte[] data = GetBytes(entity);
+                var options = new DistributedCacheEntryOptions()
+                                        .SetSlidingExpiration(TimeSpan.FromDays(60));
+                await this._cache.SetAsync(Key, data, options);
+            }
+            else
+            {
+                throw new ArgumentNullException("Set Cache can't have null values");
+            }
+        }
+
+        private byte[] GetBytes(T obj)
+        {
+            if (obj == null)
+                return null;
+            BinaryFormatter bf = new BinaryFormatter();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                bf.Serialize(ms, obj);
+                return ms.ToArray();
+            }
+        }
+
+        private T GetObject(byte[] data)
+        {
+            if (data == null)
+                return default(T);
+            BinaryFormatter bf = new BinaryFormatter();
+            using (MemoryStream ms = new MemoryStream(data))
+            {
+                object obj = bf.Deserialize(ms);
+                return (T)obj;
+            }
+        }
+    }

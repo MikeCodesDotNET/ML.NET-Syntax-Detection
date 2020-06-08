@@ -1,0 +1,26 @@
+{
+    "version": "2.0",
+    "functionTimeout": "00:05:00",
+    "extensions": {
+      "serviceBus": {
+        "messageHandlerOptions": {
+          "maxConcurrentCalls": 99,
+          "maxAutoRenewDuration": "00:55:00",
+          "autoComplete": false
+        },
+        "SessionHandlerOptions": {
+          "AutoComplete": true,
+          "MaxAutoRenewDuration": "00:05:00",
+          "MaxConcurrentSessions": 2000,
+          "MessageWaitTimeout": "00:01:00"
+        }        
+      }
+    },
+    "logging": {
+      "applicationInsights": {
+        "samplingSettings": {
+          "isEnabled": true
+        }
+      }
+    }
+}

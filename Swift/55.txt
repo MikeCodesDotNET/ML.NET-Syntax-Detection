@@ -1,0 +1,4 @@
+let numArray = [textField1, textField2].map{$0.text.toInt() ?? 0}
+let signArray = [switch1, switch2].map{$0.on ? -1 : 1}
+let resultNum = Array(zip(numArray, signArray)).map{$0 * $1}.reduce(0, combine: +)
+resultLabel.text = "\(resultNum)"

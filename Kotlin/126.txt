@@ -1,0 +1,3 @@
+val graphqlServlet = SimpleGraphQLServlet
+            .builder(graphqlSchema)
+            .build()

@@ -1,0 +1,3 @@
+"Hello world".charCodeAt(2); // returns 72 for "l"
+// If we pass no value it defaults to an index of 0
+"Hello world".charCodeAt(); // returns 108 for "H"

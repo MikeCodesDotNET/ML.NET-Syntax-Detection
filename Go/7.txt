@@ -1,0 +1,54 @@
+/* Calculate finger tables of nodes in Chord Protocol */
+package main
+
+import "fmt"
+import "math"
+
+/*
+cacl_finger_table calculates the finger table of a node in
+Chord procotol.
+  Parameters
+    index: index of a node
+    nodes: all nodes in Chord protocol
+  Return value
+    finger table of the node
+*/
+func cacl_finger_table(index int, nodes []int, m int) map[int]int{
+    ftable := make(map[int]int)
+    max_id := int(math.Pow(2, float64(m)))
+
+    j := (index + 1) % len(nodes)
+    for i := 0; i < m; i++ {
+        val := nodes[index] + int(math.Pow(2, float64(i)))
+
+        cmp_val := nodes[j]
+        if nodes[j] < nodes[index] {
+            cmp_val = nodes[j] + max_id
+        }
+        for ; val > cmp_val; {
+            j = (j + 1) % len(nodes)
+            cmp_val = nodes[j]
+            if nodes[j] < nodes[index] {
+                cmp_val = nodes[j] + max_id
+            }
+        }
+        ftable[i] = nodes[j]
+    }   
+
+    return ftable
+}
+
+func main() {
+
+    m := int(8)
+    nodes := []int{45, 95, 145, 195, 245, 254}
+
+    for i, v := range nodes {
+        ft := cacl_finger_table(i, nodes, m)
+        fmt.Printf("%d's finger table: ", v)
+        for j := 0; j < len(ft); j++ {
+            fmt.Printf("(%d %d)", j, ft[j])
+        }
+        fmt.Println()
+    }
+}

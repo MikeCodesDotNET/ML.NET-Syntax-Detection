@@ -1,0 +1,7 @@
+fun sum(first: Int = 5, second: Int = 10): Int {
+    if (first > second) {
+        first
+    } else {
+        second
+    }
+}

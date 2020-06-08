@@ -1,0 +1,3 @@
+SELECT TOP 4 COUNT(1) AS foodGroupCount, f.foodGroup
+FROM Food f
+GROUP BY f.foodGroup

@@ -1,0 +1,7 @@
+func logURLPath(urlString: NSString) {
+    urlString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding).map { urlString in
+        NSURL(string: urlString).map { path in
+            println("Opening URL: \(path)")
+        }
+    }
+}

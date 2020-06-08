@@ -1,0 +1,1 @@
+static ICustomMarshaler GetInstance(string pstrCookie);  

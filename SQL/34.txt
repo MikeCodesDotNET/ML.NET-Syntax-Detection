@@ -1,0 +1,2 @@
+SELECT [Last Name]
+FROM Person.[Person Table]

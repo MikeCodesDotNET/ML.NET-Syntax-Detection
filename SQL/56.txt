@@ -1,0 +1,9 @@
+UPDATE im
+SET mf_item_number = (some value) 
+FROM item_master im
+JOIN group_master gm
+    ON im.sku = gm.sku 
+JOIN Manufacturer_Master mm
+    ON gm.ManufacturerID = mm.ManufacturerID
+WHERE im.mf_item_number like 'STA%' AND
+      gm.manufacturerID = 34    `sql`

@@ -1,0 +1,7 @@
+function stopEvent(a) {
+    var a = a || window.event;
+    a.cancelBubble = true;
+    if (a.stopPropagation) {
+        a.stopPropagation()
+    }
+}

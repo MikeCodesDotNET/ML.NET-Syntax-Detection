@@ -1,0 +1,7 @@
+public void OnGet()
+{
+    HttpContext.Response.Cookies.Append(
+       "LocalAppCulture",
+           CookieRequestCultureProvider.MakeCookieValue(
+               new RequestCulture("fr")));        
+}

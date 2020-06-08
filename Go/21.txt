@@ -1,0 +1,184 @@
+package analytics_test
+
+import (
+	"net/url"
+	"testing"
+
+	"github.com/adjust/backend/core/callback"
+	"github.com/adjust/backend/core/partner"
+
+	. "github.com/adjust/backend-vendor/github.com/adjust/gocheck"
+	. "github.com/adjust/backend/core/partner/partners/test_suite"
+)
+
+func TestGoogleAnalyticsSuite(t *testing.T) {
+	suite := &PartnerSuite{
+		Partner: func(settings partner.Settings) partner.Partner {
+			return settings.GoogleAnalytics
+		},
+		PartnerName: "google_analytics",
+		AppSettings: map[string]interface{}{
+			"tracking_id":   "UA-2345-1",
+			"send_sessions": true,
+		},
+		EventSettings: map[string]interface{}{
+			"name": "custom",
+		},
+		ClickParametersNames: []string{"gclid", "utm_medium", "utm_id", "dclid", "google_country_property_id"},
+		EventParameters: map[string]string{
+			"aip": "1",
+			"sr":  "RESOLUTION",
+			"vp":  "SIZE",
+			"de":  "UTF-8",
+			"sd":  "COLORS",
+			"dt":  "TITLE",
+			"ec":  "CATEGORY",
+			"el":  "LABEL",
+			"ev":  "VALUE",
+			"ti":  "TID",
+			"ta":  "AFFILIATION",
+			"tt":  "TAX",
+			"ts":  "SHIPPING",
+			"tcc": "COUPON",
+			"cd":  "DESCRIPTION",
+			"in":  "ITEM_NAME",
+			"ip":  "ITEM_PRICE",
+			"iq":  "ITEM_QUANTITY",
+			"ic":  "ITEM_CODE",
+			"iv":  "ITEM_VARIATION",
+		},
+		ClickParameters: map[string]string{
+			"gclid":      "GCLID",
+			"utm_medium": "MEDIUM",
+			"utm_id":     "CID",
+			"dclid":      "DID",
+			"google_country_property_id": "UA-789-6",
+		},
+		InstallUrls:             []string{"https://ssl.google-analytics.com/collect"},
+		ReattributionUrls:       []string{"https://ssl.google-analytics.com/collect"},
+		SessionUrls:             []string{"https://ssl.google-analytics.com/collect"},
+		EventUrls:               []string{"https://ssl.google-analytics.com/collect"},
+		RevenueUrls:             []string{"https://ssl.google-analytics.com/collect", "https://ssl.google-analytics.com/collect"},
+		CustomInstallTest:       googleAnalyticsInstallTest,
+		CustomReattributionTest: googleAnalyticsReattributionTest,
+		CustomSessionTest:       googleAnalyticsSessionTest,
+		CustomRevenueTest:       googleAnalyticsRevenueTest,
+		CustomEventTest:         googleAnalyticsEventTest,
+		RequestMethod:           "POST",
+	}
+	TestingSuiteT(suite, t)
+}
+
+func googleAnalyticsInstallTest(cbs callback.Callbacks, c *C) {
+	for _, cb := range cbs {
+		googleAnalyticsBodyTest("install", cb, c)
+	}
+}
+
+func googleAnalyticsReattributionTest(cbs callback.Callbacks, c *C) {
+	for _, cb := range cbs {
+		googleAnalyticsBodyTest("reattribution", cb, c)
+	}
+}
+
+func googleAnalyticsSessionTest(cbs callback.Callbacks, c *C) {
+	for _, cb := range cbs {
+		googleAnalyticsBodyTest("session", cb, c)
+	}
+}
+
+func googleAnalyticsRevenueTest(cbs callback.Callbacks, c *C) {
+	for _, cb := range cbs {
+		hitType, tid := googleAnalyticsBodyTest("custom", cb, c)
+		ok := false
+		if tid == "UA-789-6" || tid == "UA-2345-1" {
+			ok = true
+		}
+		c.Check(ok, Equals, true)
+		// c.Check(tid, Equals, "1")
+		googleAnalyticsParamsTest(hitType, "custom", cb, c)
+	}
+}
+
+func googleAnalyticsEventTest(cbs callback.Callbacks, c *C) {
+	for _, cb := range cbs {
+		hitType, tid := googleAnalyticsBodyTest("custom", cb, c)
+		ok := false
+		if tid == "UA-789-6" || tid == "UA-2345-1" {
+			ok = true
+		}
+		c.Check(ok, Equals, true)
+		googleAnalyticsParamsTest(hitType, "custom", cb, c)
+	}
+}
+
+func googleAnalyticsBodyTest(eventName string, cb *callback.Callback, c *C) (hitType, tid string) {
+	c.Check(cb.Header.Get("Content-Type"), Equals, "application/json")
+	body, err := url.ParseQuery(cb.Body)
+	c.Assert(cb.Header.Get("User-Agent"), Equals, "")
+	c.Assert(err, IsNil)
+	c.Check(body.Get("v"), Equals, "1")
+	c.Check(body.Get("ds"), Equals, "app")
+	c.Check(body.Get("z"), Equals, "1393977600")
+	if cb.Data.OsName == "android" {
+		c.Check(body.Get("cid"), Equals, "GPS_ADID")
+	} else {
+		c.Check(body.Get("cid"), Equals, "IDFA")
+	}
+	c.Check(body.Get("uip"), Equals, "IP_ADDRESS")
+	c.Check(body.Get("geoid"), Equals, "COUNTRY")
+	c.Check(body.Get("dr"), Equals, "REFERRER")
+	c.Check(body.Get("cc"), Equals, "adgroup")
+	c.Check(body.Get("cn"), Equals, "campaign")
+	c.Check(body.Get("cs"), Equals, "network")
+	c.Check(body.Get("ck"), Equals, "creative")
+	c.Check(body.Get("ul"), Equals, "LANGUAGE")
+	c.Check(body.Get("dl"), Equals, "DEEPLINK")
+	c.Check(body.Get("an"), Equals, "APP_NAME")
+	c.Check(body.Get("av"), Equals, "1.2.3.4")
+	c.Check(body.Get("aid"), Equals, "APP_ID")
+	c.Check(body.Get("ea"), Equals, eventName)
+	return body.Get("t"), body.Get("tid")
+}
+
+func googleAnalyticsParamsTest(hitType, eventName string, cb *callback.Callback, c *C) {
+	body, err := url.ParseQuery(cb.Body)
+	c.Assert(err, IsNil)
+	c.Check(body.Get("aip"), Equals, "1")
+	c.Check(body.Get("cm"), Equals, "MEDIUM")
+	c.Check(body.Get("ci"), Equals, "CID")
+	c.Check(body.Get("gclid"), Equals, "GCLID")
+	c.Check(body.Get("dclid"), Equals, "DID")
+	c.Check(body.Get("tcc"), Equals, "COUPON")
+	c.Check(body.Get("sr"), Equals, "RESOLUTION")
+	c.Check(body.Get("vp"), Equals, "SIZE")
+	c.Check(body.Get("de"), Equals, "UTF-8")
+	c.Check(body.Get("sd"), Equals, "COLORS")
+	c.Check(body.Get("dt"), Equals, "TITLE")
+	c.Check(body.Get("cd"), Equals, "DESCRIPTION")
+	if hitType == "event" {
+		c.Check(body.Get("ec"), Equals, "CATEGORY")
+		c.Check(body.Get("el"), Equals, "LABEL")
+		c.Check(body.Get("ev"), Equals, "VALUE")
+	}
+	if hitType == "transaction" || hitType == "item" {
+
+		c.Check(body.Get("ti"), Equals, "TID")
+	}
+	if hitType == "transaction" {
+		c.Check(body.Get("ta"), Equals, "AFFILIATION")
+		c.Check(body.Get("tt"), Equals, "TAX")
+		c.Check(body.Get("ts"), Equals, "SHIPPING")
+	}
+	if hitType == "item" {
+		c.Check(body.Get("in"), Equals, "ITEM_NAME")
+		c.Check(body.Get("ip"), Equals, "ITEM_PRICE")
+		c.Check(body.Get("iq"), Equals, "ITEM_QUANTITY")
+		c.Check(body.Get("ic"), Equals, "ITEM_CODE")
+		c.Check(body.Get("iv"), Equals, "ITEM_VARIATION")
+	}
+	if cb.Data.Revenue.GetBaseAmount() != "" {
+		c.Check(body.Get("tr"), Equals, "5.005")
+		c.Check(body.Get("cu"), Equals, "ORI")
+	}
+}

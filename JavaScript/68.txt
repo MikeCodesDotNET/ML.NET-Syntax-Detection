@@ -1,0 +1,45 @@
+function Model()
+{
+    this.errors = [];
+    this.map = null;
+    this.setErrors = function (errors) {
+        this.errors = [];
+        for (var field in errors) {
+            var scopeField = this.getField(errors[field].field);
+            this.errors[scopeField] = errors[field].message;
+        }
+    };
+    this.getField = function (name) {
+        for (var field in this.map) {
+            if (typeof this.map[field] === "object" && this.map[field].name == name) {
+                return field;
+            } else if (typeof this.map[field] !== "object" && this.map[field] === name) {
+                return field;
+            }
+        }
+    };
+    this.parseRawData = function (rawData) {
+        if (this.map && rawData) {
+            for (var field in this.map) {
+                if (typeof this.map[field] === "object") {
+                    this[field] = this.parseByType(rawData[this.map[field].name], this.map[field].type);
+                } else {
+                    this[field] = rawData[this.map[field]];
+                }
+            }
+        }
+    };
+    this.parseByType = function (value, type) {
+        switch (type) {
+            case 'date' :
+                return this.parseDate(value);
+                break;
+            case 'array':
+                return !Array.isArray(value) ? [] : value;
+                break;
+        }
+    };
+    this.parseDate = function (value) {
+        return value ? moment(value, 'YYYY-MM-DD HH:mm').toDate() : null;
+    };
+}

@@ -1,0 +1,11 @@
+function addEvent(c, a, b) {
+    if (c.addEventListener) {
+        c.addEventListener(a, b, false)
+    } else {
+        if (c.attachEvent) {
+            c.attachEvent("on" + a, b)
+        } else {
+            c["on" + a] = b
+        }
+    }
+}

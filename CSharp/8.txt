@@ -1,0 +1,13 @@
+public async Task<Pusheen> FindPusheenAsync(int? id)
+{
+    var pusheen = await _context.Pusheens.FindAsync(id);
+    return pusheen;
+}
+
+public async Task<Pusheen> FindPusheenById(int? id)
+{
+    var pusheen = await _context.Pusheens
+        .FirstOrDefaultAsync(m => m.Id == id);
+    return pusheen;
+}
+

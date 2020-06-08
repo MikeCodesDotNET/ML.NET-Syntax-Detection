@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./node/Dockerfile
+    depends_on:
+      - dynamodb
+      - mysql
+      - redis
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    tty: true
+    container_name: node_app
+
+  dynamodb:
+    build:
+      context: .
+      dockerfile: ./dynamodb/Dockerfile
+    restart: always
+    volumes:
+      - ./db_data/dynamo:/home/dynamodblocal/data/
+    container_name: dynamodb
+
+  mysql:
+    build:
+      context: .
+      dockerfile: ./mysql/Dockerfile
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: test_db
+    volumes:
+      - ./db_data/mysql:/var/lib/mysql
+    container_name: mysql
+
+  redis:
+    build:
+      context: .
+      dockerfile: ./redis/Dockerfile
+    restart: always
+    volumes:
+      - ./db_data/redis:/data
+    container_name: redis

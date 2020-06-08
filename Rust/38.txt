@@ -1,0 +1,39 @@
+use rustorm::pool::Platform;
+// use rustorm::database::Database as DB;
+use rustorm::database::Database;
+use rustful::{Context, Response, Handler};
+
+// type Database = DB + Sync;
+
+pub struct Api {
+    db: Platform,
+}
+
+
+impl<'a> Api {
+    pub fn new(db: Platform) -> Api {
+        Api {
+            db: db,
+        }
+    }
+
+    pub fn handle(&self, handler: fn(&Database, Context, Response)) -> ApiHandler<'a> {
+        ApiHandler {
+            handler: handler,
+            db: self.db.as_ref(),
+        }
+    }
+}
+
+
+pub struct ApiHandler<'a> {
+    handler: fn(&Database, Context, Response),
+    db: &'a Database,
+}
+
+impl<'a> Handler for ApiHandler<'a> {
+    fn handle_request(&self, context: Context, response: Response) {
+        let handler = self.handler;
+        handler(self.db, context, response);
+    }
+}

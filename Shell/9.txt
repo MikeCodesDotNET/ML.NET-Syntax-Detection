@@ -1,0 +1,2 @@
+$ az group create --name MyResourceGroup --location eastus
+$ az aks create -g MyResourceGroup -n MyAKS --location eastus --node-vm-size Standard_DS2_v2 --node-count 1 --disable-rbac --generate-ssh-keys

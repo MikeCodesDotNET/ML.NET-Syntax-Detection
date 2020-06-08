@@ -1,0 +1,9 @@
+---
+- name: Install Cowsay
+  hosts: localhost
+  sudo: yes
+  connection: local
+
+  tasks:
+  - name: install cowsay
+    apt: name=cowsay

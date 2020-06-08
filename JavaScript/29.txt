@@ -1,0 +1,12 @@
+function reverseString(str) {
+  let left = 0;
+  let right = str.length - 1;
+  while (left < right) {
+    const tempStart = str[left];
+    const tempEnd = str[right];
+    str[left] = tempEnd;
+    str[right] = tempStart;
+    left++;
+    right--;
+  }
+}

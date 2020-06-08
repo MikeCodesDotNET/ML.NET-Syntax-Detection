@@ -1,0 +1,38 @@
+require 'test_helper'
+
+class OneTimeSwitchTest < ActiveSupport::TestCase
+  test '::switch yields the block, returns its value and turns the switch on if the switch is off' do
+    block_yielded = false
+
+    return_value = OneTimeSwitch.switch('test_switch') do
+      block_yielded = true
+      'the return value'
+    end
+
+    assert(block_yielded)
+    assert_equal('the return value', return_value)
+    assert(OneTimeSwitch.on?('test_switch'))
+  end
+
+  test '::switch does not yield the block and returns nil if the switch is on' do
+    OneTimeSwitch.create!(name: 'test_switch')
+    block_yielded = false
+
+    return_value = OneTimeSwitch.switch('test_switch') do
+      block_yielded = true
+    end
+
+    assert_not(block_yielded)
+    assert_nil(return_value)
+  end
+
+  test '::switch reraises and turns the switch on if the block fails' do
+    assert_raise(RuntimeError) do
+      OneTimeSwitch.switch('test_switch') do
+        fail
+      end
+    end
+
+    assert_not(OneTimeSwitch.on?('test_switch'))
+  end
+end

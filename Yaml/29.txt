@@ -1,0 +1,9 @@
+###### group_vars/all/packages.yml
+---
+packages:
+  - name: default
+    package_list:
+      - htop
+      - less
+      - tcptrack
+ 

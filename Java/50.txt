@@ -1,0 +1,25 @@
+public class Bank implements IBank {
+
+    private int total;
+
+    public Bank(int total) {
+        this.total = total;
+    }
+
+    @Override
+    public int save(int count) {
+        total += count;
+        return total;
+    }
+
+    @Override
+    public int get(int count) {
+        total -= count;
+        return total;
+    }
+
+    @Override
+    public int check() {
+        return total;
+    }
+}

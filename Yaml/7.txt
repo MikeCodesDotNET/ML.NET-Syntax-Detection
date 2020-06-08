@@ -1,0 +1,53 @@
+version: '2'
+services:
+  mongodb:
+    build:
+      dockerfile: ./Dockerfile-centos
+      context: ./mongodb
+    image: mongodb:centos
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - /srv/chn/db/centos:/var/lib/mongo:z
+  redis:
+    build:
+      dockerfile: ./Dockerfile-centos
+      context: ./redis
+    image: redis:centos
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - /srv/chn/redis/centos:/var/lib/redis:z
+  hpfeeds:
+    build:
+      dockerfile: ./Dockerfile-centos
+      context: ./hpfeeds
+    image: hpfeeds:centos
+    links:
+      - mongodb:mongodb
+    ports:
+      - "10000:10000"
+  chnserver:
+    build:
+      dockerfile: ./Dockerfile-centos
+      context: ./chnserver
+    image: chnserver:centos
+    links:
+      - mongodb:mongodb
+      - redis:redis
+      - hpfeeds:hpfeeds
+    ports:
+      - "80:80"
+      - "127.0.0.1:443:443"
+  cowrie:
+    build:
+      context: ./cowrie
+      dockerfile: Dockerfile-centos
+    image: cowrie:centos
+    volumes:
+      - ./devel.sysconfig:/etc/default/cowrie:z
+    links:
+      - chnserver:chnserver
+      - hpfeeds:hpfeeds
+    ports:
+      - "2222:2222"

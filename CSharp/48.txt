@@ -1,0 +1,7 @@
+public interface ICache<T> where T: class
+    {
+        Task<T> GetCached(string Key);
+        Task SetCache(string Key,T entity);
+        Task RefreshCache(string Key);
+
+    }

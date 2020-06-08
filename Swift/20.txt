@@ -1,0 +1,19 @@
+class LabelViewCell : UICollectionViewCell
+{
+  private weak var labelView:LabelView!
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    self.backgroundColor = UIColor.clearColor()
+    self.contentView.backgroundColor = UIColor.clearColor()
+    let label = LabelView(frame: self.bounds)
+    self.contentView.addSubview(label)
+    fillSuperview(label)
+    self.labelView = label
+  }
+  
+  required init(coder aDecoder:NSCoder) {
+    super.init(coder:aDecoder)
+    assertionFailure("unimplemented NSCoding initializer")
+  }
+}

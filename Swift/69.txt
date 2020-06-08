@@ -1,0 +1,115 @@
+class TicTacToe {
+    let wins = "win!!"
+    
+    func start(sequence: String) -> String {
+        let charSize = count(sequence)
+        
+        let testGameSize = Double(charSize)%sqrt(Double(charSize))
+        if testGameSize != 0 {
+            return "The size of the sequence needs to be a perfect square bro!!!"
+        }else {
+            return gameStatus(sequence)
+        }
+    }
+    
+    func gameStatus(sequence: String) -> String {
+        // convert string into a char array
+        let charArray = Array(sequence)
+        // Determine the divisor inorder to create an algorithm that doesn't rely on
+        // an explicilty defined data structure.
+        let divisor = Int(sqrt(Double(charArray.count)))
+        
+        for var i=0; i<charArray.count; ++i {
+            let char = charArray[i]
+            
+            if i < divisor {
+                // First check first row, all columns and all diagonals
+                if i == 0 {
+                    // Top row, first column, first diagonal
+                    if rowTest(charArray, index: i, divisor: divisor) {
+                        return "\(char) \(wins)"
+                    }
+                    
+                    if columnTest(charArray, index: i, divisor: divisor) {
+                        return "\(char) \(wins)"
+                    }
+                    
+                    if diagonalTest(charArray, index: i, conditionNum: charArray.count, increment: divisor+1) {
+                        return "\(char) \(wins)"
+                    }
+                    
+                }else if i == divisor-1 {
+                    // Last column, second diagonal
+                    if columnTest(charArray, index: i, divisor: divisor) {
+                        return "\(char) \(wins)"
+                    }
+                    
+                    // I don't like how I came up with the conditionNum, but I couldn't think of anything else
+                    // If I don't subtract 2 from the array count it will check the last position of the char
+                    // array.  This is not an issue when checking the other diagonal.
+                    if diagonalTest(charArray, index: i, conditionNum: charArray.count-2, increment: divisor-1) {
+                        return "\(char) \(wins)"
+                    }
+                    
+                }else {
+                    // All columns other than the first and last
+                    if columnTest(charArray, index: i, divisor: divisor) {
+                        return "\(char) \(wins)"
+                    }
+                }
+            } else if ((i%divisor) == 0) {
+                // All remaining rows
+                if rowTest(charArray, index: i, divisor: divisor) {
+                    return "\(char) \(wins)"
+                }
+            }
+        }
+        
+        if sequence.rangeOfString("-") != nil {
+            return "Game still in progress"
+        }else {
+            return "Tie Game"
+        }
+    }
+    
+    // Test the entire row based on the divisor and index position.  Only call this method
+    // when you are at the first column of a row.
+    func rowTest(charArray: Array<Character>, index: Int, divisor: Int) -> Bool {
+        let char = charArray[index]
+        var match = true
+        for var j=index; j<divisor+index && match; ++j {
+            if char == "-" || char != charArray[j] {
+                match = false
+            }
+        }
+        return match
+    }
+    
+    // Test the entire column based on the divisor and index position.  Only call this method
+    // when you are at the first row of a column.
+    func columnTest(charArray: Array<Character>, index: Int, divisor: Int) -> Bool {
+        let char = charArray[index]
+        var match = true
+        for var j=index; j<charArray.count && match; j += divisor {
+            if char == "-" || char != charArray[j] {
+                match = false
+            }
+        }
+        return match
+    }
+    
+    // Test diagonal line. Only called when at first column of first row, or last column of first row.
+    // conditionNum is used to ensure that we don't loop through the last position of the charArray when
+    // we are testing the diagonal from the last column first row
+    // increment is different depending on which diagonal we are testing.
+    func diagonalTest(charArray: Array<Character>, index: Int, conditionNum: Int, increment: Int) -> Bool {
+        let char = charArray[index]
+        var match = true
+        for var j=index; j<=conditionNum && match; j += increment  {
+            if char == "-" || char != charArray[j] {
+                match = false
+            }
+        }
+        return match
+    }
+}

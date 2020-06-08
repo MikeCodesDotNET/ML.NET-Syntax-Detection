@@ -1,0 +1,9 @@
+package main
+
+import "fmt"
+
+func main() {
+	t3s := []string{"Krillin", "Gohan", "Dende"}
+	t4s := append(t3s, "Vegeta")
+	fmt.Println(t3s, t4s)
+}

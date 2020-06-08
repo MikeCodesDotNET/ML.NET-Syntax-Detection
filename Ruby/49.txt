@@ -1,0 +1,10 @@
+class CreateOneTimeSwitches < ActiveRecord::Migration
+  def change
+    create_table :one_time_switches do |t|
+      t.string :name, null: false
+      t.timestamp :created_at, null: false
+
+      t.index :name, unique: true
+    end
+  end
+end

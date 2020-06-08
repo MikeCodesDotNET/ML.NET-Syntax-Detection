@@ -1,0 +1,74 @@
+################################### Cluster ###################################
+
+cluster.name: metrics-datastore
+
+#################################### Node #####################################
+
+node.name: metrics-datastore-1-es-tune
+node.max_local_storage_nodes: 1
+
+index.mapper.dynamic: true
+action.auto_create_index: true
+action.disable_delete_all_indices: true
+
+#################################### Paths ####################################
+
+path.conf: /data/elasticsearch/conf
+path.data:
+  - /data/elasticsearch/data
+  - /logs/elasticsearch/data
+path.logs: /logs/elasticsearch
+
+#################################### Plugin ###################################
+
+
+################################### Memory ####################################
+bootstrap.mlockall: true
+############################## Network And HTTP ###############################
+http.port: 9200
+################################### Gateway ###################################
+gateway.expected_nodes: 3
+############################# Recovery Throttling #############################
+gateway.recover_after_nodes: 3
+gateway.recover_after_time: 5m
+################################## Discovery ##################################
+discovery.zen.minimum_master_nodes: 3
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: W.W.W.W, X.X.X.X, Y.Y.Y.Y, Z.Z.Z.Z
+discovery.zen.fd.ping_interval: 20s
+discovery.zen.fd.ping_timeout: 60s
+cloud.node.auto_attributes: true
+cloud.aws.access_key: XXX
+cloud.aws.secret_key: XXX
+cloud.aws.region: us-west-1
+################################## Slow Log ###################################
+
+################################## GC Logging #################################
+
+
+################################## JMX ########################################
+
+
+################################## Custom #####################################
+
+http.cors.enabled: false
+index.codec.bloom.load: false
+index.compound_format: false
+index.compound_on_flush: false
+index.merge.policy.max_merge_at_once: 4
+index.merge.policy.max_merge_at_once_explicit: 4
+index.merge.policy.max_merged_segment: 5gb
+index.merge.policy.segments_per_tier: 4
+index.merge.policy.type: tiered
+index.merge.scheduler.max_thread_count: 4
+index.merge.scheduler.type: concurrent
+index.refresh_interval: 20s
+index.translog.flush_threshold_ops: 50000
+index.translog.flush_threshold_size: 2gb
+index.translog.interval: 20s
+index.warmer.enabled: false
+indices.fielddata.cache.size: 10%
+indices.memory.index_buffer_size: 50%
+indices.store.throttle.type: none
+threadpool.bulk.queue_size: 100
+indices.ttl.interval: 120s

@@ -1,0 +1,26 @@
+$.ajax({
+    url : 'someurl',
+    type : 'POST',
+    data :  ....,   
+    tryCount : 0,
+    retryLimit : 3,
+    success : function(json) {
+        //do something
+    },
+    error : function(xhr, textStatus, errorThrown ) {
+        if (textStatus == 'timeout') {
+            this.tryCount++;
+            if (this.tryCount <= this.retryLimit) {
+                //try again
+                $.ajax(this);
+                return;
+            }            
+            return;
+        }
+        if (xhr.status == 500) {
+            //handle error
+        } else {
+            //handle error
+        }
+    }
+});

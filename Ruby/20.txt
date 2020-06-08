@@ -1,0 +1,72 @@
+require 'pp'
+require 'typhoeus'
+
+ENV['QUORUM']      ||= '3'
+ENV['CONCURRENCY'] ||= '2'
+ENV['TIMEOUT']     ||= '0.001'
+ENV['VERBOSE']     ||= '0'
+
+urls = {
+    'www.example.com/1'  => {},
+    'www.example.com/2'  => {},
+    'www.example.com/3'  => {},
+    'www.example.com/4'  => {},
+    'www.example.com/5'  => {},
+    'www.example.com/6'  => {},
+    'www.example.com/7 ' => {},
+    'www.example.com/8'  => {},
+    'www.example.com/9'  => {},
+    'www.example.com/10' => {},
+    'www.example.com/11' => {},
+    'www.example.com/12' => {},
+    'www.example.com/13' => {},
+    'www.example.com/14' => {},
+    'www.example.com/15' => {},
+}
+
+valid_responses = 0
+queued = urls.keys
+class Typhoeus::RequestExtended < Typhoeus::Request
+
+    # Returns options, which includes default parameters.
+    #
+    # @return [ Integer ]
+    attr_writer :request_count
+
+    def request_count
+        @request_count || 0
+    end
+end
+
+hydra = Typhoeus::Hydra.new(max_concurrency: ENV['CONCURRENCY'].to_i)
+urls.keys.each do |url|
+    request = Typhoeus::Request.new(url,
+        followlocation: true,
+        timeout: ENV['TIMEOUT'].to_f,
+        verbose: false
+    )
+    request.on_complete do |r|
+#        valid_responses += 1 if r.request.response.options[:return_code] == :ok
+        urls[ r.request.base_url ] = r
+
+        puts "Response: #{r.request.base_url} - #{r.request.response.options[:return_code]}"
+
+        if valid_responses.to_i >= ENV['QUORUM'].to_i
+            puts "Quorum of servers met #{valid_responses}/#{ENV['QUORUM'].to_i}"
+            hydra.abort()
+            hydra.queued_requests.clear()
+        end
+
+        if r.request.response.options[:return_code] == :operation_timedout
+            requeued_request = Typhoeus::RequestExtended.new(r.request.base_url.to_s, r.request.options.dup)
+            requeued_request.request_count +=1
+            hydra.queue(requeued_request)
+            
+        end
+    end
+
+    hydra.queue(request)
+end
+hydra.run
+
+puts "Complete"

@@ -1,0 +1,8 @@
+var datePicker:UIDatePicker = UIDatePicker()
+datePicker.datePickerMode = UIDatePickerMode.Date
+sender.inputView = datePicker
+
+let dateComponents = NSDateComponents()
+dateComponents.year = -18
+let eighteenYears = NSCalendar.currentCalendar().dateByAddingComponents(dateComponents, toDate: NSDate(), options: nil)
+datePicker.maximumDate = eighteenYears

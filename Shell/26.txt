@@ -1,0 +1,8 @@
+#!/bin/sh
+# Install Oracle XE on CentOS 7
+yum install -y libaio bc net-tools
+rpm -i oracle-xe-11.2.0-1.0.x86_64.rpm
+/etc/init.d/oracle-xe configure
+firewall-cmd --add-port 1521/tcp --permanent
+firewall-cmd --reload
+echo "ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe" > /etc/profile.d/oracle-xe.sh

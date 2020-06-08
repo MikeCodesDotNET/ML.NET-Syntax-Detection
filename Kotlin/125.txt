@@ -1,0 +1,5 @@
+val graphqlSchema = SchemaParser.newParser()
+        .file("schema.graphqls")
+        .resolvers(Query()) // we can add any number of resolvers here
+        .build()
+        .makeExecutableSchema()

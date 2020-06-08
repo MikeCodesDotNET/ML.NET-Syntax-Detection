@@ -1,0 +1,16 @@
+Encoding.default_external = 'UTF-8'
+Encoding.default_internal = 'UTF-8'
+
+require 'poppler'
+
+path = ARGV.shift
+
+unless path
+  $stderr.puts 'Specify PDF file'
+  abort
+end
+
+pdf = Poppler::Document.new(File.read(path))
+0.upto(pdf.size - 1) do |i|
+  puts pdf[i].get_text
+end

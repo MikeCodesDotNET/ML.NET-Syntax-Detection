@@ -1,0 +1,6 @@
+services.AddDistributedSqlServerCache(options =>
+            {
+                options.ConnectionString = "Database-Connection";
+                options.SchemaName = "dbo";
+                options.TableName = "TblCache";
+            });

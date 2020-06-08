@@ -1,0 +1,8 @@
+test:
+  override:
+    - bundle exec rake knapsack:rspec:
+        parallel: true
+    - bundle exec rake knapsack:cucumber_record_failing:
+        parallel: true
+    - bundle exec rake knapsack:cucumber_rerun:
+        parallel: true

@@ -1,0 +1,70 @@
+package main
+
+import (
+	"log"
+	"net/url"
+	"os"
+
+	"github.com/vmware/govmomi"
+	"github.com/vmware/govmomi/find"
+	"github.com/vmware/govmomi/object"
+	"golang.org/x/net/context"
+)
+
+func main() {
+	vs := os.Getenv("VCENTER_SERVER")
+	user := os.Getenv("VCENTER_USER")
+	password := os.Getenv("VCENTER_PASSWORD")
+	vdc := os.Getenv("VCENTER_DC")
+	cluster := os.Getenv("VCENTER_HOSTCLUSTER")
+
+	u, err := url.Parse("https://" + vs + "/sdk")
+	if err != nil {
+		log.Printf("[ERROR] Error parse url: %s\n", err)
+	}
+
+	u.User = url.UserPassword(user, password)
+
+	client, err := govmomi.NewClient(context.TODO(), u, true)
+	if err != nil {
+		log.Printf("[ERROR] Error setting up client: %s\n", err)
+	}
+
+	log.Printf("[INFO] VMWare vSphere Client configured for URL: %v", client)
+
+	finder := find.NewFinder(client.Client, true)
+	dc, err := getDatacenter(finder, vdc)
+	if err != nil {
+		log.Printf("[ERROR] Error setting up client: %s\n", err)
+	}
+	log.Printf("[DEBUG] %#v\n", dc)
+	log.Printf("[DEBUG] %#v\n", finder)
+
+	finder = finder.SetDatacenter(dc)
+
+	dcFolders, err := dc.Folders(context.TODO())
+	log.Printf("[DEBUG] %#v\n", dcFolders)
+
+	rp, err := finder.ResourcePool(context.TODO(), "*"+cluster+"/Resources")
+	if err != nil {
+		log.Printf("[ERROR] Error setting up client: %s", err)
+	}
+	log.Printf("[DEBUG] %#v\n", rp)
+}
+
+// getDatacenter gets Datacenter object.
+func getDatacenter(f *find.Finder, name string) (*object.Datacenter, error) {
+	if name != "" {
+		dc, err := f.Datacenter(context.TODO(), name)
+		if err != nil {
+			return nil, err
+		}
+		return dc, nil
+	} else {
+		dc, err := f.DefaultDatacenter(context.TODO())
+		if err != nil {
+			return nil, err
+		}
+		return dc, nil
+	}
+}

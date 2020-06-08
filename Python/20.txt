@@ -1,0 +1,24 @@
+def rand_sampler(self, n, prob, u):
+        """
+        Generates a random sample of k numbers according to the discrete probability distribution
+        n: sample size
+        pro: probability distribution
+        """
+        cdf = []
+        np.random.seed(100)
+        for k in range(0, len(prob)):
+            cdf.append(sum([prob[k] for k in range(0, k + 1)]))
+        # u = np.random.sample(n)
+        rds = []
+
+        for j in range(0, len(cdf)):
+            if j == 0:
+                
+                tmp = np.where(u <= cdf[j])[0]
+                rds += np.repeat(j, len(tmp)).tolist()
+            else:
+                print j
+                tmp = np.where(np.logical_and(u <= cdf[j], u > cdf[j - 1]))[0]
+                rds += np.repeat(j, len(tmp)).tolist()
+
+        return rds

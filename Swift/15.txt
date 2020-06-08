@@ -1,0 +1,25 @@
+func convertDictionaryToQueryString(bookInfo:[String:String]) -> String {
+        var queryString = ""
+        let sortedBookInfo = bookInfo.keys.array.sorted(<)
+        for fieldName in sortedBookInfo {
+            queryString += "\(fieldName)=\(bookInfo[fieldName]!)&"
+        }
+        
+        let timestamp = NSDate()
+        queryString += "timestamp=\(timestamp.timeIntervalSince1970)"
+        
+        let signature = queryString + "1234MySuperSecretKey4321"
+        
+        // Next part requires a bridging header with #import <CommonCrypto/CommonCrypto.h>
+        // Adapted from http://stackoverflow.com/questions/25761344/how-to-crypt-string-to-sha1-with-swift
+        let data = signature.dataUsingEncoding(NSUTF8StringEncoding)!
+        var digest = [UInt8](count:Int(CC_SHA1_DIGEST_LENGTH), repeatedValue: 0)
+        CC_SHA1(data.bytes, CC_LONG(data.length), &digest)
+        let hexBytes = "".join(map(digest) { String(format: "%02hhx", $0) })
+        
+        queryString += ("&signature=\(hexBytes)")
+        
+        queryString = queryString.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
+        
+        return queryString
+    }

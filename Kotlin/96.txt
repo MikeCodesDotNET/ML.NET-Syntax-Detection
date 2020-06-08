@@ -1,0 +1,16 @@
+class RetrofitClient {
+        fun getClient(): ApiService {
+            val httpClient = OkHttpClient.Builder()
+
+            val builder = Retrofit.Builder()
+                    .baseUrl("http://10.0.2.2:5000/")
+                    .addConverterFactory(ScalarsConverterFactory.create())
+                    .addConverterFactory(GsonConverterFactory.create())
+
+            val retrofit = builder
+                    .client(httpClient.build())
+                    .build()
+
+            return retrofit.create(ApiService::class.java)
+        }
+    }

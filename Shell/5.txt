@@ -1,0 +1,3 @@
+$ StorageAccountKey=$(az storage account keys list \
+  --account-name $StorageAccountName \
+  | jq -r '.[0] | .value')

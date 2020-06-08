@@ -1,0 +1,83 @@
+var allsongs = []
+var outText = "";
+var songsToText = function(style, csv, likedonly){
+  if (style === undefined){
+    console.log("style is undefined.");
+    return;
+  }
+  var csv = csv || false; // defaults to false
+  var likedonly = likedonly || false; // defaults to false
+  if (likedonly) {
+    console.log("Only selecting liked songs");
+  }
+  if (style == "all" && !csv){
+    console.log("Duration, ratings, and playcount will only be exported with the CSV flag");
+  }
+  outText = "";
+  if (csv) {
+    if (style == "all") {
+      //extra line
+      outText = "artist,album,title,duration,playcount,rating,rating_interpretation" + "\n";
+    } else if (style == "artist") {
+    } else if (style == "artistsong") {
+    } else if (style == "artistalbum") {
+    } else if (style == "artistalbumsong") {
+    } else {
+      console.log("style not defined");
+    }
+  }
+  var numEntries = 0;
+  var seen = {};
+  for (var i = 0; i < allsongs.length; i++) {
+    var curr = "";
+    var properTitle = allsongs[i].title.replace(/[\n\r!]/g, '').trim();
+    if (!likedonly || (likedonly && allsongs[i].rating >= 5)){
+      if (csv) {
+        if (style == "all") {
+          //extra line
+          curr += '"' + allsongs[i].artist.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].album.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + properTitle.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].duration.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].playcount.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].rating.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].rating_interpretation.replace(/"/g, '""').trim() + '"';
+        } else if (style == "artist") {
+          curr += '"' + allsongs[i].artist.replace(/"/g, '""').trim() + '"';
+        } else if (style == "artistsong") {
+          curr += '"' + allsongs[i].artist.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + properTitle.replace(/"/g, '""').trim() + '"';
+        } else if (style == "artistalbum") {
+          curr += '"' + allsongs[i].artist.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].album.replace(/"/g, '""').trim() + '"';
+        } else if (style == "artistalbumsong") {
+          curr += '"' + allsongs[i].artist.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + allsongs[i].album.replace(/"/g, '""').trim() + '"' + ",";
+          curr += '"' + properTitle.replace(/"/g, '""').trim() + '"';
+        } else {
+          console.log("style not defined");
+        }
+      } else {
+        if (style == "all"){
+          curr = allsongs[i].artist + " - " + allsongs[i].album + " - " + properTitle + " [[playcount: " + allsongs[i].playcount + ", rating: " + allsongs[i].rating_interpretation + "]]" ;
+        } else if (style == "artist"){
+          curr = allsongs[i].artist;
+        } else if (style == "artistalbum"){
+          curr = allsongs[i].artist + " - " + allsongs[i].album;
+        } else if (style == "artistsong"){
+          curr = allsongs[i].artist + " - " + properTitle;
+        } else if (style == "artistalbumsong"){
+          curr = allsongs[i].artist + " - " + allsongs[i].album + " - " + properTitle;
+        } else {
+          console.log("style not defined");
+        }
+      }
+      if (!seen.hasOwnProperty(curr)){ // hashset
+        outText = outText + curr + "\n";
+        numEntries++;
+        seen[curr] = true;
+      } else {
+        //console.log("Skipping (duplicate) " + curr);
+      }
+    }
+  }

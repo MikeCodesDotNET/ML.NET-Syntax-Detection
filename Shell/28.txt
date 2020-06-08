@@ -1,0 +1,29 @@
+mkdir ubuntu-postgis
+cd ubuntu-postgis
+vagrant init ondrejsika/ubuntu-postgis
+vagrant up
+vagrant ssh
+
+sudo su
+
+# Edit postgresql.conf to change listen address to '*':
+sed -i "s/#listen_addresses = 'localhost'/listen_addresses = '*'/" "/etc/postgresql/9.1/main/postgresql.conf"
+
+# Append to pg_hba.conf to add password auth:
+echo "host all all all md5" >> "/etc/postgresql/9.1/main/pg_hba.conf"
+
+# Explicitly set default client_encoding
+echo "client_encoding = utf8" >> "/etc/postgresql/9.1/main/postgresql.conf"
+
+sudo -u postgres psql
+\password postgres
+# type new password...
+\q
+
+service postgresql restart
+
+# then connect to localhost:5432 with postgres/postgres
+
+# Resources
+# http://stackoverflow.com/questions/12720967/is-possible-to-check-or-change-postgresql-user-password
+# https://github.com/jackdb/pg-app-dev-vm/blob/master/Vagrant-setup/bootstrap.sh

@@ -1,0 +1,112 @@
+import * as fs from  "fs";
+import * as ts from "typescript";
+import * as _ from "lodash";
+
+export interface Change {
+    start: number;
+    length: number;
+    text: string;
+}
+export interface ChangeList {
+    changes: Change[];
+}
+export interface AddPropertyParam {
+    key: string;
+    value: string;
+    initializer: ts.ObjectLiteralExpression;
+    source_file: ts.SourceFile
+}
+
+export function get_source_file(settings_path: string): Promise<ts.SourceFile> {
+    return new Promise((_resolve: (file: ts.SourceFile) => void, _reject: () => void) => {
+        fs.readFile(settings_path, (error, data) => {
+            if (error) throw error;
+            const file = ts.createSourceFile("settings.ts", data.toString(), ts.ScriptTarget.ES5);
+            _resolve(file);
+        });
+    });
+}
+export function get_declarations(file: ts.SourceFile, declaration_name: string): ts.VariableDeclaration {
+    const variable_declarations = file.statements
+        .filter((statement: ts.Statement) => statement.kind == ts.SyntaxKind.VariableStatement)
+        .find((statement: ts.VariableStatement) => {
+            return statement.declarationList.declarations
+                .filter((declaration: ts.VariableDeclaration) => declaration.kind == ts.SyntaxKind.VariableDeclaration)
+                .some((declaration: ts.VariableDeclaration) => {
+                    return (declaration.name as ts.Identifier).text == declaration_name
+                })
+        }) as ts.VariableStatement;
+    return variable_declarations.declarationList.declarations
+        .filter((declaration: ts.VariableDeclaration) => declaration.kind == ts.SyntaxKind.VariableDeclaration)
+        .find((declaration: ts.VariableDeclaration) => {
+            return (declaration.name as ts.Identifier).text == declaration_name
+        }) as ts.VariableDeclaration;
+}
+export function get_property(variable: ts.VariableDeclaration, property_name: string): ts.PropertyAssignment {
+    return (variable.initializer as ts.ObjectLiteralExpression).properties.find((property: ts.PropertyAssignment) => (property.name as ts.Identifier).text == property_name) as ts.PropertyAssignment;
+}
+export function get_last_property(initializer: ts.ObjectLiteralExpression): ts.PropertyAssignment {
+    return initializer.properties[initializer.properties.length - 1] as ts.PropertyAssignment;
+}
+export function check_if_property_exists(initializer: ts.ObjectLiteralExpression, new_app: string) {
+    if (initializer.properties.some((property: ts.PropertyAssignment) => (property.name as ts.Identifier).text == new_app)) {
+        throw `App "${new_app}" already exists`;
+    }
+}
+export function get_last_import(file: ts.SourceFile): ts.ImportDeclaration {
+    const import_declarations = file.statements.filter((statement: ts.Statement) => statement.kind == ts.SyntaxKind.ImportDeclaration);
+    return import_declarations[import_declarations.length - 1] as ts.ImportDeclaration;
+}
+export function add_property(param: AddPropertyParam): Promise<Change> {
+    return new Promise((_resolve: (change: Change) => void, _reject: () => void) => {
+        check_if_property_exists(param.initializer, param.key);
+        const last_property = get_last_property(param.initializer);
+        let settings_property_text = `\n         "${param.key}":${param.value}`;
+
+        let change = null;
+        if (last_property) {
+            settings_property_text = _.endsWith((last_property.name as ts.Identifier).text, ",")
+                ? settings_property_text : `,${settings_property_text}`;
+            change = {
+                start: last_property.end,
+                text: settings_property_text,
+                length: settings_property_text.length,
+            };
+        } else {
+            change = {
+                start: param.initializer.end - 1,
+                text: settings_property_text,
+                length: settings_property_text.length,
+            };
+        }
+        _resolve(change);
+        return change;
+    });
+}
+export function add_import(file: ts.SourceFile, import_name: string, import_path: string): Promise<Change> {
+    const last_import = get_last_import(file);
+    return new Promise((_resolve: (change: Change) => void, _reject: () => void) => {
+        let text = `\nimport ${import_name} from "${import_path}";`;
+        let change = {
+            start: last_import.end,
+            text: text,
+            length: text.length,
+        };
+        _resolve(change);
+        return change;
+    })
+}
+
+export function apply_changes(changes: ChangeList, source_file: ts.SourceFile): string {
+    let l: string[] = [];
+    let last_end = 0;
+    changes.changes
+        .sort((a, b) => a.start - b.start)
+        .forEach(change => {
+            l.push(source_file.text.substring(last_end, change.start));
+            l.push(change.text);
+            last_end = change.start;
+        });
+    l.push(source_file.text.substring(last_end));
+    return l.join('');
+}

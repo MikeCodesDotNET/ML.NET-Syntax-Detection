@@ -1,0 +1,17 @@
+require 'spec_helper'
+
+describe User do
+  context 'validations' do
+    it { should ensure_length_of(:name).is_at_least(10).is_at_most(100) }
+    it { should validate_format_of(:email).with('user@email.com') }
+    it { should validate_format_of(:email).not_with('user@email') }
+    it { should ensure_inclusion_of(:status).in_array(['active', 'inactive', 'suspended']) }
+  end
+
+  context 'mass assignment' do
+    it { should allow_mass_assignment_of(:name) }
+    it { should allow_mass_assignment_of(:email) }
+    it { should_not allow_mass_assignment_of(:status) }
+    it { should allow_mass_assignment_of(:status).as(:admin) }
+  end
+end

@@ -1,0 +1,3 @@
+func flatMapLatest<E, R>(selector: E -> Observable<R>) -> Observable<E> -> Observable<R> {
+    return { $0 >- map(selector) >- switchLatest }
+}

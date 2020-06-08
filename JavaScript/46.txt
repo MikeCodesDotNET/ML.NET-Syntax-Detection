@@ -1,0 +1,26 @@
+glob('content/**/*(*.png|*.jpg)', function (er, images) {
+  if (er) {
+    throw new Error(er)
+  }
+  if (images) {
+    registrar(images)
+  }
+})
+
+glob('static/**/*(*.png|*.jpg)', function (er, images) {
+  if (er) {
+    throw new Error(er)
+  }
+  if (images) {
+    registrar(images)
+  }
+})
+
+glob('src/**/*(*.png|*.jpg)', function (er, images) {
+  if (er) {
+    throw new Error(er)
+  }
+  if (images) {
+    registrar(images)
+  }
+})

@@ -1,0 +1,28 @@
+public async ValueTask<IActionResult> GetMember(string idno)
+        {
+            IEnumerable<Members> memberDtos= null;
+            try
+            {
+                memberDtos = await this._distcache.GetCached(idno);
+                if(memberDtos== null)
+                {
+                    //get members from DB
+                    if(memberDtos!= null)
+                    {
+                        await this._distcache.SetCache(idno, memberDtos.ToList());
+                    }
+
+                }
+                else
+                {
+                    await this._distcache.RefreshCache(idno);
+                }
+
+                return Ok(memberDtos);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }

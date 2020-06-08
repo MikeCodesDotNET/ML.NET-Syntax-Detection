@@ -1,0 +1,46 @@
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: 0px;
+        left: 0px;
+      }
+      #core_toolbar {
+        color: rgb(255, 255, 255);
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        width: 100%;
+        background-color: rgb(79, 125, 201);
+      }
+      #section {
+        float: left;
+        background-color: rgb(79, 51, 20);
+        height: 100px;
+        width:100%;
+      }
+    </style>
+    <core-toolbar id="core_toolbar">
+      <core-icon-button icon="menu" id="core_icon_button"></core-icon-button>
+      <div id="div">Header</div>
+    </core-toolbar>
+    <section id="section"></section>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

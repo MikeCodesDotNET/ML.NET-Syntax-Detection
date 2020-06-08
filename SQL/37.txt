@@ -1,0 +1,2 @@
+SELECT DISTINCT JobTitle, Gender
+FROM   HumanResources.Employee

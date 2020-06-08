@@ -1,0 +1,91 @@
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return tokens.count
+  }
+  
+  // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("LabelViewCellIdentifier", forIndexPath: indexPath) as! LabelViewCell
+    cell.labelView.label.text = self.tokens[indexPath.row]
+    cell.labelView.labelBackgroundColor = pillBackgroundColor
+    cell.labelView.label.font = UIFont.systemFontOfSize(self.pillTextFontSize)
+    cell.labelView.label.textColor = self.pillTextColor
+    return cell
+  }
+}
+
+class CenteredFlowLayout : UICollectionViewFlowLayout
+{
+  override func layoutAttributesForItemAtIndexPath(indexPath: NSIndexPath) -> UICollectionViewLayoutAttributes! {
+    let modifiedLayoutAttributes = self.layoutAttributesForElementsInRect(CGRectInfinite)
+    // TODO: re-implement for better perf
+    if let desiredLayAttr = modifiedLayoutAttributes?.filter({ indexPath.isEqual($0.indexPath) }).first as? UICollectionViewLayoutAttributes {
+      return desiredLayAttr
+    }
+    else
+    {
+      NSLog("error")
+      return super.layoutAttributesForItemAtIndexPath(indexPath)
+    }
+  }
+  
+  func modifiedLayoutAttribuets(attributes:[UICollectionViewLayoutAttributes]) -> [UICollectionViewLayoutAttributes]
+  {
+    return attributes
+  }
+  
+  override func layoutAttributesForElementsInRect(rect: CGRect) -> [AnyObject]?
+  {
+    typealias Row = [UICollectionViewLayoutAttributes]
+    let superAttributes = super.layoutAttributesForElementsInRect(rect) as! [UICollectionViewLayoutAttributes]
+    
+    // partition the objs into rows
+    func inRow(lay1:UICollectionViewLayoutAttributes, row:Row) -> Bool {
+      let sameRowEpsilon:CGFloat = 1
+      if let lay2 = row.first {
+        let absDistance  = fabs(CGRectGetMidY(lay1.frame) - CGRectGetMidY(lay2.frame))
+        return (absDistance < sameRowEpsilon)
+      }
+      return false
+    }
+    
+    func consumeItem(var result:[Row], item:UICollectionViewLayoutAttributes) ->  [Row]
+    {
+      for (index,row) in enumerate(result) {
+        if inRow(item,row) {
+          result[index].append(item)
+          return result
+        }
+      }
+      // assert: did not match any existing rows
+      result.append([item])
+      return result
+    }
+    
+    let rowCollections = reduce(superAttributes, [], consumeItem)
+    
+    // update the layout one row at a time
+    
+    let collectionViewWidth = CGRectGetWidth(self.collectionView!.bounds)
+    for items in rowCollections {
+      let itemsInRow = items.count
+      let aggregateInterItemSpacing = self.minimumInteritemSpacing * CGFloat(itemsInRow - 1)
+      let aggregateItemWidth = items.map({CGRectGetWidth($0.frame)}).reduce(0, combine: +)
+      let alignmentWidth = aggregateItemWidth + aggregateInterItemSpacing
+      let alignmentXOffset = (collectionViewWidth - alignmentWidth) / 2.0
+      
+      var previousFrame = CGRectZero
+      for item in items {
+        var itemFrame = item.frame
+        if CGRectEqualToRect(previousFrame, CGRectZero) {
+          itemFrame.origin.x = alignmentXOffset
+        } else {
+          itemFrame.origin.x = CGRectGetMaxX(previousFrame) + self.minimumInteritemSpacing
+        }
+        item.frame = itemFrame
+        previousFrame = itemFrame
+      }
+    }
+    
+    return superAttributes
+  }
+}

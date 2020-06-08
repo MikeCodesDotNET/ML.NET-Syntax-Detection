@@ -1,0 +1,7 @@
+var chars:[Int8] = Array(count:128, repeatedValue:0)
+
+let error = pthread_getname_np(pthread, &chars, chars.count)
+assert(error == 0, "Could not retrieve thread name")
+
+let characters = chars.filter { $0 != 0 }.map { UInt8($0) }.map(UnicodeScalar.init).map(Character.init)
+let name = String(characters)

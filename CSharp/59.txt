@@ -1,0 +1,25 @@
+private readonly InstagramApi _api;
+private readonly ILogger<IndexModel> _logger;
+
+public IndexModel(InstagramApi api, ILogger<IndexModel> logger)
+{
+    _api = api;
+    _logger = logger;
+}
+
+// code is passed by Instagram, the state is whatever you passed in _api.Authorize sent back to you
+public async Task<IActionResult> OnGetAsync(string code, string state)
+{
+    // this returns an access token that will last for 1 hour - short-lived access token
+    var response = await _api.AuthenticateAsync(code, state).ConfigureAwait(false);
+
+    // this returns an access token that will last for 60 days - long-lived access token
+    // var response = await _api.AuthenticateAsync(code, state, true).ConfigureAwait(false);
+
+    // store and log
+    var user = response.User;
+    var token = response.AccessToken;
+
+    _logger.LogInformation("UserId: {userid} Username: {username} Media Count: {count} Account Type: {type}", user.Id, user.Username, user.MediaCount, user.AccountType);
+    _logger.LogInformation("Access Token: {token}", token);
+}

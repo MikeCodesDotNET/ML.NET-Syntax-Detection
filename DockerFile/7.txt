@@ -1,0 +1,5 @@
+FROM php:7.0.10-cli
+
+COPY ./demo /demo
+
+CMD 'echo Application demo container'

@@ -1,0 +1,47 @@
+api:
+  dashboard: true
+
+entryPoints:
+  http:
+    address: ":80"
+  https:
+    address: ":443"
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+
+# ## for HTTP-01 challenge
+certificatesResolvers:
+  http:
+    acme:
+      # - Uncomment caServer line below to run on the staging let's encrypt server.  Leave comment to go to prod.
+      caServer: https://acme-staging-v02.api.letsencrypt.org/directory
+      email: digital@grinnell.edu
+      storage: acme.json
+      httpChallenge:
+        entryPoint: http
+
+## for DNS-01 challenge
+# certificatesResolvers:
+#  http:
+#    acme:
+#      # - Uncomment caServer line below to run on the staging Let's Encrypt server.  Leave comment to go to prod.
+#      #caServer: https://acme-staging-v02.api.letsencrypt.org/directory
+#      email: digital@grinnell.edu
+#      storage: acme.json
+#      dnsChallenge:
+#        provider: azure
+
+environment:
+  AZURE_CLIENT_ID: "${AZURE_CLIENT_ID}"
+  AZURE_CLIENT_SECRET: "${AZURE_CLIENT_SECRET}"
+  AZURE_SUBSCRIPTION_ID: "${AZURE_SUBSCRIPTION_ID}"
+  AZURE_TENANT_ID: "${AZURE_TENANT_ID}"
+  AZURE_DNS_ZONE: "${AZURE_DNS_ZONE}"
+  AZURE_RESOURCE_GROUP: "${AZURE_RESOURCE_GROUP}"
+
+log:
+  level: DEBUG
+  filePath: "/var/log/traefik.log"

@@ -1,0 +1,59 @@
+use std::ops::Add;
+use std::fmt::{Debug, Formatter, Error};
+
+#[derive(Clone)]
+struct MyUint(Vec<u8>);
+
+impl Add for MyUint {
+  type Output = MyUint;
+  fn add(self, rhs: MyUint) -> MyUint {
+    let (mut lhs, mut rhs) = (self.0.into_iter(), rhs.0.into_iter());
+    let mut carry = 0;
+    let mut seq = Vec::new();
+    loop {
+      let n = match (lhs.next(), rhs.next()) {
+        (Some(l), Some(r)) => { l + r + carry },
+        (Some(v), _) | (_, Some(v)) => { v + carry },
+        _ => {
+          if 0 < carry { seq.push(carry) }
+          break;
+        }
+      };
+      seq.push(n % 100);
+      carry = n / 100;
+    }
+    MyUint(seq)
+  }
+}
+
+impl Debug for MyUint {
+  fn fmt(&self, f: &mut Formatter) -> Result<(), Error> {
+    let mut s = String::new();
+    for &n in (&self.0).iter() {
+      s = format!("{:02}{}", n, s);
+    }
+    if s.starts_with("0") {
+      s.remove(0);
+    }
+    write!(f, "{}", s)
+  }
+}
+
+fn fib(n: usize) -> Vec<MyUint> {
+  let mut seq = vec!(MyUint(vec!(0)), MyUint(vec!(1)));
+  if n < 3 {
+    return seq.into_iter().take(n as usize).collect();
+  }
+  let (mut a, mut b) = (seq[0].clone(), seq[1].clone());
+  for _ in 2..n {
+    let c = a + b.clone();
+    seq.push(c.clone());
+    a = b;
+    b = c;
+  }
+  seq
+}
+
+fn main() {
+  println!("fib={:?}", fib(100));
+}

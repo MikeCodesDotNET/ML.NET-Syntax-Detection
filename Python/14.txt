@@ -1,0 +1,11 @@
+def foo(parm1):
+	class Bar:
+		def nimble(self):
+			print parm1
+	return Bar()
+
+bar1 = foo("hello")
+bar1.nimble()
+
+bar2 = foo("world")
+bar2.nimble()

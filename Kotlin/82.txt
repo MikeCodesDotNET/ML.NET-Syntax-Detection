@@ -1,0 +1,13 @@
+class CompanionObjectFileParserFactory : FileParserFactory {
+    companion object : FileParserFactory{
+        override fun createFromFileName(fileName: String) =
+                when (fileName.substringAfterLast('.')) {
+                    "xml" -> XmlFileParser()
+                    "json" -> JsonFileParser()
+                    else -> throw Exception("I don't know how to deal with $fileName.")
+                }
+    }
+    /* needed if you want to be able to call the createFromFileName from an instance */
+    override fun createFromFileName(fileName: String) =
+            CompanionObjectFileParserFactory.createFromFileName(fileName)
+}

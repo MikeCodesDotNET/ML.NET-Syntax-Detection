@@ -1,0 +1,96 @@
+<link rel="import" href="../core-scaffold/core-scaffold.html">
+<link rel="import" href="../core-header-panel/core-header-panel.html">
+<link rel="import" href="../core-menu/core-menu.html">
+<link rel="import" href="../core-item/core-item.html">
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../core-menu/core-submenu.html">
+<link rel="import" href="../core-pages/core-pages.html">
+<link rel="import" href="../core-icons/av-icons.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #core_scaffold {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      #core_header_panel {
+        background-color: rgb(255, 255, 255);
+      }
+      #core_toolbar {
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #core_menu {
+        font-size: 16px;
+      }
+      #core_toolbar1 {
+        right: 0px;
+        left: 860px;
+        color: rgb(255, 255, 255);
+        fill: rgb(255, 255, 255);
+        top: 0px;
+        position: absolute;
+        background-color: rgb(79, 125, 201);
+      }
+      #core_pages {
+        width: 100%;
+        height: 100%;
+        border: 1px solid silver;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+    </style>
+    <core-scaffold id="core_scaffold">
+      <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+        <core-toolbar id="core_toolbar"></core-toolbar>
+        <core-menu selected="Item1" valueattr="label" selectedindex="0" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item1" icon="settings" label="Rhythm Grid" horizontal center layout active></core-item>
+          <core-item id="core_item2" icon="settings" label="Piano Roll" horizontal center layout></core-item>
+          <core-item id="core_item3" icon="settings" label="Arrangement" horizontal center layout></core-item>
+          <core-item id="core_item4" icon="settings" label="Lead Sheet" horizontal center layout></core-item>
+          <core-item id="core_item5" icon="settings" label="Generator" horizontal center layout></core-item>
+          <core-item id="core_item6" icon="settings" label="Melody Maker" horizontal center layout></core-item>
+          <core-item id="core_item7" icon="settings" label="Lyric Writer" horizontal center layout></core-item>
+          <core-item id="core_item8" icon="settings" label="Generator Studio" horizontal center layout></core-item>
+          <core-item id="core_item9" icon="settings" label="Audio Looper" horizontal center layout></core-item>
+          <core-item id="core_item10" icon="settings" label="Data I/O" horizontal center layout></core-item>
+          <core-item id="core_item11" icon="settings" label="Staff View" horizontal center layout></core-item>
+        </core-menu>
+      </core-header-panel>
+      <div id="div" tool>Theory</div>
+      <core-toolbar id="core_toolbar1">
+        <core-icon-button icon="menu" id="core_icon_button"></core-icon-button>
+        <div id="div1" flex>Transport</div>
+      </core-toolbar>
+      <core-pages selected="0" selectedindex="0" notap id="core_pages">
+        <section id="section" active>Page One</section>
+        <section id="section1">Page Two</section>
+        <section id="section1">Page Two</section>
+      </core-pages>
+    </core-scaffold>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

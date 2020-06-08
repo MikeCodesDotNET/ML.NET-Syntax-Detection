@@ -1,0 +1,5 @@
+var DUI = {
+    $: function(a) {
+        return (a) ? ((typeof(a) == "string") ? document.getElementById(a) : a) : null
+    }
+};

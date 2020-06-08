@@ -1,0 +1,33 @@
+100.times {
+  t = Time.zone.now # <== ActiveSupport Time
+  puts "#{Time.at(t) == t}, #{Time.at(t).strftime('%12N')}, #{t.strftime('%12N')}"
+}
+
+# =>
+# false, 480818033218, 480818000000
+# false, 480895996093, 480896000000
+# false, 480974197387, 480974000000
+# ...
+
+
+100.times {
+  t = Time.now # <== Regular Time
+  puts "#{Time.at(t) == t}, #{Time.at(t).strftime('%12N')}, #{t.strftime('%12N')}"
+}
+
+# =>
+# true, 017232000000, 017232000000
+# true, 017285000000, 017285000000
+# true, 017303000000, 017303000000
+# true, 017318000000, 017318000000
+# ...
+
+
+Time.zone.now
+# => Thu, 19 Mar 2015 07:55:20 UTC +00:00
+
+Time.zone.now.class
+# => ActiveSupport::TimeWithZone
+
+Time.zone.now.is_a?(Time)
+# => True

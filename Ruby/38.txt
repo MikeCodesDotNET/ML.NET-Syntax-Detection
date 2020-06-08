@@ -1,0 +1,11 @@
+require 'spec_helper'
+
+describe User do
+  context 'associations' do
+    it { should belong_to(:organization).class_name('UserOrganization') }
+    it { should have_many(:contracts) }
+    it { should have_many(:jobs).through(:contracts) }
+    it { should have_many(:projects).order('date DESC').dependent(:destroy) }
+    it { should accept_nested_attributes_for(:projects).limit(3) }
+  end
+end

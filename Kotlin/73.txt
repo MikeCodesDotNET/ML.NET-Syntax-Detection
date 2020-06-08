@@ -1,0 +1,5 @@
+// single filter, quick and easy
+val newList = oldList.filter { it.startsWith("a") }
+
+// streams for multiple filters (same syntax!)
+val newList = oldList.asSequence().filter { it.startsWith("a") }.toList()

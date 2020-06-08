@@ -1,0 +1,182 @@
+extern mod std;
+
+use std::list::*;
+
+struct Board {
+    black: u64,
+    white: u64
+}
+
+struct Position(int, int);
+
+impl Position {
+    fn in_bounds(&self) -> bool {
+        let Position(x, y) = *self;
+        x >=0 && x < 8 && y >= 0 && y < 8
+    }
+
+    fn add(&self, other: Position) -> Position {
+        let Position(x, y) = *self;
+        let Position(ox, oy) = other;
+        Position(x + ox, y + oy)
+    }
+}
+
+enum Color {
+    Black,
+    White
+}
+
+impl Color {
+    fn other(&self) -> Color {
+        match *self {
+            Black => White,
+            White => Black
+        }
+    }
+}
+
+fn get_bit(data: u64, pos: int) -> bool {
+    data & (1u64 << pos) != 0
+}
+
+fn get_index(pos: Position) -> int {
+    let Position(x, y) = pos;
+    x + 8 * y
+}
+
+fn set(x: u64, pos: int) -> u64 {
+    x | (1u64 << pos)
+}
+
+impl Board {
+    static fn new() -> Board {
+        let black = 0u64;
+        let white = 0u64;
+        set(black, get_index(Position(4, 3)));
+        set(black, get_index(Position(3, 4)));
+        set(white, get_index(Position(3, 3)));
+        set(white, get_index(Position(4, 4)));
+        Board { black: black, white: white }
+    }
+
+    fn get(&self, pos: Position) -> Option<Color> {
+        let index = get_index(pos);
+        if get_bit(self.black, index) {
+            return Some(Black);
+        } else if get_bit(self.white, index) {
+            return Some(White);
+        } else {
+            return None;
+        }
+    }
+
+    fn is_occupied(&self, pos: Position) -> bool {
+        let index = get_index(pos);
+        get_bit(self.black & self.white, index)
+    }
+
+    fn get_stones(&self, side: Color) -> u64 {
+        match side {
+            Black => self.black,
+            White => self.white
+        }
+    }
+
+    /*
+    Get moves that are available to side.
+    */
+    fn get_moves(&self, side: Color) -> @List<Position> {
+        let other = side.other();
+        let mut moves: @List<Position> = @Nil;
+
+        for int::range(0, 8) |y| {
+            for int::range(0, 8) |x| {
+                let pos = Position(x, y);
+                moves = match self.get(pos) {
+                    Some(color) if (color as int == other as int) => {
+                        append(moves, self.get_moves_around_stone(side, pos))
+                    }
+                    _ => moves
+                };
+            }
+        }
+        return moves;
+    }
+
+    /*
+    Given a spot (x, y) that contains a stone of side.other(), find moves available
+    to side.
+    */
+    fn get_moves_around_stone(&self, side: Color, pos: Position) -> @List<Position> {
+        let mut moves: @List<Position> = @Nil;
+
+        for int::range(-1, 2) |dy| {
+            for int::range(-1, 2) |dx| {
+                let my_stones = self.get_stones(side);
+                let other_stones = self.get_stones(side.other());
+                let mut current_pos = pos.add(Position(dx, dy));
+                let this_move = current_pos;
+
+                if (current_pos.in_bounds() ||
+                    !self.is_occupied(current_pos)) {
+                    loop
+                }
+
+                current_pos = pos.add(Position(-dx, -dy));
+                while (current_pos.in_bounds() &&
+                       get_bit(other_stones, get_index(current_pos))) {
+
+                    current_pos = current_pos.add(Position(-dx, -dy));
+                }
+
+                if (current_pos.in_bounds() &&
+                    get_bit(my_stones, get_index(current_pos))) {
+
+                    moves = append(moves, @Cons(this_move , @Nil));
+                }
+            };
+        };
+
+        return moves;
+    }
+
+    fn make_move(&self, side: Color, pos: Position) -> Board {
+        assert pos.in_bounds();
+        let Position(x, y) = pos;
+
+        let mut flip_stones = set(0, get_index(pos));
+
+        for int::range(-1, 2) |dy| {
+            for int::range(-1, 2) |dx| {
+
+                let mut offset = 1;
+                let mut test = Position(x + offset * dx, y + offset * dy);
+                while test.in_bounds() {
+                    match self.get(test) {
+                        Some(col) if col as int == side.other() as int => {
+                            offset += 1;
+                            test = Position(x + offset * dx, y + offset * dy);
+                        }
+                        Some(col) if (offset != 1 && col as int == side as int) => {
+                            for int::range(1, offset) |offset_replay| {
+                                let old_pos = Position(x + offset_replay * dx,
+                                                       y + offset_replay * dy);
+                                flip_stones = set(flip_stones, get_index(old_pos));
+                            }
+                        }
+                        _ => break
+                    }
+                }
+            }
+        }
+
+        match side {
+            Black => Board { black: self.black | flip_stones,
+                             white: self.white ^ (!flip_stones)},
+
+            White => Board { white: self.white | flip_stones,
+                             black: self.black ^ (!flip_stones)}
+        }
+    }
+}

@@ -1,0 +1,15 @@
+public class RemoteService extends Service {
+    private static final String TAG = RemoteService.class.getSimpleName();
+    private final IRemoteService.Stub mBinder = new IRemoteService.Stub() {
+        @Override
+        public int someOperate(int a, int b) throws RemoteException {
+            Log.d(TAG, "called RemoteService someOperate()");
+            return a + b;
+        }
+    };
+
+	@Override
+    public IBinder onBind(Intent intent) {
+        return mBinder;
+    }
+}

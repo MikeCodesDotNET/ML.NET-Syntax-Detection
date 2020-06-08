@@ -1,0 +1,38 @@
+import org.slf4j.Logger; 
+import org.slf4j.LoggerFactory; 
+import org.springframework.beans.factory.annotation.Autowired; 
+import org.springframework.web.bind.annotation.RequestMapping; 
+import org.springframework.web.bind.annotation.RequestParam; 
+import org.springframework.web.bind.annotation.RestController; 
+ 
+@RestController 
+public class Controller { 
+    protected final Logger log = LoggerFactory.getLogger(getClass()); 
+ 
+    @Autowired 
+    private FirstRepository first; 
+ 
+    @Autowired 
+    private SecondRepository second; 
+ 
+    @RequestMapping("test") 
+    public String test() { 
+        log.info("Test"); 
+        return "OK"; 
+    } 
+ 
+    @RequestMapping("first") 
+    public Item getItem(@RequestParam("id") long id) { 
+        log.info("Get item"); 
+        return items.getItem(id); 
+    } 
+
+    @RequestMapping("second") 
+    public User getUser(@RequestParam("id") long id) { 
+        log.info("Get user"); 
+        return users.getUser(id); 
+    } 
+ 
+
+ 
+} 

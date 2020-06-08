@@ -1,0 +1,54 @@
+fn powerset<T>(s: &[T]) -> Vec<Vec<T>> where T: Clone {
+    (0..2usize.pow(s.len() as u32)).map(|i| {
+         s.iter().enumerate().filter(|&(t, _)| (i >> t) % 2 == 1)
+                             .map(|(_, element)| element.clone())
+                             .collect()
+     }).collect()
+}                                    
+
+#[cfg(not(test))]
+fn main() {
+    println!("powerset of set {{1,2,3,4}}:");
+    for set in powerset(&[1,2,3,4]) {
+        println!("{:?} ", set);
+    }
+}
+
+#[cfg(test)]
+mod test {
+    #[test]
+    pub fn test_empty() {
+        let empty = Vec::new();
+        let powerset = ::powerset(&empty[..]);
+        let expected_empty: Vec<Vec<i32>> = vec![Vec::new()];
+        assert_eq!(expected_empty, powerset);
+    }
+
+    #[test]
+    pub fn test_elements() {
+        let powerset = ::powerset(&[1,2,3,4]);
+        let expected_elements = vec![vec![],
+                                     vec![1],
+                                     vec![2],
+                                     vec![1, 2],
+                                     vec![3],
+                                     vec![1, 3],
+                                     vec![2, 3],
+                                     vec![1, 2, 3],
+                                     vec![4],
+                                     vec![1, 4],
+                                     vec![2, 4],
+                                     vec![1, 2, 4],
+                                     vec![3, 4],
+                                     vec![1, 3, 4],
+                                     vec![2, 3, 4],
+                                     vec![1, 2, 3, 4]];
+        assert_eq!(expected_elements, powerset);
+    }
+
+    #[test]
+    pub fn test_size() {
+        let powerset = ::powerset(&[1,2,3,4,5,6,7,8,9]);
+        assert_eq!(512, powerset.len());
+    }
+}

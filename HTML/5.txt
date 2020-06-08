@@ -1,0 +1,52 @@
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../core-scroll-header-panel/core-scroll-header-panel.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #core_scroll_header_panel {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      #core_toolbar {
+        color: rgb(241, 241, 241);
+        fill: rgb(241, 241, 241);
+        background-color: rgb(66, 133, 244);
+      }
+      #section {
+        height: 5000px;
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230));
+      }
+    </style>
+    <core-scroll-header-panel headermargin="128" condenses headerheight="192" id="core_scroll_header_panel">
+      <core-toolbar id="core_toolbar" class="tall">
+        <core-icon-button icon="arrow-back" id="core_icon_button"></core-icon-button>
+        <div id="div" flex></div>
+        <core-icon-button icon="search" id="core_icon_button1"></core-icon-button>
+        <core-icon-button icon="more-vert" id="core_icon_button2"></core-icon-button>
+        <div id="div1" class="bottom indent">Title</div>
+      </core-toolbar>
+      <section id="section" content></section>
+    </core-scroll-header-panel>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

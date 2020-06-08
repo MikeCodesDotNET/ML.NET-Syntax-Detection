@@ -1,0 +1,3 @@
+class Student(val firstName: String, val lastName: String, val studentId: String) : Person(firstName,lastName) {
+
+}

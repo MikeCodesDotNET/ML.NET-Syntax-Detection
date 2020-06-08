@@ -1,0 +1,1 @@
+var ptr = Marshal.AllocHGlobal(sizeof(int) + Marshal.SizeOf(typeof(IntPtr)));

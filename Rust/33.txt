@@ -1,0 +1,5 @@
+fn foo() {
+  error_here();
+  //~^ ERROR foo
+  //~| ERROR foo
+}

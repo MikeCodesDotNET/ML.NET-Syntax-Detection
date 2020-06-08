@@ -1,0 +1,24 @@
+import { getFromCache } from '../middleware/conservator';
+import { FETCH_ARTICLES_SUCCESS } from './';
+
+const CACHE_KEY = ‘articles’;
+
+const fetchArticlesSuccess = articles => ({
+  type: FETCH_ARTICLES_SUCCESS,
+  key: CACHE_KEY,
+  articles,
+});
+
+export const fetchArticles = () => {
+  return (dispatch) => {
+    const cachedData = getFromCache(CACHE_KEY);
+
+    if (cachedData) {
+      dispatch(fetchArticlesSuccess(cachedData));
+    } else {
+      ArticleApi.index().then(res => {
+        dispatch(fetchArticlesSuccess(res));
+      });
+    }
+  };
+};

@@ -1,0 +1,1 @@
+SELECT ID,Fruit_Name ,Fruit_Color FROM Fruits

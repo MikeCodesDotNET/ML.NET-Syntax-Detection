@@ -1,0 +1,27 @@
+module InGem
+  class BlueController
+    def index
+      puts 'in gem'
+    end
+
+    class BlueTemplate
+      def path
+        'blue_template'
+      end
+    end
+  end
+end
+
+module Main
+  class BlueController < InGem::BlueController
+    def index
+      puts 'main'
+    end
+
+    class BlueTemplate < BlueTemplate
+      def path
+        'main'
+      end
+    end
+  end
+end

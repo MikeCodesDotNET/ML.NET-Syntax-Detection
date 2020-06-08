@@ -1,0 +1,80 @@
+///
+fn main() {
+  println!(
+"this gist contains multiple source code files ¥
+split by");
+}
+///
+
+// カンマ区切り (による連続パターン) で任意個数のexprをとる
+macro_rules! test {
+    ( $( $x: expr ),* ) => {{
+        $(
+            println!("{}", $x);
+        )*
+    }};
+}
+
+fn main() {
+    test!(0,1,2);
+    test![1,2,3];
+}
+///
+
+// セミコロン区切り (による連続パターン) も使えるし、[ とか ] とかも区切り文字である
+macro_rules! o_O {
+    ( $( $x: expr; [ $( $y: expr ),* ] );* ) => {{
+        &[ $( $( $x + $y ),* ),* ]
+    }}
+}
+
+fn main() {
+
+    let a: &[i32] =
+        o_O!(10; [1,2,3];
+             100; [0,1,2]);
+
+    for i in (0 .. 6) {
+        print!("{} ", a[i]);
+    }
+    println!("");
+    // "11 12 13 100 101 102 "
+}
+///
+
+// 頭にキーワードを設定してパターンを振り分けることができる
+macro_rules! arithmetic {
+    ( $x: expr ) => { $x };
+    ( increment $x: expr) => ($x + 1);
+    ( decrement $x: expr) => ($x - 1);
+    ( double $x: expr) => ($x * 2);
+    ( half $x: expr) => ($x / 2);
+}
+
+fn main() {
+    let x = 3;
+    println!("let x = {}", arithmetic![x]);
+    println!("x+1 = {}", arithmetic![increment x]);
+    println!("x-1 = {}", arithmetic![decrement x]);
+    println!("x*2 = {}", arithmetic![double x]);
+    println!("x/2 = {}", arithmetic![half x]);
+
+    let y = arithmetic![increment
+        arithmetic![double x]];
+    println!("1 + x * 2 = {}", y);
+}
+///
+
+// 空白区切りは $()* で良いみたい
+macro_rules! arithmetic {
+    ( plus $( $x: expr )* ) => {{
+        let mut sum = 0;
+        $( sum += $x; )*
+        sum
+    }}
+}
+
+fn main() {
+    let sum = arithmetic!(plus 1 2 3);
+    println!("{}", sum);
+}

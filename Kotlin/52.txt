@@ -1,0 +1,10 @@
+data class Time(val hours: Int, val minutes: Int) : Comparable<Time> {
+    override fun compareTo(other: Time): Int {
+        return when {
+            this.hours == other.hours -> this.minutes - other.minutes
+            else -> this.hours - other.hours
+        }
+    }
+}
+
+println(Time(1,30) > Time(0,45)) // true

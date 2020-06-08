@@ -1,0 +1,7 @@
+if item is Movie {
+    ++movieCount
+    println("It is a movie.")
+} else if item is Song {
+    ++songCount
+    println("It is a song.")
+}

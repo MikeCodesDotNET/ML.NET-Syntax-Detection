@@ -1,0 +1,44 @@
+/// Some extensions with overloaded operators for easily adding and removing
+/// objects to sets when working with CoreData
+
+import Foundation
+import CoreData
+
+protocol ManagedSet {
+    var allObjects: [AnyObject] { get }
+    init( array: [AnyObject] )
+}
+
+extension NSOrderedSet : ManagedSet {
+    var allObjects: [AnyObject] { return self.array }
+}
+
+extension NSSet : ManagedSet {}
+
+func += <T: ManagedSet>(inout lhs: T, rhs: NSManagedObject) -> T {
+    var array = lhs.allObjects as? [NSManagedObject] ?? [NSManagedObject]()
+    array.append( rhs )
+    lhs = T(array: array)
+    return lhs
+}
+
+func -= <T: ManagedSet>(inout lhs: T, rhs: NSManagedObject) -> T {
+    var array = lhs.allObjects as? [NSManagedObject] ?? [NSManagedObject]()
+    array = array.filter { $0 != rhs }
+    lhs = T(array: array)
+    return lhs
+}
+
+func += <T: ManagedSet>(inout lhs: T, rhs: [NSManagedObject]) -> T {
+    var array = lhs.allObjects as! [NSManagedObject]
+    array = array + rhs
+    lhs = T(array: array)
+    return lhs
+}
+
+func -= <T: ManagedSet>(inout lhs: T, rhs: [NSManagedObject]) -> T {
+    var array = lhs.allObjects as! [NSManagedObject]
+    array = array.filter { !rhs.contains( $0 ) }
+    lhs = T(array: array)
+    return lhs
+}

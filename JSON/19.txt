@@ -1,0 +1,31 @@
+[{
+    "name": "Intermediate Consultation",
+    "duration": 60,
+    "price": 100,
+    "category": null,
+    "color": "#469D6E",
+    "isPublic": true,
+    "isGroup": false,
+    "forms": [
+        {
+            "id": 158143
+        },
+        {
+            "id": 158144
+        }
+    ],
+    "addons": [
+        {
+            "name": "Bonus 10 Minutes",
+            "isHidden": false,
+            "additionalPrice": 20,
+            "additionalDuration": 10
+        },
+        {
+            "name": "Bonus 20 Minutes",
+            "isHidden": true,
+            "additionalPrice": 40,
+            "additionalDuration": 20
+        }
+    ]
+}]

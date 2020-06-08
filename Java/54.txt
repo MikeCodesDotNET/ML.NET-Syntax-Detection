@@ -1,0 +1,9 @@
+public class CleanHouse implements ICommand {
+
+    private final static String TAG = "Command";
+
+    @Override
+    public void execute() {
+        Log.i(TAG, "clean house");
+    }
+}

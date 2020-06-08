@@ -1,0 +1,3 @@
+operator fun minus(other: Time): Time {
+    return convertToTime(convertToDouble(this) - convertToDouble(other))
+}

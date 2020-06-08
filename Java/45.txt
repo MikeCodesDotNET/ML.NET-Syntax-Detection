@@ -1,0 +1,11 @@
+public class Chicken implements Meal {
+    @Override
+    public String getContent() {
+        return "fried chicken";
+    }
+
+    @Override
+    public int getPrice() {
+        return 100;
+    }
+}

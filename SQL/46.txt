@@ -1,0 +1,9 @@
+UPDATE table1
+SET    COLUMN = value
+FROM   table2,
+       table3
+WHERE  table1.column_id = table2.id
+       AND table1.column_id = table3.id
+       AND table1.COLUMN = value
+       AND table2.COLUMN = value
+       AND table3.COLUMN = value 

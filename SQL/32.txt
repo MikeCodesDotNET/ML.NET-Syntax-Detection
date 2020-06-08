@@ -1,0 +1,2 @@
+SELECT LastName 
+FROM   [KAWLAPTOP\SQLEXPRESS2014].[AdventureWorks2012].[Person].[Person]

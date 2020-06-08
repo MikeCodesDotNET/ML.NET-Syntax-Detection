@@ -1,0 +1,9 @@
+transactionTemplate.execute {
+    dao.queryStream("select user_id from table") { rs, _ ->
+        // Map rows to a String
+        rs.getString("user_id")
+    }.forEach {
+        // do something with each user_id
+        println("User $it")
+    }    
+}

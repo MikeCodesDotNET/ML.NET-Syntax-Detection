@@ -1,0 +1,24 @@
+public class Client {
+
+    private IBank bank;
+
+    public Client(IBank bank) {
+        this.bank = bank;
+    }
+
+    public int saveMoney(int money) {
+        return bank.save(money);
+    }
+
+    public int getMoney(int money) {
+        if (bank.check() < money) {
+            return 0;
+        }
+
+        return bank.get(money);
+    }
+
+    public int checkMoney(int money) {
+        return bank.check();
+    }
+}

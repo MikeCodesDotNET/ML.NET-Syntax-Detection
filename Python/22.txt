@@ -1,0 +1,20 @@
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from subprocess import Popen, PIPE
+
+
+def send_email(msg):
+    """
+    send an email
+    :param msg: message to be sent in the email's body
+    :return: None
+    """
+    content = MIMEText(msg, "plain/text")
+    msg = MIMEMultipart("alternative")
+    msg["From"] = "alfasin@gmail.com"
+    msg["To"] = "alfasin@gmail.com"
+    msg["Subject"] = "Test Email"
+    msg.attach(content)
+
+    p = Popen(["/usr/sbin/sendmail", "-t"], stdin=PIPE)
+    p.communicate(msg.as_string())

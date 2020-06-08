@@ -1,0 +1,32 @@
+fun <T> queryStream(sql: String, converter: (SqlRowSet) -> T?, args: Array<Any>): Stream<T> {
+        val rowSet = jdbcTemplate.queryForRowSet(sql, *args)
+
+        class RowSetIter : Iterator<T> {
+            var current: T? = null
+
+            override fun hasNext(): Boolean {
+                if (current != null) {
+                    return true
+                } else {
+                    if (rowSet.next()) {
+                        current = converter.invoke(rowSet)
+                        return true
+                    }
+                }
+                return false
+            }
+
+            override fun next(): T {
+                if (hasNext()) {
+                    val retVal = current
+                    current = null
+                    return retVal!!
+                } else {
+                    throw NoSuchElementException()
+                }
+            }
+        }
+
+        val spliterator = Spliterators.spliteratorUnknownSize(RowSetIter(), Spliterator.IMMUTABLE)
+        return StreamSupport.stream(spliterator, false)
+    }

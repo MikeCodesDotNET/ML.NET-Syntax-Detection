@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    /* load placement for account: micha, campaign: Mobile Targeting, flight: Targeted to phones, creative: targeted to phones, site: foo bar, size: Medium Rectangle - 300px by 250px*/
+    ados.run.push(function() {
+      ados_addInlinePlacement(9679, 69751, 5).setFlightCreativeId(839585).setRedirectUrl('-optional-click-macro-').loadInline();
+    });
+  </script>
+  <script type="text/javascript" src="http://static.adzerk.net/ados.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+var ados = ados || {};
+ados.run = ados.run || [];
+/* load placement for account: micha, campaign: Mobile Targeting, flight: targeted to tablet, creative: carplane mullet, site: foo bar, size: Medium Rectangle - 300px by 250px*/
+ados.run.push(function() {
+ados_addInlinePlacement(9679, 69751, 5).setFlightCreativeId(839599).setRedirectUrl('-optional-click-macro-').loadInline();
+});
+  </script>
+  </script>
+  <script type="text/javascript" src="http://static.adzerk.net/ados.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  var ados = ados || {};
+  ados.run = ados.run || [];
+  /* load placement for account: micha, campaign: Mobile Targeting, flight: targeted to resolution, creative: carplane mullet, site: foo bar, size: Medium Rectangle - 300px by 250px*/
+  ados.run.push(function() {
+  ados_addInlinePlacement(9679, 69751, 5).setFlightCreativeId(839617).setRedirectUrl('-optional-click-macro-').loadInline();
+  });
+  </script>
+  </script>
+  <script type="text/javascript" src="http://static.adzerk.net/ados.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  var ados = ados || {};
+  ados.run = ados.run || [];
+  /* load placement for account: micha, campaign: Mobile Targeting, flight: targeted to os name, creative: carplane mullet, site: foo bar, size: Medium Rectangle - 300px by 250px*/
+  ados.run.push(function() {
+  ados_addInlinePlacement(9679, 69751, 5).setFlightCreativeId(839619).setRedirectUrl('-optional-click-macro-').loadInline();
+  });
+  </script>
+  </script>
+  <script type="text/javascript" src="http://static.adzerk.net/ados.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  var ados = ados || {};
+  ados.run = ados.run || [];
+  /* load placement for account: micha, campaign: Mobile Targeting, flight: targeted to browser name, creative: carplane mullet, site: foo bar, size: Medium Rectangle - 300px by 250px*/
+  ados.run.push(function() {
+  ados_addInlinePlacement(9679, 69751, 5).setFlightCreativeId(839621).setRedirectUrl('-optional-click-macro-').loadInline();
+  });
+  </script>
+  </script>
+  <script type="text/javascript" src="http://static.adzerk.net/ados.js"></script>
+</body>
+</html>

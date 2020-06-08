@@ -1,0 +1,15 @@
+simple:
+  dir: "/var/www/simple"
+  push:
+    actions:
+      - "cd dir"
+      - "git pull"
+      - "jekyll build"
+
+extended:
+  dir: "/var/www/extended"
+  push:
+    actions:
+      - "jekyll build"
+    return: "Push handler for extended worked! "
+    on_error: "extended failed. Reason: {error_msg}"

@@ -1,0 +1,12 @@
+const registrar = (array) => {
+  let registry = JSON.parse(fs.readFileSync(fileName))
+
+  array.forEach((item) => {
+    if (!registry.done.includes(item)) {
+      const source = tinify.fromFile(item)
+      source.toFile(item)
+      registry.done.push(item)
+    }
+  })
+  fs.writeFileSync(fileName, JSON.stringify(registry, null, 2))
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Browser Market",
+  "values":[
+  {
+    "name":"Chrome",
+    "usage":43.95
+  },
+  {
+    "name":"Safari",
+    "usage":13.39
+  },
+  {
+    "name":"IE",
+    "usage":12.18
+  },
+  {
+    "name":"Firefox",
+    "usage":10.72
+  },
+  {
+    "name":"Android",
+    "usage":6.3
+  },
+  {
+    "name":"Opera",
+    "usage":5.16
+  },
+  {
+    "name":"UC name",
+    "usage":5.16
+  },
+  {
+    "name":"Nokia",
+    "usage":0.26
+  },
+  {
+    "name":"IEMobile",
+    "usage":0.7
+  },
+  {
+    "name":"BlackBerry",
+    "usage":0.33
+  },
+  {
+    "name":"360 Safe name",
+    "usage":0.15
+  },
+  {
+    "name":"NetFront",
+    "usage":0.13
+  },
+  {
+    "name":"Yandex",
+    "usage":0.24
+  },
+  {
+    "name":"Maxthon",
+    "usage":0.15
+  },
+  {
+    "name":"Silk",
+    "usage":0.14
+  },
+  {
+    "name":"Sogou",
+    "usage":0.15
+  },
+  {
+    "name":"QQ",
+    "usage":0.17
+  },
+  {
+    "name":"Unknown",
+    "usage":0.09
+  },
+  {
+    "name":"Chromium",
+    "usage":0.08
+  },
+ 
+  {
+    "name":"Other (< 0.08%)",
+    "usage":1.43
+  }
+ 
+]
+}

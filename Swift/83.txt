@@ -1,0 +1,7 @@
+let spring = POPSpringAnimation(propertyNamed: kPOPLayoutConstraintConstant)
+spring.toValue = 200
+spring.springBounciness = bounciness
+spring.springSpeed = 8
+spring.name = "moveUp"
+spring.delegate = self
+ballCenterYConstraint.pop_addAnimation(spring, forKey: "moveUp")

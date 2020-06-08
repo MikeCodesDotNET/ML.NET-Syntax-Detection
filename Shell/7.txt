@@ -1,0 +1,2 @@
+$ echo "Storage Account Key: $StorageAccountKey"
+$ echo "Storage Endpoint URL: $StorageEndpointUrl"

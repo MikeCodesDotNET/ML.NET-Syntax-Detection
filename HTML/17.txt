@@ -1,0 +1,54 @@
+<link rel="import" href="../topeka-elements/topeka-datasource.html">
+<link rel="import" href="../code-mirror/code-mirror.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #div {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      #code_mirror {
+        width: 400px;
+        height: 300px;
+        left: 170px;
+        top: 160px;
+        position: absolute;
+      }
+    </style>
+    <div id="div">
+      <topeka-datasource url="../topeka-elements/categories.json" id="datasource" hidden></topeka-datasource>
+    </div>
+    <code-mirror value="<polymer-element name='my-element'>
+  <template></template>
+  <script>
+    Polymer('my-element', {});
+  </script>
+</polymer-element>" id="code_mirror"><polymer-element name='my-element'>
+  <template></template>
+  <script>
+    Polymer('my-element', {});
+  </script>
+</polymer-element></code-mirror>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

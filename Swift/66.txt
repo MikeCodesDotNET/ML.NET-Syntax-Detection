@@ -1,0 +1,138 @@
+// TODO should be an extension
+func all<T> (xs : [T], predicate : T -> Bool) -> Bool {
+    for x in xs {
+        if !predicate(x) {
+            return false
+        }
+    }
+    return true
+}
+
+extension Array {
+    var decompose: (Element, [Element])? {
+        return isEmpty ? nil : (self[startIndex], Array(dropFirst(self)))
+    }
+}
+
+extension CollectionType {
+    var decompose : (head: Generator.Element, tail: [Generator.Element])? {
+        return self.map({$0}).decompose
+    }
+}
+
+func emptySet<T>() -> Array<T> {
+    return []
+}
+
+func isEmptySet<T>(set: [T]) -> Bool {
+    return set.isEmpty
+}
+
+func setContains<T: Equatable>(x: T, _ set: [T]) -> Bool {
+    return set.contains(x)
+}
+
+func setInsert<T: Equatable>(x: T, _ set:[T]) -> [T] {
+    return setContains(x, set) ? set : [x] + set
+}
+
+indirect enum Tree<T> {
+    case Leaf
+    case Node(Tree<T>, T, Tree<T>)
+}
+
+let leaf: Tree<Int> = Tree.Leaf
+
+let five: Tree<Int> = Tree.Node(leaf, 5, leaf)
+
+func single<T>(x: T) -> Tree<T> {
+    return Tree.Node(Tree.Leaf, x, Tree.Leaf)
+}
+
+extension Tree {
+    var count: Int {
+        switch self {
+        case Tree.Leaf:
+            return 0
+        case let Tree.Node(left, _, right):
+            return 1 + left.count + right.count
+        }
+        
+    }
+}
+
+extension Tree {
+    var elements: [T] {
+        switch self {
+        case Tree.Leaf:
+            return []
+        case let Tree.Node(left, x, right):
+            return left.elements + [x] +
+                right.elements
+        }
+        
+    }
+}
+
+func emptySet<T>() -> Tree<T> {
+    return Tree.Leaf
+}
+
+extension Tree {
+    var isEmpty: Bool {
+        if case Tree.Leaf = self {
+            return true
+        } else { return false }
+    }
+}
+
+extension Tree where T: Comparable {
+    func isBST() -> Bool {
+        switch self {
+        case Tree.Leaf:
+            return true
+        case let Tree.Node(left, x, right):
+            return all(left.elements) { y in y < x }
+                && all(right.elements) { y in y > x }
+                && left.isBST()
+                && right.isBST()
+        }
+    }
+}
+
+extension Tree where T: Comparable {
+    func setContains(x: T) -> Bool {
+        switch self {
+        case Tree.Leaf:
+            return false
+        case let Tree.Node(_, y, _) where x == y:
+            return true
+        case let Tree.Node(left, y, _) where x < y:
+            return left.setContains(x)
+        case let Tree.Node(_, y, right) where x > y:
+            return right.setContains(x)
+        default:
+            fatalError("The impossible occurred")
+        }
+        
+    }
+}
+
+extension Tree where T: Comparable {
+    mutating func setInsert(x: T) {
+        switch self {
+        case Tree.Leaf:
+            self = single(x)
+        case let Tree.Node(_, y, _) where x == y:
+            return
+        case Tree.Node(var left, let y, let right) where x < y:
+            left.setInsert(x)
+            self = Tree.Node(left, y, right)
+        case Tree.Node(let left, let y, var right) where x > y:
+            right.setInsert(x)
+            self = Tree.Node(left, y, right)
+        default:
+            return
+        }
+    }
+}

@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: aks-ssh
+spec:
+  selector:
+    app: aks-ssh
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 22
+    targetPort: 22
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: aks-ssh
+  labels:
+    app: aks-ssh
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aks-ssh
+  template:
+    metadata:
+      labels:
+        app: aks-ssh
+    spec:
+      containers:
+      - name: alpine
+        image: alpine:latest
+        ports:
+        - containerPort: 22
+        command: ["/bin/sh", "-c", "--"]
+        args: ["while true; do sleep 30; done;"]
+      hostNetwork: true
+      nodeName: aks-nodepool1-19328091-0

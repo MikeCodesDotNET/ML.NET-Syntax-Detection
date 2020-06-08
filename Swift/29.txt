@@ -1,0 +1,13 @@
+extension Company: Decodable {
+  static func decode(j: JSON) -> Decoded<[People] -> Company> {
+    return create
+      <^> j <| "id"
+      <*> j <| ["attributes", "name"]
+  }
+}
+
+func parse(j: JSON) -> Company? {
+  // "included" holds the related people for the company
+  let company = (j <| "data" >>- Company.decode) <*> j <|| "included"
+  return company.value
+}

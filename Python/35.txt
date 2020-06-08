@@ -1,0 +1,97 @@
+#!/usr/bin/env python
+
+from __future__ import print_function
+
+try:
+    # Python 3
+    from functools import reduce
+    STRING_TYPE = str
+except ImportError:
+    # Python 2
+    STRING_TYPE = basestring
+
+import pytest
+
+_SENTINEL = object()
+
+
+def obj_walk(obj, parent_first=True):
+
+    # Top down?
+    if parent_first:
+        yield (), obj
+
+    # For nested objects, the key is the path component.
+    if isinstance(obj, dict):
+        children = obj.items()
+
+    # For nested lists, the position is the path component.
+    elif isinstance(obj, (list, tuple)):
+        children = enumerate(obj)
+
+    # Scalar values have no children.
+    else:
+        children = []
+
+    # Recurse into children
+    for key, value in children:
+        for child_path, child in obj_walk(value, parent_first):
+            yield (key,) + child_path, child
+
+    # Bottom up?
+    if not parent_first:
+        yield (), obj
+
+
+def obj_get_path(obj, path, default=_SENTINEL):
+
+    if isinstance(path, STRING_TYPE):
+        path = path.split('.')
+
+        # Convert integer components into real integers.
+        for position, component in enumerate(path):
+            try:
+                path[position] = int(component)
+            except ValueError:
+                pass
+
+    try:
+        return reduce(lambda x, y: x[y], path, obj)
+    except (IndexError, KeyError, TypeError):
+        if default is _SENTINEL:
+            raise
+
+        return default
+
+
+# Tests
+
+
+@pytest.fixture()
+def sample_object():
+    return dict(
+        a=1,
+        b=2,
+        c=['c1', 'c2'],
+        d=dict(nested=[1, dict(foo='bar', baz={})]),
+    )
+
+
+def test_obj_walk(sample_object):
+    import pprint
+
+    pprint.pprint(sample_object)
+    print()
+
+    for path, obj in obj_walk(sample_object, parent_first=True):
+        print('.'.join(map(str, path)))
+        print(obj)
+        print()
+
+
+def test_obj_get_path(sample_object):
+    assert obj_get_path(sample_object, ['a']) == 1
+    assert obj_get_path(sample_object, 'a') == 1
+
+    assert obj_get_path(sample_object, ['d', 'nested', 1, 'foo']) == 'bar'
+    assert obj_get_path(sample_object, 'd.nested.1.foo') == 'bar'

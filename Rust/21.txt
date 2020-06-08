@@ -1,0 +1,9 @@
+fn empty_vec<T>() -> ~[T] {
+    let v: ~[T] = ~[];
+    v
+}
+
+fn main() {
+   let mut v_int = empty_vec<int>();
+   let mut v_float = empty_vec<float>();
+}

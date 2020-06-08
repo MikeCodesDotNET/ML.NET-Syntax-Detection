@@ -1,0 +1,8 @@
+const secondCar = Object.create(Car, {
+  year: {
+    value: 2020,
+    writable: true
+  },
+  preOwned: {value:false},
+});
+console.log(secondCar.year); // 2020

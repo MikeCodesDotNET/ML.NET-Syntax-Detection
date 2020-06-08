@@ -1,0 +1,197 @@
+<link rel="import" href="../core-scaffold/core-scaffold.html">
+<link rel="import" href="../core-header-panel/core-header-panel.html">
+<link rel="import" href="../core-menu/core-menu.html">
+<link rel="import" href="../core-item/core-item.html">
+<link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="import" href="../core-toolbar/core-toolbar.html">
+<link rel="import" href="../core-menu/core-submenu.html">
+<link rel="import" href="../core-icons/core-icons.html">
+<link rel="import" href="../core-icons/av-icons.html">
+<link rel="import" href="../paper-fab/paper-fab.html">
+
+<polymer-element name="my-element">
+
+  <template>
+    <style>    
+      :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #core_scaffold {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      #core_header_panel {
+        background-color: rgb(255, 255, 255);
+      }
+      #core_toolbar {
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+      #core_menu {
+        font-size: 16px;
+      }
+      #core_drawer_panel {
+        position: absolute;
+        top: 420px;
+        right: 0px;
+        bottom: 0px;
+        left: 1070px;
+      }
+      #core_field {
+        left: 1100px;
+        top: 410px;
+      }
+      #core_selector {
+        width: 100%;
+        height: 50px;
+        left: 1170px;
+        top: 460px;
+      }
+      #core_icon_button {
+        left: 1252px;
+        top: 12px;
+        position: absolute;
+      }
+      #core_menu_button {
+        left: 1150px;
+        top: 470px;
+      }
+      #core_item3 {
+        left: 1170px;
+        top: 470px;
+      }
+      #core_menu1 {
+        font-size: 16px;
+        left: 1200px;
+        top: 410px;
+      }
+      #core_submenu {
+        left: 1160px;
+        top: 470px;
+      }
+      #core_tooltip {
+        left: 1100px;
+        top: 440px;
+      }
+      #core_toolbar2 {
+        right: 0px;
+        left: 1140px;
+        color: rgb(255, 255, 255);
+        fill: rgb(255, 255, 255);
+        top: 480px;
+        background-color: rgb(79, 125, 201);
+      }
+      #input {
+        padding: 15px;
+        left: 1090px;
+        top: 490px;
+      }
+      #core_animated_pages {
+        width: 420px;
+        height: 582px;
+        overflow: hidden;
+        left: 1120px;
+        top: 440px;
+        background-color: rgb(238, 238, 238);
+      }
+      #core_ajax {
+        left: 1080px;
+        top: 410px;
+      }
+      #div1 {
+        left: 600px;
+        top: 0px;
+        position: absolute;
+      }
+      #topeka_profile {
+        width: 300px;
+        height: 300px;
+        left: 1220px;
+        top: 450px;
+      }
+      #topeka_quiz_view {
+        width: 300px;
+        height: 300px;
+        left: 1100px;
+        top: 460px;
+      }
+      #ace_element {
+        width: 400px;
+        height: 300px;
+        left: 1070px;
+        top: 370px;
+      }
+      #chart_js {
+        width: 300px;
+        height: 200px;
+        left: 1100px;
+        top: 420px;
+      }
+      #notification_alert {
+        left: 1100px;
+        top: 430px;
+      }
+      #section {
+        left: 310px;
+        top: 110px;
+        position: absolute;
+      }
+      #section1 {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      #div4 {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        bottom: 50px;
+        right: 24px;
+      }
+      #paper_fab {
+        background-color: rgb(255, 64, 64);
+      }
+    </style>
+    <core-scaffold id="core_scaffold">
+      <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+        <core-toolbar id="core_toolbar">
+          <core-icon-button icon="more-vert" id="core_icon_button" theme="core-light-theme"></core-icon-button>
+        </core-toolbar>
+        <core-menu selected="Materias" valueattr="label" selectedindex="0" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item" icon="face" label="Materias" horizontal center layout active></core-item>
+          <core-item id="core_item1" icon="settings" label="Configuración" horizontal center layout></core-item>
+          <core-item id="core_item2" icon="help" label="Ayuda" horizontal center layout></core-item>
+        </core-menu>
+      </core-header-panel>
+      <div id="div" tool>Mi Horario</div>
+      <div id="div1" layout horizontal>
+        </div>
+      <section id="section"></section>
+      <section id="section1" layout vertical>
+        <div id="div3" hero class="dummy"></div>
+        <div id="div4" class="fab fab-0">
+          <paper-fab icon="create" id="paper_fab" cross-fade-delayed></paper-fab>
+        </div>
+      </section>
+    </core-scaffold>
+  </template>
+
+  <script>
+
+    Polymer({
+      
+    });
+
+  </script>
+
+</polymer-element>

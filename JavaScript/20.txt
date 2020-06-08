@@ -1,0 +1,3 @@
+const movies = new MoviesAPI();
+movies.initialize({});
+movies.getMovie(1);

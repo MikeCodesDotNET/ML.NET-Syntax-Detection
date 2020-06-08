@@ -1,0 +1,26 @@
+
+public protocol StringyType {
+    var string:String { get }
+    init(_ string:String)
+}
+extension String : StringyType {
+    public var string:String{ return self }
+    public init(_ string:String) {
+        self = string
+    }
+}
+
+public protocol DictionaryType {
+    typealias Key
+    typealias Value
+    typealias Element = (Key, Value)
+    subscript(key: Key) -> Value? { get set }
+}
+
+extension DictionaryType where Key:StringyType {
+    public var one:Value? {
+        return self[Key("One")]
+    }
+}
+// This is the line that actually triggers the linker failure. Accidentally ommittted from original verison of Gist.
+extension Dictionary : DictionaryType {}

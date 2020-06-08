@@ -1,0 +1,31 @@
+public class CustomMarshaler : ICustomMarshaler
+{
+    void ICustomMarshaler.CleanUpManagedData(object ManagedObj)
+    {
+    }
+
+    void ICustomMarshaler.CleanUpNativeData(IntPtr pNativeData)
+    {
+        // to be defined
+    }
+
+    int ICustomMarshaler.GetNativeDataSize()
+    {
+        return -1;
+    }
+
+    IntPtr ICustomMarshaler.MarshalManagedToNative(object ManagedObj)
+    {
+        // to be defined
+    }
+
+    object ICustomMarshaler.MarshalNativeToManaged(IntPtr pNativeData)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static ICustomMarshaler GetInstance(string cookie)
+    {
+        return new CustomMarshaler();
+    }
+}

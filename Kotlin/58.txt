@@ -1,0 +1,1 @@
+fun Int.padZeros(length: Int) = "${if (this.sign < 0) "-" else ""}${this.absoluteValue.toString().padStart(length, '0')}"

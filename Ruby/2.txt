@@ -1,0 +1,164 @@
+#
+#  pilite.rb
+#  Library for controlling pi lite raspberry pi led matrix
+#  http://openmicros.org/index.php/articles/94-ciseco-product-documentation/raspberry-pi/280
+#
+#  Created by Vesa-Pekka Palmu on 2015-03-20.
+#  Copyright 2015 Vesa-Pekka Palmu. All rights reserved.
+#
+
+require 'serialport'
+
+class Pilite
+	
+	# Create new Pilite interface
+	def initialize(tty)
+		if tty
+			@sp = SerialPort.new(tty,9600)
+		else
+			# stdout for debuggin
+			@sp = $stdout
+		end
+	end
+	
+	# Print scrolling text
+	def print(text)
+		@sp.puts text
+	end
+	
+	# Set the scroll speed
+	def scroll_speed(speed = 80)
+		send_command("SPEED#{speed}")
+	end
+	
+	# Set all leds on or off
+	def all(leds = false)
+		if leds
+			send_command('ALL,ON')
+		else
+			send_command('ALL,OFF')
+		end
+	end
+	
+	# Bargraph, set a column to x% of max
+	def bargraph(column, value)
+		validate_column(column)
+		validate_value(value)
+		
+		send_command("B#{column},#{value}")
+	end
+	
+	# VU-meter, two horizontal rows
+	def vu_meter(row,value)
+		unless [1,2].include? row
+			raise ArgumentError, "Row must be either 1 or 2"
+		end
+		
+		validate_value(value)
+		
+		send_command("V#{row},#{value}")
+	end
+	
+	# Set a single pixel
+	def set_pixel(column,row,on = true)
+		validate_column(column)
+		validate_row(row)
+		if on
+			send_command("P#{column},#{row},ON")
+		else
+			send_command("P#{column},#{row},OFF")
+		end
+	end
+	
+	# Toggle a pixel
+	def toggle_pixel(column,row)
+		validate_column(column)
+		validate_row(row)
+		send_command("P#{column},#{row},TOGGLE")
+	end
+	
+	# Scroll val columns to left (negatives scroll to right)
+	def scroll(val)
+		if val < -14 || val > 14 || val == 0
+			raise ArgumentError, "val must be in -14 - 14, excluding 0. Got: #{val}"
+		end
+		send_command("SCROLL#{val}")
+	end
+	
+	# Print a letter to given coordinates
+	def letter(column,row,letter)
+		validate_column(column)
+		validate_row(row)
+		
+		send_command("T#{column},#{row},#{letter}")
+	end
+	
+	# Set the leds acording to a pixel map, a 14x9 array
+	def pixmap(map)
+		unless map.join('').length == 126
+			raise ArgumentError, "Invalid map size"
+		end
+		send_command("F#{map.join('')}")
+	end
+	
+	# draw some effects!
+	def draw
+		sleep_delay = 1.0 / 50.0
+		
+		map = create_map
+		
+		pixmap(map)
+		sleep(sleep_delay)
+		
+		# Fill screen one column at time
+		map.each_index do |i|
+			map[i] = Array.new(9,1)
+			pixmap(map)
+			sleep(sleep_delay)
+		end
+		
+		# Wipe screen one row at a time
+		(0..8).each do |row|
+			map.each_index do |c|
+				map[c][row] = 0
+			end
+			pixmap(map)
+			sleep(sleep_delay)
+		end
+		
+	end
+	
+	# Create a 14x9 array suitable for pixel maps
+	def create_map
+		return Array.new(14, Array.new(9,0))
+	end
+	
+	private
+	
+	# Send a command
+	def send_command(cmd)
+		@sp.puts "$$$#{cmd}\r"
+	end
+	
+	# Check that column coordinate is in 1-14
+	def validate_column(column)
+		if column < 1 || column > 14
+			raise ArgumentError, "Invalid column given. Expected: 1-14, given #{column}"
+		end
+	end
+	
+	# Check that row coordinate is in 1-9
+	def validate_row(row)
+		if row < 1 || row > 9
+			raise ArgumentError, "Invalid row given. Expected: 1-9, given #{row}"
+		end		
+	end
+	
+	# Check that the value is between 0 and 100
+	def validate_value(value)
+		if value < 0 || value > 100
+			raise ArgumentError, "Invalid value given. Expected: 0-100, given #{value}"
+		end
+	end
+	
+end
