@@ -1,0 +1,22 @@
+var jobStatus = await client.GetStatusAsync(idString);
+if (jobStatus == null)
+{
+    return new NotFoundResult();
+}
+if (jobStatus.RuntimeStatus == OrchestrationRuntimeStatus.Canceled
+    || jobStatus.RuntimeStatus == OrchestrationRuntimeStatus.Failed
+    || jobStatus.RuntimeStatus == OrchestrationRuntimeStatus.Terminated)
+{
+    return new BadRequestObjectResult("Orchestration failed.");
+}
+if (jobStatus.RuntimeStatus == OrchestrationRuntimeStatus.Completed)
+{
+    var result = jobStatus.Output.ToObject<string[]>();
+    var response = new ContentResult
+    {
+        Content = string.Join("<hr/>", result),
+        ContentType = "text/html"
+    };
+    return response;
+}
+return new StatusCodeResult((int)HttpStatusCode.Accepted);

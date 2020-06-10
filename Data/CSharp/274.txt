@@ -1,0 +1,33 @@
+public class CameraPermission : BasePermission
+{
+    public CameraPermission() : base(Permission.Camera)
+    {
+
+    }
+#if __IOS__
+    public override Task<PermissionStatus> CheckPermissionStatusAsync() => 
+        Task.FromResult(PermissionsImplementation.GetAVPermissionStatus(AVFoundation.AVMediaType.Video));
+
+
+    public override Task<PermissionStatus> RequestPermissionAsync() =>
+        PermissionsImplementation.RequestAVPermissionStatusAsync(AVFoundation.AVMediaType.Video);
+#endif
+}
+
+
+
+public class ContactsPermission : BasePermission
+{
+    public ContactsPermission() : base(Permission.Contacts)
+    {
+
+    }
+#if __IOS__
+    public override Task<PermissionStatus> CheckPermissionStatusAsync() =>
+        Task.FromResult(PermissionsImplementation.ContactsPermissionStatus);
+
+
+    public override Task<PermissionStatus> RequestPermissionAsync() =>
+        PermissionsImplementation.RequestContactsPermission();
+#endif
+}

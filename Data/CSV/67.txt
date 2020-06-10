@@ -1,0 +1,112 @@
+Description,Category,Who Paid,Amount,Currency,Jason,Charlie,Robbie,Quenby,Yumi
+2nd Nachos,Food,Charlie,26,C,TRUE,TRUE,TRUE,,
+Beer in Vancouver,Food,Charlie,7.5,C,TRUE,,,,
+groceries in Portland,Food,Charlie,65,D,TRUE,TRUE,TRUE,,
+concert ticket,Entertainment,Charlie,30,C,,,TRUE,,
+Taxi in Vancouver,Transportation,Jason,18,C,TRUE,TRUE,TRUE,,
+Tacos in Vancouver,Food,Jason,39,C,TRUE,TRUE,,,
+Loan,MIsc,Jason,50,E,,,TRUE,,
+Euro Map,Transportation,Jason,10,E,TRUE,,TRUE,TRUE,TRUE
+Loan for car payment,Misc,Jason,400,D,,,TRUE,,
+Fuel in Italy,Transportation,Jason,45.76,E,TRUE,,TRUE,TRUE,TRUE
+Toll - Italy,Transportation,Jason,20.9,E,TRUE,,TRUE,TRUE,TRUE
+Toll - Italy,Transportation,Jason,2.7,E,TRUE,,TRUE,TRUE,TRUE
+Bike Rental,Transportation,Jason,20,E,TRUE,,TRUE,TRUE,TRUE
+Train (Utrecht to Delft),Transportation,Jason,20,E,TRUE,,,,TRUE
+Train (Brussels to Delft),Transportation,Jason,63.2,E,TRUE,,,,TRUE
+Camping in NL,Lodging,Jason,50,E,TRUE,,TRUE,TRUE,TRUE
+Beer/Cheese Locus Publicus,Food,Jason,14,E,,,TRUE,,
+Beer/Cheese Locus Publicus,Food,Jason,5.8,E,,,,,TRUE
+Beer/Cheese Locus Publicus,Food,Jason,7,E,,,,TRUE,
+Fruit gift to Jane and Rusl,Food,Jason,17.25,C,TRUE,,TRUE,,
+Fuel at Airport,Transportation,Jason,36.61,E,TRUE,,TRUE,TRUE,TRUE
+Brussels Aiport to Brussels Central,Transportation,Jason,30.4,E,TRUE,,TRUE,TRUE,TRUE
+Food for Siobhan's italian dinner,Food,Jason,12.3,E,TRUE,,TRUE,TRUE,TRUE
+toll sticker for car in switzerland,transportation,Quenby,20,E,TRUE,,TRUE,TRUE,TRUE
+drinks in Bari (Matiti Brown),Food,Quenby,14.25,E,,,TRUE,TRUE,
+telephone sim card + charger,Other,Quenby,20,E,,,TRUE,TRUE,
+gelato in Bari,Food,Quenby,3.6,E,,,TRUE,TRUE,
+italy toll to bari,Transportation,Quenby,33,E,TRUE,,TRUE,TRUE,TRUE
+italy toll,Transportation,Quenby,22.9,E,TRUE,,TRUE,TRUE,TRUE
+car fuel on way to bari,transportation,Quenby,58,E,TRUE,,TRUE,TRUE,TRUE
+food near milan,food,Quenby,17.1,E,,,TRUE,TRUE,
+airport parking bari,transportation,Quenby,4,E,TRUE,,TRUE,TRUE,TRUE
+drinks in florence,food,Quenby,6,E,,,TRUE,,
+lunch and iced tea in florence,food,Quenby,18.4,E,,,TRUE,TRUE,
+beer in florence (the green store),food,Quenby,5.3,E,,,TRUE,,
+dinner and gelato in florence,food,Quenby,29.8,E,,,TRUE,TRUE,
+car fuel on way to rome,transportation,Quenby,58,E,TRUE,,TRUE,TRUE,TRUE
+food on way to rome,food,Quenby,6.7,E,,,TRUE,TRUE,
+food in brussels,food,Quenby,55.01,E,,,TRUE,TRUE,
+gasoline near bern,transportation,Quenby,50,F,TRUE,,TRUE,TRUE,TRUE
+salad at rest stop near bologna,food,Quenby,4.02,E,,,TRUE,TRUE,
+bfast at rest stop near bologna,food,Quenby,7.8,E,,,TRUE,TRUE,
+2 train tix from brussels to delft,transportation,Quenby,66.7,E,,,TRUE,TRUE,
+gasoline near milan,transportation,Quenby,44.65,E,TRUE,,TRUE,TRUE,TRUE
+parking in downtown bari,transportation,Quenby,2,E,TRUE,,TRUE,TRUE,TRUE
+sandwich in italy,food,Quenby,4,E,,,TRUE,,
+gift for siobhan plus a drink,food/other,Quenby,18.05,E,,,TRUE,TRUE,
+tram day pass in brussels,transportation,Quenby,12,E,,,TRUE,TRUE,
+supermarket food in florence,food,Quenby,10.05,E,,,TRUE,,
+food at orval,food,Quenby,17.7,E,TRUE,,TRUE,TRUE,
+museo galileo in florence,entertainment,Quenby,18,E,,,TRUE,TRUE,
+wine and water in florence,food,Quenby,14.9,E,,,TRUE,,
+food,food,Quenby,7.1,E,,,TRUE,,
+gelato in bern,food,Quenby,4,F,,,TRUE,TRUE,
+dinner in bern,food,Quenby,55.69,D,,,TRUE,TRUE,
+dinner for siobhan in bern,food,Quenby,12,F,,,TRUE,TRUE,
+bike rental in amsterdam,transportation,Quenby,18,E,,,TRUE,TRUE,
+food looks like in italy,food,Quenby,6.62,E,,,TRUE,,
+waffles,food,Quenby,7.2,E,,,TRUE,TRUE,
+train ticket delft to amsterdam,transportation,Quenby,23.9,E,,,TRUE,,
+breakfast delft,food,Quenby,5,E,,,TRUE,,
+dinner amsterdam,food,Quenby,5,E,,,TRUE,,
+train ticket delft to amsterdam,transportation,Quenby,23.9,E,,,TRUE,,
+dinner/snack amsterdam,food,Quenby,13.6,E,,,TRUE,TRUE,
+brunch at TU delft,food,Quenby,5.5,E,,,TRUE,,
+camping,other,Quenby,2,E,TRUE,,TRUE,TRUE,TRUE
+loan 7/19 delft/the hague,other,Quenby,10,E,,,TRUE,,
+"dinner + beer at gollem, amsterdam",food,Quenby,25.75,E,,,TRUE,,
+beer in den haag,food,Quenby,11.7,E,,,TRUE,,
+food den haag roti,food,Quenby,10,E,,,TRUE,,
+loan brussels,other,Quenby,50,E,,,TRUE,,
+toll sticker for car in switzerland,transportation,Robbie,20,E,TRUE,,TRUE,TRUE,TRUE
+Foundation Dinner,Food,Robbie,58,C,TRUE,TRUE,TRUE,,
+Beer in Vancouver,Food,Robbie,16.55,C,TRUE,,TRUE,,
+Groceries in Portland,Food,Robbie,9.17,D,TRUE,TRUE,TRUE,,
+Groceries for eric's,food,Robbie,23.79,D,TRUE,TRUE,TRUE,,
+Groceries Vancouver,food,Robbie,55.31,C,TRUE,TRUE,TRUE,,
+Meat from from ^,food,Robbie,12.28,C,,TRUE,TRUE,,
+cab to airport,Transportation,Robbie,28.9,C,TRUE,,TRUE,,
+Brussels Mexican groceriesd,food,Robbie,26.2,E,TRUE,,TRUE,TRUE,TRUE
+extras on food reciept,food,Robbie,5.07,E,,,,TRUE,
+Train to Gent,Transportation,Robbie,30,E,,,TRUE,TRUE,
+Lunch at poechenellekelder,food,Robbie,11.4,E,,,,TRUE,
+Dinner at Da Kao II,food,Robbie,9.8,E,,,,TRUE,
+De Hallepoort entrance fee,Sightseeing,Robbie,10,E,,,TRUE,TRUE,
+Train to Leiden from Delft,Transportation,Robbie,20,E,TRUE,,TRUE,TRUE,TRUE
+Train from Utrecht to Delft,Transportation,Robbie,23.4,E,,,TRUE,TRUE,
+Lunch in Gent,food,Robbie,9.2,E,,,,TRUE,
+Le Snack a Pat,food,Robbie,9,E,,,,TRUE,
+food and drinks,food,Robbie,10.5,E,,,TRUE,TRUE,
+drinks for Yannick's crepe bfast,Food,Robbie,5.04,E,TRUE,,TRUE,TRUE,TRUE
+parking in bern,transportation,Robbie,40,F,TRUE,,TRUE,TRUE,TRUE
+bern graffitti parking,transportation,Robbie,4.4,F,TRUE,,TRUE,TRUE,TRUE
+Toll-Bari to Rome,Transportation,Yumi,29.6,E,TRUE,,TRUE,TRUE,TRUE
+Toll-Rome to Florencd,Transportation,Yumi,16.3,E,TRUE,,TRUE,TRUE,TRUE
+Toll-Florence?,Transportation,Yumi,2,E,TRUE,,TRUE,TRUE,TRUE
+Gas-Italy,Transportation,Yumi,40.32,E,TRUE,,TRUE,TRUE,TRUE
+"Beer, Vietemese dinner Brussesels",Food,Yumi,15,E,TRUE,,,,
+Beer first night Brussesls,Food,Yumi,30,E,TRUE,,,,
+Groceries Thai food at Kaspers,Food,Yumi,19.36,E,TRUE,,,,TRUE
+train ticket to orval,Transportation,Yumi,105,E,TRUE,,TRUE,TRUE,TRUE
+Lunch at Orval,Food,Yumi,39.2,E,TRUE,,TRUE,TRUE,TRUE
+Campin in NL,Lodging,Yumi,10,E,TRUE,,TRUE,TRUE,TRUE
+Food at train station,Food,Yumi,6,E,TRUE,,,,
+Food for camping in NL,Food,Yumi,66,E,TRUE,,TRUE,TRUE,TRUE
+Train tick to Brussels,Transportation,Yumi,74,E,TRUE,,,,TRUE
+Cash for airport,Transportation,Yumi,10,E,TRUE,,,,
+AVIS car rental,Transportation,Yumi,659.19,D,TRUE,,TRUE,TRUE,TRUE
+AVIS dent fee,Misc,Yumi,593.43,D,TRUE,,TRUE,TRUE,TRUE
+bicycle seat cover,Misc,Yumi,10,E,TRUE,,,,
+phone calls to AVIS from hotel,MIsc,Yumi,5.6,E,TRUE,,TRUE,TRUE,TRUE67

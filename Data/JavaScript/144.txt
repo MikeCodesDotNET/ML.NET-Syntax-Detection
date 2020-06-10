@@ -1,0 +1,20 @@
+var thisList = null;
+var replaceList = function () {
+  var originalList = thisList;
+  // Define a closure that references originalList but doesn't ever
+  // actually get called. But because this closure exists,
+  // originalList will be in the lexical environment for all
+  // closures defined in replaceList, instead of being optimized
+  // out of it. If this function is removed, there is no leak.
+  var idle = function () {
+    if (originalList)
+      console.log("nice");
+  };
+  thisList = {
+    thisArray: new Array(2000000).join('*'),
+    thisMethod: function () {}
+  };
+  // If you add `originalList = null` here, there is no leak.
+  originalList = null
+};
+setInterval(replaceList, 1000);

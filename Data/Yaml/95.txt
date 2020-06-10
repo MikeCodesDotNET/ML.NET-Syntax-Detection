@@ -1,0 +1,12 @@
+include:
+  ...
+
+install_project_one:
+  extends: .install
+  variables:
+    INSTALL_DIRECTORY: 'project_one/'
+
+install_project_two:
+  extends: .install
+  variables:
+    INSTALL_DIRECTORY: 'project_two/'

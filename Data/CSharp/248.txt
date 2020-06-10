@@ -1,0 +1,4 @@
+[Preserve(AllMembers = true)]
+public partial class Tweet
+{
+}

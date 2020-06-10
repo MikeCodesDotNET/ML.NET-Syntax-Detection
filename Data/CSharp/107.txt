@@ -1,0 +1,10 @@
+select new {
+  OrderId = o.Id,
+  Sum = item.Quantity * item.Price,
+  Name = item.Product.Name
+}
+
+foreach(var item in result) 
+{
+    Console.WriteLine(" Nested, Order: {0} Sum: {1} Name: {2}", item.OrderId, item.Sum, item.Name);
+}

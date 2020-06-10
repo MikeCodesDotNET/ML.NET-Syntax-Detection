@@ -1,0 +1,11 @@
+public void Action(double amount, string cardNumber, string address, string city, string name) 
+{
+  var paymentService = new PaymentService();
+  var successfullyCharged = paymentService.Charge(int amount, cardNumber);
+
+  if (successfullyCharged) 
+  {
+    var shippingService = new ShippingService();
+    shippingService.Ship(address, city, name);
+  }
+}

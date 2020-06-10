@@ -1,0 +1,17 @@
+type Mutation {
+  createMovie(..): Movie
+  updateMovie(..): Movie
+  deleteMovie(..): Movie
+}
+
+type Query {
+  allMovies(..): [Movie]
+  Movie(..): Movie // query single movie
+  GetMovies(..): [Movie]
+}
+
+type Movie {
+  id: ID
+  title: String
+  rating: Integer
+}

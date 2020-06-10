@@ -1,0 +1,17 @@
+static async Task<string> ReadFile1() 
+{
+    await Task.Delay(3000);
+    return "file1";
+}
+
+static async Task<string> ReadFile2()
+{
+    await Task.Delay(4000);
+    return "file2";
+}
+
+static async Task<string> ReadFile3()
+{
+    await Task.Delay(2000);
+    return "file3";
+}

@@ -1,0 +1,18 @@
+using app;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace app_test 
+{
+  [TestClass]
+  public class CalculatorTest 
+  {
+    [DataTestMethod]
+    [DataRow(0)]
+    public void Add(int value) 
+    {
+      var actual = Calculator.Add(value, value);
+      var expected = value + value
+      Assert.AreEqual(actual, expected);
+    }
+  }
+}

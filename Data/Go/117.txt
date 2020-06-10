@@ -1,0 +1,29 @@
+func CreateBook(w http.ResponseWriter, r *http.Request) {
+    requestBody := createBookRequestBody{}
+    if err := json.NewDecoder(r.Body).Decode(&requestBody); err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    book := models.Book{
+        ID: bson.NewObjectId(),
+        Title: requestBody.Title,
+        CreatedAt: time.Now().UTC(),
+    }
+
+    err := db.Update(func(tx *Tx) error {
+        b, err := json.Marshal(&book)
+        if err != nil {
+            return err
+        }
+
+        _, _, err = tx.Set("books::"+book.ID.Hex(), string(b), nil)
+        return err
+    })
+    if err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    writeSuccess(w, book)
+}

@@ -1,0 +1,7 @@
+static async string ReadTxtFile() 
+{
+    using(var sr = new StreamReader(File.Open("test.txt", FileMode.Open)))
+    {
+        return sr.ReadToEnd();
+    }
+}

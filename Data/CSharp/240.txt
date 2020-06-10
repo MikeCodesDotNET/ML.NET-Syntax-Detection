@@ -1,0 +1,8 @@
+var url = $"{req.Scheme}://{req.Host.Value}{req.Path.Value}".Replace("Search", string.Empty);
+
+var contentResult = new ContentResult
+{
+    Content = SearchContent.Replace(BaseUrl, url),
+    ContentType = "text/html"
+};
+return contentResult;

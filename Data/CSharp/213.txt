@@ -1,0 +1,14 @@
+public class TokenClient
+{
+    private readonly HttpClient _client;
+
+    public TokenClient(IHttpClientFactory factory)
+    {
+        _client = factory.CreateClient(nameof(TokenClient));
+    }
+
+    public async Task<CosmosToken> GetTokenAsync()
+    {
+        return await _client.GetJsonAsync<CosmosToken>($"api/RequestToken");
+    }
+}

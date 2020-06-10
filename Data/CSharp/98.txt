@@ -1,0 +1,40 @@
+var characters = new List<Character>(){
+  new Character()
+  {
+      Name = "Bilbo",
+      Age= 290,
+      Type="Hobbit"
+  },
+  new Character()
+  {
+      Name = "Frodo",
+      Age = 70,
+      Type = "Hobbit"
+  },
+  new Character()
+  {
+      Name = "Gandalf",
+      Age= 770,
+      Type="Maya"
+  }
+};
+
+var result =
+  from c in characters
+  group c by c.Type into gr
+  select new { Characters = gr, Race = gr.Key };
+
+// alt syntax
+var groupedResult = 
+  characters
+  .GroupBy( c => c.Type) 
+  .Select(gr => new { Characters = gr, Race = gr.Key });
+
+foreach (var obj in result)
+{
+    Console.WriteLine("Key: --{0}--", obj.Race);
+    foreach (var c in obj.Characters)
+    {
+      Console.WriteLine("Name: {0}", c.Name);
+    }
+}

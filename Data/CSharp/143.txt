@@ -1,0 +1,4 @@
+var hero = new Hero("Luke");
+var villain = new Villain("Darth Vader");
+Character character = hero;
+var ability = string.Empty;

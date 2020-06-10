@@ -1,0 +1,7 @@
+ILogger<MyDataService> logger;
+HttpClient client;
+public MyDataService(ILogger<MyDataService> logger, HttpClient client)
+{
+    this.logger = logger;
+    this.client = client;
+}

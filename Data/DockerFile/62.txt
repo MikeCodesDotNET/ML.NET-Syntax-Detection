@@ -1,0 +1,6 @@
+FROM eta as eta-build
+
+FROM openjdk:8u131
+ENV PATH $PATH:/root/.local/bin
+COPY --from=eta-build /usr/local/bin/stack /usr/local/bin/stack
+COPY --from=eta-build /root /root

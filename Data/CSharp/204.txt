@@ -1,0 +1,5 @@
+var predicate = jsonExpressionParser
+                .ParsePredicateOf<Transaction>(jsonDocument);
+var transactionList = Transaction.GetList(1000);
+var filteredTransactions = transactionList.Where(predicate).ToList();
+filteredTransactions.ForEach(Console.WriteLine);

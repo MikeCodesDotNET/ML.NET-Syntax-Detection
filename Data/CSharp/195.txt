@@ -1,0 +1,2 @@
+var filter = new List<string> { "Clothing" };
+Transactions.Where(t => filter.Contains(t.Category));

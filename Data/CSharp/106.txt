@@ -1,0 +1,19 @@
+var result = from o in orders
+  from item in o.OrderItems
+  select new {
+    OrderId = o.Id,
+    Sum = item.Quantity * item.Price,
+    Name = item.Product.Name
+  };
+
+// alt syntax
+var r = orders
+  .SelectMany( 
+    o => o.OrderItems, // go at depth
+    (order, item) => new // result selector, containing outer and inner collection
+    {
+        OrderId = order.Id,
+        Sum = item.Quantity * item.Price,
+        Name = item.Product.Name
+    }
+);

@@ -1,0 +1,5 @@
+string @operator = rule.GetProperty(nameof(@operator)).GetString();
+string type = rule.GetProperty(nameof(type)).GetString();
+string field = rule.GetProperty(nameof(field)).GetString();
+JsonElement value = rule.GetProperty(nameof(value));
+var property = Expression.Property(parm, field);

@@ -1,0 +1,24 @@
+Type,Design Pattern Name,Description
+Creational,Abstract Factory,This abstraction represents a cluster of dependent or related objects without specifying exact classes
+Creational,Builder,Decouples construction of a complex object from its representation and allows similar complex objects to be built from the same design.
+Creational,Factory Method,This class is able to be a factory to create many different subclasses with the same interface
+Creational,Prototype,You create one instance of the class: then no more new() instances-- just copies of the one instance you made
+Creational,Singleton,This is a class which insures one and only one instantiation of itself will be available at a time
+Structural,Adapter,This adapter pattern allows one class to speak with a client which requests a different interface
+Structural,Bridge,Loosely couple the abstract class through an implementor to the possibly considerably more different concrete classes
+Structural,Composite,The composite design pattern consists of nested classes-- some of which are composite and contain other classes and some which are leaves
+Structural,Decorator,Allows you to modify a class elegantly without creating a new inherited class
+Structural,Facade,This class is a storefront for other sub-classes.  A user of the facade doesn't need to know about them
+Structural,Flyweight,Flyweight allows you to create lots of similar small-grain classes sharing a common memory structure to save memory overall
+Structural,Proxy,This wrapper class provides an abstracted and simplified view of a more complex underlying class
+Behavioral,Chain Of Responsibility,With the chain of responsibility you define an 'if this doesn't work try this' hierarchy in your classes
+Behavioral,Command,This design pattern creates an invoker which records and can execute commands-- invoking correct receiver classes with the commands
+Behavioral,Interpreter,Defines a grammar in a class hierarchy
+Behavioral,Iterator,This pattern provides the means to return elements from a data structure one by one without exposing the data structure
+Behavioral,Mediator,This controls subclass behaviors so that the classes don't need to be aware of one another
+Behavioral,Memento,This functionality allows a class to store and retrieve its state in order to back up to previous states
+Behavioral,Observer,This pattern makes a number of observer subscribers who change state when a subject class changes state
+Behavioral,State,This pattern allows an object to change state by naming handling subclasses for handler functions using an interface design
+Behavioral,Strategy,This pattern uses a shell class which takes on parameter classes to adapt strategy algorithms
+Behavioral,Template Method,Defines a class-level algorithm and lets subclasses fill in each algorithm step with a concrete action
+Behavioral,Vistor,The visitor pattern provides an element which gets visited by different classes and those classes react to the element

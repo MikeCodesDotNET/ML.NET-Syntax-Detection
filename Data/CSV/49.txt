@@ -1,0 +1,6 @@
+origin,carrier,count
+Check In,Inefficient,50
+Check In,Not Accomodating,22
+Noise,Too Loud,110
+Noise,Cannot Sleep,360
+Shower,No Hot Water,200

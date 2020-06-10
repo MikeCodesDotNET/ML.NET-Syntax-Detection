@@ -1,0 +1,30 @@
+using(var db = new StoreContext()) 
+{
+    var authorDbEntry = db.Authors.Add(
+        new Author
+        {
+            Name = "Stephen King",
+        }
+    );
+
+    db.SaveChanges();
+
+    db.Books.AddRange(
+    new Book
+    {
+        Name = "IT",
+        Published = true,
+        AuthorId = authorDbEntry.Entity.Id,
+        Genre = "Mystery"
+    },
+    new Book
+    {
+        Name = "The Langoleers",
+        Published = true,
+        AuthorId = authorDbEntry.Entity.Id,
+        Genre = "Mystery"
+    }
+    );
+
+    db.SaveChanges();
+}

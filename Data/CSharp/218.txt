@@ -1,0 +1,19 @@
+public async Task<CosmosToken> GetTokenForId(string id)
+{
+    var database = _client.GetDatabase(BlogContext.MyBlogs);
+    var cosmosUser = await CreateOrReadUserAsync(database, id);
+    var permissionId = $"Permission-{id}-blogs";
+    var container = database.GetContainer(nameof(BlogContext));
+    var permissions = new PermissionProperties(
+        id: permissionId,
+        permissionMode: PermissionMode.Read,
+        container: container);
+    await cosmosUser.UpsertPermissionAsync(permissions);
+    _logger.LogInformation("Permissions upsert for {user} successful.", id);
+    var token = await cosmosUser.GetPermission(permissionId).ReadAsync();
+    return new CosmosToken
+    {
+        Endpoint = _client.Endpoint.ToString(),
+        Key = token.Resource.Token
+    };
+}

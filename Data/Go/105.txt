@@ -1,0 +1,4 @@
+bytesArray = append(bytesArray, <-done)  
+if err := <-errch; err != nil {   
+   errStr = errStr + " " + err.Error()  
+}

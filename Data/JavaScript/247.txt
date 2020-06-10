@@ -1,0 +1,75 @@
+module.exports = async function (context, req) {
+	// Let's call it log.
+	const log = context.log;
+
+	// Log the entire request just for the demo.
+	log('[RAN] RequestUri=%s', req.originalUrl);
+
+	/**
+	 * Azure function Response.
+	 *
+	 * Processes the `req` request from Paddle.com
+	 * and saves the data to MongoDB Atlas while
+	 * responding the `res` response.
+	 */
+
+	// Database interaction.
+	const mongoose = require('mongoose');
+	const DATABASE = process.env.MongodbAtlas;
+
+	// Connect to our Database and handle any bad connections
+	mongoose.connect(DATABASE);
+	mongoose.Promise = global.Promise; // Tell Mongoose to use ES6 promises
+	mongoose.connection.on('error', (err) => {
+		context.log(`ERROR→ ${err.message}`);
+	});
+
+	// Sale Schema.
+	require('./modelSale');
+	const Sale = mongoose.model('Sale');
+
+	// Create a Response.
+	if (req.query.customFieldName) { // Simple authentication for the purpose of demo.
+
+		// Build the data we need.
+		const sale_gross = req.query.p_sale_gross || '0';
+		const earnings = JSON.parse(req.query.p_earnings)['16413'] || '0'
+		const currency = req.query.p_currency || 'USD';
+		const memberSince = req.query.memberSince || new Date();
+		const customerEmail = req.query.customerEmail || '';
+		const event_time = new Date();
+
+		log('[OUTPUT]—— sale_gross: ' + sale_gross);
+		log('[OUTPUT]—— earnings: ' + earnings);
+		log('[OUTPUT]—— currency: ' + currency);
+
+		const finalData = {
+			sale_gross: sale_gross,
+			earnings: earnings,
+			currency: currency,
+			memberSince: memberSince,
+			customerEmail: customerEmail,
+			event_time: event_time,
+		}
+
+		// Save to db.
+		const sale = await (new Sale(finalData)).save();
+		log("[OUTPUT]—— SALE SAVED: ", sale);
+
+		// Respond with 200.
+		context.res = {
+			status: 200,
+			body: "Thank You for the payment! " + (req.query.customFieldName || req.body.customFieldName)
+		};
+	} else {
+		context.res = {
+			status: 400,
+			body: "Please pass a name on the query string or in the request body"
+		};
+	}
+
+
+	// Informs the runtime that your code has finished. You must call context.done, or else the runtime never knows that your function is complete, and the execution will time out.
+	// @link: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node#contextdone-method
+	context.done();
+};

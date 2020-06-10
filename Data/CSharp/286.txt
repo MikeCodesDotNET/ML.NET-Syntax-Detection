@@ -1,0 +1,5 @@
+hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+{
+    var finalMessage = $"{user} says {message}";
+    // Update the UI
+});

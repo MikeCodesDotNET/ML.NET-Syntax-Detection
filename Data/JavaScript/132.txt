@@ -1,0 +1,12 @@
+// Importing native http module
+const http = require('http');
+
+// Creating a server instance where every call
+// the message 'Hello World' is responded to the client
+const server = http.createServer(function(request, response) {
+  response.write('Hello World');
+  response.end();
+});
+
+// Listening port 8080
+server.listen(8080);

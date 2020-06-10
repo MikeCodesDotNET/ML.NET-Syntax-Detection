@@ -1,0 +1,5 @@
+select new
+{
+  Type = gr.Key,
+  TotalAge = gr.Sum(c => c.Age)
+}

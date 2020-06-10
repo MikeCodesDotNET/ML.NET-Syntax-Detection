@@ -1,0 +1,14 @@
+keystone.createList('Movie', {
+  fields: {
+    title: { 
+      type: Text,
+      isRequired: true,
+      isUnique: true
+    },
+    rating: { 
+      type: Integer,
+      isRequired: true,
+      defaultValue: 10
+    }
+  },
+});

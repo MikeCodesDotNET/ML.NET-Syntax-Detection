@@ -1,0 +1,36 @@
+public class Hero : IEquatable<Hero>
+{
+  public String name;
+  public int hp;
+  public String shout;
+  public Hero(string name, int hp, string shout) 
+  {
+    this.name = name;
+    this.hp = hp;
+    this.shout = shout;
+  }
+
+  public bool Equals(Hero other)
+  {
+      //
+  }
+
+  public override bool Equals(object other)
+  {
+      //
+  }
+
+  public override int GetHashCode()
+  {
+      //
+  }
+
+  public void Deconstruct(out string name, out int hp, out string shout)
+  {
+      name = name;
+      hp = hp;
+      shout = shout;
+  }
+
+    public Hero With(string name = this.name, int age = this.age, string shout = this.shout) => new Hero(name, hp, shout);
+}

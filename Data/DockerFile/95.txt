@@ -1,0 +1,30 @@
+# Switch Node images to non-alpine as PhantomJS doesn't run on Alpine
+FROM node:10-jessie-slim
+LABEL maintainer="Mohammed Essehemy <mohammedessehemy@gmail.com>"
+
+ENV BUILD_PACKAGES="curl build-essential g++ flex bison gperf ruby perl \
+libssl-dev libpng-dev libjpeg-dev python \
+libx11-dev libxext-dev libsqlite3-dev \
+libicu-dev libfreetype6"
+
+ENV RUN_PACKAGES="libfontconfig"
+
+WORKDIR /source
+
+COPY package.json .
+
+RUN apt-get update && apt-get install -y $BUILD_PACKAGES && \
+  npm install --production && \
+  npm audit fix  && \
+  npm cache clean --force && \
+  apt-get remove -y $BUILD_PACKAGES && \
+  apt-get install -y $RUN_PACKAGES && \
+  apt-get -y autoremove && apt-get -y autoclean && apt-get clean
+
+ADD ./ .
+
+RUN chown node:node -R /source
+
+USER node
+
+CMD node ./index.js

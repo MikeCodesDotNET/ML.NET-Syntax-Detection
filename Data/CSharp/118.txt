@@ -1,0 +1,14 @@
+[Test]
+public void ShouldReturnCharged()
+{
+  // arrange
+  paymentServiceMock.Setup(p => p.Charge(It.IsAny<double>(), cardMock.Object)).Returns(true);
+
+  // act
+  var result = controller.CheckOut(cardMock.Object, addressInfoMock.Object);
+
+  // assert
+  shipmentServiceMock.Verify(s => s.Ship(addressInfoMock.Object, items.AsEnumerable()), Times.Once());
+
+  Assert.AreEqual("charged", result);
+}

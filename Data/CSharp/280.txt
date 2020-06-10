@@ -1,0 +1,6 @@
+var id = Preferences.Get("my_id", string.Empty);
+if(string.IsNullOrWhitespace(id))
+{
+   id = System.Guid.NewGuid().ToString();
+   Preferences.Set("my_id", id);
+}

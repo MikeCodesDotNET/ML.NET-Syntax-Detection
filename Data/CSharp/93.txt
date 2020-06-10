@@ -1,0 +1,7 @@
+var scores = new List() { 7, 5, 4, 3, 8, 5  };
+
+var result = from score in scores
+where score > 5
+select score;
+
+var listResult = result.ToList();

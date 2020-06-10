@@ -1,0 +1,3 @@
+from c in characters
+  group c by c.Type into gr
+  select new { Characters = gr, Race = gr.Key };

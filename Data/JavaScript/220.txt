@@ -1,0 +1,8 @@
+async function getFixturesAndTeam(teamId) {
+  const fixtures = await fixtureModel.fetchAll()
+  const team = await teamModel.fetch(teamId)
+  return {
+    team,
+    fixtures: fixtures.filter(x => x.teamId === teamId)
+  }
+}

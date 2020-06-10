@@ -1,0 +1,19 @@
+const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+
+// Sale Schema.
+const saleSchema = new mongoose.Schema({
+    sale_gross: Number,
+    earnings: Number,
+    currency: String,
+    memberSince: Date,
+    customerEmail: String,
+    event_time: {
+        type: Date,
+        default: Date.now
+    },
+});
+
+
+// Export the model.
+module.exports = mongoose.model('Sale', saleSchema);

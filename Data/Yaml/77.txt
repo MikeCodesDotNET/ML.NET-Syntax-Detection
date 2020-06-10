@@ -1,0 +1,26 @@
+name: PR Comment
+on:
+  # Run this workflow only when a new pull request is opened
+  # compare: https://git.io/JvTyV
+  pull_request:
+    types: [opened]
+
+jobs:
+  pr_comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Make files accessible to actions
+      # https://github.com/actions/checkout#readme
+      - uses: actions/checkout@v2
+      # Install Node
+      # https://github.com/actions/setup-node#readme
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      # Install dependencies
+      - run: npm ci
+      # Run pr-comment.js with Node and pass the authentication token 
+      - run: node .github/actions/pr-comment.js
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

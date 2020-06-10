@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-version:
+      python: 3.7
+    commands:
+      - echo "installing something"
+  pre_build:
+    commands:
+      - echo "pre build phase"
+  build:
+    commands:
+      - echo "build phase"
+  post_build:
+    commands:
+      - echo "post build phase"
+
+artifacts:
+  type: zip
+  files:
+    - file1.yml
+    - file2.yml

@@ -1,0 +1,4 @@
+ func (s *AService) CreateA(a *A) error {
+    _, err := s.DB.Model(a).Returning("*").Insert()
+    return err
+  }

@@ -1,0 +1,9 @@
+var req = context.GetInput<string>();
+logger.LogInformation("Starting watcher: {url}", req);
+
+var result = await context.CallHttpAsync(
+    HttpMethod.Get, 
+    new Uri(req, UriKind.Absolute));
+
+logger.LogInformation("Done watching: {url}", req);
+return result.StatusCode;

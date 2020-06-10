@@ -1,0 +1,12 @@
+public MonkeysViewModel(bool designData)
+{
+    if (designData)
+    { 
+        Monkeys = MonkeyHelper.Monkeys;
+        MonkeysGrouped = MonkeyHelper.MonkeysGrouped;
+    }
+    else
+    {
+        //Setup web requests and such
+    }
+}

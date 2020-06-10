@@ -1,0 +1,8 @@
+FROM node
+RUN mkdir -p /usr/src/your-app-name
+WORKDIR /usr/src/your-app-name
+COPY package.json /usr/src/your-app-name/
+RUN npm install
+COPY . /usr/src/your-app-name
+EXPOSE 3000
+CMD [ "npm", "start" ]

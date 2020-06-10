@@ -1,0 +1,18 @@
+package main 
+
+import "fmt"
+
+func split(number int) (int, int) {
+
+  x := number * 4 / 9
+  y := number - x
+
+  return
+}
+
+func main() {
+
+  x, y := split(100)
+
+  fmt.Println("%d + %d = 100", x, y)
+}

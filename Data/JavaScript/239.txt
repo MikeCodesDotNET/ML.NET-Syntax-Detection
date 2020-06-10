@@ -1,0 +1,9 @@
+const fs = require('fs').promises
+
+(async () => {
+  try {
+    const data = JSON.parse(await fs.readFile('/path/to/file.json', 'utf8'))
+  } catch(err) {
+    console.error(err)
+  }
+})()

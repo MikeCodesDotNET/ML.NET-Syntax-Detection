@@ -1,0 +1,1 @@
+Transactions.Where(t => t.TransactionType == "income");

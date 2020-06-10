@@ -1,0 +1,8 @@
+resp, err := http.Get("http://localhost:8080/500")
+if err != nil {
+    log.Fatal(err)
+}
+if resp.StatusCode != 200 {
+    b, _ := ioutil.ReadAll(resp.Body)
+    log.Fatal(string(b))
+}

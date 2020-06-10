@@ -1,0 +1,3 @@
+const test = require('baretest')('Stack Operation Testing'),
+  assert = require('assert')
+  books = require('./stack')

@@ -1,0 +1,806 @@
+Train,Stations,Subway transfers,Connections,Station Label
+1,Van Cortlandt Park–242nd Street,None,None,1
+1,238th Street,None,None,2
+1,231st Street,None,None,3
+1,Marble Hill–225th Street,None,None,4
+1,215th Street,None,None,5
+1,207th Street,None,None,6
+1,Dyckman Street,None,None,7
+1,191st Street,None,None,8
+1,181st Street,None,None,9
+1,168th Street,A ​C (IND Eighth Avenue Line),None,10
+1,157th Street,None,None,11
+1,145th Street,None,None,12
+1,137th Street–City College,None,None,13
+1,125th Street,None,None,14
+1,116th Street–Columbia University,None,None,15
+1,Cathedral Parkway–110th Street,None,None,16
+1,103rd Street,None,None,17
+1,96th Street,​2 ​3,None,18
+1,86th Street,2,None,19
+1,79th Street,2,None,20
+1,72nd Street,​2 ​3,None,21
+1,66th Street–Lincoln Center,2,None,22
+1,59th Street–Columbus Circle,2 A ​B ​C ​D (IND Eighth Avenue Line),None,23
+1,50th Street,2,None,24
+1,Times Square–42nd Street,​2 ​3 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle),None,25
+1,34th Street–Penn Station,​2 ​3,None,26
+1,28th Street,2,None,27
+1,23rd Street,2,None,28
+1,18th Street,2,None,29
+1,14th Street,​2 ​3 F ​M (IND Sixth Avenue Line at 14th Street) L (BMT Canarsie Line at Sixth Avenue),None,30
+1,Christopher Street–Sheridan Square,2,None,31
+1,Houston Street,2,None,32
+1,Canal Street,2,None,33
+1,Franklin Street,2,None,34
+1,Chambers Street,​2 ​3,None,35
+1,Cortlandt Street,None,None,36
+1,Rector Street,2,None,37
+1,South Ferry,2 N ​R ​W (BMT Broadway Line) Out-of-system transfer with MetroCard on weekends only: 4 ​5 (IRT Lexington Avenue Line at Bowling Green),None,38
+2,Wakefield–241st Street,5,Metro-North Railroad Harlem Line at Wakefield,1
+2,Eastchester–Dyre Avenue,None,None,2
+2,East 180th Street,5,None,3
+2,West Farms Square–East Tremont Avenue,5,Q44 Select Bus Service,4
+2,174th Street,5,None,5
+2,Freeman Street,5,None,6
+2,Simpson Street,5,None,7
+2,Intervale Avenue,5,Bx6 Select Bus Service,8
+2,Prospect Avenue,5,None,9
+2,Jackson Avenue,5,None,10
+2,Third Avenue–149th Street,5,Bx41 Select Bus Service,11
+2,149th Street–Grand Concourse,5 4 (IRT Jerome Avenue Line),None,12
+2,135th Street,3,None,13
+2,125th Street,3,M60 Select Bus Service to LaGuardia Airport,14
+2,116th Street,3,None,15
+2,Central Park North–110th Street,3,None,16
+2,96th Street,1 ​​3,None,17
+2,86th Street,1,M86 Select Bus Service,18
+2,79th Street,1,M79 Select Bus Service,19
+2,72nd Street,1 ​​3,None,20
+2,66th Street–Lincoln Center,1,None,21
+2,59th Street–Columbus Circle,1 A ​D (IND Eighth Avenue Line),None,22
+2,50th Street,1,None,23
+2,Times Square–42nd Street,1 ​​3 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle),Port Authority Bus Terminal,24
+2,34th Street–Penn Station,1 ​​3,"M34 / M34A Select Bus Service Amtrak, LIRR and NJ Transit at Pennsylvania Station",25
+2,28th Street,1,None,26
+2,23rd Street,1,M23 Select Bus Service,27
+2,18th Street,1,None,28
+2,14th Street,1 ​​3 F ​M (IND Sixth Avenue Line at 14th Street) L (BMT Canarsie Line at Sixth Avenue),PATH at 14th Street,29
+2,Christopher Street–Sheridan Square,1,PATH at Christopher Street,30
+2,Houston Street,1,None,31
+2,Canal Street,1,None,32
+2,Franklin Street,1,None,33
+2,Chambers Street,1 ​​3,None,34
+2,Cortlandt Street,None,Closed due to heavy damage sustained from the September 11 attacks; expected to open when rehabilitation project is complete in 2018,35
+2,N ​R ​W (BMT Broadway Line) Out-of-system transfer with MetroCard when the 2 operates here: 4 ​5 (IRT Lexington Avenue Line at Bowling Green),None,None,36
+2,Park Place,3 A ​C (IND Eighth Avenue Line at Chambers Street) E (IND Eighth Avenue Line at World Trade Center) N ​R ​W (BMT Broadway Line at Cortlandt Street),PATH at World Trade Center,37
+2,Clark Street,3,None,38
+2,Hoyt Street,3,None,39
+2,President Street,5,None,40
+2,5,None,None,41
+2,5,None,None,42
+2,5,None,None,43
+2,5,None,None,44
+2,5,None,None,45
+2,5,None,None,46
+2,Nostrand Avenue,3,B44 Select Bus Service,47
+2,3,None,None,48
+2,​3 ​4 ​5,None,None,49
+2,Sutter Avenue–Rutland Road,​3 ​4 ​5,B15 bus to JFK Airport,50
+2,​3 ​4 ​5,None,None,51
+2,​3 ​4 ​5,None,None,52
+2,​3 ​4 ​5,None,None,53
+2,​3 ​4 ​5,None,None,54
+2,​3 ​4 ​5,None,None,55
+2,​3 ​4 ​5,None,None,56
+3,Harlem–148th Street,None,None,1
+3,145th Street,None,None,2
+3,135th Street,2,None,3
+3,125th Street,2,None,4
+3,116th Street,2,None,5
+3,Central Park North–110th Street,2,None,6
+3,96th Street,1 ​2 ​,None,7
+3,72nd Street,1 ​2 ​,None,8
+3,Times Square–42nd Street,1 ​2 ​ 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle),None,9
+3,34th Street–Penn Station,1 ​2 ​,None,10
+3,14th Street,1 ​2 ​ F ​M (IND Sixth Avenue Line at 14th Street) L (BMT Canarsie Line),None,11
+3,Chambers Street,1 ​2 ​,None,12
+3,Park Place,2 A ​C (IND Eighth Avenue Line at Chambers Street) E (IND Eighth Avenue Line at World Trade Center) N ​R ​W (BMT Broadway Line at Cortlandt Street),None,13
+3,Fulton Street,2 4 ​5 (IRT Lexington Avenue Line) A ​C (IND Eighth Avenue Line) J ​Z (BMT Nassau Street Line),None,14
+3,Wall Street,2,None,15
+3,Clark Street,2,None,16
+3,Borough Hall,2 4 ​5 (IRT Eastern Parkway Line) R ​W (BMT Fourth Avenue Line),None,17
+3,Hoyt Street,2,None,18
+3,Nevins Street,2 ​​4 ​5,None,19
+3,Atlantic Avenue–Barclays Center,2 ​​4 ​5 B ​Q (BMT Brighton Line) D ​N ​R ​W (BMT Fourth Avenue Line),None,20
+3,Bergen Street,2 ​​4,None,21
+3,Grand Army Plaza,2 ​​4,None,22
+3,Eastern Parkway–Brooklyn Museum,2 ​​4,None,23
+3,Franklin Avenue,2 ​​4 ​5 S (BMT Franklin Avenue Line),None,24
+3,Nostrand Avenue,2,None,25
+3,Kingston Avenue,2,None,26
+3,Crown Heights–Utica Avenue,2 ​​4 ​5,None,27
+3,Sutter Avenue–Rutland Road,2 ​​4 ​5,None,28
+3,Saratoga Avenue,2 ​​4 ​5,None,29
+3,Rockaway Avenue,2 ​​4 ​5,None,30
+3,Junius Street,2 ​​4 ​5,None,31
+3,Pennsylvania Avenue,2 ​​4 ​5,None,32
+3,Van Siclen Avenue,2 ​​4 ​5,None,33
+3,New Lots Avenue,2 ​​4 ​5,None,34
+4,Woodlawn,None,None,1
+4,Mosholu Parkway,None,None,2
+4,Bedford Park Boulevard–Lehman College,None,None,3
+4,Kingsbridge Road,None,None,4
+4,Fordham Road,None,None,5
+4,183rd Street,None,None,6
+4,Burnside Avenue,None,None,7
+4,176th Street,None,None,8
+4,Mount Eden Avenue,None,None,9
+4,170th Street,None,None,10
+4,167th Street,None,None,11
+4,161st Street–Yankee Stadium,B ​D (IND Concourse Line),None,12
+4,149th Street–Grand Concourse,2 ​5 (IRT White Plains Road Line),None,13
+4,138th Street–Grand Concourse,5,None,14
+4,125th Street,​5 ​6 <6>,None,15
+4,116th Street,6,None,16
+4,110th Street,6,None,17
+4,103rd Street,6,None,18
+4,96th Street,6,None,19
+4,86th Street,​5 ​6 <6>,None,20
+4,77th Street,6,None,21
+4,68th Street–Hunter College,6,None,22
+4,59th Street,​5 ​6 <6> N ​R ​W (BMT Broadway Line) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),None,23
+4,51st Street,6 E (IND Queens Boulevard Line at Lexington Avenue–53rd Street),None,24
+4,Grand Central–42nd Street,​5 ​6 <6> 7 <7> ​ (IRT Flushing Line) S (42nd Street Shuttle),None,25
+4,33rd Street,6,None,26
+4,28th Street,6,None,27
+4,23rd Street,6,None,28
+4,14th Street–Union Square,​5 ​6 <6> L (BMT Canarsie Line) N ​Q ​R ​W (BMT Broadway Line),None,29
+4,Astor Place,6,None,30
+4,Bleecker Street,6 D ​F (IND Sixth Avenue Line at Broadway–Lafayette Street),None,31
+4,Spring Street,6,None,32
+4,Canal Street,6 N ​Q (BMT Broadway Line) J (BMT Nassau Street Line),None,33
+4,Brooklyn Bridge–City Hall,​5 ​6 <6> J M Z ​ (BMT Nassau Street Line at Chambers Street),None,34
+4,Fulton Street,5 2 ​3 (IRT Broadway–Seventh Avenue Line) A ​C (IND Eighth Avenue Line) J ​Z (BMT Nassau Street Line) Connection to N ​R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,35
+4,Wall Street,5,None,36
+4,Bowling Green,5 Out-of-system transfers with MetroCard on weekends only: 1 ​2 (IRT Broadway–Seventh Avenue Line at South Ferry) N ​R ​ (BMT Broadway Line at Whitehall Street–South Ferry),None,37
+4,Borough Hall,5 2 ​3 (IRT Broadway–Seventh Avenue Line) N R ​W (BMT Fourth Avenue Line),None,38
+4,Nevins Street,2 ​3 ​​5,None,39
+4,Atlantic Avenue–Barclays Center,2 ​3 ​​5 B ​Q (BMT Brighton Line) D ​N ​R ​W (BMT Fourth Avenue Line),None,40
+4,Bergen Street,2 ​​5,None,41
+4,Grand Army Plaza,2 ​​5,None,42
+4,Eastern Parkway–Brooklyn Museum,2 ​​5,None,43
+4,Franklin Avenue,2 ​3 ​​5 S (BMT Franklin Avenue Line),None,44
+4,Nostrand Avenue,None,None,45
+4,Kingston Avenue,None,None,46
+4,Crown Heights–Utica Avenue,2 ​3 ​​5,None,47
+5,Eastchester–Dyre Avenue,None,Northern terminal for weekday and weekday late night service,1
+5,Wakefield–241st Street,2,Station is served by limited northbound a.m. rush hour service that terminates here only Northern terminal for weekend and weekend late night service,2
+5,East 180th Street,2,Some southbound rush hour trips begin at this station Some northbound a.m. rush hour trips terminate at this station Southern terminal for weekday late night service,3
+5,West Farms Square–East Tremont Avenue,2,Q44 Select Bus Service,4
+5,174th Street,2,None,5
+5,Freeman Street,2,None,6
+5,Simpson Street,2,None,7
+5,Intervale Avenue,2,Bx6 Select Bus Service,8
+5,Prospect Avenue,2,None,9
+5,Jackson Avenue,2,None,10
+5,Third Avenue–149th Street,2,Bx41 Select Bus Service,11
+5,149th Street–Grand Concourse,2 4 (IRT Jerome Avenue Line),None,12
+5,138th Street–Grand Concourse,4,None,13
+5,125th Street,4 ​​6 <6>,Metro-North Railroad at Harlem–125th Street M60 Select Bus Service to LaGuardia Airport,14
+5,86th Street,4 ​​6 <6>,M86 Select Bus Service,15
+5,59th Street,4 ​​6 <6> N ​R ​W (BMT Broadway Line) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),Roosevelt Island Tramway,16
+5,Grand Central–42nd Street,4 ​​6 <6> 7 <7> ​ (IRT Flushing Line) S (42nd Street Shuttle),Metro-North Railroad at Grand Central Terminal,17
+5,14th Street–Union Square,4 ​​6 <6> L (BMT Canarsie Line) N ​Q ​R ​W (BMT Broadway Line),None,18
+5,Brooklyn Bridge–City Hall,4 ​​6 <6> J M Z ​ (BMT Nassau Street Line at Chambers Street),None,19
+5,Fulton Street,4 2 ​3 (IRT Broadway–Seventh Avenue Line) A ​C (IND Eighth Avenue Line) J ​Z (BMT Nassau Street Line) Connection to N ​R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,20
+5,Wall Street,4,None,21
+5,Bowling Green,4 Out-of-system transfers with MetroCard on weekends only: 1 ​2 (IRT Broadway–Seventh Avenue Line at South Ferry) N ​R ​ (BMT Broadway Line at Whitehall Street–South Ferry),"Staten Island Ferry at Whitehall Terminal Southern terminal for weekday evening service, as well as some rush hour service",22
+5,Borough Hall,4 2 ​3 (IRT Broadway–Seventh Avenue Line) R ​W (BMT Fourth Avenue Line),Station is ADA-accessible in the northbound direction only,23
+5,Nevins Street,2 ​3 ​4 ​,None,24
+5,Atlantic Avenue–Barclays Center,2 ​3 ​4 ​ B ​Q (BMT Brighton Line) D ​N ​R ​W (BMT Fourth Avenue Line),LIRR Atlantic Branch at Atlantic Terminal,25
+5,Bergen Street,4,None,26
+5,Grand Army Plaza,4,None,27
+5,Eastern Parkway–Brooklyn Museum,4,None,28
+5,Franklin Avenue,2 ​3 ​4 ​ S (BMT Franklin Avenue Line),None,29
+5,President Street,2,None,30
+5,Sterling Street,2,B44 Select Bus Service,31
+5,Winthrop Street,2,B44 Select Bus Service,32
+5,Church Avenue,2,B44 Select Bus Service,33
+5,Beverly Road,2,None,34
+5,Newkirk Avenue,2,B44 Select Bus Service,35
+5,Flatbush Avenue–Brooklyn College,2,B44 Select Bus Service,36
+5,Nostrand Avenue,2 ​3 ​4,One rush-hour train to the Bronx stops here,37
+5,Sutter Avenue–Rutland Road,2 ​3 ​4 ​,B15 bus to JFK Airport,38
+6,Pelham Bay Park,None,None,1
+6,Buhre Avenue,None,None,2
+6,Middletown Road,None,None,3
+6,Westchester Square–East Tremont Avenue,None,None,4
+6,Zerega Avenue,None,None,5
+6,Castle Hill Avenue,None,None,6
+6,Parkchester,None,None,7
+6,St. Lawrence Avenue,None,None,8
+6,Morrison Avenue–Soundview,None,None,9
+6,Elder Avenue,None,None,10
+6,Whitlock Avenue,None,None,11
+6,Hunts Point Avenue,None,None,12
+6,Longwood Avenue,None,None,13
+6,East 149th Street,None,None,14
+6,East 143rd Street–St. Mary's Street,None,None,15
+6,Cypress Avenue,None,None,16
+6,Brook Avenue,None,None,17
+6,Third Avenue–138th Street,None,None,18
+6,125th Street,4 ​5 ​,None,19
+6,116th Street,4,None,20
+6,110th Street,4,None,21
+6,103rd Street,4,None,22
+6,96th Street,4,None,23
+6,86th Street,4 ​5 ​,None,24
+6,77th Street,4,None,25
+6,68th Street–Hunter College,4,None,26
+6,59th Street,4 ​5 ​ N ​R ​W (BMT Broadway Line at Lexington Avenue/59th Street) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),None,27
+6,51st Street,4 E ​M (IND Queens Boulevard Line at Lexington Avenue–53rd Street),None,28
+6,Grand Central–42nd Street,4 ​5 ​ 7 <7> ​ (IRT Flushing Line) S (42nd Street Shuttle),None,29
+6,33rd Street,4,None,30
+6,28th Street,4,None,31
+6,23rd Street,4,None,32
+6,14th Street–Union Square,4 ​5 ​ L (BMT Canarsie Line) N ​Q ​R ​W (BMT Broadway Line),None,33
+6,Astor Place,4,None,34
+6,Bleecker Street,4 B ​D ​F ​M (IND Sixth Avenue Line at Broadway–Lafayette Street),None,35
+6,Spring Street,4,None,36
+6,Canal Street,4 N ​Q ​R ​W (BMT Broadway Line) J M Z ​ (BMT Nassau Street Line),None,37
+6,Brooklyn Bridge–City Hall,4 ​5 ​ J M Z ​ (BMT Nassau Street Line at Chambers Street),None,38
+7,Flushing–Main Street,None,None,1
+7,Mets–Willets Point,None,None,2
+7,111th Street,None,None,3
+7,103rd Street–Corona Plaza,None,None,4
+7,Junction Boulevard,None,None,5
+7,90th Street–Elmhurst Avenue,None,None,6
+7,82nd Street–Jackson Heights,None,None,7
+7,74th Street–Broadway,E ​F ​M ​R (IND Queens Boulevard Line),None,8
+7,69th Street,None,None,9
+7,61st Street–Woodside,None,None,10
+7,52nd Street,None,None,11
+7,46th Street–Bliss Street,None,None,12
+7,40th Street–Lowery Street,None,None,13
+7,33rd Street–Rawson Street,None,None,14
+7,Queensboro Plaza,N ​W (BMT Astoria Line),None,15
+7,Court Square,G (IND Crosstown Line) E ​M (IND Queens Boulevard Line at Court Square–23rd Street),None,16
+7,Hunters Point Avenue,None,None,17
+7,Vernon Boulevard–Jackson Avenue,None,None,18
+7,Grand Central,4 ​5 ​6 <6> (IRT Lexington Avenue Line) S (42nd Street Shuttle),None,19
+7,Fifth Avenue,B ​D ​F ​M (IND Sixth Avenue Line at 42nd Street–Bryant Park),None,20
+7,Times Square,1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle),None,21
+7,34th Street–Hudson Yards,None,None,22
+A,Inwood–207th Street,None,None,1
+A,Dyckman Street,None,None,2
+A,190th Street,None,None,3
+A,181st Street,None,None,4
+A,175th Street,None,None,5
+A,168th Street,C 1 (IRT Broadway–Seventh Avenue Line),None,6
+A,163rd Street–Amsterdam Avenue,None,None,7
+A,155th Street,None,None,8
+A,145th Street,C B ​D (IND Concourse Line),None,9
+A,135th Street,None,None,10
+A,125th Street,​B ​C ​D,None,11
+A,116th Street,None,None,12
+A,Cathedral Parkway–110th Street,None,None,13
+A,103rd Street,None,None,14
+A,96th Street,None,None,15
+A,86th Street,None,None,16
+A,81st Street–Museum of Natural History,None,None,17
+A,72nd Street,None,None,18
+A,59th Street–Columbus Circle,​B ​C ​D 1 ​2 (IRT Broadway–Seventh Avenue Line),None,19
+A,50th Street,E (IND Queens Boulevard Line),None,20
+A,42nd Street–Port Authority Bus Terminal,​C ​E 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle) at Times Square–42nd Street,None,21
+A,34th Street–Penn Station,​C ​E,None,22
+A,23rd Street,E,None,23
+A,14th Street,​C ​E L (BMT Canarsie Line),None,24
+A,West Fourth Street–Washington Square,​C ​E B ​D ​F ​M (IND Sixth Avenue Line),None,25
+A,Spring Street,E,None,26
+A,Canal Street,​C ​E,None,27
+A,Chambers Street,​C ​E 2 ​3 (IRT Broadway–Seventh Avenue Line at Park Place) N ​R ​W (BMT Broadway Line at Cortlandt Street),None,28
+A,Fulton Street,C 2 ​3 (IRT Broadway–Seventh Avenue Line) 4 ​5 (IRT Lexington Avenue Line) J ​Z (BMT Nassau Street Line) Connection to N ​R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,29
+A,High Street,C,None,30
+A,Jay Street–MetroTech,C F N R ​W (BMT Fourth Avenue Line),None,31
+A,Hoyt–Schermerhorn Streets,C G (IND Crosstown Line),None,32
+A,Lafayette Avenue,None,None,33
+A,Clinton–Washington Avenues,None,None,34
+A,Franklin Avenue,S (BMT Franklin Avenue Line),None,35
+A,Nostrand Avenue,C,None,36
+A,Kingston–Throop Avenues,None,None,37
+A,Utica Avenue,C,None,38
+A,Ralph Avenue,None,None,39
+A,Rockaway Avenue,None,None,40
+A,Broadway Junction,C J M Z ​ (BMT Jamaica Line) L (BMT Canarsie Line),None,41
+A,Liberty Avenue,None,None,42
+A,Van Siclen Avenue,None,None,43
+A,Shepherd Avenue,None,None,44
+A,Euclid Avenue,C,None,45
+A,Grant Avenue,None,None,46
+A,80th Street,None,None,47
+A,88th Street,None,None,48
+A,Rockaway Boulevard,None,None,49
+A,104th Street,None,None,50
+A,Aqueduct Racetrack,None,None,51
+A,Beach 67th Street,None,None,52
+A,Beach 90th Street,S (Rockaway Park Shuttle),None,53
+A,S (Rockaway Park Shuttle),None,None,54
+A,S (Rockaway Park Shuttle),None,None,55
+A,S (Rockaway Park Shuttle),None,None,56
+B,Bedford Park Boulevard,D,None,1
+B,Kingsbridge Road,D,None,2
+B,Fordham Road,D,None,3
+B,182nd–183rd Streets,D,None,4
+B,Tremont Avenue,D,None,5
+B,174th–175th Streets,D,None,6
+B,170th Street,D,None,7
+B,167th Street,D,None,8
+B,161st Street–Yankee Stadium,D 4 (IRT Jerome Avenue Line),None,9
+B,155th Street,D,None,10
+B,145th Street,D A ​C (IND Eighth Avenue Line),None,11
+B,135th Street,C,None,12
+B,125th Street,A ​​C ​D,None,13
+B,116th Street,C,None,14
+B,Cathedral Parkway–110th Street,C,None,15
+B,103rd Street,C,None,16
+B,96th Street,C,None,17
+B,86th Street,C,None,18
+B,81st Street–Museum of Natural History,C,None,19
+B,72nd Street,C,None,20
+B,59th Street–Columbus Circle,A ​​C ​D 1 (IRT Broadway–Seventh Avenue Line),None,21
+B,Seventh Avenue,D E (IND Queens Boulevard Line),None,22
+B,47th–50th Streets–Rockefeller Center,​D ​F ​M,None,23
+B,42nd Street–Bryant Park,​D ​F ​M 7 <7> ​ (IRT Flushing Line at Fifth Avenue),None,24
+B,34th Street–Herald Square,​D ​F ​M N ​Q ​R ​W (BMT Broadway Line),None,25
+B,West Fourth Street–Washington Square,​D ​F ​M A ​C ​E (IND Eighth Avenue Line),None,26
+B,Broadway–Lafayette Street,​D ​F ​M 6 <6> ​ (IRT Lexington Avenue Line at Bleecker Street),None,27
+B,Grand Street,D,None,28
+B,DeKalb Avenue,​Q ​R ​W,None,29
+B,Atlantic Avenue–Barclays Center,Q D ​N ​R ​W (BMT Fourth Avenue Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),None,30
+B,Seventh Avenue,Q,None,31
+B,Prospect Park,Q S (BMT Franklin Avenue Line),None,32
+B,Church Avenue,Q,None,33
+B,Newkirk Plaza,Q,None,34
+B,Kings Highway,Q,None,35
+B,Sheepshead Bay,Q,None,36
+B,Brighton Beach,Q,None,37
+C,168th Street,A 1 (IRT Broadway–Seventh Avenue Line),None,1
+C,163rd Street–Amsterdam Avenue,None,None,2
+C,155th Street,None,Bx6 Select Bus Service,3
+C,145th Street,A B ​D (IND Concourse Line),None,4
+C,135th Street,B,None,5
+C,125th Street,A ​B ​​D,M60 Select Bus Service to LaGuardia Airport,6
+C,116th Street,B,None,7
+C,Cathedral Parkway–110th Street,B,None,8
+C,103rd Street,B,None,9
+C,96th Street,B,None,10
+C,86th Street,B,M86 Select Bus Service,11
+C,81st Street–Museum of Natural History,B,M79 Select Bus Service,12
+C,72nd Street,B,None,13
+C,59th Street–Columbus Circle,A ​B ​​D 1 (IRT Broadway–Seventh Avenue Line),None,14
+C,50th Street,E (IND Queens Boulevard Line),Station is ADA-accessible in the southbound direction only.,15
+C,42nd Street–Port Authority Bus Terminal,"A ​​E 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line), 7 <7> ​ (IRT Flushing Line), N ​Q ​R ​W (BMT Broadway Line), S (42nd Street Shuttle) at Times Square–42nd Street",Port Authority Bus Terminal M34A Select Bus Service,16
+C,34th Street–Penn Station,A ​​E,"M34 / M34A Select Bus Service Amtrak, LIRR, NJ Transit at Pennsylvania Station",17
+C,23rd Street,E,M23 Select Bus Service,18
+C,14th Street,A ​​E L (BMT Canarsie Line),None,19
+C,West Fourth Street–Washington Square,A ​​E B ​D ​F ​M (IND Sixth Avenue Line),PATH at 9th Street,20
+C,Spring Street,E,None,21
+C,Canal Street,A ​​E,None,22
+C,Chambers Street,A ​​E 2 ​3 (IRT Broadway–Seventh Avenue Line at Park Place) N ​R ​W (BMT Broadway Line at Cortlandt Street),PATH at World Trade Center,23
+C,Fulton Street,A 2 ​3 (IRT Broadway–Seventh Avenue Line) 4 ​5 (IRT Lexington Avenue Line) J ​Z (BMT Nassau Street Line) Connection to R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,24
+C,High Street,A,None,25
+C,Jay Street–MetroTech,A F R ​W (BMT Fourth Avenue Line),None,26
+C,Hoyt–Schermerhorn Streets,A G (IND Crosstown Line),None,27
+C,Lafayette Avenue,None,None,28
+C,Clinton–Washington Avenues,None,None,29
+C,Franklin Avenue,S (BMT Franklin Avenue Line),None,30
+C,Nostrand Avenue,A,"B44 Select Bus Service, LIRR Atlantic Branch at Nostrand Avenue",31
+C,Kingston–Throop Avenues,None,B15 bus to JFK Airport,32
+C,Utica Avenue,A,B46 Select Bus Service,33
+C,Ralph Avenue,None,None,34
+C,Rockaway Avenue,None,None,35
+C,Broadway Junction,A J M Z ​ (BMT Jamaica Line) L (BMT Canarsie Line),None,36
+C,Liberty Avenue,None,None,37
+C,Van Siclen Avenue,None,None,38
+C,Shepherd Avenue,None,None,39
+C,Euclid Avenue,A,None,40
+D,Norwood–205th Street,None,None,1
+D,Bedford Park Boulevard,B,Some a.m. rush hour trips to and from Brooklyn begin or end their runs at this station[a],2
+D,Kingsbridge Road,B,None,3
+D,Fordham Road,B,Bx12 Select Bus Service,4
+D,182nd–183rd Streets,B,None,5
+D,Tremont Avenue,B,None,6
+D,174th–175th Streets,B,None,7
+D,170th Street,B,None,8
+D,167th Street,B,None,9
+D,161st Street–Yankee Stadium,B 4 (IRT Jerome Avenue Line),Bx6 Select Bus Service,10
+D,155th Street,B,None,11
+D,145th Street,B A ​C (IND Eighth Avenue Line),None,12
+D,125th Street,A ​B ​C ​,M60 Select Bus Service to LaGuardia Airport,13
+D,59th Street–Columbus Circle,A ​B ​C ​ 1 ​2 (IRT Broadway–Seventh Avenue Line),None,14
+D,Seventh Avenue,B E (IND Queens Boulevard Line),None,15
+D,47th–50th Streets–Rockefeller Center,B ​​F ​M,None,16
+D,42nd Street–Bryant Park,B ​​F ​M 7 <7> ​ (IRT Flushing Line at Fifth Avenue),None,17
+D,34th Street–Herald Square,B ​​F ​M N ​Q ​R ​W (BMT Broadway Line),M34 / M34A Select Bus Service PATH at 33rd Street,18
+D,West Fourth Street–Washington Square,B ​​F ​M A ​C ​E (IND Eighth Avenue Line),PATH at 9th Street,19
+D,Broadway–Lafayette Street,B ​​F ​M 4 ​6 <6> (IRT Lexington Avenue Line at Bleecker Street),One northbound weekday evening trip begins at this station,20
+D,Grand Street,B,None,21
+D,DeKalb Avenue,​N ​Q ​R,None,22
+D,Atlantic Avenue–Barclays Center,​N ​R ​W B ​Q (BMT Brighton Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),LIRR Atlantic Branch at Atlantic Terminal,23
+D,Union Street,​N ​R,None,24
+D,Ninth Street,​N ​R F ​G (IND Culver Line at Fourth Avenue),None,25
+D,Prospect Avenue,​N ​R,None,26
+D,25th Street,​N ​R,None,27
+D,36th Street,​N ​R ​W,None,28
+D,Ninth Avenue,None,None,29
+D,Fort Hamilton Parkway,None,None,30
+D,50th Street,None,None,31
+D,55th Street,None,None,32
+D,62nd Street,N ​W (BMT Sea Beach Line at New Utrecht Avenue),None,33
+D,71st Street,None,None,34
+D,79th Street,None,None,35
+D,18th Avenue,None,None,36
+D,20th Avenue,None,None,37
+D,Bay Parkway,None,None,38
+D,25th Avenue,None,None,39
+D,Bay 50th Street,None,None,40
+D,Coney Island–Stillwell Avenue,F (IND Culver Line) N (BMT Sea Beach Line) Q (BMT Brighton Line),None,41
+E,Jamaica–179th Street,F,None,1
+E,Jamaica Center–Parsons/Archer,J ​Z,None,2
+E,Briarwood,F,None,3
+E,Kew Gardens–Union Turnpike,F,None,4
+E,75th Avenue,F,None,5
+E,Forest Hills–71st Avenue,​F ​M ​R,None,6
+E,67th Avenue,None,None,7
+E,63rd Drive–Rego Park,None,None,8
+E,Woodhaven Boulevard,None,None,9
+E,Grand Avenue–Newtown,None,None,10
+E,Elmhurst Avenue,None,None,11
+E,Jackson Heights–Roosevelt Avenue,7 (IRT Flushing Line) ​F ​M ​R,None,12
+E,65th Street,None,None,13
+E,Northern Boulevard,None,None,14
+E,46th Street,None,None,15
+E,Steinway Street,None,None,16
+E,36th Street,None,None,17
+E,Queens Plaza,​M ​R,None,18
+E,Court Square–23rd Street,M G (IND Crosstown Line) 7 <7> ​ (IRT Flushing Line),None,19
+E,Lexington Avenue–53rd Street,4 ​6 <6> (IRT Lexington Avenue Line at 51st Street) M,None,20
+E,Fifth Avenue/53rd Street,M,None,21
+E,Seventh Avenue,B ​D,None,22
+E,50th Street,A ​C (IND Eighth Avenue Line),None,23
+E,42nd Street–Port Authority Bus Terminal,A ​C ​ 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) N ​Q ​R ​W (BMT Broadway Line) S (42nd Street Shuttle) at Times Square–42nd Street,None,24
+E,34th Street–Penn Station,A ​C ​,None,25
+E,23rd Street,A ​C ​,None,26
+E,14th Street,A ​C ​ L (BMT Canarsie Line),None,27
+E,West Fourth Street–Washington Square,A ​C ​ B ​D ​F ​M (IND Sixth Avenue Line),None,28
+E,Spring Street,A ​C ​,None,29
+E,Canal Street,A ​C ​,None,30
+E,World Trade Center [c],A ​C 2 ​3 (IRT Broadway–Seventh Avenue Line at Park Place) N ​R ​W (BMT Broadway Line at Cortlandt Street),None,31
+F,Jamaica–179th Street,E,Q3 bus to JFK Int'l Airport,1
+F,169th Street,None,Q3 bus to JFK Int'l Airport,2
+F,Parsons Boulevard,E,None,3
+F,Sutphin Boulevard,None,Q44 Select Bus Service,4
+F,Briarwood,E,Q44 Select Bus Service,5
+F,Kew Gardens–Union Turnpike,E,Q10 bus to JFK Int'l Airport,6
+F,75th Avenue,E,None,7
+F,Forest Hills–71st Avenue,E ​​M ​R,LIRR Main Line at Forest Hills,8
+F,Jackson Heights–Roosevelt Avenue,E ​​M ​R 7 (IRT Flushing Line),Q47 bus to LaGuardia Airport Marine Air Terminal Q53 Select Bus Service Q70 Select Bus Service to LaGuardia Airport,9
+F,21st Street–Queensbridge,None,None,10
+F,Roosevelt Island,None,Roosevelt Island Tramway,11
+F,Lexington Avenue–63rd Street,F ​ N ​Q ​R Out-of-system transfers with MetroCard: 4 ​5 ​6 <6> (IRT Lexington Avenue Line at 59th Street) N ​R ​W (BMT Broadway Line at Lexington Avenue/59th Street),None,12
+F,57th Street,None,None,13
+F,47th–50th Streets–Rockefeller Center,B ​D ​​M,None,14
+F,42nd Street–Bryant Park,B ​D ​​M 7 <7> ​ (IRT Flushing Line at Fifth Avenue),None,15
+F,34th Street–Herald Square,B ​D ​​M N ​Q ​R ​W (BMT Broadway Line),M34 / M34A Select Bus Service PATH at 33rd Street,16
+F,23rd Street,M,M23 Select Bus Service PATH at 23rd Street,17
+F,14th Street,M 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line at 14th Street) L (BMT Canarsie Line at Sixth Avenue),PATH at 14th Street,18
+F,West Fourth Street–Washington Square,B ​D ​​M A ​C ​E (IND Eighth Avenue Line),PATH at 9th Street,19
+F,Broadway–Lafayette Street,B ​D ​​M 4 ​6 <6> (IRT Lexington Avenue Line at Bleecker Street),None,20
+F,Second Avenue,M,M15 Select Bus Service,21
+F,Delancey Street,J M Z ​ (BMT Nassau Street Line at Essex Street),None,22
+F,East Broadway,None,None,23
+F,York Street,None,None,24
+F,Jay Street–MetroTech,A ​C N R ​W (BMT Fourth Avenue Line),None,25
+F,Bergen Street,G,None,26
+F,Carroll Street,G,None,27
+F,Smith–Ninth Streets,G,None,28
+F,Fourth Avenue,G D ​N ​R ​W (BMT Fourth Avenue Line at Ninth Street),None,29
+F,Seventh Avenue,G,None,30
+F,15th Street–Prospect Park,G,None,31
+F,Fort Hamilton Parkway,G,None,32
+F,Church Avenue,G,One a.m. rush hour trip in each direction begins and ends its run to Manhattan and Queens at this station[a],33
+F,Ditmas Avenue,None,None,34
+F,18th Avenue,None,None,35
+F,Avenue I,None,Manhattan-bound trains do not stop here due to renovations until early 2018.,36
+F,Bay Parkway,None,Manhattan-bound trains do not stop here due to renovations until early 2018.,37
+F,Avenue N,None,Manhattan-bound trains do not stop here due to renovations until early 2018.,38
+F,Avenue P,None,Manhattan-bound trains do not stop here due to renovations until early 2018.,39
+F,Kings Highway,None,Some rush hour trips in either direction begin and end their runs to Manhattan and Queens at this station[b],40
+F,Avenue U,None,Manhattan-bound trains do not stop here due to renovations until early 2018.,41
+F,Avenue X,None,Some northbound a.m. rush hour trips begin at this station,42
+F,Neptune Avenue,None,None,43
+F,West Eighth Street–New York Aquarium,Q (BMT Brighton Line),None,44
+F,Coney Island–Stillwell Avenue,D (BMT West End Line) N (BMT Sea Beach Line) Q (BMT Brighton Line),None,45
+G,Court Square,7 <7> ​ (IRT Flushing Line) at Court Square E ​M (IND Queens Boulevard Line at Court Square–23rd Street),None,1
+G,21st Street,None,None,2
+G,Greenpoint Avenue,None,None,3
+G,Nassau Avenue,None,None,4
+G,Metropolitan Avenue,L (BMT Canarsie Line at Lorimer Street),None,5
+G,Broadway,None,None,6
+G,Flushing Avenue,None,None,7
+G,Myrtle–Willoughby Avenues,None,None,8
+G,Bedford–Nostrand Avenues,None,B44 Select Bus Service,9
+G,Classon Avenue,None,None,10
+G,Clinton–Washington Avenues,None,None,11
+G,Fulton Street,None,None,12
+G,Hoyt–Schermerhorn Streets,A ​C (IND Fulton Street Line),None,13
+G,Bergen Street,F,None,14
+G,Carroll Street,F,None,15
+G,Smith–Ninth Streets,F,None,16
+G,Fourth Avenue,F D ​N ​R ​W (BMT Fourth Avenue Line at Ninth Street),None,17
+G,Seventh Avenue,F,None,18
+G,15th Street–Prospect Park,F,None,19
+G,Fort Hamilton Parkway,F,None,20
+G,Church Avenue,F,None,21
+J,Jamaica Center–Parsons/Archer,E,Q44 Select Bus Service,1
+J,Sutphin Boulevard–Archer Avenue–JFK Airport,E,AirTrain JFK LIRR at Jamaica Q44 Select Bus Service,2
+J,121st Street,None,Q10 bus to JFK Int'l Airport,3
+J,111th Street,None,None,4
+J,104th Street,None,Manhattan-bound trains will not stop here until early 2018 due to renovations,5
+J,Woodhaven Boulevard,None,Q52/Q53 Select Bus Service,6
+J,85th Street–Forest Parkway,None,None,7
+J,75th Street–Elderts Lane,None,None,8
+J,Cypress Hills,None,None,9
+J,Crescent Street,None,None,10
+J,Norwood Avenue,None,None,11
+J,Cleveland Street,None,None,12
+J,Van Siclen Avenue,None,None,13
+J,Alabama Avenue,None,None,14
+J,Broadway Junction,A ​C (IND Fulton Street Line) L (BMT Canarsie Line) M,LIRR Atlantic Branch at East New York Some northbound a.m. rush hour trips begin/terminate at this station[a] Some southbound p.m. rush hour trips begin at this station,15
+J,Chauncey Street,M,None,16
+J,Halsey Street,M,None,17
+J,Gates Avenue,M,None,18
+J,Kosciuszko Street,M,B46 Select Bus Service,19
+J,Myrtle Avenue–Broadway,M,M shuttle buses to Wyckoff Avenue,20
+J,Flushing Avenue,M,B15 bus to JFK Airport,21
+J,Lorimer Street,M,None,22
+J,Hewes Street,M,None,23
+J,Marcy Avenue,M,B44 Select Bus Service,24
+J,Essex Street,M F (IND Sixth Avenue Line at Delancey Street),None,25
+J,Bowery,None,None,26
+J,Canal Street,4 ​6 <6> (IRT Lexington Avenue Line) N ​Q ​R ​W (BMT Broadway Line),None,27
+J,Chambers Street,4 ​5 ​6 <6> (IRT Lexington Avenue Line at Brooklyn Bridge–City Hall),None,28
+J,Fulton Street,2 ​3 (IRT Broadway–Seventh Avenue Line) 4 ​5 (IRT Lexington Avenue Line) A ​C (IND Eighth Avenue Line) Connection to N ​R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,29
+J,Broad Street,None,None,30
+L,Eighth Avenue,A ​C ​E (IND Eighth Avenue Line),None,1
+L,Sixth Avenue,1 ​2 ​3 (IRT Broadway–Seventh Avenue Line at 14th Street) F ​M (IND Sixth Avenue Line at 14th Street),PATH at 14th Street,2
+L,Union Square,4 ​5 ​6 <6> (IRT Lexington Avenue Line) N ​Q ​R ​W (BMT Broadway Line),None,3
+L,Third Avenue,None,None,4
+L,First Avenue,None,Northbound M15 Select Bus Service,5
+L,Bedford Avenue,None,None,6
+L,Lorimer Street,G (IND Crosstown Line at Metropolitan Avenue),None,7
+L,Graham Avenue,None,None,8
+L,Grand Street,None,None,9
+L,Montrose Avenue,None,None,10
+L,Morgan Avenue,None,None,11
+L,Jefferson Street,None,None,12
+L,DeKalb Avenue,None,None,13
+L,Myrtle–Wyckoff Avenues,M (BMT Myrtle Avenue Line),Some a.m. rush hour trips begin or end their runs to/from Eighth Avenue at this station[a],14
+L,Halsey Street,None,None,15
+L,Wilson Avenue,None,Station is ADA-accessible in the northbound direction only.,16
+L,Bushwick Avenue–Aberdeen Street,None,None,17
+L,Broadway Junction,A ​C (IND Fulton Street Line) J M Z ​ (BMT Jamaica Line),None,18
+L,Atlantic Avenue,None,LIRR Atlantic Branch at East New York,19
+L,Sutter Avenue,None,None,20
+L,Livonia Avenue,None,None,21
+L,New Lots Avenue,None,B15 bus to JFK Int'l Airport,22
+L,East 105th Street,None,Some northbound rush hour trips begin at this station,23
+L,Canarsie–Rockaway Parkway,None,None,24
+M,Forest Hills–71st Avenue,E ​F ​​R,LIRR Main Line at Forest Hills,1
+M,67th Avenue,R,None,2
+M,63rd Drive–Rego Park,R,Q72 bus to LaGuardia Airport,3
+M,Woodhaven Boulevard,R,Q52/Q53 Select Bus Service,4
+M,Grand Avenue–Newtown,R,Q53 Select Bus Service,5
+M,Elmhurst Avenue,R,Q53 Select Bus Service,6
+M,Jackson Heights–Roosevelt Avenue,E ​F ​​R 7 (IRT Flushing Line),Q47 bus to LaGuardia Airport Marine Air Terminal Q53 Select Bus Service Q70 Select Bus Service to LaGuardia Airport,7
+M,65th Street,R,None,8
+M,Northern Boulevard,R,None,9
+M,46th Street,R,None,10
+M,Steinway Street,R,None,11
+M,36th Street,R,None,12
+M,Queens Plaza,E ​​R,None,13
+M,Court Square–23rd Street,E G (IND Crosstown Line) 7 <7> ​ (IRT Flushing Line),None,14
+M,Lexington Avenue–53rd Street,E 6 <6> ​ (IRT Lexington Avenue Line at 51st Street),None,15
+M,Fifth Avenue/53rd Street,E,None,16
+M,47th–50th Streets–Rockefeller Center,B ​D ​F ​,None,17
+M,42nd Street–Bryant Park,B ​D ​F ​ 7 <7> ​ (IRT Flushing Line at Fifth Avenue),None,18
+M,34th Street–Herald Square,B ​D ​F ​ N ​Q ​R ​W (BMT Broadway Line),M34/M34A Select Bus Service PATH at 33rd Street,19
+M,23rd Street,F,M23 Select Bus Service PATH at 23rd Street,20
+M,14th Street,F 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line at 14th Street) L (BMT Canarsie Line at Sixth Avenue),PATH at 14th Street,21
+M,West Fourth Street–Washington Square,B ​D ​F ​ A ​C ​E (IND Eighth Avenue Line),PATH at 9th Street,22
+M,Broadway–Lafayette Street,B ​D ​F ​ 6 <6> ​ (IRT Lexington Avenue Line at Bleecker Street),None,23
+M,Second Avenue,F,M15 Select Bus Service,24
+M,Chambers Street,J 4 ​5 6 (IRT Lexington Avenue Line at Brooklyn Bridge–City Hall),Station is served by weekday late evening service that terminates here only,25
+M,Canal Street,J 6 (IRT Lexington Avenue Line) N ​Q ​R (BMT Broadway Line),Station is served by weekday late evening service in the Chambers Street-bound direction only,26
+M,Bowery,J,Station is served by weekday late evening service in the Chambers Street-bound direction only,27
+M,Essex Street,J ​Z F (IND Sixth Avenue Line),Clockwise terminal for weekend trains,28
+M,Marcy Avenue,J Z ​,B44 Select Bus Service,29
+N,96th Street,​Q ​R,None,1
+N,Lexington Avenue–63rd Street,F ​ N ​Q ​R Out-of-system transfers with MetroCard: 4 ​5 ​6 <6> (IRT Lexington Avenue Line at 59th Street) N ​R ​W (BMT Broadway Line at Lexington Avenue/59th Street),None,2
+N,Astoria–Ditmars Boulevard,W,None,3
+N,Lexington Avenue/59th Street,​R ​W 4 ​5 ​6 <6> (IRT Lexington Avenue Line) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),None,4
+N,57th Street–Seventh Avenue,​Q ​R ​W,None,5
+N,49th Street,​Q ​R ​W,None,6
+N,Times Square–42nd Street,​Q ​R ​W 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) S (42nd Street Shuttle),None,7
+N,34th Street–Herald Square,​Q ​R ​W B ​D ​F ​M (IND Sixth Avenue Line),None,8
+N,28th Street,​Q ​R,None,9
+N,23rd Street,​Q ​R,None,10
+N,14th Street–Union Square,​Q ​R ​W L (BMT Canarsie Line) 4 ​5 ​6 <6> (IRT Lexington Avenue Line),None,11
+N,Eighth Street–New York University,​Q ​R,None,12
+N,Prince Street,​Q ​R,None,13
+N,Canal Street–Broadway,​Q ​R ​W 6 <6> ​ (IRT Lexington Avenue Line) J M Z ​ (BMT Nassau Street Line),None,14
+N,Canal Street,Q 4 ​6 (IRT Lexington Avenue Line) J (BMT Nassau Street Line),None,15
+N,Court Street,R 2 (IRT Broadway–Seventh Avenue Line) at Borough Hall 4 ​5 (IRT Eastern Parkway Line) at Borough Hall,None,16
+N,DeKalb Avenue,D ​​Q ​R,None,17
+N,Atlantic Avenue–Barclays Center,D ​​R ​W B ​Q (BMT Brighton Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),None,18
+N,Union Street,D ​​R,None,19
+N,Ninth Street,D ​​R F ​G (IND Culver Line at Fourth Avenue),None,20
+N,Prospect Avenue,D ​​R,None,21
+N,25th Street,D ​​R,None,22
+N,36th Street,D ​​R ​W,None,23
+N,45th Street,R,None,24
+N,53rd Street,R,None,25
+N,59th Street,​R ​W,None,26
+N,Eighth Avenue,W,None,27
+N,Fort Hamilton Parkway,W,None,28
+N,New Utrecht Avenue,W D (BMT West End Line at 62nd Street),None,29
+N,18th Avenue,W,None,30
+N,20th Avenue,W,None,31
+N,Bay Parkway,W,None,32
+N,Kings Highway,W,None,33
+N,Avenue U,W,None,34
+N,86th Street,W,None,35
+N,Coney Island–Stillwell Avenue,D (BMT West End Line) F (IND Culver Line) Q (BMT Brighton Line),None,36
+Q,96th Street,N ​​R,None,1
+Q,86th Street,N ​​R,None,2
+Q,72nd Street,N ​​R,None,3
+Q,Lexington Avenue–63rd Street,F ​ N ​Q ​R Out-of-system transfers with MetroCard: 4 ​5 ​6 <6> (IRT Lexington Avenue Line at 59th Street) N ​R ​W (BMT Broadway Line at Lexington Avenue/59th Street),None,4
+Q,57th Street–Seventh Avenue,N ​​R ​W,None,5
+Q,49th Street,N,None,6
+Q,Times Square–42nd Street,N ​​R ​W 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) S (42nd Street Shuttle),None,7
+Q,34th Street–Herald Square,N ​​R ​W B ​D ​F ​M (IND Sixth Avenue Line),None,8
+Q,28th Street,N,None,9
+Q,23rd Street,N,None,10
+Q,14th Street–Union Square,N ​​R ​W L (BMT Canarsie Line) 4 ​5 ​6 <6> (IRT Lexington Avenue Line),None,11
+Q,Eighth Street–New York University,N,None,12
+Q,Prince Street,N,None,13
+Q,Canal Street,N ​​R ​W 4 ​6 <6> (IRT Lexington Avenue Line) J M Z ​ (BMT Nassau Street Line),None,14
+Q,DeKalb Avenue,B ​D ​N ​​R ​W,None,15
+Q,Atlantic Avenue–Barclays Center,B D ​N ​R ​W (BMT Fourth Avenue Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),None,16
+Q,Seventh Avenue,B,None,17
+Q,Prospect Park,B S (BMT Franklin Avenue Line),None,18
+Q,Parkside Avenue,None,None,19
+Q,Church Avenue,B,None,20
+Q,Beverley Road,None,None,21
+Q,Cortelyou Road,None,None,22
+Q,Newkirk Plaza,B,None,23
+Q,Avenue H,None,None,24
+Q,Avenue J,None,None,25
+Q,Avenue M,None,None,26
+Q,Kings Highway,B,None,27
+Q,Avenue U,None,None,28
+Q,Neck Road,None,None,29
+Q,Sheepshead Bay,B,None,30
+Q,Brighton Beach,B,None,31
+Q,Ocean Parkway,None,None,32
+Q,West Eighth Street–New York Aquarium,F (IND Culver Line),None,33
+Q,Coney Island–Stillwell Avenue,D (BMT West End Line) F (IND Culver Line) N (BMT Sea Beach Line),None,34
+R,96th Street,N ​Q ​,None,1
+R,Lexington Avenue–63rd Street,F ​ N ​Q ​R Out-of-system transfers with MetroCard: 4 ​5 ​6 <6> (IRT Lexington Avenue Line at 59th Street) N ​R ​W (BMT Broadway Line at Lexington Avenue/59th Street),None,2
+R,Forest Hills–71st Avenue,E ​F ​M ​,None,3
+R,Lexington Avenue/59th Street,N ​​W 4 ​5 ​6 <6> (IRT Lexington Avenue Line) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),None,4
+R,57th Street–Seventh Avenue,N ​Q ​​W,None,5
+R,49th Street,N ​​W,None,6
+R,Times Square–42nd Street,N ​Q ​​W 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal) S (42nd Street Shuttle),None,7
+R,34th Street–Herald Square,N ​Q ​​W B ​D ​F ​M (IND Sixth Avenue Line),None,8
+R,28th Street,N ​​W,None,9
+R,23rd Street,N ​​W,None,10
+R,14th Street–Union Square,N ​Q ​​W L (BMT Canarsie Line) 4 ​5 ​6 <6> (IRT Lexington Avenue Line),None,11
+R,Eighth Street–New York University,N ​​W,None,12
+R,Prince Street,N ​​W,None,13
+R,Canal Street,N ​Q ​​W 4 ​6 (IRT Lexington Avenue Line) J (BMT Nassau Street Line),None,14
+R,City Hall,N ​​W,None,15
+R,Cortlandt Street,N ​​W 2 ​3 (IRT Broadway–Seventh Avenue Line at Park Place) A ​C (IND Eighth Avenue Line at Chambers Street) E (IND Eighth Avenue Line at World Trade Center),None,16
+R,Rector Street,N ​​W,None,17
+R,Whitehall Street–South Ferry,N ​​W 1 ​2 (IRT Broadway–Seventh Avenue Line) at South Ferry Out-of-system transfer with MetroCard on weekends only: 4 ​5 (IRT Lexington Avenue Line at Bowling Green),None,18
+R,Court Street,N ​W 2 ​3 (IRT Broadway–Seventh Avenue Line at Borough Hall) 4 ​5 (IRT Eastern Parkway Line at Borough Hall),None,19
+R,Jay Street–MetroTech,N ​W A ​C F (IND Fulton Street and Culver Lines),None,20
+R,DeKalb Avenue,B ​D ​N ​Q ​​W,None,21
+R,Atlantic Avenue–Barclays Center,D ​N ​​W B ​Q (BMT Brighton Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),None,22
+R,Union Street,D ​N ​​W,None,23
+R,Ninth Street,D ​N ​​W F ​G (IND Culver Line at Fourth Avenue),None,24
+R,Prospect Avenue,D ​N ​​W,None,25
+R,25th Street,D ​N ​​W,None,26
+R,36th Street,D ​N ​​W,None,27
+R,45th Street,N ​​W,None,28
+R,53rd Street,N ​​W,None,29
+R,59th Street,N ​​W,None,30
+R,Bay Ridge Avenue,None,None,31
+R,77th Street,None,None,32
+R,86th Street,None,None,33
+R,Bay Ridge–95th Street,None,None,34
+W,Astoria–Ditmars Boulevard,N,None,1
+W,Astoria Boulevard,N,None,2
+W,30th Avenue,N,None,3
+W,Broadway,N,None,4
+W,36th Avenue,N,None,5
+W,39th Avenue,N,None,6
+W,Queensboro Plaza,N 7 <7> ​ (IRT Flushing Line),None,7
+W,Lexington Avenue/59th Street,N ​R ​ 4 ​5 ​6 <6> (IRT Lexington Avenue Line) Out-of-system transfer with MetroCard: F ​ N ​Q ​R (63rd Street Lines at Lexington Avenue–63rd Street),None,8
+W,Fifth Avenue–59th Street,N ​R ​,None,9
+W,57th Street–Seventh Avenue,N ​Q ​R ​,None,10
+W,49th Street,N ​R ​,None,11
+W,Times Square–42nd Street,N ​Q ​R ​ 1 ​2 ​3 (IRT Broadway–Seventh Avenue Line) 7 <7> ​ (IRT Flushing Line) S (42nd Street Shuttle) A ​C ​E (IND Eighth Avenue Line at 42nd Street–Port Authority Bus Terminal),None,12
+W,34th Street–Herald Square,N ​Q ​R ​ B ​D ​F ​M (IND Sixth Avenue Line),None,13
+W,28th Street,R,None,14
+W,23rd Street,R,None,15
+W,14th Street–Union Square,N ​Q ​R ​ L (BMT Canarsie Line) 4 ​5 ​6 <6> (IRT Lexington Avenue Line),None,16
+W,Eighth Street–New York University,R,None,17
+W,Prince Street,R,None,18
+W,Canal Street,N ​Q ​R ​ 6 <6> (IRT Lexington Avenue Line) J M Z ​ (BMT Nassau Street Line),None,19
+W,City Hall,R,None,20
+W,Cortlandt Street,R 2 ​3 (IRT Broadway–Seventh Avenue Line at Park Place) A ​C (IND Eighth Avenue Line at Chambers Street) E (IND Eighth Avenue Line at World Trade Center),None,21
+W,Rector Street,R,None,22
+W,Whitehall Street–South Ferry,R 1 (IRT Broadway–Seventh Avenue Line),None,23
+W,Court Street,R 2 ​3 (IRT Broadway–Seventh Avenue Line) at Borough Hall 4 ​5 (IRT Eastern Parkway Line) at Borough Hall,None,24
+W,Jay Street–MetroTech,R A ​C F (IND Fulton Street and Culver Lines),None,25
+W,DeKalb Avenue,B ​Q ​R ​,None,26
+W,Atlantic Avenue–Barclays Center,D ​N ​R ​ B ​Q (BMT Brighton Line) 2 ​3 ​4 ​5 (IRT Eastern Parkway Line),None,27
+W,Union Street,R ​,None,28
+W,Ninth Street,R ​ F ​G (IND Culver Line at Fourth Avenue),None,29
+W,Prospect Avenue,R ​,None,30
+W,25th Street,R ​,None,31
+W,36th Street,D ​N ​R ​,None,32
+W,45th Street,R ​,None,33
+W,53rd Street,R ​,None,34
+W,59th Street,N ​R ​,None,35
+W,Eighth Avenue,N,None,36
+W,Fort Hamilton Parkway,N,None,37
+W,New Utrecht Avenue,N D (BMT West End Line at 62nd Street),None,38
+W,18th Avenue,N,None,39
+W,20th Avenue,N,None,40
+W,Bay Parkway,N,None,41
+W,Kings Highway,N,None,42
+W,Avenue U,N,None,43
+W,86th Street,N,None,44
+Z,Jamaica Center–Parsons/Archer,E,Q44 Select Bus Service,1
+Z,Sutphin Boulevard–Archer Avenue–JFK Airport,E,AirTrain JFK LIRR at Jamaica Q44 Select Bus Service,2
+Z,121st Street,None,Q10 bus to JFK Int'l Airport,3
+Z,111th Street,None,None,4
+Z,104th Street,None,Manhattan-bound trains will not stop here until early 2018 due to renovations,5
+Z,Woodhaven Boulevard,None,Q52/Q53 Select Bus Service,6
+Z,85th Street–Forest Parkway,None,None,7
+Z,75th Street–Elderts Lane,None,None,8
+Z,Cypress Hills,None,None,9
+Z,Crescent Street,None,None,10
+Z,Norwood Avenue,None,None,11
+Z,Cleveland Street,None,None,12
+Z,Van Siclen Avenue,None,None,13
+Z,Alabama Avenue,None,None,14
+Z,Broadway Junction,A ​C (IND Fulton Street Line) L (BMT Canarsie Line) M,LIRR Atlantic Branch at East New York Some northbound a.m. rush hour trips begin/terminate at this station[a] Some southbound p.m. rush hour trips begin at this station,15
+Z,Chauncey Street,M,None,16
+Z,Halsey Street,M,None,17
+Z,Gates Avenue,M,None,18
+Z,Kosciuszko Street,M,B46 Select Bus Service,19
+Z,Myrtle Avenue–Broadway,M,M shuttle buses to Wyckoff Avenue,20
+Z,Flushing Avenue,M,B15 bus to JFK Airport,21
+Z,Lorimer Street,M,None,22
+Z,Hewes Street,M,None,23
+Z,Marcy Avenue,M,B44 Select Bus Service,24
+Z,Essex Street,M F (IND Sixth Avenue Line at Delancey Street),None,25
+Z,Bowery,None,None,26
+Z,Canal Street,4 ​6 <6> (IRT Lexington Avenue Line) N ​Q ​R ​W (BMT Broadway Line),None,27
+Z,Chambers Street,4 ​5 ​6 <6> (IRT Lexington Avenue Line at Brooklyn Bridge–City Hall),None,28
+Z,Fulton Street,2 ​3 (IRT Broadway–Seventh Avenue Line) 4 ​5 (IRT Lexington Avenue Line) A ​C (IND Eighth Avenue Line) Connection to N ​R ​W (BMT Broadway Line) at Cortlandt Street via Dey Street Passageway,None,29
+Z,Broad Street,None,None,30

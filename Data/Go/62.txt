@@ -1,0 +1,5 @@
+var someData interface{}
+err := json.Unmarshal(raw_bytes, &someData)
+if err != nil {
+    log.Error(err)
+}

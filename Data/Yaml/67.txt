@@ -1,0 +1,3 @@
+      - name: Rails test
+        env: # Or as an environment variable
+          RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}

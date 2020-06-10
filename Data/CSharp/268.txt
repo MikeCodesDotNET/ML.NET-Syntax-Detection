@@ -1,0 +1,9 @@
+public partial class MainPage : ContentPage
+{
+    //simply pass in the view model you desire!
+    public MainPage(MyViewModel viewModel = null)
+    {
+        InitializeComponent();
+        BindingContext = viewModel;
+    }
+}

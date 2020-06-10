@@ -1,0 +1,24 @@
+protected override async Task OnInitializedAsync()
+{
+    BlogContext blogContext = null;
+    try
+    {
+        blogContext = await Client.GetDbContextAsync();
+    }
+    catch (AccessTokenNotAvailableException exception)
+    {
+        exception.Redirect();
+    }
+    catch (Exception ex)
+    {
+        error = ex.Message;
+    }
+
+    if (string.IsNullOrEmpty(error))
+    {
+        using (blogContext)
+        {
+            Blogs = await blogContext.Blogs.ToListAsync();
+        }
+    }
+}

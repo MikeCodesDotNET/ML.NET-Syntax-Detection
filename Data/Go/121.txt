@@ -1,0 +1,15 @@
+func (h bookHandler) CreateBook(w http.ResponseWriter, r *http.Request) {
+    requestBody := createBookRequestBody{}
+    if err := json.NewDecoder(r.Body).Decode(&requestBody); err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    book, err := h.bookService.CreateBook(requestBody.Title)
+    if err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    writeSuccess(w, book)
+}

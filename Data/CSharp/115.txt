@@ -1,0 +1,3 @@
+var card = new Card("owner", "number", "CVV number");
+
+paymentServiceMock.Setup(p => p.Charge(114,card)).Returns(true)

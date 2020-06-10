@@ -1,0 +1,15 @@
+function addMovie(event) {
+    event.preventDefault();
+    const form = event.target;
+
+    // Find inputted data via 'add-item-movie' and 'add-item-rating' input elements
+    const movie = form.elements['add-item-movie'];
+    const rating = form.elements['add-item-rating'];
+
+    if (movie && rating) {
+        graphql(ADD_MOVIE, { title: movie.value, rating: Number(rating.value) }).then(fetchData);
+    }
+
+    // Clear the form
+    form.reset();
+}

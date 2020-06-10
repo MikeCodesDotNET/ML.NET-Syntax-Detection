@@ -1,0 +1,11 @@
+count,class
+10,Warrior
+9,Paladin
+6,Hunter
+5,Rogue
+5,Priest
+5,Death Knight
+8,Shaman
+6,Mage
+4,Warlock
+13,Druid

@@ -1,0 +1,5 @@
+[GraphQLMetadata("author")]
+public Author GetAuthor(int id)
+{
+  return null;
+}

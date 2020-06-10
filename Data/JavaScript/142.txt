@@ -1,0 +1,12 @@
+import { InteractionManager } from 'react-native';
+
+onChangeTab(event) {
+    if (event === 1) {
+        InteractionManager.runAfterInteractions(() => {
+            this.props.dispatchTeamFetchStart();
+        });
+    }
+    this.setState({
+        activeTab: event
+    });
+}

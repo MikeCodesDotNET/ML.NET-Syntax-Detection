@@ -1,0 +1,8 @@
+public class Transaction
+{
+  public int Id { get; set; }
+  public string Category { get; set; }
+  public string TransactionType { get; set; }
+  public string PaymentMode { get; set; }
+  public decimal Amount { get; set; }
+}

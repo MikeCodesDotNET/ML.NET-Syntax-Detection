@@ -1,0 +1,5 @@
+  type Model struct {
+    ID        uint64    `sql:"-,notnull" json:"-"`
+    CreatedAt time.Time `sql:"-,notnull" json:"createdAt"`
+    UpdatedAt time.Time `sql:"-,notnull" json:"updatedAt"`
+  }

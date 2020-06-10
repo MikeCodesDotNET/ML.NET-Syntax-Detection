@@ -1,0 +1,13 @@
+steps:
+
+- powershell: |
+    # Using an input-macro:
+    Write-Host "This works: $(mySecret)"
+
+    # Using the env var directly:
+    Write-Host "This does not work: $env:MYSECRET"
+
+    # Using the mapped env var:
+    Write-Host "This works: $env:MY_MAPPED_ENV_VAR"    # Recommended
+  env:
+    MY_MAPPED_ENV_VAR: $(mySecret)

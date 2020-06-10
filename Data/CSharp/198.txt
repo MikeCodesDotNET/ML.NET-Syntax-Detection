@@ -1,0 +1,6 @@
+if (rule.TryGetProperty(nameof(condition), out JsonElement check))
+{
+    var right = ParseTree<T>(rule, parm);
+    left = bind(left, right);
+    continue;
+}

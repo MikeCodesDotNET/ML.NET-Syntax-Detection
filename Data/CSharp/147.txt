@@ -1,0 +1,6 @@
+var result = invoice switch 
+{
+  Invoice (null, null) => "Boss need to sign",
+  Invoice (_ , null) => "Skip level boss need to sign",
+  _ => "All good, process"
+}

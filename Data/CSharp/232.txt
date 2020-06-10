@@ -1,0 +1,11 @@
+var searches = new List<Task<DurableHttpResponse>>()
+{
+    context.CallHttpAsync(HttpMethod.Get,
+    new Uri($"https://google.com/search?q={search}")),
+    context.CallHttpAsync(HttpMethod.Get,
+    new Uri($"https://search.yahoo.com/search?p={search}")),
+    context.CallHttpAsync(HttpMethod.Get,
+    new Uri($"https://bing.com/search?q={search}"))
+};
+
+var result = await Task.WhenAll(searches);

@@ -1,0 +1,9 @@
+// configure the client to talk to the Azure Functions endpoint.
+builder.Services.AddHttpClient(nameof(TokenClient),
+    client =>
+    {
+        client.BaseAddress = new Uri(functionEndpoint(builder));
+    }).AddHttpMessageHandler<CosmosAuthorizationMessageHandler>();
+
+// register the client to retrieve Cosmos DB tokens.
+builder.Services.AddTransient<TokenClient>();

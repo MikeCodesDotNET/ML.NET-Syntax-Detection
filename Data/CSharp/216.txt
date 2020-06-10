@@ -1,0 +1,9 @@
+private readonly string CosmosConnection = nameof(CosmosConnection);
+
+public CosmosClientWrapper(
+    IConfiguration config,
+    ILogger<CosmosClientWrapper> logger)
+{
+    _logger = logger;
+    _client = new CosmosClient(config.GetConnectionString(CosmosConnection));
+}

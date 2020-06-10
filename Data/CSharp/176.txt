@@ -1,0 +1,5 @@
+[HttpPost]
+public async Task<ActionResult> Post([FromBody] GraphQLQuery query) 
+{
+  return null;
+}

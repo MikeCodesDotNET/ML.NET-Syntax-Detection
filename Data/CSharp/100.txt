@@ -1,0 +1,8 @@
+foreach (var obj in result)
+{
+    Console.WriteLine("Key: --{0}--", obj.Race);
+    foreach (var c in obj.Characters)
+    {
+      Console.WriteLine("Name: {0}", c.Name);
+    }
+}

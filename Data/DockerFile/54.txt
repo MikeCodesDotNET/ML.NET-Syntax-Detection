@@ -1,0 +1,13 @@
+# The dependencies image has all build-dependencies needed for
+# building the image embedded in it.  The reason this is a separate
+# image is so that it can be built, cached, and re-used across
+# both the developer and production image builds.
+FROM node:10.16.3-alpine
+WORKDIR /var/app
+
+# NOTE:  There's no reason to later remove these since the production
+# image will start from a different base image without them installed.
+RUN apk --update add --no-cache make g++ git
+
+COPY package.json yarn.lock ./
+RUN yarn

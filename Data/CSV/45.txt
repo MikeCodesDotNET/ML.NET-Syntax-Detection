@@ -1,0 +1,21 @@
+id,name,city,state,country,lat,long
+ATL,William B Hartsfield-Atlanta Intl,Atlanta,GA,USA,33.64044444,-84.42694444
+BOS,Gen Edw L Logan Intl,Boston,MA,USA,42.3643475,-71.00517917
+BWI,Baltimore-Washington International,Baltimore,MD,USA,39.17540167,-76.66819833
+CLT,Charlotte/Douglas International,Charlotte,NC,USA,35.21401111,-80.94312583
+CVG,Cincinnati Northern Kentucky Intl,Covington,KY,USA,39.04614278,-84.6621725
+DEN,Denver Intl,Denver,CO,USA,39.85840806,-104.6670019
+DTW,Detroit Metropolitan-Wayne County,Detroit,MI,USA,42.21205889,-83.34883583
+DFW,Dallas-Fort Worth International,Dallas-Fort Worth,TX,USA,32.89595056,-97.0372
+EWR,Newark Intl,Newark,NJ,USA,40.69249722,-74.16866056
+IAH,George Bush Intercontinental,Houston,TX,USA,29.98047222,-95.33972222
+LAS,McCarran International,Las Vegas,NV,USA,36.08036111,-115.1523333
+LAX,Los Angeles International,Los Angeles,CA,USA,33.94253611,-118.4080744
+LGA,LaGuardia,New York,NY,USA,40.77724306,-73.87260917
+MCO,Orlando International,Orlando,FL,USA,28.42888889,-81.31602778
+MSP,Minneapolis-St Paul Intl,Minneapolis,MN,USA,44.88054694,-93.2169225
+ORD,Chicago O'Hare International,Chicago,IL,USA,41.979595,-87.90446417
+PHL,Philadelphia Intl,Philadelphia,PA,USA,39.87195278,-75.24114083
+PHX,Phoenix Sky Harbor International,Phoenix,AZ,USA,33.43416667,-112.0080556
+SFO,San Francisco International,San Francisco,CA,USA,37.61900194,-122.3748433
+SLC,Salt Lake City Intl,Salt Lake City,UT,USA,40.78838778,-111.9777731

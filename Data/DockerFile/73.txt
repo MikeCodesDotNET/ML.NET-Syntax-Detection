@@ -1,0 +1,21 @@
+FROM golang:alpine AS builder
+
+ARG GITHUB_USER
+ARG REPO_NAME
+
+WORKDIR /go/src/github.com/$GITHUB_USER/$REPO_NAME/
+
+COPY . .
+
+RUN apk add --no-cache \
+    curl \
+    git \
+    dep \
+	&& dep ensure \
+	&& CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o $REPO_NAME .
+
+FROM alpine:3.10
+RUN apk add --no-cache ca-certificates
+COPY --from=builder /go/src/github.com/$GITHUB_USER/$REPO_NAME/$REPO_NAME /bin/$REPO_NAME
+
+ENTRYPOINT ["/bin/$REPO_NAME"]

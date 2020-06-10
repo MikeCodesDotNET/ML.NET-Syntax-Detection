@@ -1,0 +1,4 @@
+static async Task DoSomething()
+{
+  await Task.Delay(2000);
+}

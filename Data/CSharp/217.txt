@@ -1,0 +1,30 @@
+private async Task<User> CreateOrReadUserAsync(
+    Database database, string id)
+{
+    _logger.LogInformation("User request for {user}.", id);
+    var user = database.GetUser(id);
+    UserResponse userResult = null;
+    try
+    {
+        userResult = await user.ReadAsync();
+    }
+    catch (CosmosException cex)
+    {
+        if (cex.StatusCode != System.Net.HttpStatusCode.NotFound)
+        {
+            throw;
+        }
+    }
+    if (userResult?.Resource == null)
+    {
+        _logger.LogInformation("User {user} not found.", id);
+        var newUser = await database.CreateUserAsync(id);
+        user = newUser.User;
+        _logger.LogInformation("User {user} created.", id);
+    }
+    else
+    {
+        _logger.LogInformation("User {user} exists.", id);
+    }
+    return user;
+}

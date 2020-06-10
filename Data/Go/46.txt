@@ -1,0 +1,11 @@
+  this, err := Service.LoadThisFromTheDB(id)
+  if err != nil {
+    // send HTTP error code to the client
+  }
+
+  that, err := Service.LoadThatFromTheDB(id)
+  if err != nil {
+    // send HTTP error code to the client
+  }
+
+  // do something with this and that

@@ -1,0 +1,22 @@
+public class Person 
+{
+    public string Name { get; set; }
+    public string Company { get; set; }
+    public string Country { get; set; }
+
+    public void Deconstruct(out string name, out string company) 
+    {
+        name = Name;
+        company = Company;
+    }
+
+    public void Deconstruct(out string name, out string company, out string country)
+    {
+        name = Name;
+        company = Company;
+        country = Country;
+    }
+}
+
+// and access like so
+(var name, var company) = new Person(){ Name = "Chris", Company ="Microsoft" };

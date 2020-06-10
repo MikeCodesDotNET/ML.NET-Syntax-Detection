@@ -1,0 +1,6 @@
+getAllUsers(db) {
+    return db
+      .select("*")
+      .from("users")
+      .then(rows => rows);
+ }

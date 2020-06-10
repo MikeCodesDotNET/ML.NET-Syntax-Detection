@@ -1,0 +1,4 @@
+private readonly MethodInfo MethodContains = typeof(Enumerable).GetMethods(
+  BindingFlags.Static | BindingFlags.Public)
+  .Single(m => m.Name == nameof(Enumerable.Contains)
+      && m.GetParameters().Length == 2);

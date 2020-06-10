@@ -1,0 +1,6 @@
+public override void ViewDidLoad ()
+{
+    base.ViewDidLoad ();
+
+    // wire up TranslateButton here
+}

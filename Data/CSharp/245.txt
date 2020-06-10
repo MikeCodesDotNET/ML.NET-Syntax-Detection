@@ -1,0 +1,5 @@
+if(Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.M)
+{
+    var flag = (Android.Views.StatusBarVisibility)Android.Views.SystemUiFlags.LightStatusBar;
+    window.DecorView.SystemUiVisibility = darkStatusBarTint ? flag : 0;
+}

@@ -1,0 +1,7 @@
+func factorial(fac int) int {
+    result := 1
+    for ; fac > 0; fac-- {
+        result *= fac
+    }
+    return result
+}

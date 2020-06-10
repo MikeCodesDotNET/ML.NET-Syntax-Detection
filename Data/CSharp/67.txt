@@ -1,0 +1,9 @@
+var start  = DateTime.Now;
+
+var taskSum = Sum(2,2);
+var taskDelay = DoSomething();
+Task.WaitAll(taskSum, taskDelay);
+
+end = DateTime.Now;
+
+Console.WriteLine("Time taken {0}",end - start);

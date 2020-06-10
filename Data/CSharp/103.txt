@@ -1,0 +1,47 @@
+var movies = new List<Movie>()
+{
+    new Movie(){ 
+      Id = 1, 
+      Name="Episode IV - A new Hope", 
+      ReleaseYear=1977 
+    },
+    new Movie(){ 
+      Id = 2, 
+      Name="Episode V - Empire Strikes back", 
+      ReleaseYear=1980 
+    },
+    new Movie(){ 
+      Id = 3, 
+      Name="Episode VI - Return of the Jedi", 
+      ReleaseYear=1983 
+    }
+};
+
+var movieCharacters = new List<MovieCharacter>
+{
+    new MovieCharacter(){ MovieId = 1, Name= "Luke Skywalker"},
+    new MovieCharacter(){ MovieId = 1, Name= "Princess Leia"}
+};
+
+var resultJoined = 
+  from m in movies
+  join c in characters on m.Id equals c.MovieId
+  select new
+  {
+      Name = c.Name,
+      Movie = m.Name
+  };
+
+var resultJoinedAlt = 
+  movies
+    .Join( 
+      characters, // join with collection
+      m => m.Id,  // key from outer collection
+      c => c.MovieId, // key from inner collection
+      (m, c) => new { Name = c.Name, Movie = m.Name } // result selector 
+    );
+
+foreach(var r in resultJoined) 
+{
+  Console.WriteLine("Joined {0} {1}", r.Name, r.Movie);
+}

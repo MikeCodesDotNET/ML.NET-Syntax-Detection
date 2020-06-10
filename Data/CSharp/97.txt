@@ -1,0 +1,10 @@
+var orderedResult = 
+  from ch in characters
+  orderby ch.Age descending
+  select new { Name = ch.Name, Age = ch.Age };
+
+// alt syntax
+var oo = 
+  characters
+  .OrderByDescending(c => c.Age)
+  .Select(c => new { Name = c.Name, Age = c.Age });

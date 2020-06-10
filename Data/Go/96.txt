@@ -1,0 +1,9 @@
+package service
+
+import "context"
+
+// NotificatorService describes the service.
+type NotificatorService interface {
+    // Add your methods here
+    SendEmail(ctx context.Context, email string, content string) error
+}

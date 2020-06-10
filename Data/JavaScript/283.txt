@@ -1,0 +1,25 @@
+let isBoy = student => student.sex === 'M'
+
+let isGirl = student => student.sex === 'F'
+
+let getBoys = grades => (
+    grades.filter(isBoy)
+)
+
+let getGirls = grades => (
+    grades.filter(isGirl)
+)
+
+let average = grades => (
+    grades.reduce((acc, curr) => (
+        acc + curr.grade
+    ), 0) / grades.length
+)
+
+let maxGrade = grades => (
+    Math.max(...grades.map(student => student.grade))
+)
+
+let minGrade = grades => (
+    Math.min(...grades.map(student => student.grade))
+)

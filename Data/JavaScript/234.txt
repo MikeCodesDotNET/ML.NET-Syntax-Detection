@@ -1,0 +1,6 @@
+[ 1, 2, 3 ].forEach(async (x) => {
+  await sleep(x)
+  console.log(x)
+})
+
+console.log('all done.')

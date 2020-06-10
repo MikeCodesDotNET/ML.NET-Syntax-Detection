@@ -1,0 +1,16 @@
+variables:
+  buildConfiguration: 'Release'
+  vmImageName: 'ubuntu-latest'
+
+stages:
+- stage: Build
+  displayName: Build stage
+
+  jobs:
+  - job: Build
+    displayName: Build
+
+    pool:
+      vmImage: $(vmImageName)
+
+    steps:

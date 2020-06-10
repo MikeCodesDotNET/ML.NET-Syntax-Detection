@@ -1,0 +1,7 @@
+var parser = new JsonExpressionParser();
+var predicate = parser.ParseExpressionOf<Transaction>(
+    JsonDocument.Parse(
+        await File.ReadAllTextAsync("databaseRules.json")));
+  var query = context.DbTransactions.Where(predicate)
+      .OrderBy(t => t.Id);
+  var results = await query.ToListAsync();

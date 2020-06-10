@@ -1,0 +1,2 @@
+plug, err := plugin.Open(p)
+errorHandler(err)

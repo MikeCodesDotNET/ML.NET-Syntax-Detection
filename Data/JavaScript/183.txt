@@ -1,0 +1,6 @@
+const test = require('baretest')
+      assert = require('assert')
+
+test('Proove that 1 == 1', () => {
+  assert.ok(1 == 1)
+})

@@ -1,0 +1,30 @@
+public class BlogClient : IBlogClient
+{
+    private CosmosCredentials Credentials;
+    private readonly HttpClient Http;
+
+    public BlogClient(HttpClient client)
+    {
+        Http = client;
+    }
+
+    public async Task<BlogContext> GetDbContextAsync()
+    {
+        if (Credentials == null)
+        {
+            await GetCredentialsAsync();
+        }
+
+        var options = new DbContextOptionsBuilder<BlogContext>()
+            .UseCosmos(Credentials.EndPoint, Credentials.Key, "myblogs",
+            opt =>
+                opt.ConnectionMode(Microsoft.Azure.Cosmos.ConnectionMode.Gateway));
+
+        return new BlogContext(options.Options);
+    }
+
+    private async Task GetCredentialsAsync()
+    {
+        Credentials = await Http.GetFromJsonAsync<CosmosCredentials>("api/Cosmos");
+    }
+}

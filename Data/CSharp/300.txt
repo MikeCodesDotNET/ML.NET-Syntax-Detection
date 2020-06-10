@@ -1,0 +1,5 @@
+if (!UIApplication.SharedApplication.OpenUrl (url)) {
+                var alert = UIAlertController.Create ("Not supported", "Scheme 'tel:' is not supported on this device", UIAlertControllerStyle.Alert);
+                alert.AddAction (UIAlertAction.Create ("Ok", UIAlertActionStyle.Default, null));
+                PresentViewController (alert, true, null);
+            }

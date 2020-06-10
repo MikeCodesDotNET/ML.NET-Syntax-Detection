@@ -1,0 +1,4 @@
+var product = Db.GetProductById(id);
+var json = JsonConvert.SerializeObject(new {
+    product = product
+});

@@ -1,0 +1,37 @@
+FROM golang:1.14-alpine AS builder
+
+# Install certificates
+RUN apk --no-cache add \
+    ca-certificates \
+    && update-ca-certificates
+
+# Set the Current Working Directory inside the container
+WORKDIR /go/src/github.com/CESARBR/knot-babeltower
+
+# Copy the source code from the current directory to $WORKDIR (inside the container)
+COPY . .
+
+# Build the app for linux target (cross compile disabled)
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
+    GO111MODULE=on GOPROXY=https://proxy.golang.org \
+    go build -a -installsuffix cgo -o app cmd/main.go
+
+###########################################
+## SECOND STAGE: create production image ##
+###########################################
+
+# FROM alpine:3.11
+FROM scratch
+
+WORKDIR /root/
+
+# Copy the configuration files from the build stage
+COPY --from=builder /go/src/github.com/CESARBR/knot-babeltower/internal/ ./internal
+
+# Copy the binary file from the build stage
+COPY --from=builder /go/src/github.com/CESARBR/knot-babeltower/app app
+
+# Copy SSL CA certificates
+COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+
+ENTRYPOINT ["./app"]

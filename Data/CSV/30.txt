@@ -1,0 +1,2 @@
+email,phone,customer_id,device_id,dpn_last_sent_date
+jagney@gmail.com,9819141146,19870,fN762qQrcXU:APA91bH4gKjkdLA7LnRd3FId5X8uSiIwMfrrvNpAH90HzoyhGFDoAamHylcuPixrpvJ2f4vH0s4RhXUfZwp8llYG-HqVcb0BnFsNZZ19sB665aRHYqjbyPBztn7RPBjloAQHtqG7KRzq,2016-12-08T09:56:03

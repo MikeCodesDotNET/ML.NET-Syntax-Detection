@@ -1,0 +1,16 @@
+const { Keystone } = require('@keystonejs/keystone');
+const { GraphQLApp } = require('@keystonejs/app-graphql');
+const { AdminUIApp } = require('@keystonejs/app-admin-ui');
+const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
+
+const PROJECT_NAME = "movie-rating";
+
+const keystone = new Keystone({
+  name: PROJECT_NAME,
+  adapter: new Adapter(),
+});
+
+module.exports = {
+  keystone,
+  apps: [new GraphQLApp(), new AdminUIApp({ enableDefaultRoute: true })],
+};

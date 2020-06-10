@@ -1,0 +1,11 @@
+if (@operator == In)
+{
+    var contains = MethodContains.MakeGenericMethod(typeof(string));
+    object val = value.EnumerateArray().Select(e => e.GetString())
+        .ToList();
+    var right = Expression.Call(
+        contains,
+        Expression.Constant(val),
+        property);
+    left = bind(left, right);
+}

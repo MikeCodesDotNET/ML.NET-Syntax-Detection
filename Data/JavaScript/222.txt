@@ -1,0 +1,4 @@
+async function getTeams(teamIds) {
+  const teams = _.map(teamIds, id => await teamModel.fetch(id))
+  return teams
+}

@@ -1,0 +1,11 @@
+# The author data:
+author: &gOrwell 
+    name: George
+    last-name: Orwell
+
+# Some books:
+books: 
+    - 1984:
+        author: *gOrwell 
+    - animal-farm:
+        author: *gOrwell

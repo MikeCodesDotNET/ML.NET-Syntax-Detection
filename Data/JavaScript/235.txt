@@ -1,0 +1,10 @@
+const AWS = require('aws-sdk')
+const Lambda = new AWS.Lambda()
+
+async function invokeLambda(functionName) {
+  const req = {
+    FunctionName: functionName,
+    Payload: JSON.stringify({ message: 'hello world' })
+  }
+  await Lambda.invoke(req).promise()
+}

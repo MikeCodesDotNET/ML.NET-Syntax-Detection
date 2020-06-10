@@ -1,0 +1,42 @@
+func (h bookHandler) CreateBook(w http.ResponseWriter, r *http.Request) {
+    requestBody := createBookRequestBody{}
+    if err := json.NewDecoder(r.Body).Decode(&requestBody); err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    book, err := h.bookService.CreateBook(requestBody.Title)
+    if err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+        return
+    }
+
+    writeSuccess(w, book)
+}
+
+// services/book/service.go
+func (s service) CreateBook(title string) (*models.Book, error) {
+   book := models.Book{
+       ID: bson.NewObjectId(),
+       Title: title,
+       CreatedAt: time.Now().UTC(),
+    }
+   if err := s.repository.CreateBook(book); err != nil {
+      return nil, err
+   }
+
+   return &book, nil
+}
+
+// repository/inmemory.go
+func (r inMemoryRepository) CreateBook(book models.Book) error {
+    return r.db.Update(func(tx *buntdb.Tx) error {
+        b, err := json.Marshal(&book)
+        if err != nil {
+            return err
+        }
+
+        _, _, err = tx.Set("books::"+book.ID.Hex(), string(b), nil)
+        return err
+    })
+}

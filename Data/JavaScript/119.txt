@@ -1,0 +1,10 @@
+  import UserModel from '../models/user';
+  import CompanyModel from '../models/company';
+  import SalaryModel from '../models/salary';  
+  class UserService {
+    constructor(){}
+    Sigup(){
+      // Caling UserMode, CompanyModel, etc
+      ...
+    }
+  }

@@ -1,0 +1,27 @@
+public ICommand RefreshCommand { get; }
+public ItemsViewModel()
+{
+    Title = "Browse";
+    Items = new ObservableCollection();
+    RefreshCommand = new Command(ExecuteRefreshCommand);
+}
+
+bool isRefreshing;
+public bool IsRefreshing
+{
+    get => isRefreshing;
+    set
+    {
+        isRefreshing = value;
+        OnPropertyChanged(nameof(IsRefreshing));
+    }
+}
+
+void ExecuteRefreshCommand()
+{
+    Items.Clear();
+    Items.Add(new Item { Text = "Refreshed Data", Description = "Whoa!" });
+    
+    // Stop refreshing
+    IsRefreshing = false;
+}

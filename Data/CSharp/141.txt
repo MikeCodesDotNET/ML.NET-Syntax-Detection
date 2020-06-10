@@ -1,0 +1,1 @@
+(var name, _ ) = new Person(){ Name = "Chris", Company ="Microsoft" };

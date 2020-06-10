@@ -1,0 +1,3 @@
+  fmt.Printf("%#v\n\n", r)
+  fmt.Printf("%v\n\n", r.Headers["User-Agent"])
+  fmt.Printf("%v\n", r.Args["arg2"])

@@ -1,0 +1,23 @@
+class Controller 
+  private readonly IPaymentService _paymentService;
+  private readonly IShippingService _shippingService;
+
+  public void Controller(
+    IPaymentService paymentService,
+    IShippingService shippingService
+    ) 
+  {
+    _paymentService = paymentService;
+    _shippingService = shippingService;
+  }
+
+  public void Action(IPaymentInfo paymentInfo, IShippingAddress shippingAddress) 
+  {
+    var successfullyCharged = _paymentService.Charge(paymentInfo);
+
+    if (successfullyCharged) 
+    {
+      _shippingService.Ship(ShippingAddress);
+    }
+  }
+}

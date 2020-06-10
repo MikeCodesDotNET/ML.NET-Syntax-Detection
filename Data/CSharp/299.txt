@@ -1,0 +1,5 @@
+var url = new NSUrl ("tel:" + translatedNumber);
+if (!UIApplication.SharedApplication.OpenUrl (url))
+{
+    // show alert Controller
+}

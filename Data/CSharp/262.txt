@@ -1,0 +1,14 @@
+public partial class MainPage : ContentPage
+{
+    public MainPage()
+    {
+        InitializeComponent();
+        BindingContext = Startup.ServiceProvider.GetService<MyViewModel>();
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        ((MyViewModel)BindingContect).DoIt();
+    }
+}

@@ -1,0 +1,1219 @@
+playlist,artist,song,release_date,release_album,according_to
+Blues,Mississippi Fred McDowell,You Gotta Move,1989,You Got To Move,spotify
+Blues,"David ""Honeyboy"" Edwards",Further Up on the Road,2001-01-23,Honeyboy Edwards: Missisippi Delta Bluesman,spotify
+Blues,Blind Lemon Jefferson,Match Box Blues,2013-01-20,"Essential Blind Lemon Jefferson, Vol. 2",spotify
+Blues,Bukka White,Parchman Farm Blues,2006-03-07,Broadcasting the Blues: Black Blues in the Segregation Era (Compiled and Edited by Paul Oliver),spotify
+Blues,Bo Carter,All Around Man,1994-09-05,"Complete Recorded Works in Chronological Order, Volume 2: 5 June 1931 to 26 March 1934",musicBrainz
+Oldies,The Kinks,You Really Got Me,2002,The Ultimate Collection,spotify
+Oldies,Leo Sayer,You Make Me Feel Like Dancing,2008-01-01,You Make Me Feel Like Dancing - Live,spotify
+Oldies,The Beach Boys,Wouldn't It Be Nice,1966-06-16,Pet Sounds,spotify
+Oldies,The Troggs,Wild Thing,1985,"The Rhino Brothers Present: The World's Worst Records, Volume 2",musicBrainz
+Oldies,Dr. Hook,When You're In Love With A Beautiful Woman,2009-02-09,Dr. Hook - The Best Of,spotify
+Oldies,Dion & The Belmonts,The Wanderer,2001,The Best Of Dion & The Belmonts,spotify
+Oldies,The Everly Brothers,Wake Up Little Susie,1964-08-01,The Very Best of The Everly Brothers,spotify
+Oldies,The Drifters,Under The Boardwalk,1964-06-01,Under The Boardwalk,spotify
+Oldies,Neil Diamond,Sweet Caroline,1969,Sweet Caroline,spotify
+Oldies,Eddie Cochran,Summertime Blues,1982,Latch On To,musicBrainz
+Oldies,The Archies,"Sugar, Sugar",2007-01-01,"Sugar, Sugar",spotify
+Oldies,Stealers Wheel,Stuck In The Middle With You,1972,Stuck in the Middle With You,musicBrainz
+Oldies,Norman Greenbaum,Spirit In The Sky,1979,Music From The Motion Picture Michael,spotify
+Oldies,Bee Gees,Spicks And Specks,1966,Spicks And Specks,spotify
+Oldies,The Hollies,Sorry Suzanne,1999,Another Night,musicBrainz
+Oldies,Dusty Springfield,Son Of A Preacher Man,1988-01-01,The Silver Collection,spotify
+Oldies,Hot Chocolate,So You Win Again,1987-02-09,Very Best Of Hot Chocolate,spotify
+Oldies,America,Sister Golden Hair,1975,Hearts (US Internet Release),spotify
+Oldies,The Tremeloes,Silence Is Golden,2002,The Tremeloes Featuring Brian Poole,spotify
+Oldies,George McCrae,Rock Your Baby,2001,The Very Best Of George McCrae,spotify
+Oldies,Chuck Berry,Rock And Roll Music,1999-01-01,20th Century Masters: The Millennium Collection: Best Of Chuck Berry,spotify
+Oldies,B.J. Thomas,Raindrops Keep Fallin' On My Head,1997-09-13,Butch Cassidy & The Sundance Kid,spotify
+Oldies,The Searchers,Needles & Pins,2006,Needles & Pins,spotify
+Oldies,Les Humphries Singers,Mama Loo,2011-08-30,Les Humphries Singers & Friends,spotify
+Oldies,Steppenwolf,Magic Carpet Ride,1968-10-01,The Second,spotify
+Oldies,Billy Ocean,Love Really Hurts Without You,2002-11-19,The Collection,spotify
+Oldies,Creedence Clearwater Revival,Lookin' Out My Back Door,1970,Cosmo's Factory (40th Anniversary Edition),spotify
+Oldies,The Doobie Brothers,Listen To The Music,1976-10-29,Best of the Doobies,spotify
+Oldies,The Box Tops,The Letter,2013-03-22,Pure... Psychedelic Rock,spotify
+Oldies,The Spencer Davis Group,Keep On Running,1991-01-01,Keep On Running,spotify
+Oldies,Herman's Hermits,I'm Into Something Good,1989,The Best Of,spotify
+Oldies,Four Tops,I Can't Help Myself,1997-01-01,The Ultimate Collection: Four Tops,spotify
+Oldies,Johnny Nash,I Can See Clearly Now,1972,I Can See Clearly Now,spotify
+Oldies,Giulio Rapetti,Help Yourself,1968,Help Yourself,spotify
+Oldies,Manfred Mann,Ha! Ha! Said The Clown,1996-07-15,The Very Best Of The Fontana Years,spotify
+Oldies,The Seekers,Georgy Girl,1989-01-30,The Seekers,spotify
+Oldies,Albert Hammond,The Free Electric Band,1999-12-23,The Very Best Of - It Never Rains In Southern California,spotify
+Oldies,Love Affair,Everlasting Love,2002-02-21,On Your 60's Radio,spotify
+Oldies,The Lovin' Spoonful,Do You Believe in Magic,1965-11,Do you Believe In Magic,spotify
+Oldies,Frankie Valli & The Four Seasons,"December, 1963",2003-01-14,The Very Best Of Frankie Valli & The 4 Seasons,spotify
+Oldies,The Kinks,Death of a Clown,1967-09-15,Something Else (Deluxe Edition),spotify
+Oldies,The Monkees,Daydream Believer,1966,The Monkees,musicBrainz
+Oldies,Elton John,Daniel,1973-01-22,Don't Shoot Me I'm Only The Piano Player (Remastered),spotify
+Oldies,Middle Of The Road,Chirpy Chirpy Cheep Cheep,2002-05-28,Best Of,spotify
+Oldies,Bay City Rollers,Bye Bye Baby,2005-05-30,Absolute Rollers: The Very Best Of ...,musicBrainz
+Oldies,Jerry Lee Lewis,Breathless,1986,The Killer 1969�1972,musicBrainz
+Oldies,Gerry Rafferty,Baker Street,1978,City To City,spotify
+Oldies,Peter Frampton,"Baby, I Love Your Way",1996-01-01,Greatest Hits,spotify
+Oldies,America,A Horse with No Name,1972,America,spotify
+Oldies,Steve Miller Band,The Joker,1973-01-01,The Joker,spotify
+Oldies,Tom Petty,I Won't Back Down,1989-01-01,Full Moon Fever,spotify
+Oldies,Steely Dan,Reelin' In The Years,1972-01-01,Can't Buy A Thrill,spotify
+Cantaloop � Us3,Us3,Cantaloop,2001,DJ Smash Presents Phonography,musicBrainz
+Cantaloop � Us3,Simply Red,Something Got Me Started,1991,Stars Collectors Edition,spotify
+Cantaloop � Us3,The Verve,Bitter Sweet Symphony,1997-09-29,Urban Hymns,spotify
+Cantaloop � Us3,Snow,Informer,1993,12 Inches Of Snow,spotify
+Cantaloop � Us3,Faithless,God Is a DJ,1998-09-28,Sunday 8PM,spotify
+Cantaloop � Us3,Faithless,Insomnia,1996,Reverence,spotify
+Cantaloop � Us3,Jamiroquai,Virtual Insanity,1996-09-09,Travelling Without Moving,spotify
+Cantaloop � Us3,Cornershop,Brimful of Asha,2006-06-01,Why Try Harder - Greatest Hits,spotify
+Cantaloop � Us3,Kenny Dope,The Bomb!,1997-01-01,Henry Street Bombs Vol. 1,spotify
+Cantaloop � Us3,Stereo MC's,Connected,2009-01-01,Cool - Dance,spotify
+Cantaloop � Us3,Fun Lovin' Criminals,Scooby Snacks,2004-02-02,"A-sides, B-sides and Rarities",spotify
+Cantaloop � Us3,Blur,Coffee And TV,1998-03-15,13,spotify
+Cantaloop � Us3,Pulp,Disco 2000,1995-10-30,Different Class / Deluxe Edition,spotify
+Cantaloop � Us3,Oasis,Wonderwall,1995-10-02,[What's the Story] Morning Glory? [Remastered],spotify
+Cantaloop � Us3,Oasis,Champagne Supernova,1995-10-02,[What's the Story] Morning Glory? [Remastered],spotify
+Cantaloop � Us3,Manic Street Preachers,A Design for Life,1996-05-20,Everything Must Go 10th Anniversary Edition,spotify
+Cantaloop � Us3,The La's,There She Goes,1990,The La's,spotify
+Cantaloop � Us3,Ocean Colour Scene,The Riverboat Song,2001-01-01,Songs For The Front Row - The Best Of Ocean Colour Scene,spotify
+Cantaloop � Us3,Arrested Development,Mr Wendal,2001-01-24,The Heroes of the Harvest,musicBrainz
+Cantaloop � Us3,Arrested Development,People Everyday,2001,Greatest Hits,spotify
+Cantaloop � Us3,The Cardigans,Lovefool,1996-09-17,First Band On The Moon,spotify
+Cantaloop � Us3,OMC,How Bizarre,1995,Boiling Point,musicBrainz
+Cantaloop � Us3,Blue Boy,Remember Me,1997-03-03,Remember Me,spotify
+Cantaloop � Us3,The Shamen,Move Any Mountain,1992,Boss Drum,musicBrainz
+Cantaloop � Us3,Rozalla,Everybody's Free,1992,Everybody's Free,spotify
+deutsche songs,Trio,Da Da Da ich lieb dich nicht du liebst mich nicht Aha Aha Aha,1981,Trio (Deluxe Edition - Set),spotify
+deutsche songs,Kettcar,Landungsbr�cken raus,2002-10-28,Du und wieviel von deinen Freunden,spotify
+deutsche songs,Kid Kopphausen,Das Leichteste der Welt,2012-08-24,I,spotify
+deutsche songs,Ton Steine Scherben,Jenseits von Eden,1985-01-18,Live I - In Berlin 1984,spotify
+deutsche songs,Fettes Brot,Jein,2016-10-21,"Au�en Top Hits, innen Geschmack",spotify
+deutsche songs,Keimzeit,Kling Klang,1993-04-26,Bunte Scherben,spotify
+deutsche songs,Keimzeit,Irrenhaus,1990-06-15,Irrenhaus,spotify
+deutsche songs,Karat,Der blaue Planet,1982,Der blaue Planet,spotify
+deutsche songs,Jerry Berkers,Es Wird Morgen Vorbei Sein,1999-02-15,Unterwegs,spotify
+deutsche songs,Icke & Er,Richtig geil,2016-10-28,Greatest Hits (The sky is der Himmel),spotify
+deutsche songs,Icke & Er,The sky is der Himmel,2016-10-28,Greatest Hits (The sky is der Himmel),spotify
+deutsche songs,Mia.,Hungriges Herz,2004-01-01,Stille Post,spotify
+deutsche songs,Beginner,Liebes Lied,1998-01-01,Bambule,spotify
+deutsche songs,Mittagspause,Innen Stadt Front,2014-10-01,Mittagspause,spotify
+deutsche songs,Beginner,Hammerhart,1998-01-01,Bambule,spotify
+deutsche songs,Blumfeld,Verst�rker,1994,L'etat Et Moi,spotify
+deutsche songs,Blumfeld,Neuer Morgen,2003-09-01,Jenseits Von Jedem,spotify
+deutsche songs,City,Am Fenster,1995-09-25,Das Beste aus der DDR - Teil 1 - Rock,spotify
+deutsche songs,Die Sterne,Was hat dich blo� so ruiniert,1996-04-22,Posen,spotify
+deutsche songs,Fehlfarben,Ein Jahr,1980-10-01,Monarchie und Alltag,spotify
+deutsche songs,Die Sterne,Universal Tellerw�scher,1994,In echt,spotify
+deutsche songs,Fehlfarben,Gottseidank nicht in England,1980-10-01,Monarchie und Alltag,spotify
+deutsche songs,Ideal,Blaue Augen,1980,Ideal,spotify
+deutsche songs,Jupiter Jones,Still,2011-02-25,Jupiter Jones,spotify
+deutsche songs,"Ja, Panik","Alles hin, hin, hin",2009-09-25,The Angst And The Money,spotify
+deutsche songs,Oxo86,Bier und Reggae,2013-03-15,Auf die Liebe und auf die Sehnsucht,spotify
+deutsche songs,Oxo86,Alkohol,2007-10-12,Fr�hlich Sein Und Singen,spotify
+deutsche songs,Tomte,die sch�nheit der chance,2003-04-28,hinter all diesen fenstern,spotify
+deutsche songs,Tomte,Ich sang die ganze Zeit von dir,2006-02-03,Buchstaben �ber der Stadt,spotify
+deutsche songs,Spliff,Das Blech,1982,85555,spotify
+deutsche songs,Spliff,Carbonara,1982,85555,spotify
+deutsche songs,Tocotronic,Pure Vernunft darf niemals siegen,2002,Tocotronic,musicBrainz
+deutsche songs,Tocotronic,Let There Be Rock,1999,K.O.O.K.,spotify
+deutsche songs,Tocotronic,Hi Freaks,2002,Tocotronic,musicBrainz
+deutsche songs,Wanda,Bologna,2014-10-17,Amore,spotify
+deutsche songs,Wanda,"1, 2, 3, 4",2015-10-02,Bussi,spotify
+deutsche songs,Kofelgschroa,W�sche,2012-05-25,Kofelgschroa,spotify
+deutsche songs,Frittenbude,Mindestens in 1000 Jahren,2008-11-14,Egotronic,musicBrainz
+deutsche songs,Von Wegen Lisbeth,Wenn du tanzt,2016-07-15,Grande,spotify
+deutsche songs,Von Wegen Lisbeth,Bitch,2016-07-15,Grande,spotify
+Movie / TV Show Soundtrack,Sa�da Bonaire,Heart Over Head,2013-11-12,Sa�da Bonaire,spotify
+Movie / TV Show Soundtrack,Bobbie Gentry,He Made A Woman Out Of Me,1970,Fancy,spotify
+Movie / TV Show Soundtrack,Musi-O-Tunya,Bashi Mwana,2014-02-04,Give Love to Your Children,spotify
+Movie / TV Show Soundtrack,The Romantics,Talking in Your Sleep,1983,In Heat,spotify
+Movie / TV Show Soundtrack,DEVO,Whip It,1980-05-15,Freedom Of Choice,spotify
+Movie / TV Show Soundtrack,The Clash,This is Radio Clash,1978,Capital Radio E.P.,musicBrainz
+Movie / TV Show Soundtrack,Kenny Rogers,Islands In The Stream,1983,We've Got Tonight,musicBrainz
+"""Kraftwerk""esque",Solvent,King Vincent,2015-08-14,New Ways: Music from the Documentary I Dream of Wires (Deluxe Edition),spotify
+"""Kraftwerk""esque",Solvent,For You,2004-09-21,Apples & Synthesizers,spotify
+"""Kraftwerk""esque",Solvent,A Panel Of Experts,2001-10-01,Solvent City,spotify
+"""Kraftwerk""esque",Solvent,Devices and Strategies,2005-04-05,Elevators and Oscillators,spotify
+"""Kraftwerk""esque",Arpanet,Illuminated Displays,2002-05-02,Wireless Internet,spotify
+"""Kraftwerk""esque",Vitalic,Poison Lips,2009-09-28,Flashmob,spotify
+"""Kraftwerk""esque",Lowfish,Things Fall Apart,2008,Frozen And Broken,spotify
+"""Kraftwerk""esque",Lowfish,No Longer Accepting Complaints,2002-04-02,Tangent 2002: Disco Nouveau,spotify
+"""Kraftwerk""esque",Elecktroids,Silicon Valley,1995-08-29,Elektroworld,spotify
+"""Kraftwerk""esque",Dopplereffekt,Cellular Phone,1999,Gesamtkunstwerk,spotify
+"""Kraftwerk""esque",Dopplereffekt,Technic 1200,1999,Gesamtkunstwerk,spotify
+"""Kraftwerk""esque",Dopplereffekt,Die Radiometre,1999,Gesamtkunstwerk,spotify
+"""Kraftwerk""esque",Phoenecia,Grrl Trrbl,2001-02-02,Brownout,spotify
+Electronic,Digitalism,Miami Showdown,2007-05-09,Idealism,musicBrainz
+Electronic,Glass Candy,Digital Versicolor,2007-10-13,B/E/A/T/B/O/X,spotify
+Electronic,Fad Gadget,Lady Shave,1986-01-01,The Fad Gadget Singles,spotify
+2000er,Beyonc�,Naughty Girl,2003,Dangerously In Love,musicBrainz
+2000er,Jennifer Lopez,Love Don't Cost a Thing,2001-01-19,J.Lo,spotify
+2000er,Rihanna,SOS,2006-04-10,A Girl Like Me,spotify
+2000er,Britney Spears,Toxic,2003-11-17,In The Zone,spotify
+2000er,Christina Aguilera,Come on over Baby,2008-11-07,Keeps Gettin' Better: A Decade Of Hits,spotify
+2000er,Rihanna,Umbrella,2008-06-02,Good Girl Gone Bad: Reloaded,spotify
+2000er,Alicia Keys,Fallin',2001-06-25,Songs In A Minor,spotify
+2000er,Justin Timberlake,Rock Your Body,2002-11-04,Justified,spotify
+2000er,Nelly,Ride Wit Me,2000-01-01,Country Grammar,spotify
+2000er,Katy Perry,Hot N Cold,2008-09-15,One Of The Boys,spotify
+2000er,The Black Eyed Peas,Don't Phunk With My Heart,2005-01-01,Monkey Business (International Version),spotify
+2000er,Usher,U Remind Me,2001-01-01,8701,spotify
+2000er,Christina Aguilera,Dirrty,2006-08-28,Christina Aguilera/Stripped,spotify
+2000er,Usher,U-Turn,2001-01-01,8701,spotify
+2000er,Nelly Furtado,All Good Things,2006,Loose (International Tour Edition),spotify
+2000er,Beyonc�,Halo,2008-11-14,I AM...SASHA FIERCE,spotify
+2000er,Nelly Furtado,Maneater,2006-01-01,Loose (International Version),spotify
+2000er,Gwen Stefani,Hollaback Girl,2004-01-01,Love Angel Music Baby,spotify
+2000er,Gwen Stefani,Rich Girl,2004-01-01,Love Angel Music Baby,spotify
+2000er,Fergie,Big Girls Don't Cry,2007-01-01,Big Girls Don't Cry (International Version),spotify
+2000er,will.i.am,I Got It From My Mama,2007-01-01,I Got It From My Mama (International Version),spotify
+2000er,Timbaland,The Way I Are,2007-01-01,Shock Value Deluxe Version (International Version),spotify
+2000er,Brandy,The Boy Is Mine,1998-05-29,Never Say Never,spotify
+2000er,Jamelia,Superstar,2009-07-27,Jamelia - The Collection,spotify
+2000er,Sugababes,Push The Button,2000-12-18,New Year,musicBrainz
+2000er,Sugababes,Overload,2000-11-27,One Touch,spotify
+2000er,Beatsteaks,Hand In Hand,2004,Hand In Hand,spotify
+2000er,t.A.T.u.,All The Things She Said,2002,200 KM/H In The Wrong Lane (10th Anniversary Edition),spotify
+2000er,The Pussycat Dolls,Don't Cha,2005-01-01,PCD (Revised International Version),spotify
+2000er,Juanes,La Camisa Negra,2005-01-01,La Camisa Negra,spotify
+2000er,Jennifer Lopez,Jenny from the Block,2002,This Is Me...Then,spotify
+2000er,The Chemical Brothers,Galvanize,2005-01-24,Push The Button,spotify
+2000er,Blue,All Rise,2004-11-15,Best Of Blue,spotify
+2000er,Kelis,Trick Me,2003-12-08,Tasty,spotify
+2000er,Shaggy,It Wasn't Me,2000,Hot Shot (International Version #2),spotify
+2000er,Vanessa Carlton,A Thousand Miles,2007-01-01,True Power-Ballads / 3CD set,spotify
+2000er,Owl City,Fireflies,2009-01-01,Ocean Eyes,spotify
+2000er,Coldplay,Viva La Vida,2008-11-24,Viva La Vida - Prospekt's March Edition,spotify
+2000er,Eve,Let Me Blow Ya Mind,2001-01-01,Scorpion,spotify
+2000er,JoJo,Leave,2010-01-01,Hits Of The Decade 2000-2009,spotify
+2000er,The Calling,Wherever You Will Go,2011-02-04,The Best Of...,spotify
+2000er,Plain White T's,Hey There Delilah,2006,Hey There Delilah,spotify
+2000er,Destiny's Child,Say My Name,1999-09-07,The Writing's On The Wall,spotify
+2000er,Atomic Kitten,Whole Again,2003-04-22,Atomic Kitten,spotify
+2000er,Eminem,Without Me,2005-12-06,Curtain Call,spotify
+2000er,Nickelback,How You Remind Me,2001-09-11,Silver Side Up,spotify
+2000er,Estelle,American Boy,2008-03-28,Shine,spotify
+2000er,Outlandish,Aicha,2002,Bread & Barrels Of Water,spotify
+2000er,Lady Gaga,Just Dance,2008-01-01,The Fame (Revised International Version),spotify
+2000er,Christina Milian,When You Look At Me,2001-01-01,Christina Milian (World Version-Excluding U.S.),spotify
+2000er,Kylie Minogue,Love At First Sight,2005-01-01,Barbie Summer Hits (European Version) [EU Version],spotify
+2000er,Kylie Minogue,Can't Get You Out Of My Head,2001-10-01,Fever,spotify
+2000er,Kylie Minogue,Spinning Around,2000-07-10,Light Years,spotify
+2000er,Ashanti,Foolish,2005-01-01,Barbie Summer Hits (European Version) [EU Version],spotify
+2000er,P!nk,Get The Party Started,2001-01-01,M!ssundaztood,spotify
+2000er,Tarkan,Simarik,1997,�l�r�m Sana,spotify
+2000er,Daft Punk,One More Time,2001-03-07,Discovery,spotify
+2000er,Darin,Insanity,2007-09-21,�3 Greatest Hits Vol.39,spotify
+2000er,Baha Men,Who Let The Dogs Out,2009-08-07,VIVA Retro Charts - Sommerhits,spotify
+2000er,Santana,Maria Maria,2009-08-07,VIVA Retro Charts - Sommerhits,spotify
+2000er,Hanson,MMMBop,2009-08-07,VIVA Retro Charts - Sommerhits,spotify
+2000er,Shaggy,Angel,2000,Hot Shot (International Version #2),spotify
+2000er,Dante Thomas,Miss California,2007-12-07,Top 10 - Music For The Road,spotify
+2000er,Baby Bash,Suga Suga,2003-01-01,Tha Smokin' Nephew,spotify
+2000er,Mario,Let Me Love You,2005-03-05,Turning Point,spotify
+2000er,Craig David,7 Days,2001-07-17,Born To Do It,spotify
+2000er,Ciara,"1, 2 Step",2005,Music Factory Mastermix Issue 232,musicBrainz
+2000er,Kevin Little,Turn Me On,2014-07-07,Fiesta del Caribe,spotify
+2000er,Moloko,Sing It Back,2006,Catalogue,spotify
+2000er,Moloko,The Time Is Now,2006,Catalogue,spotify
+2000er,Kosheen,Catch,2001-07-02,Resist,spotify
+2000er,Underworld,Born Slippy,2014-01-01,1992 - 2012,spotify
+2000er,The Chemical Brothers,Hey Boy Hey Girl,1999-06-22,Surrender,spotify
+2000er,Natalie Imbruglia,Torn,2011-09-16,4 Hits,spotify
+2000er,All Saints,Pure Shores,2001-10-05,All Hits (Special Edition),spotify
+2000er,Sonique,It Feels So Good,1999-10-21,Hear My Cry,spotify
+2000er,The Cardigans,Lovefool,1996-09-17,First Band On The Moon,spotify
+2000er,TLC,No Scrubs,1999-02-23,Fanmail,spotify
+2000er,Aaliyah,Try Again,2001,Aaliyah (International Version),spotify
+2000er,Crazy Town,Butterfly,1999-11-04,The Gift Of Game,spotify
+2000er,Jennifer Lopez,If You Had My Love,1999-06-28,On The 6,spotify
+2000er,Mary J. Blige,Family Affair,2001-08-28,No More Drama,spotify
+2000er,Fatboy Slim,The Rockafeller Skank,1998-01-01,You've Come a Long Way Baby,spotify
+2000er,Fatboy Slim,Praise You,2001-11-21,Ya Mama EP,musicBrainz
+2000er,Liquido,Narcotic,1998-07-10,Narcotic,spotify
+2000er,The Black Eyed Peas,Imma Be,2009-01-01,THE E.N.D. (THE ENERGY NEVER DIES) [International Deluxe Version],spotify
+2000er,La Roux,Bulletproof,2009-01-01,Bulletproof,spotify
+2000er,Caesars,Jerk It Out,2005-01-14,Jerk It Out,spotify
+2000er,Stacie Orrico,Stuck,2003-03-13,Stacie Orrico,spotify
+2000er,Snoop Dogg,Beautiful,2000,Presents William M. Holla Pt. 2,musicBrainz
+2000er,Afroman,Because I Got High,2001-01-01,The Good Times,spotify
+2000er,Gorillaz,Clint Eastwood,2001-03-26,Gorillaz,spotify
+2000er,The Black Eyed Peas,Where Is The Love?,2003-01-01,Elephunk (International Version),spotify
+2000er,David Guetta,When Love Takes Over,2007,Baby When the Light (Remixes),musicBrainz
+2000er,Patrick Nuo,5 Days,2003-09-08,Welcome (+ Bonus Tracks),spotify
+2000er,Sophie Ellis-Bextor,Murder On The Dancefloor,2002-01-01,Read My Lips (New EU version),spotify
+80s Pop,Eddy Grant,Electric Avenue,2010-01-01,100 Essential Hits Vol. 2,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Electricity,1980-02-22,Orchestral Manoeuvres In The Dark,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Enola Gay,1980-10-24,Organisation,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Secret,1985-06-17,Crush,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,So In Love,1985-06-17,Crush,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Joan Of Arc,1981-11-08,Architecture And Morality,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Souvenir,1981-11-08,Architecture And Morality,spotify
+80s Pop,Orchestral Manoeuvres In The Dark,Sailing On The Seven Seas,1991-05-07,Sugar Tax,spotify
+80s Pop,Soft Cell,Tainted Love,2002-01-01,The Very Best Of Soft Cell [International Version (Excluding UK & Eire)],spotify
+80s Pop,Orchestral Manoeuvres In The Dark,(Forever) Live And Die,1986-09-29,The Pacific Age,spotify
+80s Pop,Naked Eyes,"Promises, Promises",1991-04-19,Best of,spotify
+80s Pop,Naked Eyes,When The Lights Go Out,1994-04-19,"Promises, Promises The Very Best Of Naked Eyes",spotify
+80s Pop,Naked Eyes,Voices In My Head,1994-04-19,"Promises, Promises The Very Best Of Naked Eyes",spotify
+80s Pop,Baltimora,Tarzan Boy,1985,Living In The Background,spotify
+80s Pop,Silent Circle,Touch in the Night,2011-09-23,No.1 (Jubil�ums Edition),spotify
+80s Pop,Caroline Loeb,C'est la ouate,1987,C'est la ouate,spotify
+80s Pop,Ultravox,Vienna,1990-07-01,Vienna,spotify
+80s Pop,Ultravox,Dancing With Tears In My Eyes,1984,Lament,spotify
+80s Pop,My Mine,Hypnotic Tango,2011-03-28,Hypnotic Tango,spotify
+80s Pop,Hot Cold,Love Is Like a Game,2010-10-10,Disco 80 Italo Hits,spotify
+80s Pop,Stacey Q,Two Of Hearts,2007-10-30,Atlantic 60th: On The Dance Floor Vol. 3,spotify
+80s Pop,Harold Faltermeyer,Axel F,2013-01-06,Synthesizer Greatest 1,spotify
+80s Pop,Righeira,Vamos a la Playa,1983,Best of Righeira (Le meilleur des annees 80),spotify
+80s Pop,Silent Circle,Stop the rain in the night,2011-09-23,No.1 (Jubil�ums Edition),spotify
+80s Pop,Righeira,No Tengo Dinero,1983,Righeira,musicBrainz
+80s Pop,Righeira,Luciano Serra pilota,1983,Righeira,musicBrainz
+80s Pop,Silent Circle,Moonlight affair,2011-09-23,No.1 (Jubil�ums Edition),spotify
+80s Pop,Hot Cold,I Can Hear Your Voice,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Jonathan Gable,Central Park,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Hugh Bullen,Alisand,1985,Alisand,spotify
+80s Pop,Via Verdi,Diamond,2013-07-16,Collection: Tutto Hits Anni '80,spotify
+80s Pop,Yazoo,Don't Go,2011-06-24,Essential: Eighties,spotify
+80s Pop,Howard Jones,What Is Love?,1993,Best Of,spotify
+80s Pop,Howard Jones,Like To Get To Know You Well,1993,Best Of,spotify
+80s Pop,The Twins,Ballet Dancer,2004,Singles Collection,spotify
+80s Pop,The Twins,Love System,2006,A Wild Romance,spotify
+80s Pop,Boytronic,You,2014-06-27,The Original Maxi-Singles Collection,spotify
+80s Pop,Boytronic,Luna Square,2003,The Working Model (Reverse),spotify
+80s Pop,Boytronic,Diamonds And Loving Arms,2015-08-07,The Working Model (Deluxe Edition),spotify
+80s Pop,Trans-X,Message On the Radio,1986,Living On Video,spotify
+80s Pop,Erasure,Oh L'Amour,1987-11-16,The Two Ring Circus,musicBrainz
+80s Pop,Bronski Beat,Smalltown Boy,1984,The Age Of Consent,spotify
+80s Pop,Marc Almond,The Days Of Pearly Spencer,1989,The Stars We Are,musicBrainz
+80s Pop,Camouflage,Love Is A Shield,1997-01-01,We Stroke The Flames,spotify
+80s Pop,Camouflage,The Great Commandment,1988-01-01,Voices & Images,spotify
+80s Pop,Laura Branigan,Self Control,1984,Self Control,spotify
+80s Pop,Sandy Marton,People from Ibiza,2010-11-15,Greatest Hits,spotify
+80s Pop,Sandy Marton,Exotic and Erotic,2010-11-15,Greatest Hits,spotify
+80s Pop,Eddy Huntington,Physical Attraction,2010-04-30,Bang Bang Baby,spotify
+80s Pop,Silver Pozzoli,Around My Dream,1985,Around My Dream,spotify
+80s Pop,Silver Pozzoli,Step By Step,2015-10-30,The Original Maxi-Singles Collection,spotify
+80s Pop,Fun Fun,Color My Love,1987,The Best of,spotify
+80s Pop,Jacno,Rectangle,1979-10-01,Rectangle,spotify
+80s Pop,ABC,The Look Of Love,2001,The Look Of Love - The Very Best Of ABC,spotify
+80s Pop,China Crisis,Wishful Thinking,1992,Diary: A Collection,spotify
+80s Pop,China Crisis,Working With Fire And Steel,1983,Working With Fire And Steel,spotify
+80s Pop,Frankie Goes To Hollywood,The Power Of Love,1985-01-01,Bang! (Here Comes a Supernova),spotify
+80s Pop,Marc Almond,Something's Gotten Hold Of My Heart,1989,The Stars We Are,musicBrainz
+80s Pop,Johnny Hates Jazz,Shattered Dreams,1993,The Very Best Of Johnny Hates Jazz,spotify
+80s Pop,Johnny Hates Jazz,Turn Back The Clock,1988,Turn Back The Clock,spotify
+80s Pop,Cutting Crew,(I Just) Died in Your Arms,1993,The Best Of Cutting Crew,spotify
+80s Pop,Laid Back,Elevator Boy,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+80s Pop,Laid Back,High Society Girl,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+80s Pop,Freeez,I.O.U.,1981,Southern Freeez,musicBrainz
+80s Pop,The Human League,Don't You Want Me,2003-09-15,The Very Best Of The Human League,spotify
+80s Pop,Cyndi Lauper,All Through the Night,2014-09-12,Formel Eins (Rarit�ten),spotify
+80s Pop,Boy Meets Girl,Waiting for a Star to Fall,2014-09-12,Formel Eins (Rarit�ten),spotify
+80s Pop,Rockwell,Somebody's Watching Me,1998-01-01,Motown 40 Forever,spotify
+80s Pop,My Mine,Zorro,2011-03-28,Zorro,spotify
+80s Pop,Thompson Twins,Doctor! Doctor!,2006-05-30,Dance Vault Remixes,spotify
+80s Pop,Sandy Marton,Love Synchronicity,2010-11-15,Greatest Hits,spotify
+80s Pop,K.B. Caps,Do You Really Need Me,2014-04-05,Discofox 80's Hits (Remixes),spotify
+80s Pop,Lime,I Don't Wanna Lose,1984-01-01,Sensual Sensation,spotify
+80s Pop,Confetti's,The Sound Of C,2001,The Greatest Hits,musicBrainz
+80s Pop,Alphaville,Big In Japan,1991-12-17,First Harvest 1984-1992,spotify
+80s Pop,La Bionda,I Wanna Be Your Lover,1994-01-27,The Collection,spotify
+80s Pop,Dusty Springfield,In Private,1990,Reputation,spotify
+80s Pop,Nu Shooz,I Can't Wait,1986-05-05,Poolside,spotify
+80s Pop,New Order,Blue Monday,1983-05-02,"Power, Corruption & Lies [Collector's Edition]",spotify
+80s Pop,Plastic Mode,Mi Amor,2011-08-05,Plastic Mode,spotify
+80s Pop,Plastic Mode,Summer Time,2011-08-05,Plastic Mode,spotify
+80s Pop,Koto,Japanese War Game,2010-02-12,Italo Golden Classics,spotify
+80s Pop,Ryan Paris,Dolce Vita,2010-02-12,Italo Golden Classics,spotify
+80s Pop,N.O.I.A.,Do You Wanna Dance,2011,Italo Disco Party (30 Classics from Italian Records),spotify
+80s Pop,N.O.I.A.,The Rule to Survive,2014-10-30,The Rule to Survive (31th Anniversary),spotify
+80s Pop,Men Without Hats,The Safety Dance,2010-06-28,The Safety Dance � The Collection,spotify
+80s Pop,Yazoo,Situation,2008,In Your Room,spotify
+80s Pop,Avenue,You And Me,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Space,Magic Fly,2009-04-06,Magic Fly,spotify
+80s Pop,Babys Gang,Happy Song,2010-04-02,Italo Disco Collection Vol. 4,spotify
+80s Pop,Sabrina,Boys,2010-02-26,80s 100 Hits,spotify
+80s Pop,Koto,Jabdah,2010-01-08,80s Hit News,spotify
+80s Pop,Rofo,Flashlight On a Discolight,2010-11-23,Flashlight On a Discolight - Single,spotify
+80s Pop,Radio Futura,Escuela de Calor,1984,La Ley Del Desierto,spotify
+80s Pop,Mike Mareen,Dancing In The Dark,1987,Let's Start Now,musicBrainz
+80s Pop,Mike Mareen,Agent Of Liberty,1987,Let's Start Now,musicBrainz
+80s Pop,Anything Box,Soldier & Child,1994,Worth,spotify
+80s Pop,Anything Box,Come Away,1994,Worth,spotify
+80s Pop,Anything Box,Beat of Life,1994,Worth,spotify
+80s Pop,Mike Mareen,Love Spy,1987,Let's Start Now,musicBrainz
+80s Pop,The Pointer Sisters,Automatic,2006-05-30,Dance Vault Remixes,spotify
+80s Pop,Brand Image,Are You Loving?,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Joe Maran,Give Me A Break,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Malcom & The Bad Girls,Shoot Me,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,Michael Ray,Just A Dream,2010-02-14,80's Dance Story Original Italo Hits,spotify
+80s Pop,ABC,Poison Arrow,1982,The Lexicon Of Love,spotify
+80s Pop,Raf,Madeleine,1984,Self control,spotify
+80s Pop,Fancy,Slice Me Nice,1998-01-01,Mega-Mix '98,spotify
+80s Pop,Vicious Pink,Cccan't You See,1986-01-01,Vicious Pink (Expanded Edition),spotify
+80s Pop,Bronski Beat,Hit That Perfect Beat,1986,Truthdare Doubledare,spotify
+80s Pop,DEVO,That's Good,1982,Oh No! It's Devo,spotify
+80s Pop,Fox the Fox,Precious Little Diamond,2006-04-21,Collections,spotify
+80s Pop,The Flirts,Danger,1982-01-01,Greatest Hits,spotify
+80s Pop,Yazoo,Nobody's Diary,1983-07-04,You and Me Both (Remastered),spotify
+80s Pop,Stephen Duffy,Kiss Me,1998,They Called Him Tin Tin,spotify
+80s Pop,Animotion,Obsession,2008-01-01,True 80's Love,spotify
+80s Pop,Depeche Mode,Everything Counts,1983,Construction Time Again (Deluxe),spotify
+80s Pop,Alisha,Baby Talk,2007-02-13,Vanguard Dance Classics Part 1,spotify
+80s Pop,The Psychedelic Furs,Love My Way,2003-08-29,The Psychedelic Furs Superhits,spotify
+90s,Real McCoy,Automatic Lover,2003-06-17,Platinum & Gold Collection,spotify
+90s,Real McCoy,Another Night,1995-03-28,Another Night,spotify
+90s,Technotronic,Pump Up The Jam,1990,This Beat Is Technotronic,musicBrainz
+90s,SNAP!,The Power,1990,World Power,spotify
+90s,La Bouche,Be My Lover,2007,Greatest Hits,spotify
+90s,SNAP!,Rhythm Is A Dancer,1992,The Madman's Return,spotify
+90s,Leila K,Ca plane pour moi,1993,Carousel,spotify
+90s,2 Brothers On The 4th Floor,Dreams,2011-12-02,De Top 10 Van,spotify
+90s,Captain Hollywood Project,Flying High,2009-10-30,Animals or Human,spotify
+90s,B.G. The Prince Of Rap,The Colour of My Dreams,2014-05-12,Spring Break - Euro Anthems,spotify
+90s,740 Boyz,Shimmy Shake,1997,The House Of Cutting,spotify
+90s,Sin With Sebastian,Shut up,2007-10-26,Fuck You (I am in Love),spotify
+90s,Gala,Freed from Desire,2010-05-05,Diy Loves 90's Vol. 1,spotify
+90s,D:Ream,Things Can Only Get Better,1993,On Vol.1,spotify
+90s,French Affair,My Heart Goes Boom Radio Version,2000,My Heart Goes Boom,spotify
+90s,Faithless,God Is a DJ,1998-09-28,Sunday 8PM,spotify
+90s,Haddaway,What Is Love,1993,The Album,spotify
+90s,Magic Affair,Omen III,2008-04-08,Omen - The Story Continues,spotify
+90s,Scatman John,Scatman,1995,Dance Massive 95,musicBrainz
+90s,SNAP!,Rhythm Is A Dancer,2005,Attack - The Remixes (Part 2),spotify
+90s,Ice Mc,Think About The Way,1994-01-01,Ice 'n' Green,spotify
+90s,Ann Lee,2 Times,1999-09-16,Dreams,spotify
+90s,Vengaboys,Up & Down,1998,Greatest Hits! Part I,musicBrainz
+90s,Lipstick,I'm A Raver,2011-08-22,Gabber Top 100,spotify
+90s,Brooklyn Bounce,Get Ready to Bounce,1997,Get Ready to Bounce,spotify
+90s,Crystal Waters,Gypsy Woman,2007-01-01,Music For Girls Night Out,spotify
+90s,Touch & Go,Would You...?,1999-01-01,I Find You Very Attractive,spotify
+90s,Edwyn Collins,A Girl Like You,1994,Gorgeous George,spotify
+90s,East 17,House of Love,1993-02-12,Walthamstow,spotify
+90s,East 17,It's Alright,1996-11-01,Around The World - The Journey So Far,spotify
+90s,SNAP!,The First The Last Eternity,2009-11-24,SNAP! The Power Greatest Hits,spotify
+90s,Leila K,Open Sesame,1999-01-01,Open Sesame,spotify
+90s Trance,Celvin Rotane,I Believe,1994,I Believe,spotify
+90s Trance,Kai Tracid,Trance & Acid,2002,Trance & Acid,spotify
+90s Trance,Kai Tracid,I Can Read Your Mind,1999,Skywalker 1999,spotify
+90s Trance,Kai Tracid,Drift Deep Into Your Own Thoughts,2003,Contemplate The Reason You Exist,spotify
+90s Trance,Moonbeam,See The Difference Inside,2007,In Search Of Sunrise 6 - Ibiza,spotify
+90s Trance,GTR,Mistral,2003,Nyana,spotify
+90s Trance,Gareth Emery,Reason To Believe,2004,30 Trance Anthems,spotify
+90s Trance,The Thrillseekers,Synaesthesia,2009-12-21,Synaesthesia,spotify
+90s Trance,Future Breeze,Why Don�t You Dance With Me?,1997-12-12,Why?,spotify
+90s Trance,Future Breeze,Keep The Fire Burnin',1997-12-12,Why?,spotify
+90s Trance,Future Breeze,Mind In Motion,2005-06-27,Second Life,spotify
+90s Trance,Lost Tribe,Gamemaster,1997-09-01,The Distant Voices EP,spotify
+90s Trance,Dance 2 Trance,Power Of American Natives,1990,Technopolis 2,musicBrainz
+90s Trance,Dance 2 Trance,Land Of Oz,1990,Technopolis 2,musicBrainz
+90s Trance,Dance 2 Trance,Warrior,1990,Technopolis 2,musicBrainz
+90s Trance,BBE,Seven Days and One Week,2012-02-14,Seven Days and One Week,spotify
+90s Trance,Chicane,Offshore,2007,Offshore,spotify
+90s Trance,ATB,The Summer,2000,Surfaces Dream,musicBrainz
+90s Trance,Age Of Love,The Age of Love,2003-01-01,Cl�sicos de la Fiesta,spotify
+90s Trance,Ayla,Ayla,1996,"Ravemaster, Volume 1",musicBrainz
+90s Trance,Chicane,Saltwater,2008-10-06,The Best Of Chicane 1996 - 2009,spotify
+90s Trance,Ayla,Liebe,1996,"Ravemaster, Volume 1",musicBrainz
+90s Trance,Mauro Picotto,Komodo,2004,Meganite Presents Mauro Picotto,musicBrainz
+90s Trance,Mauro Picotto,Proximus,2004,Meganite Presents Mauro Picotto,musicBrainz
+90s Trance,Tomcraft,Like a Roller,2006,Broadsword Calling Danny Boy,musicBrainz
+90s Trance,Tomcraft,Overdose,2003,MUC,spotify
+90s Trance,Da Hool,Meet Her At The Loveparade,2001-08-20,Meet Her At The Loveparade,spotify
+90s Trance,Benassi Bros.,Every Single Day,2005-06-09,Every Single Day - Single (Feat. Dhany),spotify
+90s Trance,Solid Globe,Sahara,2005,For You,musicBrainz
+90s Trance,Jean-Michel Jarre,Stardust,2005-06-13,Jarre in China,musicBrainz
+90s Trance,System F,Out Of The Blue,2012-09-21,Trance - The Early Years (1997-2002),spotify
+90s Trance,Giorgio Moroder,The Chase,2012-09-21,Trance - The Early Years (1997-2002),spotify
+90s Trance,AWeX,It&apos;s Our Future,2010-07-14,It&apos;s Our Future (Special Edition),spotify
+90s Trance,AWeX,Acid Power,2015-03-30,The Lost TraX,spotify
+90s Trance,AWeX,No Way Out,2015-03-30,The Lost TraX,spotify
+90s Trance,AWeX,Pure Beat,2010-07-14,It&apos;s Our Future (Special Edition),spotify
+90s Trance,AWeX,The Plasticmen Are Comin&apos;,2010-07-14,It&apos;s Our Future (Special Edition),spotify
+90s Trance,Binary Finary,1998,1998,1998,musicBrainz
+90s Trance,Mellow Trax,Phuture Vibes 2015,2015-08-28,Phuture Vibes 2015,spotify
+90s Trance,Legend B,Lost In Love,1997-04-28,Lost In Love,spotify
+90s Trance,ATB,Ecstasy,2000,Surfaces Dream,musicBrainz
+90s Trance,ATB,9PM [Till I Come],1999-04-26,Movin' Melodies,spotify
+90s Trance,Hypetraxx,The Darkside,2007,"50 Techno Trance Anthems, Vol. 2",spotify
+90s Trance,Emmanuel Top,Acid Phase,2010-11-29,Acid Phase,spotify
+Ain't No Sunshine,Bill Withers,Ain't No Sunshine,1971,Just As I Am,spotify
+Ain't No Sunshine,The Lovin' Spoonful,Daydream,2011-04-15,Massive Hits! - Sixties,spotify
+Ain't No Sunshine,Otis Redding,(Sittin' On) The Dock Of The Bay,1993,Greatest Hits,musicBrainz
+Ain't No Sunshine,Van Morrison,Brown Eyed Girl,2011-06-21,Summer of love,spotify
+Ain't No Sunshine,The Moody Blues,Nights In White Satin,1974-10-08,This Is The Moody Blues,spotify
+Ain't No Sunshine,Procol Harum,A Whiter Shade Of Pale,1967-05-12,A Whiter Shade Of Pale,spotify
+Ain't No Sunshine,The Hollies,Bus Stop,1978-07-01,20 Golden Greats,spotify
+Ain't No Sunshine,Four Tops,I Can't Help Myself,2001-09-25,Fourever,musicBrainz
+Ain't No Sunshine,Tommy James & The Shondells,Crimson And Clover,1989,Anthology,spotify
+Ain't No Sunshine,Herman's Hermits,No Milk Today,1991-09-02,"The Best Of The EMI Years,Vol One 64-66",spotify
+Ain't No Sunshine,The Isley Brothers,This Old Heart Of Mine,1966,This Old Heart Of Mine,spotify
+Beatbox Rocker,WestBam,Beatbox Rocker,1994,RaveMania - The First Generation,musicBrainz
+Beatbox Rocker,Benny Benassi,Satisfaction,2003-05-23,Hypnotica,spotify
+Beatbox Rocker,Phil Fuldner,Miami Pop,2001-08-06,Miami Pop,spotify
+Beatbox Rocker,DJ S.P.U.D.,Set It Off,2002-01-01,Set It Off,spotify
+Beatbox Rocker,Tiga & Zyntherius,Sunglasses at Night,2014-11-24,Sunglasses at Night,spotify
+Beatbox Rocker,AWeX,It&apos;s Our Future,2010-07-14,It&apos;s Our Future (Special Edition),spotify
+Beatbox Rocker,Elektrochemie LK,Schall,1996-11-01,Schall & Rauch,spotify
+Beatbox Rocker,The Love Committee,You Can't Stop Us,2001-07-02,You Can't Stop Us (Loveparade 2001),spotify
+Beatbox Rocker,Members Of Mayday,Sonic Empire,1997-03-24,Sonic Empire,spotify
+Beatbox Rocker,Moby,Feeling So Real,1999,Run On,musicBrainz
+Beatbox Rocker,Darude,Sandstorm,1999,Sandstorm,spotify
+Beatbox Rocker,Nightcrawlers,Push The Feeling On,1995,Push The Feeling On,spotify
+Beatbox Rocker,Modjo,Lady,2010-01-01,Hits Of The Decade 2000-2009,spotify
+Beatbox Rocker,Phats & Small,Turn Around,2001,Sommar & Sol (De St�rsta Sommarhitsen!),spotify
+Beatbox Rocker,Laid Back,White Horse,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+Beatbox Rocker,Boogie Pimps,Somebody To Love,2004,Somebody To Love [Salt Shaker Remix],spotify
+Beatbox Rocker,Boogie Pimps,Sunny,2003,Sunny,spotify
+Beatbox Rocker,Paul Johnson,Get Get Down,2009-12-25,Time 25th Anniversary,spotify
+Beatbox Rocker,Da Hool,Meet Her At The Loveparade,2001-08-20,Meet Her At The Loveparade,spotify
+Beatbox Rocker,WestBam,Sunshine,1997,Rockin� Rave: Best of Progressive Rave,musicBrainz
+Beatbox Rocker,,,2013-06-14,,spotify
+Beatbox Rocker,Gigi D'Agostino,Bla Bla Bla,1999,L'amour Toujours -Chansons For The Heart / Beats For The Feet,spotify
+Beatbox Rocker,Dune,Can�t Stop Raving,1995-07-31,Dune,spotify
+Beatbox Rocker,Niels Van Gogh,Pulverturm,1998-09-21,Pulverturm,spotify
+Beatbox Rocker,Dr. Motte & WestBam present,Love Parade 1998 One World One Future,1998-06-15,Love Parade 1998 One World One Future,spotify
+Beatbox Rocker,Mr. Oizo,Flat Beat,1999,Analog Worms Attack,spotify
+Beatbox Rocker,Tomcraft,Loneliness,2003,Loneliness,spotify
+Beatbox Rocker,Tom Novy,Superstar,2006-09-22,Superstar,spotify
+Beatbox Rocker,The Underdog Project,Summer Jam,2000,Summer Jam,spotify
+Beatbox Rocker,Toktok & Soffy O,Day of Mine,2003,Toktok vs. Soffy O,spotify
+Beatbox Rocker,Toktok & Soffy O,Missy Queen�s Gonna Die,2003,Toktok vs. Soffy O,spotify
+Beatbox Rocker,Lasgo,Something,2012-09-14,Some Things,spotify
+Beatbox Rocker,The Supermen Lovers,Starlight,2001-01-01,Starlight - EP,spotify
+Beatbox Rocker,Alcazar,Crying At the Discoteque,1999-12-30,Casino,spotify
+Beatbox Rocker,Roger Sanchez,Another Chance,2001-07-05,Another Chance,spotify
+Beatbox Rocker,Alice DJ,Better Off Alone,2000,Who Needs Guitars Anyway?,spotify
+Caf� del Mar,Ayla,Open Your Mind,1996,"Ravemaster, Volume 1",musicBrainz
+Caf� del Mar,Nalin & Kane,Beachball,2011-01-09,Beachball 2010,spotify
+Caf� del Mar,Phil Fuldner,Needin' Someone,2015-10-20,Needin' Someone (Incl. RMX by Sascha Braemer & Mat.Joe),spotify
+Caf� del Mar,Fragma,Toca Me,1999,Toca Me (twoloud Remix),spotify
+Caf� del Mar,Thrupence,Thought 8,2012-11-15,Thoughts,spotify
+Caf� del Mar,Melosense,Connected,2014-11-17,Connected,spotify
+Drum'n Bass,Aphrodite,Ganja Man,2002-01-01,Aftershock,spotify
+Drum'n Bass,Aphrodite,Acid To The Sound,2015-05-30,Two Bass / Acid To The Sound,spotify
+Drum'n Bass,Aphrodite,Calcutta,2002-01-01,Aftershock,spotify
+Drum'n Bass,Aphrodite,Heat Haze,2002-01-01,Aftershock,spotify
+Drum'n Bass,Aphrodite,Put A Cut On It,2002-01-01,Aftershock,spotify
+Drum'n Bass,Roni Size,New Forms,1995,Fashion / Fresh (remix),musicBrainz
+Drum'n Bass,Dillinja,Grimey,2001-05-28,Cybotron,musicBrainz
+Drum'n Bass,Dillinja,The Angels Fell,2001-05-28,Cybotron,musicBrainz
+Drum'n Bass,DJ Marky,Lk,2013-05-28,In Rotation,spotify
+Drum'n Bass,Klute,Never Never,2007-04-16,The Emperor's New Clothes,spotify
+Drum'n Bass,Benny Page,Top Rank Skank,2014-02-27,Welcome To The Jungle: The Ultimate Jungle Cakes Drum & Bass Compilation (Copy),spotify
+Emma � Hot Chocolate,Hot Chocolate,Emma,1974,Cicero Park,spotify
+Emma � Hot Chocolate,Hot Chocolate,You Sexy Thing,1975,Hot Chocolate,spotify
+Emma � Hot Chocolate,Hot Chocolate,Every 1's A Winner,1978,Every 1's a Winner,spotify
+Emma � Hot Chocolate,George McCrae,Rock Your Baby,2001,The Very Best Of George McCrae,spotify
+Emma � Hot Chocolate,George McCrae,I Get Lifted,2001,The Very Best Of George McCrae,spotify
+Emma � Hot Chocolate,Oliver Onions,Flying Through the Air,2011-01-19,Bud Spencer & Terence Hill - Die Ultimativen Filmhits,spotify
+Emma � Hot Chocolate,Oliver Onions,Dune Buggy,2011-01-19,Bud Spencer & Terence Hill - Die Ultimativen Filmhits,spotify
+Emma � Hot Chocolate,Daryl Hall & John Oates,Private Eyes,1981,Private Eyes,spotify
+Emma � Hot Chocolate,Michael McDonald,I Keep Forgettin',1982-08-03,If That's What It Takes,spotify
+Emma � Hot Chocolate,Marvin Gaye,Got To Give It Up,1994-01-01,The Best Of Marvin Gaye,spotify
+Emma � Hot Chocolate,DEVO,Whip It,1980-05-15,Freedom Of Choice,spotify
+Emma � Hot Chocolate,Olivia Newton-John,Physical,1981-01-01,Physical,spotify
+Evergreens,Tina Turner,I Can't Stand The Rain,2015-06-26,Private Dancer (30th Anniversary Issue),spotify
+Evergreens,Tina Turner,What's Love Got To Do With It,2015-06-26,Private Dancer (30th Anniversary Issue),spotify
+Evergreens,Tina Turner,Two People,2014-02-03,Love Songs,spotify
+Evergreens,Fine Young Cannibals,She Drives Me Crazy,2006-03-20,The Platinum Collection,spotify
+Evergreens,INXS,Need You Tonight,2011-01-01,INXS Remastered,spotify
+Evergreens,Peter Gabriel,Solsbury Hill,2001-12-11,Vanilla Sky (Music from the Motion Picture),spotify
+Evergreens,Billy Idol,White Wedding,1982,Billy Idol,spotify
+Evergreens,Billy Idol,Dancing With Myself,1982,Billy Idol,spotify
+Evergreens,Billy Idol,Rebel Yell,1983,Rebel Yell,spotify
+Evergreens,Billy Idol,Eyes Without A Face,1983,Rebel Yell,spotify
+Evergreens,Billy Idol,Mony Mony,1985,Vital Idol,spotify
+Evergreens,ZZ Top,Gimme All Your Lovin',1983-03-23,Eliminator,spotify
+Evergreens,ZZ Top,Sharp Dressed Man,1983-03-23,Eliminator,spotify
+Evergreens,Genesis,Land Of Confusion,1986-06-09,Invisible Touch,spotify
+Evergreens,Phil Collins,You Can't Hurry Love,1982-11-17,"Hello, I Must Be Going",spotify
+Evergreens,Billy Idol,Sweet Sixteen,1986,Whiplash Smile,spotify
+Evergreens,Nik Kershaw,Wouldn't It Be Good,1984,Human Racing (Expanded Edition),spotify
+Evergreens,Nik Kershaw,I Won't Let The Sun Go Down On Me,1984,Human Racing (Expanded Edition),spotify
+Evergreens,Genesis,Invisible Touch,1986-06-09,Invisible Touch,spotify
+Evergreens,Spandau Ballet,True,2008-04-25,True - The Digital E.P.,spotify
+Evergreens,Gilbert O'Sullivan,Alone Again,1972,Back to Front (DeLuxe),spotify
+Evergreens,Barry Manilow,Mandy,2002,Ultimate Manilow,spotify
+Evergreens,Genesis,Hold On My Heart,1991-11-11,We Can't Dance,spotify
+Evergreens,Simply Red,Holding Back the Years,1985,Picture Book (Expanded),spotify
+Evergreens,REO Speedwagon,Keep on Loving You,1980,Hi Infidelity (30th Anniversary Edition),spotify
+Evergreens,REO Speedwagon,Can't Fight This Feeling,1985-01-22,Wheels Are Turnin',spotify
+Evergreens,Patti LaBelle,New Attitude,1984-01-01,Beverly Hills Cop (Music From The Motion Picture Soundtrack),spotify
+Evergreens,Toto,Africa,1982-04-08,Toto IV,spotify
+Evergreens,Toto,Hold the Line,1978-10-15,Toto,spotify
+Evergreens,Toto,Rosanna,1982-04-08,Toto IV,spotify
+Evergreens,Foreigner,I Want To Know What Love Is,1984-12-12,Agent Provocateur,spotify
+Evergreens,Billy Ocean,Caribbean Queen,1997,L.I.F.E. (Love Is For Ever),spotify
+Evergreens,Sade,Smooth Operator,2011-04-29,The Ultimate Collection,spotify
+Evergreens,Mike & The Mechanics,Over My Shoulder,1995,Beggar On A Beach Of Gold,spotify
+Evergreens,Chicago,If You Leave Me Now,1976-06-14,Chicago X,spotify
+Evergreens,Billy Joel,We Didn't Start the Fire,1989,Storm Front,spotify
+Evergreens,Billy Joel,The Longest Time,1983,An Innocent Man,spotify
+Evergreens,Starship,Nothing's Gonna Stop Us Now,1987,No Protection,spotify
+Evergreens,Chicago,Hard To Say I'm Sorry,1982-06-07,Chicago 16 (Expanded Edition),spotify
+Evergreens,Fleetwood Mac,Everywhere,1971,The Original Fleetwood Mac,musicBrainz
+Evergreens,Fleetwood Mac,Go Your Own Way,1971,The Original Fleetwood Mac,musicBrainz
+Evergreens,Eurythmics,Thorn in My Side,1986-07-04,Revenge,spotify
+Evergreens,Pet Shop Boys,Always On My Mind,1984,West End Girls,musicBrainz
+Evergreens,Black Box,Ride On Time,1990,Dreamland,spotify
+Evergreens,Daryl Hall & John Oates,You Make My Dreams,1980,Voices,spotify
+Evergreens,Daryl Hall & John Oates,Maneater,1982,H2O,spotify
+Evergreens,Daryl Hall & John Oates,Out of Touch,2005-04-25,The Essential Daryl Hall & John Oates,spotify
+Evergreens,Sade,Hang On to Your Love,2014-09-12,Formel Eins (Rarit�ten),spotify
+Evergreens,Chaka Khan,Ain't Nobody,1996-11-08,"Epiphany: The Best Of Chaka Khan, Vol. 1",spotify
+Evergreens,Terence Trent D'Arby,Wishing Well,1987-07-06,Introducing The Hardline According To Terence Trent D'Arby,spotify
+Evergreens,Terence Trent D'Arby,If You Let Me Stay,1987-07-06,Introducing The Hardline According To Terence Trent D'Arby,spotify
+Evergreens,Lisa Stansfield,All Around the World,2003-05-30,The Boxset Collection,spotify
+Evergreens,Lisa Stansfield,The Real Thing,2003-05-30,The Boxset Collection,spotify
+Evergreens,Phil Collins,Sussudio,1985-04-17,No Jacket Required,spotify
+Evergreens,Billy Ocean,Bitter Sweet,2010-04-23,The Very Best of Billy Ocean,spotify
+Evergreens,Lisa Stansfield,Affection,2003-05-30,The Boxset Collection,spotify
+Evergreens,Phil Collins,Something Happened On The Way To Heaven,1989-11-10,...But Seriously,spotify
+Evergreens,Fine Young Cannibals,Good Thing,1988,The Raw And The Cooked,spotify
+Evergreens,Steve Winwood,Higher Love,2007-01-01,'80s Pop #1's (International Version),spotify
+Evergreens,Steve Winwood,Valerie,1982-01-01,Talking Back To The Night,spotify
+Evergreens,George Harrison,Got My Mind Set On You,1987-11-02,Cloud Nine,spotify
+Evergreens,Chesney Hawkes,The One and Only,2005-05-23,The Very Best Of Chesney Hawkes,spotify
+Evergreens,Lionel Richie,Dancing On The Ceiling,1986,Dancing On The Ceiling (Expanded Edition),spotify
+Evergreens,Steve Winwood,Let Your Love Come Down,1997,Junction Seven,spotify
+Evergreens,Johnny Hates Jazz,Shattered Dreams,1993,The Very Best Of Johnny Hates Jazz,spotify
+Evergreens,Jody Watley,Looking For A New Love,2006-08-08,The Makeover,musicBrainz
+Evergreens,Shannon,Let The Music Play,2000-12-01,The Best Is Yet To Come,spotify
+Evergreens,Paul Young,Come Back and Stay,2003-07-01,The Essential Paul Young,spotify
+Evergreens,Taylor Dayne,Tell It to My Heart,1989,NRG Mixxx Volume 1 Issue 4,musicBrainz
+Evergreens,Level 42,Lessons In Love,1987,Running In The Family (Super Deluxe Edition),spotify
+Evergreens,Philip Bailey,Easy Lover,1985-03-20,Chinese Wall,spotify
+Evergreens,The Cars,Drive,1984-03-13,Heartbeat City,spotify
+Evergreens,Thompson Twins,Don't Mess with Doctor Dream,1985,Here's To Future Days,spotify
+Evergreens,M People,Moving on Up,1992,Excited,musicBrainz
+Evergreens,M People,Don't Look Any Further,1992,Excited,musicBrainz
+Evergreens,Bananarama,Robert De Niro's Waiting,1984,Bananarama (Platinum Re-Issue),spotify
+Evergreens,Fine Young Cannibals,Johnny Come Home,2006-03-20,The Platinum Collection,spotify
+Evergreens,Billy Idol,Hot In The City,1982-01-01,Billy Idol,spotify
+Evergreens,Imagination,Just an Illusion,1982,In the Heat of the Night,spotify
+Evergreens,Stevie Wonder,Part-Time Lover,1985-09-13,In Square Circle,spotify
+Evergreens,Rainbirds,Blueprint,1987-01-01,Rainbirds,spotify
+Evergreens,10cc,Dreadlock Holiday,2017-07-14,"Before, During, After: The Story Of 10cc",spotify
+Evergreens,Londonbeat,I've Been Thinking About You,1995-11-18,Best! The Singles,spotify
+Evergreens,Nick Kamen,I Promised Myself,1990,Move Until We Fly,spotify
+Evergreens,Nick Kamen,Each Time You Break My Heart,1987,Nick Kamen,spotify
+Evergreens,John Parr,St Elmo's Fire,2013-09-18,St Elmo's Fire (Anniversary Edition),spotify
+Evergreens,Living In A Box,Living in a Box,1987-05-09,Living in a Box,spotify
+Evergreens,Jan Hammer,Crockett's Theme,1988-01-11,Escape From Television,spotify
+Evergreens,Paula Abdul,"Rush, Rush",1992-06-29,Spellbound,spotify
+Evergreens,Paula Abdul,Straight Up,1988-06-29,Forever Your Girl,spotify
+Evergreens,Leo Sayer,Thunder In My Heart,1977,Thunder In My Heart,spotify
+Evergreens,Daryl Hall & John Oates,Out of Touch,1984,Big Bam Boom,spotify
+Evergreens,Soulsister,The Way To Your Heart,1997-11-10,The Way To Your Heart - The Very Best Of Soulsister,spotify
+Evergreens,Culture Club,Karma Chameleon,1983-10-01,Colour By Numbers,spotify
+Evergreens,Foreigner,Urgent,1981,4 [Expanded],spotify
+Evergreens,Commodores,Nightshift,1985,Nightshift,spotify
+permanent wave,R.E.M.,Losing My Religion,1991-01-01,Out Of Time (U.S. Version),spotify
+permanent wave,R.E.M.,It's the End of the World As We Know It,1987-09-01,Document (R.E.M. No. 5),spotify
+permanent wave,R.E.M.,Man On The Moon,1992-10-06,Automatic For The People (U.S. Version),spotify
+permanent wave,Soul Asylum,Runaway Train,1986,Black Gold: The Best Of Soul Asylum,spotify
+permanent wave,Tears For Fears,Shout,1985-02-25,Songs From The Big Chair (Deluxe),spotify
+permanent wave,Tears For Fears,Everybody Wants To Rule The World,1985-02-25,Songs From The Big Chair,spotify
+permanent wave,Talking Heads,Psycho Killer,1977-09-16,Talking Heads 77 (Deluxe Version),spotify
+permanent wave,Talking Heads,This Must Be The Place,1983-05-31,Speaking In Tongues (Deluxe Version),spotify
+permanent wave,Manic Street Preachers,If You Tolerate This Your Children Will Be Next,2002-10-28,Forever Delayed,spotify
+permanent wave,Manic Street Preachers,Motorcycle Emptiness,2002-10-28,Forever Delayed,spotify
+permanent wave,U2,With Or Without You,1987-03-10,The Joshua Tree (Deluxe Edition Remastered),spotify
+permanent wave,U2,I Still Haven't Found What I'm Looking For,1987-03-10,The Joshua Tree (Deluxe Edition Remastered),spotify
+permanent wave,The Velvet Underground,Pale Blue Eyes,1969-03,The Velvet Underground,spotify
+permanent wave,The Smiths,This Charming Man,1984,The Smiths,spotify
+permanent wave,The Smiths,There Is A Light That Never Goes Out,1986,The Queen Is Dead,spotify
+permanent wave,Bruce Springsteen,Dancing In the Dark,1984-08-21,Born In The U.S.A.,spotify
+permanent wave,Bruce Springsteen,Born in the U.S.A.,1984-08-21,Born In The U.S.A.,spotify
+permanent wave,Bruce Springsteen,I'm on Fire,1984-08-21,Born In The U.S.A.,spotify
+permanent wave,Elvis Costello,Watching The Detectives,1995,An Overview Disc,musicBrainz
+permanent wave,Burt Bacharach,I'll Never Fall In Love Again,1999-06-01,Austin Powers: The Spy Who Shagged Me Sndtrk,spotify
+permanent wave,Crowded House,Don't Dream It's Over,1986,Crowded House,spotify
+permanent wave,Crowded House,Weather With You,1991-06-24,Woodface,spotify
+permanent wave,Pixies,Where Is My Mind?,1988,Surfer Rosa (Remastered),spotify
+permanent wave,Pixies,Here Comes Your Man,1989-04-17,Doolittle,spotify
+permanent wave,Echo & the Bunnymen,The Killing Moon,1985-11-11,Songs To Learn And Sing,spotify
+permanent wave,Echo & the Bunnymen,Bring On The Dancing Horses,1985-11-11,Songs To Learn And Sing,spotify
+permanent wave,Echo & the Bunnymen,Lips Like Sugar,2006-09-11,The Best of Echo & The Bunnymen,spotify
+permanent wave,Ash,Shining Light,2001-04-01,Free All Angels,spotify
+permanent wave,Supergrass,Alright,1995-05-15,I Should Coco,spotify
+permanent wave,The Vapors,Waiting For The Weekend,1996-11-11,Turning Japanese - Best Of The Vapors,spotify
+permanent wave,The Boomtown Rats,I Don't Like Mondays,1979,The Fine Art Of Surfacing,spotify
+permanent wave,The Stranglers,Golden Brown,1981,La Folie,spotify
+permanent wave,The Stranglers,Always The Sun,1990-03-14,10,spotify
+permanent wave,Mr. Mister,Broken Wings,1985-06-01,Welcome To The Real World,spotify
+permanent wave,Cutting Crew,(I Just) Died in Your Arms,1993,The Best Of Cutting Crew,spotify
+permanent wave,Talking Heads,Road To Nowhere,1985-07-10,Little Creatures,spotify
+permanent wave,Talking Heads,Burning Down The House,1983,Burning Down The House / I Get Wild/Wild Gravity [Digital 45],spotify
+permanent wave,Talking Heads,Once In A Lifetime,1980-10-08,Remain In Light (Deluxe Version),spotify
+permanent wave,Split Enz,Message To My Girl,2005,ExtravagENZa,spotify
+permanent wave,Tasmin Archer,Sleeping Satellite,1992-10-19,Great Expectations,spotify
+permanent wave,Annie Lennox,"No More ""I Love You's""",1995,Medusa,spotify
+permanent wave,Tom Petty,I Won't Back Down,1989-01-01,Full Moon Fever,spotify
+permanent wave,Annie Lennox,Walking on Broken Glass,1992,Diva,spotify
+permanent wave,Seal,Crazy,2009-11-27,Hits,spotify
+permanent wave,Talking Heads,And She Was,1985-07-10,Little Creatures,spotify
+permanent wave,Texas,Inner Smile,2000-01-01,The Greatest Hits,spotify
+permanent wave,The Rembrandts,"Just The Way It Is, Baby",2006-06-20,Greatest Hits,spotify
+permanent wave,Laid Back,Bakerman,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+permanent wave,Laid Back,Sunshine Reggae,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+permanent wave,Pet Shop Boys,Domino Dancing,1984,West End Girls,musicBrainz
+permanent wave,R.E.M.,Drive,2014-01-08,Rock Ballads,spotify
+permanent wave,Faith No More,Easy,1995,Evidence,musicBrainz
+permanent wave,Marc Cohn,Walking In Memphis,2014-01-08,Rock Ballads,spotify
+permanent wave,Gerry Rafferty,Baker Street,2014-01-08,Rock Ballads,spotify
+permanent wave,The Cars,Drive,1984-03-13,Heartbeat City,spotify
+permanent wave,Robert Palmer,Johnny And Mary,1980-01-01,Clues,spotify
+permanent wave,Robert Palmer,Simply Irresistible,2000,Essential,spotify
+permanent wave,Right Said Fred,Don't Talk Just Kiss,1992-01-07,Up,spotify
+permanent wave,John Waite,Missing You,1996-11-12,"The Complete John Waite, Volume One: Falling Backwards",spotify
+permanent wave,Sisters of Mercy,This Corrosion,1987,Floodland (Remastered & Expanded; Deluxe Version),spotify
+permanent wave,Massive Attack,Unfinished Sympathy,2006-03-27,Collected,spotify
+permanent wave,Garbage,Only Happy When It Rains,1995,Garbage,spotify
+permanent wave,The Goo Goo Dolls,Iris,2007-11-06,Greatest Hits Volume One - The Singles,spotify
+permanent wave,Counting Crows,Mr. Jones,2003-11-18,Films About Ghosts (The Best Of Counting Crows) [International Version],spotify
+permanent wave,Laid Back,Beautiful Day,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+permanent wave,The Cure,Close To Me,1985-08-26,The Head On The Door (Remastered Version),spotify
+permanent wave,Shanice,I Love Your Smile,1991-01-01,Inner Child,spotify
+permanent wave,Men Without Hats,The Safety Dance,2010-06-28,The Safety Dance � The Collection,spotify
+permanent wave,Talking Heads,Moon Rocks,1983-05-31,Speaking In Tongues (Deluxe Version),spotify
+permanent wave,When In Rome,The Promise,1988,When In Rome,spotify
+permanent wave,Sydney Youngblood,If Only I Could,1989,Feeling Free,spotify
+permanent wave,The Connells,'74-'75,1993-01-01,Ring,spotify
+permanent wave,Duran Duran,Ordinary World,1993-02-15,Duran Duran [The Wedding Album],spotify
+permanent wave,Simple Minds,Don't You,2013-03-22,Celebrate Greatest Hits,spotify
+permanent wave,Madness,Our House,2011-09-19,A Guided Tour Of Madness,spotify
+permanent wave,Midnight Oil,Beds Are Burning,1997-10-13,20000 Watt RSL - The Midnight Oil Collection,spotify
+permanent wave,Crash Test Dummies,Mmm Mmm Mmm Mmm,1993-10-15,God Shuffled His Feet,spotify
+permanent wave,Level 42,Lessons In Love,1987,Running In The Family (Super Deluxe Edition),spotify
+permanent wave,John Farnham,You're the Voice,2008-09-19,Collections,spotify
+permanent wave,Wang Chung,Dance Hall Days,1986,Mosaic,musicBrainz
+permanent wave,Dave Stewart,Lily Was Here,1990-06-08,Saxuality,spotify
+permanent wave,Manic Street Preachers,You Stole the Sun from My Heart,1998-09-14,This Is My Truth Tell Me Yours,spotify
+permanent wave,Manic Street Preachers,The Everlasting,1998-09-14,This Is My Truth Tell Me Yours,spotify
+permanent wave,Tasmin Archer,When It Comes Down To It,1992-10-19,Great Expectations,spotify
+permanent wave,Bryan Ferry,The Right Stuff,1987,Bete Noire,spotify
+permanent wave,Thompson Twins,Hold Me Now,1984,Into The Gap,spotify
+permanent wave,Erasure,Sometimes,1987-03-30,The Circus,spotify
+permanent wave,Erasure,Always,1992-11-16,Total Pop! - The First 40 Hits (Remastered),spotify
+permanent wave,Bananarama,Robert De Niro's Waiting,1984,Bananarama (Platinum Re-Issue),spotify
+permanent wave,XTC,Making Plans For Nigel,1979-08-17,Drums And Wires,spotify
+permanent wave,XTC,Senses Working Overtime,1982-02-12,English Settlement,spotify
+permanent wave,Modern English,I Melt With You,1990-01-01,Pillow Lips,spotify
+permanent wave,ABC,King Without A Crown,2001,The Look Of Love - The Very Best Of ABC,spotify
+permanent wave,Thompson Twins,Rap Boy Rap,2010-12-03,Box Set,spotify
+permanent wave,Prince,Cream,1991-10-01,Diamonds And Pearls,spotify
+permanent wave,Alannah Myles,Black Velvet,1989-03-14,Alannah Myles,spotify
+permanent wave,Propaganda,Duel,1985,A Secret Wish,spotify
+permanent wave,The Alan Parsons Project,Eye In The Sky,1982,Eye In The Sky (Expanded Edition),spotify
+permanent wave,The Catch,25 Years,2014-03-28,25 Years - The Best of Singles and 12 Inch Versions,spotify
+permanent wave,Heaven 17,Let Me Go,1982,The Luxury Gap (Deluxe Version),spotify
+permanent wave,Freur,Doot Doot,1983,Doot Doot,spotify
+permanent wave,Fad Gadget,Back To Nature,1986-11-17,The Fad Gadget Singles,spotify
+permanent wave,The Romantics,Talking in Your Sleep,1983,In Heat,spotify
+permanent wave,Chyp-Notic,I Can't Get Enough,1993,I Can't Get Enough,spotify
+permanent wave,Simple Minds,All The Things She Said,1985,Once Upon A Time,spotify
+permanent wave,DNA,Tom's Diner,1998-01-01,The Best Of Suzanne Vega - Tried And True,spotify
+permanent wave,Simple Minds,Promised You A Miracle,2008-06-13,Pure 80s Pop,spotify
+permanent wave,Real Life,Catch Me I'm Falling,1983-01-01,Heartland,spotify
+permanent wave,Joy Division,Love Will Tear Us Apart,2008-03-20,The Best Of,spotify
+permanent wave,Robbie Nevil,C'est La Vie,1986-11-01,Robbie Nevil,spotify
+permanent wave,The Psychedelic Furs,The Ghost in You,2003-08-29,The Psychedelic Furs Superhits,spotify
+permanent wave,The Psychedelic Furs,Heaven,2003-08-29,The Psychedelic Furs Superhits,spotify
+Folk / Indie Folk,Bear's Den,Bad Blood,2014-10-20,Islands (Deluxe),spotify
+Folk / Indie Folk,Bear's Den,Agape,2014-10-17,Islands,spotify
+Folk / Indie Folk,Bear's Den,Magdalene,2014-10-17,Islands,spotify
+Folk / Indie Folk,Townes Van Zandt,Lungs,1969,Townes Van Zandt,spotify
+Folk / Indie Folk,Woody Guthrie,Oregon Trail,1999-08-17,"The Asch Recordings, Vol. 1-4",spotify
+Folk / Indie Folk,Woody Guthrie,Pastures of Plenty,1999-08-17,"The Asch Recordings, Vol. 1-4",spotify
+Folk / Indie Folk,Woody Guthrie,Grand Coulee Dam,1999-08-17,"The Asch Recordings, Vol. 1-4",spotify
+Folk / Indie Folk,Stu Larsen,Skin & Bone,2014-07-11,Vagabond,spotify
+Folk / Indie Folk,Isobel Anderson,The Third Death,2013-12-01,In My Garden,spotify
+Folk / Indie Folk,Pete Seeger,Living in the Country,2015-01-31,Living in the Country,spotify
+Folk / Indie Folk,The Avett Brothers,Live And Die,2012-01-01,The Carpenter,spotify
+Folk / Indie Folk,The Avett Brothers,Head Full Of Doubt/Road Full Of Promise,2009-01-01,I And Love And You,spotify
+Folk / Indie Folk,The Tallest Man On Earth,Shallow Grave,2008,Shallow Grave,spotify
+Folk / Indie Folk,The Tallest Man On Earth,I Won't Be Found,2008,Shallow Grave,spotify
+Folk / Indie Folk,Great Lake Swimmers,Hands In Dirty Ground,2003,Great Lake Swimmers,musicBrainz
+Folk / Indie Folk,Blitzen Trapper,Black River Killer,2008-09-23,Furr,spotify
+Folk / Indie Folk,Blitzen Trapper,Valley of Death,2013-09-30,VII,spotify
+Folk / Indie Folk,Blitzen Trapper,Lady On the Water,2008-09-23,Furr,spotify
+Folk / Indie Folk,Marty Robbins,Big Iron,1959,Gunfighter Ballads And Trail Songs,spotify
+Folk / Indie Folk,Timber Timbre,We'll Find Out,2009,Timber Timbre,spotify
+Folk / Indie Folk,Blitzen Trapper,Furr,2008-09-23,Furr,spotify
+Folk / Indie Folk,Johnny Cash,I Walk the Line,1970,I Walk the Line (Original Soundtrack Recording),spotify
+Folk / Indie Folk,Hilarie Burhans,Pretty Polly,2003-01-01,Put On the Skillet,spotify
+Folk / Indie Folk,Doc Watson,Little Sadie,2013-01-01,The Definitive,spotify
+Folk / Indie Folk,Deer Bear,The Other Side,2014-02-06,House Behind the Eyes,spotify
+Folk / Indie Folk,Townes Van Zandt,Snake Song,1978,Flyin' Shoes,spotify
+Folk / Indie Folk,The Tallest Man On Earth,A Field of Birds,2015-04-14,Good People Rock (Yellow Bird Project),spotify
+Folk / Indie Folk,Nick Cave & The Bad Seeds,Red Right Hand,1994-01-01,Red Right Hand (Theme from 'Peaky Blinders'),spotify
+Folk / Indie Folk,Burl Ives,One Hour Ahead of the Posse,2016-03-25,Fargo Year 2 (Songs from the Original MGM / FXP Television Series),spotify
+Folk / Indie Folk,Oscar Isaac,Fare Thee Well,2014-02-14,Inside Llewyn Davis: Original Soundtrack Recording,spotify
+Folk / Indie Folk,The Head and the Heart,Lost In My Mind,2010,The Head And The Heart,spotify
+Folk / Indie Folk,Langhorne Slim,Changes,2005-12-06,Invite Them Up,musicBrainz
+Funk,The Meters,Hand Clapping Song,1991,Funky Miracle,musicBrainz
+Funk,The Poets Of Rhythm,Rhodesian Girl,2013-10-01,The Anthology 1992-2003,spotify
+Funk,The Meters,Cissy Strut,1991,Funky Miracle,musicBrainz
+Funk,The Meters,Live Wire,1995,Funkify Your Life: The Meters Anthology,spotify
+Funk,Orgone,Already Doin It,2008-10-08,Bacano,spotify
+Funk,Fred Wesley & The J.B.'s,"I'm Paying Taxes, What Am I Buyin'",1995-01-01,Funky Good Time: The Anthology,spotify
+Funk,The J.B.'s,You Can Have Watergate Just Gimme Some Bucks And l'll Be Straight,1973-01-01,Doing It To Death,spotify
+Funk,The J.B.'s,Gimme Some More,1995-01-01,Funky Good Time: The Anthology,spotify
+Funk,The Meters,9 'til 5,1970,Look-Ka Py Py,spotify
+Funk,The Mighty Imperials,Cold Sweat,2001,Thunder Chicken,spotify
+Funk,The Sugarman 3,Chicken Half,2000,Soul Donkey,spotify
+Funk,The New Mastersounds,Freckles,2011-08-09,Breaks from the Border,spotify
+Funk,Funkadelic,One Nation Under a Groove,2001-09-09,Da Funk!,spotify
+Funk,Funkadelic,Biological Speculation,1972-05-22,America Eats Its Young,spotify
+Funk,Bobby Womack,Across 110th Street,1998,His Greatest Hits,musicBrainz
+Funk,Lack Of Afro,Missing Me,2014-03-03,Music for Adverts,spotify
+Funk,Lack Of Afro,For You,2007-09-24,Press On,spotify
+Funk,Lack Of Afro,One for the Trouble,2014-03-03,Music for Adverts,spotify
+Funk,The Poets Of Rhythm,More Mess On My Thing,1993,Practice What You Preach,spotify
+Funk,Curtis Mayfield,Superfly,1997-11-11,Superfly,musicBrainz
+Funk,Orgone,Open Season,2008-10-08,Bacano,spotify
+Funk,The Meters,Just Kissed My Baby,1974,Rejuvenation,spotify
+Funk,Parliament,Give Up The Funk,2003-01-01,Mothership Connection,spotify
+Funk,Commodores,Brick House,1977-01-01,Commodores,spotify
+Funk,Kool & The Gang,Get Down On It,1969,Kool and The Gang,musicBrainz
+Funk,Ohio Players,Climax a.k.a. Theme From 69,2007-02-20,Pain,spotify
+Funk,Etta James,"In the Basement, Part One",2015-08-21,Blues,spotify
+Funk,Yamasuki,Yama Yama,1971,Le Monde fabuleux des Yamasuki,musicBrainz
+Funk,Yamasuki,Aieaoa,1971,Le Monde fabuleux des Yamasuki,musicBrainz
+Funk,Stevie Wonder,Superstition,2007-01-01,Number Ones,spotify
+Funk,Wham!,Young Guns,1983-07-09,Fantastic,spotify
+Funk,Chicago,Street Player,1979-08-13,Chicago 13 (Expanded and Remastered),spotify
+Songs with a banjo,Glen Campbell,Southern Nights,1977,Southern Nights,spotify
+Songs with a banjo,Jerry Reed,East Bound and Down,1995,The Essential Jerry Reed,spotify
+Songs with a banjo,Del Amitri,Kiss This Thing Goodbye,1989-01-01,Waking Hours,spotify
+Songs with a banjo,BOY,Waitress,2011-09-02,Mutual Friends,spotify
+gentle drums,Tycho,Past Is Prologue,2006,Past Is Prologue,spotify
+gentle drums,B. Fleischmann,Static Crate,2006-02-10,The Humbucking Coil,spotify
+gentle drums,4lienetic,Nos Couleurs,2014-08-25,Summer Rain LP,spotify
+gentle drums,Michael St Laurent,All Gone,2014-05-09,Armada Chill 001,spotify
+gentle drums,Nitin Sawhney,Nadia,1999-06-21,Beyond Skin,spotify
+gentle drums,Klute,Never Never,2007-04-16,The Emperor's New Clothes,spotify
+gentle drums,Bachelors of Science,Before You Go,2015-05-18,The Space Between,spotify
+Grunge,Killing Joke,Eighties,1992,Laugh? I Nearly Bought One!,spotify
+Grunge,Sisters of Mercy,Lucretia My Reflection,1993,A Slight Case Of Overbombing,spotify
+Grunge,The Cult,She Sells Sanctuary,2000-06-05,Pure Cult,spotify
+Grunge,Siouxsie and the Banshees,Spellbound,1981,Juju (Remastered & Expanded),spotify
+Grunge,Siouxsie and the Banshees,Cities In Dust,2002-01-01,The Best Of...,spotify
+Indie Rock,Queens of the Stone Age,No One Knows,2002-01-01,Songs For The Deaf (UK Version),spotify
+Indie Rock,Queens of the Stone Age,Little Sister,2005-01-01,Lullabies To Paralyze (International Version),spotify
+Indie Rock,Franz Ferdinand,Take Me Out,2004-02-16,Franz Ferdinand,spotify
+Indie Rock,Bloc Party,Helicopter,2005-02-02,Silent Alarm,spotify
+Indie Rock,Bloc Party,Blue Light,2005-02-02,Silent Alarm,spotify
+Indie Rock,The Rakes,22 Grand Job,2005-01-01,Capture / Release,spotify
+Indie Rock,The Rakes,We Danced Together,2007-03-19,Ten New Messages,spotify
+Indie Rock,The Futureheads,Meantime,2004-06-28,The Futureheads (new version),spotify
+Indie Rock,The Cribs,Burning for No One,2015-03-20,For All My Sisters,spotify
+Indie Rock,Kaiser Chiefs,I Predict A Riot,2005,Employment (B-Unique Version),spotify
+Indie Rock,Wire,Three Girl Rhumba,1977,Pink Flag,spotify
+Indie Rock,Kaiser Chiefs,Ruby,2009-01-01,Big British Sound Vol. 1,spotify
+Indie Rock,Razorlight,In The Morning,2009-01-01,Big British Sound Vol. 1,spotify
+Indie Rock,The Maccabees,About Your Dress,2009-01-01,Big British Sound Vol. 1,spotify
+Indie Rock,The Fratellis,Chelsea Dagger,2009-01-01,Big British Sound Vol. 1,spotify
+Indie Rock,Maximo Park,The Coast Is Always Changing,2005-05-16,A Certain Trigger,spotify
+Indie Rock,Maximo Park,Going Missing,2005-05-16,A Certain Trigger,spotify
+Indie Rock,Razorlight,Stumble And Fall,2004,Up All Night,spotify
+Indie Rock,The Subways,I Want To Hear What You Have Got To Say,2005,Young for Eternity,musicBrainz
+Indie Rock,The Subways,Oh Yeah,2005,Young for Eternity,musicBrainz
+Indie Rock,Jet,Are You Gonna Be My Girl,2003-09-15,Get Born,spotify
+Indie Rock,Jet,Last Chance,2003-09-15,Get Born,spotify
+Indie Rock,Jet,Get What You Need,2003-09-15,Get Born,spotify
+Indie Rock,The White Stripes,Blue Orchid,2005-06-06,Get Behind Me Satan,spotify
+Indie Rock,The White Stripes,The Hardest Button To Button,2003-03-31,Elephant,spotify
+Indie Rock,The White Stripes,"Girl, You Have No Faith In Medicine",2003-03-31,Elephant,spotify
+Indie Rock,Wolfmother,Apple Tree,2006-01-01,Wolfmother,spotify
+Indie Rock,Bonaparte,Anti Anti,2008-04-22,Too Much,spotify
+Indie Rock,The Hives,Hate To Say I Told You So,2000,Veni Vidi Vicious,spotify
+Indie Rock,The Hives,Two-Timing Touch and Broken Bones,2000,Veni Vidi Vicious,musicBrainz
+Indie Rock,Maximo Park,Apply Some Pressure,2007-12-10,Missing Songs (Deluxe Version),spotify
+Indie Rock,The Strokes,Someday,2001-10-08,Is This It,spotify
+Indie Rock,The Strokes,The End Has No End,2003,Room On Fire,spotify
+Indie Rock,The Strokes,Take It Or Leave It,2001-08-27,Is This It,spotify
+Indie Rock,Interpol,The Heinrich Maneuver,2007-07-06,Our Love To Admire,spotify
+Indie Rock,Editors,Munich,2005-07-25,The Back Room,spotify
+Indie Rock,The Killers,Mr. Brightside,2004-01-01,Hot Fuss,spotify
+Indie Rock,The Killers,When You Were Young,2006-10-03,Sam's Town,spotify
+Indie Rock,The Kooks,Naive,2006-01-23,Inside In / Inside Out,spotify
+Indie Rock,Arctic Monkeys,I Bet You Look Good On The Dancefloor,2006,"Whatever People Say I Am, That's What I'm Not",spotify
+Indie Rock,The Kooks,She Moves In Her Own Way,2006-01-23,Inside In / Inside Out,spotify
+Indie Rock,Kings of Leon,Four Kicks,2004-11-09,Aha Shake Heartbreak,spotify
+Indie Rock,Cornershop,Brimful of Asha,2006-06-01,Why Try Harder - Greatest Hits,spotify
+Indie Rock,The Wombats,Let's Dance To Joy Division,2007-11,"A Guide to Love, Loss & Desperation",musicBrainz
+Indie Rock,Two Door Cinema Club,What You Know,2010-02-07,Tourist History,spotify
+Indie Rock,We Are Scientists,"Nobody Move, Nobody Get Hurt",2002-04,"Safety, Fun, and Learning (In That Order)",musicBrainz
+Indie Rock,We Are Scientists,The Great Escape,2002-04,"Safety, Fun, and Learning (In That Order)",musicBrainz
+Indie Rock,Kasabian,Club Foot,2004-08-27,Kasabian,spotify
+Indie Rock,The White Stripes,Fell In Love With A Girl,2001-09-24,White Blood Cells,spotify
+Indie Rock,The Bravery,An Honest Mistake,2005-01-01,An Honest Mistake (Int'l ECD Maxi),spotify
+Indie Rock,DEVO,Whip It,1980-05-15,Freedom Of Choice,spotify
+Indie Rock,Elvis Costello & The Attractions,Pump It Up,1978,This Year's Model,spotify
+Indie Rock,Gang Of Four,Damaged Goods,1979,Entertainment! (Expanded & Remastered) [US Release],spotify
+Indie Rock,The View,Same Jeans,2007-01-15,Same Jeans,spotify
+Indie Rock,The Killers,Shot At The Night,2013-01-01,Direct Hits,spotify
+Indie Rock,Mystery Jets,Someone Purer,2005,Always New Depths: The Complete Silent Alarm B-Sides & Remixes,musicBrainz
+Indie Rock,White Lies,Is My Love Enough?,2017-02-16,Friends,spotify
+Indie Rock,Babyshambles,Fireman,2004-02,HQ Bethnel Green Demo Sessions,musicBrainz
+NDW,Nena,"Irgendwie, Irgendwo, Irgendwann",2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Geier Sturzflug,Bruttosozialprodukt,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Peter Schilling,Major Tom,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Hubert Kah,Sternenhimmel,1998,Love Chain (...Maria) / Rosemarie '98,musicBrainz
+NDW,Joachim Witt,GOLDENER REITER,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Extrabreit,"Hurra, hurra, die Schule brennt",1980,Ihre gr��ten Erfolge.,musicBrainz
+NDW,Trio,Da da da ich lieb dich nicht du liebst mich nicht Aha Aha Aha,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,E.A.V. (Erste Allgemeine Verunsicherung),Ba-Ba-Bank�berfall,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Ideal,Blaue Augen,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Paso Doble,Computerliebe,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Ideal,Eiszeit,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Spliff,Das Blech,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,IXI,Der Knutschfleck,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Frl. Menke,Tretboot in Seenot,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Steinwolke,"Katharine, Katharine",2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Rodgau Monotones,Die Hesse komme!,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,E.A.V. (Erste Allgemeine Verunsicherung),M�rchenprinz,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Geier Sturzflug,Besuchen Sie Europa,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,UKW,Sommersprossen,1981,Sommersprossen,musicBrainz
+NDW,Spider Murphy Gang,Ich Schau' Dich An,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Andreas Dorau with Die Marinas,Fred vom Jupiter,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Ideal,Monotonie,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Rheingold,Dreiklangsdimensionen,1980,Rheingold,musicBrainz
+NDW,Fehlfarben,Ein Jahr,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Jawoll,Taxi,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Peter Schilling,Die W�ste lebt,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Hubert Kah,Einmal nur mit Erika...(Dieser Welt entfliehn),1998,Love Chain (...Maria) / Rosemarie '98,musicBrainz
+NDW,Felix De Luxe,Taxi nach Paris,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Paso Doble,Herz an Herz,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,UKW,Ich will,1981,Sommersprossen,musicBrainz
+NDW,KIZ,Die Sennerin vom K�nigssee,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Der Plan,Da vorne steht ne Ampel,2012-01-06,WDR - Die beliebtesten NDW-Hits,spotify
+NDW,Spliff,Carbonara,2005-07-11,The Best Of,spotify
+NDW,Rio Reiser,K�nig von Deutschland,1994-04-15,K�nig von Deutschland - Das Beste von Rio Reiser,spotify
+NDW,Klaus Lage,1000 und 1 Nacht,2008-07-26,Beste Lage,spotify
+NDW,Falco,Der Kommissar,1991-10-25,The Remix Hit Collection,musicBrainz
+NDW,D�f,Codo,2011-04-26,4 Hits - D�F,spotify
+NDW,Trio,Anna,1996-01-01,Da Da Da,spotify
+NDW,Karat,Der blaue Planet,1982,Der blaue Planet,spotify
+Poplockin',Lisa Lisa & Cult Jam,I Wonder If I Take You Home,1985-12-17,Lisa Lisa And Cult Jam With Full Force,spotify
+Poplockin',Club Nouveau,Why You Treat Me So Bad,1987,Heavy on My Mind,musicBrainz
+Poplockin',Jody Watley,Don't You Want Me,1987-01-01,Jody Watley,spotify
+Poplockin',Pebbles,Mercedes Boy,2006-01-01,Gold - '80s Soul,spotify
+Poplockin',Klymaxx,The Men All Pause,1994,One Day,musicBrainz
+Poplockin',Newcleus,Jam on It,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Ready For The World,Somebody's Watching Me,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Shannon,Let the Music Play,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Free Style,Don't Stop the Rock,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Grandmaster Flash,White Lines,1996,"Arcade's Disco Top 100, Volume 2",musicBrainz
+Poplockin',Candyman,Knockin' Boots,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',J.J. Fad,Supersonic,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Ready For The World,Oh Sheila,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Vanilla Ice,Ice Ice Baby,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Slave,Just a Touch of Love,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Dazz Band,Let It Whip,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Company B,Fascinated,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Rock Master Scott,The Roof Is on Fire,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Poplockin',Will To Power,Fading Away,1988-08-09,Will To Power,spotify
+Poplockin',Kid 'N Play,Do This My Way,1988,2 Hype,spotify
+Poplockin',Special Ed,I Got It Made,1989,Youngest in Charge,spotify
+Poplockin',Johnny O.,Fantasy Girl,2011-08-15,Johnny O (Deluxe Edition),spotify
+Poplockin',Johnny O.,Memories,2011-08-15,Johnny O (Deluxe Edition),spotify
+Poplockin',Judy Torres,Come Into My Arms,2005,Judy Torres - The Greatest Hits,spotify
+Poplockin',Herbie Hancock,Rockit,1983,Future Shock,spotify
+Post Grunge,Theory of a Deadman,Any Other Way,2002-09-09,Theory of a Deadman [Special Edition],spotify
+Post Grunge,12 Stones,Adrenaline,2007,Anthem For The Underdog,spotify
+Post Grunge,Monster Truck,Sweet Mountain River,2013-01-01,Furiosity,spotify
+Post Grunge,Bush,Machinehead,1994-12-06,Sixteen Stone (Remastered),spotify
+Post Grunge,Bush,Swallowed,1996-11-19,Razorblade Suitcase (Remastered),spotify
+Post Grunge,Bush,The Chemicals Between Us,1999-10-26,The Science Of Things (Remastered),spotify
+Post Grunge,Bush,The Only Way Out,2014-10-17,Man on the Run (Deluxe Version),spotify
+The Hotstepper,Ini Kamoze,Here Comes the Hotstepper,1994,Here Comes The Hotstepper,spotify
+The Hotstepper,Inner Circle,Games People Play,1994-03-05,Reggae Dancer,spotify
+The Hotstepper,Inner Circle,Bad Boys,1992-03-05,Bad To The Bone,spotify
+The Hotstepper,Shabba Ranks,Ting-A-Ling,1991,Greatest Hits,spotify
+The Hotstepper,Shabba Ranks,Mr. Loverman,1991,Greatest Hits,spotify
+The Hotstepper,Chaka Demus & Pliers,Murder She Wrote,1993-01-01,Tease Me,spotify
+The Hotstepper,Chaka Demus & Pliers,Tease Me,2007-01-01,True Reggae,spotify
+The Hotstepper,UB40,Red Red Wine,2000,The Very Best Of,spotify
+The Hotstepper,Jimmy Cliff,I Can See Clearly Now,1969,We All Are One: The Best Of Jimmy Cliff,spotify
+The Hotstepper,Laid Back,Sunshine Reggae,2008-10-06,Good Vibes - The Very Best of Laid Back,spotify
+The Hotstepper,Diana King,Shy Guy,1995-04-14,Tougher Than Love,spotify
+The Hotstepper,Gregory Isaacs,Night Nurse,1982-01-01,Night Nurse,spotify
+Rap,Dr. Dre,Still D.R.E.,1999-01-01,2001 (Explicit Version),spotify
+Rap,Dr. Dre,The Next Episode,1999-01-01,2001 (Explicit Version),spotify
+Rap,Nas,Nas Is Like,1994,"Best of the Wake Up Show '94, Volume 1",musicBrainz
+Rap,Ludacris,Get Back,2004-01-01,The Red Light District,spotify
+Rap,Disturbing Tha Peace,Move Bitch,2001-01-01,Word Of Mouf,spotify
+Rap,Ja Rule,Always On Time,2001-10-29,Pain Is Love (International Version),spotify
+Rap,The Beatnuts,Watch Out Now,1999-08-10,A Musical Massacre (Explicit),spotify
+Rap,The Beatnuts,Off the Books,2009-09-15,The Legacy: The Best Of Big Pun,spotify
+Rap,Jurassic 5,Concrete Schoolyard,2008,J 5 (Deluxe Edition),spotify
+Rap,Jurassic 5,Jayou,2008,J 5 (Deluxe Edition),spotify
+Rap,Jurassic 5,What's Golden,2002-01-01,Power In Numbers (Explicit Version),spotify
+Rap,Gang Starr,Full Clip,1999-07-13,Full Clip: A Decade Of Gang Starr,spotify
+Rap,Gang Starr,Above The Clouds,1998-03-31,Moment Of Truth,spotify
+Rap,Gang Starr,Work,1998-03-31,Moment Of Truth,spotify
+Rap,JAY Z,Change Clothes,2003-01-01,The Black Album (Explicit),spotify
+Rap,JAY Z,99 Problems,2003-01-01,The Black Album (Explicit),spotify
+Rap,Pharrell Williams,Frontin',2003,The Neptunes Present... Clones,spotify
+Rap,Onyx,Slam,1993-03-30,Bacdafucup,spotify
+Rap,N.W.A.,Straight Outta Compton,1988-08-08,Straight Outta Compton (2002 - Remaster),spotify
+Rap,Ice Cube,It Was A Good Day,2000,The Up in Smoke Tour,musicBrainz
+Rap,Wu-Tang Clan,Gravel Pit,2001,Gravel Pit,spotify
+Rap,Ol' Dirty Bastard,Shimmy Shimmy Ya,1995,Return To The 36 Chambers: The Dirty Version,spotify
+Rap,Method Man,Da Rockwilder,1999-09-28,Blackout!,spotify
+Rap,Pharoahe Monch,Simon Says,2011-05-17,Classic Hip-Hop,spotify
+Rap,Dilated Peoples,Worst Comes To Worst,1995,"Imagery, Battle Hymns & Political Poetry",musicBrainz
+Rap,Dilated Peoples,Kindness For Weakness,1995,"Imagery, Battle Hymns & Political Poetry",musicBrainz
+Rap,LL Cool J,Doin' It,1989,Walking With a Panther,musicBrainz
+Rap,The Sugarhill Gang,Rappers Delight,2009-01-01,Hip To The Hop: 30th Anniversary Of Hip Hop Hip To Da Hop,spotify
+Rap,Kurtis Blow,The Breaks,1994-01-01,The Best Of Kurtis Blow,spotify
+Rap,Rakim,Guess Who's Back,1996-11-04,The 18th Letter / The Book Of Life,spotify
+Rap,Rakim,When I B On Tha Mic,1999-11-30,The Master,spotify
+Rap,Rakim,It's The R,1999-11-30,The Master,spotify
+Rap,Cassidy,I'm A Hustla,2005-06-27,I'm A Hustla,spotify
+Rap,Fatman Scoop,Be Faithful,2003-09-08,"RnB Super CD, Volume 2",musicBrainz
+Rap,DMX,X Gon' Give It To Ya,2010-01-01,The Best Of DMX,spotify
+Rap,DMX,Party Up,2010-01-01,The Best Of DMX,spotify
+Rap,DMX,Ruff Ryders' Anthem,2010-01-01,The Best Of DMX,spotify
+Rap,Nelly,Hot In Herre,2002-01-01,Nellyville (Explicit Version),spotify
+Rap,Warren G,Regulate,1994-06-07,Regulate� G Funk Era (Special Edition),spotify
+Rap,Marley Marl,The Symphony,1985,Marley Marl Scratch,musicBrainz
+Rap,OutKast,Ms. Jackson,2000-10-31,Stankonia,spotify
+Rap,OutKast,Roses,2003,Speakerboxxx/The Love Below,spotify
+Rap,OutKast,"So Fresh, So Clean",2000-10-31,Stankonia,spotify
+Rap,Cypress Hill,Insane in the Brain,1991,Cypress Hill,musicBrainz
+Rap,Cypress Hill,Dr. Greenthumb,1991,Cypress Hill,musicBrainz
+Rap,Xzibit,X,1996,The Greatest,spotify
+Rap,Xzibit,Multiply,1998,40 Dayz & 40 Nightz,musicBrainz
+Rap,Busta Rhymes,Break Ya Neck,2001-10-22,Genesis,spotify
+Rap,Busta Rhymes,Put Your Hands Where My Eyes Could See,1997,When Disaster Strikes,spotify
+Rap,Busta Rhymes,Gimme Some More,1998,Extinction Level Event: The Final World Front,spotify
+Rap,Busta Rhymes,Woo Hah!! Got You All In Check,1996,The Coming,spotify
+Rap,The Notorious B.I.G.,Hypnotize,2007-03-05,Greatest Hits (Explicit Version),spotify
+Rap,The Notorious B.I.G.,Juicy,2007-03-05,Greatest Hits (Explicit Version),spotify
+Rap,The Notorious B.I.G.,Mo Money Mo Problems,1997-03-04,Life After Death (Deluxe Version),spotify
+Rap,The Notorious B.I.G.,Kick In The Door,1997-03-04,Life After Death (Deluxe Version),spotify
+Rap,Goodie Mob,Cell Therapy,2003,Dirty South Classics,spotify
+Rap,Ja Rule,Clap Back,2005-01-01,Exodus (**),spotify
+Rap,Prodigy,Keep It Thoro,1992,As Darkness Reigns,musicBrainz
+Rap,Fugees,Fu-Gee-La,1994,"Best of the Wake Up Show '94, Volume 1",musicBrainz
+Rap,A Tribe Called Quest,Can I Kick It?,1990,People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition),spotify
+Rap,M.O.P.,Ante Up Remix,2000-08-29,Warriorz,spotify
+Rap,Juelz Santana,There It Go,2005-01-01,What The Game's Been Missing!,spotify
+Rap,Killah Priest,Excalibur,2009-01,The Curse of a Virgin,musicBrainz
+Rap,Young MC,Bust A Move,2007-06-11,My Name Is Earl,spotify
+Rap,Three Times Dope,Greatest Man Alive,1988,Original Stylin',spotify
+Rap,Big Daddy Kane,Raw,1988,Long Live The Kane,spotify
+Rap,Redhead Kingpin,Do The Right Thing,2008-06-16,Pure Dance Party,spotify
+Rap,Sir Mix-A-Lot,Beepers,1989-01-01,Seminar,spotify
+Rap,Salt-N-Pepa,Push It,1986-12-08,"Hot, Cool & Vicious",spotify
+Rap,Salt-N-Pepa,Shoop,1993-10-12,Very Necessary,spotify
+Rap,Salt-N-Pepa,Whatta Man,1993-10-12,Very Necessary,spotify
+Rap,3rd Bass,Sons Of 3rd Bass,1989,The Cactus Album,musicBrainz
+Rap,Big Daddy Kane,Mr. Pitiful,1990,Taste Of Chocolate,spotify
+Rap,Father MC,I'll Do 4 U,2010-11-01,Old School Hip Hop & Freestyle,spotify
+Rap,Mystikal,Shake Ya Ass,1995,Mystikal,musicBrainz
+Rap,Mystikal,Danger featuring Nivea,1995,Mystikal,musicBrainz
+Rap,Mystikal,I Don't Give A...,1995,Mystikal,musicBrainz
+Rap,EPMD,Da Joint,1997-09-16,Back In Business,spotify
+Rap,Low Profile,Pay Ya Dues,1989,We're In This Together,spotify
+Rap,Too $hort,The Ghetto,1988,Life Is� Too $hort,musicBrainz
+Rap,FU-Schnickens,La Schmoove,1991,F.U.-Don't Take It Personal,spotify
+Rap,Freak Nasty,Da' Dip,1996-10-29,Controversee�That's Life�and That's the Way It Is,spotify
+Rap,Ol' Dirty Bastard,Hip Hop Drunkies,2003-03-25,Wu-Tang Collective,spotify
+Rap,Suga Free,Why U Bullshittin?,2007-09-25,Sunday School,musicBrainz
+Rap,Foxy Brown,Big Bad Mama,1997,I'll Be,musicBrainz
+Rap,Craig Mack,Flava In Ya Ear,1994-01-01,Project: Funk Da World,spotify
+Rap,Black Sheep,The Choice Is Yours,1991-01-01,A Wolf In Sheep's Clothing,spotify
+Rap,The Pharcyde,Passin' Me By,1992-11-24,Bizarre Ride II The Pharcyde (Deluxe Edition),spotify
+Rap,AMG,Bitch Betta Have My Money,1991,Bitch Betta Have My Money,spotify
+Rap,Tim Dog,Fuck Compton,2014,"Hip-Hop Golden Age, Vol. 6 (The Greatest Songs of the 90's)",spotify
+Rap,Geto Boys,Mind Playing Tricks on Me,1988,Making Trouble,musicBrainz
+Rap,Geto Boys,G Code,1988,Making Trouble,musicBrainz
+Rap,Leaders of the New School,What's Next,1993-09-21,T.I.M.E.,spotify
+Rap,A Tribe Called Quest,Oh My God,1993-11-08,Midnight Marauders,spotify
+Rap,Chubb Rock,Treat 'Em Right,1991-05-10,The One,spotify
+Rap,Poor Righteous Teachers,Strictly Ghetto,1990,Holy Intellect (Expanded Edition),spotify
+Rap,Poor Righteous Teachers,Conscious Style,1990,Holy Intellect,musicBrainz
+Rap,2nd II None,Be True To Yourself,1991,2nd II None,spotify
+Rap,Aesop Rock,Preservation,2003-11-18,Urban Renewal Program Supplement 1.5,musicBrainz
+Rap,Del The Funky Homosapien,Mistadobalina,1991-10-15,I Wish My Brother George Was Here,spotify
+Rap,Das EFX,Real Hip-Hop,1995-09-26,Hold It Down,spotify
+Rap,Das EFX,They Want EFX,1992-04-07,Dead Serious,spotify
+Rap,Snoop Dogg,Deep Cover,2000,Presents William M. Holla Pt. 2,musicBrainz
+Rap,Heavy D & The Boyz,Nuttin' But Love,1994-05-25,Nuttin' But Love,spotify
+Rap,Grand Puba,I Like It,1995,2000,spotify
+Rap,Grand Puba,360,1992-09-29,Reel To Reel,spotify
+Rap,Funkdoobiest,Lost in Thought,1995,Brothas Doobie,spotify
+Rock Classics,Boston,More Than a Feeling,1976,Boston,spotify
+Rock Classics,T. Rex,Get It On,1971-09-24,Electric Warrior (Deluxe Edition),spotify
+Rock Classics,The Kinks,All Day And All Of The Night,2012-08-13,The Kinks at the BBC,musicBrainz
+Rock Classics,Bonnie Tyler,Holding Out for a Hero,1983,The Bop Won�t Stop,musicBrainz
+Rock Classics,Guns N' Roses,Paradise City,1987-01-01,Appetite For Destruction,spotify
+Rock Classics,The Undertones,Teenage Kicks,1979,The Undertones,spotify
+Rock Classics,Starship,We Built This City,1985,Knee Deep In The Hoopla,spotify
+Rock Classics,Starship,Sara,2007-05-01,Greatest Hits Of The '80s,spotify
+Rock Classics,Cream,Sunshine Of Your Love,1997-09-23,Those Were The Days,spotify
+Rock Classics,The Box Tops,The Letter,2011-06-21,Summer of love,spotify
+Rock Classics,Jefferson Airplane,Somebody to Love,2001,Shut Up and Play: Forgettable Moments on Stage (WFMU Marathon Premium),musicBrainz
+Rock Classics,Pat Benatar,We Belong,1984,Tropico,spotify
+Rock Classics,Pat Benatar,Hit Me With Your Best Shot,1999-09-23,Synchronistic Wanderings,spotify
+Rock Classics,Starship,Nothing�s Gonna Stop Us Now,2010-07-01,Greatest Hits,spotify
+Rock Classics,Creedence Clearwater Revival,Bad Moon Rising,1969,Green River (40th Anniversary Edition),spotify
+Rock Classics,Kenny Loggins,Danger Zone,2006-01-01,Top Gun Deluxe Edition,spotify
+Rock Classics,Sweet,Ballroom Blitz,2008-11-18,Shaun White Snowboarding: Official Soundtrack,spotify
+Rock Classics,Toto,Africa,1982-04-08,Toto IV,spotify
+Rock Classics,Pretenders,I'll Stand By You,2014-01-08,Rock Ballads,spotify
+Rock Classics,The Knack,My Sharona,1979,Get The Knack,spotify
+Rock Classics,Robert Palmer,Bad Case Of Loving You,2007-01-01,The Silver Range,spotify
+Rock Classics,Eddie Money,Two Tickets to Paradise,1977,Eddie Money,spotify
+Rock Classics,Cheap Trick,I Want You to Want Me,1977,In Color,spotify
+Rock Classics,The Outfield,Your Love,1985,Play Deep,spotify
+Rock Classics,The Outfield,All The Love,1985,Play Deep,spotify
+Rock Classics,Sweet,Love Is Like Oxygen,2012-06-12,Greatest Hits (Alternate Versions),spotify
+Rock Classics,Eddie Money,Take Me Home Tonight,1977,The Best Of Eddie Money,spotify
+Rock Classics,Yes,Owner Of A Lonely Heart,1983-06-01,90125 (Deluxe Version),spotify
+Rock Classics,Rick Springfield,Jessie's Girl,1981,Working Class Dog,spotify
+Rock Classics,Toto,Hold the Line,1978-10-15,Toto,spotify
+Rock Classics,Heroes Del Silencio,Entre dos tierras,1990-11-19,Senderos De Traici�n,spotify
+Rock Classics,Creedence Clearwater Revival,Fortunate Son,1969-11-02,Willy And The Poor Boys (40th Anniversary Edition),spotify
+Rock Classics,Stealers Wheel,Stuck In The Middle With You,1972,Stuck in the Middle With You,musicBrainz
+Rock Classics,Free,All Right Now,1970-06-26,Fire And Water,spotify
+Rock Classics,Toto,I'll Supply the Love,1978-10-15,Toto,spotify
+Rock Classics,Ted Nugent,Wango Tango,1981,Great Gonzos! The Best Of Ted Nugent,spotify
+Rock Classics,Bon Jovi,Runaway,1984-01-01,Bon Jovi,spotify
+Rock Classics,The Runaways,Dead End Justice,1976,The Runaways,spotify
+Rock Classics,Olivia Newton-John,Moth To A Flame,1985-01-01,Soul Kiss,spotify
+Rock Classics,Bryan Adams,Run To You,1984-01-01,Reckless,spotify
+Rock Classics,Survivor,Eye of the Tiger,1985,Rocky IV,spotify
+Rock Classics,DEVO,Girl U Want,1989,Now It Can Be Told: Devo at the Palace 12/9/88,musicBrainz
+Kraftwerk,Kraftwerk,Autobahn,1974,Autobahn (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Kometenmelodie 1,1974,Autobahn (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Kometenmelodie 2,1974,Autobahn (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Mitternacht,1974,Autobahn (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Morgenspaziergang,1974,Autobahn (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Radioaktivit�t,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Radioland,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,�therwellen,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Sendepause,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Nachrichten,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Die Stimme Der Energie,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Antenne,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Radio Sterne,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Transistor,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Ohm Sweet Ohm,1975,Radio-Aktivit�t (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Europa Endlos,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Spiegelsaal,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Schaufensterpuppen,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Trans Europa Express....,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Metall Auf Metall,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Abzug,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Franz Schubert,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Endlos Endlos,1977,Trans Europa Express (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Die Roboter,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Spacelab,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Metropolis,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Das Modell,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Neonlicht,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Die Mensch-Maschine,1978,Die Mensch-Maschine (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Computerwelt,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Taschenrechner,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Nummern,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Computerwelt 2,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Computer Liebe,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Heimcomputer,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,It's More Fun To Compute,1981,Computerwelt (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Boing Boom Tschak,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Techno Pop,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Musique Non Stop,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Der Telefon Anruf,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,House Phone,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Sex Objekt,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Electric Cafe,1986,Techno Pop (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Prologue,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Tour De France,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Tour De France,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Tour De France,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Chrono,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Vitamin,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Aero Dynamik,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Titanium,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Elektro Kardiogramm,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,La Forme,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Regeneration,2003,Tour De France (2009 Remastered Version),spotify
+Kraftwerk,Kraftwerk,Tour De France,2003,Tour De France (2009 Remastered Version),spotify
+Kings of Leon,Kings of Leon,Happy Alone,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Wasted Time,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Joe's Head,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Trani,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,California Waiting,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Spiral Staircase,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Molly's Chambers,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Genius,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Dusty,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,Holy Roller Novocaine,2003-08-19,Youth And Young Manhood,spotify
+Kings of Leon,Kings of Leon,"Slow Night, So Long",2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,King of the Rodeo,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Taper Jean Girl,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Pistol of Fire,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Milk,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,The Bucket,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Soft,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Razz,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Day Old Blues,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Four Kicks,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Velvet Snow,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Rememo,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Where Nobody Knows,2004-11-09,Aha Shake Heartbreak,spotify
+Kings of Leon,Kings of Leon,Knocked Up,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Charmer,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,On Call,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,McFearless,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Black Thumbnail,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,My Party,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,True Love Way,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Ragoo,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Fans,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,The Runner,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Trunk,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Camaro,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Arizona,2007-04-03,Because Of The Times,spotify
+Kings of Leon,Kings of Leon,Closer,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Crawl,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Sex on Fire,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Use Somebody,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Manhattan,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Revelry,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,17,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Notion,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,I Want You,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Be Somebody,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,Cold Desert,2008-09-23,Only By The Night,spotify
+Kings of Leon,Kings of Leon,The End,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Radioactive,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Pyro,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Mary,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,The Face,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,The Immortals,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Back Down South,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Beach Side,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,No Money,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Pony Up,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Birthday,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Mi Amigo,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Pickup Truck,2010-10-19,Come Around Sundown,spotify
+Kings of Leon,Kings of Leon,Supersoaker,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Rock City,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Don't Matter,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Beautiful War,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Temple,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Wait for Me,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Family Tree,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Comeback Story,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Tonight,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Coming Back Again,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,On the Chin,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Work On Me,2013-09-24,Mechanical Bull (Deluxe Version),spotify
+Kings of Leon,Kings of Leon,Last Mile Home,2013-09-24,Mechanical Bull (Deluxe Version),spotify

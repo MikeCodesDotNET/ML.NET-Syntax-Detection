@@ -1,0 +1,6 @@
+FROM app-deps:local
+WORKDIR /var/app
+
+COPY . .
+
+CMD ["node","app.js"]

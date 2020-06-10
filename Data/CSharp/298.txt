@@ -1,0 +1,18 @@
+public override void ViewDidLoad ()
+{
+    base.ViewDidLoad ();
+    string translatedNumber = "";
+
+    TranslateButton.TouchUpInside += (object sender, EventArgs e) => {
+      translatedNumber = Core.PhonewordTranslator.ToNumber(PhoneNumberText.Text);
+      PhoneNumberText.ResignFirstResponder ();
+
+      if (translatedNumber == "") {
+        CallButton.SetTitle ("Call", UIControlState.Normal);
+        CallButton.Enabled = false;
+      } else {
+        CallButton.SetTitle ("Call " + translatedNumber, UIControlState.Normal);
+        CallButton.Enabled = true;
+      }
+  };
+}

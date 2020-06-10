@@ -1,0 +1,5 @@
+type Endpoints struct {
+    GetEndpoint      endpoint.Endpoint
+    StatusEndpoint   endpoint.Endpoint
+    ValidateEndpoint endpoint.Endpoint
+}

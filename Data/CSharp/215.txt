@@ -1,0 +1,30 @@
+[FunctionName("RequestToken")]
+public async Task<IActionResult> Run(
+    [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] 
+        HttpRequest req,
+    ILogger log,
+    ClaimsPrincipal principal)
+{
+    if (principal == null)
+    {
+        log.LogWarning("No principal.");
+        return new UnauthorizedResult();
+    }
+
+    if (principal.Identity == null)
+    {
+        log.LogWarning("No identity.");
+        return new UnauthorizedResult();
+    }
+
+    if (!principal.Identity.IsAuthenticated)
+    {
+        log.LogWarning("Request was not authenticated.");
+        return new UnauthorizedResult();
+    }
+
+    var id = principal.FindFirst(ClaimTypes.NameIdentifier).Value;
+    log.LogInformation("Authenticated user {user}.", id);
+
+    return new OkResult();
+}

@@ -1,0 +1,423 @@
+Department,Course,Humanities,Humanities (performance),Social Science,Diversity
+American Sign Language,121,true,false,false,false
+American Sign Language,122,true,false,false,false
+American Sign Language,123,true,false,false,false
+American Sign Language,221,true,false,false,false
+American Sign Language,222,true,false,false,false
+American Sign Language,223,true,false,false,false
+Anthropology,100,false,false,true,true
+Anthropology,104,false,false,false,true
+Anthropology,106,false,false,false,true
+Anthropology,108,false,false,true,true
+Anthropology,117,false,false,false,true
+Anthropology,180,false,false,true,true
+Anthropology,200,false,false,false,true
+Anthropology,204,false,false,true,false
+Anthropology,206,false,false,true,true
+Anthropology,208,true,false,true,true
+Anthropology,209,false,false,false,true
+Anthropology,210,false,false,false,true
+Anthropology,211,false,false,false,true
+Anthropology,212,false,false,false,true
+Anthropology,214,false,false,false,true
+Anthropology,219,false,false,true,true
+Anthropology,220,false,false,true,true
+Anthropology,222,false,false,true,true
+Anthropology,224,false,false,true,true
+Anthropology,230,false,false,true,false
+Anthropology,232,false,false,true,false
+Anthropology,234,false,false,true,false
+Anthropology,235,false,false,true,true
+Anthropology,236,false,false,true,false
+Anthropology,260,false,false,false,true
+Anthropology,265,false,false,false,true
+Arabic,121,true,false,false,false
+Arabic,122,true,false,false,false
+Arabic,123,true,false,false,false
+Art,101,true,false,false,false
+Art,103,true,false,false,true
+Art,105,true,false,false,false
+Art,110,false,true,false,false
+Art,111,false,true,false,false
+Art,112,false,true,false,false
+Art,120,false,true,false,false
+Art,121,false,true,false,false
+Art,150,false,true,false,false
+Art,151,false,true,false,false
+Art,153,false,true,false,false
+Art,154,false,true,false,false
+Art,201,true,false,false,false
+Art,202,true,false,false,false
+Art,203,true,false,false,false
+Art,205,true,false,false,false
+Art,206,true,false,false,false
+Art,221,false,true,false,false
+Art,222,false,true,false,false
+Art,225,true,false,false,false
+Art,230,false,true,false,false
+Art,235,false,true,false,false
+Art,240,false,true,false,false
+Art,242,false,true,false,false
+Art,245,false,true,false,false
+Art,247,false,true,false,false
+Art,253,false,true,false,false
+Art,254,false,true,false,false
+Art,256,false,true,false,false
+Art,260,false,true,false,false
+Art,261,false,true,false,false
+Art,280,false,true,false,false
+Art,281,false,true,false,false
+Business,101,false,false,true,false
+Chinese,121,true,false,false,false
+Chinese,122,true,false,false,false
+Chinese,123,true,false,false,false
+Chinese,221,true,false,false,false
+Chinese,222,true,false,false,false
+Chinese,223,true,false,false,false
+Communication Studies,101,true,false,false,false
+Communication Studies,102,false,false,true,false
+Communication Studies,105,true,false,false,false
+Communication Studies,106,true,false,false,false
+Communication Studies,107,true,false,false,false
+Communication Studies,115,true,false,false,false
+Communication Studies,119,true,false,false,false
+Communication Studies,120,true,false,false,false
+Communication Studies,121,true,false,false,false
+Communication Studies,131,true,false,false,false
+Communication Studies,132,true,false,false,false
+Communication Studies,133,true,false,false,false
+Communication Studies,134,true,false,false,true
+Communication Studies,136,true,false,false,false
+Communication Studies,138,true,false,false,false
+Communication Studies,141,true,false,false,false
+Communication Studies,143,true,false,false,false
+Communication Studies,144,true,false,false,false
+Communication Studies,145,true,false,false,false
+Communication Studies,146,true,false,false,false
+Communication Studies,151,true,false,false,false
+Communication Studies,161,true,false,false,false
+Communication Studies,163,true,false,false,false
+Communication Studies,202,true,false,false,false
+Communication Studies,210,true,false,false,false
+Communication Studies,216,true,false,false,false
+Communication Studies,220,true,false,false,false
+Communication Studies,230,false,false,true,false
+Communication Studies,241,true,false,false,false
+Communication Studies,250,true,false,false,true
+Communication Studies,260,true,false,false,false
+Communication Studies,261,true,false,false,false
+Communication Studies,280,true,false,false,true
+Communication Studies,285,true,false,false,false
+Cultural & Ethnic Studies,100,true,false,true,true
+Cultural & Ethnic Studies,101,true,false,true,true
+Cultural & Ethnic Studies,102,true,false,true,false
+Cultural & Ethnic Studies,103,true,false,false,false
+Cultural & Ethnic Studies,104,true,false,true,false
+Cultural & Ethnic Studies,106,false,false,true,true
+Cultural & Ethnic Studies,109,false,false,true,true
+Cultural & Ethnic Studies,115,true,false,true,false
+Cultural & Ethnic Studies,120,true,false,true,true
+Cultural & Ethnic Studies,121,true,false,true,true
+Cultural & Ethnic Studies,130,true,false,true,true
+Cultural & Ethnic Studies,140,true,false,true,true
+Cultural & Ethnic Studies,152,true,false,true,true
+Cultural & Ethnic Studies,160,true,false,true,false
+Cultural & Ethnic Studies,170,false,false,true,false
+Cultural & Ethnic Studies,180,true,false,true,true
+Cultural & Ethnic Studies,200,true,false,true,true
+Cultural & Ethnic Studies,201,false,false,true,true
+Cultural & Ethnic Studies,203,false,false,true,true
+Cultural & Ethnic Studies,205,false,false,true,true
+Cultural & Ethnic Studies,210,true,false,true,true
+Cultural & Ethnic Studies,241,false,false,true,true
+Cultural & Ethnic Studies,255,true,false,true,false
+Cultural & Ethnic Studies,257,true,false,true,true
+Cultural & Ethnic Studies,260,true,false,true,false
+Cultural & Ethnic Studies,285,true,false,true,false
+Cultural & Ethnic Studies,286,true,false,true,false
+Cultural & Ethnic Studies,287,true,false,true,false
+Cultural & Ethnic Studies,288,true,false,true,false
+Dance,130,false,true,false,false
+Dance,131,false,true,false,false
+Dance,140,false,true,false,false
+Dance,141,false,true,false,false
+Dance,151,false,true,false,false
+Dance,152,false,true,false,false
+Dance,201,false,true,false,false
+Dance,202,false,true,false,false
+Dance,203,false,true,false,false
+Drama,101,true,false,false,false
+Drama,106,true,false,false,false
+Drama,141,true,false,false,false
+Drama,151,false,true,false,false
+Drama,153,false,true,false,false
+Drama,154,false,true,false,false
+Drama,155,false,true,false,false
+Drama,159,false,true,false,false
+Drama,161,false,true,false,false
+Drama,200,true,false,false,false
+Drama,210,true,false,false,false
+Drama,212,true,false,false,false
+Drama,215,true,false,false,false
+Drama,224,true,false,false,false
+Drama,241,true,false,false,false
+Drama,251,false,true,false,false
+Drama,252,false,true,false,false
+Drama,253,false,true,false,false
+Drama,254,false,true,false,false
+Drama,256,false,true,false,false
+Drama,270,true,false,false,false
+Drama,280,false,true,false,false
+Drama,281,false,true,false,false
+Drama,284,false,true,false,false
+Drama,285,false,true,false,false
+Economics,100,false,false,true,false
+Economics,201,false,false,true,false
+Economics,202,false,false,true,false
+Economics,250,false,false,true,false
+Economics,260,false,false,true,false
+English,111,true,false,false,false
+English,112,true,false,false,false
+English,113,true,false,false,false
+English,114,true,false,false,false
+English,115,true,false,false,false
+English,131,true,false,false,false
+English,210,true,false,false,false
+English,215,true,false,false,false
+English,219,true,false,false,false
+English,220,true,false,false,false
+English,221,true,false,false,false
+English,223,true,false,false,false
+English,224,true,false,false,false
+English,225,true,false,false,false
+English,226,true,false,false,false
+English,228,true,false,false,false
+English,229,true,false,false,false
+English,237,true,false,false,false
+English,238,true,false,false,false
+English,239,true,false,false,false
+English,241,true,false,false,false
+English,244,true,false,false,false
+English,245,true,false,false,false
+English,246,true,false,false,false
+English,247,true,false,false,false
+English,248,true,false,false,false
+English,249,true,false,false,false
+English,253,true,false,false,false
+English,254,true,false,false,false
+English,255,true,false,false,false
+English,260,true,false,false,false
+English,261,true,false,false,false
+English,263,true,false,false,false
+English,264,true,false,false,false
+English,265,true,false,false,false
+English,266,true,false,false,false
+English,276,true,false,false,false
+English,279,true,false,false,false
+French,121,true,false,false,false
+French,122,true,false,false,false
+French,123,true,false,false,false
+French,131,true,false,false,true
+French,132,true,false,false,true
+French,133,true,false,false,true
+French,221,true,false,false,false
+French,222,true,false,false,false
+French,223,true,false,false,false
+French,231,true,false,false,true
+French,232,true,false,false,true
+French,233,true,false,false,true
+Geography,100,false,false,true,false
+Geography,102,false,false,true,false
+Geography,105,false,false,true,false
+Geography,123,false,false,true,true
+Geography,200,false,false,true,true
+Geography,250,false,false,true,false
+Geography,258,false,false,true,false
+Geography,277,false,false,true,true
+German,121,true,false,false,false
+German,122,true,false,false,false
+German,123,true,false,false,false
+German,221,true,false,false,false
+German,222,true,false,false,false
+German,223,true,false,false,false
+History,101,true,false,true,false
+History,102,true,false,true,false
+History,103,true,false,true,false
+History,110,true,false,true,false
+History,115,true,false,true,false
+History,120,true,false,true,false
+History,146,true,false,true,false
+History,147,true,false,true,false
+History,148,true,false,true,false
+History,150,true,false,true,false
+History,180,false,false,true,false
+History,185,true,false,true,true
+History,205,false,false,true,false
+History,207,true,false,true,false
+History,209,true,false,true,false
+History,210,true,false,true,false
+History,211,true,false,true,false
+History,212,true,false,true,false
+History,214,true,false,true,false
+History,223,true,false,true,false
+History,230,true,false,true,false
+History,236,true,false,true,false
+History,242,true,false,true,false
+History,245,true,false,true,false
+History,246,true,false,true,true
+History,250,true,false,true,false
+History,261,true,false,true,false
+History,280,true,false,true,false
+Humanities,224,true,false,true,false
+Humanities,230,true,false,true,false
+International Studies,105,false,false,true,false
+International Studies,123,false,false,true,false
+International Studies,150,false,false,true,false
+International Studies,200,false,false,true,false
+International Studies,201,false,false,true,false
+International Studies,202,false,false,true,false
+International Studies,204,false,false,true,false
+International Studies,227,false,false,true,false
+International Studies,261,false,false,true,false
+International Studies,280,false,false,true,false
+Italian,121,true,false,false,false
+Italian,122,true,false,false,false
+Italian,123,true,false,false,false
+Japanese,121,true,false,false,false
+Japanese,122,true,false,false,false
+Japanese,123,true,false,false,false
+Japanese,221,true,false,false,false
+Japanese,222,true,false,false,false
+Japanese,223,true,false,false,false
+Music,100,false,true,false,false
+Music,101,false,true,false,false
+Music,102,false,true,false,false
+Music,103,false,true,false,false
+Music,104,false,true,false,false
+Music,105,true,false,false,false
+Music,106,false,true,false,false
+Music,107,true,false,false,false
+Music,109,false,true,false,false
+Music,110,true,false,false,false
+Music,111,true,false,false,false
+Music,112,true,false,false,false
+Music,113,true,false,false,false
+Music,114,true,false,false,false
+Music,115,true,false,false,false
+Music,116,true,false,false,false
+Music,117,true,false,false,true
+Music,118,true,false,false,false
+Music,120,false,true,false,false
+Music,126,false,true,false,false
+Music,130,false,true,false,false
+Music,131,false,true,false,false
+Music,132,false,true,false,false
+Music,135,false,true,false,false
+Music,136,false,true,false,false
+Music,139,false,true,false,false
+Music,140,false,true,false,false
+Music,143,false,true,false,false
+Music,150,true,false,false,false
+Music,151,true,false,false,false
+Music,152,true,false,false,false
+Music,153,true,false,false,false
+Music,156,true,false,false,false
+Music,157,true,false,false,false
+Music,158,true,false,false,false
+Music,200,false,true,false,false
+Music,203,false,true,false,false
+Music,205,false,true,false,false
+Music,206,false,true,false,false
+Music,210,true,false,false,false
+Music,211,true,false,false,false
+Music,212,true,false,false,false
+Music,240,false,true,false,false
+Music,243,false,true,false,false
+Philosophy,101,true,false,false,false
+Philosophy,102,true,false,true,true
+Philosophy,112,true,false,true,false
+Philosophy,115,true,false,false,false
+Philosophy,122,true,false,true,false
+Philosophy,145,true,false,false,true
+Philosophy,160,true,false,true,false
+Philosophy,201,true,false,true,false
+Philosophy,206,false,false,true,false
+Philosophy,225,true,false,false,false
+Philosophy,247,true,false,false,false
+Philosophy,248,true,false,true,false
+Philosophy,260,true,false,true,false
+Philosophy,263,false,false,true,false
+Philosophy,265,true,false,true,true
+Philosophy,267,true,false,false,false
+Political  Science,101,false,false,true,false
+Political  Science,121,false,false,true,false
+Political  Science,122,false,false,true,false
+Political  Science,123,false,false,true,false
+Political  Science,125,false,false,true,false
+Political  Science,160,false,false,true,false
+Political  Science,175,false,false,true,false
+Political  Science,201,false,false,true,false
+Political  Science,202,false,false,true,false
+Political  Science,203,false,false,true,false
+Political  Science,204,false,false,true,false
+Political  Science,206,false,false,true,false
+Political  Science,220,false,false,true,false
+Political  Science,221,false,false,true,false
+Political  Science,222,false,false,true,false
+Political  Science,223,false,false,true,false
+Political  Science,227,false,false,true,false
+Political  Science,230,false,false,true,false
+Psychology,100,false,false,true,false
+Psychology,109,false,false,true,false
+Psychology,110,false,false,true,false
+Psychology,200,false,false,true,false
+Psychology,203,false,false,true,false
+Psychology,205,false,false,true,false
+Psychology,209,false,false,true,false
+Psychology,210,false,false,true,false
+Psychology,220,false,false,true,false
+Psychology,240,false,false,true,false
+Psychology,250,false,false,true,true
+Psychology,257,false,false,true,false
+Psychology,260,false,false,true,false
+Sociology,101,false,false,true,true
+Sociology,105,false,false,true,false
+Sociology,120,false,false,false,true
+Sociology,121,false,false,false,true
+Sociology,122,false,false,true,true
+Sociology,149,false,false,false,true
+Sociology,150,false,false,true,false
+Sociology,201,false,false,true,true
+Sociology,205,false,false,false,true
+Sociology,210,false,false,true,true
+Sociology,215,false,false,true,true
+Sociology,222,false,false,true,true
+Sociology,230,false,false,true,true
+Sociology,240,false,false,true,false
+Sociology,244,false,false,true,false
+Sociology,246,false,false,true,false
+Sociology,248,false,false,true,true
+Sociology,249,false,false,true,true
+Sociology,250,false,false,true,false
+Sociology,252,false,false,true,false
+Sociology,253,false,false,true,true
+Sociology,254,false,false,true,true
+Sociology,255,false,false,true,false
+Sociology,256,false,false,true,false
+Sociology,257,false,false,false,true
+Sociology,258,false,false,true,false
+Sociology,260,false,false,true,true
+Sociology,262,false,false,true,true
+Sociology,264,false,false,true,true
+Sociology,265,false,false,true,false
+Sociology,267,false,false,false,true
+Sociology,268,false,false,true,true
+Sociology,270,false,false,true,false
+Sociology,275,false,false,true,true
+Sociology,278,false,false,true,false
+Spanish,121,true,false,false,false
+Spanish,122,true,false,false,false
+Spanish,123,true,false,false,false
+Spanish,221,true,false,false,false
+Spanish,222,true,false,false,false
+Spanish,223,true,false,false,false

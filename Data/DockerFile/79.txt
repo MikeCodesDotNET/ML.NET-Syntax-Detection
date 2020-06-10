@@ -1,0 +1,20 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0
+
+#Pass user info when building with --build-arg UID=$(id -u) --build-arg GID=$(id -g)
+ARG UID=1000
+ARG GID=1000
+
+RUN groupadd -g $GID -r -o dotnet && useradd -m -r -g $GID -u $UID -s /bin/bash dotnet
+
+WORKDIR /app
+VOLUME ["/app"]
+
+USER dotnet
+
+#Prevent welcome message to appear at every run
+RUN mkdir ~/.dotnet
+RUN touch ~/.dotnet/$(dotnet --version).dotnetFirstUseSentinel
+RUN touch ~/.dotnet/$(dotnet --version).aspNetCertificateSentinel
+
+ENTRYPOINT ["dotnet"]
+CMD ["watch", "run"]

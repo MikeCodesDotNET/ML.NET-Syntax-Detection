@@ -1,0 +1,4 @@
+const heroPlaceholder = document.querySelector('.hero-list');
+heroPlaceholder.innerHTML = `
+
+`;

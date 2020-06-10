@@ -1,0 +1,4 @@
+IEnumerable<Character> rows =
+  from row in characters
+  where row.name = "Gandalf"
+  select row;

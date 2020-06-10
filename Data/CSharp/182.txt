@@ -1,0 +1,10 @@
+[GraphQLMetadata("books")]
+public IEnumerable<Book> GetBooks()
+{
+  using(var db = new StoreContext())
+  {
+    return db.Books
+    .Include(b => b.Author)
+    .ToList();
+  }
+}

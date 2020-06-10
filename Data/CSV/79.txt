@@ -1,0 +1,528 @@
+id,group,US8K,KFSD,BOTH
+Speech,Voice,512,1666,2178
+"Male speech, man speaking",Voice,0,3,3
+"Female speech, woman speaking",Voice,1,22,23
+"Child speech, kid speaking",Voice,117,417,534
+Conversation,Voice,0,1,1
+"Narration, monologue",Voice,0,2,2
+Babbling,Voice,72,192,264
+Speech synthesizer,Voice,28,128,156
+Shout,Voice,0,14,14
+Bellow,Voice,30,401,431
+Whoop,Voice,22,249,271
+Yell,Voice,1,2,3
+Battle cry,Voice,3,5,8
+Children shouting,Voice,7,4,11
+Screaming,Voice,127,40,167
+Whispering,Voice,0,8,8
+Laughter,Voice,66,226,292
+Baby laughter,Voice,23,143,166
+Giggle,Voice,224,163,387
+Snicker,Voice,12,122,134
+Belly laugh,Voice,298,518,816
+"Chuckle, chortle",Voice,11,73,84
+"Crying, sobbing",Voice,92,100,192
+"Baby cry, infant cry",Voice,12,24,36
+Whimper,Voice,28,3,31
+"Wail, moan",Voice,14,55,69
+Sigh,Voice,2,5,7
+Singing,Voice,45,291,336
+Choir,Voice,0,1,1
+Yodeling,Voice,35,275,310
+Chant,Voice,47,195,242
+Mantra,Voice,8,69,77
+Male singing,Voice,0,3,3
+Female singing,Voice,1,6,7
+Child singing,Voice,1,4,5
+Synthetic singing,Voice,0,6,6
+Rapping,Voice,3,49,52
+Humming,Voice,124,327,451
+Groan,Voice,12,68,80
+Grunt,Voice,51,23,74
+Whistling,Voice,123,248,371
+Breathing,Voice,97,92,189
+Wheeze,Voice,844,551,1395
+Snoring,Voice,31,23,54
+Gasp,Voice,71,206,277
+Pant,Voice,100,50,150
+Snort,Voice,186,248,434
+Cough,Voice,180,713,893
+Throat clearing,Voice,588,612,1200
+Sneeze,Voice,140,406,546
+Sniff,Voice,41,97,138
+Run,Voice,2,6,8
+Shuffle,Voice,7,1,8
+"Walk, footsteps",Voice,51,78,129
+"Chewing, mastication",Voice,222,890,1112
+Biting,Voice,101,157,258
+Gargling,Voice,12,23,35
+Stomach rumble,Voice,58,31,89
+"Burping, eructation",Voice,19,18,37
+Hiccup,Voice,112,309,421
+Fart,Voice,8,4,12
+Hands,Voice,53,306,359
+Finger snapping,Voice,140,364,504
+Clapping,Voice,7,164,171
+"Heart sounds, heartbeat",Voice,0,15,15
+Heart murmur,Voice,7,41,48
+Cheering,Voice,0,0,0
+Applause,Voice,0,15,15
+Chatter,Voice,4,37,41
+Crowd,Voice,0,4,4
+"Hubbub, speech noise, speech babble",Voice,0,10,10
+Children playing,Voice,0,1,1
+Animal,Animal,1173,1007,2180
+"Domestic animals, pets",Animal,473,408,881
+Dog,Animal,507,368,875
+Bark,Animal,52,24,76
+Yip,Animal,210,63,273
+Howl,Animal,91,73,164
+Bow-wow,Animal,155,37,192
+Growling,Animal,136,141,277
+Whimper (dog),Animal,98,91,189
+Cat,Animal,14,12,26
+Purr,Animal,130,337,467
+Meow,Animal,27,214,241
+Hiss,Animal,136,33,169
+Caterwaul,Animal,4,2,6
+"Livestock, farm animals, working animals",Animal,125,93,218
+Horse,Animal,22,36,58
+Clip-clop,Animal,25,12,37
+"Neigh, whinny",Animal,73,89,162
+"Cattle, bovinae",Animal,38,29,67
+Moo,Animal,55,60,115
+Cowbell,Animal,0,1,1
+Pig,Animal,314,119,433
+Oink,Animal,14,37,51
+Goat,Animal,212,161,373
+Bleat,Animal,82,65,147
+Sheep,Animal,53,54,107
+Fowl,Animal,173,628,801
+"Chicken, rooster",Animal,237,759,996
+Cluck,Animal,67,125,192
+"Crowing, cock-a-doodle-doo",Animal,244,1028,1272
+Turkey,Animal,16,7,23
+Gobble,Animal,9,17,26
+Duck,Animal,69,338,407
+Quack,Animal,79,367,446
+Goose,Animal,8,99,107
+Honk,Animal,7,116,123
+Wild animals,Animal,42,62,104
+"Roaring cats (lions, tigers)",Animal,52,2,54
+Roar,Animal,39,37,76
+Bird,Animal,82,163,245
+"Bird vocalization, bird call, bird song",Animal,45,47,92
+"Chirp, tweet",Animal,120,139,259
+Squawk,Animal,6,19,25
+"Pigeon, dove",Animal,1,13,14
+Coo,Animal,0,6,6
+Crow,Animal,218,902,1120
+Caw,Animal,162,613,775
+Owl,Animal,18,100,118
+Hoot,Animal,14,80,94
+"Bird flight, flapping wings",Animal,245,226,471
+"Canidae, dogs, wolves",Animal,75,39,114
+"Rodents, rats, mice",Animal,62,80,142
+Mouse,Animal,188,136,324
+Patter,Animal,165,102,267
+Insect,Animal,0,14,14
+Cricket,Animal,0,1,1
+Mosquito,Animal,0,5,5
+"Fly, housefly",Animal,1,30,31
+Buzz,Animal,1,2,3
+"Bee, wasp, etc.",Animal,0,11,11
+Frog,Animal,99,52,151
+Croak,Animal,91,48,139
+Snake,Animal,44,8,52
+Rattle,Animal,116,120,236
+Whale vocalization,Animal,7,12,19
+Music,Music,84,1061,1145
+Musical instrument,Music,34,79,113
+Plucked string instrument,Music,0,1,1
+Guitar,Music,1,7,8
+Electric guitar,Music,0,1,1
+Bass guitar,Music,0,2,2
+Acoustic guitar,Music,1,0,1
+"Steel guitar, slide guitar",Music,0,2,2
+Tapping (guitar technique),Music,1,3,4
+Strum,Music,0,1,1
+Banjo,Music,1,4,5
+Sitar,Music,14,55,69
+Mandolin,Music,1,4,5
+Zither,Music,0,0,0
+Ukulele,Music,0,21,21
+Keyboard (musical),Music,0,7,7
+Piano,Music,0,9,9
+Electric piano,Music,0,3,3
+Organ,Music,0,41,41
+Electronic organ,Music,0,7,7
+Hammond organ,Music,0,25,25
+Synthesizer,Music,1,67,68
+Sampler,Music,37,320,357
+Harpsichord,Music,0,0,0
+Percussion,Music,15,63,78
+Drum kit,Music,0,12,12
+Drum machine,Music,0,18,18
+Drum,Music,1,31,32
+Snare drum,Music,0,11,11
+Rimshot,Music,0,4,4
+Drum roll,Music,0,7,7
+Bass drum,Music,0,7,7
+Timpani,Music,0,3,3
+Tabla,Music,0,7,7
+Cymbal,Music,0,8,8
+Hi-hat,Music,0,3,3
+Wood block,Music,1,1,2
+Tambourine,Music,0,10,10
+Rattle (instrument),Music,194,411,605
+Maraca,Music,2,3,5
+Gong,Music,0,9,9
+Tubular bells,Music,0,21,21
+Mallet percussion,Music,0,5,5
+"Marimba, xylophone",Music,0,22,22
+Glockenspiel,Music,0,16,16
+Vibraphone,Music,13,43,56
+Steelpan,Music,0,3,3
+Orchestra,Music,34,41,75
+Brass instrument,Music,23,96,119
+French horn,Music,46,66,112
+Trumpet,Music,50,75,125
+Trombone,Music,11,70,81
+Bowed string instrument,Music,1,12,13
+String section,Music,0,3,3
+"Violin, fiddle",Music,42,29,71
+Pizzicato,Music,0,3,3
+Cello,Music,2,10,12
+Double bass,Music,0,3,3
+"Wind instrument, woodwind instrument",Music,4,80,84
+Flute,Music,9,96,105
+Saxophone,Music,0,0,0
+Clarinet,Music,11,31,42
+Harp,Music,0,0,0
+Bell,Music,7,35,42
+Church bell,Music,0,36,36
+Jingle bell,Music,3,7,10
+Bicycle bell,Music,4,62,66
+Tuning fork,Music,1,20,21
+Chime,Music,0,20,20
+Wind chime,Music,1,13,14
+Change ringing (campanology),Music,0,6,6
+Harmonica,Music,0,21,21
+Accordion,Music,0,20,20
+Bagpipes,Music,0,8,8
+Didgeridoo,Music,0,1,1
+Shofar,Music,0,1,1
+Theremin,Music,1,25,26
+Singing bowl,Music,0,0,0
+Scratching (performance technique),Music,3,60,63
+Pop music,Music,3,11,14
+Hip hop music,Music,0,1,1
+Beatboxing,Music,48,119,167
+Rock music,Music,1,2,3
+Heavy metal,Music,0,2,2
+Punk rock,Music,0,1,1
+Grunge,Music,0,0,0
+Progressive rock,Music,0,2,2
+Rock and roll,Music,1,4,5
+Psychedelic rock,Music,3,7,10
+Rhythm and blues,Music,0,1,1
+Soul music,Music,1,1,2
+Reggae,Music,214,31,245
+Country,Music,0,0,0
+Swing music,Music,1,11,12
+Bluegrass,Music,0,0,0
+Funk,Music,59,11,70
+Folk music,Music,1,0,1
+Middle Eastern music,Music,4,10,14
+Jazz,Music,0,0,0
+Disco,Music,62,215,277
+Classical music,Music,0,1,1
+Opera,Music,59,149,208
+Electronic music,Music,5,21,26
+House music,Music,69,22,91
+Techno,Music,2,19,21
+Dubstep,Music,0,4,4
+Drum and bass,Music,1,5,6
+Electronica,Music,0,4,4
+Electronic dance music,Music,0,32,32
+Ambient music,Music,0,0,0
+Trance music,Music,5,1,6
+Music of Latin America,Music,0,1,1
+Salsa music,Music,1,2,3
+Flamenco,Music,0,0,0
+Blues,Music,0,0,0
+Music for children,Music,3,17,20
+New-age music,Music,1,2,3
+Vocal music,Music,27,154,181
+A capella,Music,69,355,424
+Music of Africa,Music,0,1,1
+Afrobeat,Music,11,2,13
+Christian music,Music,7,30,37
+Gospel music,Music,2,5,7
+Music of Asia,Music,4,11,15
+Carnatic music,Music,16,83,99
+Music of Bollywood,Music,8,9,17
+Ska,Music,7,1,8
+Traditional music,Music,2,3,5
+Independent music,Music,0,0,0
+Song,Music,14,79,93
+Background music,Music,0,1,1
+Theme music,Music,1,2,3
+Jingle (music),Music,0,1,1
+Soundtrack music,Music,0,1,1
+Lullaby,Music,0,16,16
+Video game music,Music,0,0,0
+Christmas music,Music,8,31,39
+Dance music,Music,6,24,30
+Wedding music,Music,0,1,1
+Happy music,Music,3,12,15
+Funny music,Music,8,17,25
+Sad music,Music,0,0,0
+Tender music,Music,0,1,1
+Exciting music,Music,0,2,2
+Angry music,Music,0,1,1
+Scary music,Music,0,0,0
+Wind,Nature,2,57,59
+Rustling leaves,Nature,0,6,6
+Wind noise (microphone),Nature,0,41,41
+Thunderstorm,Nature,0,2,2
+Thunder,Nature,0,3,3
+Water,Nature,11,74,85
+Rain,Nature,1,16,17
+Raindrop,Nature,1,32,33
+Rain on surface,Nature,0,10,10
+Stream,Nature,1,28,29
+Waterfall,Nature,1,7,8
+Ocean,Nature,2,23,25
+"Waves, surf",Nature,0,22,22
+Steam,Nature,0,1,1
+Gurgling,Nature,0,13,13
+Fire,Nature,32,54,86
+Crackle,Nature,28,12,40
+Vehicle,Vehicle,46,504,550
+"Boat, Water vehicle",Vehicle,0,75,75
+"Sailboat, sailing ship",Vehicle,0,13,13
+"Rowboat, canoe, kayak",Vehicle,0,27,27
+"Motorboat, speedboat",Vehicle,0,8,8
+Ship,Vehicle,0,5,5
+Motor vehicle (road),Vehicle,8,10,18
+Car,Vehicle,18,178,196
+"Vehicle horn, car horn, honking",Vehicle,3,16,19
+Toot,Vehicle,0,13,13
+Car alarm,Vehicle,187,289,476
+"Power windows, electric windows",Vehicle,1,1,2
+Skidding,Vehicle,3,38,41
+Tire squeal,Vehicle,5,10,15
+Car passing by,Vehicle,177,51,228
+"Race car, auto racing",Vehicle,0,13,13
+Truck,Vehicle,2,51,53
+Air brake,Vehicle,7,11,18
+"Air horn, truck horn",Vehicle,9,50,59
+Reversing beeps,Vehicle,0,1,1
+"Ice cream truck, ice cream van",Vehicle,6,45,51
+Bus,Vehicle,17,125,142
+Emergency vehicle,Vehicle,6,2,8
+Police car (siren),Vehicle,0,1,1
+Ambulance (siren),Vehicle,11,13,24
+"Fire engine, fire truck (siren)",Vehicle,0,0,0
+Motorcycle,Vehicle,15,43,58
+"Traffic noise, roadway noise",Vehicle,2,50,52
+Rail transport,Vehicle,0,1,1
+Train,Vehicle,0,1,1
+Train whistle,Vehicle,0,0,0
+Train horn,Vehicle,0,0,0
+"Railroad car, train wagon",Vehicle,0,0,0
+Train wheels squealing,Vehicle,0,7,7
+"Subway, metro, underground",Vehicle,0,1,1
+Aircraft,Vehicle,0,16,16
+Aircraft engine,Vehicle,1,5,6
+Jet engine,Vehicle,1,62,63
+"Propeller, airscrew",Vehicle,0,6,6
+Helicopter,Vehicle,0,3,3
+"Fixed-wing aircraft, airplane",Vehicle,0,5,5
+Bicycle,Vehicle,13,93,106
+Skateboard,Vehicle,3,4,7
+Engine,Vehicle,25,75,100
+Light engine (high frequency),Vehicle,4,4,8
+"Dental drill, dentist's drill",Vehicle,29,2,31
+Lawn mower,Vehicle,101,13,114
+Chainsaw,Vehicle,4,15,19
+Medium engine (mid frequency),Vehicle,4,37,41
+Heavy engine (low frequency),Vehicle,0,8,8
+Engine knocking,Vehicle,12,22,34
+Engine starting,Vehicle,1,6,7
+Idling,Vehicle,1,3,4
+"Accelerating, revving, vroom",Vehicle,9,26,35
+Door,Indoors,172,187,359
+Doorbell,Indoors,14,39,53
+Ding-dong,Indoors,2,23,25
+Sliding door,Indoors,31,31,62
+Slam,Indoors,10,19,29
+Knock,Indoors,210,588,798
+Tap,Indoors,6,34,40
+Squeak,Indoors,454,942,1396
+Cupboard open or close,Indoors,0,7,7
+Drawer open or close,Indoors,1,1,2
+"Dishes, pots, and pans",Indoors,114,168,282
+"Cutlery, silverware",Indoors,58,62,120
+Chopping (food),Indoors,2,13,15
+Frying (food),Indoors,27,95,122
+Microwave oven,Indoors,62,31,93
+Blender,Indoors,56,51,107
+"Water tap, faucet",Indoors,0,2,2
+Sink (filling or washing),Indoors,0,0,0
+Bathtub (filling or washing),Indoors,4,20,24
+Hair dryer,Indoors,3,5,8
+Toilet flush,Indoors,1,14,15
+Toothbrush,Indoors,110,314,424
+Electric toothbrush,Indoors,390,759,1149
+Vacuum cleaner,Indoors,0,12,12
+Zipper (clothing),Indoors,18,22,40
+Keys jangling,Indoors,260,192,452
+Coin (dropping),Indoors,22,97,119
+Scissors,Indoors,150,155,305
+"Electric shaver, electric razor",Indoors,8,42,50
+Shuffling cards,Indoors,1,1,2
+Typing,Indoors,0,26,26
+Typewriter,Indoors,5,11,16
+Computer keyboard,Indoors,24,110,134
+Writing,Indoors,24,9,33
+Alarm,Indoors,59,105,164
+Telephone,Indoors,0,5,5
+Telephone bell ringing,Indoors,11,59,70
+Ringtone,Indoors,3,31,34
+"Telephone dialing, DTMF",Indoors,5,100,105
+Dial tone,Indoors,53,205,258
+Busy signal,Indoors,4,6,10
+Alarm clock,Indoors,1,4,5
+Siren,Indoors,6,0,6
+Civil defense siren,Indoors,0,0,0
+Buzzer,Indoors,125,99,224
+"Smoke detector, smoke alarm",Indoors,1,5,6
+Fire alarm,Indoors,20,22,42
+Foghorn,Mechanical,1,16,17
+Whistle,Mechanical,44,157,201
+Steam whistle,Mechanical,1,13,14
+Mechanisms,Mechanical,59,23,82
+"Ratchet, pawl",Mechanical,74,91,165
+Clock,Mechanical,17,5,22
+Tick,Mechanical,1,7,8
+Tick-tock,Mechanical,0,9,9
+Gears,Mechanical,78,57,135
+Pulleys,Mechanical,29,26,55
+Sewing machine,Mechanical,17,23,40
+Mechanical fan,Mechanical,0,4,4
+Air conditioning,Mechanical,34,4,38
+Cash register,Mechanical,4,29,33
+Printer,Mechanical,0,25,25
+Camera,Mechanical,28,38,66
+Single-lens reflex camera,Mechanical,3,16,19
+Tools,Mechanical,6,3,9
+Hammer,Mechanical,2,1,3
+Jackhammer,Mechanical,6,0,6
+Sawing,Mechanical,64,49,113
+Filing (rasp),Mechanical,112,77,189
+Sanding,Mechanical,89,9,98
+Power tool,Mechanical,10,2,12
+Drill,Mechanical,8,2,10
+Explosion,Foley,61,20,81
+"Gunshot, gunfire",Foley,58,9,67
+Machine gun,Foley,11,5,16
+Fusillade,Foley,0,0,0
+Artillery fire,Foley,5,12,17
+Cap gun,Foley,27,3,30
+Fireworks,Foley,0,7,7
+Firecracker,Foley,21,35,56
+"Burst, pop",Foley,67,20,87
+Eruption,Foley,12,10,22
+Boom,Foley,1,5,6
+Wood,Foley,73,40,113
+Chop,Foley,11,26,37
+Splinter,Foley,6,6,12
+Crack,Foley,5,87,92
+Glass,Foley,80,146,226
+"Chink, clink",Foley,27,13,40
+Shatter,Foley,0,1,1
+Liquid,Foley,9,62,71
+"Splash, splatter",Foley,3,10,13
+Slosh,Foley,0,16,16
+Squish,Foley,12,59,71
+Drip,Foley,67,263,330
+Pour,Foley,1,9,10
+"Trickle, dribble",Foley,24,37,61
+Gush,Foley,1,3,4
+Fill (with liquid),Foley,1,11,12
+Spray,Foley,2,6,8
+Pump (liquid),Foley,0,10,10
+Stir,Foley,11,44,55
+Boiling,Foley,0,21,21
+Sonar,Foley,5,7,12
+Arrow,Foley,175,93,268
+"Whoosh, swoosh, swish",Foley,67,152,219
+"Thump, thud",Foley,1,4,5
+Thunk,Foley,102,129,231
+Electronic tuner,Foley,0,17,17
+Effects unit,Foley,0,7,7
+Chorus effect,Foley,0,7,7
+Basketball bounce,Foley,61,27,88
+Bang,Foley,26,15,41
+"Slap, smack",Foley,731,142,873
+"Whack, thwack",Foley,1,1,2
+"Smash, crash",Foley,163,60,223
+Breaking,Foley,4,5,9
+Bouncing,Foley,24,122,146
+Whip,Foley,0,2,2
+Flap,Foley,8,25,33
+Scratch,Foley,3,105,108
+Scrape,Foley,121,226,347
+Rub,Foley,339,86,425
+Roll,Foley,1,2,3
+Crushing,Foley,17,6,23
+"Crumpling, crinkling",Foley,1,3,4
+Tearing,Foley,128,93,221
+"Beep, bleep",Foley,74,459,533
+Ping,Foley,2,17,19
+Ding,Foley,7,51,58
+Clang,Foley,0,13,13
+Squeal,Foley,157,308,465
+Creak,Foley,101,51,152
+Rustle,Foley,5,8,13
+Whir,Foley,0,7,7
+Clatter,Foley,91,224,315
+Sizzle,Foley,112,59,171
+Clicking,Foley,19,13,32
+Clickety-clack,Foley,0,0,0
+Rumble,Foley,0,9,9
+Plop,Foley,5,66,71
+"Jingle, tinkle",Foley,22,62,84
+Hum,Foley,28,44,72
+Zing,Foley,19,30,49
+Boing,Foley,27,307,334
+Crunch,Foley,53,579,632
+Silence,Foley,2,31,33
+Sine wave,Foley,7,92,99
+Harmonic,Foley,0,11,11
+Chirp tone,Foley,88,494,582
+Sound effect,Foley,9,3,12
+Pulse,Foley,2,1,3
+"Inside, small room",Environment,308,734,1042
+"Inside, large room or hall",Environment,132,201,333
+"Inside, public space",Environment,7,7,14
+"Outside, urban or manmade",Environment,45,97,142
+"Outside, rural or natural",Environment,30,114,144
+Reverberation,Environment,16,28,44
+Echo,Environment,1,6,7
+Noise,Noise,13,22,35
+Environmental noise,Noise,0,2,2
+Static,Noise,102,535,637
+Mains hum,Noise,1,4,5
+Distortion,Noise,0,5,5
+Sidetone,Noise,2,26,28
+Cacophony,Noise,1,4,5
+White noise,Noise,44,46,90
+Pink noise,Noise,17,4,21
+Throbbing,Noise,1,16,17
+Vibration,Noise,7,20,27
+Television,Noise,83,46,129
+Radio,Noise,4,21,25
+Field recording,Noise,5,39,44

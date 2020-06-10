@@ -1,0 +1,3 @@
+const double = n => n * 2
+
+[1, 2, 3, 4].map(double) // [ 2, 4, 6, 8 ]

@@ -1,0 +1,5 @@
+public Func<T, bool> ParsePredicateOf<T>(JsonDocument doc)
+{
+   var itemExpression = Expression.Parameter(typeof(T));
+   var conditions = ParseTree<T>(doc.RootElement, itemExpression);
+}

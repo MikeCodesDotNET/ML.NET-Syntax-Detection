@@ -1,0 +1,9 @@
+props: {
+  name: {
+    type: Object,
+    default: {
+      firstName: 'Unknown',
+      lastName: ''
+    }
+  }
+}

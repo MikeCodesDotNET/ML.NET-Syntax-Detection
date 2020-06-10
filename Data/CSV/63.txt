@@ -1,0 +1,2501 @@
+x,y,value
+Desserts,Desserts,1.2
+Italian,Italian,1.2
+Latin American,Latin American,1.2
+Delis,Delis,1.2
+Food Court,Food Court,1.2
+Hot Pot,Hot Pot,1.2
+Cupcakes,Cupcakes,1.2
+Patisserie/Cake Shop,Patisserie/Cake Shop,1.2
+Mediterranean,Mediterranean,1.2
+Taiwanese,Taiwanese,1.2
+Bangladeshi,Bangladeshi,1.2
+Shanghainese,Shanghainese,1.2
+Persian/Iranian,Persian/Iranian,1.2
+Pubs,Pubs,1.2
+Food Delivery Services,Food Delivery Services,1.2
+Fast Food,Fast Food,1.2
+Piano Bars,Piano Bars,1.2
+Spanish,Spanish,1.2
+Salad,Salad,1.2
+Turkish,Turkish,1.2
+Cantonese,Cantonese,1.2
+Egyptian,Egyptian,1.2
+Thai,Thai,1.2
+Soup,Soup,1.2
+Beer Bar,Beer Bar,1.2
+Meat Shops,Meat Shops,1.2
+Specialty Food,Specialty Food,1.2
+Gelato,Gelato,1.2
+Brazilian,Brazilian,1.2
+Indonesian,Indonesian,1.2
+Cambodian,Cambodian,1.2
+Vegetarian,Vegetarian,1.2
+Breweries,Breweries,1.2
+Sushi Bars,Sushi Bars,1.2
+Cheese Shops,Cheese Shops,1.2
+Laotian,Laotian,1.2
+Cafes,Cafes,1.2
+Pizza,Pizza,1.2
+Cuban,Cuban,1.2
+Arabian,Arabian,1.2
+Caribbean,Caribbean,1.2
+Falafel,Falafel,1.2
+Ukrainian,Ukrainian,1.2
+Live/Raw Food,Live/Raw Food,1.2
+Middle Eastern,Middle Eastern,1.2
+Dominican,Dominican,1.2
+Ethnic Food,Ethnic Food,1.2
+Filipino,Filipino,1.2
+Shaved Ice,Shaved Ice,1.2
+Wine Bars,Wine Bars,1.2
+Vegetarian,Hot Pot,1
+Live/Raw Food,Cafes,1
+Fast Food,Italian,1
+Salad,Specialty Food,1
+Ethnic Food,Patisserie/Cake Shop,1
+Falafel,Patisserie/Cake Shop,1
+Cupcakes,Food Court,1
+Salad,Vegetarian,1
+Soup,Vegetarian,1
+Live/Raw Food,Wine Bars,1
+Fast Food,Cheese Shops,1
+Meat Shops,Beer Bar,1
+Cupcakes,Cafes,1
+Falafel,Arabian,1
+Mediterranean,Gelato,1
+Desserts,Falafel,1
+Mediterranean,Fast Food,1
+Live/Raw Food,Hot Pot,1
+Delis,Fast Food,1
+Piano Bars,Desserts,1
+Arabian,Meat Shops,1
+Arabian,Hot Pot,1
+Cafes,Delis,1
+Turkish,Cupcakes,1
+Food Delivery Services,Desserts,1
+Falafel,Cheese Shops,1
+Shaved Ice,Arabian,1
+Cupcakes,Delis,1
+Mediterranean,Italian,1
+Gelato,Wine Bars,1
+Cheese Shops,Ethnic Food,1
+Cantonese,Cheese Shops,1
+Pubs,Specialty Food,1
+Cheese Shops,Persian/Iranian,1
+Falafel,Delis,1
+Meat Shops,Turkish,1
+Pubs,Soup,1
+Patisserie/Cake Shop,Hot Pot,1
+Desserts,Piano Bars,1
+Vegetarian,Piano Bars,1
+Pizza,Desserts,1
+Beer Bar,Italian,1
+Pubs,Meat Shops,1
+Cupcakes,Cantonese,1
+Cafes,Italian,1
+Persian/Iranian,Soup,1
+Falafel,Meat Shops,1
+Cafes,Specialty Food,1
+Desserts,Pubs,1
+Pizza,Specialty Food,1
+Cafes,Patisserie/Cake Shop,1
+Piano Bars,Hot Pot,1
+Mediterranean,Wine Bars,1
+Turkish,Wine Bars,1
+Turkish,Live/Raw Food,1
+Hot Pot,Cantonese,1
+Piano Bars,Falafel,1
+Vegetarian,Cantonese,1
+Fast Food,Shaved Ice,1
+Shaved Ice,Specialty Food,1
+Hot Pot,Vegetarian,1
+Cupcakes,Arabian,1
+Live/Raw Food,Vegetarian,1
+Wine Bars,Hot Pot,1
+Desserts,Soup,1
+Beer Bar,Food Court,1
+Vegetarian,Soup,1
+Beer Bar,Food Delivery Services,1
+Cafes,Cantonese,1
+Cafes,Wine Bars,1
+Vegetarian,Pizza,1
+Gelato,Hot Pot,1
+Mediterranean,Cheese Shops,1
+Cafes,Cupcakes,1
+Patisserie/Cake Shop,Meat Shops,1
+Gelato,Meat Shops,1
+Turkish,Meat Shops,1
+Soup,Desserts,1
+Desserts,Meat Shops,1
+Live/Raw Food,Cupcakes,1
+Wine Bars,Pizza,1
+Falafel,Salad,1
+Pubs,Shaved Ice,1
+Delis,Turkish,1
+Gelato,Delis,1
+Hot Pot,Food Court,1
+Meat Shops,Soup,1
+Delis,Cheese Shops,1
+Vegetarian,Beer Bar,1
+Vegetarian,Meat Shops,1
+Gelato,Salad,1
+Pizza,Falafel,1
+Live/Raw Food,Falafel,1
+Specialty Food,Italian,1
+Specialty Food,Mediterranean,1
+Delis,Vegetarian,1
+Pubs,Cafes,1
+Fast Food,Cafes,1
+Desserts,Patisserie/Cake Shop,1
+Beer Bar,Cantonese,1
+Cantonese,Turkish,1
+Gelato,Arabian,1
+Mediterranean,Persian/Iranian,1
+Italian,Fast Food,1
+Cafes,Gelato,1
+Vegetarian,Cheese Shops,1
+Italian,Cupcakes,1
+Vegetarian,Ethnic Food,1
+Mediterranean,Piano Bars,1
+Cupcakes,Falafel,1
+Specialty Food,Hot Pot,1
+Delis,Italian,1
+Gelato,Shaved Ice,1
+Piano Bars,Soup,1
+Soup,Piano Bars,1
+Turkish,Falafel,1
+Delis,Hot Pot,1
+Specialty Food,Salad,1
+Desserts,Wine Bars,1
+Ethnic Food,Turkish,1
+Cantonese,Pizza,1
+Turkish,Arabian,1
+Patisserie/Cake Shop,Falafel,1
+Food Delivery Services,Hot Pot,1
+Beer Bar,Pizza,1
+Fast Food,Live/Raw Food,1
+Beer Bar,Live/Raw Food,1
+Mediterranean,Hot Pot,1
+Fast Food,Hot Pot,1
+Italian,Beer Bar,1
+Live/Raw Food,Salad,1
+Salad,Falafel,1
+Persian/Iranian,Food Court,1
+Meat Shops,Vegetarian,1
+Piano Bars,Cupcakes,1
+Falafel,Turkish,1
+Delis,Live/Raw Food,1
+Turkish,Italian,1
+Pubs,Vegetarian,1
+Shaved Ice,Piano Bars,1
+Hot Pot,Patisserie/Cake Shop,1
+Piano Bars,Pubs,1
+Wine Bars,Salad,1
+Persian/Iranian,Specialty Food,1
+Salad,Piano Bars,1
+Fast Food,Specialty Food,1
+Live/Raw Food,Arabian,1
+Food Court,Delis,1
+Pizza,Food Delivery Services,1
+Cantonese,Piano Bars,1
+Persian/Iranian,Falafel,1
+Beer Bar,Shaved Ice,1
+Mediterranean,Cafes,1
+Food Court,Falafel,1
+Specialty Food,Shaved Ice,1
+Pizza,Cantonese,1
+Cupcakes,Shaved Ice,1
+Vegetarian,Gelato,1
+Arabian,Pubs,1
+Cheese Shops,Shaved Ice,1
+Beer Bar,Desserts,1
+Patisserie/Cake Shop,Salad,1
+Meat Shops,Live/Raw Food,1
+Specialty Food,Persian/Iranian,1
+Arabian,Food Court,1
+Pubs,Cheese Shops,1
+Desserts,Live/Raw Food,1
+Piano Bars,Patisserie/Cake Shop,1
+Cheese Shops,Food Delivery Services,1
+Soup,Pubs,1
+Pizza,Shaved Ice,1
+Turkish,Beer Bar,1
+Delis,Pubs,1
+Shaved Ice,Fast Food,1
+Wine Bars,Cheese Shops,1
+Patisserie/Cake Shop,Cupcakes,1
+Patisserie/Cake Shop,Food Delivery Services,1
+Salad,Patisserie/Cake Shop,1
+Desserts,Vegetarian,1
+Specialty Food,Pizza,1
+Vegetarian,Pubs,1
+Soup,Pizza,1
+Gelato,Pizza,1
+Piano Bars,Arabian,1
+Pizza,Turkish,1
+Italian,Pubs,1
+Hot Pot,Fast Food,1
+Persian/Iranian,Ethnic Food,1
+Delis,Food Delivery Services,1
+Hot Pot,Gelato,1
+Meat Shops,Falafel,1
+Cantonese,Patisserie/Cake Shop,1
+Persian/Iranian,Salad,1
+Hot Pot,Turkish,1
+Persian/Iranian,Cantonese,1
+Gelato,Patisserie/Cake Shop,1
+Live/Raw Food,Desserts,1
+Mediterranean,Beer Bar,1
+Cafes,Food Court,1
+Wine Bars,Gelato,1
+Cheese Shops,Meat Shops,1
+Cheese Shops,Pizza,1
+Salad,Food Court,1
+Live/Raw Food,Turkish,1
+Wine Bars,Food Court,1
+Wine Bars,Mediterranean,1
+Salad,Meat Shops,1
+Fast Food,Turkish,1
+Fast Food,Food Court,1
+Piano Bars,Turkish,1
+Cafes,Turkish,1
+Wine Bars,Patisserie/Cake Shop,1
+Persian/Iranian,Hot Pot,1
+Shaved Ice,Hot Pot,1
+Pizza,Hot Pot,1
+Specialty Food,Beer Bar,1
+Pizza,Persian/Iranian,1
+Meat Shops,Ethnic Food,1
+Pizza,Cupcakes,1
+Fast Food,Ethnic Food,1
+Delis,Desserts,1
+Food Delivery Services,Patisserie/Cake Shop,1
+Persian/Iranian,Beer Bar,1
+Pizza,Vegetarian,1
+Wine Bars,Beer Bar,1
+Patisserie/Cake Shop,Pizza,1
+Piano Bars,Fast Food,1
+Ethnic Food,Pizza,1
+Cantonese,Live/Raw Food,1
+Salad,Shaved Ice,1
+Salad,Turkish,1
+Meat Shops,Cafes,1
+Vegetarian,Cafes,1
+Persian/Iranian,Piano Bars,1
+Fast Food,Pizza,1
+Cupcakes,Desserts,1
+Gelato,Falafel,1
+Soup,Shaved Ice,1
+Wine Bars,Vegetarian,1
+Persian/Iranian,Delis,1
+Vegetarian,Fast Food,1
+Food Delivery Services,Cheese Shops,1
+Beer Bar,Arabian,1
+Specialty Food,Cafes,1
+Specialty Food,Food Delivery Services,1
+Arabian,Cafes,1
+Italian,Soup,1
+Turkish,Specialty Food,1
+Specialty Food,Desserts,1
+Pubs,Live/Raw Food,1
+Hot Pot,Cheese Shops,1
+Mediterranean,Shaved Ice,1
+Arabian,Gelato,1
+Food Court,Ethnic Food,1
+Gelato,Pubs,1
+Salad,Cheese Shops,1
+Pubs,Ethnic Food,1
+Arabian,Specialty Food,1
+Cafes,Hot Pot,1
+Gelato,Ethnic Food,1
+Patisserie/Cake Shop,Fast Food,1
+Wine Bars,Cupcakes,1
+Cafes,Beer Bar,1
+Gelato,Turkish,1
+Mediterranean,Turkish,1
+Cupcakes,Pizza,1
+Turkish,Cantonese,1
+Falafel,Fast Food,1
+Vegetarian,Specialty Food,1
+Cupcakes,Italian,1
+Arabian,Cupcakes,1
+Mediterranean,Live/Raw Food,1
+Beer Bar,Persian/Iranian,1
+Hot Pot,Meat Shops,1
+Falafel,Pubs,1
+Ethnic Food,Vegetarian,1
+Delis,Gelato,1
+Beer Bar,Delis,1
+Pizza,Gelato,1
+Patisserie/Cake Shop,Cafes,1
+Wine Bars,Fast Food,1
+Ethnic Food,Food Delivery Services,1
+Cupcakes,Hot Pot,1
+Turkish,Persian/Iranian,1
+Patisserie/Cake Shop,Mediterranean,1
+Mediterranean,Vegetarian,1
+Falafel,Vegetarian,1
+Delis,Patisserie/Cake Shop,1
+Wine Bars,Italian,1
+Food Court,Cantonese,1
+Gelato,Italian,1
+Arabian,Salad,1
+Specialty Food,Live/Raw Food,1
+Delis,Soup,1
+Beer Bar,Falafel,1
+Arabian,Soup,1
+Meat Shops,Shaved Ice,1
+Cupcakes,Persian/Iranian,1
+Soup,Cafes,1
+Cupcakes,Patisserie/Cake Shop,1
+Salad,Beer Bar,1
+Desserts,Arabian,1
+Soup,Food Court,1
+Falafel,Ethnic Food,1
+Cupcakes,Fast Food,1
+Shaved Ice,Italian,1
+Hot Pot,Salad,1
+Live/Raw Food,Beer Bar,1
+Food Delivery Services,Delis,1
+Salad,Soup,1
+Mediterranean,Meat Shops,1
+Shaved Ice,Ethnic Food,1
+Meat Shops,Desserts,1
+Cheese Shops,Vegetarian,1
+Desserts,Specialty Food,1
+Food Court,Meat Shops,1
+Food Delivery Services,Live/Raw Food,1
+Falafel,Food Delivery Services,1
+Piano Bars,Food Delivery Services,1
+Italian,Shaved Ice,1
+Shaved Ice,Gelato,1
+Cupcakes,Meat Shops,1
+Patisserie/Cake Shop,Cantonese,1
+Live/Raw Food,Pubs,1
+Pizza,Arabian,1
+Cafes,Live/Raw Food,1
+Cafes,Pizza,1
+Salad,Cupcakes,1
+Specialty Food,Gelato,1
+Food Court,Specialty Food,1
+Gelato,Cafes,1
+Desserts,Salad,1
+Gelato,Persian/Iranian,1
+Piano Bars,Italian,1
+Specialty Food,Vegetarian,1
+Ethnic Food,Cafes,1
+Italian,Mediterranean,1
+Arabian,Ethnic Food,1
+Wine Bars,Turkish,1
+Desserts,Delis,1
+Shaved Ice,Cafes,1
+Desserts,Shaved Ice,1
+Specialty Food,Meat Shops,1
+Beer Bar,Fast Food,1
+Cantonese,Cupcakes,1
+Turkish,Cafes,1
+Cafes,Arabian,1
+Hot Pot,Shaved Ice,1
+Arabian,Falafel,1
+Cheese Shops,Specialty Food,1
+Cantonese,Desserts,1
+Pubs,Desserts,1
+Pubs,Piano Bars,1
+Cafes,Persian/Iranian,1
+Pizza,Fast Food,1
+Food Delivery Services,Cafes,1
+Cantonese,Gelato,1
+Beer Bar,Turkish,1
+Italian,Cantonese,1
+Cheese Shops,Arabian,1
+Cafes,Vegetarian,1
+Desserts,Pizza,1
+Live/Raw Food,Soup,1
+Food Delivery Services,Cupcakes,1
+Food Court,Desserts,1
+Food Court,Hot Pot,1
+Turkish,Gelato,1
+Cheese Shops,Piano Bars,1
+Persian/Iranian,Cafes,1
+Hot Pot,Persian/Iranian,1
+Soup,Wine Bars,1
+Cafes,Soup,1
+Delis,Salad,1
+Hot Pot,Desserts,1
+Patisserie/Cake Shop,Vegetarian,1
+Food Delivery Services,Soup,1
+Falafel,Desserts,1
+Fast Food,Gelato,1
+Meat Shops,Delis,1
+Salad,Gelato,1
+Turkish,Patisserie/Cake Shop,1
+Persian/Iranian,Food Delivery Services,1
+Italian,Vegetarian,1
+Wine Bars,Cantonese,1
+Desserts,Fast Food,1
+Cafes,Piano Bars,1
+Salad,Pizza,1
+Cantonese,Specialty Food,1
+Food Delivery Services,Italian,1
+Specialty Food,Falafel,1
+Pizza,Pubs,1
+Delis,Mediterranean,1
+Specialty Food,Arabian,1
+Vegetarian,Falafel,1
+Shaved Ice,Pubs,1
+Beer Bar,Cupcakes,1
+Pizza,Cheese Shops,1
+Mediterranean,Desserts,1
+Pubs,Pizza,1
+Food Court,Soup,1
+Piano Bars,Pizza,1
+Live/Raw Food,Food Delivery Services,1
+Soup,Persian/Iranian,1
+Pubs,Patisserie/Cake Shop,1
+Arabian,Cantonese,1
+Beer Bar,Specialty Food,1
+Wine Bars,Live/Raw Food,1
+Arabian,Live/Raw Food,1
+Salad,Desserts,1
+Live/Raw Food,Ethnic Food,1
+Fast Food,Piano Bars,1
+Gelato,Beer Bar,1
+Fast Food,Persian/Iranian,1
+Hot Pot,Delis,1
+Italian,Delis,1
+Meat Shops,Salad,1
+Gelato,Cheese Shops,1
+Hot Pot,Beer Bar,1
+Mediterranean,Pizza,1
+Food Court,Fast Food,1
+Falafel,Wine Bars,1
+Meat Shops,Wine Bars,1
+Desserts,Cantonese,1
+Wine Bars,Piano Bars,1
+Beer Bar,Cheese Shops,1
+Persian/Iranian,Pizza,1
+Persian/Iranian,Cheese Shops,1
+Soup,Gelato,1
+Hot Pot,Wine Bars,1
+Food Delivery Services,Gelato,1
+Mediterranean,Pubs,1
+Hot Pot,Mediterranean,1
+Gelato,Soup,1
+Beer Bar,Salad,1
+Delis,Meat Shops,1
+Cafes,Ethnic Food,1
+Wine Bars,Desserts,1
+Delis,Shaved Ice,1
+Arabian,Italian,1
+Ethnic Food,Falafel,1
+Delis,Cantonese,1
+Falafel,Mediterranean,1
+Ethnic Food,Persian/Iranian,1
+Delis,Beer Bar,1
+Fast Food,Desserts,1
+Mediterranean,Food Delivery Services,1
+Food Court,Vegetarian,1
+Persian/Iranian,Live/Raw Food,1
+Cantonese,Salad,1
+Ethnic Food,Salad,1
+Food Court,Cafes,1
+Cupcakes,Mediterranean,1
+Soup,Patisserie/Cake Shop,1
+Turkish,Fast Food,1
+Specialty Food,Wine Bars,1
+Soup,Delis,1
+Shaved Ice,Salad,1
+Arabian,Cheese Shops,1
+Wine Bars,Arabian,1
+Cupcakes,Salad,1
+Arabian,Piano Bars,1
+Pubs,Falafel,1
+Hot Pot,Cafes,1
+Ethnic Food,Fast Food,1
+Food Court,Patisserie/Cake Shop,1
+Cafes,Meat Shops,1
+Cheese Shops,Delis,1
+Cupcakes,Pubs,1
+Cheese Shops,Hot Pot,1
+Beer Bar,Cafes,1
+Patisserie/Cake Shop,Ethnic Food,1
+Arabian,Turkish,1
+Meat Shops,Food Delivery Services,1
+Ethnic Food,Piano Bars,1
+Turkish,Food Court,1
+Cantonese,Arabian,1
+Ethnic Food,Meat Shops,1
+Cafes,Desserts,1
+Italian,Piano Bars,1
+Food Delivery Services,Pubs,1
+Food Delivery Services,Shaved Ice,1
+Food Delivery Services,Cantonese,1
+Ethnic Food,Arabian,1
+Ethnic Food,Desserts,1
+Falafel,Italian,1
+Hot Pot,Specialty Food,1
+Wine Bars,Soup,1
+Italian,Turkish,1
+Piano Bars,Wine Bars,1
+Live/Raw Food,Cheese Shops,1
+Salad,Delis,1
+Cupcakes,Specialty Food,1
+Delis,Persian/Iranian,1
+Vegetarian,Arabian,1
+Hot Pot,Falafel,1
+Delis,Food Court,1
+Cafes,Pubs,1
+Ethnic Food,Food Court,1
+Fast Food,Mediterranean,1
+Falafel,Piano Bars,1
+Delis,Pizza,1
+Gelato,Desserts,1
+Cantonese,Pubs,1
+Shaved Ice,Cantonese,1
+Cupcakes,Wine Bars,1
+Cantonese,Ethnic Food,1
+Desserts,Food Delivery Services,1
+Cafes,Salad,1
+Turkish,Pizza,1
+Live/Raw Food,Pizza,1
+Falafel,Cupcakes,1
+Pubs,Gelato,1
+Salad,Live/Raw Food,1
+Soup,Falafel,1
+Pizza,Delis,1
+Ethnic Food,Gelato,1
+Food Delivery Services,Fast Food,1
+Shaved Ice,Falafel,1
+Gelato,Mediterranean,1
+Falafel,Soup,1
+Pizza,Ethnic Food,1
+Meat Shops,Food Court,1
+Meat Shops,Persian/Iranian,1
+Food Court,Arabian,1
+Vegetarian,Food Court,1
+Vegetarian,Wine Bars,1
+Cantonese,Meat Shops,1
+Piano Bars,Cafes,1
+Patisserie/Cake Shop,Specialty Food,1
+Food Delivery Services,Salad,1
+Vegetarian,Desserts,1
+Food Delivery Services,Mediterranean,1
+Salad,Italian,1
+Soup,Specialty Food,1
+Ethnic Food,Hot Pot,1
+Pizza,Cafes,1
+Meat Shops,Arabian,1
+Vegetarian,Mediterranean,1
+Cheese Shops,Live/Raw Food,1
+Meat Shops,Italian,1
+Delis,Cafes,1
+Shaved Ice,Cheese Shops,1
+Meat Shops,Pizza,1
+Cupcakes,Ethnic Food,1
+Meat Shops,Cantonese,1
+Food Delivery Services,Turkish,1
+Food Court,Wine Bars,1
+Turkish,Shaved Ice,1
+Soup,Cheese Shops,1
+Food Delivery Services,Piano Bars,1
+Delis,Arabian,1
+Italian,Gelato,1
+Soup,Turkish,1
+Specialty Food,Cheese Shops,1
+Cheese Shops,Beer Bar,1
+Delis,Falafel,1
+Shaved Ice,Cupcakes,1
+Soup,Live/Raw Food,1
+Italian,Food Delivery Services,1
+Food Delivery Services,Persian/Iranian,1
+Ethnic Food,Beer Bar,1
+Food Court,Food Delivery Services,1
+Ethnic Food,Cupcakes,1
+Ethnic Food,Live/Raw Food,1
+Cantonese,Food Court,1
+Specialty Food,Cupcakes,1
+Salad,Fast Food,1
+Italian,Specialty Food,1
+Cheese Shops,Patisserie/Cake Shop,1
+Specialty Food,Piano Bars,1
+Wine Bars,Pubs,1
+Gelato,Vegetarian,1
+Pizza,Food Court,1
+Patisserie/Cake Shop,Soup,1
+Italian,Wine Bars,1
+Hot Pot,Piano Bars,1
+Cupcakes,Live/Raw Food,1
+Ethnic Food,Cantonese,1
+Cafes,Food Delivery Services,1
+Cupcakes,Cheese Shops,1
+Persian/Iranian,Desserts,1
+Food Court,Turkish,1
+Cheese Shops,Turkish,1
+Cupcakes,Turkish,1
+Fast Food,Delis,1
+Turkish,Mediterranean,1
+Pizza,Salad,1
+Fast Food,Pubs,1
+Desserts,Turkish,1
+Specialty Food,Ethnic Food,1
+Fast Food,Cupcakes,1
+Desserts,Italian,1
+Cheese Shops,Italian,1
+Meat Shops,Fast Food,1
+Desserts,Beer Bar,1
+Pubs,Persian/Iranian,1
+Cheese Shops,Gelato,1
+Fast Food,Patisserie/Cake Shop,1
+Cantonese,Delis,1
+Fast Food,Meat Shops,1
+Beer Bar,Wine Bars,1
+Live/Raw Food,Mediterranean,1
+Cheese Shops,Fast Food,1
+Ethnic Food,Wine Bars,1
+Specialty Food,Fast Food,1
+Wine Bars,Cafes,1
+Falafel,Food Court,1
+Gelato,Cantonese,1
+Arabian,Patisserie/Cake Shop,1
+Mediterranean,Arabian,1
+Cantonese,Beer Bar,1
+Patisserie/Cake Shop,Delis,1
+Delis,Specialty Food,1
+Shaved Ice,Pizza,1
+Soup,Beer Bar,1
+Arabian,Mediterranean,1
+Vegetarian,Salad,1
+Fast Food,Arabian,1
+Pizza,Wine Bars,1
+Patisserie/Cake Shop,Pubs,1
+Italian,Arabian,1
+Mediterranean,Delis,1
+Cheese Shops,Wine Bars,1
+Persian/Iranian,Arabian,1
+Beer Bar,Patisserie/Cake Shop,1
+Fast Food,Food Delivery Services,1
+Meat Shops,Mediterranean,1
+Specialty Food,Pubs,1
+Soup,Mediterranean,1
+Italian,Salad,1
+Food Court,Shaved Ice,1
+Falafel,Gelato,1
+Italian,Food Court,1
+Specialty Food,Patisserie/Cake Shop,1
+Wine Bars,Meat Shops,1
+Beer Bar,Pubs,1
+Cafes,Shaved Ice,1
+Food Court,Live/Raw Food,1
+Meat Shops,Pubs,1
+Food Court,Pubs,1
+Cantonese,Shaved Ice,1
+Hot Pot,Pizza,1
+Pubs,Turkish,1
+Delis,Ethnic Food,1
+Arabian,Delis,1
+Live/Raw Food,Persian/Iranian,1
+Pubs,Italian,1
+Meat Shops,Cupcakes,1
+Beer Bar,Hot Pot,1
+Mediterranean,Falafel,1
+Patisserie/Cake Shop,Wine Bars,1
+Soup,Fast Food,1
+Live/Raw Food,Fast Food,1
+Arabian,Desserts,1
+Patisserie/Cake Shop,Persian/Iranian,1
+Wine Bars,Food Delivery Services,1
+Cantonese,Hot Pot,1
+Italian,Desserts,1
+Shaved Ice,Persian/Iranian,1
+Cupcakes,Beer Bar,1
+Vegetarian,Delis,1
+Shaved Ice,Live/Raw Food,1
+Cheese Shops,Falafel,1
+Piano Bars,Persian/Iranian,1
+Food Court,Mediterranean,1
+Arabian,Shaved Ice,1
+Pizza,Patisserie/Cake Shop,1
+Fast Food,Cantonese,1
+Food Delivery Services,Vegetarian,1
+Hot Pot,Ethnic Food,1
+Italian,Falafel,1
+Cafes,Fast Food,1
+Cantonese,Soup,1
+Pubs,Cantonese,1
+Cheese Shops,Salad,1
+Food Delivery Services,Meat Shops,1
+Wine Bars,Persian/Iranian,1
+Piano Bars,Food Court,1
+Beer Bar,Gelato,1
+Patisserie/Cake Shop,Shaved Ice,1
+Cheese Shops,Soup,1
+Ethnic Food,Italian,1
+Pubs,Delis,1
+Salad,Cafes,1
+Italian,Pizza,1
+Pubs,Salad,1
+Cupcakes,Soup,1
+Soup,Arabian,1
+Food Delivery Services,Ethnic Food,1
+Salad,Arabian,1
+Piano Bars,Beer Bar,1
+Soup,Meat Shops,1
+Cheese Shops,Cupcakes,1
+Fast Food,Soup,1
+Italian,Persian/Iranian,1
+Pizza,Live/Raw Food,1
+Fast Food,Beer Bar,1
+Food Court,Salad,1
+Turkish,Soup,1
+Turkish,Food Delivery Services,1
+Pubs,Hot Pot,1
+Fast Food,Vegetarian,1
+Cupcakes,Vegetarian,1
+Cantonese,Persian/Iranian,1
+Desserts,Cafes,1
+Shaved Ice,Wine Bars,1
+Ethnic Food,Cheese Shops,1
+Hot Pot,Food Delivery Services,1
+Ethnic Food,Soup,1
+Beer Bar,Meat Shops,1
+Falafel,Cafes,1
+Live/Raw Food,Shaved Ice,1
+Turkish,Piano Bars,1
+Piano Bars,Meat Shops,1
+Persian/Iranian,Patisserie/Cake Shop,1
+Vegetarian,Live/Raw Food,1
+Pubs,Food Court,1
+Shaved Ice,Meat Shops,1
+Piano Bars,Shaved Ice,1
+Shaved Ice,Desserts,1
+Pizza,Italian,1
+Cantonese,Wine Bars,1
+Ethnic Food,Shaved Ice,1
+Shaved Ice,Beer Bar,1
+Beer Bar,Mediterranean,1
+Pizza,Meat Shops,1
+Beer Bar,Vegetarian,1
+Piano Bars,Live/Raw Food,1
+Food Court,Italian,1
+Shaved Ice,Vegetarian,1
+Vegetarian,Food Delivery Services,1
+Cheese Shops,Mediterranean,1
+Shaved Ice,Soup,1
+Salad,Ethnic Food,1
+Shaved Ice,Delis,1
+Piano Bars,Salad,1
+Shaved Ice,Food Delivery Services,1
+Piano Bars,Cheese Shops,1
+Persian/Iranian,Italian,1
+Persian/Iranian,Wine Bars,1
+Hot Pot,Pubs,1
+Turkish,Desserts,1
+Pubs,Fast Food,1
+Piano Bars,Mediterranean,1
+Turkish,Delis,1
+Pubs,Cupcakes,1
+Pubs,Beer Bar,1
+Mediterranean,Patisserie/Cake Shop,1
+Soup,Cupcakes,1
+Soup,Italian,1
+Arabian,Fast Food,1
+Delis,Piano Bars,1
+Hot Pot,Soup,1
+Turkish,Hot Pot,1
+Falafel,Pizza,1
+Shaved Ice,Food Court,1
+Ethnic Food,Mediterranean,1
+Patisserie/Cake Shop,Italian,1
+Persian/Iranian,Shaved Ice,1
+Ethnic Food,Specialty Food,1
+Specialty Food,Turkish,1
+Pizza,Soup,1
+Italian,Patisserie/Cake Shop,1
+Shaved Ice,Patisserie/Cake Shop,1
+Falafel,Cantonese,1
+Patisserie/Cake Shop,Cheese Shops,1
+Salad,Food Delivery Services,1
+Vegetarian,Patisserie/Cake Shop,1
+Hot Pot,Cupcakes,1
+Fast Food,Wine Bars,1
+Soup,Salad,1
+Salad,Persian/Iranian,1
+Desserts,Food Court,1
+Cantonese,Food Delivery Services,1
+Meat Shops,Piano Bars,1
+Live/Raw Food,Meat Shops,1
+Pubs,Food Delivery Services,1
+Turkish,Cheese Shops,1
+Soup,Hot Pot,1
+Delis,Cupcakes,1
+Piano Bars,Ethnic Food,1
+Cupcakes,Food Delivery Services,1
+Meat Shops,Cheese Shops,1
+Falafel,Beer Bar,1
+Mediterranean,Cantonese,1
+Cheese Shops,Pubs,1
+Arabian,Persian/Iranian,1
+Mediterranean,Cupcakes,1
+Food Court,Beer Bar,1
+Shaved Ice,Turkish,1
+Piano Bars,Vegetarian,1
+Gelato,Specialty Food,1
+Vegetarian,Turkish,1
+Cafes,Falafel,1
+Falafel,Specialty Food,1
+Arabian,Beer Bar,1
+Live/Raw Food,Delis,1
+Vegetarian,Cupcakes,1
+Italian,Hot Pot,1
+Desserts,Mediterranean,1
+Piano Bars,Delis,1
+Food Court,Piano Bars,1
+Salad,Pubs,1
+Desserts,Persian/Iranian,1
+Food Delivery Services,Falafel,1
+Mediterranean,Ethnic Food,1
+Turkish,Vegetarian,1
+Falafel,Live/Raw Food,1
+Soup,Food Delivery Services,1
+Cheese Shops,Food Court,1
+Beer Bar,Soup,1
+Desserts,Cupcakes,1
+Meat Shops,Hot Pot,1
+Arabian,Wine Bars,1
+Mediterranean,Specialty Food,1
+Persian/Iranian,Fast Food,1
+Meat Shops,Specialty Food,1
+Beer Bar,Piano Bars,1
+Salad,Wine Bars,1
+Cafes,Mediterranean,1
+Cheese Shops,Cantonese,1
+Live/Raw Food,Piano Bars,1
+Ethnic Food,Delis,1
+Turkish,Pubs,1
+Food Delivery Services,Beer Bar,1
+Specialty Food,Food Court,1
+Pubs,Wine Bars,1
+Live/Raw Food,Italian,1
+Italian,Ethnic Food,1
+Cantonese,Cafes,1
+Live/Raw Food,Specialty Food,1
+Fast Food,Falafel,1
+Gelato,Live/Raw Food,1
+Specialty Food,Soup,1
+Patisserie/Cake Shop,Live/Raw Food,1
+Salad,Mediterranean,1
+Gelato,Fast Food,1
+Food Delivery Services,Food Court,1
+Persian/Iranian,Meat Shops,1
+Specialty Food,Delis,1
+Hot Pot,Italian,1
+Arabian,Vegetarian,1
+Piano Bars,Gelato,1
+Live/Raw Food,Patisserie/Cake Shop,1
+Vegetarian,Italian,1
+Food Court,Persian/Iranian,1
+Live/Raw Food,Cantonese,1
+Falafel,Persian/Iranian,1
+Arabian,Pizza,1
+Desserts,Ethnic Food,1
+Cantonese,Falafel,1
+Persian/Iranian,Vegetarian,1
+Persian/Iranian,Turkish,1
+Piano Bars,Specialty Food,1
+Wine Bars,Falafel,1
+Turkish,Ethnic Food,1
+Gelato,Food Court,1
+Wine Bars,Specialty Food,1
+Food Delivery Services,Specialty Food,1
+Arabian,Food Delivery Services,1
+Mediterranean,Soup,1
+Pubs,Arabian,1
+Soup,Ethnic Food,1
+Gelato,Cupcakes,1
+Patisserie/Cake Shop,Beer Bar,1
+Gelato,Food Delivery Services,1
+Desserts,Hot Pot,1
+Pizza,Beer Bar,1
+Salad,Hot Pot,1
+Food Court,Cupcakes,1
+Italian,Cafes,1
+Turkish,Salad,1
+Salad,Cantonese,1
+Falafel,Hot Pot,1
+Cupcakes,Piano Bars,1
+Cafes,Cheese Shops,1
+Persian/Iranian,Pubs,1
+Food Court,Pizza,1
+Specialty Food,Cantonese,1
+Hot Pot,Live/Raw Food,1
+Persian/Iranian,Gelato,1
+Pizza,Mediterranean,1
+Mediterranean,Salad,1
+Persian/Iranian,Cupcakes,1
+Cantonese,Italian,1
+Patisserie/Cake Shop,Arabian,1
+Mediterranean,Food Court,1
+Wine Bars,Ethnic Food,1
+Hot Pot,Arabian,1
+Fast Food,Salad,1
+Vegetarian,Shaved Ice,1
+Food Delivery Services,Arabian,1
+Delis,Wine Bars,1
+Live/Raw Food,Gelato,1
+Patisserie/Cake Shop,Food Court,1
+Italian,Meat Shops,1
+Pubs,Mediterranean,1
+Desserts,Gelato,1
+Beer Bar,Ethnic Food,1
+Ethnic Food,Pubs,1
+Patisserie/Cake Shop,Piano Bars,1
+Food Court,Gelato,1
+Meat Shops,Patisserie/Cake Shop,1
+Italian,Live/Raw Food,1
+Soup,Cantonese,1
+Live/Raw Food,Food Court,1
+Cantonese,Fast Food,1
+Falafel,Shaved Ice,1
+Italian,Cheese Shops,1
+Food Court,Cheese Shops,1
+Cupcakes,Gelato,1
+Patisserie/Cake Shop,Turkish,1
+Pizza,Piano Bars,1
+Wine Bars,Shaved Ice,1
+Piano Bars,Cantonese,1
+Vegetarian,Persian/Iranian,1
+Food Delivery Services,Wine Bars,1
+Cantonese,Mediterranean,1
+Patisserie/Cake Shop,Gelato,1
+Persian/Iranian,Mediterranean,1
+Shaved Ice,Mediterranean,1
+Cheese Shops,Desserts,1
+Wine Bars,Delis,1
+Gelato,Piano Bars,1
+Patisserie/Cake Shop,Desserts,1
+Cheese Shops,Cafes,1
+Desserts,Cheese Shops,1
+Cantonese,Vegetarian,1
+Food Delivery Services,Pizza,1
+Meat Shops,Gelato,1
+Breweries,Salad,0.8226690939665
+Breweries,Soup,0.8226690939665
+Mediterranean,Breweries,0.8226690939665
+Specialty Food,Breweries,0.8226690939665
+Breweries,Shaved Ice,0.8226690939665
+Breweries,Wine Bars,0.8226690939665
+Cupcakes,Breweries,0.8226690939665
+Ethnic Food,Breweries,0.8226690939665
+Desserts,Breweries,0.8226690939665
+Turkish,Breweries,0.8226690939665
+Cantonese,Breweries,0.8226690939665
+Breweries,Desserts,0.8226690939665
+Salad,Breweries,0.8226690939665
+Breweries,Pizza,0.8226690939665
+Persian/Iranian,Breweries,0.8226690939665
+Breweries,Italian,0.8226690939665
+Breweries,Piano Bars,0.8226690939665
+Cafes,Breweries,0.8226690939665
+Vegetarian,Breweries,0.8226690939665
+Breweries,Food Delivery Services,0.8226690939665
+Breweries,Persian/Iranian,0.8226690939665
+Pizza,Breweries,0.8226690939665
+Hot Pot,Breweries,0.8226690939665
+Patisserie/Cake Shop,Breweries,0.8226690939665
+Delis,Breweries,0.8226690939665
+Breweries,Mediterranean,0.8226690939665
+Live/Raw Food,Breweries,0.8226690939665
+Arabian,Breweries,0.8226690939665
+Breweries,Gelato,0.8226690939665
+Breweries,Turkish,0.8226690939665
+Shaved Ice,Breweries,0.8226690939665
+Breweries,Meat Shops,0.8226690939665
+Breweries,Vegetarian,0.8226690939665
+Breweries,Live/Raw Food,0.8226690939665
+Breweries,Cantonese,0.8226690939665
+Breweries,Beer Bar,0.8226690939665
+Gelato,Breweries,0.8226690939665
+Fast Food,Breweries,0.8226690939665
+Breweries,Patisserie/Cake Shop,0.8226690939665
+Soup,Breweries,0.8226690939665
+Breweries,Hot Pot,0.8226690939665
+Wine Bars,Breweries,0.8226690939665
+Breweries,Cafes,0.8226690939665
+Food Delivery Services,Breweries,0.8226690939665
+Breweries,Cheese Shops,0.8226690939665
+Piano Bars,Breweries,0.8226690939665
+Breweries,Fast Food,0.8226690939665
+Breweries,Arabian,0.8226690939665
+Beer Bar,Breweries,0.8226690939665
+Pubs,Breweries,0.8226690939665
+Meat Shops,Breweries,0.8226690939665
+Breweries,Falafel,0.8226690939665
+Falafel,Breweries,0.8226690939665
+Cheese Shops,Breweries,0.8226690939665
+Breweries,Cupcakes,0.8226690939665
+Breweries,Pubs,0.8226690939665
+Food Court,Breweries,0.8226690939665
+Breweries,Food Court,0.8226690939665
+Breweries,Delis,0.8226690939665
+Breweries,Specialty Food,0.8226690939665
+Italian,Breweries,0.8226690939665
+Breweries,Ethnic Food,0.8226690939665
+Sushi Bars,Cafes,0.820657954472165
+Sushi Bars,Hot Pot,0.820657954472165
+Sushi Bars,Turkish,0.820657954472165
+Sushi Bars,Salad,0.820657954472165
+Sushi Bars,Gelato,0.820657954472165
+Sushi Bars,Shaved Ice,0.820657954472165
+Salad,Sushi Bars,0.820657954472165
+Cantonese,Sushi Bars,0.820657954472165
+Italian,Sushi Bars,0.820657954472165
+Sushi Bars,Arabian,0.820657954472165
+Sushi Bars,Live/Raw Food,0.820657954472165
+Falafel,Sushi Bars,0.820657954472165
+Sushi Bars,Patisserie/Cake Shop,0.820657954472165
+Sushi Bars,Pubs,0.820657954472165
+Cheese Shops,Sushi Bars,0.820657954472165
+Sushi Bars,Pizza,0.820657954472165
+Sushi Bars,Vegetarian,0.820657954472165
+Piano Bars,Sushi Bars,0.820657954472165
+Sushi Bars,Falafel,0.820657954472165
+Soup,Sushi Bars,0.820657954472165
+Sushi Bars,Italian,0.820657954472165
+Sushi Bars,Delis,0.820657954472165
+Fast Food,Sushi Bars,0.820657954472165
+Ethnic Food,Sushi Bars,0.820657954472165
+Arabian,Sushi Bars,0.820657954472165
+Sushi Bars,Cantonese,0.820657954472165
+Sushi Bars,Cupcakes,0.820657954472165
+Sushi Bars,Food Delivery Services,0.820657954472165
+Patisserie/Cake Shop,Sushi Bars,0.820657954472165
+Meat Shops,Sushi Bars,0.820657954472165
+Sushi Bars,Specialty Food,0.820657954472165
+Pizza,Sushi Bars,0.820657954472165
+Sushi Bars,Beer Bar,0.820657954472165
+Persian/Iranian,Sushi Bars,0.820657954472165
+Sushi Bars,Persian/Iranian,0.820657954472165
+Sushi Bars,Piano Bars,0.820657954472165
+Pubs,Sushi Bars,0.820657954472165
+Sushi Bars,Wine Bars,0.820657954472165
+Turkish,Sushi Bars,0.820657954472165
+Sushi Bars,Meat Shops,0.820657954472165
+Sushi Bars,Desserts,0.820657954472165
+Beer Bar,Sushi Bars,0.820657954472165
+Live/Raw Food,Sushi Bars,0.820657954472165
+Delis,Sushi Bars,0.820657954472165
+Cupcakes,Sushi Bars,0.820657954472165
+Mediterranean,Sushi Bars,0.820657954472165
+Sushi Bars,Fast Food,0.820657954472165
+Specialty Food,Sushi Bars,0.820657954472165
+Sushi Bars,Food Court,0.820657954472165
+Hot Pot,Sushi Bars,0.820657954472165
+Vegetarian,Sushi Bars,0.820657954472165
+Sushi Bars,Ethnic Food,0.820657954472165
+Sushi Bars,Mediterranean,0.820657954472165
+Sushi Bars,Cheese Shops,0.820657954472165
+Desserts,Sushi Bars,0.820657954472165
+Gelato,Sushi Bars,0.820657954472165
+Cafes,Sushi Bars,0.820657954472165
+Food Delivery Services,Sushi Bars,0.820657954472165
+Sushi Bars,Soup,0.820657954472165
+Wine Bars,Sushi Bars,0.820657954472165
+Shaved Ice,Sushi Bars,0.820657954472165
+Food Court,Sushi Bars,0.820657954472165
+Thai,Falafel,0.812776896524686
+Falafel,Thai,0.812776896524686
+Thai,Beer Bar,0.812776896524686
+Thai,Food Delivery Services,0.812776896524686
+Salad,Thai,0.812776896524686
+Piano Bars,Thai,0.812776896524686
+Ethnic Food,Thai,0.812776896524686
+Cupcakes,Thai,0.812776896524686
+Thai,Salad,0.812776896524686
+Specialty Food,Thai,0.812776896524686
+Mediterranean,Thai,0.812776896524686
+Thai,Shaved Ice,0.812776896524686
+Persian/Iranian,Thai,0.812776896524686
+Thai,Italian,0.812776896524686
+Thai,Hot Pot,0.812776896524686
+Thai,Fast Food,0.812776896524686
+Thai,Arabian,0.812776896524686
+Thai,Cheese Shops,0.812776896524686
+Gelato,Thai,0.812776896524686
+Thai,Wine Bars,0.812776896524686
+Cheese Shops,Thai,0.812776896524686
+Thai,Ethnic Food,0.812776896524686
+Shaved Ice,Thai,0.812776896524686
+Fast Food,Thai,0.812776896524686
+Thai,Desserts,0.812776896524686
+Patisserie/Cake Shop,Thai,0.812776896524686
+Thai,Meat Shops,0.812776896524686
+Turkish,Thai,0.812776896524686
+Thai,Persian/Iranian,0.812776896524686
+Live/Raw Food,Thai,0.812776896524686
+Thai,Piano Bars,0.812776896524686
+Desserts,Thai,0.812776896524686
+Cafes,Thai,0.812776896524686
+Thai,Delis,0.812776896524686
+Hot Pot,Thai,0.812776896524686
+Thai,Live/Raw Food,0.812776896524686
+Wine Bars,Thai,0.812776896524686
+Meat Shops,Thai,0.812776896524686
+Thai,Soup,0.812776896524686
+Thai,Pubs,0.812776896524686
+Arabian,Thai,0.812776896524686
+Thai,Turkish,0.812776896524686
+Thai,Cantonese,0.812776896524686
+Thai,Gelato,0.812776896524686
+Thai,Cafes,0.812776896524686
+Food Court,Thai,0.812776896524686
+Thai,Food Court,0.812776896524686
+Thai,Mediterranean,0.812776896524686
+Cantonese,Thai,0.812776896524686
+Thai,Pizza,0.812776896524686
+Thai,Specialty Food,0.812776896524686
+Pubs,Thai,0.812776896524686
+Pizza,Thai,0.812776896524686
+Italian,Thai,0.812776896524686
+Vegetarian,Thai,0.812776896524686
+Thai,Cupcakes,0.812776896524686
+Thai,Vegetarian,0.812776896524686
+Food Delivery Services,Thai,0.812776896524686
+Beer Bar,Thai,0.812776896524686
+Thai,Patisserie/Cake Shop,0.812776896524686
+Delis,Thai,0.812776896524686
+Soup,Thai,0.812776896524686
+Cambodian,Meat Shops,0.329597880996515
+Meat Shops,Cambodian,0.329597880996515
+Cuban,Pubs,0.327793502866869
+Pubs,Cuban,0.327793502866869
+Piano Bars,Indonesian,0.326942722161999
+Indonesian,Piano Bars,0.326942722161999
+Taiwanese,Cupcakes,0.326744554398176
+Cupcakes,Taiwanese,0.326744554398176
+Caribbean,Persian/Iranian,0.325687294415294
+Persian/Iranian,Caribbean,0.325687294415294
+Spanish,Vegetarian,0.324497066575145
+Vegetarian,Spanish,0.324497066575145
+Cambodian,Shaved Ice,0.323774534771273
+Shaved Ice,Cambodian,0.323774534771273
+Turkish,Cuban,0.318396201050011
+Cuban,Turkish,0.318396201050011
+Specialty Food,Cuban,0.316428058524247
+Cuban,Specialty Food,0.316428058524247
+Hot Pot,Taiwanese,0.316251467913463
+Taiwanese,Hot Pot,0.316251467913463
+Salad,Caribbean,0.316147690914
+Caribbean,Salad,0.316147690914
+Salad,Cambodian,0.315880815363222
+Cambodian,Salad,0.315880815363222
+Hot Pot,Ukrainian,0.311528321791607
+Ukrainian,Hot Pot,0.311528321791607
+Salad,Cuban,0.311207285119453
+Cuban,Salad,0.311207285119453
+Arabian,Taiwanese,0.311015539567341
+Taiwanese,Arabian,0.311015539567341
+Cambodian,Beer Bar,0.309984506452093
+Beer Bar,Cambodian,0.309984506452093
+Cantonese,Ukrainian,0.308895517112579
+Ukrainian,Cantonese,0.308895517112579
+Spanish,Salad,0.308171894126314
+Salad,Spanish,0.308171894126314
+Cheese Shops,Ukrainian,0.306644206604305
+Ukrainian,Cheese Shops,0.306644206604305
+Cheese Shops,Cuban,0.30630060216465
+Cuban,Cheese Shops,0.30630060216465
+Desserts,Cambodian,0.303210368944185
+Cambodian,Desserts,0.303210368944185
+Vegetarian,Indonesian,0.302789796380479
+Indonesian,Vegetarian,0.302789796380479
+Italian,Latin American,0.299333670610383
+Latin American,Italian,0.299333670610383
+Meat Shops,Caribbean,0.29530976810137
+Caribbean,Meat Shops,0.29530976810137
+Thai,Sushi Bars,0.294905056332414
+Sushi Bars,Thai,0.294905056332414
+Cuban,Falafel,0.293555145014684
+Falafel,Cuban,0.293555145014684
+Ukrainian,Meat Shops,0.292279802548917
+Meat Shops,Ukrainian,0.292279802548917
+Mediterranean,Latin American,0.291891488412469
+Latin American,Mediterranean,0.291891488412469
+Indonesian,Ethnic Food,0.291536556078479
+Ethnic Food,Indonesian,0.291536556078479
+Vegetarian,Caribbean,0.291161338094262
+Caribbean,Vegetarian,0.291161338094262
+Latin American,Salad,0.290026796377974
+Salad,Latin American,0.290026796377974
+Ukrainian,Persian/Iranian,0.289345389518787
+Persian/Iranian,Ukrainian,0.289345389518787
+Indonesian,Cafes,0.288695222858378
+Cafes,Indonesian,0.288695222858378
+Live/Raw Food,Latin American,0.288077982266581
+Latin American,Live/Raw Food,0.288077982266581
+Mediterranean,Indonesian,0.287921979032077
+Indonesian,Mediterranean,0.287921979032077
+Ethnic Food,Cambodian,0.287432268288736
+Cambodian,Ethnic Food,0.287432268288736
+Latin American,Piano Bars,0.287179272846699
+Piano Bars,Latin American,0.287179272846699
+Live/Raw Food,Taiwanese,0.287169595927372
+Taiwanese,Live/Raw Food,0.287169595927372
+Shaved Ice,Taiwanese,0.281230788329883
+Taiwanese,Shaved Ice,0.281230788329883
+Taiwanese,Falafel,0.279427029243253
+Falafel,Taiwanese,0.279427029243253
+Ukrainian,Food Court,0.278488491556533
+Food Court,Ukrainian,0.278488491556533
+Shaved Ice,Cuban,0.272906657898061
+Cuban,Shaved Ice,0.272906657898061
+Cantonese,Indonesian,0.26690659133563
+Indonesian,Cantonese,0.26690659133563
+Specialty Food,Indonesian,0.264600913201698
+Indonesian,Specialty Food,0.264600913201698
+Ukrainian,Patisserie/Cake Shop,0.264511044435461
+Patisserie/Cake Shop,Ukrainian,0.264511044435461
+Spanish,Pubs,0.262017142757542
+Pubs,Spanish,0.262017142757542
+Wine Bars,Cuban,0.261584507719155
+Cuban,Wine Bars,0.261584507719155
+Mediterranean,Spanish,0.260152026690323
+Spanish,Mediterranean,0.260152026690323
+Hot Pot,Latin American,0.259844600295809
+Latin American,Hot Pot,0.259844600295809
+Mediterranean,Taiwanese,0.259396067270199
+Taiwanese,Mediterranean,0.259396067270199
+Ukrainian,Gelato,0.258087211248109
+Gelato,Ukrainian,0.258087211248109
+Latin American,Meat Shops,0.253994475636391
+Meat Shops,Latin American,0.253994475636391
+Cheese Shops,Indonesian,0.253734471236024
+Indonesian,Cheese Shops,0.253734471236024
+Gelato,Indonesian,0.252408643250987
+Indonesian,Gelato,0.252408643250987
+Taiwanese,Food Delivery Services,0.251297125962366
+Food Delivery Services,Taiwanese,0.251297125962366
+Delis,Indonesian,0.249663827416717
+Indonesian,Delis,0.249663827416717
+Latin American,Spanish,0.249187144452316
+Spanish,Latin American,0.249187144452316
+Taiwanese,Sushi Bars,0.249123553484782
+Sushi Bars,Taiwanese,0.249123553484782
+Cantonese,Taiwanese,0.248836416195405
+Taiwanese,Cantonese,0.248836416195405
+Turkish,Latin American,0.248192032272243
+Latin American,Turkish,0.248192032272243
+Soup,Caribbean,0.246904424252825
+Caribbean,Soup,0.246904424252825
+Cambodian,Food Court,0.246508890228472
+Food Court,Cambodian,0.246508890228472
+Indonesian,Turkish,0.246399856273407
+Turkish,Indonesian,0.246399856273407
+Caribbean,Latin American,0.24463408490436
+Latin American,Caribbean,0.24463408490436
+Cuban,Breweries,0.244297682776929
+Breweries,Cuban,0.244297682776929
+Indonesian,Ukrainian,0.243654387305847
+Ukrainian,Indonesian,0.243654387305847
+Ukrainian,Taiwanese,0.242256690799745
+Taiwanese,Ukrainian,0.242256690799745
+Sushi Bars,Latin American,0.241582317991923
+Latin American,Sushi Bars,0.241582317991923
+Taiwanese,Breweries,0.24073410862841
+Breweries,Taiwanese,0.24073410862841
+Turkish,Ukrainian,0.240527532854225
+Ukrainian,Turkish,0.240527532854225
+Cuban,Spanish,0.239939841435092
+Spanish,Cuban,0.239939841435092
+Ukrainian,Thai,0.239190932373341
+Thai,Ukrainian,0.239190932373341
+Taiwanese,Delis,0.239155632055661
+Delis,Taiwanese,0.239155632055661
+Cambodian,Food Delivery Services,0.238834970660322
+Food Delivery Services,Cambodian,0.238834970660322
+Latin American,Pizza,0.235929634764883
+Pizza,Latin American,0.235929634764883
+Ukrainian,Falafel,0.235410163616255
+Falafel,Ukrainian,0.235410163616255
+Turkish,Caribbean,0.235024527171263
+Caribbean,Turkish,0.235024527171263
+Cuban,Food Court,0.234984091752537
+Food Court,Cuban,0.234984091752537
+Cambodian,Caribbean,0.234624958456987
+Caribbean,Cambodian,0.234624958456987
+Indonesian,Fast Food,0.234065764902683
+Fast Food,Indonesian,0.234065764902683
+Taiwanese,Cambodian,0.233596571153096
+Cambodian,Taiwanese,0.233596571153096
+Hot Pot,Spanish,0.231919884920543
+Spanish,Hot Pot,0.231919884920543
+Ukrainian,Salad,0.230940440953481
+Salad,Ukrainian,0.230940440953481
+Fast Food,Caribbean,0.230923525074922
+Caribbean,Fast Food,0.230923525074922
+Shaved Ice,Latin American,0.230493799349593
+Latin American,Shaved Ice,0.230493799349593
+Breweries,Caribbean,0.230263166901808
+Caribbean,Breweries,0.230263166901808
+Cuban,Beer Bar,0.230255985754158
+Beer Bar,Cuban,0.230255985754158
+Desserts,Indonesian,0.228235078787893
+Indonesian,Desserts,0.228235078787893
+Cambodian,Cupcakes,0.228043414421949
+Cupcakes,Cambodian,0.228043414421949
+Pubs,Latin American,0.228015558187969
+Latin American,Pubs,0.228015558187969
+Caribbean,Ethnic Food,0.225963144880247
+Ethnic Food,Caribbean,0.225963144880247
+Cuban,Soup,0.224360090562941
+Soup,Cuban,0.224360090562941
+Cambodian,Ukrainian,0.223233074126533
+Ukrainian,Cambodian,0.223233074126533
+Indonesian,Food Court,0.222324381841883
+Food Court,Indonesian,0.222324381841883
+Turkish,Spanish,0.221051404834906
+Spanish,Turkish,0.221051404834906
+Beer Bar,Ukrainian,0.220490054807611
+Ukrainian,Beer Bar,0.220490054807611
+Italian,Indonesian,0.217399115208381
+Indonesian,Italian,0.217399115208381
+Taiwanese,Ethnic Food,0.216914300434733
+Ethnic Food,Taiwanese,0.216914300434733
+Cambodian,Spanish,0.21634544569653
+Spanish,Cambodian,0.21634544569653
+Delis,Latin American,0.216116144795626
+Latin American,Delis,0.216116144795626
+Specialty Food,Spanish,0.214423754860254
+Spanish,Specialty Food,0.214423754860254
+Hot Pot,Indonesian,0.21431179409093
+Indonesian,Hot Pot,0.21431179409093
+Delis,Ukrainian,0.212427384320129
+Ukrainian,Delis,0.212427384320129
+Fast Food,Spanish,0.211312630477627
+Spanish,Fast Food,0.211312630477627
+Falafel,Cambodian,0.210501843421532
+Cambodian,Falafel,0.210501843421532
+Taiwanese,Cuban,0.210447111078846
+Cuban,Taiwanese,0.210447111078846
+Mediterranean,Cambodian,0.210143422584444
+Cambodian,Mediterranean,0.210143422584444
+Ukrainian,Italian,0.208817290562913
+Italian,Ukrainian,0.208817290562913
+Taiwanese,Indonesian,0.208343763726188
+Indonesian,Taiwanese,0.208343763726188
+Ukrainian,Specialty Food,0.206773075929736
+Specialty Food,Ukrainian,0.206773075929736
+Pubs,Taiwanese,0.206451118546579
+Taiwanese,Pubs,0.206451118546579
+Gelato,Cuban,0.205303499423137
+Cuban,Gelato,0.205303499423137
+Ukrainian,Soup,0.204946756748027
+Soup,Ukrainian,0.204946756748027
+Latin American,Soup,0.204020907064446
+Soup,Latin American,0.204020907064446
+Cafes,Taiwanese,0.20111747826326
+Taiwanese,Cafes,0.20111747826326
+Gelato,Latin American,0.200871005201027
+Latin American,Gelato,0.200871005201027
+Indonesian,Beer Bar,0.199862239320244
+Beer Bar,Indonesian,0.199862239320244
+Gelato,Taiwanese,0.197304261630618
+Taiwanese,Gelato,0.197304261630618
+Spanish,Pizza,0.195519470160701
+Pizza,Spanish,0.195519470160701
+Vegetarian,Latin American,0.195493696314925
+Latin American,Vegetarian,0.195493696314925
+Cuban,Cupcakes,0.195267762815118
+Cupcakes,Cuban,0.195267762815118
+Arabian,Caribbean,0.194025597396906
+Caribbean,Arabian,0.194025597396906
+Cambodian,Thai,0.192259734859509
+Thai,Cambodian,0.192259734859509
+Desserts,Spanish,0.190941891486798
+Spanish,Desserts,0.190941891486798
+Spanish,Cafes,0.190615121486742
+Cafes,Spanish,0.190615121486742
+Italian,Cambodian,0.189765281583959
+Cambodian,Italian,0.189765281583959
+Vegetarian,Taiwanese,0.188019337899075
+Taiwanese,Vegetarian,0.188019337899075
+Salad,Taiwanese,0.187974826393131
+Taiwanese,Salad,0.187974826393131
+Taiwanese,Pizza,0.186432959235429
+Pizza,Taiwanese,0.186432959235429
+Cuban,Cantonese,0.185564997010445
+Cantonese,Cuban,0.185564997010445
+Caribbean,Patisserie/Cake Shop,0.185516913660246
+Patisserie/Cake Shop,Caribbean,0.185516913660246
+Falafel,Latin American,0.185254817519572
+Latin American,Falafel,0.185254817519572
+Fast Food,Taiwanese,0.184211012536308
+Taiwanese,Fast Food,0.184211012536308
+Arabian,Ukrainian,0.18201221047597
+Ukrainian,Arabian,0.18201221047597
+Desserts,Taiwanese,0.179606488375683
+Taiwanese,Desserts,0.179606488375683
+Delis,Caribbean,0.178391041359573
+Caribbean,Delis,0.178391041359573
+Specialty Food,Cambodian,0.177718965813506
+Cambodian,Specialty Food,0.177718965813506
+Cuban,Arabian,0.175580703193547
+Arabian,Cuban,0.175580703193547
+Caribbean,Spanish,0.175425141552255
+Spanish,Caribbean,0.175425141552255
+Specialty Food,Caribbean,0.174675196966043
+Caribbean,Specialty Food,0.174675196966043
+Cambodian,Persian/Iranian,0.173593777397919
+Persian/Iranian,Cambodian,0.173593777397919
+Cambodian,Cafes,0.171198294648128
+Cafes,Cambodian,0.171198294648128
+Delis,Cambodian,0.171193070199767
+Cambodian,Delis,0.171193070199767
+Italian,Caribbean,0.171043510463576
+Caribbean,Italian,0.171043510463576
+Patisserie/Cake Shop,Indonesian,0.170931411776087
+Indonesian,Patisserie/Cake Shop,0.170931411776087
+Spanish,Indonesian,0.170379646266848
+Indonesian,Spanish,0.170379646266848
+Turkish,Cambodian,0.1701960723055
+Cambodian,Turkish,0.1701960723055
+Food Delivery Services,Caribbean,0.168225825749156
+Caribbean,Food Delivery Services,0.168225825749156
+Laotian,Latin American,0.166597774260347
+Latin American,Laotian,0.166597774260347
+Arabian,Egyptian,0.166520092590317
+Egyptian,Arabian,0.166520092590317
+Egyptian,Shanghainese,0.16603834994081
+Shanghainese,Egyptian,0.16603834994081
+Latin American,Indonesian,0.165672895008766
+Indonesian,Latin American,0.165672895008766
+Hot Pot,Bangladeshi,0.165612814139695
+Bangladeshi,Hot Pot,0.165612814139695
+Mediterranean,Egyptian,0.165412567864408
+Egyptian,Mediterranean,0.165412567864408
+Cheese Shops,Spanish,0.16516901363453
+Spanish,Cheese Shops,0.16516901363453
+Indonesian,Arabian,0.164885022487849
+Arabian,Indonesian,0.164885022487849
+Egyptian,Brazilian,0.164833946751633
+Brazilian,Egyptian,0.164833946751633
+Food Delivery Services,Spanish,0.163913889027674
+Spanish,Food Delivery Services,0.163913889027674
+Latin American,Cheese Shops,0.162772633998251
+Cheese Shops,Latin American,0.162772633998251
+Laotian,Breweries,0.162664204136398
+Breweries,Laotian,0.162664204136398
+Soup,Spanish,0.161787509676499
+Spanish,Soup,0.161787509676499
+Egyptian,Pubs,0.16178589987903
+Pubs,Egyptian,0.16178589987903
+Soup,Bangladeshi,0.161638214937206
+Bangladeshi,Soup,0.161638214937206
+Food Court,Laotian,0.161603055842944
+Laotian,Food Court,0.161603055842944
+Brazilian,Taiwanese,0.161264194911525
+Taiwanese,Brazilian,0.161264194911525
+Pizza,Egyptian,0.161220618229723
+Egyptian,Pizza,0.161220618229723
+Cheese Shops,Laotian,0.160891603855885
+Laotian,Cheese Shops,0.160891603855885
+Thai,Brazilian,0.160628922947944
+Brazilian,Thai,0.160628922947944
+Italian,Taiwanese,0.160570500278255
+Taiwanese,Italian,0.160570500278255
+Piano Bars,Filipino,0.159951500284371
+Filipino,Piano Bars,0.159951500284371
+Bangladeshi,Food Court,0.159266627205089
+Food Court,Bangladeshi,0.159266627205089
+Dominican,Middle Eastern,0.159110917953785
+Middle Eastern,Dominican,0.159110917953785
+Gelato,Egyptian,0.158697263107123
+Egyptian,Gelato,0.158697263107123
+Soup,Middle Eastern,0.158386215458621
+Middle Eastern,Soup,0.158386215458621
+Beer Bar,Taiwanese,0.158272273383891
+Taiwanese,Beer Bar,0.158272273383891
+Italian,Dominican,0.157779307551171
+Dominican,Italian,0.157779307551171
+Filipino,Sushi Bars,0.157479016938754
+Sushi Bars,Filipino,0.157479016938754
+Ukrainian,Cupcakes,0.157465060230518
+Cupcakes,Ukrainian,0.157465060230518
+Dominican,Latin American,0.157458913431427
+Latin American,Dominican,0.157458913431427
+Brazilian,Delis,0.157168866987136
+Delis,Brazilian,0.157168866987136
+Egyptian,Cheese Shops,0.156832812486391
+Cheese Shops,Egyptian,0.156832812486391
+Shanghainese,Patisserie/Cake Shop,0.156217832107663
+Patisserie/Cake Shop,Shanghainese,0.156217832107663
+Latin American,Wine Bars,0.156148096365981
+Wine Bars,Latin American,0.156148096365981
+Patisserie/Cake Shop,Dominican,0.156012333312916
+Dominican,Patisserie/Cake Shop,0.156012333312916
+Caribbean,Beer Bar,0.155574084400588
+Beer Bar,Caribbean,0.155574084400588
+Brazilian,Italian,0.155523557440521
+Italian,Brazilian,0.155523557440521
+Egyptian,Middle Eastern,0.15508172132452
+Middle Eastern,Egyptian,0.15508172132452
+Delis,Shanghainese,0.154842486839164
+Shanghainese,Delis,0.154842486839164
+Egyptian,Salad,0.154787293273197
+Salad,Egyptian,0.154787293273197
+Brazilian,Fast Food,0.154519668463478
+Fast Food,Brazilian,0.154519668463478
+Sushi Bars,Indonesian,0.154484584374534
+Indonesian,Sushi Bars,0.154484584374534
+Food Court,Dominican,0.154366381447846
+Dominican,Food Court,0.154366381447846
+Egyptian,Wine Bars,0.154288853609126
+Wine Bars,Egyptian,0.154288853609126
+Indonesian,Shanghainese,0.153997147895836
+Shanghainese,Indonesian,0.153997147895836
+Shanghainese,Filipino,0.153236439253861
+Filipino,Shanghainese,0.153236439253861
+Egyptian,Cupcakes,0.152214542768404
+Cupcakes,Egyptian,0.152214542768404
+Middle Eastern,Meat Shops,0.152188837464547
+Meat Shops,Middle Eastern,0.152188837464547
+Shanghainese,Brazilian,0.152147664426019
+Brazilian,Shanghainese,0.152147664426019
+Meat Shops,Egyptian,0.151724982868925
+Egyptian,Meat Shops,0.151724982868925
+Filipino,Cantonese,0.151197570079678
+Cantonese,Filipino,0.151197570079678
+Pubs,Caribbean,0.150340188461007
+Caribbean,Pubs,0.150340188461007
+Spanish,Live/Raw Food,0.149001757517267
+Live/Raw Food,Spanish,0.149001757517267
+Ukrainian,Mediterranean,0.148641341354809
+Mediterranean,Ukrainian,0.148641341354809
+Soup,Filipino,0.14814014411267
+Filipino,Soup,0.14814014411267
+Latin American,Food Delivery Services,0.147308543876436
+Food Delivery Services,Latin American,0.147308543876436
+Indonesian,Meat Shops,0.147178527707084
+Meat Shops,Indonesian,0.147178527707084
+Live/Raw Food,Brazilian,0.146909841269687
+Brazilian,Live/Raw Food,0.146909841269687
+Falafel,Spanish,0.146482310953339
+Spanish,Falafel,0.146482310953339
+Bangladeshi,Turkish,0.146239437569032
+Turkish,Bangladeshi,0.146239437569032
+Soup,Taiwanese,0.146088894968887
+Taiwanese,Soup,0.146088894968887
+Laotian,Specialty Food,0.145973900571099
+Specialty Food,Laotian,0.145973900571099
+Taiwanese,Turkish,0.145548965634209
+Turkish,Taiwanese,0.145548965634209
+Falafel,Filipino,0.145318888496345
+Filipino,Falafel,0.145318888496345
+Vegetarian,Cuban,0.145286465000956
+Cuban,Vegetarian,0.145286465000956
+Latin American,Ukrainian,0.145154706613677
+Ukrainian,Latin American,0.145154706613677
+Cheese Shops,Dominican,0.145040330217846
+Dominican,Cheese Shops,0.145040330217846
+Brazilian,Beer Bar,0.144594401190079
+Beer Bar,Brazilian,0.144594401190079
+Spanish,Gelato,0.143955045893718
+Gelato,Spanish,0.143955045893718
+Laotian,Desserts,0.14378466289029
+Desserts,Laotian,0.14378466289029
+Filipino,Food Delivery Services,0.143501722184378
+Food Delivery Services,Filipino,0.143501722184378
+Bangladeshi,Cuban,0.143411155986909
+Cuban,Bangladeshi,0.143411155986909
+Wine Bars,Spanish,0.142629564104933
+Spanish,Wine Bars,0.142629564104933
+Filipino,Breweries,0.142564404324879
+Breweries,Filipino,0.142564404324879
+Arabian,Spanish,0.142329621623752
+Spanish,Arabian,0.142329621623752
+Laotian,Italian,0.142040008417925
+Italian,Laotian,0.142040008417925
+Ukrainian,Caribbean,0.142029718204193
+Caribbean,Ukrainian,0.142029718204193
+Egyptian,Food Delivery Services,0.141929703253754
+Food Delivery Services,Egyptian,0.141929703253754
+Dominican,Pizza,0.141878210046204
+Pizza,Dominican,0.141878210046204
+Dominican,Ethnic Food,0.141614853064225
+Ethnic Food,Dominican,0.141614853064225
+Taiwanese,Bangladeshi,0.141376361699552
+Bangladeshi,Taiwanese,0.141376361699552
+Vegetarian,Laotian,0.140980793368116
+Laotian,Vegetarian,0.140980793368116
+Hot Pot,Middle Eastern,0.14053655822449
+Middle Eastern,Hot Pot,0.14053655822449
+Shanghainese,Gelato,0.140390679475356
+Gelato,Shanghainese,0.140390679475356
+Caribbean,Shanghainese,0.140344758108379
+Shanghainese,Caribbean,0.140344758108379
+Hot Pot,Caribbean,0.139843685440305
+Caribbean,Hot Pot,0.139843685440305
+Brazilian,Cuban,0.139688951514652
+Cuban,Brazilian,0.139688951514652
+Cafes,Egyptian,0.139145679884652
+Egyptian,Cafes,0.139145679884652
+Brazilian,Pizza,0.138757793655847
+Pizza,Brazilian,0.138757793655847
+Middle Eastern,Laotian,0.138675286403053
+Laotian,Middle Eastern,0.138675286403053
+Cuban,Hot Pot,0.138424538572997
+Hot Pot,Cuban,0.138424538572997
+Breweries,Sushi Bars,0.137296073764329
+Sushi Bars,Breweries,0.137296073764329
+Laotian,Brazilian,0.13706495352271
+Brazilian,Laotian,0.13706495352271
+Egyptian,Dominican,0.136652777668237
+Dominican,Egyptian,0.136652777668237
+Egyptian,Indonesian,0.136645266010382
+Indonesian,Egyptian,0.136645266010382
+Shanghainese,Middle Eastern,0.135585177030332
+Middle Eastern,Shanghainese,0.135585177030332
+Shaved Ice,Bangladeshi,0.135472946530296
+Bangladeshi,Shaved Ice,0.135472946530296
+Filipino,Hot Pot,0.135132570242697
+Hot Pot,Filipino,0.135132570242697
+Persian/Iranian,Dominican,0.134905948384536
+Dominican,Persian/Iranian,0.134905948384536
+Laotian,Piano Bars,0.13473254485276
+Piano Bars,Laotian,0.13473254485276
+Caribbean,Falafel,0.134058349790598
+Falafel,Caribbean,0.134058349790598
+Specialty Food,Brazilian,0.133582373361832
+Brazilian,Specialty Food,0.133582373361832
+Middle Eastern,Specialty Food,0.132859564593301
+Specialty Food,Middle Eastern,0.132859564593301
+Middle Eastern,Sushi Bars,0.132686206315376
+Sushi Bars,Middle Eastern,0.132686206315376
+Spanish,Shanghainese,0.132046542283273
+Shanghainese,Spanish,0.132046542283273
+Mediterranean,Middle Eastern,0.13200554070982
+Middle Eastern,Mediterranean,0.13200554070982
+Dominican,Gelato,0.131984868410568
+Gelato,Dominican,0.131984868410568
+Shanghainese,Latin American,0.131845098837725
+Latin American,Shanghainese,0.131845098837725
+Bangladeshi,Cheese Shops,0.131458076526349
+Cheese Shops,Bangladeshi,0.131458076526349
+Meat Shops,Bangladeshi,0.131432049899144
+Bangladeshi,Meat Shops,0.131432049899144
+Breweries,Middle Eastern,0.13135014599118
+Middle Eastern,Breweries,0.13135014599118
+Bangladeshi,Sushi Bars,0.130976308449964
+Sushi Bars,Bangladeshi,0.130976308449964
+Fast Food,Dominican,0.130435962219684
+Dominican,Fast Food,0.130435962219684
+Brazilian,Ethnic Food,0.130414808594554
+Ethnic Food,Brazilian,0.130414808594554
+Cuban,Patisserie/Cake Shop,0.129517773172128
+Patisserie/Cake Shop,Cuban,0.129517773172128
+Laotian,Persian/Iranian,0.129447091517032
+Persian/Iranian,Laotian,0.129447091517032
+Cafes,Bangladeshi,0.129030093386554
+Bangladeshi,Cafes,0.129030093386554
+Pizza,Ukrainian,0.128903238888226
+Ukrainian,Pizza,0.128903238888226
+Shanghainese,Food Court,0.128464902991014
+Food Court,Shanghainese,0.128464902991014
+Filipino,Egyptian,0.128433005866079
+Egyptian,Filipino,0.128433005866079
+Spanish,Cantonese,0.12837858511027
+Cantonese,Spanish,0.12837858511027
+Indonesian,Live/Raw Food,0.127849686210921
+Live/Raw Food,Indonesian,0.127849686210921
+Bangladeshi,Cupcakes,0.127812425576438
+Cupcakes,Bangladeshi,0.127812425576438
+Meat Shops,Brazilian,0.12769859734777
+Brazilian,Meat Shops,0.12769859734777
+Salad,Shanghainese,0.127529371285428
+Shanghainese,Salad,0.127529371285428
+Egyptian,Italian,0.127506480408907
+Italian,Egyptian,0.127506480408907
+Live/Raw Food,Caribbean,0.127421540691047
+Caribbean,Live/Raw Food,0.127421540691047
+Laotian,Fast Food,0.126395857143981
+Fast Food,Laotian,0.126395857143981
+Shanghainese,Turkish,0.126248829238455
+Turkish,Shanghainese,0.126248829238455
+Dominican,Pubs,0.126224931431417
+Pubs,Dominican,0.126224931431417
+Filipino,Italian,0.125884007113431
+Italian,Filipino,0.125884007113431
+Specialty Food,Filipino,0.125471704096524
+Filipino,Specialty Food,0.125471704096524
+Laotian,Food Delivery Services,0.12546814281329
+Food Delivery Services,Laotian,0.12546814281329
+Gelato,Filipino,0.125312665675117
+Filipino,Gelato,0.125312665675117
+Salad,Filipino,0.12515034453409
+Filipino,Salad,0.12515034453409
+Egyptian,Cuban,0.124664092096038
+Cuban,Egyptian,0.124664092096038
+Soup,Brazilian,0.124518304686466
+Brazilian,Soup,0.124518304686466
+Brazilian,Sushi Bars,0.124454051724081
+Sushi Bars,Brazilian,0.124454051724081
+Cambodian,Wine Bars,0.124175540877916
+Wine Bars,Cambodian,0.124175540877916
+Breweries,Shanghainese,0.124056988145031
+Shanghainese,Breweries,0.124056988145031
+Filipino,Brazilian,0.123393675338514
+Brazilian,Filipino,0.123393675338514
+Pubs,Ukrainian,0.123319018489931
+Ukrainian,Pubs,0.123319018489931
+Cafes,Filipino,0.123133260457081
+Filipino,Cafes,0.123133260457081
+Cuban,Food Delivery Services,0.122276038976966
+Food Delivery Services,Cuban,0.122276038976966
+Ukrainian,Spanish,0.122270477119557
+Spanish,Ukrainian,0.122270477119557
+Shanghainese,Mediterranean,0.122234070587961
+Mediterranean,Shanghainese,0.122234070587961
+Turkish,Egyptian,0.122111657341609
+Egyptian,Turkish,0.122111657341609
+Latin American,Specialty Food,0.122059496715791
+Specialty Food,Latin American,0.122059496715791
+Egyptian,Ethnic Food,0.121483418998801
+Ethnic Food,Egyptian,0.121483418998801
+Middle Eastern,Thai,0.121199479686655
+Thai,Middle Eastern,0.121199479686655
+Brazilian,Spanish,0.121041127821989
+Spanish,Brazilian,0.121041127821989
+Indonesian,Falafel,0.120933804077615
+Falafel,Indonesian,0.120933804077615
+Dominican,Meat Shops,0.12059581260505
+Meat Shops,Dominican,0.12059581260505
+Vegetarian,Shanghainese,0.120031552179382
+Shanghainese,Vegetarian,0.120031552179382
+Laotian,Shaved Ice,0.119770120244751
+Shaved Ice,Laotian,0.119770120244751
+Laotian,Cupcakes,0.119274675326378
+Cupcakes,Laotian,0.119274675326378
+Cambodian,Egyptian,0.119127747958399
+Egyptian,Cambodian,0.119127747958399
+Middle Eastern,Caribbean,0.118869715543232
+Caribbean,Middle Eastern,0.118869715543232
+Persian/Iranian,Spanish,0.11840996729391
+Spanish,Persian/Iranian,0.11840996729391
+Cuban,Latin American,0.118406990805786
+Latin American,Cuban,0.118406990805786
+Spanish,Beer Bar,0.118222059556425
+Beer Bar,Spanish,0.118222059556425
+Shanghainese,Food Delivery Services,0.118113759386888
+Food Delivery Services,Shanghainese,0.118113759386888
+Desserts,Middle Eastern,0.117435121134463
+Middle Eastern,Desserts,0.117435121134463
+Cuban,Pizza,0.117311429077327
+Pizza,Cuban,0.117311429077327
+Shanghainese,Fast Food,0.117214962783827
+Fast Food,Shanghainese,0.117214962783827
+Pizza,Shanghainese,0.116936436396936
+Shanghainese,Pizza,0.116936436396936
+Middle Eastern,Shaved Ice,0.116921004713767
+Shaved Ice,Middle Eastern,0.116921004713767
+Caribbean,Cafes,0.116891936144149
+Cafes,Caribbean,0.116891936144149
+Ukrainian,Brazilian,0.116434742134477
+Brazilian,Ukrainian,0.116434742134477
+Dominican,Thai,0.116290171760735
+Thai,Dominican,0.116290171760735
+Laotian,Bangladeshi,0.116237540718499
+Bangladeshi,Laotian,0.116237540718499
+Ethnic Food,Spanish,0.115809037690372
+Spanish,Ethnic Food,0.115809037690372
+Bangladeshi,Dominican,0.115731158237994
+Dominican,Bangladeshi,0.115731158237994
+Shanghainese,Hot Pot,0.115712604975221
+Hot Pot,Shanghainese,0.115712604975221
+Sushi Bars,Egyptian,0.114759781807717
+Egyptian,Sushi Bars,0.114759781807717
+Arabian,Dominican,0.113450646733338
+Dominican,Arabian,0.113450646733338
+Thai,Latin American,0.11312945822567
+Latin American,Thai,0.11312945822567
+Cambodian,Middle Eastern,0.11269970906803
+Middle Eastern,Cambodian,0.11269970906803
+Patisserie/Cake Shop,Taiwanese,0.112607659519365
+Taiwanese,Patisserie/Cake Shop,0.112607659519365
+Fast Food,Middle Eastern,0.112585707379916
+Middle Eastern,Fast Food,0.112585707379916
+Falafel,Dominican,0.112546282661644
+Dominican,Falafel,0.112546282661644
+Cheese Shops,Caribbean,0.112487554069584
+Caribbean,Cheese Shops,0.112487554069584
+Meat Shops,Laotian,0.112281703468362
+Laotian,Meat Shops,0.112281703468362
+Mediterranean,Brazilian,0.112259409264201
+Brazilian,Mediterranean,0.112259409264201
+Latin American,Taiwanese,0.111791033266397
+Taiwanese,Latin American,0.111791033266397
+Filipino,Middle Eastern,0.111754891387772
+Middle Eastern,Filipino,0.111754891387772
+Ukrainian,Wine Bars,0.111584983235713
+Wine Bars,Ukrainian,0.111584983235713
+Cambodian,Dominican,0.111425110693209
+Dominican,Cambodian,0.111425110693209
+Sushi Bars,Cambodian,0.111351592628485
+Cambodian,Sushi Bars,0.111351592628485
+Indonesian,Wine Bars,0.111327379239656
+Wine Bars,Indonesian,0.111327379239656
+Dominican,Brazilian,0.110293178329438
+Brazilian,Dominican,0.110293178329438
+Soup,Egyptian,0.109922801256054
+Egyptian,Soup,0.109922801256054
+Brazilian,Cambodian,0.109211807127931
+Cambodian,Brazilian,0.109211807127931
+Breweries,Cambodian,0.108878575434815
+Cambodian,Breweries,0.108878575434815
+Laotian,Taiwanese,0.108633142859373
+Taiwanese,Laotian,0.108633142859373
+Indonesian,Cambodian,0.108264642224391
+Cambodian,Indonesian,0.108264642224391
+Taiwanese,Meat Shops,0.108067605102746
+Meat Shops,Taiwanese,0.108067605102746
+Middle Eastern,Cantonese,0.107108082194215
+Cantonese,Middle Eastern,0.107108082194215
+Cuban,Thai,0.106730513569992
+Thai,Cuban,0.106730513569992
+Bangladeshi,Shanghainese,0.106389566811804
+Shanghainese,Bangladeshi,0.106389566811804
+Middle Eastern,Bangladeshi,0.105775931928548
+Bangladeshi,Middle Eastern,0.105775931928548
+Dominican,Indonesian,0.105425060413809
+Indonesian,Dominican,0.105425060413809
+Latin American,Filipino,0.105067625808473
+Filipino,Latin American,0.105067625808473
+Cambodian,Laotian,0.104630906543875
+Laotian,Cambodian,0.104630906543875
+Brazilian,Vegetarian,0.104260172434261
+Vegetarian,Brazilian,0.104260172434261
+Cafes,Laotian,0.104150082671246
+Laotian,Cafes,0.104150082671246
+Spanish,Italian,0.103813167515759
+Italian,Spanish,0.103813167515759
+Egyptian,Ukrainian,0.101946741619851
+Ukrainian,Egyptian,0.101946741619851
+Desserts,Ukrainian,0.101755800637055
+Ukrainian,Desserts,0.101755800637055
+Cambodian,Piano Bars,0.101699715649755
+Piano Bars,Cambodian,0.101699715649755
+Ukrainian,Middle Eastern,0.101608862150473
+Middle Eastern,Ukrainian,0.101608862150473
+Arabian,Brazilian,0.101239232498711
+Brazilian,Arabian,0.101239232498711
+Egyptian,Shaved Ice,0.100830308692994
+Shaved Ice,Egyptian,0.100830308692994
+Cupcakes,Filipino,0.10057993906103
+Filipino,Cupcakes,0.10057993906103
+Meat Shops,Cuban,0.100575839848452
+Cuban,Meat Shops,0.100575839848452
+Egyptian,Hot Pot,0.100279844645764
+Hot Pot,Egyptian,0.100279844645764
+Vegetarian,Bangladeshi,0.100215606871692
+Bangladeshi,Vegetarian,0.100215606871692
+Cambodian,Shanghainese,0.0998450885387345
+Shanghainese,Cambodian,0.0998450885387345
+Food Court,Caribbean,0.0996105852938216
+Caribbean,Food Court,0.0996105852938216
+Middle Eastern,Spanish,0.0994143353150427
+Spanish,Middle Eastern,0.0994143353150427
+Dominican,Cupcakes,0.0990582324354432
+Cupcakes,Dominican,0.0990582324354432
+Filipino,Live/Raw Food,0.0989381369791499
+Live/Raw Food,Filipino,0.0989381369791499
+Food Delivery Services,Ukrainian,0.0985019402299218
+Ukrainian,Food Delivery Services,0.0985019402299218
+Cupcakes,Spanish,0.0978931769371864
+Spanish,Cupcakes,0.0978931769371864
+Brazilian,Cheese Shops,0.097773970735562
+Cheese Shops,Brazilian,0.097773970735562
+Bangladeshi,Falafel,0.0975944734592676
+Falafel,Bangladeshi,0.0975944734592676
+Food Court,Egyptian,0.0965234402839971
+Egyptian,Food Court,0.0965234402839971
+Hot Pot,Cambodian,0.0962126554238831
+Cambodian,Hot Pot,0.0962126554238831
+Vegetarian,Filipino,0.0960323384735092
+Filipino,Vegetarian,0.0960323384735092
+Cantonese,Dominican,0.0954582049920703
+Dominican,Cantonese,0.0954582049920703
+Fast Food,Bangladeshi,0.0954370066598613
+Bangladeshi,Fast Food,0.0954370066598613
+Piano Bars,Bangladeshi,0.0948798687445594
+Bangladeshi,Piano Bars,0.0948798687445594
+Dominican,Hot Pot,0.09456385804826
+Hot Pot,Dominican,0.09456385804826
+Pizza,Filipino,0.0944271986308005
+Filipino,Pizza,0.0944271986308005
+Food Court,Brazilian,0.0941784398044746
+Brazilian,Food Court,0.0941784398044746
+Breweries,Egyptian,0.0938121355308722
+Egyptian,Breweries,0.0938121355308722
+Soup,Cambodian,0.0934942883681445
+Cambodian,Soup,0.0934942883681445
+Cambodian,Patisserie/Cake Shop,0.0929074817410727
+Patisserie/Cake Shop,Cambodian,0.0929074817410727
+Middle Eastern,Cupcakes,0.0926310028079581
+Cupcakes,Middle Eastern,0.0926310028079581
+Fast Food,Egyptian,0.0925160940366465
+Egyptian,Fast Food,0.0925160940366465
+Latin American,Fast Food,0.0921290936483339
+Fast Food,Latin American,0.0921290936483339
+Egyptian,Persian/Iranian,0.0919618853102119
+Persian/Iranian,Egyptian,0.0919618853102119
+Thai,Shanghainese,0.0916076519155887
+Shanghainese,Thai,0.0916076519155887
+Caribbean,Bangladeshi,0.0915403712299482
+Bangladeshi,Caribbean,0.0915403712299482
+Ethnic Food,Shanghainese,0.091511746227872
+Shanghainese,Ethnic Food,0.091511746227872
+Dominican,Spanish,0.0914442213887915
+Spanish,Dominican,0.0914442213887915
+Bangladeshi,Ethnic Food,0.0913330300400945
+Ethnic Food,Bangladeshi,0.0913330300400945
+Laotian,Cantonese,0.0912886885108663
+Cantonese,Laotian,0.0912886885108663
+Vegetarian,Dominican,0.0909791105689725
+Dominican,Vegetarian,0.0909791105689725
+Laotian,Pubs,0.0907125218006421
+Pubs,Laotian,0.0907125218006421
+Filipino,Dominican,0.0907089087922813
+Dominican,Filipino,0.0907089087922813
+Pubs,Bangladeshi,0.0905617057921668
+Bangladeshi,Pubs,0.0905617057921668
+Dominican,Wine Bars,0.0898674960500066
+Wine Bars,Dominican,0.0898674960500066
+Latin American,Food Court,0.0898500460339586
+Food Court,Latin American,0.0898500460339586
+Middle Eastern,Gelato,0.0896038195633669
+Gelato,Middle Eastern,0.0896038195633669
+Indonesian,Cuban,0.0895377197010512
+Cuban,Indonesian,0.0895377197010512
+Gelato,Brazilian,0.0895208010521535
+Brazilian,Gelato,0.0895208010521535
+Beer Bar,Latin American,0.0890353569929967
+Latin American,Beer Bar,0.0890353569929967
+Cupcakes,Latin American,0.0887905219172945
+Latin American,Cupcakes,0.0887905219172945
+Egyptian,Specialty Food,0.0887066825819746
+Specialty Food,Egyptian,0.0887066825819746
+Bangladeshi,Beer Bar,0.0881821989963287
+Beer Bar,Bangladeshi,0.0881821989963287
+Shanghainese,Live/Raw Food,0.0880354211563101
+Live/Raw Food,Shanghainese,0.0880354211563101
+Brazilian,Persian/Iranian,0.0868938013521051
+Persian/Iranian,Brazilian,0.0868938013521051
+Pizza,Indonesian,0.0868644890331041
+Indonesian,Pizza,0.0868644890331041
+Falafel,Brazilian,0.0859984760373209
+Brazilian,Falafel,0.0859984760373209
+Sushi Bars,Caribbean,0.0858023396394797
+Caribbean,Sushi Bars,0.0858023396394797
+Cambodian,Cantonese,0.085315621897927
+Cantonese,Cambodian,0.085315621897927
+Egyptian,Bangladeshi,0.0852864705433341
+Bangladeshi,Egyptian,0.0852864705433341
+Desserts,Bangladeshi,0.0849707270113746
+Bangladeshi,Desserts,0.0849707270113746
+Wine Bars,Bangladeshi,0.0844211897835876
+Bangladeshi,Wine Bars,0.0844211897835876
+Cheese Shops,Taiwanese,0.0837023553761594
+Taiwanese,Cheese Shops,0.0837023553761594
+Middle Eastern,Piano Bars,0.0830584021938567
+Piano Bars,Middle Eastern,0.0830584021938567
+Wine Bars,Brazilian,0.0828959728663417
+Brazilian,Wine Bars,0.0828959728663417
+Persian/Iranian,Taiwanese,0.0811212621874789
+Taiwanese,Persian/Iranian,0.0811212621874789
+Filipino,Turkish,0.080894245741943
+Turkish,Filipino,0.080894245741943
+Food Court,Spanish,0.0806199028539512
+Spanish,Food Court,0.0806199028539512
+Brazilian,Pubs,0.0805783096298499
+Pubs,Brazilian,0.0805783096298499
+Filipino,Fast Food,0.0802803304598907
+Fast Food,Filipino,0.0802803304598907
+Bangladeshi,Food Delivery Services,0.0802340974294085
+Food Delivery Services,Bangladeshi,0.0802340974294085
+Breweries,Dominican,0.0800048018338786
+Dominican,Breweries,0.0800048018338786
+Turkish,Laotian,0.0798839807800233
+Laotian,Turkish,0.0798839807800233
+Shanghainese,Soup,0.079204382291518
+Soup,Shanghainese,0.079204382291518
+Filipino,Beer Bar,0.0788771440338442
+Beer Bar,Filipino,0.0788771440338442
+Latin American,Middle Eastern,0.0785429739369437
+Middle Eastern,Latin American,0.0785429739369437
+Pubs,Middle Eastern,0.0784880029401304
+Middle Eastern,Pubs,0.0784880029401304
+Cuban,Middle Eastern,0.0781375903237919
+Middle Eastern,Cuban,0.0781375903237919
+Middle Eastern,Falafel,0.078060897644518
+Falafel,Middle Eastern,0.078060897644518
+Caribbean,Gelato,0.0780030655509756
+Gelato,Caribbean,0.0780030655509756
+Turkish,Middle Eastern,0.0774276158620886
+Middle Eastern,Turkish,0.0774276158620886
+Food Court,Middle Eastern,0.0771436785433095
+Middle Eastern,Food Court,0.0771436785433095
+Breweries,Bangladeshi,0.0769574557079174
+Bangladeshi,Breweries,0.0769574557079174
+Arabian,Filipino,0.0768731046378162
+Filipino,Arabian,0.0768731046378162
+Middle Eastern,Delis,0.076851059976826
+Delis,Middle Eastern,0.076851059976826
+Cuban,Mediterranean,0.0768068023265952
+Mediterranean,Cuban,0.0768068023265952
+Indonesian,Breweries,0.0766066085816323
+Breweries,Indonesian,0.0766066085816323
+Cuban,Cafes,0.0757994055609665
+Cafes,Cuban,0.0757994055609665
+Taiwanese,Specialty Food,0.0753692458127162
+Specialty Food,Taiwanese,0.0753692458127162
+Italian,Cuban,0.0752485857474725
+Cuban,Italian,0.0752485857474725
+Live/Raw Food,Cambodian,0.0749433067737404
+Cambodian,Live/Raw Food,0.0749433067737404
+Shaved Ice,Dominican,0.0748914408475972
+Dominican,Shaved Ice,0.0748914408475972
+Pubs,Cambodian,0.074808394238863
+Cambodian,Pubs,0.074808394238863
+Wine Bars,Shanghainese,0.0747291593571847
+Shanghainese,Wine Bars,0.0747291593571847
+Piano Bars,Ukrainian,0.0746297584504658
+Ukrainian,Piano Bars,0.0746297584504658
+Desserts,Filipino,0.0746042680422702
+Filipino,Desserts,0.0746042680422702
+Ukrainian,Ethnic Food,0.0742905842629076
+Ethnic Food,Ukrainian,0.0742905842629076
+Shanghainese,Beer Bar,0.0736114389463896
+Beer Bar,Shanghainese,0.0736114389463896
+Middle Eastern,Food Delivery Services,0.0732619670919235
+Food Delivery Services,Middle Eastern,0.0732619670919235
+Middle Eastern,Italian,0.0730668424914319
+Italian,Middle Eastern,0.0730668424914319
+Piano Bars,Caribbean,0.0727400890252713
+Caribbean,Piano Bars,0.0727400890252713
+Ukrainian,Vegetarian,0.0721818636486383
+Vegetarian,Ukrainian,0.0721818636486383
+Indonesian,Filipino,0.0719619036699434
+Filipino,Indonesian,0.0719619036699434
+Indonesian,Pubs,0.071792020152603
+Pubs,Indonesian,0.071792020152603
+Live/Raw Food,Cuban,0.0715246420210316
+Cuban,Live/Raw Food,0.0715246420210316
+Shaved Ice,Shanghainese,0.0709437854890705
+Shanghainese,Shaved Ice,0.0709437854890705
+Taiwanese,Thai,0.0708419346768131
+Thai,Taiwanese,0.0708419346768131
+Desserts,Cuban,0.0706223415295223
+Cuban,Desserts,0.0706223415295223
+Cambodian,Cuban,0.0706131554364934
+Cuban,Cambodian,0.0706131554364934
+Latin American,Cantonese,0.070234397554174
+Cantonese,Latin American,0.070234397554174
+Spanish,Sushi Bars,0.0700373167467844
+Sushi Bars,Spanish,0.0700373167467844
+Indonesian,Soup,0.0697731124038706
+Soup,Indonesian,0.0697731124038706
+Cafes,Brazilian,0.0697717386925109
+Brazilian,Cafes,0.0697717386925109
+Falafel,Laotian,0.0696921982040782
+Laotian,Falafel,0.0696921982040782
+Fast Food,Cuban,0.069211473777674
+Cuban,Fast Food,0.069211473777674
+Laotian,Indonesian,0.0687706694410798
+Indonesian,Laotian,0.0687706694410798
+Dominican,Live/Raw Food,0.0685642586332363
+Live/Raw Food,Dominican,0.0685642586332363
+Soup,Dominican,0.0678357285619615
+Dominican,Soup,0.0678357285619615
+Salad,Laotian,0.0674585649165057
+Laotian,Salad,0.0674585649165057
+Live/Raw Food,Laotian,0.0666346021088332
+Laotian,Live/Raw Food,0.0666346021088332
+Thai,Breweries,0.0666227327444191
+Breweries,Thai,0.0666227327444191
+Middle Eastern,Vegetarian,0.0664806222093217
+Vegetarian,Middle Eastern,0.0664806222093217
+Indonesian,Cupcakes,0.0663856464450876
+Cupcakes,Indonesian,0.0663856464450876
+Salad,Brazilian,0.0662801954970718
+Brazilian,Salad,0.0662801954970718
+Caribbean,Shaved Ice,0.0660405993027708
+Shaved Ice,Caribbean,0.0660405993027708
+Bangladeshi,Thai,0.0649727644108379
+Thai,Bangladeshi,0.0649727644108379
+Bangladeshi,Filipino,0.0645436473857354
+Filipino,Bangladeshi,0.0645436473857354
+Dominican,Salad,0.0644910523126157
+Salad,Dominican,0.0644910523126157
+Latin American,Patisserie/Cake Shop,0.0639773039057578
+Patisserie/Cake Shop,Latin American,0.0639773039057578
+Spanish,Piano Bars,0.0637328777846731
+Piano Bars,Spanish,0.0637328777846731
+Bangladeshi,Cambodian,0.0636400055995012
+Cambodian,Bangladeshi,0.0636400055995012
+Meat Shops,Spanish,0.063401189731227
+Spanish,Meat Shops,0.063401189731227
+Laotian,Mediterranean,0.0630809915440477
+Mediterranean,Laotian,0.0630809915440477
+Egyptian,Falafel,0.0629351937496347
+Falafel,Egyptian,0.0629351937496347
+Dominican,Taiwanese,0.0627662322317315
+Taiwanese,Dominican,0.0627662322317315
+Caribbean,Thai,0.062269647006965
+Thai,Caribbean,0.062269647006965
+Laotian,Patisserie/Cake Shop,0.0620964229523376
+Patisserie/Cake Shop,Laotian,0.0620964229523376
+Live/Raw Food,Middle Eastern,0.0620307445392797
+Middle Eastern,Live/Raw Food,0.0620307445392797
+Egyptian,Desserts,0.0619729032518151
+Desserts,Egyptian,0.0619729032518151
+Dominican,Cuban,0.0609387329711539
+Cuban,Dominican,0.0609387329711539
+Hot Pot,Brazilian,0.0607065863222134
+Brazilian,Hot Pot,0.0607065863222134
+Live/Raw Food,Bangladeshi,0.0601800654897899
+Bangladeshi,Live/Raw Food,0.0601800654897899
+Dominican,Laotian,0.0588446237530776
+Laotian,Dominican,0.0588446237530776
+Laotian,Thai,0.0585333714862825
+Thai,Laotian,0.0585333714862825
+Patisserie/Cake Shop,Spanish,0.0582459944723044
+Spanish,Patisserie/Cake Shop,0.0582459944723044
+Bangladeshi,Specialty Food,0.057565598270129
+Specialty Food,Bangladeshi,0.057565598270129
+Spanish,Laotian,0.0565447375975848
+Laotian,Spanish,0.0565447375975848
+Bangladeshi,Arabian,0.0564466937223223
+Arabian,Bangladeshi,0.0564466937223223
+Meat Shops,Filipino,0.0564013359341599
+Filipino,Meat Shops,0.0564013359341599
+Taiwanese,Filipino,0.0561952222301402
+Filipino,Taiwanese,0.0561952222301402
+Shaved Ice,Filipino,0.0553796773222539
+Filipino,Shaved Ice,0.0553796773222539
+Latin American,Brazilian,0.0549657818501082
+Brazilian,Latin American,0.0549657818501082
+Piano Bars,Shanghainese,0.0549457315232436
+Shanghainese,Piano Bars,0.0549457315232436
+Taiwanese,Shanghainese,0.0548065075564856
+Shanghainese,Taiwanese,0.0548065075564856
+Brazilian,Middle Eastern,0.0523264034863845
+Middle Eastern,Brazilian,0.0523264034863845
+Brazilian,Turkish,0.0522210897280025
+Turkish,Brazilian,0.0522210897280025
+Cuban,Sushi Bars,0.0518264671551105
+Sushi Bars,Cuban,0.0518264671551105
+Cheese Shops,Middle Eastern,0.0517426768661799
+Middle Eastern,Cheese Shops,0.0517426768661799
+Filipino,Delis,0.0516852695711329
+Delis,Filipino,0.0516852695711329
+Cambodian,Vegetarian,0.0515925101167996
+Vegetarian,Cambodian,0.0515925101167996
+Filipino,Thai,0.0511696685156144
+Thai,Filipino,0.0511696685156144
+Sushi Bars,Ukrainian,0.0505199155413042
+Ukrainian,Sushi Bars,0.0505199155413042
+Filipino,Pubs,0.0503508321601825
+Pubs,Filipino,0.0503508321601825
+Laotian,Beer Bar,0.0503443138478302
+Beer Bar,Laotian,0.0503443138478302
+Indonesian,Middle Eastern,0.0503159190947656
+Middle Eastern,Indonesian,0.0503159190947656
+Laotian,Soup,0.0502780478151736
+Soup,Laotian,0.0502780478151736
+Egyptian,Vegetarian,0.0498580952060034
+Vegetarian,Egyptian,0.0498580952060034
+Piano Bars,Egyptian,0.0495940336215086
+Egyptian,Piano Bars,0.0495940336215086
+Shanghainese,Cafes,0.0495551809730557
+Cafes,Shanghainese,0.0495551809730557
+Egyptian,Delis,0.0492317171422587
+Delis,Egyptian,0.0492317171422587
+Cantonese,Bangladeshi,0.0490723416718159
+Bangladeshi,Cantonese,0.0490723416718159
+Live/Raw Food,Egyptian,0.0482275484592432
+Egyptian,Live/Raw Food,0.0482275484592432
+Food Delivery Services,Brazilian,0.0477371106265143
+Brazilian,Food Delivery Services,0.0477371106265143
+Laotian,Ukrainian,0.047478244287691
+Ukrainian,Laotian,0.047478244287691
+Indonesian,Thai,0.0473856355171777
+Thai,Indonesian,0.0473856355171777
+Indonesian,Brazilian,0.0470249643305323
+Brazilian,Indonesian,0.0470249643305323
+Persian/Iranian,Cuban,0.0464324489536754
+Cuban,Persian/Iranian,0.0464324489536754
+Salad,Indonesian,0.0463288711788021
+Indonesian,Salad,0.0463288711788021
+Dominican,Shanghainese,0.046242541052091
+Shanghainese,Dominican,0.046242541052091
+Persian/Iranian,Latin American,0.0461944458298661
+Latin American,Persian/Iranian,0.0461944458298661
+Cheese Shops,Shanghainese,0.0456644320154757
+Shanghainese,Cheese Shops,0.0456644320154757
+Caribbean,Brazilian,0.0450561094555517
+Brazilian,Caribbean,0.0450561094555517
+Laotian,Pizza,0.044742819611904
+Pizza,Laotian,0.044742819611904
+Cambodian,Cheese Shops,0.0447024874772165
+Cheese Shops,Cambodian,0.0447024874772165
+Laotian,Wine Bars,0.0440409208909498
+Wine Bars,Laotian,0.0440409208909498
+Laotian,Caribbean,0.0438578634370896
+Caribbean,Laotian,0.0438578634370896
+Shanghainese,Desserts,0.0438558284154916
+Desserts,Shanghainese,0.0438558284154916
+Desserts,Brazilian,0.0430200297630633
+Brazilian,Desserts,0.0430200297630633
+Egyptian,Caribbean,0.0426664055637213
+Caribbean,Egyptian,0.0426664055637213
+Dominican,Turkish,0.0425746740200363
+Turkish,Dominican,0.0425746740200363
+Shanghainese,Specialty Food,0.04255344728143
+Specialty Food,Shanghainese,0.04255344728143
+Cafes,Ukrainian,0.0425333442335342
+Ukrainian,Cafes,0.0425333442335342
+Latin American,Ethnic Food,0.0424578536266862
+Ethnic Food,Latin American,0.0424578536266862
+Persian/Iranian,Filipino,0.0408174119146595
+Filipino,Persian/Iranian,0.0408174119146595
+Thai,Egyptian,0.0398405870438996
+Egyptian,Thai,0.0398405870438996
+Italian,Shanghainese,0.0393510021419861
+Shanghainese,Italian,0.0393510021419861
+Cuban,Ukrainian,0.0392305024496093
+Ukrainian,Cuban,0.0392305024496093
+Indonesian,Food Delivery Services,0.0390551188244073
+Food Delivery Services,Indonesian,0.0390551188244073
+Delis,Dominican,0.0389638310381505
+Dominican,Delis,0.0389638310381505
+Mediterranean,Bangladeshi,0.0386979944207861
+Bangladeshi,Mediterranean,0.0386979944207861
+Ukrainian,Bangladeshi,0.0386319890001088
+Bangladeshi,Ukrainian,0.0386319890001088
+Shanghainese,Arabian,0.0385582794690862
+Arabian,Shanghainese,0.0385582794690862
+Bangladeshi,Indonesian,0.0385471938707303
+Indonesian,Bangladeshi,0.0385471938707303
+Bangladeshi,Patisserie/Cake Shop,0.0383746826563737
+Patisserie/Cake Shop,Bangladeshi,0.0383746826563737
+Ukrainian,Live/Raw Food,0.0381411357073566
+Live/Raw Food,Ukrainian,0.0381411357073566
+Spanish,Taiwanese,0.038072399578023
+Taiwanese,Spanish,0.038072399578023
+Middle Eastern,Pizza,0.0369919932900179
+Pizza,Middle Eastern,0.0369919932900179
+Cafes,Dominican,0.0367587420364918
+Dominican,Cafes,0.0367587420364918
+Latin American,Desserts,0.0351837439215087
+Desserts,Latin American,0.0351837439215087
+Piano Bars,Dominican,0.0347347609114857
+Dominican,Piano Bars,0.0347347609114857
+Cambodian,Filipino,0.0345548358640382
+Filipino,Cambodian,0.0345548358640382
+Wine Bars,Taiwanese,0.0342182628723921
+Taiwanese,Wine Bars,0.0342182628723921
+Piano Bars,Brazilian,0.0339828270416043
+Brazilian,Piano Bars,0.0339828270416043
+Filipino,Mediterranean,0.0334594212326856
+Mediterranean,Filipino,0.0334594212326856
+Cuban,Ethnic Food,0.0333333275908322
+Ethnic Food,Cuban,0.0333333275908322
+Laotian,Delis,0.0333280436320509
+Delis,Laotian,0.0333280436320509
+Bangladeshi,Delis,0.0330822532921983
+Delis,Bangladeshi,0.0330822532921983
+Cambodian,Pizza,0.0324887451908405
+Pizza,Cambodian,0.0324887451908405
+Persian/Iranian,Indonesian,0.0321056760967103
+Indonesian,Persian/Iranian,0.0321056760967103
+Taiwanese,Piano Bars,0.0320010609486229
+Piano Bars,Taiwanese,0.0320010609486229
+Brazilian,Bangladeshi,0.0319111120328976
+Bangladeshi,Brazilian,0.0319111120328976
+Patisserie/Cake Shop,Brazilian,0.0317652222832428
+Brazilian,Patisserie/Cake Shop,0.0317652222832428
+Filipino,Wine Bars,0.0316440243808717
+Wine Bars,Filipino,0.0316440243808717
+Cheese Shops,Filipino,0.0313300877604957
+Filipino,Cheese Shops,0.0313300877604957
+Latin American,Egyptian,0.0309847125008548
+Egyptian,Latin American,0.0309847125008548
+Laotian,Filipino,0.0305065351200693
+Filipino,Laotian,0.0305065351200693
+Beer Bar,Egyptian,0.0303118004447088
+Egyptian,Beer Bar,0.0303118004447088
+Shaved Ice,Brazilian,0.0293667758394034
+Brazilian,Shaved Ice,0.0293667758394034
+Arabian,Cambodian,0.0293587256614824
+Cambodian,Arabian,0.0293587256614824
+Cafes,Latin American,0.0292398462185253
+Latin American,Cafes,0.0292398462185253
+Delis,Spanish,0.0289665836141525
+Spanish,Delis,0.0289665836141525
+Food Court,Taiwanese,0.028859904865827
+Taiwanese,Food Court,0.028859904865827
+Laotian,Egyptian,0.0288426499552041
+Egyptian,Laotian,0.0288426499552041
+Caribbean,Mediterranean,0.0286250240130458
+Mediterranean,Caribbean,0.0286250240130458
+Cupcakes,Caribbean,0.0286104226907488
+Caribbean,Cupcakes,0.0286104226907488
+Bangladeshi,Gelato,0.028599476145797
+Gelato,Bangladeshi,0.028599476145797
+Breweries,Brazilian,0.0276518207568474
+Brazilian,Breweries,0.0276518207568474
+Salad,Middle Eastern,0.0275397449355556
+Middle Eastern,Salad,0.0275397449355556
+Latin American,Cambodian,0.0274810688567611
+Cambodian,Latin American,0.0274810688567611
+Filipino,Cuban,0.0266363861464104
+Cuban,Filipino,0.0266363861464104
+Bangladeshi,Latin American,0.025434346372842
+Latin American,Bangladeshi,0.025434346372842
+Filipino,Spanish,0.0254016335271344
+Spanish,Filipino,0.0254016335271344
+Italian,Bangladeshi,0.0253726801329396
+Bangladeshi,Italian,0.0253726801329396
+Cambodian,Fast Food,0.0250155940747279
+Fast Food,Cambodian,0.0250155940747279
+Shanghainese,Cuban,0.02407708101466
+Cuban,Shanghainese,0.02407708101466
+Arabian,Latin American,0.0236701087747235
+Latin American,Arabian,0.0236701087747235
+Latin American,Breweries,0.0235639544695001
+Breweries,Latin American,0.0235639544695001
+Ethnic Food,Middle Eastern,0.0227720757782292
+Middle Eastern,Ethnic Food,0.0227720757782292
+Brazilian,Cantonese,0.0227651820056663
+Cantonese,Brazilian,0.0227651820056663
+Laotian,Sushi Bars,0.0225628369714592
+Sushi Bars,Laotian,0.0225628369714592
+Shanghainese,Ukrainian,0.0222902161612264
+Ukrainian,Shanghainese,0.0222902161612264
+Cantonese,Egyptian,0.0222495875349837
+Egyptian,Cantonese,0.0222495875349837
+Egyptian,Patisserie/Cake Shop,0.0222233530967133
+Patisserie/Cake Shop,Egyptian,0.0222233530967133
+Arabian,Laotian,0.0213838353134183
+Laotian,Arabian,0.0213838353134183
+Ethnic Food,Laotian,0.0210167899777689
+Laotian,Ethnic Food,0.0210167899777689
+Hot Pot,Laotian,0.020369115705951
+Laotian,Hot Pot,0.020369115705951
+Cantonese,Caribbean,0.0199618537754632
+Caribbean,Cantonese,0.0199618537754632
+Caribbean,Desserts,0.0197519346774699
+Desserts,Caribbean,0.0197519346774699
+Wine Bars,Caribbean,0.0194459471522238
+Caribbean,Wine Bars,0.0194459471522238
+Middle Eastern,Patisserie/Cake Shop,0.0187443988045698
+Patisserie/Cake Shop,Middle Eastern,0.0187443988045698
+Piano Bars,Cuban,0.0186545331726045
+Cuban,Piano Bars,0.0186545331726045
+Dominican,Mediterranean,0.0182709572635303
+Mediterranean,Dominican,0.0182709572635303
+Spanish,Bangladeshi,0.0182042338940995
+Bangladeshi,Spanish,0.0182042338940995
+Taiwanese,Middle Eastern,0.01802219433467
+Middle Eastern,Taiwanese,0.01802219433467
+Cuban,Laotian,0.0179240125341749
+Laotian,Cuban,0.0179240125341749
+Filipino,Caribbean,0.0172120592517624
+Caribbean,Filipino,0.0172120592517624
+Gelato,Laotian,0.0165670397185964
+Laotian,Gelato,0.0165670397185964
+Ukrainian,Fast Food,0.0163024840217019
+Fast Food,Ukrainian,0.0163024840217019
+Ukrainian,Dominican,0.015484156758377
+Dominican,Ukrainian,0.015484156758377
+Dominican,Food Delivery Services,0.0151050218747765
+Food Delivery Services,Dominican,0.0151050218747765
+Filipino,Patisserie/Cake Shop,0.0149667204731877
+Patisserie/Cake Shop,Filipino,0.0149667204731877
+Cantonese,Shanghainese,0.0137563936518014
+Shanghainese,Cantonese,0.0137563936518014
+Taiwanese,Caribbean,0.0136587001888058
+Caribbean,Taiwanese,0.0136587001888058
+Caribbean,Dominican,0.013058452137042
+Dominican,Caribbean,0.013058452137042
+Ukrainian,Filipino,0.0130089895692889
+Filipino,Ukrainian,0.0130089895692889
+Delis,Cuban,0.012606065373768
+Cuban,Delis,0.012606065373768
+Ukrainian,Breweries,0.0124564350002317
+Breweries,Ukrainian,0.0124564350002317
+Pubs,Shanghainese,0.0120856104468997
+Shanghainese,Pubs,0.0120856104468997
+Caribbean,Indonesian,0.011804777181615
+Indonesian,Caribbean,0.011804777181615
+Persian/Iranian,Middle Eastern,0.0112048872184699
+Middle Eastern,Persian/Iranian,0.0112048872184699
+Egyptian,Spanish,0.010019757573452
+Spanish,Egyptian,0.010019757573452
+Shanghainese,Sushi Bars,0.00970998698633041
+Sushi Bars,Shanghainese,0.00970998698633041
+Cupcakes,Brazilian,0.0090374951446627
+Brazilian,Cupcakes,0.0090374951446627
+Shanghainese,Meat Shops,0.00875507901611931
+Meat Shops,Shanghainese,0.00875507901611931
+Cupcakes,Shanghainese,0.00850659450444187
+Shanghainese,Cupcakes,0.00850659450444187
+Spanish,Thai,0.0084804508976726
+Thai,Spanish,0.0084804508976726
+Shaved Ice,Spanish,0.00842669542741855
+Spanish,Shaved Ice,0.00842669542741855
+Indonesian,Shaved Ice,0.00815491816172224
+Shaved Ice,Indonesian,0.00815491816172224
+Dominican,Specialty Food,0.00761641785345004
+Specialty Food,Dominican,0.00761641785345004
+Pizza,Caribbean,0.00754497210919932
+Caribbean,Pizza,0.00754497210919932
+Dominican,Beer Bar,0.00712963603671596
+Beer Bar,Dominican,0.00712963603671596
+Cafes,Middle Eastern,0.00691216845899427
+Middle Eastern,Cafes,0.00691216845899427
+Cambodian,Gelato,0.00650288240079995
+Gelato,Cambodian,0.00650288240079995
+Egyptian,Taiwanese,0.0064585387741656
+Taiwanese,Egyptian,0.0064585387741656
+Shaved Ice,Ukrainian,0.00617058772820807
+Ukrainian,Shaved Ice,0.00617058772820807
+Shanghainese,Falafel,0.00552672098746556
+Falafel,Shanghainese,0.00552672098746556
+Laotian,Shanghainese,0.00540165495014026
+Shanghainese,Laotian,0.00540165495014026
+Arabian,Middle Eastern,0.00522877270678475
+Middle Eastern,Arabian,0.00522877270678475
+Wine Bars,Middle Eastern,0.0049703463832582
+Middle Eastern,Wine Bars,0.0049703463832582
+Dominican,Sushi Bars,0.00432818339642081
+Sushi Bars,Dominican,0.00432818339642081
+Dominican,Desserts,0.00422366639528745
+Desserts,Dominican,0.00422366639528745
+Spanish,Breweries,0.0037629936420277
+Breweries,Spanish,0.0037629936420277
+Filipino,Ethnic Food,0.00287407871723209
+Ethnic Food,Filipino,0.00287407871723209
+Filipino,Food Court,0.00220067710094483
+Food Court,Filipino,0.00220067710094483
+Caribbean,Cuban,0.00211927001558704
+Cuban,Caribbean,0.00211927001558704
+Shanghainese,Persian/Iranian,0.00141794942050832
+Persian/Iranian,Shanghainese,0.00141794942050832
+Bangladeshi,Pizza,0.00135299509832587
+Pizza,Bangladeshi,0.00135299509832587
+Bangladeshi,Salad,0.000886378700822791
+Salad,Bangladeshi,0.000886378700822791
+Bangladeshi,Persian/Iranian,0.00064152737723668
+Persian/Iranian,Bangladeshi,0.00064152737723668
+Middle Eastern,Beer Bar,0.000207899405636406
+Beer Bar,Middle Eastern,0.000207899405636406

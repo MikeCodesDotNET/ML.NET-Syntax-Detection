@@ -1,0 +1,28 @@
+var productCD = new Product()
+{
+    Type = ProductType.CD,
+    Name = "Nirvana",
+    Description = "Album"
+};
+var productMovie = new Product()
+{
+    Type = ProductType.DVD,
+    Name = "Gladiator",
+    Description = "Movie"
+};
+
+var order = new Order() 
+{
+    Items = new List<OrderItem>() { 
+        new OrderItem(){ 
+            Quantity = 1, 
+            Price = 10,
+            Product = productCD
+        },
+        new OrderItem(){
+            Quantity = 2,
+            Price = 10,
+            Product = productMovie
+        } 
+    }
+};

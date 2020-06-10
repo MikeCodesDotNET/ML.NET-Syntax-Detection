@@ -1,0 +1,8 @@
+async function crop() {
+  // Read the image.
+  const image = await Jimp.read('https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg');
+  await image.crop(500, 500, 150, 150);
+  // Save and overwrite the image
+  await image.writeAsync(`test/${Date.now()}_crop_150x150.png`);
+}
+crop()

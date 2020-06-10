@@ -1,0 +1,4 @@
+public static (string, string) GetPerson(string name, string company) 
+{
+    return (name, company);
+}

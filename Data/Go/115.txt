@@ -1,0 +1,6 @@
+speak, ok := symLanguage.(func() string)
+if !ok {
+  fmt.Println("The function signature is different")
+    os.Exit(1)
+
+}

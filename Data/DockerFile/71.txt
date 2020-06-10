@@ -1,0 +1,9 @@
+FROM soluto/the_other_dockerfile_that_i_havent_named_yet
+
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn
+COPY . .
+RUN cd ./mobile && yarn build:detox android.release
+
+CMD ["./emulator/entrypoint.sh"]

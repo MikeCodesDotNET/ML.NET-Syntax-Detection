@@ -1,0 +1,8 @@
+Framework, CSS size/gzipped, #Elements, Custom CSS, #CSS Written/Unique, Dev, Elements
+Bootstrap, 68kb/12kb, 49, 0 classes 0 properties, 48/34, 4.5/5, 5/5
+Bulma, 73kb/10kb, 53, 2 classes 2 properties, 56/37, 4.5/5, 4.5/5
+Foundation, 30kb/7kb, 56, 4 classes 4 properties, 46/21, 4/5, 3.5/5
+Milligram, 10kb/3kb, 49, 7 classes 17 properties, 34/19, 4.5/5, 3.5/5
+Pure, 17kb/4kb, 48, 7 classes 7 properties, 39/27, 4/5, 3.5/5
+SemanticUI, 146kb/20kb, 47, 2 classes 2 properties, 90/39, 4/5, 5/5
+UIKit, 33kb/6kb, 51, 0 classes 0 properties, 52/31, 4.5/5, 5/5

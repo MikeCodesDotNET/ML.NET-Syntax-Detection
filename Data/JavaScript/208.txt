@@ -1,0 +1,9 @@
+router
+  .route("/")
+  .get(...)
+  .post(function(req, res) {
+    const db = req.app.get("db");
+    UsersService.insertUser(db, req.body).then(data => {
+      res.send(data);
+    });
+  });

@@ -1,0 +1,21 @@
+- stage: deploy_dev
+  displayName: Deploy to development
+  jobs:
+    - deployment: DeployWeb
+      environment: DEV
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+              - script: echo Hello, development world!
+
+- stage: deploy_prd
+  displayName: Deploy to production
+  jobs:
+    - deployment: DeployWeb
+      environment: PRD
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+              - script: echo Hello, production world!

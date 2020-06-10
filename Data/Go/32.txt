@@ -1,0 +1,11 @@
+func TestCarFactory(t *testing.T) {
+    factory := car.NewFactory()
+    t.Run("Toyota", func(t *testing.T) {
+        toyota := factory.Build(car.Toyota)
+        // test toyota
+    })
+    t.Run("Mazda", func(t *testing.T) {
+        mazda := factory.Build(car.Mazda)
+        // test mazda
+    })
+}

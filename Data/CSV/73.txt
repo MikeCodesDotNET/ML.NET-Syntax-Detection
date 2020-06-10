@@ -1,0 +1,8 @@
+Tasks,Product Owner,Data Analysis Team,Feature Developers
+Define feature Metrics and KPIs,R,I,I
+Determine what elements of the feature need to be tracked,A,R,I
+Define and document the events and payloads,A,R,C
+Implement TEST event triggers and payload,I,I,R
+Validate the arrival of TEST events,I,R,I
+Deploy into production,C,I,R
+Create production reports on the feature,A,R,I

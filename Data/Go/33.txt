@@ -1,0 +1,5 @@
+func assertNoError(t *testing.T, err error) {
+    if err != nil {
+        t.Errorf("assert no error but: %s", err)
+    }
+}

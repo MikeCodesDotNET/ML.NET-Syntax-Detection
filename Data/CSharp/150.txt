@@ -1,0 +1,7 @@
+class Hero {
+  constructor(name: String, hp: number, shout: String) {
+    this.name = name;
+    this.hp = hp;
+    this.shout = shout;
+  }
+}

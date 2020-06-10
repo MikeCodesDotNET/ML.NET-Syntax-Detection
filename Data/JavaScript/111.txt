@@ -1,0 +1,7 @@
+props: {
+  name: {
+    validator: (name) => {
+      return name === 'Flavio' //only allow "Flavios"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+var totalAgeResult =
+from c in characters
+group c by c.Type into gr
+select new
+{
+    Type = gr.Key,
+    TotalAge = gr.Sum(c => c.Age)
+};
+
+// alt syntax
+var totalAgeResult =
+  characters
+    .GroupBy(c => c.Type)
+    .Select(gr => new 
+    {
+      Type = gr.Key,
+      TotalAge = gr.Sum(c => c.Age)
+    });
+
+Console.WriteLine("Total age by Race");
+foreach (var obj in totalAgeResult)
+{
+    Console.WriteLine("Race: {0}", obj.Type);
+    Console.WriteLine("TotalAge: {0}", obj.TotalAge);
+}

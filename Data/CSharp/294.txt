@@ -1,0 +1,10 @@
+void ExecuteRefreshCommand()
+{
+    if (IsRefreshing)
+        return;
+
+    IsRefreshing = true;
+    Items.Clear();
+    Items.Add(new Item { Text = "Refreshed Data", Description = "Whoa!" });
+    IsRefreshing = false;
+}

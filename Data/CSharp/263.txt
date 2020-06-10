@@ -1,0 +1,15 @@
+public class MyDataService : IDataService
+{
+    ILogger<MyDataService> logger;
+    HttpClient client;
+    public MyDataService(ILogger<MyDataService> logger, IHttpClientFactory httpClientFactory)
+    {
+        this.logger = logger;
+        client = httpClientFactory.CreateClient();
+    }
+
+    public void DoStuff()
+    {
+        logger.LogCritical("You just called DoStuff from MyDataService");
+    }
+}

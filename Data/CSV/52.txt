@@ -1,0 +1,3 @@
+date,line,direction,stop_on,stop_off,boarded,moving,bus_stop,traffic_stop
+2018-10-23,1,North,Florida & Jackson,Florida & Mohawk,5:21PM,9m11s,4m21s,11m35s
+2018-11-09,1,South,Florida & Mohawk,Tampa & Kennedy,8:21AM,8m41s,1m35s,3m23s

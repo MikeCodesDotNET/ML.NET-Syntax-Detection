@@ -1,0 +1,5 @@
+function clickHandler {
+  alert('Button is clicked');
+}
+
+btn.addEventListener('click', clickHandler);

@@ -1,0 +1,6 @@
+var twoTasks = Task.WhenAll(taskSum, taskDelay);
+if(twoTasks.IsCompleted) 
+{
+    var end = DateTime.Now;
+    Console.WriteLine("{0}", taskSum.Result);
+}

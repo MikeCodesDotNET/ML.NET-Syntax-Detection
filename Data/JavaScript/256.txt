@@ -1,0 +1,9 @@
+private appInsights = new ApplicationInsights({
+  config: {
+    instrumentationKey: 'a8aca698-844c-4515-9875-fb6b480e4fec'
+  }
+});
+
+// ...
+
+this.appInsights.loadAppInsights();

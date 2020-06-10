@@ -1,0 +1,6 @@
+public override void ViewDidLoad()
+{
+    base.ViewDidLoad();
+    if (UIDevice.CurrentDevice.CheckSystemVersion(13, 0))
+        OverrideUserInterfaceStyle = UIUserInterfaceStyle.Light;
+}

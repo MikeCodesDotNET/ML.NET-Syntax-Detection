@@ -1,0 +1,11 @@
+using Xamarin.Forms;
+
+namespace App16
+{
+    public class NoShiftEffect : RoutingEffect
+    {
+        public NoShiftEffect() : base("MyCompany.NoShiftEffect")
+        {
+        }
+    }
+}

@@ -1,0 +1,30 @@
+ route.post('/', async (req, res, next) => {
+
+    // This should be a middleware or should be handled by a library like Joi.
+    const userDTO = req.body;
+    const isUserValid = validators.user(userDTO)
+    if(!isUserValid) {
+      return res.status(400).end();
+    }
+
+    // Lot of business logic here...
+    const userRecord = await UserModel.create(userDTO);
+    delete userRecord.password;
+    delete userRecord.salt;
+    const companyRecord = await CompanyModel.create(userRecord);
+    const companyDashboard = await CompanyDashboard.create(userRecord, companyRecord);
+
+    ...whatever...
+
+
+    // And here is the 'optimization' that mess up everything.
+    // The response is sent to client...
+    res.json({ user: userRecord, company: companyRecord });
+
+    // But code execution continues :(
+    const salaryRecord = await SalaryModel.create(userRecord, companyRecord);
+    eventTracker.track('user_signup',userRecord,companyRecord,salaryRecord);
+    intercom.createUser(userRecord);
+    gaAnalytics.event('user_signup',userRecord);
+    await EmailService.startSignupSequence(userRecord)
+  });

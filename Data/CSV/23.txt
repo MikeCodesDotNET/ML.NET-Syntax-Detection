@@ -1,0 +1,5 @@
+Framework		Download size		Update performance	Documentation
+Mithril v.2.0.0		8 kb			6.4 ms			Well-written, easy to understand
+Angular v2.0		135 kb			11.5 ms			More complex than the others
+React v			64 kb			12.1 ms			Well-written, easy to understand
+Vue v2.0		40 kb			9.8 ms			Well-written, easy to understand

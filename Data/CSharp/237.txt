@@ -1,0 +1,5 @@
+[FunctionName(nameof(GetResult))]
+public static async Task<IActionResult> GetResult(
+    [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+    [DurableClient]IDurableClient client,
+    ILogger logger)

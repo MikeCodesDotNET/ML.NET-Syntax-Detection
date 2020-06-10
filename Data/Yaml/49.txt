@@ -1,0 +1,8 @@
+# A list of numbers using hyphens:
+numbers:
+    - one
+    - two
+    - three
+
+# The inline version:
+numbers: [ one, two, three ]

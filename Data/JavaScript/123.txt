@@ -1,0 +1,4 @@
+ import { Container } from 'typedi';
+  import UserService from '../services/user';
+  const userServiceInstance = Container.get(UserService);
+  const user = await userServiceInstance.getMyUser('12346');

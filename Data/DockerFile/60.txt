@@ -1,0 +1,3 @@
+FROM alpine
+ENTRYPOINT ["/usr/bin/printf", "Hello %s!\n"]
+CMD ["World"]

@@ -1,0 +1,19 @@
+package main
+
+import (
+    "log"
+    "net/http"
+)
+
+func main() {
+    http.HandleFunc("/500", func(w http.ResponseWriter, r *http.Request) {
+        w.WriteHeader(500)
+        w.Write([]byte("NOT-OK"))
+    })
+    go http.ListenAndServe(":8080", nil)
+
+    _, err := http.Get("http://localhost:8080/500")
+    if err != nil {
+        log.Fatal(err)
+    }
+}

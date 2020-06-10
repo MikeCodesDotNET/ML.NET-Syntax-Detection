@@ -1,0 +1,14 @@
+const fetch = require("node-fetch");
+const url = "https://wrongAPI.github.com/users/github";
+
+const unhandledRejections = new Map();
+process.on("unhandledRejection", (reason, promise) => {
+  unhandledRejections.set(promise, reason);
+  console.log("unhandledRejections", unhandledRejections);
+});
+
+const asyncFunction = () => fetch(url);
+
+asyncFunction()
+  .then(res => res.json())
+  .then(json => console.log(json))

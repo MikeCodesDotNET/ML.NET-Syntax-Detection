@@ -1,0 +1,4 @@
+protected override async void OnAppLinkRequestReceived(Uri uri)
+{
+    await Shell.Current.GoToAsync($"//{uri.Host}/{uri.PathAndQuery}");
+}

@@ -1,0 +1,13 @@
+func NewMongoRepository(db *mgo.Database) Repository {
+    return mongoRepository{coll: db.C("books")}
+}
+
+func (m mongoRepository) CreateBook(book models.Book) error {
+    return m.coll.Insert(book)
+}
+
+// server.go
+bookRepository := repository.NewMongoRepository(mongoDB)
+// bookRepository := repository.NewInMemoryRepository(inMemoryDB)
+bookService := book.NewService(bookRepository)
+bookHandler = books.NewBookHandler(bookService)

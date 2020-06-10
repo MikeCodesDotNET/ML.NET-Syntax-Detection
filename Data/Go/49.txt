@@ -1,0 +1,11 @@
+  func (s *AService) LoadA(name string) (*A, error) {
+    var a A
+    err := s.DB.Model(&a).
+      Column("*").
+      Where("name = ?", name).
+      Select()
+    if err != nil {
+      return nil, err
+    }
+    return &a, nil
+  }

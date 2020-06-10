@@ -1,0 +1,8 @@
+if(character is Hero) 
+{
+  var h = (Hero) character;
+  ability = h.Healing();
+} else {
+  var v = (Villain) character;
+  ability = v.Lightning();
+}

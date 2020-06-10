@@ -1,0 +1,5 @@
+var hero = GetHero(); // get a Hero object from somewhere
+var newHero = hero.With(hp = 23)
+
+// alt syntax
+var otherHero = hero with { hp = 23 }; 

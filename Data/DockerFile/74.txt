@@ -1,0 +1,17 @@
+FROM tiangolo/python-machine-learning:cuda9.1-cudnn7-devel-python3.6
+
+# RUN conda install tensorflow-gpu
+RUN conda install -y cudatoolkit=9.0
+RUN conda install -y jupyter matplotlib pandas pillow seaborn tqdm
+RUN pip install h5py wandb
+RUN pip install cupy-cuda91==7.0.0b3
+RUN pip install jupyter_http_over_ws
+RUN jupyter serverextension enable --py jupyter_http_over_ws
+
+# RUN mkdir -p /jupyter/data  # should be mounted instead
+
+EXPOSE 8888
+
+WORKDIR /jupyter
+
+CMD ["jupyter", "notebook", "--allow-root", "--no-browser", "--ip=0.0.0.0", "--port=8888", "--NotebookApp.allow_origin='https://colab.research.google.com'", "--NotebookApp.port_retries=0"]

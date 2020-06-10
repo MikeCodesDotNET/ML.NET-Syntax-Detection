@@ -1,0 +1,9 @@
+func main() {
+    // Create more variations
+    add10 := add(10)
+    add20 := add(20)
+
+    // Currying
+    fmt.Println(add10(1)) // 11
+    fmt.Println(add20(1)) // 21
+}

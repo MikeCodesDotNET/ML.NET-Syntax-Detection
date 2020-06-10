@@ -1,0 +1,3 @@
+app := dom.Document.GetElementById("app")     
+button := dom.Document.CreateElement("button")
+text := dom.Document.CreateElement("span")

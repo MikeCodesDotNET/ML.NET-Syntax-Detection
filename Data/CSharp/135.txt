@@ -1,0 +1,7 @@
+class ProductsService 
+{
+  ProductsService(ILogService logService) 
+  {
+
+  }
+}

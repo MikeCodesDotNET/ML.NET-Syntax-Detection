@@ -44,6 +44,8 @@ namespace TrainingDataSetBuilder
             {
                 csv.WriteRecords(snippets);
             }
+
+            Console.WriteLine($"Wrote {snippets.Count} to CSV");
         }
     }
 }
