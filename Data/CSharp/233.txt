@@ -1,0 +1,14 @@
+var resultString = new List<string>();
+foreach (var response in result)
+{
+    if (response.StatusCode == HttpStatusCode.OK)
+    {
+        resultString.Add(response.Content);
+    }
+    else
+    {
+        resultString.Add("<h1>No Results</h1>");
+    }
+}
+
+return resultString.ToArray();

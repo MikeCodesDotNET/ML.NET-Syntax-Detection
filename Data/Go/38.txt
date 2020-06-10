@@ -1,0 +1,6 @@
+func main() {
+
+ greet("Francis Sunday")
+}
+
+func greet(name string) { ... }

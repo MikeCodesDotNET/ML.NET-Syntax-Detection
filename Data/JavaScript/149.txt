@@ -1,0 +1,9 @@
+async function flip() {
+  // Read the image.
+  const image = await Jimp.read('https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg');
+  await image.flip(true, false);
+  // Save and overwrite the image
+  await image.writeAsync(`test/${Date.now()}_flip_150x150.png`);
+  console.log("flipped")
+}
+flip()

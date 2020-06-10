@@ -1,0 +1,15 @@
+package main
+
+import (
+    dom "github.com/siongui/godom/wasm"
+)
+
+func main() {
+    app := dom.Document.GetElementById("app")     
+    app.SetInnerHTML(`
+    <div>
+        <h1>Hello World</h1>
+        <p>This page is built with Go, GoDOM and WebAssembly</p>
+    </div>
+    `)
+}

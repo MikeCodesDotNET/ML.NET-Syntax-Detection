@@ -1,0 +1,13 @@
+func distance(a, b []byte) (dist int, err error) {
+    if len(a) != len(b) {
+        return dist, errors.New("length of provided strings is not equal")
+    }
+
+    for i := 0; i < len(a); i++ {
+        if a[i] != b[i] {
+            dist++
+        }
+    }
+
+    return dist, nil
+}

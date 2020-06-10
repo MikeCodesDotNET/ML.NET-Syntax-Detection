@@ -1,0 +1,21 @@
+Tujuan,Berangkat,Sampai,Perkiraan Waktu,Transportasi,Biaya,Keterangan
+Apato - Tatsutaguchi Station,,08:00 AM,,Sepeda,,
+Tatsutaguchi Station - Kumamoto Station,08:03,,15 Menit,Kereta,JR Pass,
+Kumamoto Station - Hakata Station,8:48,,50 Menit,Shinkansen,JR Pass,
+Hakata Station - Hakata Bus Terminal,,,5 Menit,Jalan kaki,,
+Hakata Bus Terminal - Noko Tosenba,10:15,11:15,1 Jam,Bus 312,420,
+Noko Tosenba - Meinohama Ferry Passenger Terminal,,,1 Menit,Jalan Kaki,,
+Meinohama Ferry Passenger Terminal - Nokonoshima Island,11:15,11:25,10 Menit,Ferry,460 Yen,Round Trip (beli di vending machine)
+Tosenba-mae - Island Park,11:30,,15 Menit,Bus,230,
+Island Park,,,2 Jam,,1200 Yen,
+Island Park - Tosenba-mae,14:18,,15 Menit,Bus,230,
+Nokonoshima Island-Meinohama Ferry Passenger,15:00,15:10,10 Menit,Ferry,,
+Meinohama Ferry Passenger Terminal - Noko Tosenba,,,1 Menit,Jalan Kaki,,
+Noko Tosenba - Meinohama Station,,,15 Menit,Bus 98,170,
+Meinohama Station - Tenjin,3:36,3:50,15 Menit,Subway,300,
+Tenjin - Saizeriya Tenjin,,,5 Menit,Jalan Kaki,,Restoran
+Saizeriya Tenjin - Mina Tenjin,,,5 Menit,Jalan Kaki,,Shopping Mall
+Mina Tenjin - Tenjin,,,5 Menit,Jalan Kaki,,
+Tenjin - Hakata Station,,,10 Menit,Subway,200 Yen,
+Hakata Station - Kumamoto Station,,,50 Menit,Shinkansen,JR Pass,Last Train 23:10
+Kumamoto Station - Tatsutaguchi Station,,,15 menit,Kereta,JR Pass,Last Train 00:13

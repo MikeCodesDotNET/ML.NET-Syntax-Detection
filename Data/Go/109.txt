@@ -1,0 +1,6 @@
+type HTTPBinResponse struct {
+  Args    map[string]string `json:"args"`
+  Headers map[string]string `json:"headers"`
+  Origin  string            `json:"origin"`
+  URL     string            `json:"url"`
+}

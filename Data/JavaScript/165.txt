@@ -1,0 +1,14 @@
+const callbackFunction = (err, data) => {
+  if (err) {
+    throw err;
+  }
+  console.log(data);
+}
+
+try {
+  asyncFunction(callbackFunction);
+} catch(err) {
+  // we are not catching the error here
+  // and the Node.js process will crash
+  console.error(err);
+}

@@ -1,0 +1,16 @@
+import React from "react";
+import { cleanup } from "@testing-library/react";
+
+afterEach(cleanup);
+
+test("user is able to convert from celsius to fahrenheit", () => {
+  /* story 1 goes here */
+});
+
+test("user is able to convert from fahrenheit to celsius", () => {
+  /* story 2 goes here */
+});
+
+test("user can reset calculation and automatically focus on the input", () => {
+  /* story 3 goes here */
+});

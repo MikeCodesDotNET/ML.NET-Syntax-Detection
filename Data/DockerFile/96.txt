@@ -1,0 +1,22 @@
+FROM node:7-alpine 
+RUN mkdir -p /src/app
+WORKDIR /src/app
+COPY package.json /src/app/package.json
+RUN npm install
+COPY . /src/app
+EXPOSE 3000
+CMD [ "npm", "start"]
+
+
+
+*/
+
+docker build -t $NAME 
+
+docker run -d --name $NAME -p 3000:3000 $BUILD_NAME
+
+You can set env variables 
+
+docker run -d --name $NAME -e NODE_ENV=production -p 3000:3000 $BUILD_NAME
+
+*/

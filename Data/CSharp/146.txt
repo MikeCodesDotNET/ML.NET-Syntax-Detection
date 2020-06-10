@@ -1,0 +1,5 @@
+ability = character switch {
+  Hero hero2 => hero2.Healing(),
+  Villain villain2 => villain2.Lightning(),
+  _ => "Unknown" 
+};

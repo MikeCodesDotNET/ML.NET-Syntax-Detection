@@ -1,0 +1,3 @@
+eventEmitter.on('user_signup', async ({ user, company }) => {
+    const salaryRecord = await SalaryModel.create(user, company);
+  })

@@ -1,0 +1,12 @@
+before: {
+  all: [ authenticate('jwt') ],
+  find: [],
+  get: [],
+  create: [ function(context) {
+    // perform validation 
+    return context;
+  }],
+  update: [],
+  patch: [],
+  remove: []
+},

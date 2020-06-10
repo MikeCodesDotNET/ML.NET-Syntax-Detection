@@ -1,0 +1,19 @@
+readEmployees() {
+      let employeesData = [];
+      db.collection("employees")
+        .get()
+        .then((querySnapshot) => {
+          querySnapshot.forEach((doc) => {
+           employeesData.push({
+              id: doc.id,
+              name: doc.data().name,
+              date: doc.data().date,
+            });
+            console.log(doc.id, " => ", doc.data());
+          });
+          return employeesData
+        })
+        .catch((error) => {
+          console.log("Error getting documents: ", error);
+        });
+    }

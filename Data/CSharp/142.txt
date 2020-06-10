@@ -1,0 +1,31 @@
+public abstract class Character 
+    {
+      private string _name;
+      public string Name 
+      { 
+        get {
+            return _name;
+        }
+      }
+      public Character(string name)
+      {
+          _name = name;
+      }
+    }
+    public class Hero: Character 
+    {
+      public Hero(string name): base("The Good" + name){}
+      public string Healing() 
+      {
+          return "Performs healing";
+      }
+    }
+    public class Villain: Character 
+    {
+      public Villain(string name) : base("The Evil "+ name) { }
+
+      public string Lightning()
+      {
+          return "Performs Force lightning";
+      }
+    }

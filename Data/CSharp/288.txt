@@ -1,0 +1,9 @@
+void Register()
+{
+    CrossCurrentActivity.Current.ActivityStateChanged += Current_ActivityStateChanged;
+}
+
+private void Current_ActivityStateChanged(object sender, ActivityEventArgs e)
+{
+    Toast.MakeText(Application.Context, $"Activity Changed: {e.Activity.LocalClassName} -  {e.Event}", ToastLength.Short).Show();
+}

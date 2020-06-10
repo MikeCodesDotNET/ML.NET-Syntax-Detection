@@ -1,0 +1,7 @@
+mounted: function() {
+    wails.events.on("cpu_usage", cpu_usage => {
+        if (cpu_usage) {
+            console.log(cpu_usage.avg);
+        }
+    });
+}

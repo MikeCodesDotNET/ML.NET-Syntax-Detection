@@ -1,0 +1,10 @@
+// Status endpoint mapping
+func (e Endpoints) Status(ctx context.Context) (string, error) {
+    req := statusRequest{}
+    resp, err := e.StatusEndpoint(ctx, req)
+    if err != nil {
+        return "", err
+    }
+    statusResp := resp.(statusResponse)
+    return statusResp.Status, nil
+}

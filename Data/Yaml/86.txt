@@ -1,0 +1,12 @@
+stages:
+  - stage: build
+    jobs:
+      - job:
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: "10.x"
+          - script: npm install
+          - script: npm run build -- --prod
+          - publish: dist
+            artifact: dist

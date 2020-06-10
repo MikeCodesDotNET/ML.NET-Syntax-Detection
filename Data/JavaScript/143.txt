@@ -1,0 +1,15 @@
+var thisList = null;
+var replaceList = function () {
+  var originalList = thisList;
+  var idle = function () {
+    if (originalList)
+      console.log("nice");
+  };
+  thisList = {
+    thisArray: new Array(2000000).join('*'),
+    thisMethod: function () {
+      console.log(thisMessage);
+    }
+  };
+};
+setInterval(replaceList, 1000);

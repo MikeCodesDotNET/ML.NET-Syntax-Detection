@@ -1,0 +1,2501 @@
+x,y,value
+Active Life,Active Life,1.5
+Art Galleries,Art Galleries,1.5
+Bangladeshi,Bangladeshi,1.5
+Beer Bar,Beer Bar,1.5
+Brazilian,Brazilian,1.5
+Breweries,Breweries,1.5
+Cafes,Cafes,1.5
+Cambodian,Cambodian,1.5
+Caribbean,Caribbean,1.5
+Cheese Shops,Cheese Shops,1.5
+Cooking Classes,Cooking Classes,1.5
+Country Dance Halls,Country Dance Halls,1.5
+Cuban,Cuban,1.5
+Cupcakes,Cupcakes,1.5
+Dance Clubs,Dance Clubs,1.5
+Delis,Delis,1.5
+Dive Bars,Dive Bars,1.5
+Dominican,Dominican,1.5
+Egyptian,Egyptian,1.5
+Ethnic Food,Ethnic Food,1.5
+Event Planning & Services,Event Planning & Services,1.5
+Falafel,Falafel,1.5
+Fast Food,Fast Food,1.5
+Filipino,Filipino,1.5
+Fishing,Fishing,1.5
+Fitness & Instruction,Fitness & Instruction,1.5
+Food Court,Food Court,1.5
+Food Delivery Services,Food Delivery Services,1.5
+Gelato,Gelato,1.5
+Hobby Shops,Hobby Shops,1.5
+Hot Pot,Hot Pot,1.5
+Indonesian,Indonesian,1.5
+Italian,Italian,1.5
+Jazz & Blues,Jazz & Blues,1.5
+Laotian,Laotian,1.5
+Latin American,Latin American,1.5
+Live/Raw Food,Live/Raw Food,1.5
+Meat Shops,Meat Shops,1.5
+Mediterranean,Mediterranean,1.5
+Middle Eastern,Middle Eastern,1.5
+Nail Salons,Nail Salons,1.5
+Persian/Iranian,Persian/Iranian,1.5
+Personal Assistants,Personal Assistants,1.5
+Piano Bars,Piano Bars,1.5
+Pubs,Pubs,1.5
+Shanghainese,Shanghainese,1.5
+Spanish,Spanish,1.5
+Specialty Food,Specialty Food,1.5
+Vegetarian,Vegetarian,1.5
+Wine Bars,Wine Bars,1.5
+Shanghainese,Specialty Food,0.998040143617449
+Specialty Food,Shanghainese,0.998040143617449
+Art Galleries,Vegetarian,0.997869147388177
+Vegetarian,Art Galleries,0.997869147388177
+Food Delivery Services,Personal Assistants,0.997487028659452
+Personal Assistants,Food Delivery Services,0.997487028659452
+Dominican,Middle Eastern,0.996828474406482
+Middle Eastern,Dominican,0.996828474406482
+Bangladeshi,Cheese Shops,0.996391727911955
+Cheese Shops,Bangladeshi,0.996391727911955
+Country Dance Halls,Shanghainese,0.99604809590985
+Shanghainese,Country Dance Halls,0.99604809590985
+Beer Bar,Specialty Food,0.993091573441144
+Specialty Food,Beer Bar,0.993091573441144
+Cooking Classes,Spanish,0.99220154223257
+Spanish,Cooking Classes,0.99220154223257
+Dominican,Jazz & Blues,0.99156726918328
+Jazz & Blues,Dominican,0.99156726918328
+Cooking Classes,Egyptian,0.991327162289438
+Egyptian,Cooking Classes,0.991327162289438
+Falafel,Personal Assistants,0.990758316448817
+Personal Assistants,Falafel,0.990758316448817
+Cafes,Wine Bars,0.990476165224395
+Wine Bars,Cafes,0.990476165224395
+Cambodian,Falafel,0.989170438168097
+Falafel,Cambodian,0.989170438168097
+Event Planning & Services,Fitness & Instruction,0.98813506555887
+Fitness & Instruction,Event Planning & Services,0.98813506555887
+Fitness & Instruction,Jazz & Blues,0.98741575234684
+Jazz & Blues,Fitness & Instruction,0.98741575234684
+Food Delivery Services,Piano Bars,0.986660939570357
+Piano Bars,Food Delivery Services,0.986660939570357
+Jazz & Blues,Shanghainese,0.98584517764229
+Shanghainese,Jazz & Blues,0.98584517764229
+Cheese Shops,Cooking Classes,0.985120607006875
+Cooking Classes,Cheese Shops,0.985120607006875
+Breweries,Cheese Shops,0.984916962878666
+Cheese Shops,Breweries,0.984916962878666
+Active Life,Country Dance Halls,0.984457369671169
+Country Dance Halls,Active Life,0.984457369671169
+Cupcakes,Food Delivery Services,0.980405320155114
+Food Delivery Services,Cupcakes,0.980405320155114
+Falafel,Vegetarian,0.980265978142886
+Vegetarian,Falafel,0.980265978142886
+Cambodian,Cupcakes,0.979965440718505
+Cupcakes,Cambodian,0.979965440718505
+Cupcakes,Falafel,0.979845013975616
+Falafel,Cupcakes,0.979845013975616
+Cupcakes,Mediterranean,0.978127400794294
+Mediterranean,Cupcakes,0.978127400794294
+Delis,Falafel,0.976750088070978
+Falafel,Delis,0.976750088070978
+Art Galleries,Mediterranean,0.976647017518964
+Mediterranean,Art Galleries,0.976647017518964
+Cafes,Fast Food,0.976239270666063
+Fast Food,Cafes,0.976239270666063
+Egyptian,Laotian,0.976158212588872
+Laotian,Egyptian,0.976158212588872
+Bangladeshi,Filipino,0.975728133365014
+Filipino,Bangladeshi,0.975728133365014
+Cheese Shops,Falafel,0.975447062666666
+Falafel,Cheese Shops,0.975447062666666
+Cafes,Italian,0.974909510474411
+Italian,Cafes,0.974909510474411
+Country Dance Halls,Nail Salons,0.973521420206683
+Nail Salons,Country Dance Halls,0.973521420206683
+Brazilian,Live/Raw Food,0.971255022132217
+Live/Raw Food,Brazilian,0.971255022132217
+Delis,Nail Salons,0.332148374556776
+Nail Salons,Delis,0.332148374556776
+Ethnic Food,Event Planning & Services,0.331635481040279
+Event Planning & Services,Ethnic Food,0.331635481040279
+Indonesian,Middle Eastern,0.330720490806009
+Middle Eastern,Indonesian,0.330720490806009
+Cooking Classes,Fitness & Instruction,0.322939096905273
+Fitness & Instruction,Cooking Classes,0.322939096905273
+Bangladeshi,Cuban,0.321234280358362
+Cuban,Bangladeshi,0.321234280358362
+Piano Bars,Specialty Food,0.321083258409642
+Specialty Food,Piano Bars,0.321083258409642
+Brazilian,Jazz & Blues,0.318075663496638
+Jazz & Blues,Brazilian,0.318075663496638
+Italian,Laotian,0.316791907096898
+Laotian,Italian,0.316791907096898
+Fishing,Piano Bars,0.309221547681058
+Piano Bars,Fishing,0.309221547681058
+Breweries,Cafes,0.308009859043545
+Cafes,Breweries,0.308009859043545
+Cooking Classes,Delis,0.305526773997512
+Delis,Cooking Classes,0.305526773997512
+Brazilian,Gelato,0.297107846739551
+Gelato,Brazilian,0.297107846739551
+Hot Pot,Nail Salons,0.296674725105286
+Nail Salons,Hot Pot,0.296674725105286
+Bangladeshi,Nail Salons,0.296225548265546
+Nail Salons,Bangladeshi,0.296225548265546
+Event Planning & Services,Spanish,0.295567370262952
+Spanish,Event Planning & Services,0.295567370262952
+Bangladeshi,Food Delivery Services,0.295298504727007
+Food Delivery Services,Bangladeshi,0.295298504727007
+Bangladeshi,Hot Pot,0.293516528322168
+Hot Pot,Bangladeshi,0.293516528322168
+Italian,Latin American,0.29247490392757
+Latin American,Italian,0.29247490392757
+Cambodian,Nail Salons,0.289732011299215
+Nail Salons,Cambodian,0.289732011299215
+Ethnic Food,Food Court,0.287432902738331
+Food Court,Ethnic Food,0.287432902738331
+Fishing,Hobby Shops,0.286810913257673
+Hobby Shops,Fishing,0.286810913257673
+Mediterranean,Vegetarian,0.283474261705102
+Vegetarian,Mediterranean,0.283474261705102
+Fitness & Instruction,Wine Bars,0.281660512285761
+Wine Bars,Fitness & Instruction,0.281660512285761
+Active Life,Filipino,0.281024153661546
+Filipino,Active Life,0.281024153661546
+Cuban,Dominican,0.280480975246907
+Dominican,Cuban,0.280480975246907
+Jazz & Blues,Meat Shops,0.279315189220794
+Meat Shops,Jazz & Blues,0.279315189220794
+Ethnic Food,Meat Shops,0.277694185259773
+Meat Shops,Ethnic Food,0.277694185259773
+Gelato,Shanghainese,0.270538378531367
+Shanghainese,Gelato,0.270538378531367
+Nail Salons,Personal Assistants,0.268729564158598
+Personal Assistants,Nail Salons,0.268729564158598
+Jazz & Blues,Latin American,0.268660056923419
+Latin American,Jazz & Blues,0.268660056923419
+Gelato,Persian/Iranian,0.268003934107389
+Persian/Iranian,Gelato,0.268003934107389
+Cooking Classes,Dive Bars,0.267007109766297
+Dive Bars,Cooking Classes,0.267007109766297
+Jazz & Blues,Middle Eastern,0.264919741133474
+Middle Eastern,Jazz & Blues,0.264919741133474
+Dominican,Falafel,0.263336178532869
+Falafel,Dominican,0.263336178532869
+Falafel,Mediterranean,0.263169852286217
+Mediterranean,Falafel,0.263169852286217
+Cooking Classes,Middle Eastern,0.262744224573424
+Middle Eastern,Cooking Classes,0.262744224573424
+Dance Clubs,Delis,0.262216831587846
+Delis,Dance Clubs,0.262216831587846
+Fishing,Wine Bars,0.262100622150886
+Wine Bars,Fishing,0.262100622150886
+Italian,Jazz & Blues,0.261940796168315
+Jazz & Blues,Italian,0.261940796168315
+Caribbean,Filipino,0.261690118605194
+Filipino,Caribbean,0.261690118605194
+Breweries,Caribbean,0.261574328490605
+Caribbean,Breweries,0.261574328490605
+Active Life,Cooking Classes,0.259930842101546
+Cooking Classes,Active Life,0.259930842101546
+Food Delivery Services,Wine Bars,0.257952283755032
+Wine Bars,Food Delivery Services,0.257952283755032
+Delis,Filipino,0.257018086884363
+Filipino,Delis,0.257018086884363
+Cambodian,Fitness & Instruction,0.255953473493399
+Fitness & Instruction,Cambodian,0.255953473493399
+Cambodian,Meat Shops,0.255094495260366
+Meat Shops,Cambodian,0.255094495260366
+Dance Clubs,Dominican,0.254219992148667
+Dominican,Dance Clubs,0.254219992148667
+Dive Bars,Egyptian,0.252029016991248
+Egyptian,Dive Bars,0.252029016991248
+Latin American,Pubs,0.248893576054666
+Pubs,Latin American,0.248893576054666
+Food Court,Piano Bars,0.24738035284283
+Piano Bars,Food Court,0.24738035284283
+Persian/Iranian,Specialty Food,0.245885615786221
+Specialty Food,Persian/Iranian,0.245885615786221
+Personal Assistants,Vegetarian,0.245159057870146
+Vegetarian,Personal Assistants,0.245159057870146
+Food Delivery Services,Meat Shops,0.244868406510092
+Meat Shops,Food Delivery Services,0.244868406510092
+Event Planning & Services,Hobby Shops,0.244428945715234
+Hobby Shops,Event Planning & Services,0.244428945715234
+Cambodian,Country Dance Halls,0.243862234276508
+Country Dance Halls,Cambodian,0.243862234276508
+Delis,Event Planning & Services,0.243495013347619
+Event Planning & Services,Delis,0.243495013347619
+Cheese Shops,Vegetarian,0.243192182857602
+Vegetarian,Cheese Shops,0.243192182857602
+Hobby Shops,Latin American,0.237864919662222
+Latin American,Hobby Shops,0.237864919662222
+Cooking Classes,Cupcakes,0.237351920012771
+Cupcakes,Cooking Classes,0.237351920012771
+Laotian,Personal Assistants,0.234944950212466
+Personal Assistants,Laotian,0.234944950212466
+Breweries,Indonesian,0.234480842255351
+Indonesian,Breweries,0.234480842255351
+Dive Bars,Jazz & Blues,0.233014751799328
+Jazz & Blues,Dive Bars,0.233014751799328
+Jazz & Blues,Wine Bars,0.230450614372623
+Wine Bars,Jazz & Blues,0.230450614372623
+Beer Bar,Ethnic Food,0.229021532643171
+Ethnic Food,Beer Bar,0.229021532643171
+Dominican,Italian,0.228882093444911
+Italian,Dominican,0.228882093444911
+Pubs,Wine Bars,0.22815490685147
+Wine Bars,Pubs,0.22815490685147
+Cuban,Persian/Iranian,0.227471413255297
+Persian/Iranian,Cuban,0.227471413255297
+Caribbean,Shanghainese,0.227292718953481
+Shanghainese,Caribbean,0.227292718953481
+Dance Clubs,Ethnic Food,0.227276251585312
+Ethnic Food,Dance Clubs,0.227276251585312
+Fast Food,Personal Assistants,0.227032183541993
+Personal Assistants,Fast Food,0.227032183541993
+Ethnic Food,Shanghainese,0.226814615456108
+Shanghainese,Ethnic Food,0.226814615456108
+Bangladeshi,Indonesian,0.225975449723261
+Indonesian,Bangladeshi,0.225975449723261
+Filipino,Mediterranean,0.221924669022744
+Mediterranean,Filipino,0.221924669022744
+Egyptian,Italian,0.22146385050675
+Italian,Egyptian,0.22146385050675
+Cuban,Live/Raw Food,0.22134469020907
+Live/Raw Food,Cuban,0.22134469020907
+Bangladeshi,Country Dance Halls,0.220641626123729
+Country Dance Halls,Bangladeshi,0.220641626123729
+Active Life,Dominican,0.220420356342295
+Dominican,Active Life,0.220420356342295
+Fitness & Instruction,Piano Bars,0.215043603092409
+Piano Bars,Fitness & Instruction,0.215043603092409
+Filipino,Nail Salons,0.213935955071421
+Nail Salons,Filipino,0.213935955071421
+Ethnic Food,Gelato,0.212673404817061
+Gelato,Ethnic Food,0.212673404817061
+Cambodian,Persian/Iranian,0.212074173311922
+Persian/Iranian,Cambodian,0.212074173311922
+Ethnic Food,Indonesian,0.211833790558585
+Indonesian,Ethnic Food,0.211833790558585
+Delis,Latin American,0.211718792562922
+Latin American,Delis,0.211718792562922
+Ethnic Food,Laotian,0.211224312375743
+Laotian,Ethnic Food,0.211224312375743
+Caribbean,Spanish,0.211082242774702
+Spanish,Caribbean,0.211082242774702
+Mediterranean,Nail Salons,0.207091308241459
+Nail Salons,Mediterranean,0.207091308241459
+Jazz & Blues,Pubs,0.205935006022514
+Pubs,Jazz & Blues,0.205935006022514
+Art Galleries,Food Delivery Services,0.205855065271275
+Food Delivery Services,Art Galleries,0.205855065271275
+Cooking Classes,Falafel,0.205007923041607
+Falafel,Cooking Classes,0.205007923041607
+Cupcakes,Event Planning & Services,0.204139447918546
+Event Planning & Services,Cupcakes,0.204139447918546
+Cafes,Live/Raw Food,0.200471944813822
+Live/Raw Food,Cafes,0.200471944813822
+Dominican,Mediterranean,0.199503375283679
+Mediterranean,Dominican,0.199503375283679
+Beer Bar,Shanghainese,0.199209271911219
+Shanghainese,Beer Bar,0.199209271911219
+Dominican,Food Delivery Services,0.198242143332076
+Food Delivery Services,Dominican,0.198242143332076
+Beer Bar,Laotian,0.197559752078213
+Laotian,Beer Bar,0.197559752078213
+Bangladeshi,Mediterranean,0.196997660021816
+Mediterranean,Bangladeshi,0.196997660021816
+Live/Raw Food,Meat Shops,0.196587863065793
+Meat Shops,Live/Raw Food,0.196587863065793
+Breweries,Meat Shops,0.196288181928133
+Meat Shops,Breweries,0.196288181928133
+Active Life,Persian/Iranian,0.195841113157518
+Persian/Iranian,Active Life,0.195841113157518
+Beer Bar,Fast Food,0.19567330885377
+Fast Food,Beer Bar,0.19567330885377
+Fitness & Instruction,Latin American,0.193629551151521
+Latin American,Fitness & Instruction,0.193629551151521
+Brazilian,Fitness & Instruction,0.192668250383023
+Fitness & Instruction,Brazilian,0.192668250383023
+Personal Assistants,Piano Bars,0.189366425350068
+Piano Bars,Personal Assistants,0.189366425350068
+Nail Salons,Wine Bars,0.189187132741323
+Wine Bars,Nail Salons,0.189187132741323
+Food Delivery Services,Indonesian,0.188088783073633
+Indonesian,Food Delivery Services,0.188088783073633
+Cafes,Mediterranean,0.185573974652686
+Mediterranean,Cafes,0.185573974652686
+Food Delivery Services,Hobby Shops,0.185398055104559
+Hobby Shops,Food Delivery Services,0.185398055104559
+Art Galleries,Gelato,0.183086162349135
+Gelato,Art Galleries,0.183086162349135
+Cooking Classes,Ethnic Food,0.182858349072228
+Ethnic Food,Cooking Classes,0.182858349072228
+Brazilian,Hobby Shops,0.181175138114885
+Hobby Shops,Brazilian,0.181175138114885
+Food Delivery Services,Specialty Food,0.179796513233841
+Specialty Food,Food Delivery Services,0.179796513233841
+Cambodian,Laotian,0.179438993452286
+Laotian,Cambodian,0.179438993452286
+Filipino,Personal Assistants,0.178976706664811
+Personal Assistants,Filipino,0.178976706664811
+Caribbean,Latin American,0.178448255356687
+Latin American,Caribbean,0.178448255356687
+Fitness & Instruction,Persian/Iranian,0.177023114589756
+Persian/Iranian,Fitness & Instruction,0.177023114589756
+Filipino,Italian,0.176551121586815
+Italian,Filipino,0.176551121586815
+Meat Shops,Mediterranean,0.174693149404707
+Mediterranean,Meat Shops,0.174693149404707
+Laotian,Piano Bars,0.172821282898842
+Piano Bars,Laotian,0.172821282898842
+Cooking Classes,Dominican,0.172082570108282
+Dominican,Cooking Classes,0.172082570108282
+Dive Bars,Spanish,0.171559758076022
+Spanish,Dive Bars,0.171559758076022
+Bangladeshi,Dance Clubs,0.171476697324641
+Dance Clubs,Bangladeshi,0.171476697324641
+Egyptian,Indonesian,0.170307488749134
+Indonesian,Egyptian,0.170307488749134
+Brazilian,Fishing,0.16975161172619
+Fishing,Brazilian,0.16975161172619
+Event Planning & Services,Piano Bars,0.169577142244096
+Piano Bars,Event Planning & Services,0.169577142244096
+Filipino,Jazz & Blues,0.166167682149321
+Jazz & Blues,Filipino,0.166167682149321
+Indonesian,Persian/Iranian,0.165751964662276
+Persian/Iranian,Indonesian,0.165751964662276
+Cafes,Pubs,0.165733442103582
+Pubs,Cafes,0.165733442103582
+Art Galleries,Spanish,0.165704716318195
+Spanish,Art Galleries,0.165704716318195
+Cupcakes,Indonesian,0.165585172408503
+Indonesian,Cupcakes,0.165585172408503
+Brazilian,Mediterranean,0.165417587055655
+Mediterranean,Brazilian,0.165417587055655
+Jazz & Blues,Mediterranean,0.165096880236449
+Mediterranean,Jazz & Blues,0.165096880236449
+Breweries,Falafel,0.16482109050598
+Falafel,Breweries,0.16482109050598
+Latin American,Mediterranean,0.164481218310216
+Mediterranean,Latin American,0.164481218310216
+Active Life,Wine Bars,0.164394848796623
+Wine Bars,Active Life,0.164394848796623
+Italian,Shanghainese,0.164208891516732
+Shanghainese,Italian,0.164208891516732
+Cambodian,Food Court,0.163666653460674
+Food Court,Cambodian,0.163666653460674
+Art Galleries,Cafes,0.16363879630629
+Cafes,Art Galleries,0.16363879630629
+Fast Food,Jazz & Blues,0.163599171617325
+Jazz & Blues,Fast Food,0.163599171617325
+Fishing,Food Court,0.163135396118034
+Food Court,Fishing,0.163135396118034
+Gelato,Live/Raw Food,0.163121903759348
+Live/Raw Food,Gelato,0.163121903759348
+Cafes,Meat Shops,0.163082550636598
+Meat Shops,Cafes,0.163082550636598
+Bangladeshi,Breweries,0.163074693677546
+Breweries,Bangladeshi,0.163074693677546
+Cheese Shops,Delis,0.162936086025692
+Delis,Cheese Shops,0.162936086025692
+Bangladeshi,Fast Food,0.162886378862345
+Fast Food,Bangladeshi,0.162886378862345
+Delis,Dive Bars,0.162719883281243
+Dive Bars,Delis,0.162719883281243
+Active Life,Jazz & Blues,0.16223625846369
+Jazz & Blues,Active Life,0.16223625846369
+Falafel,Wine Bars,0.162171971763742
+Wine Bars,Falafel,0.162171971763742
+Laotian,Specialty Food,0.162108970750429
+Specialty Food,Laotian,0.162108970750429
+Cambodian,Pubs,0.162107100098427
+Pubs,Cambodian,0.162107100098427
+Brazilian,Food Delivery Services,0.16204046507971
+Food Delivery Services,Brazilian,0.16204046507971
+Falafel,Meat Shops,0.161588813311203
+Meat Shops,Falafel,0.161588813311203
+Delis,Jazz & Blues,0.161584318719283
+Jazz & Blues,Delis,0.161584318719283
+Cuban,Fitness & Instruction,0.161579272315698
+Fitness & Instruction,Cuban,0.161579272315698
+Dive Bars,Pubs,0.161429128463701
+Pubs,Dive Bars,0.161429128463701
+Food Court,Live/Raw Food,0.160981061433129
+Live/Raw Food,Food Court,0.160981061433129
+Beer Bar,Personal Assistants,0.160811433435998
+Personal Assistants,Beer Bar,0.160811433435998
+Cooking Classes,Personal Assistants,0.160706845711109
+Personal Assistants,Cooking Classes,0.160706845711109
+Cupcakes,Italian,0.160417186732934
+Italian,Cupcakes,0.160417186732934
+Bangladeshi,Wine Bars,0.160313444590742
+Wine Bars,Bangladeshi,0.160313444590742
+Fast Food,Laotian,0.160285041784904
+Laotian,Fast Food,0.160285041784904
+Dive Bars,Food Court,0.16013618955364
+Food Court,Dive Bars,0.16013618955364
+Caribbean,Piano Bars,0.160003991282001
+Piano Bars,Caribbean,0.160003991282001
+Beer Bar,Cafes,0.159777170192351
+Cafes,Beer Bar,0.159777170192351
+Mediterranean,Wine Bars,0.159347344790892
+Wine Bars,Mediterranean,0.159347344790892
+Cheese Shops,Hot Pot,0.158624150252197
+Hot Pot,Cheese Shops,0.158624150252197
+Delis,Fishing,0.158466001683781
+Fishing,Delis,0.158466001683781
+Caribbean,Cuban,0.158104000900633
+Cuban,Caribbean,0.158104000900633
+Meat Shops,Spanish,0.158049045074308
+Spanish,Meat Shops,0.158049045074308
+Food Delivery Services,Italian,0.158040965586845
+Italian,Food Delivery Services,0.158040965586845
+Bangladeshi,Fitness & Instruction,0.157908267756769
+Fitness & Instruction,Bangladeshi,0.157908267756769
+Cupcakes,Fast Food,0.157722208079649
+Fast Food,Cupcakes,0.157722208079649
+Country Dance Halls,Dance Clubs,0.157617246667856
+Dance Clubs,Country Dance Halls,0.157617246667856
+Cafes,Cooking Classes,0.157563002747953
+Cooking Classes,Cafes,0.157563002747953
+Dance Clubs,Jazz & Blues,0.157418771040791
+Jazz & Blues,Dance Clubs,0.157418771040791
+Cooking Classes,Pubs,0.157414805804109
+Pubs,Cooking Classes,0.157414805804109
+Country Dance Halls,Hobby Shops,0.157241257860574
+Hobby Shops,Country Dance Halls,0.157241257860574
+Falafel,Gelato,0.15714780730577
+Gelato,Falafel,0.15714780730577
+Shanghainese,Vegetarian,0.157138831310144
+Vegetarian,Shanghainese,0.157138831310144
+Country Dance Halls,Jazz & Blues,0.157088945689451
+Jazz & Blues,Country Dance Halls,0.157088945689451
+Indonesian,Pubs,0.156860023586486
+Pubs,Indonesian,0.156860023586486
+Hobby Shops,Middle Eastern,0.156395266043683
+Middle Eastern,Hobby Shops,0.156395266043683
+Art Galleries,Hot Pot,0.156253201364991
+Hot Pot,Art Galleries,0.156253201364991
+Breweries,Nail Salons,0.155829270306261
+Nail Salons,Breweries,0.155829270306261
+Cheese Shops,Meat Shops,0.155820791331745
+Meat Shops,Cheese Shops,0.155820791331745
+Filipino,Food Delivery Services,0.155554223418474
+Food Delivery Services,Filipino,0.155554223418474
+Art Galleries,Dance Clubs,0.155317821129261
+Dance Clubs,Art Galleries,0.155317821129261
+Bangladeshi,Shanghainese,0.155143516254648
+Shanghainese,Bangladeshi,0.155143516254648
+Hobby Shops,Mediterranean,0.155130940470584
+Mediterranean,Hobby Shops,0.155130940470584
+Breweries,Food Court,0.154307102253478
+Food Court,Breweries,0.154307102253478
+Country Dance Halls,Event Planning & Services,0.153964910687627
+Event Planning & Services,Country Dance Halls,0.153964910687627
+Cheese Shops,Country Dance Halls,0.153627838603916
+Country Dance Halls,Cheese Shops,0.153627838603916
+Falafel,Jazz & Blues,0.153595208500391
+Jazz & Blues,Falafel,0.153595208500391
+Spanish,Specialty Food,0.153424545515663
+Specialty Food,Spanish,0.153424545515663
+Breweries,Jazz & Blues,0.15341822165654
+Jazz & Blues,Breweries,0.15341822165654
+Dominican,Indonesian,0.153249858236705
+Indonesian,Dominican,0.153249858236705
+Brazilian,Event Planning & Services,0.153000107159864
+Event Planning & Services,Brazilian,0.153000107159864
+Middle Eastern,Vegetarian,0.152662836077613
+Vegetarian,Middle Eastern,0.152662836077613
+Event Planning & Services,Shanghainese,0.152567935458756
+Shanghainese,Event Planning & Services,0.152567935458756
+Country Dance Halls,Meat Shops,0.15248758720778
+Meat Shops,Country Dance Halls,0.15248758720778
+Italian,Meat Shops,0.152348084076637
+Meat Shops,Italian,0.152348084076637
+Dominican,Ethnic Food,0.152238241988548
+Ethnic Food,Dominican,0.152238241988548
+Jazz & Blues,Laotian,0.152215776137856
+Laotian,Jazz & Blues,0.152215776137856
+Jazz & Blues,Piano Bars,0.152168340599053
+Piano Bars,Jazz & Blues,0.152168340599053
+Gelato,Pubs,0.152166602808531
+Pubs,Gelato,0.152166602808531
+Caribbean,Specialty Food,0.152008143320152
+Specialty Food,Caribbean,0.152008143320152
+Latin American,Wine Bars,0.151972685451454
+Wine Bars,Latin American,0.151972685451454
+Cuban,Pubs,0.151722296878632
+Pubs,Cuban,0.151722296878632
+Dive Bars,Vegetarian,0.15170965212999
+Vegetarian,Dive Bars,0.15170965212999
+Brazilian,Pubs,0.151513262563716
+Pubs,Brazilian,0.151513262563716
+Breweries,Dominican,0.151169664451459
+Dominican,Breweries,0.151169664451459
+Cafes,Dance Clubs,0.150939733832796
+Dance Clubs,Cafes,0.150939733832796
+Laotian,Mediterranean,0.150768212506224
+Mediterranean,Laotian,0.150768212506224
+Fishing,Mediterranean,0.15069283734795
+Mediterranean,Fishing,0.15069283734795
+Caribbean,Persian/Iranian,0.150599691481887
+Persian/Iranian,Caribbean,0.150599691481887
+Filipino,Food Court,0.149994207568687
+Food Court,Filipino,0.149994207568687
+Latin American,Piano Bars,0.149815229930891
+Piano Bars,Latin American,0.149815229930891
+Food Court,Pubs,0.14930541081601
+Pubs,Food Court,0.14930541081601
+Dive Bars,Shanghainese,0.14855497729915
+Shanghainese,Dive Bars,0.14855497729915
+Hot Pot,Latin American,0.148438891380003
+Latin American,Hot Pot,0.148438891380003
+Caribbean,Event Planning & Services,0.148429052242251
+Event Planning & Services,Caribbean,0.148429052242251
+Fast Food,Food Delivery Services,0.14809542505317
+Food Delivery Services,Fast Food,0.14809542505317
+Hobby Shops,Vegetarian,0.147871483416963
+Vegetarian,Hobby Shops,0.147871483416963
+Fishing,Live/Raw Food,0.14744512475731
+Live/Raw Food,Fishing,0.14744512475731
+Meat Shops,Piano Bars,0.147340950890875
+Piano Bars,Meat Shops,0.147340950890875
+Beer Bar,Hot Pot,0.147066610125927
+Hot Pot,Beer Bar,0.147066610125927
+Active Life,Mediterranean,0.146956833847477
+Mediterranean,Active Life,0.146956833847477
+Brazilian,Delis,0.146920791494174
+Delis,Brazilian,0.146920791494174
+Hot Pot,Italian,0.146806714392293
+Italian,Hot Pot,0.146806714392293
+Filipino,Hot Pot,0.14674566267213
+Hot Pot,Filipino,0.14674566267213
+Active Life,Cuban,0.146530864987057
+Cuban,Active Life,0.146530864987057
+Dance Clubs,Mediterranean,0.146381748477003
+Mediterranean,Dance Clubs,0.146381748477003
+Cambodian,Event Planning & Services,0.14629412233201
+Event Planning & Services,Cambodian,0.14629412233201
+Hot Pot,Live/Raw Food,0.145353195760423
+Live/Raw Food,Hot Pot,0.145353195760423
+Dominican,Hot Pot,0.145319703933226
+Hot Pot,Dominican,0.145319703933226
+Food Court,Hobby Shops,0.145266582159902
+Hobby Shops,Food Court,0.145266582159902
+Art Galleries,Breweries,0.145255712683812
+Breweries,Art Galleries,0.145255712683812
+Brazilian,Food Court,0.145066277693814
+Food Court,Brazilian,0.145066277693814
+Egyptian,Vegetarian,0.145046208725883
+Vegetarian,Egyptian,0.145046208725883
+Piano Bars,Shanghainese,0.144393268661753
+Shanghainese,Piano Bars,0.144393268661753
+Active Life,Latin American,0.144375315409833
+Latin American,Active Life,0.144375315409833
+Cooking Classes,Indonesian,0.144334671639302
+Indonesian,Cooking Classes,0.144334671639302
+Laotian,Nail Salons,0.144115169216599
+Nail Salons,Laotian,0.144115169216599
+Ethnic Food,Specialty Food,0.14396464194332
+Specialty Food,Ethnic Food,0.14396464194332
+Hot Pot,Laotian,0.143654108456016
+Laotian,Hot Pot,0.143654108456016
+Brazilian,Falafel,0.143535928307905
+Falafel,Brazilian,0.143535928307905
+Cooking Classes,Specialty Food,0.143507757456397
+Specialty Food,Cooking Classes,0.143507757456397
+Cheese Shops,Dance Clubs,0.143272253746876
+Dance Clubs,Cheese Shops,0.143272253746876
+Breweries,Food Delivery Services,0.143117548955561
+Food Delivery Services,Breweries,0.143117548955561
+Cooking Classes,Italian,0.142963107306901
+Italian,Cooking Classes,0.142963107306901
+Beer Bar,Italian,0.142956896727762
+Italian,Beer Bar,0.142956896727762
+Fast Food,Meat Shops,0.142914224872092
+Meat Shops,Fast Food,0.142914224872092
+Active Life,Shanghainese,0.14290197952141
+Shanghainese,Active Life,0.14290197952141
+Dominican,Gelato,0.142562784966961
+Gelato,Dominican,0.142562784966961
+Indonesian,Vegetarian,0.142516539186231
+Vegetarian,Indonesian,0.142516539186231
+Country Dance Halls,Pubs,0.142423728929124
+Pubs,Country Dance Halls,0.142423728929124
+Latin American,Nail Salons,0.142409971469188
+Nail Salons,Latin American,0.142409971469188
+Food Court,Italian,0.142272004318748
+Italian,Food Court,0.142272004318748
+Piano Bars,Pubs,0.141838606739824
+Pubs,Piano Bars,0.141838606739824
+Delis,Gelato,0.141810222727015
+Gelato,Delis,0.141810222727015
+Art Galleries,Indonesian,0.141328100980223
+Indonesian,Art Galleries,0.141328100980223
+Hobby Shops,Meat Shops,0.14124893303363
+Meat Shops,Hobby Shops,0.14124893303363
+Dominican,Spanish,0.141167583376204
+Spanish,Dominican,0.141167583376204
+Beer Bar,Cupcakes,0.141108034994006
+Cupcakes,Beer Bar,0.141108034994006
+Mediterranean,Persian/Iranian,0.141075613123304
+Persian/Iranian,Mediterranean,0.141075613123304
+Fishing,Pubs,0.140882684114236
+Pubs,Fishing,0.140882684114236
+Filipino,Meat Shops,0.140852849974342
+Meat Shops,Filipino,0.140852849974342
+Dive Bars,Dominican,0.140681604528689
+Dominican,Dive Bars,0.140681604528689
+Food Court,Shanghainese,0.140160633638934
+Shanghainese,Food Court,0.140160633638934
+Hot Pot,Jazz & Blues,0.140123077374532
+Jazz & Blues,Hot Pot,0.140123077374532
+Art Galleries,Latin American,0.139993354556399
+Latin American,Art Galleries,0.139993354556399
+Mediterranean,Shanghainese,0.139959727569673
+Shanghainese,Mediterranean,0.139959727569673
+Meat Shops,Nail Salons,0.13992505729684
+Nail Salons,Meat Shops,0.13992505729684
+Fishing,Jazz & Blues,0.139858273578667
+Jazz & Blues,Fishing,0.139858273578667
+Caribbean,Cheese Shops,0.139502288304114
+Cheese Shops,Caribbean,0.139502288304114
+Active Life,Cheese Shops,0.139367693794951
+Cheese Shops,Active Life,0.139367693794951
+Gelato,Indonesian,0.139327466346977
+Indonesian,Gelato,0.139327466346977
+Live/Raw Food,Personal Assistants,0.139287683745867
+Personal Assistants,Live/Raw Food,0.139287683745867
+Country Dance Halls,Laotian,0.139276679889822
+Laotian,Country Dance Halls,0.139276679889822
+Indonesian,Live/Raw Food,0.139098594034534
+Live/Raw Food,Indonesian,0.139098594034534
+Art Galleries,Persian/Iranian,0.139069970957669
+Persian/Iranian,Art Galleries,0.139069970957669
+Fishing,Fitness & Instruction,0.138931678835165
+Fitness & Instruction,Fishing,0.138931678835165
+Food Delivery Services,Spanish,0.138924323397525
+Spanish,Food Delivery Services,0.138924323397525
+Cambodian,Cuban,0.138893723517478
+Cuban,Cambodian,0.138893723517478
+Persian/Iranian,Shanghainese,0.138882373161078
+Shanghainese,Persian/Iranian,0.138882373161078
+Delis,Live/Raw Food,0.13885470316319
+Live/Raw Food,Delis,0.13885470316319
+Filipino,Latin American,0.138840065986072
+Latin American,Filipino,0.138840065986072
+Egyptian,Food Delivery Services,0.138755622639426
+Food Delivery Services,Egyptian,0.138755622639426
+Middle Eastern,Wine Bars,0.138737410164885
+Wine Bars,Middle Eastern,0.138737410164885
+Bangladeshi,Middle Eastern,0.138627362421034
+Middle Eastern,Bangladeshi,0.138627362421034
+Art Galleries,Fast Food,0.138393265801382
+Fast Food,Art Galleries,0.138393265801382
+Active Life,Spanish,0.138202597947205
+Spanish,Active Life,0.138202597947205
+Food Court,Latin American,0.138191438622781
+Latin American,Food Court,0.138191438622781
+Cooking Classes,Cuban,0.138173107799707
+Cuban,Cooking Classes,0.138173107799707
+Delis,Middle Eastern,0.138017432486569
+Middle Eastern,Delis,0.138017432486569
+Bangladeshi,Delis,0.137961810916519
+Delis,Bangladeshi,0.137961810916519
+Beer Bar,Persian/Iranian,0.137737572408043
+Persian/Iranian,Beer Bar,0.137737572408043
+Breweries,Wine Bars,0.137627255214933
+Wine Bars,Breweries,0.137627255214933
+Art Galleries,Country Dance Halls,0.137578269382598
+Country Dance Halls,Art Galleries,0.137578269382598
+Italian,Wine Bars,0.137154565992352
+Wine Bars,Italian,0.137154565992352
+Egyptian,Fishing,0.137093116230694
+Fishing,Egyptian,0.137093116230694
+Pubs,Shanghainese,0.136752200121688
+Shanghainese,Pubs,0.136752200121688
+Cooking Classes,Vegetarian,0.13671707525508
+Vegetarian,Cooking Classes,0.13671707525508
+Cambodian,Cheese Shops,0.136601433878267
+Cheese Shops,Cambodian,0.136601433878267
+Cooking Classes,Wine Bars,0.136488512511177
+Wine Bars,Cooking Classes,0.136488512511177
+Beer Bar,Fishing,0.136464017885437
+Fishing,Beer Bar,0.136464017885437
+Cupcakes,Shanghainese,0.136416423203589
+Shanghainese,Cupcakes,0.136416423203589
+Cambodian,Dance Clubs,0.136413405864769
+Dance Clubs,Cambodian,0.136413405864769
+Food Court,Persian/Iranian,0.136412084041497
+Persian/Iranian,Food Court,0.136412084041497
+Active Life,Dance Clubs,0.13604784310221
+Dance Clubs,Active Life,0.13604784310221
+Cheese Shops,Middle Eastern,0.136027994049922
+Middle Eastern,Cheese Shops,0.136027994049922
+Gelato,Jazz & Blues,0.135998461322207
+Jazz & Blues,Gelato,0.135998461322207
+Brazilian,Cupcakes,0.135943656410041
+Cupcakes,Brazilian,0.135943656410041
+Food Delivery Services,Mediterranean,0.135880338658976
+Mediterranean,Food Delivery Services,0.135880338658976
+Art Galleries,Delis,0.135462168541217
+Delis,Art Galleries,0.135462168541217
+Delis,Shanghainese,0.135362025111094
+Shanghainese,Delis,0.135362025111094
+Caribbean,Nail Salons,0.135091471788152
+Nail Salons,Caribbean,0.135091471788152
+Beer Bar,Food Delivery Services,0.134570582174687
+Food Delivery Services,Beer Bar,0.134570582174687
+Brazilian,Personal Assistants,0.134469357726757
+Personal Assistants,Brazilian,0.134469357726757
+Dominican,Fitness & Instruction,0.134250179267076
+Fitness & Instruction,Dominican,0.134250179267076
+Laotian,Wine Bars,0.133807596610358
+Wine Bars,Laotian,0.133807596610358
+Fast Food,Wine Bars,0.133555708095441
+Wine Bars,Fast Food,0.133555708095441
+Food Delivery Services,Middle Eastern,0.133482704157887
+Middle Eastern,Food Delivery Services,0.133482704157887
+Bangladeshi,Cooking Classes,0.133438002738062
+Cooking Classes,Bangladeshi,0.133438002738062
+Art Galleries,Jazz & Blues,0.133226651452182
+Jazz & Blues,Art Galleries,0.133226651452182
+Fitness & Instruction,Food Court,0.133194423123628
+Food Court,Fitness & Instruction,0.133194423123628
+Dance Clubs,Shanghainese,0.133193848419984
+Shanghainese,Dance Clubs,0.133193848419984
+Fast Food,Fitness & Instruction,0.133036483354208
+Fitness & Instruction,Fast Food,0.133036483354208
+Dance Clubs,Pubs,0.132855458509969
+Pubs,Dance Clubs,0.132855458509969
+Fitness & Instruction,Shanghainese,0.132478193215049
+Shanghainese,Fitness & Instruction,0.132478193215049
+Delis,Egyptian,0.131796097490374
+Egyptian,Delis,0.131796097490374
+Dance Clubs,Filipino,0.131713326229297
+Filipino,Dance Clubs,0.131713326229297
+Dance Clubs,Wine Bars,0.131566079548039
+Wine Bars,Dance Clubs,0.131566079548039
+Cuban,Fast Food,0.131501729876512
+Fast Food,Cuban,0.131501729876512
+Country Dance Halls,Italian,0.131333214084836
+Italian,Country Dance Halls,0.131333214084836
+Egyptian,Ethnic Food,0.131167441886982
+Ethnic Food,Egyptian,0.131167441886982
+Cuban,Dance Clubs,0.131146533806276
+Dance Clubs,Cuban,0.131146533806276
+Fitness & Instruction,Hobby Shops,0.131006330075696
+Hobby Shops,Fitness & Instruction,0.131006330075696
+Caribbean,Live/Raw Food,0.130928118070766
+Live/Raw Food,Caribbean,0.130928118070766
+Latin American,Persian/Iranian,0.13048426179524
+Persian/Iranian,Latin American,0.13048426179524
+Latin American,Spanish,0.130013089795244
+Spanish,Latin American,0.130013089795244
+Country Dance Halls,Persian/Iranian,0.129922973842455
+Persian/Iranian,Country Dance Halls,0.129922973842455
+Dance Clubs,Event Planning & Services,0.129802978047299
+Event Planning & Services,Dance Clubs,0.129802978047299
+Event Planning & Services,Italian,0.129593156617803
+Italian,Event Planning & Services,0.129593156617803
+Cambodian,Cooking Classes,0.129448740113462
+Cooking Classes,Cambodian,0.129448740113462
+Ethnic Food,Piano Bars,0.129280948915193
+Piano Bars,Ethnic Food,0.129280948915193
+Dance Clubs,Italian,0.129227635695357
+Italian,Dance Clubs,0.129227635695357
+Beer Bar,Event Planning & Services,0.129225809479471
+Event Planning & Services,Beer Bar,0.129225809479471
+Bangladeshi,Latin American,0.1292017672423
+Latin American,Bangladeshi,0.1292017672423
+Dive Bars,Meat Shops,0.129143992362835
+Meat Shops,Dive Bars,0.129143992362835
+Art Galleries,Italian,0.128927587773871
+Italian,Art Galleries,0.128927587773871
+Fast Food,Spanish,0.128887201132477
+Spanish,Fast Food,0.128887201132477
+Cafes,Indonesian,0.128870114045435
+Indonesian,Cafes,0.128870114045435
+Caribbean,Ethnic Food,0.128738795950909
+Ethnic Food,Caribbean,0.128738795950909
+Breweries,Live/Raw Food,0.128723484260993
+Live/Raw Food,Breweries,0.128723484260993
+Dominican,Event Planning & Services,0.128612994576556
+Event Planning & Services,Dominican,0.128612994576556
+Brazilian,Persian/Iranian,0.128080070942799
+Persian/Iranian,Brazilian,0.128080070942799
+Cupcakes,Dominican,0.127563912724364
+Dominican,Cupcakes,0.127563912724364
+Active Life,Art Galleries,0.127439172351194
+Art Galleries,Active Life,0.127439172351194
+Beer Bar,Spanish,0.12708232957539
+Spanish,Beer Bar,0.12708232957539
+Active Life,Fitness & Instruction,0.12706807441083
+Fitness & Instruction,Active Life,0.12706807441083
+Cambodian,Latin American,0.126900680932566
+Latin American,Cambodian,0.126900680932566
+Hobby Shops,Live/Raw Food,0.126649937096767
+Live/Raw Food,Hobby Shops,0.126649937096767
+Food Court,Meat Shops,0.126549463822118
+Meat Shops,Food Court,0.126549463822118
+Beer Bar,Cambodian,0.12626758300428
+Cambodian,Beer Bar,0.12626758300428
+Event Planning & Services,Filipino,0.126193496939482
+Filipino,Event Planning & Services,0.126193496939482
+Breweries,Laotian,0.126081486759022
+Laotian,Breweries,0.126081486759022
+Art Galleries,Falafel,0.126062572478609
+Falafel,Art Galleries,0.126062572478609
+Laotian,Middle Eastern,0.126031160004264
+Middle Eastern,Laotian,0.126031160004264
+Fishing,Persian/Iranian,0.125946559776069
+Persian/Iranian,Fishing,0.125946559776069
+Cooking Classes,Country Dance Halls,0.125756783214231
+Country Dance Halls,Cooking Classes,0.125756783214231
+Meat Shops,Personal Assistants,0.125669861496761
+Personal Assistants,Meat Shops,0.125669861496761
+Cheese Shops,Fishing,0.125457265476562
+Fishing,Cheese Shops,0.125457265476562
+Breweries,Cupcakes,0.125184901063584
+Cupcakes,Breweries,0.125184901063584
+Food Court,Nail Salons,0.125087098716062
+Nail Salons,Food Court,0.125087098716062
+Spanish,Vegetarian,0.125076189704541
+Vegetarian,Spanish,0.125076189704541
+Nail Salons,Vegetarian,0.125052818643388
+Vegetarian,Nail Salons,0.125052818643388
+Active Life,Vegetarian,0.124917629175204
+Vegetarian,Active Life,0.124917629175204
+Fast Food,Live/Raw Food,0.124863092954517
+Live/Raw Food,Fast Food,0.124863092954517
+Personal Assistants,Pubs,0.124754347743155
+Pubs,Personal Assistants,0.124754347743155
+Indonesian,Mediterranean,0.124749548710706
+Mediterranean,Indonesian,0.124749548710706
+Country Dance Halls,Egyptian,0.124512986537555
+Egyptian,Country Dance Halls,0.124512986537555
+Dominican,Fast Food,0.123949541149195
+Fast Food,Dominican,0.123949541149195
+Beer Bar,Middle Eastern,0.12394195491118
+Middle Eastern,Beer Bar,0.12394195491118
+Middle Eastern,Pubs,0.123804737287326
+Pubs,Middle Eastern,0.123804737287326
+Meat Shops,Persian/Iranian,0.123771208173547
+Persian/Iranian,Meat Shops,0.123771208173547
+Latin American,Live/Raw Food,0.123699062153949
+Live/Raw Food,Latin American,0.123699062153949
+Indonesian,Wine Bars,0.123670182357825
+Wine Bars,Indonesian,0.123670182357825
+Cupcakes,Pubs,0.123274521174493
+Pubs,Cupcakes,0.123274521174493
+Cupcakes,Food Court,0.123265816723803
+Food Court,Cupcakes,0.123265816723803
+Hobby Shops,Piano Bars,0.123262879775826
+Piano Bars,Hobby Shops,0.123262879775826
+Falafel,Hobby Shops,0.123139934950946
+Hobby Shops,Falafel,0.123139934950946
+Event Planning & Services,Nail Salons,0.123085839751974
+Nail Salons,Event Planning & Services,0.123085839751974
+Cheese Shops,Filipino,0.123010065617547
+Filipino,Cheese Shops,0.123010065617547
+Cupcakes,Nail Salons,0.122768716581299
+Nail Salons,Cupcakes,0.122768716581299
+Caribbean,Food Delivery Services,0.122740587936581
+Food Delivery Services,Caribbean,0.122740587936581
+Caribbean,Egyptian,0.122563901809296
+Egyptian,Caribbean,0.122563901809296
+Egyptian,Event Planning & Services,0.122563056785669
+Event Planning & Services,Egyptian,0.122563056785669
+Dominican,Persian/Iranian,0.122392056948248
+Persian/Iranian,Dominican,0.122392056948248
+Art Galleries,Hobby Shops,0.122359370876895
+Hobby Shops,Art Galleries,0.122359370876895
+Cambodian,Italian,0.122344896712645
+Italian,Cambodian,0.122344896712645
+Cheese Shops,Wine Bars,0.122047701220697
+Wine Bars,Cheese Shops,0.122047701220697
+Food Court,Laotian,0.121999236270973
+Laotian,Food Court,0.121999236270973
+Breweries,Mediterranean,0.121838357838355
+Mediterranean,Breweries,0.121838357838355
+Dominican,Laotian,0.121533068982108
+Laotian,Dominican,0.121533068982108
+Middle Eastern,Piano Bars,0.12128279623027
+Piano Bars,Middle Eastern,0.12128279623027
+Live/Raw Food,Spanish,0.121218641817328
+Spanish,Live/Raw Food,0.121218641817328
+Dominican,Vegetarian,0.121205723937893
+Vegetarian,Dominican,0.121205723937893
+Caribbean,Fast Food,0.121159557492103
+Fast Food,Caribbean,0.121159557492103
+Food Delivery Services,Jazz & Blues,0.12103701760449
+Jazz & Blues,Food Delivery Services,0.12103701760449
+Art Galleries,Bangladeshi,0.120876148802355
+Bangladeshi,Art Galleries,0.120876148802355
+Middle Eastern,Specialty Food,0.120800261833968
+Specialty Food,Middle Eastern,0.120800261833968
+Food Court,Vegetarian,0.120568633462028
+Vegetarian,Food Court,0.120568633462028
+Nail Salons,Pubs,0.12029854777662
+Pubs,Nail Salons,0.12029854777662
+Dive Bars,Filipino,0.119984474150355
+Filipino,Dive Bars,0.119984474150355
+Cheese Shops,Egyptian,0.119936741079347
+Egyptian,Cheese Shops,0.119936741079347
+Art Galleries,Pubs,0.119886957256274
+Pubs,Art Galleries,0.119886957256274
+Country Dance Halls,Wine Bars,0.119819330885473
+Wine Bars,Country Dance Halls,0.119819330885473
+Cheese Shops,Piano Bars,0.119796076396718
+Piano Bars,Cheese Shops,0.119796076396718
+Breweries,Egyptian,0.119683705758874
+Egyptian,Breweries,0.119683705758874
+Brazilian,Breweries,0.119681744135943
+Breweries,Brazilian,0.119681744135943
+Mediterranean,Pubs,0.119664157228048
+Pubs,Mediterranean,0.119664157228048
+Food Delivery Services,Laotian,0.119339217819786
+Laotian,Food Delivery Services,0.119339217819786
+Cheese Shops,Latin American,0.119093902094885
+Latin American,Cheese Shops,0.119093902094885
+Cupcakes,Laotian,0.118669141672561
+Laotian,Cupcakes,0.118669141672561
+Bangladeshi,Meat Shops,0.118600697474083
+Meat Shops,Bangladeshi,0.118600697474083
+Dominican,Pubs,0.118588672525798
+Pubs,Dominican,0.118588672525798
+Cafes,Fitness & Instruction,0.118403821041253
+Fitness & Instruction,Cafes,0.118403821041253
+Art Galleries,Specialty Food,0.118355960428716
+Specialty Food,Art Galleries,0.118355960428716
+Hobby Shops,Specialty Food,0.118257655899647
+Specialty Food,Hobby Shops,0.118257655899647
+Breweries,Persian/Iranian,0.118150614380977
+Persian/Iranian,Breweries,0.118150614380977
+Beer Bar,Fitness & Instruction,0.117885976333707
+Fitness & Instruction,Beer Bar,0.117885976333707
+Filipino,Fitness & Instruction,0.117881553182397
+Fitness & Instruction,Filipino,0.117881553182397
+Cafes,Nail Salons,0.117849787821658
+Nail Salons,Cafes,0.117849787821658
+Active Life,Hot Pot,0.117418582314309
+Hot Pot,Active Life,0.117418582314309
+Hobby Shops,Wine Bars,0.117395161614341
+Wine Bars,Hobby Shops,0.117395161614341
+Filipino,Wine Bars,0.117084687667576
+Wine Bars,Filipino,0.117084687667576
+Art Galleries,Ethnic Food,0.1170050108263
+Ethnic Food,Art Galleries,0.1170050108263
+Cooking Classes,Gelato,0.116948700205516
+Gelato,Cooking Classes,0.116948700205516
+Cheese Shops,Cupcakes,0.116941682247783
+Cupcakes,Cheese Shops,0.116941682247783
+Gelato,Vegetarian,0.116571582638508
+Vegetarian,Gelato,0.116571582638508
+Egyptian,Nail Salons,0.116561663678429
+Nail Salons,Egyptian,0.116561663678429
+Country Dance Halls,Personal Assistants,0.11654826920957
+Personal Assistants,Country Dance Halls,0.11654826920957
+Beer Bar,Caribbean,0.116433714494479
+Caribbean,Beer Bar,0.116433714494479
+Cooking Classes,Food Court,0.115845233264418
+Food Court,Cooking Classes,0.115845233264418
+Brazilian,Spanish,0.115818553100606
+Spanish,Brazilian,0.115818553100606
+Food Court,Wine Bars,0.115712030113837
+Wine Bars,Food Court,0.115712030113837
+Country Dance Halls,Delis,0.115644273494237
+Delis,Country Dance Halls,0.115644273494237
+Cupcakes,Wine Bars,0.115493020845282
+Wine Bars,Cupcakes,0.115493020845282
+Country Dance Halls,Indonesian,0.115492626503813
+Indonesian,Country Dance Halls,0.115492626503813
+Gelato,Piano Bars,0.115430199112104
+Piano Bars,Gelato,0.115430199112104
+Food Delivery Services,Hot Pot,0.115355686537178
+Hot Pot,Food Delivery Services,0.115355686537178
+Jazz & Blues,Nail Salons,0.115348570301162
+Nail Salons,Jazz & Blues,0.115348570301162
+Food Delivery Services,Latin American,0.115018872436951
+Latin American,Food Delivery Services,0.115018872436951
+Country Dance Halls,Latin American,0.11475216839147
+Latin American,Country Dance Halls,0.11475216839147
+Cupcakes,Gelato,0.114706711722257
+Gelato,Cupcakes,0.114706711722257
+Cheese Shops,Food Delivery Services,0.114501383642211
+Food Delivery Services,Cheese Shops,0.114501383642211
+Ethnic Food,Fitness & Instruction,0.114328749524008
+Fitness & Instruction,Ethnic Food,0.114328749524008
+Falafel,Pubs,0.114271762679359
+Pubs,Falafel,0.114271762679359
+Fast Food,Pubs,0.114214884753014
+Pubs,Fast Food,0.114214884753014
+Event Planning & Services,Jazz & Blues,0.114212163669246
+Jazz & Blues,Event Planning & Services,0.114212163669246
+Food Court,Gelato,0.113580635118025
+Gelato,Food Court,0.113580635118025
+Event Planning & Services,Fast Food,0.113161847228776
+Fast Food,Event Planning & Services,0.113161847228776
+Cheese Shops,Specialty Food,0.113149201106836
+Specialty Food,Cheese Shops,0.113149201106836
+Meat Shops,Specialty Food,0.112997457700469
+Specialty Food,Meat Shops,0.112997457700469
+Delis,Fast Food,0.112864862686556
+Fast Food,Delis,0.112864862686556
+Jazz & Blues,Persian/Iranian,0.112716838660764
+Persian/Iranian,Jazz & Blues,0.112716838660764
+Active Life,Middle Eastern,0.112428425130898
+Middle Eastern,Active Life,0.112428425130898
+Falafel,Persian/Iranian,0.112266285982842
+Persian/Iranian,Falafel,0.112266285982842
+Live/Raw Food,Piano Bars,0.112177733918414
+Piano Bars,Live/Raw Food,0.112177733918414
+Cafes,Dominican,0.112135346032966
+Dominican,Cafes,0.112135346032966
+Beer Bar,Live/Raw Food,0.11172992753913
+Live/Raw Food,Beer Bar,0.11172992753913
+Fishing,Indonesian,0.111596213198275
+Indonesian,Fishing,0.111596213198275
+Cooking Classes,Hot Pot,0.111481189306315
+Hot Pot,Cooking Classes,0.111481189306315
+Art Galleries,Food Court,0.111422183272494
+Food Court,Art Galleries,0.111422183272494
+Cheese Shops,Ethnic Food,0.111377600389871
+Ethnic Food,Cheese Shops,0.111377600389871
+Beer Bar,Filipino,0.111106703117651
+Filipino,Beer Bar,0.111106703117651
+Brazilian,Nail Salons,0.110901487360843
+Nail Salons,Brazilian,0.110901487360843
+Meat Shops,Middle Eastern,0.110810450790871
+Middle Eastern,Meat Shops,0.110810450790871
+Cupcakes,Filipino,0.1106516360151
+Filipino,Cupcakes,0.1106516360151
+Art Galleries,Cooking Classes,0.110296436297786
+Cooking Classes,Art Galleries,0.110296436297786
+Latin American,Vegetarian,0.110139027325465
+Vegetarian,Latin American,0.110139027325465
+Fast Food,Latin American,0.109527682076939
+Latin American,Fast Food,0.109527682076939
+Bangladeshi,Jazz & Blues,0.109429009560744
+Jazz & Blues,Bangladeshi,0.109429009560744
+Hot Pot,Vegetarian,0.109306548838677
+Vegetarian,Hot Pot,0.109306548838677
+Fishing,Gelato,0.109271690680034
+Gelato,Fishing,0.109271690680034
+Live/Raw Food,Nail Salons,0.109121736045043
+Nail Salons,Live/Raw Food,0.109121736045043
+Breweries,Cambodian,0.109117838356116
+Cambodian,Breweries,0.109117838356116
+Bangladeshi,Caribbean,0.109106039607393
+Caribbean,Bangladeshi,0.109106039607393
+Country Dance Halls,Hot Pot,0.109048502955318
+Hot Pot,Country Dance Halls,0.109048502955318
+Cafes,Fishing,0.10903430138171
+Fishing,Cafes,0.10903430138171
+Italian,Live/Raw Food,0.108933533869308
+Live/Raw Food,Italian,0.108933533869308
+Art Galleries,Fishing,0.108811061868996
+Fishing,Art Galleries,0.108811061868996
+Brazilian,Meat Shops,0.10843531326704
+Meat Shops,Brazilian,0.10843531326704
+Fast Food,Shanghainese,0.108409095376228
+Shanghainese,Fast Food,0.108409095376228
+Meat Shops,Shanghainese,0.108389542210865
+Shanghainese,Meat Shops,0.108389542210865
+Fishing,Italian,0.107898033414512
+Italian,Fishing,0.107898033414512
+Food Delivery Services,Persian/Iranian,0.107582130752838
+Persian/Iranian,Food Delivery Services,0.107582130752838
+Italian,Personal Assistants,0.10750317399528
+Personal Assistants,Italian,0.10750317399528
+Cheese Shops,Cuban,0.107391339454059
+Cuban,Cheese Shops,0.107391339454059
+Active Life,Breweries,0.106874573747345
+Breweries,Active Life,0.106874573747345
+Persian/Iranian,Personal Assistants,0.106864530780287
+Personal Assistants,Persian/Iranian,0.106864530780287
+Fitness & Instruction,Meat Shops,0.106749812854495
+Meat Shops,Fitness & Instruction,0.106749812854495
+Dive Bars,Food Delivery Services,0.106736147919885
+Food Delivery Services,Dive Bars,0.106736147919885
+Delis,Italian,0.106528310670877
+Italian,Delis,0.106528310670877
+Italian,Persian/Iranian,0.105984334549929
+Persian/Iranian,Italian,0.105984334549929
+Dance Clubs,Food Delivery Services,0.10564420223938
+Food Delivery Services,Dance Clubs,0.10564420223938
+Delis,Dominican,0.10542536552818
+Dominican,Delis,0.10542536552818
+Food Delivery Services,Vegetarian,0.104786516979622
+Vegetarian,Food Delivery Services,0.104786516979622
+Spanish,Wine Bars,0.104681050243082
+Wine Bars,Spanish,0.104681050243082
+Cambodian,Hot Pot,0.104427555751249
+Hot Pot,Cambodian,0.104427555751249
+Egyptian,Latin American,0.104416030021477
+Latin American,Egyptian,0.104416030021477
+Dive Bars,Piano Bars,0.104407022710801
+Piano Bars,Dive Bars,0.104407022710801
+Cheese Shops,Fitness & Instruction,0.103981596774341
+Fitness & Instruction,Cheese Shops,0.103981596774341
+Art Galleries,Piano Bars,0.103799283850222
+Piano Bars,Art Galleries,0.103799283850222
+Egyptian,Jazz & Blues,0.103678916925994
+Jazz & Blues,Egyptian,0.103678916925994
+Cheese Shops,Hobby Shops,0.103615588972541
+Hobby Shops,Cheese Shops,0.103615588972541
+Breweries,Hot Pot,0.103522975578046
+Hot Pot,Breweries,0.103522975578046
+Cafes,Cheese Shops,0.103425945182807
+Cheese Shops,Cafes,0.103425945182807
+Dominican,Food Court,0.10309214981969
+Food Court,Dominican,0.10309214981969
+Cafes,Persian/Iranian,0.10307689976616
+Persian/Iranian,Cafes,0.10307689976616
+Cuban,Indonesian,0.10295432493187
+Indonesian,Cuban,0.10295432493187
+Meat Shops,Vegetarian,0.102836604295827
+Vegetarian,Meat Shops,0.102836604295827
+Fast Food,Middle Eastern,0.102645201846375
+Middle Eastern,Fast Food,0.102645201846375
+Caribbean,Dance Clubs,0.10261573580707
+Dance Clubs,Caribbean,0.10261573580707
+Ethnic Food,Fishing,0.102588368090544
+Fishing,Ethnic Food,0.102588368090544
+Indonesian,Meat Shops,0.102581036652048
+Meat Shops,Indonesian,0.102581036652048
+Food Court,Specialty Food,0.102563433174913
+Specialty Food,Food Court,0.102563433174913
+Country Dance Halls,Cupcakes,0.102029852971814
+Cupcakes,Country Dance Halls,0.102029852971814
+Personal Assistants,Spanish,0.101889357342713
+Spanish,Personal Assistants,0.101889357342713
+Cuban,Gelato,0.10183526696879
+Gelato,Cuban,0.10183526696879
+Cupcakes,Hot Pot,0.101779874159891
+Hot Pot,Cupcakes,0.101779874159891
+Fitness & Instruction,Vegetarian,0.101390382019284
+Vegetarian,Fitness & Instruction,0.101390382019284
+Fishing,Spanish,0.101116772888971
+Spanish,Fishing,0.101116772888971
+Active Life,Ethnic Food,0.100795464527834
+Ethnic Food,Active Life,0.100795464527834
+Ethnic Food,Pubs,0.100678096904074
+Pubs,Ethnic Food,0.100678096904074
+Event Planning & Services,Personal Assistants,0.100537794857019
+Personal Assistants,Event Planning & Services,0.100537794857019
+Fast Food,Vegetarian,0.100504049726458
+Vegetarian,Fast Food,0.100504049726458
+Dominican,Meat Shops,0.100327069624849
+Meat Shops,Dominican,0.100327069624849
+Beer Bar,Brazilian,0.100229885117275
+Brazilian,Beer Bar,0.100229885117275
+Egyptian,Middle Eastern,0.0999538752812728
+Middle Eastern,Egyptian,0.0999538752812728
+Beer Bar,Piano Bars,0.0998163308303919
+Piano Bars,Beer Bar,0.0998163308303919
+Laotian,Meat Shops,0.0995919054475602
+Meat Shops,Laotian,0.0995919054475602
+Caribbean,Cupcakes,0.0995176554241013
+Cupcakes,Caribbean,0.0995176554241013
+Dive Bars,Indonesian,0.0992680893405913
+Indonesian,Dive Bars,0.0992680893405913
+Cambodian,Mediterranean,0.0990502471752921
+Mediterranean,Cambodian,0.0990502471752921
+Country Dance Halls,Specialty Food,0.0986403705345303
+Specialty Food,Country Dance Halls,0.0986403705345303
+Cooking Classes,Latin American,0.0984158761307683
+Latin American,Cooking Classes,0.0984158761307683
+Caribbean,Personal Assistants,0.098291173358934
+Personal Assistants,Caribbean,0.098291173358934
+Cheese Shops,Laotian,0.0982687775363636
+Laotian,Cheese Shops,0.0982687775363636
+Gelato,Hobby Shops,0.098160546728826
+Hobby Shops,Gelato,0.098160546728826
+Specialty Food,Vegetarian,0.0981513140078633
+Vegetarian,Specialty Food,0.0981513140078633
+Caribbean,Country Dance Halls,0.0980951652852228
+Country Dance Halls,Caribbean,0.0980951652852228
+Hobby Shops,Personal Assistants,0.0980144703006529
+Personal Assistants,Hobby Shops,0.0980144703006529
+Cooking Classes,Food Delivery Services,0.0979724381545786
+Food Delivery Services,Cooking Classes,0.0979724381545786
+Live/Raw Food,Shanghainese,0.0977342678641824
+Shanghainese,Live/Raw Food,0.0977342678641824
+Bangladeshi,Event Planning & Services,0.0976028824295659
+Event Planning & Services,Bangladeshi,0.0976028824295659
+Bangladeshi,Laotian,0.097523345581031
+Laotian,Bangladeshi,0.097523345581031
+Gelato,Mediterranean,0.0972949818348072
+Mediterranean,Gelato,0.0972949818348072
+Breweries,Country Dance Halls,0.0969618911410671
+Country Dance Halls,Breweries,0.0969618911410671
+Cupcakes,Dive Bars,0.0969279147156082
+Dive Bars,Cupcakes,0.0969279147156082
+Cuban,Egyptian,0.0969176850620827
+Egyptian,Cuban,0.0969176850620827
+Cheese Shops,Gelato,0.0966801496363507
+Gelato,Cheese Shops,0.0966801496363507
+Dive Bars,Persian/Iranian,0.096664609717307
+Persian/Iranian,Dive Bars,0.096664609717307
+Filipino,Persian/Iranian,0.0965655072292827
+Persian/Iranian,Filipino,0.0965655072292827
+Cupcakes,Egyptian,0.0964370429725754
+Egyptian,Cupcakes,0.0964370429725754
+Italian,Piano Bars,0.0964071343251695
+Piano Bars,Italian,0.0964071343251695
+Cupcakes,Latin American,0.0963549455437489
+Latin American,Cupcakes,0.0963549455437489
+Falafel,Italian,0.0963315918192811
+Italian,Falafel,0.0963315918192811
+Mediterranean,Personal Assistants,0.0962379928707955
+Personal Assistants,Mediterranean,0.0962379928707955
+Indonesian,Personal Assistants,0.0960918327175827
+Personal Assistants,Indonesian,0.0960918327175827
+Beer Bar,Nail Salons,0.0960296426565811
+Nail Salons,Beer Bar,0.0960296426565811
+Fitness & Instruction,Mediterranean,0.096014007088369
+Mediterranean,Fitness & Instruction,0.096014007088369
+Laotian,Vegetarian,0.0959184721550115
+Vegetarian,Laotian,0.0959184721550115
+Falafel,Hot Pot,0.0959172505834434
+Hot Pot,Falafel,0.0959172505834434
+Cuban,Ethnic Food,0.0957906065765326
+Ethnic Food,Cuban,0.0957906065765326
+Cheese Shops,Persian/Iranian,0.0957076607936451
+Persian/Iranian,Cheese Shops,0.0957076607936451
+Hobby Shops,Laotian,0.0956094401991869
+Laotian,Hobby Shops,0.0956094401991869
+Cuban,Laotian,0.0954790054143107
+Laotian,Cuban,0.0954790054143107
+Country Dance Halls,Fitness & Instruction,0.0952407319911596
+Fitness & Instruction,Country Dance Halls,0.0952407319911596
+Filipino,Live/Raw Food,0.094974929088304
+Live/Raw Food,Filipino,0.094974929088304
+Dive Bars,Laotian,0.0947960807004749
+Laotian,Dive Bars,0.0947960807004749
+Delis,Spanish,0.0947756254622135
+Spanish,Delis,0.0947756254622135
+Cheese Shops,Dive Bars,0.0947211839800661
+Dive Bars,Cheese Shops,0.0947211839800661
+Breweries,Pubs,0.0944808624401684
+Pubs,Breweries,0.0944808624401684
+Cupcakes,Spanish,0.0944805967977472
+Spanish,Cupcakes,0.0944805967977472
+Fast Food,Piano Bars,0.0944431100905648
+Piano Bars,Fast Food,0.0944431100905648
+Event Planning & Services,Meat Shops,0.0944081681400001
+Meat Shops,Event Planning & Services,0.0944081681400001
+Brazilian,Country Dance Halls,0.0944051154780822
+Country Dance Halls,Brazilian,0.0944051154780822
+Beer Bar,Cuban,0.0942899204751801
+Cuban,Beer Bar,0.0942899204751801
+Breweries,Spanish,0.0942176574000673
+Spanish,Breweries,0.0942176574000673
+Cupcakes,Persian/Iranian,0.0941620617452038
+Persian/Iranian,Cupcakes,0.0941620617452038
+Bangladeshi,Personal Assistants,0.0940234501200803
+Personal Assistants,Bangladeshi,0.0940234501200803
+Active Life,Italian,0.093924661673251
+Italian,Active Life,0.093924661673251
+Country Dance Halls,Food Delivery Services,0.0938990071805492
+Food Delivery Services,Country Dance Halls,0.0938990071805492
+Brazilian,Cheese Shops,0.093426695755896
+Cheese Shops,Brazilian,0.093426695755896
+Ethnic Food,Wine Bars,0.0933325343538856
+Wine Bars,Ethnic Food,0.0933325343538856
+Cooking Classes,Hobby Shops,0.093235193259792
+Hobby Shops,Cooking Classes,0.093235193259792
+Egyptian,Food Court,0.0931044015319057
+Food Court,Egyptian,0.0931044015319057
+Cheese Shops,Spanish,0.0928697538548373
+Spanish,Cheese Shops,0.0928697538548373
+Food Delivery Services,Pubs,0.0928120350888652
+Pubs,Food Delivery Services,0.0928120350888652
+Fitness & Instruction,Live/Raw Food,0.0925651805352357
+Live/Raw Food,Fitness & Instruction,0.0925651805352357
+Country Dance Halls,Falafel,0.0925303593727326
+Falafel,Country Dance Halls,0.0925303593727326
+Delis,Mediterranean,0.0924683804604695
+Mediterranean,Delis,0.0924683804604695
+Art Galleries,Shanghainese,0.0923749779357712
+Shanghainese,Art Galleries,0.0923749779357712
+Dominican,Fishing,0.0923037831194571
+Fishing,Dominican,0.0923037831194571
+Cupcakes,Hobby Shops,0.092258537919452
+Hobby Shops,Cupcakes,0.092258537919452
+Brazilian,Hot Pot,0.0921005257618259
+Hot Pot,Brazilian,0.0921005257618259
+Active Life,Personal Assistants,0.09189872321158
+Personal Assistants,Active Life,0.09189872321158
+Caribbean,Meat Shops,0.0917049627559113
+Meat Shops,Caribbean,0.0917049627559113
+Cambodian,Delis,0.0916385345202072
+Delis,Cambodian,0.0916385345202072
+Cambodian,Fishing,0.091164193163957
+Fishing,Cambodian,0.091164193163957
+Cafes,Shanghainese,0.0910402942054918
+Shanghainese,Cafes,0.0910402942054918
+Fitness & Instruction,Pubs,0.0909218362129813
+Pubs,Fitness & Instruction,0.0909218362129813
+Breweries,Shanghainese,0.0908981591374614
+Shanghainese,Breweries,0.0908981591374614
+Falafel,Middle Eastern,0.0908472791948973
+Middle Eastern,Falafel,0.0908472791948973
+Falafel,Latin American,0.090840836885061
+Latin American,Falafel,0.090840836885061
+Jazz & Blues,Vegetarian,0.0907674431247146
+Vegetarian,Jazz & Blues,0.0907674431247146
+Cheese Shops,Live/Raw Food,0.0906961564474389
+Live/Raw Food,Cheese Shops,0.0906961564474389
+Cupcakes,Specialty Food,0.0906581120034275
+Specialty Food,Cupcakes,0.0906581120034275
+Ethnic Food,Vegetarian,0.0906509777337449
+Vegetarian,Ethnic Food,0.0906509777337449
+Piano Bars,Wine Bars,0.0905895146361321
+Wine Bars,Piano Bars,0.0905895146361321
+Falafel,Fast Food,0.0903991819831693
+Fast Food,Falafel,0.0903991819831693
+Bangladeshi,Italian,0.0901964251407949
+Italian,Bangladeshi,0.0901964251407949
+Bangladeshi,Persian/Iranian,0.0901321535475045
+Persian/Iranian,Bangladeshi,0.0901321535475045
+Beer Bar,Hobby Shops,0.08997191046317
+Hobby Shops,Beer Bar,0.08997191046317
+Filipino,Hobby Shops,0.0893876270117891
+Hobby Shops,Filipino,0.0893876270117891
+Cupcakes,Personal Assistants,0.0891460751010283
+Personal Assistants,Cupcakes,0.0891460751010283
+Event Planning & Services,Hot Pot,0.0889323750378607
+Hot Pot,Event Planning & Services,0.0889323750378607
+Cuban,Hot Pot,0.0885446316166621
+Hot Pot,Cuban,0.0885446316166621
+Cafes,Cambodian,0.088503947783928
+Cambodian,Cafes,0.088503947783928
+Dance Clubs,Persian/Iranian,0.0884331028233767
+Persian/Iranian,Dance Clubs,0.0884331028233767
+Food Court,Mediterranean,0.0884058100615655
+Mediterranean,Food Court,0.0884058100615655
+Art Galleries,Wine Bars,0.0883918719004636
+Wine Bars,Art Galleries,0.0883918719004636
+Art Galleries,Cheese Shops,0.0883084170157162
+Cheese Shops,Art Galleries,0.0883084170157162
+Art Galleries,Personal Assistants,0.0882948493930122
+Personal Assistants,Art Galleries,0.0882948493930122
+Brazilian,Cuban,0.0880737650556986
+Cuban,Brazilian,0.0880737650556986
+Hot Pot,Persian/Iranian,0.0876107959845151
+Persian/Iranian,Hot Pot,0.0876107959845151
+Dive Bars,Ethnic Food,0.0871011927677058
+Ethnic Food,Dive Bars,0.0871011927677058
+Event Planning & Services,Laotian,0.0870784360863226
+Laotian,Event Planning & Services,0.0870784360863226
+Falafel,Filipino,0.0870329012269989
+Filipino,Falafel,0.0870329012269989
+Country Dance Halls,Ethnic Food,0.0869210869951902
+Ethnic Food,Country Dance Halls,0.0869210869951902
+Caribbean,Food Court,0.0864013958054756
+Food Court,Caribbean,0.0864013958054756
+Cooking Classes,Persian/Iranian,0.0862905592008385
+Persian/Iranian,Cooking Classes,0.0862905592008385
+Event Planning & Services,Falafel,0.0861346585822172
+Falafel,Event Planning & Services,0.0861346585822172
+Mediterranean,Specialty Food,0.0860578776623284
+Specialty Food,Mediterranean,0.0860578776623284
+Hobby Shops,Spanish,0.0860260994551423
+Spanish,Hobby Shops,0.0860260994551423
+Cuban,Shanghainese,0.0858292548630358
+Shanghainese,Cuban,0.0858292548630358
+Active Life,Laotian,0.085769721561578
+Laotian,Active Life,0.085769721561578
+Dive Bars,Fast Food,0.0857642928256037
+Fast Food,Dive Bars,0.0857642928256037
+Cuban,Piano Bars,0.0857016405480881
+Piano Bars,Cuban,0.0857016405480881
+Beer Bar,Cheese Shops,0.0856840569779057
+Cheese Shops,Beer Bar,0.0856840569779057
+Delis,Fitness & Instruction,0.0856227625114744
+Fitness & Instruction,Delis,0.0856227625114744
+Breweries,Middle Eastern,0.0855503089334064
+Middle Eastern,Breweries,0.0855503089334064
+Piano Bars,Vegetarian,0.0855006720783041
+Vegetarian,Piano Bars,0.0855006720783041
+Fast Food,Specialty Food,0.0849373281427061
+Specialty Food,Fast Food,0.0849373281427061
+Beer Bar,Mediterranean,0.0847600820590178
+Mediterranean,Beer Bar,0.0847600820590178
+Indonesian,Piano Bars,0.0847182990524886
+Piano Bars,Indonesian,0.0847182990524886
+Italian,Nail Salons,0.0844532052655267
+Nail Salons,Italian,0.0844532052655267
+Active Life,Live/Raw Food,0.0844482777201967
+Live/Raw Food,Active Life,0.0844482777201967
+Egyptian,Personal Assistants,0.0843421004851927
+Personal Assistants,Egyptian,0.0843421004851927
+Falafel,Food Court,0.0842314980317633
+Food Court,Falafel,0.0842314980317633
+Cuban,Middle Eastern,0.0841936150072081
+Middle Eastern,Cuban,0.0841936150072081
+Cambodian,Personal Assistants,0.0841110158707536
+Personal Assistants,Cambodian,0.0841110158707536
+Hobby Shops,Persian/Iranian,0.0840398044876554
+Persian/Iranian,Hobby Shops,0.0840398044876554
+Fitness & Instruction,Hot Pot,0.0837015732092437
+Hot Pot,Fitness & Instruction,0.0837015732092437
+Cambodian,Wine Bars,0.0834591580349324
+Wine Bars,Cambodian,0.0834591580349324
+Dance Clubs,Fitness & Instruction,0.0833373964942736
+Fitness & Instruction,Dance Clubs,0.0833373964942736
+Cafes,Piano Bars,0.0832989979094315
+Piano Bars,Cafes,0.0832989979094315
+Event Planning & Services,Persian/Iranian,0.0831599705097142
+Persian/Iranian,Event Planning & Services,0.0831599705097142
+Bangladeshi,Food Court,0.0829941225259655
+Food Court,Bangladeshi,0.0829941225259655
+Food Court,Hot Pot,0.082900272361457
+Hot Pot,Food Court,0.082900272361457
+Hobby Shops,Hot Pot,0.0827952705799609
+Hot Pot,Hobby Shops,0.0827952705799609
+Bangladeshi,Hobby Shops,0.0826519106708281
+Hobby Shops,Bangladeshi,0.0826519106708281
+Dance Clubs,Laotian,0.0824829909373878
+Laotian,Dance Clubs,0.0824829909373878
+Dominican,Wine Bars,0.0823414369188692
+Wine Bars,Dominican,0.0823414369188692
+Breweries,Vegetarian,0.0823394437385482
+Vegetarian,Breweries,0.0823394437385482
+Art Galleries,Meat Shops,0.0822157282590553
+Meat Shops,Art Galleries,0.0822157282590553
+Food Court,Jazz & Blues,0.0821585540621464
+Jazz & Blues,Food Court,0.0821585540621464
+Delis,Meat Shops,0.0821059312791545
+Meat Shops,Delis,0.0821059312791545
+Cheese Shops,Mediterranean,0.0819730568371343
+Mediterranean,Cheese Shops,0.0819730568371343
+Breweries,Latin American,0.0819082138564598
+Latin American,Breweries,0.0819082138564598
+Beer Bar,Country Dance Halls,0.0815734480667083
+Country Dance Halls,Beer Bar,0.0815734480667083
+Indonesian,Nail Salons,0.081541970048475
+Nail Salons,Indonesian,0.081541970048475
+Italian,Pubs,0.0813459232655652
+Pubs,Italian,0.0813459232655652
+Beer Bar,Food Court,0.0804353023374186
+Food Court,Beer Bar,0.0804353023374186
+Beer Bar,Gelato,0.0803088603125348
+Gelato,Beer Bar,0.0803088603125348
+Delis,Vegetarian,0.0801109189267723
+Vegetarian,Delis,0.0801109189267723
+Cuban,Delis,0.0799509047312752
+Delis,Cuban,0.0799509047312752
+Country Dance Halls,Spanish,0.0796571372246881
+Spanish,Country Dance Halls,0.0796571372246881
+Nail Salons,Persian/Iranian,0.0793738364437401
+Persian/Iranian,Nail Salons,0.0793738364437401
+Fishing,Meat Shops,0.0792505856761322
+Meat Shops,Fishing,0.0792505856761322
+Breweries,Delis,0.0792298365382242
+Delis,Breweries,0.0792298365382242
+Art Galleries,Cupcakes,0.0790491614571531
+Cupcakes,Art Galleries,0.0790491614571531
+Cheese Shops,Dominican,0.0788739165590181
+Dominican,Cheese Shops,0.0788739165590181
+Bangladeshi,Fishing,0.0785592572613497
+Fishing,Bangladeshi,0.0785592572613497
+Food Delivery Services,Shanghainese,0.0785076658029819
+Shanghainese,Food Delivery Services,0.0785076658029819
+Art Galleries,Nail Salons,0.077942962617534
+Nail Salons,Art Galleries,0.077942962617534
+Gelato,Personal Assistants,0.0777413294711951
+Personal Assistants,Gelato,0.0777413294711951
+Live/Raw Food,Persian/Iranian,0.0775462594058475
+Persian/Iranian,Live/Raw Food,0.0775462594058475
+Middle Eastern,Spanish,0.0772454237730341
+Spanish,Middle Eastern,0.0772454237730341
+Dominican,Nail Salons,0.0770864183942283
+Nail Salons,Dominican,0.0770864183942283
+Falafel,Shanghainese,0.0769895069214883
+Shanghainese,Falafel,0.0769895069214883
+Bangladeshi,Gelato,0.0767153330564288
+Gelato,Bangladeshi,0.0767153330564288
+Gelato,Middle Eastern,0.0766278677204656
+Middle Eastern,Gelato,0.0766278677204656
+Persian/Iranian,Spanish,0.076325809420838
+Spanish,Persian/Iranian,0.076325809420838
+Italian,Vegetarian,0.0762643201801687
+Vegetarian,Italian,0.0762643201801687
+Ethnic Food,Jazz & Blues,0.0761653729135078
+Jazz & Blues,Ethnic Food,0.0761653729135078
+Fast Food,Indonesian,0.0761608318655599
+Indonesian,Fast Food,0.0761608318655599
+Filipino,Pubs,0.0760274174506961
+Pubs,Filipino,0.0760274174506961
+Filipino,Vegetarian,0.0757892970108019
+Vegetarian,Filipino,0.0757892970108019
+Egyptian,Persian/Iranian,0.0757665416361259
+Persian/Iranian,Egyptian,0.0757665416361259
+Brazilian,Cooking Classes,0.0756343362367242
+Cooking Classes,Brazilian,0.0756343362367242
+Indonesian,Jazz & Blues,0.0754473684179928
+Jazz & Blues,Indonesian,0.0754473684179928
+Cambodian,Egyptian,0.0753230600759825
+Egyptian,Cambodian,0.0753230600759825
+Indonesian,Latin American,0.0751310989259902
+Latin American,Indonesian,0.0751310989259902
+Dive Bars,Latin American,0.0751215720424127
+Latin American,Dive Bars,0.0751215720424127
+Event Planning & Services,Live/Raw Food,0.0750747710520663
+Live/Raw Food,Event Planning & Services,0.0750747710520663
+Falafel,Specialty Food,0.0750056736702452
+Specialty Food,Falafel,0.0750056736702452
+Egyptian,Gelato,0.0748757545900803
+Gelato,Egyptian,0.0748757545900803
+Active Life,Delis,0.0746968138032418
+Delis,Active Life,0.0746968138032418
+Egyptian,Shanghainese,0.0746309116672358
+Shanghainese,Egyptian,0.0746309116672358
+Cooking Classes,Fishing,0.0746084801175987
+Fishing,Cooking Classes,0.0746084801175987
+Fitness & Instruction,Spanish,0.0745825780103462
+Spanish,Fitness & Instruction,0.0745825780103462
+Dive Bars,Personal Assistants,0.0743390857005742
+Personal Assistants,Dive Bars,0.0743390857005742
+Bangladeshi,Piano Bars,0.0742658030332135
+Piano Bars,Bangladeshi,0.0742658030332135
+Falafel,Indonesian,0.0742356841633984
+Indonesian,Falafel,0.0742356841633984
+Brazilian,Cambodian,0.0741097728676861
+Cambodian,Brazilian,0.0741097728676861
+Art Galleries,Fitness & Instruction,0.0740105153366096
+Fitness & Instruction,Art Galleries,0.0740105153366096
+Cuban,Spanish,0.0739763814398201
+Spanish,Cuban,0.0739763814398201
+Dance Clubs,Hobby Shops,0.0739523397930912
+Hobby Shops,Dance Clubs,0.0739523397930912
+Cuban,Meat Shops,0.0737385986187913
+Meat Shops,Cuban,0.0737385986187913
+Breweries,Filipino,0.0737331417641098
+Filipino,Breweries,0.0737331417641098
+Breweries,Dance Clubs,0.073697328605502
+Dance Clubs,Breweries,0.073697328605502
+Fast Food,Hobby Shops,0.0736679915105442
+Hobby Shops,Fast Food,0.0736679915105442
+Mediterranean,Piano Bars,0.0736418485394367
+Piano Bars,Mediterranean,0.0736418485394367
+Dive Bars,Gelato,0.0735657484685624
+Gelato,Dive Bars,0.0735657484685624
+Personal Assistants,Shanghainese,0.0734905457287019
+Shanghainese,Personal Assistants,0.0734905457287019
+Beer Bar,Breweries,0.0733384488915272
+Breweries,Beer Bar,0.0733384488915272
+Caribbean,Middle Eastern,0.0733084716525681
+Middle Eastern,Caribbean,0.0733084716525681
+Fitness & Instruction,Specialty Food,0.0732031392620653
+Specialty Food,Fitness & Instruction,0.0732031392620653
+Event Planning & Services,Pubs,0.073022485601573
+Pubs,Event Planning & Services,0.073022485601573
+Cupcakes,Fitness & Instruction,0.0729535488603525
+Fitness & Instruction,Cupcakes,0.0729535488603525
+Delis,Ethnic Food,0.0728557040314968
+Ethnic Food,Delis,0.0728557040314968
+Egyptian,Filipino,0.0728099144622522
+Filipino,Egyptian,0.0728099144622522
+Egyptian,Hot Pot,0.0722684320883806
+Hot Pot,Egyptian,0.0722684320883806
+Jazz & Blues,Specialty Food,0.0722426328409691
+Specialty Food,Jazz & Blues,0.0722426328409691
+Bangladeshi,Falafel,0.0720989859869468
+Falafel,Bangladeshi,0.0720989859869468
+Laotian,Spanish,0.0716810105427433
+Spanish,Laotian,0.0716810105427433
+Event Planning & Services,Food Delivery Services,0.0714998081649781
+Food Delivery Services,Event Planning & Services,0.0714998081649781
+Nail Salons,Shanghainese,0.0714437314286997
+Shanghainese,Nail Salons,0.0714437314286997
+Breweries,Piano Bars,0.0714251349235936
+Piano Bars,Breweries,0.0714251349235936
+Cafes,Food Delivery Services,0.0712562482435012
+Food Delivery Services,Cafes,0.0712562482435012
+Caribbean,Vegetarian,0.0708675141273945
+Vegetarian,Caribbean,0.0708675141273945
+Egyptian,Piano Bars,0.0705843442095346
+Piano Bars,Egyptian,0.0705843442095346
+Jazz & Blues,Personal Assistants,0.0705522307780252
+Personal Assistants,Jazz & Blues,0.0705522307780252
+Filipino,Shanghainese,0.0704422811964018
+Shanghainese,Filipino,0.0704422811964018
+Filipino,Specialty Food,0.0703896877902088
+Specialty Food,Filipino,0.0703896877902088
+Cooking Classes,Live/Raw Food,0.0700008916192338
+Live/Raw Food,Cooking Classes,0.0700008916192338
+Cafes,Delis,0.0698793137969648
+Delis,Cafes,0.0698793137969648
+Caribbean,Cooking Classes,0.0696620478424794
+Cooking Classes,Caribbean,0.0696620478424794
+Ethnic Food,Persian/Iranian,0.0695487723597742
+Persian/Iranian,Ethnic Food,0.0695487723597742
+Persian/Iranian,Piano Bars,0.0694949379586553
+Piano Bars,Persian/Iranian,0.0694949379586553
+Indonesian,Shanghainese,0.069489761784222
+Shanghainese,Indonesian,0.069489761784222
+Filipino,Indonesian,0.0692453793222974
+Indonesian,Filipino,0.0692453793222974
+Cambodian,Hobby Shops,0.0691259169249557
+Hobby Shops,Cambodian,0.0691259169249557
+Breweries,Italian,0.0688738561860005
+Italian,Breweries,0.0688738561860005
+Falafel,Laotian,0.0684785357546246
+Laotian,Falafel,0.0684785357546246
+Delis,Personal Assistants,0.0682348568753468
+Personal Assistants,Delis,0.0682348568753468
+Delis,Pubs,0.0681782209989726
+Pubs,Delis,0.0681782209989726
+Mediterranean,Spanish,0.0680335395538046
+Spanish,Mediterranean,0.0680335395538046
+Hot Pot,Shanghainese,0.0680056837999749
+Shanghainese,Hot Pot,0.0680056837999749
+Cuban,Latin American,0.0679175140984715
+Latin American,Cuban,0.0679175140984715
+Ethnic Food,Italian,0.0677033363698818
+Italian,Ethnic Food,0.0677033363698818
+Cheese Shops,Food Court,0.0670844067866217
+Food Court,Cheese Shops,0.0670844067866217
+Dive Bars,Event Planning & Services,0.0670547396263272
+Event Planning & Services,Dive Bars,0.0670547396263272
+Breweries,Cooking Classes,0.0668167706295102
+Cooking Classes,Breweries,0.0668167706295102
+Hot Pot,Wine Bars,0.0666777134839093
+Wine Bars,Hot Pot,0.0666777134839093
+Hobby Shops,Nail Salons,0.0665678021004397
+Nail Salons,Hobby Shops,0.0665678021004397
+Cupcakes,Delis,0.0665250087427709
+Delis,Cupcakes,0.0665250087427709
+Active Life,Specialty Food,0.0659535540282393
+Specialty Food,Active Life,0.0659535540282393
+Brazilian,Dance Clubs,0.0659420254082132
+Dance Clubs,Brazilian,0.0659420254082132
+Delis,Persian/Iranian,0.0659328877505192
+Persian/Iranian,Delis,0.0659328877505192
+Cambodian,Shanghainese,0.0658167034312529
+Shanghainese,Cambodian,0.0658167034312529
+Bangladeshi,Live/Raw Food,0.0657828716812661
+Live/Raw Food,Bangladeshi,0.0657828716812661
+Dive Bars,Falafel,0.0653825100194935
+Falafel,Dive Bars,0.0653825100194935
+Laotian,Live/Raw Food,0.0649854708903426
+Live/Raw Food,Laotian,0.0649854708903426
+Bangladeshi,Dive Bars,0.064968267135084
+Dive Bars,Bangladeshi,0.064968267135084
+Art Galleries,Middle Eastern,0.0648490074307067
+Middle Eastern,Art Galleries,0.0648490074307067
+Ethnic Food,Personal Assistants,0.0647677402851753
+Personal Assistants,Ethnic Food,0.0647677402851753
+Active Life,Cupcakes,0.064621664218602
+Cupcakes,Active Life,0.064621664218602
+Active Life,Food Delivery Services,0.0645206543519304
+Food Delivery Services,Active Life,0.0645206543519304
+Middle Eastern,Nail Salons,0.0644659620385081
+Nail Salons,Middle Eastern,0.0644659620385081
+Art Galleries,Caribbean,0.0643204185047078
+Caribbean,Art Galleries,0.0643204185047078
+Art Galleries,Cuban,0.0641769519023611
+Cuban,Art Galleries,0.0641769519023611
+Ethnic Food,Falafel,0.0633149343823629
+Falafel,Ethnic Food,0.0633149343823629
+Dance Clubs,Food Court,0.0632724243695245
+Food Court,Dance Clubs,0.0632724243695245
+Gelato,Nail Salons,0.0632709620526442
+Nail Salons,Gelato,0.0632709620526442
+Breweries,Fitness & Instruction,0.063185719466945
+Fitness & Instruction,Breweries,0.063185719466945
+Cafes,Falafel,0.0630208586189573
+Falafel,Cafes,0.0630208586189573
+Breweries,Hobby Shops,0.0629723419661268
+Hobby Shops,Breweries,0.0629723419661268
+Dance Clubs,Fishing,0.0629019772688774
+Fishing,Dance Clubs,0.0629019772688774
+Falafel,Fitness & Instruction,0.0628812542758119
+Fitness & Instruction,Falafel,0.0628812542758119
+Cafes,Ethnic Food,0.0626997112875281
+Ethnic Food,Cafes,0.0626997112875281
+Persian/Iranian,Wine Bars,0.062566422312948
+Wine Bars,Persian/Iranian,0.062566422312948
+Art Galleries,Event Planning & Services,0.062317004537252
+Event Planning & Services,Art Galleries,0.062317004537252
+Gelato,Italian,0.0620803323299585
+Italian,Gelato,0.0620803323299585
+Dominican,Filipino,0.0617955545588546
+Filipino,Dominican,0.0617955545588546
+Cambodian,Piano Bars,0.0616953063949826
+Piano Bars,Cambodian,0.0616953063949826
+Hot Pot,Personal Assistants,0.0616507246172824
+Personal Assistants,Hot Pot,0.0616507246172824
+Food Court,Food Delivery Services,0.0614400616543191
+Food Delivery Services,Food Court,0.0614400616543191
+Hot Pot,Meat Shops,0.0611442781667679
+Meat Shops,Hot Pot,0.0611442781667679
+Country Dance Halls,Piano Bars,0.0611266984611598
+Piano Bars,Country Dance Halls,0.0611266984611598
+Brazilian,Dive Bars,0.0611011090098484
+Dive Bars,Brazilian,0.0611011090098484
+Delis,Hobby Shops,0.0607479864487973
+Hobby Shops,Delis,0.0607479864487973
+Bangladeshi,Ethnic Food,0.0602658078293728
+Ethnic Food,Bangladeshi,0.0602658078293728
+Egyptian,Spanish,0.0602655877298787
+Spanish,Egyptian,0.0602655877298787
+Cuban,Fishing,0.0599893552311564
+Fishing,Cuban,0.0599893552311564
+Fishing,Vegetarian,0.0599886202421633
+Vegetarian,Fishing,0.0599886202421633
+Breweries,Dive Bars,0.0598485959153403
+Dive Bars,Breweries,0.0598485959153403
+Caribbean,Fishing,0.0596580234601976
+Fishing,Caribbean,0.0596580234601976
+Cooking Classes,Filipino,0.0596545804271979
+Filipino,Cooking Classes,0.0596545804271979
+Event Planning & Services,Wine Bars,0.0595141959056753
+Wine Bars,Event Planning & Services,0.0595141959056753
+Dominican,Shanghainese,0.0590381834713286
+Shanghainese,Dominican,0.0590381834713286
+Fast Food,Gelato,0.0586172869121323
+Gelato,Fast Food,0.0586172869121323
+Fast Food,Nail Salons,0.0585674289563621
+Nail Salons,Fast Food,0.0585674289563621
+Fishing,Specialty Food,0.0584632927312176
+Specialty Food,Fishing,0.0584632927312176
+Italian,Specialty Food,0.0581508683253559
+Specialty Food,Italian,0.0581508683253559
+Active Life,Piano Bars,0.0580571965925365
+Piano Bars,Active Life,0.0580571965925365
+Live/Raw Food,Middle Eastern,0.05803099541015
+Middle Eastern,Live/Raw Food,0.05803099541015
+Cafes,Egyptian,0.0578196961813741
+Egyptian,Cafes,0.0578196961813741
+Dance Clubs,Dive Bars,0.0576942589148662
+Dive Bars,Dance Clubs,0.0576942589148662
+Country Dance Halls,Gelato,0.0574198405845826
+Gelato,Country Dance Halls,0.0574198405845826
+Delis,Food Delivery Services,0.0574183296684847
+Food Delivery Services,Delis,0.0574183296684847
+Middle Eastern,Personal Assistants,0.0572861508538958
+Personal Assistants,Middle Eastern,0.0572861508538958
+Country Dance Halls,Dive Bars,0.0568691921502241
+Dive Bars,Country Dance Halls,0.0568691921502241
+Dance Clubs,Latin American,0.056021564150793
+Latin American,Dance Clubs,0.056021564150793
+Country Dance Halls,Fishing,0.0559111942344112
+Fishing,Country Dance Halls,0.0559111942344112
+Event Planning & Services,Food Court,0.0557789858363653
+Food Court,Event Planning & Services,0.0557789858363653
+Dominican,Piano Bars,0.0556774726990541
+Piano Bars,Dominican,0.0556774726990541
+Cupcakes,Dance Clubs,0.055105547570888
+Dance Clubs,Cupcakes,0.055105547570888
+Fishing,Shanghainese,0.0549544799331292
+Shanghainese,Fishing,0.0549544799331292
+Cheese Shops,Nail Salons,0.054689911898113
+Nail Salons,Cheese Shops,0.054689911898113
+Bangladeshi,Beer Bar,0.0543594439279744
+Beer Bar,Bangladeshi,0.0543594439279744
+Filipino,Fishing,0.0540724461935638
+Fishing,Filipino,0.0540724461935638
+Dominican,Egyptian,0.0538870660978756
+Egyptian,Dominican,0.0538870660978756
+Cuban,Dive Bars,0.0538471677180201
+Dive Bars,Cuban,0.0538471677180201
+Active Life,Beer Bar,0.0537618395084279
+Beer Bar,Active Life,0.0537618395084279
+Cuban,Nail Salons,0.0535866214814655
+Nail Salons,Cuban,0.0535866214814655
+Beer Bar,Egyptian,0.0530504779432618
+Egyptian,Beer Bar,0.0530504779432618
+Country Dance Halls,Mediterranean,0.0529224330971191
+Mediterranean,Country Dance Halls,0.0529224330971191
+Ethnic Food,Spanish,0.0527370299759529
+Spanish,Ethnic Food,0.0527370299759529
+Italian,Mediterranean,0.0526032275771488
+Mediterranean,Italian,0.0526032275771488
+Bangladeshi,Spanish,0.0524572632232743
+Spanish,Bangladeshi,0.0524572632232743
+Brazilian,Indonesian,0.0523172129906903
+Indonesian,Brazilian,0.0523172129906903
+Shanghainese,Spanish,0.0521938069954287
+Spanish,Shanghainese,0.0521938069954287
+Country Dance Halls,Cuban,0.0520461370968644
+Cuban,Country Dance Halls,0.0520461370968644
+Cambodian,Caribbean,0.0520074295094156
+Caribbean,Cambodian,0.0520074295094156
+Mediterranean,Middle Eastern,0.0519747398943477
+Middle Eastern,Mediterranean,0.0519747398943477
+Latin American,Meat Shops,0.0519060035563114
+Meat Shops,Latin American,0.0519060035563114
+Dance Clubs,Fast Food,0.0518776892631492
+Fast Food,Dance Clubs,0.0518776892631492
+Delis,Piano Bars,0.0516059280583403
+Piano Bars,Delis,0.0516059280583403
+Cafes,Hot Pot,0.0513356378556168
+Hot Pot,Cafes,0.0513356378556168
+Dance Clubs,Egyptian,0.0512671071634005
+Egyptian,Dance Clubs,0.0512671071634005
+Country Dance Halls,Dominican,0.0511014595531665
+Dominican,Country Dance Halls,0.0511014595531665
+Gelato,Meat Shops,0.0508435351098836
+Meat Shops,Gelato,0.0508435351098836
+Beer Bar,Falafel,0.0508143428563054
+Falafel,Beer Bar,0.0508143428563054
+Laotian,Latin American,0.0506133169113077
+Latin American,Laotian,0.0506133169113077
+Food Delivery Services,Gelato,0.0504503841922364
+Gelato,Food Delivery Services,0.0504503841922364
+Live/Raw Food,Pubs,0.0504207340508758
+Pubs,Live/Raw Food,0.0504207340508758
+Middle Eastern,Shanghainese,0.0502722489791235
+Shanghainese,Middle Eastern,0.0502722489791235
+Cambodian,Dominican,0.0498182725240151
+Dominican,Cambodian,0.0498182725240151
+Hot Pot,Pubs,0.0496312046838605
+Pubs,Hot Pot,0.0496312046838605
+Nail Salons,Specialty Food,0.0495478235476426
+Specialty Food,Nail Salons,0.0495478235476426
+Brazilian,Filipino,0.0494652960981697
+Filipino,Brazilian,0.0494652960981697
+Active Life,Hobby Shops,0.0494620646615105
+Hobby Shops,Active Life,0.0494620646615105
+Latin American,Shanghainese,0.0486872722940753
+Shanghainese,Latin American,0.0486872722940753
+Persian/Iranian,Vegetarian,0.048664851815666
+Vegetarian,Persian/Iranian,0.048664851815666
+Dance Clubs,Nail Salons,0.0486635167833503
+Nail Salons,Dance Clubs,0.0486635167833503
+Cuban,Specialty Food,0.0486291676734688
+Specialty Food,Cuban,0.0486291676734688
+Active Life,Bangladeshi,0.0483948454087833
+Bangladeshi,Active Life,0.0483948454087833
+Cambodian,Middle Eastern,0.0481501698607015
+Middle Eastern,Cambodian,0.0481501698607015
+Food Court,Middle Eastern,0.0481147269665651
+Middle Eastern,Food Court,0.0481147269665651
+Cuban,Food Court,0.0479056645072343
+Food Court,Cuban,0.0479056645072343
+Cuban,Wine Bars,0.0475116644730186
+Wine Bars,Cuban,0.0475116644730186
+Falafel,Food Delivery Services,0.0474301008117847
+Food Delivery Services,Falafel,0.0474301008117847
+Delis,Wine Bars,0.0472259964080232
+Wine Bars,Delis,0.0472259964080232
+Cambodian,Jazz & Blues,0.0471709848291211
+Jazz & Blues,Cambodian,0.0471709848291211
+Cuban,Italian,0.0468720030032276
+Italian,Cuban,0.0468720030032276
+Nail Salons,Piano Bars,0.0466512851285493
+Piano Bars,Nail Salons,0.0466512851285493
+Active Life,Event Planning & Services,0.0466475686924325
+Event Planning & Services,Active Life,0.0466475686924325
+Cooking Classes,Jazz & Blues,0.0461381727763742
+Jazz & Blues,Cooking Classes,0.0461381727763742
+Meat Shops,Pubs,0.0459607004276738
+Pubs,Meat Shops,0.0459607004276738
+Cooking Classes,Laotian,0.0455235776129144
+Laotian,Cooking Classes,0.0455235776129144
+Piano Bars,Spanish,0.044983656527041
+Spanish,Piano Bars,0.044983656527041
+Dive Bars,Mediterranean,0.0448655942991453
+Mediterranean,Dive Bars,0.0448655942991453
+Brazilian,Vegetarian,0.0448609515990706
+Vegetarian,Brazilian,0.0448609515990706
+Dive Bars,Middle Eastern,0.0448084119359636
+Middle Eastern,Dive Bars,0.0448084119359636
+Breweries,Cuban,0.0445699919279757
+Cuban,Breweries,0.0445699919279757
+Brazilian,Laotian,0.0443470667696804
+Laotian,Brazilian,0.0443470667696804
+Event Planning & Services,Specialty Food,0.0442788490995104
+Specialty Food,Event Planning & Services,0.0442788490995104
+Live/Raw Food,Specialty Food,0.0442731368572151
+Specialty Food,Live/Raw Food,0.0442731368572151
+Egyptian,Fitness & Instruction,0.0442305644660893
+Fitness & Instruction,Egyptian,0.0442305644660893
+Country Dance Halls,Filipino,0.0439542087242983
+Filipino,Country Dance Halls,0.0439542087242983
+Cupcakes,Piano Bars,0.0438102686823519
+Piano Bars,Cupcakes,0.0438102686823519
+Indonesian,Laotian,0.0437334729815226
+Laotian,Indonesian,0.0437334729815226
+Fitness & Instruction,Middle Eastern,0.04370261500124
+Middle Eastern,Fitness & Instruction,0.04370261500124
+Dive Bars,Wine Bars,0.0433238670727288
+Wine Bars,Dive Bars,0.0433238670727288
+Cuban,Falafel,0.0432559676408397
+Falafel,Cuban,0.0432559676408397
+Beer Bar,Meat Shops,0.0432237279751926
+Meat Shops,Beer Bar,0.0432237279751926
+Dance Clubs,Gelato,0.0431135008208917
+Gelato,Dance Clubs,0.0431135008208917
+Active Life,Meat Shops,0.0427611095174704
+Meat Shops,Active Life,0.0427611095174704
+Cambodian,Specialty Food,0.0426766803784614
+Specialty Food,Cambodian,0.0426766803784614
+Ethnic Food,Nail Salons,0.0426483494395977
+Nail Salons,Ethnic Food,0.0426483494395977
+Breweries,Event Planning & Services,0.0426251365165134
+Event Planning & Services,Breweries,0.0426251365165134
+Art Galleries,Laotian,0.0426251044088165
+Laotian,Art Galleries,0.0426251044088165
+Event Planning & Services,Gelato,0.0424858443762939
+Gelato,Event Planning & Services,0.0424858443762939
+Cafes,Vegetarian,0.0423283315986527
+Vegetarian,Cafes,0.0423283315986527
+Dive Bars,Live/Raw Food,0.0418568022744623
+Live/Raw Food,Dive Bars,0.0418568022744623
+Beer Bar,Dive Bars,0.0418093749360508
+Dive Bars,Beer Bar,0.0418093749360508
+Caribbean,Pubs,0.0415783276288332
+Pubs,Caribbean,0.0415783276288332
+Fishing,Nail Salons,0.0414636082616364
+Nail Salons,Fishing,0.0414636082616364
+Breweries,Fast Food,0.0413199385435034
+Fast Food,Breweries,0.0413199385435034
+Active Life,Fast Food,0.0412467629662089
+Fast Food,Active Life,0.0412467629662089
+Caribbean,Hobby Shops,0.0411886005389784
+Hobby Shops,Caribbean,0.0411886005389784
+Active Life,Egyptian,0.0411709748429556
+Egyptian,Active Life,0.0411709748429556
+Fishing,Latin American,0.0411010643251295
+Latin American,Fishing,0.0411010643251295
+Fishing,Laotian,0.0409945498829661
+Laotian,Fishing,0.0409945498829661
+Bangladeshi,Vegetarian,0.0405590072399481
+Vegetarian,Bangladeshi,0.0405590072399481
+Dance Clubs,Vegetarian,0.0404787580873491
+Vegetarian,Dance Clubs,0.0404787580873491
+Cooking Classes,Event Planning & Services,0.040443398210843
+Event Planning & Services,Cooking Classes,0.040443398210843
+Country Dance Halls,Fast Food,0.0403722835963486
+Fast Food,Country Dance Halls,0.0403722835963486
+Art Galleries,Egyptian,0.0402597210716604
+Egyptian,Art Galleries,0.0402597210716604
+Cuban,Food Delivery Services,0.0402276549631405
+Food Delivery Services,Cuban,0.0402276549631405
+Breweries,Gelato,0.0401687498062725
+Gelato,Breweries,0.0401687498062725
+Egyptian,Live/Raw Food,0.0400653804345644
+Live/Raw Food,Egyptian,0.0400653804345644
+Brazilian,Italian,0.0400117532343044
+Italian,Brazilian,0.0400117532343044
+Cuban,Jazz & Blues,0.039938536762882
+Jazz & Blues,Cuban,0.039938536762882
+Cupcakes,Middle Eastern,0.0399353169943096
+Middle Eastern,Cupcakes,0.0399353169943096
+Dominican,Latin American,0.0398664649245066
+Latin American,Dominican,0.0398664649245066
+Cupcakes,Vegetarian,0.0397877268796607
+Vegetarian,Cupcakes,0.0397877268796607
+Brazilian,Dominican,0.0397404247282608
+Dominican,Brazilian,0.0397404247282608
+Filipino,Gelato,0.0394154324354637
+Gelato,Filipino,0.0394154324354637
+Cuban,Filipino,0.039363847629589
+Filipino,Cuban,0.039363847629589
+Latin American,Specialty Food,0.0388886168701968
+Specialty Food,Latin American,0.0388886168701968
+Cheese Shops,Italian,0.0388784911400765
+Italian,Cheese Shops,0.0388784911400765
+Fitness & Instruction,Indonesian,0.038796493077969
+Indonesian,Fitness & Instruction,0.038796493077969
+Dance Clubs,Spanish,0.0386310118832927
+Spanish,Dance Clubs,0.0386310118832927
+Cooking Classes,Piano Bars,0.0385838850524379
+Piano Bars,Cooking Classes,0.0385838850524379
+Bangladeshi,Specialty Food,0.0385305179036477
+Specialty Food,Bangladeshi,0.0385305179036477
+Fast Food,Fishing,0.0383228863137858
+Fishing,Fast Food,0.0383228863137858
+Bangladeshi,Egyptian,0.0381516288476541
+Egyptian,Bangladeshi,0.0381516288476541
+Event Planning & Services,Indonesian,0.0381129089605475
+Indonesian,Event Planning & Services,0.0381129089605475
+Egyptian,Specialty Food,0.0376672575936698
+Specialty Food,Egyptian,0.0376672575936698
+Cafes,Filipino,0.0376253964660405
+Filipino,Cafes,0.0376253964660405
+Active Life,Dive Bars,0.0375965122016343
+Dive Bars,Active Life,0.0375965122016343
+Hot Pot,Middle Eastern,0.0370573740575248
+Middle Eastern,Hot Pot,0.0370573740575248
+Cooking Classes,Shanghainese,0.0368638671988781
+Shanghainese,Cooking Classes,0.0368638671988781
+Ethnic Food,Hot Pot,0.0367558445104278
+Hot Pot,Ethnic Food,0.0367558445104278
+Nail Salons,Spanish,0.0366994931720407
+Spanish,Nail Salons,0.0366994931720407
+Cafes,Event Planning & Services,0.0366918881744859
+Event Planning & Services,Cafes,0.0366918881744859
+Cafes,Specialty Food,0.0366231900751611
+Specialty Food,Cafes,0.0366231900751611
+Gelato,Latin American,0.0364941856362133
+Latin American,Gelato,0.0364941856362133
+Cambodian,Filipino,0.0362660772602711
+Filipino,Cambodian,0.0362660772602711
+Active Life,Nail Salons,0.036218638241103
+Nail Salons,Active Life,0.036218638241103
+Fitness & Instruction,Gelato,0.036205075211969
+Gelato,Fitness & Instruction,0.036205075211969
+Dance Clubs,Specialty Food,0.0360255382870273
+Specialty Food,Dance Clubs,0.0360255382870273
+Food Court,Indonesian,0.0359205574449177
+Indonesian,Food Court,0.0359205574449177
+Event Planning & Services,Vegetarian,0.0358620913757015
+Vegetarian,Event Planning & Services,0.0358620913757015
+Cambodian,Indonesian,0.035605261687351
+Indonesian,Cambodian,0.035605261687351
+Fast Food,Italian,0.0354599416950285
+Italian,Fast Food,0.0354599416950285
+Jazz & Blues,Live/Raw Food,0.0354117294667836
+Live/Raw Food,Jazz & Blues,0.0354117294667836
+Food Delivery Services,Live/Raw Food,0.0353187576792626
+Live/Raw Food,Food Delivery Services,0.0353187576792626
+Cheese Shops,Personal Assistants,0.0349136775251093
+Personal Assistants,Cheese Shops,0.0349136775251093
+Fast Food,Hot Pot,0.0348456634267027
+Hot Pot,Fast Food,0.0348456634267027
+Beer Bar,Vegetarian,0.0347011824256418
+Vegetarian,Beer Bar,0.0347011824256418
+Personal Assistants,Specialty Food,0.0346015498405671
+Specialty Food,Personal Assistants,0.0346015498405671
+Ethnic Food,Mediterranean,0.0344562212459269
+Mediterranean,Ethnic Food,0.0344562212459269
+Delis,Food Court,0.0341549304485119
+Food Court,Delis,0.0341549304485119
+Art Galleries,Dive Bars,0.0341139748333536
+Dive Bars,Art Galleries,0.0341139748333536
+Italian,Spanish,0.0340404124525479
+Spanish,Italian,0.0340404124525479
+Bangladeshi,Dominican,0.0340341879349531
+Dominican,Bangladeshi,0.0340341879349531
+Fitness & Instruction,Food Delivery Services,0.0338235352604861
+Food Delivery Services,Fitness & Instruction,0.0338235352604861
+Dive Bars,Nail Salons,0.033678164401441
+Nail Salons,Dive Bars,0.033678164401441
+Art Galleries,Beer Bar,0.0334991960092836
+Beer Bar,Art Galleries,0.0334991960092836
+Gelato,Specialty Food,0.0326196769066845
+Specialty Food,Gelato,0.0326196769066845
+Falafel,Nail Salons,0.0325576134268094
+Nail Salons,Falafel,0.0325576134268094
+Brazilian,Caribbean,0.032474931015308
+Caribbean,Brazilian,0.032474931015308
+Dance Clubs,Live/Raw Food,0.0324366973090371
+Live/Raw Food,Dance Clubs,0.0324366973090371
+Ethnic Food,Filipino,0.032327128532754
+Filipino,Ethnic Food,0.032327128532754
+Latin American,Personal Assistants,0.0321763152040453
+Personal Assistants,Latin American,0.0321763152040453
+Active Life,Caribbean,0.0321571347359167
+Caribbean,Active Life,0.0321571347359167
+Laotian,Pubs,0.0321363184943982
+Pubs,Laotian,0.0321363184943982
+Caribbean,Fitness & Instruction,0.0318381015808179
+Fitness & Instruction,Caribbean,0.0318381015808179
+Hot Pot,Indonesian,0.0316477561306963
+Indonesian,Hot Pot,0.0316477561306963
+Hot Pot,Specialty Food,0.0315787562648618
+Specialty Food,Hot Pot,0.0315787562648618
+Cafes,Jazz & Blues,0.0313059820556751
+Jazz & Blues,Cafes,0.0313059820556751
+Cafes,Spanish,0.0305189035640624
+Spanish,Cafes,0.0305189035640624
+Dance Clubs,Personal Assistants,0.0302755183616715
+Personal Assistants,Dance Clubs,0.0302755183616715
+Country Dance Halls,Food Court,0.0298138649440755
+Food Court,Country Dance Halls,0.0298138649440755
+Cafes,Dive Bars,0.02932095844282
+Dive Bars,Cafes,0.02932095844282
+Art Galleries,Live/Raw Food,0.0293087676409865
+Live/Raw Food,Art Galleries,0.0293087676409865
+Caribbean,Gelato,0.0284652653569922
+Gelato,Caribbean,0.0284652653569922
+Food Court,Spanish,0.0283100983327881
+Spanish,Food Court,0.0283100983327881
+Cafes,Cupcakes,0.0279827940311425
+Cupcakes,Cafes,0.0279827940311425
+Beer Bar,Dance Clubs,0.0276414749269221
+Dance Clubs,Beer Bar,0.0276414749269221
+Fitness & Instruction,Nail Salons,0.0275938847158461
+Nail Salons,Fitness & Instruction,0.0275938847158461
+Country Dance Halls,Live/Raw Food,0.027209641631847
+Live/Raw Food,Country Dance Halls,0.027209641631847
+Beer Bar,Cooking Classes,0.02714048922433
+Cooking Classes,Beer Bar,0.02714048922433
+Delis,Specialty Food,0.0268849854470986
+Specialty Food,Delis,0.0268849854470986
+Cupcakes,Live/Raw Food,0.0266405335890546
+Live/Raw Food,Cupcakes,0.0266405335890546
+Caribbean,Delis,0.0264504994336157
+Delis,Caribbean,0.0264504994336157
+Ethnic Food,Latin American,0.0259997748614903
+Latin American,Ethnic Food,0.0259997748614903
+Cheese Shops,Jazz & Blues,0.0259843509337761
+Jazz & Blues,Cheese Shops,0.0259843509337761
+Hobby Shops,Indonesian,0.0258437945740528
+Indonesian,Hobby Shops,0.0258437945740528
+Hobby Shops,Italian,0.0256698646168552
+Italian,Hobby Shops,0.0256698646168552
+Cuban,Vegetarian,0.0253448781780852
+Vegetarian,Cuban,0.0253448781780852
+Active Life,Cambodian,0.0253021804399634
+Cambodian,Active Life,0.0253021804399634
+Cheese Shops,Pubs,0.0252041324484269
+Pubs,Cheese Shops,0.0252041324484269
+Shanghainese,Wine Bars,0.0249331050402023
+Wine Bars,Shanghainese,0.0249331050402023
+Dive Bars,Specialty Food,0.0247391950435161
+Specialty Food,Dive Bars,0.0247391950435161
+Dominican,Specialty Food,0.0247258878583361
+Specialty Food,Dominican,0.0247258878583361
+Cambodian,Spanish,0.0247120311554398
+Spanish,Cambodian,0.0247120311554398
+Cambodian,Live/Raw Food,0.0244161988473992
+Live/Raw Food,Cambodian,0.0244161988473992
+Brazilian,Middle Eastern,0.0243902202126869
+Middle Eastern,Brazilian,0.0243902202126869
+Cuban,Event Planning & Services,0.0242836580843486
+Event Planning & Services,Cuban,0.0242836580843486
+Brazilian,Fast Food,0.0239781959364886
+Fast Food,Brazilian,0.0239781959364886
+Dive Bars,Fitness & Instruction,0.0239225925513659
+Fitness & Instruction,Dive Bars,0.0239225925513659
+Caribbean,Indonesian,0.0238651118566344
+Indonesian,Caribbean,0.0238651118566344
+Fishing,Hot Pot,0.023829524302022
+Hot Pot,Fishing,0.023829524302022
+Fast Food,Food Court,0.02350524316461
+Food Court,Fast Food,0.02350524316461
+Cambodian,Vegetarian,0.0234228775289843
+Vegetarian,Cambodian,0.0234228775289843
+Cooking Classes,Meat Shops,0.0233823437593531
+Meat Shops,Cooking Classes,0.0233823437593531
+Cafes,Laotian,0.0232997641425149
+Laotian,Cafes,0.0232997641425149
+Cafes,Caribbean,0.0228624169406475
+Caribbean,Cafes,0.0228624169406475
+Caribbean,Italian,0.0227154788787753
+Italian,Caribbean,0.0227154788787753
+Hobby Shops,Jazz & Blues,0.022575970756806
+Jazz & Blues,Hobby Shops,0.022575970756806
+Beer Bar,Latin American,0.0225166841195701
+Latin American,Beer Bar,0.0225166841195701
+Hobby Shops,Shanghainese,0.0224242400684265
+Shanghainese,Hobby Shops,0.0224242400684265
+Ethnic Food,Middle Eastern,0.0221270106676531
+Middle Eastern,Ethnic Food,0.0221270106676531
+Caribbean,Mediterranean,0.0219213149413052
+Mediterranean,Caribbean,0.0219213149413052
+Cafes,Food Court,0.0217776866068416
+Food Court,Cafes,0.0217776866068416
+Indonesian,Italian,0.021647405401789
+Italian,Indonesian,0.021647405401789
+Cupcakes,Meat Shops,0.0216048775896529
+Meat Shops,Cupcakes,0.0216048775896529
+Cafes,Country Dance Halls,0.0215505315782627
+Country Dance Halls,Cafes,0.0215505315782627
+Bangladeshi,Cafes,0.0212874558954354
+Cafes,Bangladeshi,0.0212874558954354
+Hot Pot,Spanish,0.0212317161569173
+Spanish,Hot Pot,0.0212317161569173
+Cheese Shops,Indonesian,0.0212310345175555
+Indonesian,Cheese Shops,0.0212310345175555
+Fast Food,Filipino,0.0212254417674356
+Filipino,Fast Food,0.0212254417674356
+Event Planning & Services,Latin American,0.0211733776950553
+Latin American,Event Planning & Services,0.0211733776950553
+Middle Eastern,Persian/Iranian,0.0211708391758926
+Persian/Iranian,Middle Eastern,0.0211708391758926
+Dance Clubs,Piano Bars,0.0211596342834438
+Piano Bars,Dance Clubs,0.0211596342834438
+Country Dance Halls,Middle Eastern,0.0211204111825623
+Middle Eastern,Country Dance Halls,0.0211204111825623
+Brazilian,Piano Bars,0.0207873277416908
+Piano Bars,Brazilian,0.0207873277416908
+Food Delivery Services,Nail Salons,0.0197306799654815
+Nail Salons,Food Delivery Services,0.0197306799654815
+Cambodian,Ethnic Food,0.0196866372635037
+Ethnic Food,Cambodian,0.0196866372635037
+Art Galleries,Cambodian,0.0193180574494294
+Cambodian,Art Galleries,0.0193180574494294
+Dive Bars,Hobby Shops,0.0191881781392383
+Hobby Shops,Dive Bars,0.0191881781392383
+Beer Bar,Jazz & Blues,0.0191413587312282
+Jazz & Blues,Beer Bar,0.0191413587312282
+Latin American,Middle Eastern,0.0187348633205265
+Middle Eastern,Latin American,0.0187348633205265
+Cuban,Hobby Shops,0.0185701208480516
+Hobby Shops,Cuban,0.0185701208480516
+Egyptian,Fast Food,0.018535750497171
+Fast Food,Egyptian,0.018535750497171
+Brazilian,Shanghainese,0.0184895836433095
+Shanghainese,Brazilian,0.0184895836433095
+Active Life,Gelato,0.0184730699424125
+Gelato,Active Life,0.0184730699424125
+Cupcakes,Fishing,0.018464978881385
+Fishing,Cupcakes,0.018464978881385
+Cheese Shops,Fast Food,0.0180387538490704
+Fast Food,Cheese Shops,0.0180387538490704
+Dominican,Personal Assistants,0.0178466314155125
+Personal Assistants,Dominican,0.0178466314155125
+Beer Bar,Dominican,0.0175709866392894
+Dominican,Beer Bar,0.0175709866392894
+Vegetarian,Wine Bars,0.0175637619026138
+Wine Bars,Vegetarian,0.0175637619026138
+Cooking Classes,Fast Food,0.0175480785291194
+Fast Food,Cooking Classes,0.0175480785291194
+Pubs,Specialty Food,0.0172409019539028
+Specialty Food,Pubs,0.0172409019539028
+Laotian,Shanghainese,0.0172154318841561
+Shanghainese,Laotian,0.0172154318841561
+Cheese Shops,Shanghainese,0.0166624575641273
+Shanghainese,Cheese Shops,0.0166624575641273
+Dive Bars,Fishing,0.0165741028833334
+Fishing,Dive Bars,0.0165741028833334
+Active Life,Pubs,0.0163776478573634
+Pubs,Active Life,0.0163776478573634
+Gelato,Spanish,0.0163069653442928
+Spanish,Gelato,0.0163069653442928
+Cafes,Hobby Shops,0.0161710542152013
+Hobby Shops,Cafes,0.0161710542152013
+Event Planning & Services,Middle Eastern,0.0154290814253943
+Middle Eastern,Event Planning & Services,0.0154290814253943
+Cupcakes,Ethnic Food,0.0153348055456378
+Ethnic Food,Cupcakes,0.0153348055456378
+Personal Assistants,Wine Bars,0.0152696140530299
+Wine Bars,Personal Assistants,0.0152696140530299
+Jazz & Blues,Spanish,0.0151964516564342
+Spanish,Jazz & Blues,0.0151964516564342
+Cooking Classes,Dance Clubs,0.0150609572048778
+Dance Clubs,Cooking Classes,0.0150609572048778
+Fitness & Instruction,Laotian,0.0147599592553498
+Laotian,Fitness & Instruction,0.0147599592553498
+Fast Food,Persian/Iranian,0.0147260613099988
+Persian/Iranian,Fast Food,0.0147260613099988
+Country Dance Halls,Vegetarian,0.0146408585523116
+Vegetarian,Country Dance Halls,0.0146408585523116
+Hot Pot,Piano Bars,0.0144018952549153
+Piano Bars,Hot Pot,0.0144018952549153
+Dance Clubs,Hot Pot,0.014206842442606
+Hot Pot,Dance Clubs,0.014206842442606
+Cupcakes,Jazz & Blues,0.0142038297565069
+Jazz & Blues,Cupcakes,0.0142038297565069
+Active Life,Indonesian,0.014154454229787
+Indonesian,Active Life,0.014154454229787
+Ethnic Food,Hobby Shops,0.0141513582913955
+Hobby Shops,Ethnic Food,0.0141513582913955
+Meat Shops,Wine Bars,0.0141059172011669
+Wine Bars,Meat Shops,0.0141059172011669
+Cambodian,Fast Food,0.0140521711111184
+Fast Food,Cambodian,0.0140521711111184
+Ethnic Food,Live/Raw Food,0.0139440718411899
+Live/Raw Food,Ethnic Food,0.0139440718411899
+Egyptian,Pubs,0.0139229795927986
+Pubs,Egyptian,0.0139229795927986
+Caribbean,Jazz & Blues,0.0138444657320819
+Jazz & Blues,Caribbean,0.0138444657320819
+Fitness & Instruction,Italian,0.0136732314028461
+Italian,Fitness & Instruction,0.0136732314028461
+Cuban,Mediterranean,0.0136182098056461
+Mediterranean,Cuban,0.0136182098056461
+Hobby Shops,Pubs,0.0136140444716335
+Pubs,Hobby Shops,0.0136140444716335
+Beer Bar,Wine Bars,0.0131923900396591
+Wine Bars,Beer Bar,0.0131923900396591
+Gelato,Laotian,0.0131644374539784
+Laotian,Gelato,0.0131644374539784
+Dominican,Live/Raw Food,0.0131581097632196
+Live/Raw Food,Dominican,0.0131581097632196
+Fishing,Personal Assistants,0.0128406559683186
+Personal Assistants,Fishing,0.0128406559683186
+Caribbean,Dominican,0.0127824045776195
+Dominican,Caribbean,0.0127824045776195
+Brazilian,Cafes,0.0127581252378868
+Cafes,Brazilian,0.0127581252378868
+Fishing,Middle Eastern,0.012374226553023
+Middle Eastern,Fishing,0.012374226553023
+Food Court,Personal Assistants,0.0123436243954401
+Personal Assistants,Food Court,0.0123436243954401
+Fast Food,Mediterranean,0.0121168047664729
+Mediterranean,Fast Food,0.0121168047664729
+Egyptian,Falafel,0.0116445933320537
+Falafel,Egyptian,0.0116445933320537
+Brazilian,Latin American,0.0112960829146826
+Latin American,Brazilian,0.0112960829146826
+Event Planning & Services,Mediterranean,0.011131656737015
+Mediterranean,Event Planning & Services,0.011131656737015
+Caribbean,Wine Bars,0.0110972223493266
+Wine Bars,Caribbean,0.0110972223493266
+Filipino,Piano Bars,0.0110544136023141
+Piano Bars,Filipino,0.0110544136023141
+Ethnic Food,Fast Food,0.0109024610682561
+Fast Food,Ethnic Food,0.0109024610682561
+Cheese Shops,Event Planning & Services,0.0108266610139615
+Event Planning & Services,Cheese Shops,0.0108266610139615
+Cambodian,Gelato,0.0107988399326929
+Gelato,Cambodian,0.0107988399326929
+Brazilian,Egyptian,0.0107050762559105
+Egyptian,Brazilian,0.0107050762559105
+Fishing,Food Delivery Services,0.0106775672139868
+Food Delivery Services,Fishing,0.0106775672139868
+Filipino,Laotian,0.0106027732100135
+Laotian,Filipino,0.0106027732100135
+Dance Clubs,Falafel,0.0104372071657041
+Falafel,Dance Clubs,0.0104372071657041
+Egyptian,Wine Bars,0.0103985953850987
+Wine Bars,Egyptian,0.0103985953850987
+Delis,Hot Pot,0.0103358911282646
+Hot Pot,Delis,0.0103358911282646
+Art Galleries,Filipino,0.0102965438374189
+Filipino,Art Galleries,0.0102965438374189
+Cooking Classes,Nail Salons,0.00977221850900543
+Nail Salons,Cooking Classes,0.00977221850900543
+Beer Bar,Indonesian,0.0097417905873145
+Indonesian,Beer Bar,0.0097417905873145
+Live/Raw Food,Wine Bars,0.00970104780894301
+Wine Bars,Live/Raw Food,0.00970104780894301
+Delis,Indonesian,0.00956352995509783
+Indonesian,Delis,0.00956352995509783
+Filipino,Middle Eastern,0.00950318445768
+Middle Eastern,Filipino,0.00950318445768
+Active Life,Brazilian,0.00939859894564843
+Brazilian,Active Life,0.00939859894564843
+Dominican,Hobby Shops,0.00923489865552709
+Hobby Shops,Dominican,0.00923489865552709
+Falafel,Live/Raw Food,0.00912420494636688
+Live/Raw Food,Falafel,0.00912420494636688
+Art Galleries,Dominican,0.00898220168829315
+Dominican,Art Galleries,0.00898220168829315
+Brazilian,Wine Bars,0.00891345959667652
+Wine Bars,Brazilian,0.00891345959667652
+Cuban,Personal Assistants,0.0088965597899456
+Personal Assistants,Cuban,0.0088965597899456
+Active Life,Fishing,0.00864900739124752
+Fishing,Active Life,0.00864900739124752
+Falafel,Piano Bars,0.00836479054687197
+Piano Bars,Falafel,0.00836479054687197
+Art Galleries,Brazilian,0.00830938979240771
+Brazilian,Art Galleries,0.00830938979240771
+Delis,Laotian,0.00826849192029488
+Laotian,Delis,0.00826849192029488
+Dive Bars,Hot Pot,0.00819816999737799
+Hot Pot,Dive Bars,0.00819816999737799
+Falafel,Spanish,0.0079553585127776
+Spanish,Falafel,0.0079553585127776
+Active Life,Falafel,0.00767002779990056
+Falafel,Active Life,0.00767002779990056
+Active Life,Food Court,0.00762279191779434
+Food Court,Active Life,0.00762279191779434
+Indonesian,Spanish,0.0070404429064708
+Spanish,Indonesian,0.0070404429064708
+Caribbean,Falafel,0.00696627106974705
+Falafel,Caribbean,0.00696627106974705
+Live/Raw Food,Mediterranean,0.00682861920235104
+Mediterranean,Live/Raw Food,0.00682861920235104
+Brazilian,Ethnic Food,0.00671121069469386
+Ethnic Food,Brazilian,0.00671121069469386
+Cambodian,Food Delivery Services,0.00664366933312416
+Food Delivery Services,Cambodian,0.00664366933312416
+Pubs,Vegetarian,0.00658349365176819
+Vegetarian,Pubs,0.00658349365176819
+Bangladeshi,Pubs,0.00648580968385182
+Pubs,Bangladeshi,0.00648580968385182
+Cafes,Gelato,0.00642754089628824
+Gelato,Cafes,0.00642754089628824
+Egyptian,Meat Shops,0.00632536485535249
+Meat Shops,Egyptian,0.00632536485535249
+Breweries,Specialty Food,0.00627062365275392
+Specialty Food,Breweries,0.00627062365275392
+Fitness & Instruction,Personal Assistants,0.00624730514673655
+Personal Assistants,Fitness & Instruction,0.00624730514673655
+Caribbean,Dive Bars,0.00619542119466532
+Dive Bars,Caribbean,0.00619542119466532
+Cambodian,Dive Bars,0.0056688524831297
+Dive Bars,Cambodian,0.0056688524831297
+Bangladeshi,Brazilian,0.00564612834934936
+Brazilian,Bangladeshi,0.00564612834934936
+Cooking Classes,Mediterranean,0.00550407606957272
+Mediterranean,Cooking Classes,0.00550407606957272
+Breweries,Fishing,0.00540014781996134
+Fishing,Breweries,0.00540014781996134
+Gelato,Hot Pot,0.0052366502247488
+Hot Pot,Gelato,0.0052366502247488
+Beer Bar,Delis,0.00521662527168979
+Delis,Beer Bar,0.00521662527168979
+Indonesian,Specialty Food,0.00517750195940124
+Specialty Food,Indonesian,0.00517750195940124
+Egyptian,Mediterranean,0.00515452914140128
+Mediterranean,Egyptian,0.00515452914140128
+Dance Clubs,Middle Eastern,0.00503350961918769
+Middle Eastern,Dance Clubs,0.00503350961918769
+Active Life,Cafes,0.00500693871144414
+Cafes,Active Life,0.00500693871144414
+Laotian,Persian/Iranian,0.0047773822645536
+Persian/Iranian,Laotian,0.0047773822645536
+Dance Clubs,Indonesian,0.00467727460885831
+Indonesian,Dance Clubs,0.00467727460885831
+Live/Raw Food,Vegetarian,0.00461861615157028
+Vegetarian,Live/Raw Food,0.00461861615157028
+Gelato,Wine Bars,0.00409066653022468
+Wine Bars,Gelato,0.00409066653022468
+Dive Bars,Italian,0.00381498935598945
+Italian,Dive Bars,0.00381498935598945
+Beer Bar,Pubs,0.00370591111545983
+Pubs,Beer Bar,0.00370591111545983
+Bangladeshi,Cupcakes,0.00349699357048938
+Cupcakes,Bangladeshi,0.00349699357048938
+Hot Pot,Mediterranean,0.00344576691633195
+Mediterranean,Hot Pot,0.00344576691633195
+Caribbean,Hot Pot,0.00321564443076644
+Hot Pot,Caribbean,0.00321564443076644
+Cafes,Cuban,0.00279320987584521
+Cuban,Cafes,0.00279320987584521
+Pubs,Spanish,0.00275842122293048
+Spanish,Pubs,0.00275842122293048
+Bangladeshi,Cambodian,0.00266014458010816
+Cambodian,Bangladeshi,0.00266014458010816
+Egyptian,Hobby Shops,0.00256859934629899
+Hobby Shops,Egyptian,0.00256859934629899
+Cafes,Middle Eastern,0.00231134258906971
+Middle Eastern,Cafes,0.00231134258906971
+Cafes,Personal Assistants,0.00227570917229225
+Personal Assistants,Cafes,0.00227570917229225
+Caribbean,Laotian,0.00206318162368124
+Laotian,Caribbean,0.00206318162368124
+Dance Clubs,Meat Shops,0.0018726227425826
+Meat Shops,Dance Clubs,0.0018726227425826
+Breweries,Personal Assistants,0.00182793170288578
+Personal Assistants,Breweries,0.00182793170288578
+Italian,Middle Eastern,0.00173887057973758
+Middle Eastern,Italian,0.00173887057973758
+Event Planning & Services,Fishing,0.00164025852388646
+Fishing,Event Planning & Services,0.00164025852388646
+Cafes,Latin American,0.00122434215611641
+Latin American,Cafes,0.00122434215611641
+Brazilian,Specialty Food,0.00121372526900798
+Specialty Food,Brazilian,0.00121372526900798
+Breweries,Ethnic Food,0.000961745732186622
+Ethnic Food,Breweries,0.000961745732186622
+Falafel,Fishing,0.000938079137277226
+Fishing,Falafel,0.000938079137277226
+Filipino,Spanish,0.000695433815434891
+Spanish,Filipino,0.000695433815434891
+Specialty Food,Wine Bars,0.000269757090905709
+Wine Bars,Specialty Food,0.000269757090905709
+Ethnic Food,Food Delivery Services,0.000251610552831479
+Food Delivery Services,Ethnic Food,0.000251610552831479
+Persian/Iranian,Pubs,7.42846623359069E-05
+Pubs,Persian/Iranian,7.42846623359069E-05
+Cuban,Cupcakes,6.55543942395346E-05
+Cupcakes,Cuban,6.55543942395346E-05

@@ -1,0 +1,10 @@
+type Type string
+
+type AppError struct {
+    text    string
+    errType Type
+}
+
+func (e AppError) Error() string {
+    return e.text
+}

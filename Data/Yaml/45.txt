@@ -1,0 +1,8 @@
+# Integers:
+age: 29
+
+# Float:
+price: 15.99
+
+# Scientific notation:
+population: 2.89e+6

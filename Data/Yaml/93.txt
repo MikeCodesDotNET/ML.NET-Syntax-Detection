@@ -1,0 +1,11 @@
+install:
+  variables:
+    INSTALL_DIRECTORY: '.' # default to root directory
+  cache:
+    path:
+      - $INSTALL_DIRECTORY/node_modules/
+  script:
+    # cd to the directory of package.json
+    - cd $INSTALL_DIRECTORY
+    # install dependencies in CI mode
+    - npm ci 

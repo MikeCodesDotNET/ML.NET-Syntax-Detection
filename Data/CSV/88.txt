@@ -1,0 +1,7 @@
+A,Y
+it was a good game,sports
+a fair game,sports
+good elections,not sports
+competitive game,sports
+not a good game,sports
+it was a close election,not sports

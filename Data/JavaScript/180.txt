@@ -1,0 +1,14 @@
+ updateEmployee(id, name, date) {
+      db.collection("employees")
+        .doc(id)
+        .update({
+          name: name,
+          date: date,
+        })
+        .then(() => {
+          console.log("Document successfully updated!");
+        })
+        .catch((error) => {
+          console.error("Error updating document: ", error);
+        });
+    }

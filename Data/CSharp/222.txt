@@ -1,0 +1,5 @@
+public class CosmosCredentials
+{
+    public string EndPoint { get; set; }
+    public string Key { get; set; }
+}

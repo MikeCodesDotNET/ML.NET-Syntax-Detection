@@ -1,0 +1,8 @@
+var id = await client.StartNewAsync(nameof(SearchWorkflow), (object)query);
+
+// set a workflow that watches the workflow
+var queryCheckBase = $"{req.Scheme}://{req.Host.Value}{req.Path.Value}".Replace($"api/{nameof(StartSearch)}", string.Empty);
+var checkUrl = $"{queryCheckBase}runtime/webhooks/durabletask/instances/{id}";
+await client.StartNewAsync(nameof(WatchWorkflow), (object)checkUrl);
+
+return new OkObjectResult(id);

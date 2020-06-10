@@ -1,0 +1,22 @@
+func NewBookHandler(bookService book.Service) BookHandler {
+    return bookHandler{bookService}
+}
+
+// services/book/service.go
+type Service interface {
+    CreateBook(title string) (*models.Book, error)
+}
+
+func NewService(repository repository.Repository) Service {
+    return service{repository}
+}
+
+// repository/repository.go
+type Repository interface {
+    CreateBook(book models.Book) error
+}
+
+// repository/inmemory.go
+func NewInMemoryRepository(db *db.Client) Repository {
+    return inMemoryRepository{db}
+}

@@ -1,0 +1,10 @@
+using System;
+using System.Generic;
+
+namespace Services
+{
+  public interface IShipmentService
+  {
+    void Ship(IAddressInfo info, IEnumerable<CartItem> items);
+  }
+}

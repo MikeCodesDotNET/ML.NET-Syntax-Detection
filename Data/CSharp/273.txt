@@ -1,0 +1,29 @@
+public class BasePermission
+{
+    protected Permission permission;
+    public BasePermission(Permission permission)
+    {
+        this.permission = permission;
+    }
+
+    public virtual Task<PermissionStatus> CheckPermissionStatusAsync() =>
+#if __IOS__
+        throw new NotImplementedException();
+#else
+        CrossPermissions.Current.CheckPermissionStatusAsync(permission);
+#endif
+
+
+    public virtual async Task<PermissionStatus> RequestPermissionAsync()
+    {
+#if __IOS__
+        throw new NotImplementedException();
+#else
+        var results = await CrossPermissions.Current.RequestPermissionsAsync(permission);
+        if (results.ContainsKey(permission))
+            return results[permission];
+
+        return PermissionStatus.Unknown;
+#endif
+    }
+}

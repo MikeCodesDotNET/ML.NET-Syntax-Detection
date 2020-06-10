@@ -1,0 +1,2 @@
+var (name, _) = GetPerson("Chris", "Microsoft");
+// name = "Chris"

@@ -1,0 +1,79 @@
+Node,393451065,CYRILLIC,кемпінг бурон,Tulchinsco,MAPS.ME ios 6.0.4,Updated a parking
+Node,428141439,HAN,L'Orient d'Or 福源丰,woshilapin,iD 1.7.3,
+Node,428158966,HAN,Miyako - 故宫,Emmanuel Dewaele,JOSM/1.5 (9329 fr),"France (et voisinage), reclassification de la clé ""cuisine"""
+Node,454601618,CYRILLIC,бытовая химия,Оксана Аргериди,MAPS.ME ios 6.2,Updated a chemist shop
+Node,508588075,HAN,Mei xi 美西,padapada,iD 1.3.10,précisions
+Node,533756354,HAN,Youfeng (友风书店）,Popolon,Potlatch 2,
+Node,629651840,CYRILLIC,Гастрономъ,Pieren,JOSM/1.5 (6227 SVN en),survey + cadastre
+Node,629824653,CYRILLIC,Гастрономъ,cquest,JOSM/1.5 (7000 fr),Paris: corrections noms de rues
+Node,629889367,CYRILLIC,Гастрономъ,jose_luu,iD 1.1.6,adjust location
+Node,667342374,HAN,Les Nouvelles Halles - 新今日超市,Britz,JOSM/1.5 (9060 fr),corrections Osmose
+Node,667342375,HAN,Supermarché Bonjour - 新温州超市,Manu1400,JOSM/1.5 (6388 fr),World : fix mistakes (syntax)
+Node,682420361,HANGUL,Akasaka (아가사가),osmmaker,JOSM/1.5 (6700 fr),Update address
+Node,694831595,CYRILLIC,фонтан де vaucluse,Наира Шеховцова,MAPS.ME android 6.2.5-Google,Updated a fountain
+Node,702977280,HAN,L'As du Fallafel 中東料理,Webber Fang,MAPS.ME ios 6.2.1,Updated a restaurant
+Node,1005346382,HAN,Délices Shandong - 山东小馆,Pieren,JOSM/1.5 (6181 SVN en),cadastre + survey
+Node,1215494563,HAN,Seng hong - 順興 - Banh-mi Dac biet,Manu1400,JOSM/1.5 (6502 fr),[World] fix few orphans tags
+Node,1215508013,HAN,法亚文化友爱会,Emmanuel Dewaele,JOSM/1.5 (9329 fr),"France, reclassification de la clé ""amenity"""
+Node,1215524265,HAN,La Mer bleue - 北海,Popolon,Potlatch 1.4 (save en),"caf bd hopital, pas du tout sur hopital=> enlevé, ajouté autres"
+Node,1388390997,HAN,石頭城觀景台,BlueCatMeow,MAPS.ME android 6.2.4-Google,Updated a viewpoint
+Node,1430135343,HAN,Tin tin - 東東,Popolon,Potlatch 2,
+Node,1477622193,HAN,Kitchen Story - 家乡菜,Coucouf,Vespucci (F-Droid) 0.9.7.1.1071,corrections Osmose
+Node,1519798045,HAN,Jiajia tofu - 家家食品豆腐店,cquest,JOSM/1.5 (5576 fr),Paris 20ème: adresses
+Node,1584175215,HAN,Jardin de Pékin - 北京?園,Popolon,Potlatch 2,
+Node,1589527198,HAN,Sandwitcherie - 典隆,Popolon,Potlatch 2,
+Node,1898915948,ARABIC,لابوست,Rem Ah,MAPS.ME android 6.0.7-Google,Updated a bank
+Node,1909244763,HAN,Seng long - 幓隆,Popolon,iD 1.7.0,
+Node,1928798044,HAN,Autour du Yangtse (食尚煮意),bot_gileri,JOSM/1.5 (8677 fr),Normalize phone and fax numbers in France as talked here : http://gis.19327.n5.nabble.com/Ajout-de-l-indicatif-national-aux-numeros-de-telephone-francais-td5830967.html
+Node,2013749517,CYRILLIC,La Closerie des Lilas Хеменгуэй,Daria  Fustii,MAPS.ME android 6.0.7-Google,Updated a restaurant
+Node,2047059613,HAN,f1罗伊赛PN2酒店,LXG,MAPS.ME ios 6.2,
+Node,2130849729,CYRILLIC,Эйфелевая башня,Валентин Кобцов,MAPS.ME ios 6.2.1,
+Node,2168837251,HAN,Chez Yong 鼎鼎香,Pieren,JOSM/1.5 (6181 SVN en),cadastre + survey
+Node,2197661544,CYRILLIC,платная,Gleb Ponkratov,MAPS.ME android 6.2.5-Google,
+Node,2279206331,KATAKANA,ホテル Hôtel Bellevue et du Chariot d'Or,Aya Mako,MAPS.ME ios 6.0.5,Updated a hotel
+Node,2283535941,HANGUL,Dokkebi (도깨비),slavkovsky,iD 1.6.2,
+Node,2296500921,HAN,Azabu 麻布,Popolon,Potlatch 2,
+Node,2398646254,ARABIC,كَباب,jocelin Birnbaum,Potlatch 2,
+Node,2468703980,HAN,Toritcho - 鳥兆,Popolon,iD 1.7.0,
+Node,2799009841,HAN,Les Pâtes vivantes 活着的面条,woshilapin,iD 1.7.3,
+Node,2869853901,HAN,旺岱马术中心,HSSZ,iD 1.3.9,
+Node,3001176143,HAN,Nakagawa (中川),OsmIdf,JOSM/1.5 (7182 fr),"FR:75 Corrections, ajout références FANTOIR quartier Buttes-Chaumont (19e)"
+Node,3050587070,LISU,Da Laura Il Lꓯbo,species,JOSM/1.5 (7442 de),Cannes Teil4
+Node,3347694225,HAN,Supermarché Bonjour - 新温州超市,Britz,JOSM/1.5 (7995 fr),Ajout grilles depuis cadastre et conaissance terrain
+Node,3415271563,HAN,Restaurant Shanxi 山西饭店,Popolon,iD 1.7.0,
+Node,3422228207,HAN,Pantheon 先贤祠,Steven Xia,MAPS.ME ios 6.2,Updated a memorial
+Node,3628513781,HAN,Carnet de voyage 云南三合食府,Ufal,JOSM/1.5 (9979 en),Correction erreurs
+Node,3639445715,CYRILLIC,Надо заехать,Andrew727,Pushpin iOS,added Надо заехать
+Node,3755627399,CYRILLIC,памятник Цесаревичу Николаю Александровичу,andrei1974,iD 1.8.5,"  "
+Node,3983006175,ARABIC,رأفت,Rafat Kalar Abdoulrahman,MAPS.ME ios 6.3.3,Updated a cafe
+Node,4164165189,HANGUL,강남,Iskandar Rhee,MAPS.ME ios 6.0.5,Created a restaurant
+Node,4183550668,CYRILLIC,питна вода. душ.,bano8,MAPS.ME android 6.0.7-Google,
+Node,4195558707,HAN,喜心,Kimio Kuma,MAPS.ME ios 6.0.5,Created a restaurant
+Node,4196959395,CYRILLIC,пляж Памплона,Arkadii  Kharlamov,MAPS.ME android 6.0.7-Samsung,Created a bus_stop
+Node,4212257192,CYRILLIC,Россия,pi3rr3,iD 1.9.6,create POI : bordeaux - porte de bourgogne (33)
+Node,4217920889,HAN,真佛宗 真願堂 A.C.B. Vérité,Guillaume Mortier,Osmose Editor,Corrections avec Osmose
+Node,4236788589,HAN,梵谷,Tsai Tony,MAPS.ME android 6.1.9-Google,Created a attraction
+Node,4241069690,HAN,沃帮拦河坝,nettwayne,MAPS.ME ios 6.1.9,Created a attraction
+Node,4256197994,CYRILLIC,макдак марсель,Sheryan Ilyasov,MAPS.ME android 6.0.7-Google,Created a cafe and a caravan_site
+Node,4259038485,HAN,图尔家庭旅馆,LXG,MAPS.ME ios 6.2,Updated a hostel
+Node,4274875302,CYRILLIC,стоянка монако,Igor Kruglov,MAPS.ME android 6.1.8-Google,"Created a bus_station, a caravan_site, and a supermarket shop"
+Node,4274927989,CYRILLIC,стоянка канны,Igor Kruglov,MAPS.ME android 6.1.8-Google,"Created a bus_station, a caravan_site, and a supermarket shop"
+Node,4281791110,CYRILLIC,Аэропорт (автобус в Бове),dimar75,MAPS.ME android 6.2.2-Google,Created a bus_stop
+Node,4284085790,CYRILLIC,Дом,Сергей АфанасьевAsY1976,MAPS.ME ios 6.2,Created a guest_house
+Node,4290845191,CYRILLIC,2е,Ильдар Салихов,MAPS.ME android 6.2.2-Google,"Created 3 guest_houses, 2 hotels, and a bus_stop"
+Node,4300891492,CYRILLIC,вид на горд,Ильдар Салихов,MAPS.ME android 6.2.2-Google,Created a bus_stop
+Node,4305205091,CYRILLIC,фото света лаванда,Ильдар Салихов,MAPS.ME ios 6.2,"Created 2 attractions, 2 bus_stations, and 2 other objects"
+Node,4308368889,HANGUL,리옹센터,Dongyeol Han,MAPS.ME android 6.2.2-Google,Created a hotel
+Node,4309895270,HANGUL,Kelvin 집,Dahee Choe,MAPS.ME ios 6.2,Created a castle
+Node,4323076495,CYRILLIC,Ира-Мажед,Олег куриной,MAPS.ME android 6.2.2-Google,Created a empty object
+Node,4326681396,ARABIC,باريس,Bam Berry,MAPS.ME ios 6.2.1,"Created a bank, a bar, and a beauty shop"
+Node,4326688291,ARABIC,هوتيل منصوه,Bam Berry,MAPS.ME ios 6.2.1,"Created a bank, a bar, and a beauty shop"
+Node,4326703591,ARABIC,نعمة,Bam Berry,MAPS.ME ios 6.2.1,"Created a bank, a bar, and a beauty shop"
+Node,4327547991,ARABIC,هوتيل ماجيستك,Bam Berry,MAPS.ME ios 6.2.1,
+Node,4328068793,ARABIC,البوت البوت,Bam Berry,MAPS.ME ios 6.2.1,Created a bakery shop
+Node,4337042890,HANGUL,아레나,young j kim,MAPS.ME android 6.2.5-Google,Created an attraction
+Node,4346119292,CYRILLIC,станция,Максим Яворский,MAPS.ME android 6.2.5-Google,Created a bus_station
+Node,4355477492,ARABIC,بحيرة,great100,MAPS.ME android 6.2.5-Google,Created 5 attractions
+Node,4357349590,CYRILLIC,Тренажоры,Gleb Ponkratov,MAPS.ME android 6.2.5-Google,
+Way,72695142,CYRILLIC,"Toys ""Я"" Us",Chemins,Potlatch 2,
+Way,148986858,CYRILLIC,Les Roches Rouges С,Torx,JOSM/1.5 (4279 ru),"Tignes, France"

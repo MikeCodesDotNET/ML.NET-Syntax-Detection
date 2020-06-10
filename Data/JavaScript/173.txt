@@ -1,0 +1,8 @@
+module.exports = {
+  keystone,
+  apps: [
+    new GraphQLApp(), 
+    new StaticApp({ path: '/', src: 'public' }),
+    new AdminUIApp({ enableDefaultRoute: true })
+  ],
+};

@@ -1,0 +1,4 @@
+val system2 = system1.copy()
+system1.user.age = 13     // not possible if user is defined as `val`
+
+println(system2.user.age) // prints "13"

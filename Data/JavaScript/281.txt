@@ -1,0 +1,8 @@
+let array = [1, 2, 3, 4]
+let newArray = []
+
+for(let i = 0; n < array.length; i++) {
+    newArray[i] = array[i] * 2
+}
+
+newArray // [ 2, 4, 6, 8 ]

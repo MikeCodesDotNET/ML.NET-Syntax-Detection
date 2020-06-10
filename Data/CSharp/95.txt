@@ -1,0 +1,3 @@
+characters
+.Where(c => c.name = "Gandalf")
+.Select(c => c.name)

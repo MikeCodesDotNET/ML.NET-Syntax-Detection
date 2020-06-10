@@ -1,0 +1,5 @@
+// Previously
+fireEvent.change(input, { target: { value: "25" } });
+
+// With userEvents
+userEvent.type(input, "25");

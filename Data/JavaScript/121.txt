@@ -1,0 +1,10 @@
+  import UserService from '../services/user';
+  import UserModel from '../models/user';
+  import CompanyModel from '../models/company';
+  const salaryModelMock = {
+    calculateNetSalary(){
+      return 42;
+    }
+  }
+  const userServiceInstance = new UserService(userModel, companyModel, salaryModelMock);
+  const user = await userServiceInstance.getMyUser('12346');

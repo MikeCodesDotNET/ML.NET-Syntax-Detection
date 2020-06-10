@@ -1,0 +1,5 @@
+include:
+ # group name is your username if the project is under personal account
+  - project: '<my-group>/ci-templates'  
+    ref: 'master'
+    file: 'install.yml'

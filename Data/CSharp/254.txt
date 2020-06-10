@@ -1,0 +1,19 @@
+public ICommand MyCommand { get; }
+public bool canExecute;
+public MyViewModel()
+{
+    MyCommand = new AsyncCommand(DoAsync,
+        (t) =>
+        {
+            return canExecute;
+        },
+        (ex) =>
+        {
+            // Handle exception here
+        });
+}
+
+async Task DoAsync()
+{
+    // do stuff async
+}

@@ -1,0 +1,18 @@
+const fetch = require("node-fetch");
+const url = "https://wrongAPI.github.com/users/github";
+
+// higher level async task
+const asynFunction = () => {
+  return fetch(url).catch(error => {
+    // re-throwing the error
+    throw new Error(error);
+  });
+};
+
+// error thrown in this intacen 1 is much bette traceable
+// returns: instace 1 error: invalid json response body at https://wrongapi.github.com/users/github reason: Unexpected token < in JSON at position 0
+try {
+ return await asyncFunction();
+} catch(error) {
+  console.error("instace 1 error:", error.message)
+}

@@ -1,0 +1,15 @@
+public static App Init(Action<HostBuilderContext, IServiceCollection> nativeConfigureServices)
+{
+    // Resource code
+
+    var host = new HostBuilder()
+                    //ConfigureHostConfiguration
+                    .ConfigureServices((c, x) =>
+                    {
+                        //Add this line to call back into your native code
+                        nativeConfigureServices(c, x);
+                        ConfigureServices(c, x);
+                    })
+                    // Logging
+                    .Build();
+}

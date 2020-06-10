@@ -1,0 +1,24 @@
+[HttpGet]
+public async Task<IActionResult> Get()
+{
+    var user = await GetEmailAsync();
+    if (user == null)
+    {
+        return NotFound();
+    }
+    var db = Client.GetDatabase("myblogs");
+    var container = db.GetContainer(nameof(BlogContext));
+    var cosmosUser = db.GetUser(user);
+    var permissionId = $"Permission-{user}-blogs";
+    await cosmosUser.UpsertPermissionAsync(new PermissionProperties(
+                id: permissionId,
+                permissionMode: PermissionMode.Read,
+                container: container));
+    var token = await cosmosUser.GetPermission(permissionId).ReadAsync();
+    return Ok(
+        new CosmosCredentials
+        {
+            EndPoint = Client.Endpoint.ToString(),
+            Key = token.Resource.Token
+        });
+}

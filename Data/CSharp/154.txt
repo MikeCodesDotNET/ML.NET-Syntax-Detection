@@ -1,0 +1,14 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace app_test 
+{
+  [TestClass]
+  public class CalculatorTest 
+  {
+    [TestMethod]
+    public void Add() 
+    {
+      Assert.AreEqual(1,1);
+    }
+  }
+}

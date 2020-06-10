@@ -1,0 +1,4 @@
+const HOST = process.env.REACT_APP_WS_HOST;
+const PREFIX = process.env.REACT_APP_PREFIX;
+
+const host = `${PREFIX}://${HOST}/ws/game/${id}?token=${Cookies.get('token')}`;

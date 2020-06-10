@@ -1,0 +1,13 @@
+import {
+  EntityPartitionKey,
+  EntityRowKey,
+  EntityString,
+  EntityIn32
+} from '@nestjs/azure-database';
+
+@EntityPartitionKey('CatID')
+@EntityRowKey('CatName')
+export class Cat {
+  @EntityString() name: string;
+  @EntityIn32() age: number;
+}

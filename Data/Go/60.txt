@@ -1,0 +1,24 @@
+type Server struct {}
+
+func main() {
+    err := s.Run()
+}
+
+func (s *Server) Run() (err error) {
+    http.HandleFunc("/", s.handleHomeRequest)
+    err = http.ListenAndServe(":4000", nil)
+    if err != nil {
+        return err
+    }package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    var num int
+    num = 20
+    fmt.Printf("The number is %d\n", num)
+}
+    return nil
+}

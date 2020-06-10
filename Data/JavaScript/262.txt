@@ -1,0 +1,4 @@
+AzureTableStorageModule.forFeature(Cat, {
+  table: 'AnotherTableName',
+  createTableIfNotExists: true,
+})

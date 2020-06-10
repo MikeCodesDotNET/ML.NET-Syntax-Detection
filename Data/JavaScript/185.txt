@@ -1,0 +1,3 @@
+test.before(() => {
+  console.log("Yay! We're about to start!")
+})

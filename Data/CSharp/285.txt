@@ -1,0 +1,11 @@
+async Task SendMessage(string user, string message)
+{
+    try
+    {
+        await hubConnection.InvokeAsync("SendMessage", user, message);
+    }
+    catch (Exception ex)
+    {
+        // send failed
+    }
+}

@@ -1,0 +1,17 @@
+  eventEmitter.on('user_signup', ({ user, company }) => {
+
+    eventTracker.track(
+      'user_signup',
+      user,
+      company,
+    );
+
+    intercom.createUser(
+      user
+    );
+
+    gaAnalytics.event(
+      'user_signup',
+      user
+    );
+  })

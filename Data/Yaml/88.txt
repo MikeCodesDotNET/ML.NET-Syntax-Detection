@@ -1,0 +1,7 @@
+install:
+  cache: 
+    path:
+      - node_modules/ # cache node_modules/ in subsequent pipeline
+  script:
+    # install dependencies in CI mode
+    - npm ci 

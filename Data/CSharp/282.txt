@@ -1,0 +1,4 @@
+app.UseSignalR(routes =>
+{
+    routes.MapHub<ChatHub>("/chatHub");
+});

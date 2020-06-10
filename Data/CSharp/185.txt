@@ -1,0 +1,17 @@
+using System;
+using System.Linq;
+
+public class Program
+{
+   public static void Main()
+   {
+      var someNumbers = new int[]{4, 8, 15, 16, 23, 42};
+      var query =
+         from num in someNumbers
+            where num > 10
+            orderby num descending
+            select num.ToString();
+      Console.WriteLine(string.Join('-', query.ToArray()));
+      // 42-23-16-15
+   }
+}

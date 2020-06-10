@@ -1,0 +1,2 @@
+shipmentServiceMock.Verify(s => s.Ship(addressInfoMock.Object, items.AsEnumerable()), Times.Never());
+Assert.AreEqual("not charged", result);

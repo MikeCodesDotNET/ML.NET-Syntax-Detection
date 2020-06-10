@@ -1,0 +1,32 @@
+using System.Threading.Tasks;
+using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Cosmos;
+using Microsoft.Extensions.Configuration;
+using BlazorCosmosWasm.Shared;
+using IdentityServer4.Extensions;
+using System.Linq;
+using Microsoft.AspNetCore.Identity;
+using BlazorCosmosWasm.Server.Models;
+
+namespace BlazorCosmosWasm.Server.Controllers
+{
+    [Authorize]
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CosmosController : ControllerBase
+    {
+        private readonly UserManager<ApplicationUser> Manager;
+
+        public CosmosController(IConfiguration config, UserManager<ApplicationUser> manager)
+        {
+            Config = config;
+            Manager = manager;
+            Client = new CosmosClient(Config.GetValue<string>("CosmosConnection"));
+       }
+
+        private CosmosClient Client { get; }
+        public IConfiguration Config { get; set; }
+    }
+}

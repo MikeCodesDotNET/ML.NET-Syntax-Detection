@@ -1,0 +1,8 @@
+router
+  .route("/")
+  .get(function(req, res) {
+    const db = req.app.get("db");
+    UsersService.getAllUsers(db).then(data => {
+      res.send(data);
+    });
+  })

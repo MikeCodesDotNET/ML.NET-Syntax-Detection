@@ -1,0 +1,6 @@
+the_string = "123";
+console.log(+the_string);
+// 123
+
+the_string = "hello";
+console.log(+the_string);

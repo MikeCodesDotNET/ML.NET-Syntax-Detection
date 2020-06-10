@@ -1,0 +1,30 @@
+[Register("AppDelegate")]
+public partial class AppDelegate : FormsApplicationDelegate
+{
+    public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+    {
+        //Init Code:
+
+        Startup.Init(ConfigureServices)
+
+        LoadApplication(new App();
+
+        return base.FinishedLaunching(app, options);
+    }
+
+    void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
+    {
+        services.AddSingleton<INativeCalls, NativeCalls>();
+    }
+}
+
+public class NativeCalls : INativeCalls
+{
+    public void OpenToast(string text)
+    {
+        var vc = UIApplication.SharedApplication.KeyWindow.RootViewController;
+        var okAlert = UIAlertController.Create(string.Empty, text, UIAlertControllerStyle.Alert);
+        okAlert.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+        vc.PresentViewController(okAlert, true, null);
+    }
+}

@@ -1,0 +1,5 @@
+func (h Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+    if err := h(w, r); err != nil {
+        writeError(w, err.Error(), http.StatusBadRequest)
+    }
+}

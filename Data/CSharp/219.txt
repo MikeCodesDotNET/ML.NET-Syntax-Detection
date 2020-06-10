@@ -1,0 +1,42 @@
+public class BlogClient
+{
+    private CosmosToken _credentials;
+
+    private readonly TokenClient _tokenClient;
+
+    public BlogClient(TokenClient tokenClient)
+    {
+        _tokenClient = tokenClient;
+    }
+
+    public async Task<BlogContext> GetDbContextAsync()
+    {
+        if (_credentials == null)
+        {
+            _credentials = await _tokenClient.GetTokenAsync();
+        }
+
+        BlogContext context = null;
+
+        CosmosToken getCredentials() => _credentials;
+
+        var options = new DbContextOptionsBuilder<BlogContext>()
+            .UseCosmos(getCredentials().Endpoint,
+                getCredentials().Key,
+                Context.MyBlogs,
+            opt =>
+                opt.ConnectionMode(Microsoft.Azure.Cosmos.ConnectionMode.Gateway));
+
+        try
+        {
+            context = new BlogContext(options.Options);
+        }
+        catch
+        {
+            _credentials = await _tokenClient.GetTokenAsync();
+            context = new BlogContext(options.Options);
+        }
+
+        return context;
+    }
+}

@@ -1,0 +1,23 @@
+FROM openjdk:8u131 AS eta-repo
+RUN \
+  cd tmp && \
+  git clone --recursive --branch 0.0.6b8 https://github.com/typelead/eta
+
+
+FROM openjdk:8u131
+
+ENV PATH $PATH:/root/.local/bin
+COPY --from=eta-repo /tmp/eta /eta
+RUN \
+  apt-get update && \
+  apt-get install -y libbz2-dev libncurses5-dev zlib1g-dev && \
+  curl -sSL https://get.haskellstack.org/ | sh && \
+  mkdir -p /root/.local/bin && \
+  cd eta && \
+  ./install.sh && \
+  cd / && \
+  rm -rf tmp/eta && \
+  mkdir project
+
+VOLUME project
+WORKDIR project

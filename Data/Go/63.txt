@@ -1,0 +1,6 @@
+jsonStruct := someData.(map[string]interface{})
+num := jsonStruct["num"].(int)
+str, ok := jsonStruct["str"].(string)
+if !ok {
+    log.Error("error converting to string")
+}

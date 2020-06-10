@@ -1,0 +1,10 @@
+  route.post('/', 
+    async (req, res, next) => {
+      const userDTO = req.body;
+
+      const userServiceInstance = Container.get(UserService) // Service locator
+
+      const { user, company } = userServiceInstance.Signup(userDTO);
+
+      return res.json({ user, company });
+    });

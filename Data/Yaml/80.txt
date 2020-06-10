@@ -1,0 +1,10 @@
+on:
+  watch:
+    types: [ started ]
+
+jobs:
+  run-on-star:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ✨ you starred your own repo
+        if: github.actor == 'WaylonWalker'

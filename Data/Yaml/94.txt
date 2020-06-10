@@ -1,0 +1,4 @@
+include:
+  - project: '<my-group>/ci-templates'
+    ref: 'master'
+    file: 'install.yml'

@@ -1,0 +1,15 @@
+public static App Init(Action<HostBuilderContext, IServiceCollection> nativeConfigureServices)
+{
+    //all of the same code from before
+    return ServiceProvider.GetService<App>();
+}
+
+
+static void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
+{
+    services.AddHttpClient();
+    services.AddSingleton<IDataService, MyDataService>();
+    services.AddTransient<MyViewModel>();
+    services.AddTransient<MainPage>();
+    services.AddSingleton<App>();
+}

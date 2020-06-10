@@ -1,0 +1,29 @@
+var characters = new List<Character>(){
+  new Character()
+  {
+      Name = "Bilbo",
+      Age= 90,
+      Type="Hobbit"
+  },
+  new Character(){
+      Name = "Ent number 1",
+      Age= 1500,
+      Type="Ent"
+  },
+  new Character()
+  {
+      Name = "Gandalf",
+      Age= 770,
+      Type="Maya"
+  }
+};
+
+var orderedResult = 
+  from ch in characters
+  orderby ch.Age
+  select new { Name = ch.Name, Age = ch.Age };
+
+foreach(var ch in orderedResult) 
+{
+  Console.WriteLine("Ordered , Name: {0}, Age: {1}", ch.Name, ch.Age);
+}

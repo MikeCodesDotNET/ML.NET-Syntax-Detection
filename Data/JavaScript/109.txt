@@ -1,0 +1,6 @@
+props: {
+  firstName: {
+    type: String,
+    required: true
+  }
+}

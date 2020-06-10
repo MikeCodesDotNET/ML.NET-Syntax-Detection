@@ -1,0 +1,6 @@
+var result = shape switch 
+{
+  { BossSigned: null, SkipLevelBossSigned: null } => "Boss need to sign",
+  { SkipLevelBossSigned: null } => "Skip level boss need to sign",
+  _ => "All good, process"
+}

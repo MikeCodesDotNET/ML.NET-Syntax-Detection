@@ -1,0 +1,11 @@
+private async Task<string> GetEmailAsync()
+{
+    if (User.IsAuthenticated())
+    {
+        var id = User.Claims.SingleOrDefault(
+            key => key.Type == System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        var user = await Manager.FindByIdAsync(id);
+        return user?.Email;
+    }
+    return null;
+}

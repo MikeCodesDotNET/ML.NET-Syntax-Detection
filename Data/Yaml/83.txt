@@ -1,0 +1,12 @@
+#Build Azure Container Group
+- template: azure-aci-container.yml@templates
+  parameters:
+    ContainerGroupName: 'sampleapp2-3'
+    DNSName: 'cloudskillssampleapp2-3'
+    OS: 'Linux'
+    ContainerName: 'helloworld'
+    Image: 'microsoft/aci-helloworld:latest'
+    CPU: '1'
+    Memory: '4'
+    Port: '80'
+    Protocol: 'TCP'

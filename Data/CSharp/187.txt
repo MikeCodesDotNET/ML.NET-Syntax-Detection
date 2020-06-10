@@ -1,0 +1,9 @@
+var found = false;
+foreach(var item in secondQuery.AsEnumerable())
+{
+    if (item == "23")
+    {
+        found = true;
+        break;
+    }
+}

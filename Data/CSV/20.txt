@@ -1,0 +1,2574 @@
+Technology shop:,,
+Vendor name,Total count in group,Percentage in group
+Cart Functionality,413,17.5%
+Magento,158,6.69%
+Magento Enterprise,96,4.06%
+Shopify,78,3.3%
+Oracle Commerce,56,2.37%
+WooCommerce,50,2.11%
+Demandware,36,1.52%
+AbleCommerce,33,1.39%
+Squarespace Commerce,27,1.14%
+Drupal Commerce,23,0.97%
+IBM Websphere Commerce,23,0.97%
+Hybris,20,0.84%
+Ascentium Commerce Server,19,0.8%
+Miva Merchant,19,0.8%
+Ubercart,18,0.76%
+Yahoo Store,17,0.72%
+Magento 1.7,17,0.72%
+osCommerce,16,0.67%
+BigCommerce,15,0.63%
+NetSuite eCommerce,14,0.59%
+WebCollage,13,0.55%
+Spree,10,0.42%
+WooCommerce 2.3,9,0.38%
+VirtueMart,9,0.38%
+Volusion,9,0.38%
+Magento 1.6,9,0.38%
+WooCommerce 2.2,8,0.33%
+X-Cart,8,0.33%
+AspDotNetStorefront,8,0.33%
+GSI Commerce,7,0.29%
+Digital River,7,0.29%
+WooCommerce 2.1,6,0.25%
+Amplience,6,0.25%
+Venda,6,0.25%
+Znode,6,0.25%
+ProductCart,5,0.21%
+Intershop,5,0.21%
+Elastic Path,5,0.21%
+WebLinc,4,0.16%
+Shappify,4,0.16%
+Unbound Commerce,4,0.16%
+Beetailer,4,0.16%
+3D Cart,4,0.16%
+Amazon Webstore,4,0.16%
+MadMobile,4,0.16%
+Magento 1.9,4,0.16%
+Magento 1.8,4,0.16%
+Zen Cart,4,0.16%
+ViArt,4,0.16%
+Kiosked,4,0.16%
+OpenCart,4,0.16%
+E-junkie,3,0.12%
+Tjoos,3,0.12%
+AdVantShop,3,0.12%
+CS Cart,3,0.12%
+Loaded Commerce,3,0.12%
+FastSpring,3,0.12%
+OXID EShop,3,0.12%
+WooCommerce 2.0,2,0.08%
+ePages,2,0.08%
+Shopp,2,0.08%
+Zoovy,2,0.08%
+ShopGate,2,0.08%
+Goodsie,2,0.08%
+Lengow,2,0.08%
+PrestaShop,2,0.08%
+Nexternal,2,0.08%
+Open Canvas,2,0.08%
+Magento 1.5,2,0.08%
+Magento 1.4,2,0.08%
+Shopify Buy Button,2,0.08%
+Ecwid,2,0.08%
+StackCommerce,2,0.08%
+BV Commerce,2,0.08%
+Pinnacle Cart,2,0.08%
+ShopSite,2,0.08%
+Symphony Commerce,2,0.08%
+nopCommerce,2,0.08%
+Upshot Commerce,1,0.04%
+UltraCart,1,0.04%
+Dynamic Converter,1,0.04%
+UniteU,1,0.04%
+PDG Software,1,0.04%
+ProStores,1,0.04%
+Mozu,1,0.04%
+Interspire,1,0.04%
+Kalio,1,0.04%
+WebAssist eCart,1,0.04%
+Simple Cart (js),1,0.04%
+Interchange,1,0.04%
+Sana Commerce,1,0.04%
+Avail,1,0.04%
+K-eCommerce,1,0.04%
+OXID EShop Community,1,0.04%
+OneStop Internet,1,0.04%
+Viskan,1,0.04%
+eShop,1,0.04%
+Snow Valley CMS,1,0.04%
+Magento Go,1,0.04%
+Litium,1,0.04%
+Avactis,1,0.04%
+KonaKart,1,0.04%
+Highwire Commerce,1,0.04%
+WP eCommerce,1,0.04%
+nsCommerceSpace,1,0.04%
+Celerant,1,0.04%
+Order Dynamics,1,0.04%
+Etsy,1,0.04%
+VP-ASP,1,0.04%
+BT Fresca,1,0.04%
+GetShopped,1,0.04%
+
+Technology analytics:,,
+Vendor name,Total count in group,Percentage in group
+Google Analytics,2314,98.09%
+Google Universal Analytics,1870,79.27%
+Google Analytics Classic,1634,69.26%
+Google Conversion Tracking,1464,62.06%
+New Relic,1232,52.22%
+Rapleaf,1180,50.02%
+Optimizely,1149,48.7%
+comScore,1133,48.02%
+Twitter Analytics,1110,47.05%
+Facebook Domain Insights,1045,44.29%
+MediaMath,1037,43.95%
+Datalogix,1005,42.6%
+Quantcast Measurement,973,41.24%
+DoubleClick Floodlight,928,39.33%
+CrazyEgg,883,37.43%
+Google Analytics with Ad Tracking,840,35.6%
+Lotame Crowd Control,698,29.58%
+Facebook Tag API,647,27.42%
+Omniture SiteCatalyst,641,27.17%
+Acxiom,612,25.94%
+Yahoo Web Analytics,497,21.06%
+Invite Media,426,18.05%
+MediaMind,424,17.97%
+Atlas Action Tags,380,16.1%
+Google Analytics Enhanced Link Attribution,371,15.72%
+Google Analytics Event Tracking,364,15.43%
+Mixpanel,356,15.09%
+Chartbeat,330,13.98%
+Adometry,310,13.14%
+WordPress Stats,304,12.88%
+Marketo,297,12.59%
+Bing Universal Event Tracking,292,12.37%
+Dotomi,287,12.16%
+KISSmetrics,287,12.16%
+Krux Digital,285,12.08%
+ClickTale,267,11.31%
+Omniture Adobe Test and Target,262,11.1%
+Visual Website Optimizer,256,10.85%
+Nielsen//NetRatings,245,10.38%
+Hubspot,243,10.3%
+OwnerIQ,239,10.13%
+Compuware Analytics,239,10.13%
+Google Analytics Enhanced Ecommerce,239,10.13%
+Bizo Insights,232,9.83%
+VoiceFive,228,9.66%
+Moat,220,9.32%
+Efficient Frontier,219,9.28%
+Netmining,211,8.94%
+Google Content Experiments,208,8.81%
+Yahoo Dot,195,8.26%
+Everest Technologies,194,8.22%
+Hotjar,187,7.92%
+InsightExpress,178,7.54%
+Marin Software,178,7.54%
+Google Website Optimizer,177,7.5%
+Pingdom RUM,175,7.41%
+Piwik Web Analytics,170,7.2%
+WebTrends,169,7.16%
+Convertro,169,7.16%
+Safe Count,165,6.99%
+Signal,161,6.82%
+Demandbase,155,6.57%
+Inspectlet,144,6.1%
+Adobe Dynamic Tag Management,138,5.84%
+Segment.io,138,5.84%
+Eloqua,133,5.63%
+SteelHouse,131,5.55%
+Pardot,128,5.42%
+Fastly,127,5.38%
+Satellite,127,5.38%
+DataXu,126,5.34%
+Salesforce,125,5.29%
+Facebook Conversion Tracking,121,5.12%
+Bazaarvoice,120,5.08%
+Buysight,114,4.83%
+Google Analytics Multiple Trackers,113,4.79%
+Google Analytics Anonymize IP,110,4.66%
+Yieldr,105,4.45%
+Clicky,103,4.36%
+Coremetrics,103,4.36%
+StatCounter,101,4.28%
+Adobe Target Standard,100,4.23%
+Interclick,95,4.02%
+Google Analytics Ecommerce,95,4.02%
+Trackalyzer,92,3.89%
+TeaLeaf,92,3.89%
+Tynt Tracer,90,3.81%
+iPerceptions,88,3.73%
+ForeSee Results,87,3.68%
+ChannelAdvisor,85,3.6%
+I-Behavior,81,3.43%
+Ve Interactive,81,3.43%
+LeadLander,81,3.43%
+Mouseflow,81,3.43%
+Microsoft Adcenter,75,3.17%
+Hubspot Forms,75,3.17%
+Monetate,74,3.13%
+Heap,73,3.09%
+Bronto,73,3.09%
+Alexa Metrics,67,2.84%
+Pixalate,66,2.79%
+Cedexis,66,2.79%
+Alexa Certified Site Metrics,65,2.75%
+Fireblade,64,2.71%
+IXI Digital,63,2.67%
+Shareaholic,63,2.67%
+SSL Google Analytics,62,2.62%
+Silverpop,60,2.54%
+SnowPlow,57,2.41%
+Kenshoo,54,2.28%
+iGoDigital,53,2.24%
+Woopra,50,2.11%
+Listrak,49,2.07%
+Lucky Orange,49,2.07%
+Cross Pixel Media,49,2.07%
+Parse.ly,47,1.99%
+Akamai Acerno,47,1.99%
+Urchin 5,47,1.99%
+Sailthru Horizon,47,1.99%
+Performable,45,1.9%
+Pmetrics,45,1.9%
+Bizible,44,1.86%
+SLI Systems,44,1.86%
+Maxymiser,43,1.82%
+33 Across,41,1.73%
+SessionCam,41,1.73%
+Act-On,40,1.69%
+Visual Sciences,40,1.69%
+Certona,38,1.61%
+Dynatrace,38,1.61%
+Typepad Analytics,36,1.52%
+OpinionLab,35,1.48%
+GoSquared,35,1.48%
+Sift Science,35,1.48%
+TagMan,34,1.44%
+FullStory,33,1.39%
+HitTail - Long Tail Keyword Marketing,33,1.39%
+Digital Window,33,1.39%
+Google Analytics IP Anonymization,33,1.39%
+SiteSpect,32,1.35%
+BloomReach,32,1.35%
+Keen IO,32,1.35%
+Yandex Metrika,32,1.35%
+PageFair,32,1.35%
+Insightera,31,1.31%
+Kampyle Analytics,31,1.31%
+Mercent,31,1.31%
+VisiStat,31,1.31%
+Bombora,30,1.27%
+Extole,30,1.27%
+SearchForce,29,1.22%
+XiTi,28,1.18%
+TrustPilot,28,1.18%
+Customer.io,28,1.18%
+Reinvigorate,28,1.18%
+Compete,28,1.18%
+Lead Forensics,28,1.18%
+AT Internet,28,1.18%
+Gravity Insights,27,1.14%
+Adobe CQ Analytics,26,1.1%
+VisualDNA,25,1.05%
+BlueCore,25,1.05%
+Site Meter,25,1.05%
+Nextopia,25,1.05%
+Captora,25,1.05%
+Unica,25,1.05%
+netFactor - VisitorTracker,25,1.05%
+Bing Conversion Tracking,24,1.01%
+Mongoose Metrics,24,1.01%
+Soasta mPulse,24,1.01%
+TradeDoubler,24,1.01%
+News Distribution Network,23,0.97%
+Gaug.es,22,0.93%
+eBay Enterprise,22,0.93%
+Baynote,21,0.89%
+Convert,21,0.89%
+TVSquared,20,0.84%
+aWeber,20,0.84%
+UpSellit,20,0.84%
+TellApart,19,0.8%
+Synapse Clickable,19,0.8%
+SeeWhy,19,0.8%
+Dynamic Logic,19,0.8%
+Klaviyo,19,0.8%
+Crowd Science,19,0.8%
+Instart Logic Loader,19,0.8%
+Yieldify,18,0.76%
+Sidecar,18,0.76%
+DC Storm,18,0.76%
+Marketo Real Time Personalization,18,0.76%
+Lyris,18,0.76%
+Granify,17,0.72%
+Evergage,17,0.72%
+Clickheat,17,0.72%
+AvantMetrics,17,0.72%
+ReachForce,17,0.72%
+Sitestat,16,0.67%
+SkyGlue,16,0.67%
+SaleCycle,16,0.67%
+Cloudflare Rocket Loader,16,0.67%
+Webtrekk,16,0.67%
+Lexity,16,0.67%
+4Q Survey,16,0.67%
+GoDataFeed,16,0.67%
+WebTrends Optimize,15,0.63%
+Amplitude,15,0.63%
+VoiceStar AdTrack,15,0.63%
+KickApps,14,0.59%
+Yottaa,14,0.59%
+BorderFree,14,0.59%
+ClickDensity,14,0.59%
+Usabilla,14,0.59%
+Peerius,14,0.59%
+Loggly,14,0.59%
+LiveRamp,13,0.55%
+PicReel,13,0.55%
+Genius,13,0.55%
+Core Audience,13,0.55%
+ATInternet,13,0.55%
+Google Analytics Custom Variables,13,0.55%
+Usablenet,13,0.55%
+ClickDimensions,13,0.55%
+RebelMouse,12,0.5%
+Agilone,12,0.5%
+Optimost,12,0.5%
+MerchantAdvantage,12,0.5%
+Optify,12,0.5%
+HiConversion,12,0.5%
+Iconosquare,12,0.5%
+ToutApp,12,0.5%
+Baidu Analytics,12,0.5%
+Lytics,12,0.5%
+Google Analytics Forced SSL,12,0.5%
+ThreatMetrix,11,0.46%
+Spinnakr,11,0.46%
+Qubit Deliver,11,0.46%
+iovation,11,0.46%
+Retention Science,11,0.46%
+Vero,11,0.46%
+NetElixir,11,0.46%
+Visual IQ,10,0.42%
+Raygun,10,0.42%
+Convert Global,10,0.42%
+Spring Metrics,10,0.42%
+dotMailer,10,0.42%
+MarketLive Analytics,10,0.42%
+CallidusCloud,10,0.42%
+Reflektion,10,0.42%
+Barilliance,10,0.42%
+ETracker,10,0.42%
+MyBlogLog,10,0.42%
+Conversion Ruler,10,0.42%
+DMTracker,9,0.38%
+Infusionsoft,9,0.38%
+AWStats,9,0.38%
+Strands,9,0.38%
+Hitslink,9,0.38%
+Google Analytics Social Interactions,9,0.38%
+LiveBall,9,0.38%
+Channel Intelligence TrueTag,9,0.38%
+Freshplum,9,0.38%
+Decibel Insight,8,0.33%
+IgnitionOne,8,0.33%
+Sales Engine International,8,0.33%
+OneAll,8,0.33%
+Mixpanel Partner,8,0.33%
+CopperEgg,8,0.33%
+UserZoom,8,0.33%
+Curalate,7,0.29%
+Sellpoints,7,0.29%
+VTrenz (Silverpop),7,0.29%
+eXTReMe Tracking,7,0.29%
+Net Applications,7,0.29%
+Marketizator,7,0.29%
+AB Tasty,7,0.29%
+Offerpop,7,0.29%
+51.la,7,0.29%
+WebMetro,7,0.29%
+Mint,7,0.29%
+Econda,7,0.29%
+Crowd Factory,7,0.29%
+Dynamic Yield,7,0.29%
+CoreMotives,7,0.29%
+SecuredVisit,6,0.25%
+Triggered Messaging,6,0.25%
+EightFold Logic,6,0.25%
+Infoline,6,0.25%
+SmartFocus Advisor,6,0.25%
+Boomtrain,6,0.25%
+Open Tracker,6,0.25%
+Email Aptitude,6,0.25%
+Pathful,6,0.25%
+Mass Relevance,6,0.25%
+BrightInfo,6,0.25%
+Triblio,6,0.25%
+Qbaka,6,0.25%
+Monitis,6,0.25%
+Infonline,6,0.25%
+BlueCava,6,0.25%
+Exactag,6,0.25%
+WIPmania,6,0.25%
+SingleFeed,5,0.21%
+Rekko,5,0.21%
+Adobe Marketing Cloud,5,0.21%
+Ptengine,5,0.21%
+Rimm Kaufman Group,5,0.21%
+Wiredminds Web Analytics,5,0.21%
+Cloud IQ,5,0.21%
+Emarsys eMarketing Suite,5,0.21%
+Percent Mobile,5,0.21%
+Iterable,5,0.21%
+Improvely,5,0.21%
+ExitIntel,5,0.21%
+Easyresearch,5,0.21%
+Postano,5,0.21%
+Exit Monitor,5,0.21%
+whos.amung.us,5,0.21%
+Histats,5,0.21%
+Geobytes,5,0.21%
+Salesfusion,5,0.21%
+Autopilot,5,0.21%
+OptiMonk,5,0.21%
+Fireclick,5,0.21%
+Eulerian,5,0.21%
+Celebros,5,0.21%
+Nosto,5,0.21%
+Loopfuse,5,0.21%
+Visual Visitor,5,0.21%
+Spectate,4,0.16%
+MailMunch,4,0.16%
+Azalead,4,0.16%
+Jirafe,4,0.16%
+Sub2Tech,4,0.16%
+Personyze,4,0.16%
+Gemius PL,4,0.16%
+Fanplayr,4,0.16%
+Remintrex,4,0.16%
+Strangeloop,4,0.16%
+Intuitive Search Technologies,4,0.16%
+WebSTAT,4,0.16%
+Fact Finder,4,0.16%
+CQuotient,4,0.16%
+Rejoiner,4,0.16%
+Recruitics,4,0.16%
+Delivra,4,0.16%
+BlueConic,4,0.16%
+Responsys,4,0.16%
+Loggr,4,0.16%
+Newscred Analytics,4,0.16%
+BrainSINS,4,0.16%
+DataSphere,4,0.16%
+Localytics,4,0.16%
+Feed Magnet,4,0.16%
+UserFly,4,0.16%
+LEADSExplorer,4,0.16%
+Sub2 Technologies,4,0.16%
+SnapApp,3,0.12%
+StatHat,3,0.12%
+Popcorn Metrics,3,0.12%
+Innometrics,3,0.12%
+Altocloud,3,0.12%
+Net-Results,3,0.12%
+BevyUp,3,0.12%
+TapStream,3,0.12%
+ScarabResearch,3,0.12%
+ATTRAQT,3,0.12%
+Datalicious Supertag,3,0.12%
+OneStat,3,0.12%
+Mindset Media,3,0.12%
+SeeVolution,3,0.12%
+WOW Analytics,3,0.12%
+StreamSend,3,0.12%
+Inuvo,3,0.12%
+SAS,3,0.12%
+Vizury,3,0.12%
+Google Universal Analytics Debug,3,0.12%
+Project Sunblock,3,0.12%
+Yahoo Geocities Analytics,3,0.12%
+Trialfire,3,0.12%
+Oktopost,3,0.12%
+Dapper,3,0.12%
+Preact,3,0.12%
+Amadesa,3,0.12%
+Conversions on Demand,3,0.12%
+KeyMetric,3,0.12%
+WizRocket,3,0.12%
+Linkstant,3,0.12%
+AbandonAid,3,0.12%
+Effective Measure,3,0.12%
+VisitorTrack,3,0.12%
+Acquisio,3,0.12%
+Snoobi,3,0.12%
+Alenty,3,0.12%
+Kameleoon,3,0.12%
+Monitus,3,0.12%
+ETrigue,3,0.12%
+Drip,3,0.12%
+Free Logs,3,0.12%
+TrenDemon,3,0.12%
+Maxly,3,0.12%
+Brainshark,2,0.08%
+Free Online Users,2,0.08%
+YourAmigo,2,0.08%
+ThomasNet Web Traxs,2,0.08%
+SiteWit,2,0.08%
+Visitor.js,2,0.08%
+Gemius,2,0.08%
+CNZZ,2,0.08%
+What2fly.com Traffic,2,0.08%
+UsabilityTools,2,0.08%
+Bucky,2,0.08%
+Channel Intelligence Where-to-Buy,2,0.08%
+OrangeSoda,2,0.08%
+Linkpulse,2,0.08%
+LeadForce1,2,0.08%
+Bellmetric,2,0.08%
+Apptus,2,0.08%
+Add Free Stats,2,0.08%
+Analytics Pros,2,0.08%
+BrightEdge,2,0.08%
+eStat,2,0.08%
+Going Up,2,0.08%
+Flocktory,2,0.08%
+Flag Counter,2,0.08%
+GoDaddy Site Analytics,2,0.08%
+Totango,2,0.08%
+Clustr Maps,2,0.08%
+Enecto,2,0.08%
+SharpSpring,2,0.08%
+Psyma,2,0.08%
+CrowdTwist,2,0.08%
+Chute,2,0.08%
+Communicator Corp,2,0.08%
+ Loop11,2,0.08%
+Candid,2,0.08%
+Indicative,2,0.08%
+Active Campaign,2,0.08%
+iJento,2,0.08%
+Tedemis,2,0.08%
+Cognesia,2,0.08%
+Yahoo Tag Manager,2,0.08%
+Nudgespot ,2,0.08%
+vCita,2,0.08%
+UserReplay,2,0.08%
+CANDDi Insights,2,0.08%
+LogNormal,2,0.08%
+Tradable Bits,2,0.08%
+NextSTAT,2,0.08%
+O2MC Dimml,2,0.08%
+Selligent,2,0.08%
+Visilabs,1,0.04%
+Treasure Data,1,0.04%
+Inbox25,1,0.04%
+Google Analytics Timings,1,0.04%
+ClickFunnels,1,0.04%
+Ometria,1,0.04%
+TraceWorks,1,0.04%
+iLoop Mobile,1,0.04%
+CA Nimsoft Monitor,1,0.04%
+MageMail,1,0.04%
+coComment,1,0.04%
+SiteApps,1,0.04%
+103bees,1,0.04%
+SimplyCast,1,0.04%
+LiftIgniter,1,0.04%
+Scout Analytics,1,0.04%
+Network Solutions Super Stats,1,0.04%
+Agile CRM,1,0.04%
+Alexa Analytics,1,0.04%
+Bubblestat,1,0.04%
+StackLead,1,0.04%
+Active Meter,1,0.04%
+Leadin,1,0.04%
+Web Stat,1,0.04%
+Flurry,1,0.04%
+Intent HQ,1,0.04%
+Payboard,1,0.04%
+JumpTime,1,0.04%
+EWebCounter,1,0.04%
+Brightpearl Forms,1,0.04%
+Active Metrics,1,0.04%
+Ontraport,1,0.04%
+LeadConvertor,1,0.04%
+Reynolds and Reynolds Analytics,1,0.04%
+DeepMetrix,1,0.04%
+Delve Partners,1,0.04%
+LiveInternet,1,0.04%
+i-parcel,1,0.04%
+Clerk,1,0.04%
+ReelLabs,1,0.04%
+Vizergy,1,0.04%
+Rambler,1,0.04%
+DGM,1,0.04%
+Future Simple Base,1,0.04%
+Hublo,1,0.04%
+Calq,1,0.04%
+Yield Software,1,0.04%
+OnCue,1,0.04%
+Wayin,1,0.04%
+inSparq,1,0.04%
+Webleads Tracker,1,0.04%
+MineWhat,1,0.04%
+Super Stats,1,0.04%
+Now Interact,1,0.04%
+W3 Counter,1,0.04%
+BuiltWith Web Leads,1,0.04%
+Airbrake,1,0.04%
+Naked Lime,1,0.04%
+Open Web Analytics,1,0.04%
+Adcrowd,1,0.04%
+FreshMail,1,0.04%
+Kapost,1,0.04%
+Makazi,1,0.04%
+Akanoo,1,0.04%
+RJMetrics,1,0.04%
+whos.amung.us Pro,1,0.04%
+Motigo Stats,1,0.04%
+ProspectEye,1,0.04%
+Blueknow,1,0.04%
+Sophus 3,1,0.04%
+Global Maxer,1,0.04%
+Roojoom,1,0.04%
+Vibetrace,1,0.04%
+Unbxd,1,0.04%
+ShinyStat,1,0.04%
+Bluemetrix,1,0.04%
+Realytics,1,0.04%
+A1WebStats,1,0.04%
+Keyword Max - Research and Tracking,1,0.04%
+United Digital Group,1,0.04%
+Shoutlet,1,0.04%
+FruitFlan,1,0.04%
+Runa,1,0.04%
+Temper,1,0.04%
+SageMetrics,1,0.04%
+Google Analytics Tasks,1,0.04%
+M-Pathy,1,0.04%
+Neodata,1,0.04%
+Commerce Sciences,1,0.04%
+VinLens,1,0.04%
+FredHopper,1,0.04%
+WebProspector,1,0.04%
+Vertster,1,0.04%
+BeezUp,1,0.04%
+Inside,1,0.04%
+Sociable Labs,1,0.04%
+Revolver Maps,1,0.04%
+CoolaData,1,0.04%
+nToklo,1,0.04%
+TUMRA,1,0.04%
+Ruxit,1,0.04%
+Targeting Mantra,1,0.04%
+Survicate,1,0.04%
+RedEye,1,0.04%
+Phonalytics,1,0.04%
+GoStats,1,0.04%
+Handset Detection,1,0.04%
+
+Technology ads:,,
+Vendor name,Total count in group,Percentage in group
+DoubleClick.Net,2138,90.63%
+AppNexus,1712,72.57%
+Google Adsense,1557,66.0%
+Facebook Exchange FBX,1309,55.48%
+AppNexus Segment Pixel,1277,54.13%
+Yahoo Small Business,1233,52.26%
+Openads/OpenX,1134,48.07%
+Google Remarketing,1133,48.02%
+Twitter Ads,1062,45.01%
+IponWeb BidSwitch,1025,43.45%
+Pubmatic,1023,43.36%
+Rubicon Project,961,40.73%
+BlueKai,951,40.31%
+Facebook Custom Audiences,948,40.18%
+Turn,899,38.1%
+Dstillery,860,36.45%
+AdRoll,854,36.2%
+The Trade Desk,836,35.43%
+Neustar AdAdvisor,832,35.26%
+Atlas,747,31.66%
+Aggregate Knowledge,727,30.81%
+Chango,699,29.63%
+Index Exchange,698,29.58%
+Advertising.com,685,29.03%
+Yield Manager,674,28.57%
+Resonate Insights,649,27.51%
+DemDex,614,26.02%
+BlueKai DMP,612,25.94%
+ContextWeb,591,25.05%
+AOL-Time Warner Online Advertising,560,23.73%
+Tapad,556,23.56%
+Rocket Fuel,548,23.23%
+Criteo,544,23.06%
+eXelate,515,21.83%
+Media Innovation Group,505,21.4%
+Bizo,483,20.47%
+Adap.TV,455,19.28%
+SpotXchange,433,18.35%
+Improve Digital,430,18.22%
+Burst Media,401,16.99%
+Drawbridge,393,16.65%
+Yahoo Publisher Network,376,15.93%
+Adify,365,15.47%
+Open AdStream,362,15.34%
+Videology,354,15.0%
+Conversant,348,14.75%
+Google Publisher Tag,340,14.41%
+AudienceScience,315,13.35%
+X Plus One,311,13.18%
+Specific Media,296,12.54%
+LiveRail,291,12.33%
+MLN Advertising,287,12.16%
+ADTECH,280,11.86%
+Simpli.fi,275,11.65%
+SiteScout,269,11.4%
+Centro,264,11.19%
+Mediaplex,263,11.14%
+VINDICO,260,11.02%
+Zedo,259,10.97%
+Evidon,247,10.47%
+Integral Ad Science,247,10.47%
+Accuen,241,10.21%
+DoubleVerify,239,10.13%
+AdMeld,239,10.13%
+RadiumOne,233,9.87%
+Adconion,231,9.79%
+Crosswise,229,9.7%
+Google Adsense for Search,224,9.49%
+Switch Ads,221,9.36%
+Ezakus,219,9.28%
+Flashtalking,217,9.19%
+MyBuys,215,9.11%
+PointRoll,212,8.98%
+Experian,210,8.9%
+Collective Media,209,8.85%
+Connexity,208,8.81%
+Tribal Fusion,206,8.73%
+Magnetic,184,7.79%
+Underdog Media,172,7.29%
+LinkedIn Ads,168,7.12%
+Digilant,166,7.03%
+Zenovia,165,6.99%
+Brilig,160,6.78%
+Amazon Associates,160,6.78%
+Datonics,159,6.74%
+DoubleClick Bid Manager,158,6.69%
+BrightRoll,157,6.65%
+Brandscreen,156,6.61%
+Fetchback Retargeting,151,6.4%
+Commission Junction,148,6.27%
+eyeReturn,143,6.06%
+TripleLift,140,5.93%
+MyBuys MyAds,137,5.8%
+Perfect Audience,134,5.68%
+AcuityAds,132,5.59%
+RhythmOne,132,5.59%
+Undertone,131,5.55%
+SkimLinks,126,5.34%
+Real Media Group,125,5.29%
+Upfront Digital Media,123,5.21%
+AdGear,121,5.12%
+Adform,118,5.0%
+Google Ad Partner Services,117,4.95%
+Eq Ads,116,4.91%
+mediaFORGE,114,4.83%
+Blue Lithium,103,4.36%
+Outbrain,102,4.32%
+Jumptap,101,4.28%
+RealVu,100,4.23%
+Taboola,95,4.02%
+Google AdSense Custom Search Ads,95,4.02%
+161Media,94,3.98%
+LucidMedia,94,3.98%
+NetSeer,92,3.89%
+Geniee,92,3.89%
+Korrelate,91,3.85%
+Spongecell,90,3.81%
+GumGum,90,3.81%
+Amazon Ad System,86,3.64%
+Proclivity,83,3.51%
+ExactTarget,81,3.43%
+Yieldlab,81,3.43%
+Triggit,80,3.39%
+Google Adsense Asynchronous,80,3.39%
+Semasio,76,3.22%
+Nanigans,72,3.05%
+Adblade,71,3.0%
+Link Share,71,3.0%
+ReTargeter,68,2.88%
+Bounce Exchange,67,2.84%
+Adition,64,2.71%
+Yahoo Genome,64,2.71%
+Falk Realtime,62,2.62%
+Eyeota,60,2.54%
+Exponential,56,2.37%
+Right Media,54,2.28%
+StickyAds TV,50,2.11%
+Quigo,50,2.11%
+Flite,50,2.11%
+IntentIQ,49,2.07%
+VigLink,48,2.03%
+Smartclip,47,1.99%
+Cubics,45,1.9%
+Dedicated Media,45,1.9%
+Travora Media,45,1.9%
+247 Media,44,1.86%
+MaxPoint Interactive,43,1.82%
+C3 Metrics,42,1.78%
+Choice Stream,42,1.78%
+Impact Radius,41,1.73%
+myThings,41,1.73%
+Sociomantic,40,1.69%
+bRealtime,40,1.69%
+adingo,40,1.69%
+Rich Relevance,39,1.65%
+AdSonar,39,1.65%
+Engage BDR,38,1.61%
+Nexage,38,1.61%
+AdZerk,38,1.61%
+AdPredictive,38,1.61%
+CPMStar,37,1.56%
+YieldBot,37,1.56%
+Segmint,37,1.56%
+Smart Adserver,36,1.52%
+Ohana,35,1.48%
+PulsePoint,34,1.44%
+World Now,33,1.39%
+Ad Ready,31,1.31%
+BridgeTrack,30,1.27%
+Channel Intelligence,28,1.18%
+Weborama,28,1.18%
+Sojern,27,1.14%
+MBuy,27,1.14%
+CPX Interactive,26,1.1%
+Sharethrough,26,1.1%
+AdBrite,26,1.1%
+Nativo,25,1.05%
+RichRelevance Apps,24,1.01%
+Intellitxt,24,1.01%
+Vibrant Advertising,24,1.01%
+Tacoda,23,0.97%
+CDS Global,23,0.97%
+Visible Measures,23,0.97%
+AdBlade Embed,23,0.97%
+AdsNative,22,0.93%
+Zanox,22,0.93%
+Varick Media Management,22,0.93%
+PayPal Advertising,22,0.93%
+LiveIntent,21,0.89%
+Optimax Media Delivery,21,0.89%
+Emediate,21,0.89%
+AdReady,21,0.89%
+ShareASale,21,0.89%
+Adtegrity,21,0.89%
+Struq,20,0.84%
+cXense,20,0.84%
+Media.net,19,0.8%
+GroupM Xaxis,19,0.8%
+Glam Media,18,0.76%
+ZergNet,18,0.76%
+Jetpack Digital,18,0.76%
+Google Adsense for Domains,18,0.76%
+Vizu,18,0.76%
+Q1Media,17,0.72%
+Quisma,17,0.72%
+AdJug,17,0.72%
+Forensiq,17,0.72%
+WHERE,17,0.72%
+comScore adXpose,17,0.72%
+Ligatus,17,0.72%
+Cxsense,16,0.67%
+Technorati Media,16,0.67%
+Metrigo,15,0.63%
+Brandcrumb,15,0.63%
+Martini Media,15,0.63%
+Vidible,15,0.63%
+Flxone,15,0.63%
+Adkontekst,14,0.59%
+PHP Ads,14,0.59%
+Speed Shift Media,14,0.59%
+Visual Revenue,14,0.59%
+AppNexus Ad Tag,14,0.59%
+PubExchange,13,0.55%
+Pulse 360,13,0.55%
+Appier,13,0.55%
+iCrossing,13,0.55%
+adloox,12,0.5%
+Click Equations,12,0.5%
+LinkSmart,12,0.5%
+Federated Media Publishing,12,0.5%
+The Mandelbrot Project,12,0.5%
+SAY Media Advertising,12,0.5%
+AdBlock Acceptable Ads,11,0.46%
+MercuryMedia,11,0.46%
+AdTiger,11,0.46%
+Perform Group,11,0.46%
+Bidtellect,11,0.46%
+Komoona,11,0.46%
+Adscale,11,0.46%
+CheckM8,10,0.42%
+Sonobi,10,0.42%
+Content ad,10,0.42%
+Sovrn,10,0.42%
+AdExtent,10,0.42%
+NuggAd,10,0.42%
+adGENIE,9,0.38%
+Deli Ads,9,0.38%
+Teads,9,0.38%
+Google / Youtube Adsense,9,0.38%
+Intent Media,9,0.38%
+Delta Projects,9,0.38%
+Demand Media Tracker,9,0.38%
+Mixpo,9,0.38%
+Fidelity Media,9,0.38%
+Yandex,9,0.38%
+HookLogic,9,0.38%
+ResponseTap,9,0.38%
+AdExcite,9,0.38%
+AdTruth,8,0.33%
+Newscred,8,0.33%
+AdMeta,8,0.33%
+Pixeleze,8,0.33%
+Media News Group Interactive,8,0.33%
+WebSpectator,7,0.29%
+DynAdmic,7,0.29%
+AvantLink,7,0.29%
+Affiliate Window,7,0.29%
+Yahoo Recommends,7,0.29%
+Woobox,7,0.29%
+Chitika,7,0.29%
+Clickbooth,7,0.29%
+Affectv,7,0.29%
+Rovion,7,0.29%
+Perfect Market,7,0.29%
+One Up Web,7,0.29%
+Think Realtime,7,0.29%
+NextPerformance,7,0.29%
+Ozone Media,7,0.29%
+PepperJam Network,7,0.29%
+Caraytech e-planning,7,0.29%
+ECustomer Opinions,6,0.25%
+Intergi,6,0.25%
+Revertisement,6,0.25%
+Zodiak Active,6,0.25%
+Scribol,6,0.25%
+AdvertServe,6,0.25%
+Post Affiliate Pro,6,0.25%
+Playnomics,6,0.25%
+Innovid,6,0.25%
+Xtendmedia,6,0.25%
+OpinionBar,6,0.25%
+Yume,6,0.25%
+Advertise.com,6,0.25%
+YuMe,6,0.25%
+Beanstock Media,6,0.25%
+AdKeeper,6,0.25%
+Infolinks,6,0.25%
+Casale Media,6,0.25%
+Indeed Ads,6,0.25%
+Celtra,5,0.21%
+ad6media,5,0.21%
+Teracent,5,0.21%
+Hi Media Performance,5,0.21%
+Infectious Media,5,0.21%
+LinkConnector,5,0.21%
+Vertical Acuity,5,0.21%
+Didit,5,0.21%
+Realtime Targeting,5,0.21%
+Image Space Media,5,0.21%
+Apple Auto Link Maker,5,0.21%
+Meetrics,4,0.16%
+Uberflip,4,0.16%
+LeadiD,4,0.16%
+Lanista Concepts,4,0.16%
+Kontera,4,0.16%
+Solve Media,4,0.16%
+DoubleClick Mobile,4,0.16%
+Blog Ads,4,0.16%
+Audiotude,4,0.16%
+Pheedo,4,0.16%
+AdSpeed,4,0.16%
+Advantage Media,4,0.16%
+OneScreen,4,0.16%
+Connatix,4,0.16%
+BuySell Ads,4,0.16%
+DoubleClick Advertising UK,4,0.16%
+DistrictM,4,0.16%
+FindTheBest,4,0.16%
+Adobe Auditude,4,0.16%
+Peer39,4,0.16%
+Tradelab,4,0.16%
+Yadro BannerHost,4,0.16%
+OpenX Lift,4,0.16%
+ReachLocal,4,0.16%
+mainADV,4,0.16%
+Gorilla Nation,3,0.12%
+Swoop,3,0.12%
+Umbel,3,0.12%
+Fiksu,3,0.12%
+PixFuture,3,0.12%
+xplosion interactive,3,0.12%
+eSearchVision,3,0.12%
+BTBuckets,3,0.12%
+Banner Connect,3,0.12%
+TrialPay,3,0.12%
+plista,3,0.12%
+AdKnowledge Engage,3,0.12%
+Interpolls,3,0.12%
+FriendFinder Networks,3,0.12%
+Hexagram,3,0.12%
+Markerly,3,0.12%
+nPario,3,0.12%
+Halogen Media,3,0.12%
+Ad4Game,3,0.12%
+MarketGID,3,0.12%
+Piximedia,3,0.12%
+adrolays,3,0.12%
+Captify,3,0.12%
+Adnologies,3,0.12%
+Tumri,3,0.12%
+Next Audience,3,0.12%
+AdMarvel,3,0.12%
+Adalyser,3,0.12%
+Polar,3,0.12%
+NetShelter,3,0.12%
+Performance Horizon,3,0.12%
+IntelliAd,3,0.12%
+AdParlor,2,0.08%
+Virool,2,0.08%
+LifeStreet Media,2,0.08%
+Google Mobile Ads,2,0.08%
+WahWah Ads,2,0.08%
+InvestingChannel,2,0.08%
+MoPub,2,0.08%
+OnScroll,2,0.08%
+Ntent,2,0.08%
+Directory M,2,0.08%
+Ad Fusion,2,0.08%
+Merchenta,2,0.08%
+AdvertPro,2,0.08%
+ExoClick,2,0.08%
+Coupon.com Brandcaster,2,0.08%
+NBC Universal,2,0.08%
+Crowdynews,2,0.08%
+Adswizz,2,0.08%
+AdMob,2,0.08%
+Apester,2,0.08%
+Microsoft Advertising,2,0.08%
+AzoogleAds,2,0.08%
+Public Idees,2,0.08%
+Komli Indian Ad Network,2,0.08%
+Grapeshot,2,0.08%
+Adbutler,2,0.08%
+Google Affiliate Network,2,0.08%
+AvanGate,2,0.08%
+Feed Perfect,2,0.08%
+rewardStyle,2,0.08%
+Intermundo Media,2,0.08%
+Adcloud,2,0.08%
+JuiceADV,2,0.08%
+TrafficMarketplace,2,0.08%
+RedPlum,2,0.08%
+BatangaMedia,2,0.08%
+PayClick,2,0.08%
+BlogHer Advertising Network,2,0.08%
+Vdopia,2,0.08%
+Marchex,2,0.08%
+Genesis Media,2,0.08%
+Clever Girls Collective,1,0.04%
+Scribit,1,0.04%
+MicroAd,1,0.04%
+Match Bin,1,0.04%
+Netaffiliation,1,0.04%
+Amazon Link Enchancer,1,0.04%
+.FOX Networks,1,0.04%
+AdServerPub,1,0.04%
+isocket,1,0.04%
+Reverb,1,0.04%
+ClickBank,1,0.04%
+TapIt,1,0.04%
+Opt Intelligence,1,0.04%
+Newstogram,1,0.04%
+Kaleidoscope Promotions,1,0.04%
+Written,1,0.04%
+adInterax,1,0.04%
+RevContent,1,0.04%
+twyn,1,0.04%
+A8.net,1,0.04%
+Avazu Network,1,0.04%
+Internet Brands Tracking Pixel,1,0.04%
+Baidu Promote,1,0.04%
+Adfunky,1,0.04%
+NimbleCommerce,1,0.04%
+DTScout,1,0.04%
+Crimtan,1,0.04%
+OpBandit,1,0.04%
+veeseo,1,0.04%
+Scaleout,1,0.04%
+ClicManager,1,0.04%
+Webgains,1,0.04%
+Adhese,1,0.04%
+PennWell,1,0.04%
+Cleverbridge Affiliate,1,0.04%
+VerticalScope,1,0.04%
+Get Smart Content,1,0.04%
+Scoop It,1,0.04%
+Ad Delivery Solutions,1,0.04%
+Sojearn,1,0.04%
+ThoughtLeadr,1,0.04%
+Adknowledge Cubics,1,0.04%
+Advertline,1,0.04%
+Radiate Media,1,0.04%
+Clicksor,1,0.04%
+clixGalore,1,0.04%
+Viafoura,1,0.04%
+SocialSpark,1,0.04%
+Google Matched Content,1,0.04%
+Carambola,1,0.04%
+AdOn Network,1,0.04%
+Google Consumer Surveys,1,0.04%
+ADFOX,1,0.04%
+AdMedia,1,0.04%
+Google AdSense for Shopping - Multi Format,1,0.04%
+Give Away of the Day,1,0.04%
+iPROM,1,0.04%
+Banman Pro,1,0.04%
+SB Nation Ads,1,0.04%
+Adskom,1,0.04%
+Wild West Domains,1,0.04%
+MGID,1,0.04%
+BBElements,1,0.04%
+Escalate Network,1,0.04%
+Industry Brains,1,0.04%
+Adyoulike,1,0.04%
+The Deck,1,0.04%
+Videoplaza,1,0.04%
+Engageya,1,0.04%
+PopAds,1,0.04%
+Trueffect,1,0.04%
+GoDaddy Hosting Ads,1,0.04%
+Falk AdSolutions,1,0.04%
+Yepty,1,0.04%
+Logical Media,1,0.04%
+affilinet,1,0.04%
+ReactX,1,0.04%
+Pixazza,1,0.04%
+PaperG,1,0.04%
+NetBooster,1,0.04%
+Cognitive Match,1,0.04%
+AdSide,1,0.04%
+AdInfinity,1,0.04%
+AdShuffle,1,0.04%
+Shop2Market,1,0.04%
+CNET Tracker Code,1,0.04%
+Top Ten Reviews,1,0.04%
+Connextra,1,0.04%
+Coupon Network,1,0.04%
+DirectTrack,1,0.04%
+Aquantive,1,0.04%
+Vertical Search Works,1,0.04%
+Partner-ads,1,0.04%
+ListHub,1,0.04%
+AdRiver,1,0.04%
+InSkin Media,1,0.04%
+PropelAd,1,0.04%
+rtbLab,1,0.04%
+ExactDrive,1,0.04%
+Unanimis,1,0.04%
+Tailsweep,1,0.04%
+IndieClick,1,0.04%
+Traffic Haus,1,0.04%
+
+Technology media:,,
+Vendor name,Total count in group,Percentage in group
+YouTube,1435,60.83%
+Vimeo,651,27.59%
+Tube Mogul,463,19.62%
+JW Player,352,14.92%
+VideoJS,267,11.31%
+TidalTV,265,11.23%
+Brightcove,258,10.93%
+Wistia,247,10.47%
+MediaElement.js,245,10.38%
+Flowplayer,204,8.64%
+SoundCloud,107,4.53%
+jPlayer,83,3.51%
+Ooyala,82,3.47%
+Thomson Reuters Multimedia Center,63,2.67%
+FLV Player,50,2.11%
+Spotify Play Button,40,1.69%
+Kaltura,37,1.56%
+LongTail Video,34,1.44%
+thePlatform,31,1.31%
+Quicktime,30,1.27%
+Tremor Video,30,1.27%
+Vidyard,29,1.22%
+Adotube,27,1.14%
+YouTube IFrame Embed,26,1.1%
+Flowplayer Commercial,25,1.05%
+Livestream,25,1.05%
+Flickr API,23,0.97%
+DailyMotion Video,17,0.72%
+UStream,16,0.67%
+Invodo,15,0.63%
+Delve Networks,13,0.55%
+CNN Media,13,0.55%
+AOL On,12,0.5%
+Background Sound,11,0.46%
+Viddler,10,0.42%
+Sublime Video,10,0.42%
+Skype Download,10,0.42%
+Bits on the Run,8,0.33%
+Hulu,7,0.29%
+Piclens Lite,7,0.29%
+Magnify.net,7,0.29%
+Animoto,7,0.29%
+Blip TV,7,0.29%
+VideoEgg,6,0.25%
+Conviva,6,0.25%
+Popcorn JS,6,0.25%
+Libsyn,5,0.21%
+Associated Press Online Video Network,5,0.21%
+Filemobile,4,0.16%
+Metacafe,4,0.16%
+BrightTALK,4,0.16%
+Twistage,4,0.16%
+Band Camp Player,4,0.16%
+Yahoo MediaPlayer,4,0.16%
+Ted Media,4,0.16%
+vzaar,4,0.16%
+CGI Communications,3,0.12%
+Twitter Embedded Videos,3,0.12%
+Vodpod,3,0.12%
+Youku,3,0.12%
+Unruly Media,3,0.12%
+Anarchy Media Player,3,0.12%
+Kewego,3,0.12%
+Clip Syndicate,3,0.12%
+Mixcloud,3,0.12%
+Treepodia,3,0.12%
+Blog Talk Radio,2,0.08%
+Yahoo WebPlayer,2,0.08%
+ReverbNation,2,0.08%
+Cincopa,2,0.08%
+Screen9,2,0.08%
+Verizon upLynk,2,0.08%
+Fliqz,2,0.08%
+Twitch,2,0.08%
+VMIX,2,0.08%
+VideoGenie,2,0.08%
+FlixMedia,2,0.08%
+Google Audio Player,2,0.08%
+Google Video,2,0.08%
+Photobucket,1,0.04%
+FunnyOrDie,1,0.04%
+College Humour,1,0.04%
+Flumotion,1,0.04%
+Rdio,1,0.04%
+MySpace TV,1,0.04%
+Brazzers,1,0.04%
+Facebook Embedded Video,1,0.04%
+Quadia,1,0.04%
+SundaySky,1,0.04%
+Reuters Insider OVP,1,0.04%
+VideoPress,1,0.04%
+iSiteTV,1,0.04%
+Break,1,0.04%
+Castfire,1,0.04%
+Talk Fusion,1,0.04%
+Grooveshark,1,0.04%
+Wavestreamer,1,0.04%
+MovingIMAGE24,1,0.04%
+Dailymotion Cloud,1,0.04%
+One True Media,1,0.04%
+Odeo,1,0.04%
+StreamSense,1,0.04%
+Vevo,1,0.04%
+Video.me,1,0.04%
+SpeakerText,1,0.04%
+Oddcast,1,0.04%
+SlideShare,1,0.04%
+NeuLion,1,0.04%
+Vid.ly,1,0.04%
+
+Technology widgets:,,
+Vendor name,Total count in group,Percentage in group
+Facebook Like,1853,78.55%
+Google Font API,1782,75.54%
+Facebook Like Button,1336,56.63%
+Google Tag Manager,1329,56.33%
+Wordpress Plugins,1258,53.32%
+AddThis,1257,53.28%
+Google Plus One Platform,1189,50.4%
+Font Awesome,1036,43.91%
+Google Plus One Button,958,40.61%
+Twitter Tweet Button,931,39.46%
+Yoast Plugins,791,33.53%
+Facebook Sharer,728,30.86%
+Typekit,690,29.24%
+Facebook Like Box,680,28.82%
+Pinterest,673,28.52%
+Twemoji,635,26.91%
+ShareThis,635,26.91%
+Twitter Timeline,617,26.15%
+Yoast WordPress SEO Plugin,595,25.22%
+Twitter Follow Button,527,22.33%
+Lijit Widget,520,22.04%
+Sitelinks Search Box,475,20.13%
+Gravatar Profiles,458,19.41%
+reCAPTCHA,416,17.63%
+Smart App Banner,390,16.53%
+Twitter Widget,376,15.93%
+Thickbox,374,15.85%
+Disqus,351,14.87%
+Google Custom Search,336,14.24%
+TRUSTe,330,13.98%
+W3 Total Cache,323,13.69%
+JetPack,322,13.64%
+Yoast SEO Premium,309,13.09%
+MailChimp,304,12.88%
+YouTube IFrame Upload,283,11.99%
+Yoast Google Analytics for WordPress,263,11.14%
+Zendesk Dropbox,259,10.97%
+LivePerson,257,10.89%
+Stumbleupon,254,10.76%
+LinkedIn Share Plugin,250,10.59%
+Microdata for Google Shopping,246,10.42%
+Contact Form 7,245,10.38%
+Fonts.com,238,10.08%
+WP Super Cache,226,9.58%
+Verisign Seal,224,9.49%
+Olark,214,9.07%
+Digg,210,8.9%
+FastClick,210,8.9%
+CKEditor,206,8.73%
+Qualaroo,199,8.43%
+ZeroClipboard,198,8.39%
+McAfee Secure,191,8.09%
+Facebook Comments,184,7.79%
+Typography,167,7.07%
+Reddit,164,6.95%
+Twitter Embedded Tweets,158,6.69%
+Imgur,158,6.69%
+Wufoo,155,6.57%
+Shutterstock,152,6.44%
+All in One SEO Pack,146,6.18%
+Gigya,145,6.14%
+Google Trusted Store,142,6.01%
+SnapEngage,135,5.72%
+Add to Any,133,5.63%
+ThemePunch,124,5.25%
+Marketo Forms,124,5.25%
+Google Chrome Frame Popup,123,5.21%
+Del.icio.us,123,5.21%
+Google Translate Widget,115,4.87%
+NextGEN Gallery,112,4.74%
+Zopim,110,4.66%
+LiveChat,109,4.62%
+Tealium,107,4.53%
+WordPress Popular Posts,104,4.4%
+Google Plus Embedded Posts,102,4.32%
+UserVoice,102,4.32%
+Slider Revolution,98,4.15%
+WP PageNavi,95,4.02%
+Adobe TagManager,95,4.02%
+PowerReviews,87,3.68%
+Mollom,84,3.56%
+WP Polls,84,3.56%
+IE SiteMode,82,3.47%
+Gravity Forms,80,3.39%
+Alexa Verify,80,3.39%
+HubSpot Vex,78,3.3%
+Wordfence,75,3.17%
+Gist,74,3.13%
+Are You a Human,73,3.09%
+Getty Images,73,3.09%
+BatCache,72,3.05%
+Hello Bar,72,3.05%
+SumoMe,70,2.96%
+Visual Composer,69,2.92%
+Qualtrics Site Intercept,68,2.88%
+LinkedIn Follow Company Plugin,68,2.88%
+Bold Chat,67,2.84%
+Google Code Prettify,67,2.84%
+Yet Another Related Posts Plugin,66,2.79%
+Facebook Activity Feed,64,2.71%
+Zemanta,64,2.71%
+TweetMeme,64,2.71%
+STELLAService,63,2.67%
+Google Charts,61,2.58%
+Authorize.net,61,2.58%
+FeedBurner Widgets,60,2.54%
+WPML Multilingual,60,2.54%
+Facebook Login Button,59,2.5%
+Bizrate,59,2.5%
+Ensighten,58,2.45%
+Facebook Facepile,55,2.33%
+PollDaddy,55,2.33%
+Janrain,55,2.33%
+Disqus Comment System for WordPress,54,2.28%
+Google Analytics Dashboard for WordPress,53,2.24%
+Flickr Slideshow,53,2.24%
+Constant Contact,50,2.11%
+Intercom,49,2.07%
+TheFind Upfront,49,2.07%
+JobVite,48,2.03%
+Facebook Recommendations,47,1.99%
+Rollbar,46,1.94%
+Pinterest for Wordpress,46,1.94%
+Survey Monkey,46,1.94%
+Zendesk Feedback Tab,44,1.86%
+Social Media Widget,44,1.86%
+CloudFlare Email Protection,44,1.86%
+QuBit OpenTag,43,1.82%
+Digg Digg,43,1.82%
+WP reCAPTCHA,43,1.82%
+Swiftype,41,1.73%
+Google Plus One Share Button,41,1.73%
+Campaign Monitor Widget,40,1.69%
+Oracle RIght Now,40,1.69%
+Bugsnag,40,1.69%
+Errorception,40,1.69%
+Tumblr Buttons,38,1.61%
+WP Paginate,38,1.61%
+LiveFyre,38,1.61%
+Akismet,37,1.56%
+SnapWidget,37,1.56%
+MailChimp for WordPress,37,1.56%
+Vipers Video Quicktags,37,1.56%
+WP Missed Schedule,37,1.56%
+Marketo Social JS,36,1.52%
+Webtype,36,1.52%
+Facebook Embedded Posts,36,1.52%
+LiveValidation,36,1.52%
+Lightbox Plus,35,1.48%
+Ethnio,35,1.48%
+Akismet Non Hosted,35,1.48%
+Flickr Badge,33,1.39%
+TurboLinks,33,1.39%
+LayerSlider Responsive,33,1.39%
+Tiny MCE,33,1.39%
+Simple Share Buttons Adder,32,1.35%
+Trustwave Seal,32,1.35%
+Feedbackify,32,1.35%
+Storify,32,1.35%
+Flickr PhotoStream,32,1.35%
+iCIMS,31,1.31%
+BBB Seal,31,1.31%
+Search Everything,31,1.31%
+Simple Social Icons,31,1.31%
+TablePress,31,1.31%
+Vine Embed,31,1.31%
+Kampyle,31,1.31%
+DigiCert,31,1.31%
+Feedburner Subscribe,30,1.27%
+Easy Fancybox,29,1.22%
+Yahoo Buzz,29,1.22%
+Po.st,29,1.22%
+Fontdeck,28,1.18%
+Buffer,28,1.18%
+Fotolia,28,1.18%
+Social Sharing Toolkit,28,1.18%
+Wysija,28,1.18%
+Browser-Update,28,1.18%
+Yotpo,27,1.14%
+OptinMonster,27,1.14%
+Emma Inc,27,1.14%
+Better WordPress Minify,26,1.1%
+Wunderground,26,1.1%
+Get Satisfaction,25,1.05%
+ON24,25,1.05%
+WidgetBox,25,1.05%
+CloudSponge,25,1.05%
+MailPoet,25,1.05%
+Norton Shopping Guarantee,25,1.05%
+geoPlugin,25,1.05%
+Formstack,25,1.05%
+ShopRunner,24,1.01%
+Trust Keeper,24,1.01%
+Filepicker.io,24,1.01%
+PowerPress,24,1.01%
+Sexy Bookmarks,23,0.97%
+Fancybox for WordPress,23,0.97%
+ResellerRatings,23,0.97%
+CForms,23,0.97%
+TurnTo,23,0.97%
+SimpleReach,22,0.93%
+Instagram Feed for WordPress,22,0.93%
+Algolia,22,0.93%
+Advanced Responsive Video Embedder,22,0.93%
+Facebook Badge,22,0.93%
+Websitealive,22,0.93%
+TownNews.com,21,0.89%
+Simple Share Buttons,21,0.89%
+Click To Tweet for WordPress,21,0.89%
+iContact,21,0.89%
+bbPress,21,0.89%
+CQ Roll Call,21,0.89%
+WP Video Lightbox,21,0.89%
+Social Annex,21,0.89%
+Pin it for Images,21,0.89%
+CheetahMail,21,0.89%
+WP Table Reloaded,21,0.89%
+Google Maps Embed,20,0.84%
+Responsive Lightbox,20,0.84%
+JotForm,20,0.84%
+WordPress Related Posts,20,0.84%
+Ning,20,0.84%
+Technorati Favourite,20,0.84%
+Facebook Send Button,20,0.84%
+Atomz,20,0.84%
+Provide Support,20,0.84%
+BuySafe,19,0.8%
+WebEngage,19,0.8%
+TrustLogo,19,0.8%
+LiveHelpNow,19,0.8%
+Download Monitor,19,0.8%
+Olapic,18,0.76%
+MotionPoint,18,0.76%
+WP Retina 2x,18,0.76%
+Crayon Syntax Highlighter,18,0.76%
+ATG Estara,18,0.76%
+WP to Twitter,18,0.76%
+ATG Click to Call,17,0.72%
+CodeMirror,17,0.72%
+Quick Cache,17,0.72%
+Wibiya Toolbar,17,0.72%
+Simple Lightbox,17,0.72%
+Thawte Seal,17,0.72%
+Print Friendly,17,0.72%
+MasterSlider,17,0.72%
+Filament.io,16,0.67%
+AddShoppers,16,0.67%
+WP PostRatings,16,0.67%
+Issuu,16,0.67%
+Cvent,16,0.67%
+RSSInclude,16,0.67%
+LinkWithin,16,0.67%
+UberMenu,16,0.67%
+BuzzFeed.,16,0.67%
+Yahoo Bookmarklet,16,0.67%
+Tint,16,0.67%
+TicketMaster,16,0.67%
+ShopSocially,15,0.63%
+Meebo,15,0.63%
+Security Metrics,15,0.63%
+ScribbleLive,15,0.63%
+PadiAct,14,0.59%
+Stream,14,0.59%
+Events Manager for WordPress,14,0.59%
+WP Gallery Custom Links,14,0.59%
+Contact Form,14,0.59%
+Network Solutions Site Seal,14,0.59%
+Web of Trust,14,0.59%
+Pace,13,0.55%
+Sharebar for Wordpress,13,0.55%
+Velaro,13,0.55%
+Google Gadgets,13,0.55%
+Instagram Badges,13,0.55%
+Easy Twitter Feed Widget Plugin,13,0.55%
+Wildfire,13,0.55%
+Shopper Approved,13,0.55%
+Eventbrite,13,0.55%
+Bunchball,13,0.55%
+Google Link Help,13,0.55%
+The Events Calendar,12,0.5%
+Lockerz Share,12,0.5%
+AddThisEvent,12,0.5%
+iStockPhoto,12,0.5%
+Yahoo Pipes,12,0.5%
+CallRail,12,0.5%
+IE6 Update,12,0.5%
+AdRotate for WordPress,12,0.5%
+Custom Facebook Feed,12,0.5%
+GD Star Rating,12,0.5%
+LoginRadius,12,0.5%
+SiteOrigin Panels,11,0.46%
+Sweet Tooth,11,0.46%
+Youtube Channel Gallery for WordPress,11,0.46%
+Easy Table for WordPress,11,0.46%
+Eventful,11,0.46%
+WP-SpamShield Anti-Spam,11,0.46%
+Conduit,11,0.46%
+Socialite.js,11,0.46%
+GitHub Gist,11,0.46%
+Column Shortcodes,11,0.46%
+Twitter HashTag Button,11,0.46%
+Skype Me,11,0.46%
+SuccessFactors,11,0.46%
+Tribulant Slideshow Gallery,11,0.46%
+WP-Syntax,11,0.46%
+Popup Domination,11,0.46%
+IntenseDebate,11,0.46%
+LinkedIn Company Profile,10,0.42%
+Nextag,10,0.42%
+Kickstarter,10,0.42%
+WhatsApp,10,0.42%
+Proofpoint URL Defense,10,0.42%
+nanoRep,10,0.42%
+Contently,10,0.42%
+MediaElement.js for WordPress,10,0.42%
+LinkedIn Company Insiders,10,0.42%
+Trumba,10,0.42%
+Wordpress Mobile Pack,10,0.42%
+Special Recent Posts,10,0.42%
+WP Lightbox 2,10,0.42%
+Sina Weibo,10,0.42%
+Picasa Slideshow,10,0.42%
+Amazon Widgets,10,0.42%
+Adobe Edge Web Fonts,10,0.42%
+Soliloquy for WordPress,10,0.42%
+Onswipe,10,0.42%
+LinksAlpha,9,0.38%
+WordPress - Easy Social Share Buttons for WordPress ...,9,0.38%
+Stocksy,9,0.38%
+Form Maker,9,0.38%
+Talkable,9,0.38%
+SearchSpring,9,0.38%
+WP Socializer,9,0.38%
+WP Minify,9,0.38%
+Social Media Feather for WordPress,9,0.38%
+Cookie Law Info,9,0.38%
+Brown Paper Tickets,9,0.38%
+Tableau,8,0.33%
+Pippity,8,0.33%
+JS-Kit,8,0.33%
+WP-SpamFree Anti-Spam,8,0.33%
+Recent Tweets Widget for WordPress,8,0.33%
+qTranslate,8,0.33%
+SmugMug,8,0.33%
+Ultimate Posts Widget,8,0.33%
+UberTags,8,0.33%
+GetSocial,8,0.33%
+JustUno,8,0.33%
+echo,8,0.33%
+YouTube Video Bar,8,0.33%
+Wishabi,8,0.33%
+Feedburner Form,8,0.33%
+nrelate,8,0.33%
+PhotoSwipe,8,0.33%
+Freshdesk Chat,8,0.33%
+WhosOn,8,0.33%
+SEO Facebook Comment,8,0.33%
+WP Page Numbers,8,0.33%
+Shopify Product Reviews,8,0.33%
+WordPress Pro Event Calendar,8,0.33%
+RPX Now,8,0.33%
+Meta Slider for WordPress,8,0.33%
+Topsy,8,0.33%
+Anti-spam for WordPress,8,0.33%
+Simply Instagram,8,0.33%
+FluidSurveys,8,0.33%
+Fotorama,8,0.33%
+AddThis Custom Sharing,8,0.33%
+Format Dynamics CleanPrint,7,0.29%
+WordPress Category Posts Widget,7,0.29%
+WalkMe,7,0.29%
+TubePress,7,0.29%
+Apture Linking Platform,7,0.29%
+Dollar Photo Club,7,0.29%
+SiteLock,7,0.29%
+WP-Email,7,0.29%
+CleanPrint,7,0.29%
+NGFB,7,0.29%
+PodPress,7,0.29%
+Q2W3 Fixed Widget,7,0.29%
+All-in-One Event Calendar for WordPress,7,0.29%
+Typeform,7,0.29%
+Monarch Social Sharing Plugin For WordPress,7,0.29%
+Gravity Forms Placeholders,7,0.29%
+Essential Grid,7,0.29%
+IPInfoDB,7,0.29%
+Photo Gallery for WordPress,7,0.29%
+Crowd Ignite,7,0.29%
+LinkedIn Profile Widget,7,0.29%
+Page-list for WordPress,7,0.29%
+GlobalSign,7,0.29%
+ServiceTick,7,0.29%
+ThingLink,7,0.29%
+Weather.com,7,0.29%
+Rafflecopter,7,0.29%
+Scribd,7,0.29%
+Genesis Responsive Slider,7,0.29%
+Reevoo,7,0.29%
+Invoca,7,0.29%
+Kimbia Donation Widget,7,0.29%
+YouTube Advanced by Embed Plus,7,0.29%
+500 Friends,7,0.29%
+Hupso Toolbar,7,0.29%
+FusionCharts,7,0.29%
+MailChimp Widget for WordPress,7,0.29%
+Twitter Mention Button,7,0.29%
+QuoteMedia,7,0.29%
+Comm100,7,0.29%
+Microsoft Translator,7,0.29%
+Cover it Live,7,0.29%
+Trust Guard,6,0.25%
+WP Job Manager,6,0.25%
+Theme My Login,6,0.25%
+Websta,6,0.25%
+Ninja Forms,6,0.25%
+PunchTab,6,0.25%
+Democracy Poll,6,0.25%
+Getty Images Embed,6,0.25%
+TouchCommerce,6,0.25%
+Twingly,6,0.25%
+Fancier Author Box by ThematoSoup,6,0.25%
+Networked Blogs,6,0.25%
+Lever,6,0.25%
+LiveZilla,6,0.25%
+Activa Live Chat,6,0.25%
+WP RSS Multi Importer,6,0.25%
+UserReport,6,0.25%
+WP Easy Columns,6,0.25%
+Related Posts by Zemanta for WordPress,6,0.25%
+WordPress Download Manager,6,0.25%
+amCharts,6,0.25%
+OpenTable,6,0.25%
+A Better Browser,6,0.25%
+WP Nivo Slider,6,0.25%
+Google AJAX Slideshow,6,0.25%
+Shortcodes Ultimate,6,0.25%
+Smartling,6,0.25%
+Stipple,6,0.25%
+Accuweather,6,0.25%
+Social Twist,6,0.25%
+Hawk Search,6,0.25%
+Sociable Labs,6,0.25%
+Oracle Instant Service,6,0.25%
+Pure Chat,6,0.25%
+AddThis Responsive Sharing,5,0.21%
+Login with Facebook,5,0.21%
+PriceGrabber,5,0.21%
+Lazy Load for WordPress,5,0.21%
+AddThis Trending Box,5,0.21%
+Google Buzz Share,5,0.21%
+eKomi,5,0.21%
+Twitter for TypePad,5,0.21%
+TicketReturn,5,0.21%
+OpenWeatherMap,5,0.21%
+TripAdvisor Widget,5,0.21%
+VerticalResponse,5,0.21%
+ClearSpring Widgets,5,0.21%
+FormAssembly,5,0.21%
+Stack Overflow,5,0.21%
+Embedly,5,0.21%
+Formidable Pro Form,5,0.21%
+Pixlee,5,0.21%
+Instapaper,5,0.21%
+Speaker Deck,5,0.21%
+Digits,5,0.21%
+Alpine Photo Tile for Instragram,5,0.21%
+WP External Links,5,0.21%
+FeedWind,5,0.21%
+Sidebar Login for WordPress,5,0.21%
+Silktide Cookie Consent,5,0.21%
+LinkedIn JYMBII,5,0.21%
+Firefly,5,0.21%
+LinkedIn Member Profile Plugin,5,0.21%
+Deposit Photos,5,0.21%
+Symple Shortcodes,5,0.21%
+Cookie Notice,5,0.21%
+Fancy,5,0.21%
+Trusted Shops,4,0.16%
+Pictos,4,0.16%
+Instragram Slider Widget,4,0.16%
+Google Forms,4,0.16%
+BJ Lazy Load for WordPress,4,0.16%
+WP UI,4,0.16%
+iAdvize,4,0.16%
+DreamsTime,4,0.16%
+PHSDL Spam Filter,4,0.16%
+Badgeville,4,0.16%
+Infinity Tracking,4,0.16%
+Table of Contents Plus,4,0.16%
+tawk.to,4,0.16%
+Super RSS Reader for WordPress,4,0.16%
+LinkedIn Sign In Button,4,0.16%
+Coveo,4,0.16%
+Linkedin Apply Button,4,0.16%
+Shadowbox JS for WordPress,4,0.16%
+EasyAsk,4,0.16%
+Easing Slider for WordPress,4,0.16%
+Genesis Slider,4,0.16%
+PhotoSnack,4,0.16%
+Yardbarker Network,4,0.16%
+Bloglovin,4,0.16%
+ClickDesk,4,0.16%
+Sweet Captcha,4,0.16%
+Ifbyphone,4,0.16%
+Adobe Creative Cloud WebFonts,4,0.16%
+WP Rocket,4,0.16%
+Twitter Counter,4,0.16%
+iubenda,4,0.16%
+DMCA Badge,4,0.16%
+WordPress Testimonials Widget,4,0.16%
+Widgets on Pages,4,0.16%
+WP-Members,4,0.16%
+Mezzobit,4,0.16%
+Share Progress,4,0.16%
+Vendini,4,0.16%
+Mister Wong Add Url,4,0.16%
+WordPress Social Login,4,0.16%
+MobileESP,4,0.16%
+Hyper Cache,4,0.16%
+ReadSpeeker,4,0.16%
+aheadWorks Ajax Cart Pro,4,0.16%
+WP PageNavi Style,4,0.16%
+Etix,4,0.16%
+Zingaya,4,0.16%
+PostcodeAnywhere,4,0.16%
+Su.pr,4,0.16%
+Google Voice,3,0.12%
+Repost.Us,3,0.12%
+MyLiveChat,3,0.12%
+Google Web Elements,3,0.12%
+iTunes Widgets,3,0.12%
+Twilio,3,0.12%
+CommentLuv,3,0.12%
+Fast Secure Contact Form,3,0.12%
+Featured Content Gallery for WordPress,3,0.12%
+Tinypass,3,0.12%
+PicoSearch,3,0.12%
+Advanced Recent Posts Widget,3,0.12%
+Dropbox,3,0.12%
+Knowledge Base for WordPress,3,0.12%
+S Loyalty,3,0.12%
+Easy2,3,0.12%
+Ahalogy,3,0.12%
+WordPress PopUp,3,0.12%
+LiveLOOK,3,0.12%
+Pocket,3,0.12%
+TagTray,3,0.12%
+GetGlue,3,0.12%
+GitHub Fork,3,0.12%
+Prezi,3,0.12%
+QuestBack,3,0.12%
+Opta,3,0.12%
+Who's Calling,3,0.12%
+Contact Form 7 Datepicker for WordPress,3,0.12%
+Taxonomy Images,3,0.12%
+Meteor Slides,3,0.12%
+Room Key,3,0.12%
+SpotOn It,3,0.12%
+Ajax Event Calendar for WordPress,3,0.12%
+Razoo,3,0.12%
+WP Bannerize,3,0.12%
+Mashshare,3,0.12%
+EmailMeForm,3,0.12%
+GetKudos,3,0.12%
+eGain,3,0.12%
+Accessible News Slider,3,0.12%
+Alamy,3,0.12%
+ShopStyle,3,0.12%
+Freespee,3,0.12%
+Feefo,3,0.12%
+ReadyPulse,3,0.12%
+GitHub Buttons,3,0.12%
+Elegant Builder,3,0.12%
+Queryly,3,0.12%
+Tout,3,0.12%
+FormSite,3,0.12%
+Live2Support,3,0.12%
+fbShare.me,3,0.12%
+Widgetkit by YOOtheme for WordPress,3,0.12%
+BrowserHawk,3,0.12%
+AddThis Welcome Bar,3,0.12%
+YITH WooCommerce Wishlist,3,0.12%
+Metrix Lab,3,0.12%
+Ticketfly,3,0.12%
+Survey Writer,2,0.08%
+Evernote,2,0.08%
+Corbis,2,0.08%
+247 Inc,2,0.08%
+Userlike,2,0.08%
+Easy Facebook Like Box,2,0.08%
+Center Stage Software,2,0.08%
+Helpjuice,2,0.08%
+Simple Ads Manager for WordPress,2,0.08%
+Vergic,2,0.08%
+Logos Reftagger,2,0.08%
+PictureTrail,2,0.08%
+Bravenet Counter,2,0.08%
+WidgetsPlus,2,0.08%
+SlingPic,2,0.08%
+Sleeknote,2,0.08%
+Usersnap,2,0.08%
+TrustedForm,2,0.08%
+Moxie,2,0.08%
+Kayako,2,0.08%
+Quotes Collection,2,0.08%
+Bamboo HR,2,0.08%
+Barchart,2,0.08%
+NewsGator Widget Framework,2,0.08%
+WPSSO,2,0.08%
+FinancialContent,2,0.08%
+WahWah Bar,2,0.08%
+Google Calendar,2,0.08%
+Tuenti,2,0.08%
+ZipList Recipe Plugin,2,0.08%
+Inmoment,2,0.08%
+EventZilla,2,0.08%
+Klevu,2,0.08%
+Zoomerang,2,0.08%
+SmartRecruiters,2,0.08%
+Magic Software,2,0.08%
+ShowClix,2,0.08%
+Dynamic To Top Plugin,2,0.08%
+WP Shortcode,2,0.08%
+Internet Defense League,2,0.08%
+Luminate,2,0.08%
+xCharts,2,0.08%
+prudsys IREUS,2,0.08%
+Want,2,0.08%
+Unity,2,0.08%
+Superfish,2,0.08%
+GetSiteControl,2,0.08%
+Formisimo,2,0.08%
+WeddingWire,2,0.08%
+PlayBuzz,2,0.08%
+Indeed Widgets,2,0.08%
+Brick,2,0.08%
+Dynamic Content Gallery for WordPress,2,0.08%
+Polarb,2,0.08%
+curvyCorners,2,0.08%
+Websnapr,2,0.08%
+Cyclone Slider 2,2,0.08%
+TicketsWest,2,0.08%
+WP Customer Reviews,2,0.08%
+Ditty News Ticker,2,0.08%
+ZippyKid,2,0.08%
+Doofinder,2,0.08%
+Ebay Listing,2,0.08%
+Muscula,2,0.08%
+SaleMove,2,0.08%
+Offline JS,2,0.08%
+Human Click,2,0.08%
+Press Plus,2,0.08%
+AddThis Jumbo Share Counter,2,0.08%
+GSI Commerce Chat,2,0.08%
+Transifex,2,0.08%
+Konami Code,2,0.08%
+FeedGrabbr,2,0.08%
+Roost,2,0.08%
+CodePen,2,0.08%
+Share42,2,0.08%
+Go Pricing,2,0.08%
+TimelineJS,2,0.08%
+TapInfluence,2,0.08%
+SiteTagger,2,0.08%
+SendGrid Widget,2,0.08%
+kk Star Ratings,2,0.08%
+Offerchat,1,0.04%
+Kinja,1,0.04%
+Crowdtilt,1,0.04%
+Open Thumbnails,1,0.04%
+Google Reader,1,0.04%
+Aviary,1,0.04%
+Nowtalk,1,0.04%
+Facebook Subscribe,1,0.04%
+xat chat,1,0.04%
+Thumbtack,1,0.04%
+Cost of War,1,0.04%
+Google Docs Widget,1,0.04%
+BugMuncher,1,0.04%
+ShareThis Wordpress Plugin,1,0.04%
+CarChat24,1,0.04%
+TicketOps,1,0.04%
+CoBrowser,1,0.04%
+Userneeds,1,0.04%
+Dropdown Menu Widget for WordPress,1,0.04%
+Surphace,1,0.04%
+Demandforce,1,0.04%
+BookFresh,1,0.04%
+TagInspector,1,0.04%
+Alexa Site Stats,1,0.04%
+Tessitura Network,1,0.04%
+Clickability Button,1,0.04%
+Blogcatalog Rater,1,0.04%
+Booking.com,1,0.04%
+Qzzr,1,0.04%
+InboundWriter,1,0.04%
+Relay42,1,0.04%
+Poll Everywhere,1,0.04%
+TICKETSage,1,0.04%
+Vivocha,1,0.04%
+GiveForward,1,0.04%
+My Calendar,1,0.04%
+TicketLeap,1,0.04%
+CallTracks,1,0.04%
+Feedjit Widgets,1,0.04%
+Yahoo Babelfish Translation technology,1,0.04%
+Windows Store App,1,0.04%
+NotifySnack,1,0.04%
+ChatStat,1,0.04%
+FSI Viewer,1,0.04%
+ClickAndChat,1,0.04%
+Quantcast Widgets,1,0.04%
+Triptease,1,0.04%
+Cooliris LiveShare,1,0.04%
+RingCentral,1,0.04%
+HeyBubble,1,0.04%
+JiaThis,1,0.04%
+WeGotTickets,1,0.04%
+Contact At Once!,1,0.04%
+Kera.io,1,0.04%
+Stackla,1,0.04%
+WP-Filebase Download Manager,1,0.04%
+SNAP Preview Anywhere,1,0.04%
+giosg,1,0.04%
+DandyID,1,0.04%
+Groupon,1,0.04%
+Custom Contact Forms for WordPress,1,0.04%
+Paper.li,1,0.04%
+Helium,1,0.04%
+Twit This,1,0.04%
+Bublaa,1,0.04%
+Browsi,1,0.04%
+Datawrapper,1,0.04%
+Team Sales Agent,1,0.04%
+WishList Products,1,0.04%
+Code Amber Alert,1,0.04%
+WordPress Simple Paypal Shopping Cart,1,0.04%
+Docstoc,1,0.04%
+Newsy,1,0.04%
+sniply,1,0.04%
+Eviesays,1,0.04%
+Facebook Live Stream,1,0.04%
+Cbox,1,0.04%
+JivoSite,1,0.04%
+IFTTT,1,0.04%
+Vagaro,1,0.04%
+LinkedTube,1,0.04%
+elevio,1,0.04%
+Web Ring,1,0.04%
+SOCIAPlus,1,0.04%
+Gallery for WordPress,1,0.04%
+Volusion Live Chat,1,0.04%
+Magic 360,1,0.04%
+Avvo,1,0.04%
+BumpIn Chat Widget,1,0.04%
+G2 Crowd,1,0.04%
+WP Category Post List Widget,1,0.04%
+ImBox,1,0.04%
+BookingBug,1,0.04%
+Rickshaw,1,0.04%
+Feedzilla,1,0.04%
+Technorati Link Count,1,0.04%
+LinkedIn Recommend Button,1,0.04%
+Webreep,1,0.04%
+ChatWing,1,0.04%
+LiveChat ,1,0.04%
+Baidu Search Box,1,0.04%
+VKontakte Share,1,0.04%
+Videodesk,1,0.04%
+Readability Button,1,0.04%
+Designer clocks for website,1,0.04%
+MyTaste,1,0.04%
+ZocDoc,1,0.04%
+WP125,1,0.04%
+Glassdoor,1,0.04%
+Sporcle,1,0.04%
+NGFB Open Graph,1,0.04%
+Optimize Press,1,0.04%
+CookieQ,1,0.04%
+Floating Social Media Icon,1,0.04%
+s2Member,1,0.04%
+Count per Day for WordPress,1,0.04%
+Babelfish Translation,1,0.04%
+MindBody,1,0.04%
+Authy,1,0.04%
+Opinion Stage,1,0.04%
+Arktan,1,0.04%
+Login with PayPal,1,0.04%
+Baidu Help Widget,1,0.04%
+Compact WP Audio Player,1,0.04%
+Click Desk,1,0.04%
+OpenLike,1,0.04%
+Lijit Information Widget,1,0.04%
+Universal Subtitles,1,0.04%
+FeedCat,1,0.04%
+Muut,1,0.04%
+BlogFrog,1,0.04%
+TranslateThis,1,0.04%
+Local.com Hyperlocal,1,0.04%
+Bing Search Bootstrap,1,0.04%
+ShrinkTheWeb,1,0.04%
+Eventim,1,0.04%
+Zozi,1,0.04%
+smartURL,1,0.04%
+Clixpy,1,0.04%
+Yahoo Finance Widget,1,0.04%
+PR Newswire,1,0.04%
+Dipity Timeline,1,0.04%
+WhatsNew,1,0.04%
+Wishlist.com,1,0.04%
+Social Bookmarks,1,0.04%
+Salsa,1,0.04%
+LikeBtn,1,0.04%
+Subtome,1,0.04%
+PR Checker,1,0.04%
+TicketWeb,1,0.04%
+Launch Effect,1,0.04%
+Go2Web2.0,1,0.04%
+Sucuri Badge,1,0.04%
+Free Hosted Scripts,1,0.04%
+SatisMeter,1,0.04%
+Predictive Response,1,0.04%
+ResponseTek,1,0.04%
+Poll Monkey,1,0.04%
+MyPageRank,1,0.04%
+Clef Two-Factor Authentication,1,0.04%
+Persona,1,0.04%
+SimplyLinked,1,0.04%
+Baidu Share,1,0.04%
+Crunchbase Widget,1,0.04%
+SiteSeeker,1,0.04%
+Privy,1,0.04%
+Facebook Share Pro,1,0.04%
+Bookatable,1,0.04%
+Viewbix,1,0.04%
+MasteryConnect,1,0.04%
+
+Technology mapping:,,
+Vendor name,Total count in group,Percentage in group
+Google Maps,1125,47.68%
+Google Maps API,703,29.8%
+Google Maps for Work,110,4.66%
+MapBox,45,1.9%
+MaxMind,44,1.86%
+Map Point,39,1.65%
+Bing Maps,37,1.56%
+Leaflet,23,0.97%
+Google Maps Engine,14,0.59%
+OpenLayers,10,0.42%
+MapQuest,6,0.25%
+ArcGIS,5,0.21%
+Yahoo Maps,3,0.12%
+CartoDB,1,0.04%
+Yandex Maps,1,0.04%
+Nokia Here,1,0.04%
+Maptimize,1,0.04%
+
+Technology cms:,,
+Vendor name,Total count in group,Percentage in group
+WordPress,1358,57.56%
+Wordpress Daily Activity,581,24.62%
+WordPress Weekly Activity,555,23.52%
+Wordpress Monthly Activity,530,22.46%
+Drupal,464,19.66%
+Wordpress 4.2,373,15.81%
+Wordpress 3.9,359,15.21%
+WordPress 3.8,339,14.37%
+Wordpress 4.3,326,13.81%
+Wordpress 4.1,324,13.73%
+WordPress 4.0,291,12.33%
+Drupal 7,261,11.06%
+WordPress 3.5,198,8.39%
+WordPress 3.7,198,8.39%
+WordPress 3.6,160,6.78%
+WP Engine,137,5.8%
+Thomson Reuters Corporate Solutions,132,5.59%
+Drupal Version 7.3x,126,5.34%
+Wordpress 4.4,118,5.0%
+Tumblr,118,5.0%
+Google Search Appliance,116,4.91%
+Salesforce Desk,91,3.85%
+ExpressionEngine,87,3.68%
+dotCMS,87,3.68%
+Zendesk Portal,85,3.6%
+WordPress 3.4,75,3.17%
+Sitecore CMS,72,3.05%
+Drupal Version 7.4x,72,3.05%
+Taleo,62,2.62%
+WordPress 3.3,60,2.54%
+Squarespace,58,2.45%
+Ektron,54,2.28%
+Joomla!,54,2.28%
+Adobe CQ,53,2.24%
+iAPPS,51,2.16%
+Ektron Ecommerce,49,2.07%
+Telerik Sitefinity,49,2.07%
+Adobe Scene7,49,2.07%
+vBulletin,46,1.94%
+Salesforce Communites,46,1.94%
+Blogger,43,1.82%
+DNN Software,40,1.69%
+Microsoft Word,40,1.69%
+Endeca,38,1.61%
+Moodle,36,1.52%
+Oracle RightNow,36,1.52%
+Jive Software,36,1.52%
+Adobe Experience Manager,35,1.48%
+Lithium Technologies,35,1.48%
+TypePad,33,1.39%
+Liferay,32,1.35%
+Microsoft SharePoint Server 2010,32,1.35%
+StatusPage IO,31,1.31%
+Atlassian Confluence,31,1.31%
+Greenhouse,31,1.31%
+WebBaker,29,1.22%
+Kentico,28,1.18%
+JIRA,28,1.18%
+WordPress VIP,27,1.14%
+Umbraco,27,1.14%
+WordPress 3.2,26,1.1%
+Siteimprove,26,1.1%
+TYPO3,26,1.1%
+Visual Basic .NET,24,1.01%
+Q4Web,24,1.01%
+MoovWeb,23,0.97%
+CPanel,22,0.93%
+HP TeamSite,21,0.89%
+MovableType,21,0.89%
+MediaWiki,19,0.8%
+Concrete5,19,0.8%
+Pluck,18,0.76%
+UserVoice Helpdesk,18,0.76%
+Friendbuy,18,0.76%
+Convio,18,0.76%
+WordPress 3.1,17,0.72%
+WordPress 3.0,17,0.72%
+HTML Tidy,16,0.67%
+Outlook Web App,16,0.67%
+Vignette OpenText,16,0.67%
+Ingeniux,16,0.67%
+Microsoft SharePoint Server 2007,15,0.63%
+Get Satisfaction CMS,15,0.63%
+NetSuite,15,0.63%
+Telligent,14,0.59%
+Discourse,14,0.59%
+Synxis Guest Connect,14,0.59%
+eZ Systems,14,0.59%
+DudaMobile,14,0.59%
+WPTouch Pro,14,0.59%
+Orchard,13,0.55%
+Microsoft SharePoint Server 2013,13,0.55%
+BuddyPress,13,0.55%
+Microsoft Content Management Server,13,0.55%
+vBulletin 4.x,12,0.5%
+Parature,11,0.46%
+Vanilla Forums,11,0.46%
+SDL Tridion,10,0.42%
+Spiceworks,10,0.42%
+OpenCMS,10,0.42%
+Alkiva Open Community,10,0.42%
+phpBB,10,0.42%
+Tender,10,0.42%
+Wix,10,0.42%
+Apple iWeb,9,0.38%
+Mura,9,0.38%
+Octopress,9,0.38%
+Websphere Portal Server,9,0.38%
+SiteStudio,9,0.38%
+EditPlus,8,0.33%
+PageLines,8,0.33%
+Posterous,8,0.33%
+WordPress 2.9,8,0.33%
+Blog Engine,8,0.33%
+JobScore,8,0.33%
+Band Camp,8,0.33%
+Drupal Version 7.2x,8,0.33%
+ZMS Publishing,7,0.29%
+Freshdesk Support,7,0.29%
+Drupal Version 6.2x,7,0.29%
+LaunchRock,7,0.29%
+vBulletin 3.x,7,0.29%
+Ghost,7,0.29%
+Craft,6,0.25%
+DokuWiki,6,0.25%
+Wix Premium,6,0.25%
+Weebly,6,0.25%
+Wix Non-Flash,6,0.25%
+SilverStripe,6,0.25%
+Paperthin Common Spot,6,0.25%
+WP Cache,6,0.25%
+CMS Made Simple,6,0.25%
+Telligent Evolution,6,0.25%
+Google Sites,6,0.25%
+Plone,6,0.25%
+SmugMug CMS,5,0.21%
+OmniUpdate,5,0.21%
+Drupal Version 7.1x,5,0.21%
+SMF,5,0.21%
+Simple Machines Forum,5,0.21%
+BlueFish,5,0.21%
+EPiServer,5,0.21%
+Strikingly,4,0.16%
+symphony FOS Routing,4,0.16%
+Chameleon,4,0.16%
+SpeedRFP,4,0.16%
+Workable,4,0.16%
+WordPress Enterprise,4,0.16%
+Ghost 0.6,4,0.16%
+Mashery API,4,0.16%
+Yii Framework,4,0.16%
+Oracle WebCenter Sites,4,0.16%
+TWiki,3,0.12%
+WebObjects,3,0.12%
+WordPress 2.8,3,0.12%
+WordPress 2.7,3,0.12%
+Invision Power Board,3,0.12%
+LeadPages,3,0.12%
+Imperia CMS,3,0.12%
+Womp Mobile,3,0.12%
+CrownPeak,3,0.12%
+NASDAQ OMX,3,0.12%
+Xara Web Designer,3,0.12%
+SPIP,3,0.12%
+Hubbard One,3,0.12%
+XenForo,3,0.12%
+Pimcore,3,0.12%
+Webflow,3,0.12%
+Adobe PageMill,3,0.12%
+Serendipity,3,0.12%
+RapidWeaver,3,0.12%
+Ghost 0.5,3,0.12%
+Artisteer,3,0.12%
+CoreMedia,3,0.12%
+Percussion,3,0.12%
+YourMembership,2,0.08%
+NationBuilder,2,0.08%
+Branding Brand,2,0.08%
+Blackbaud,2,0.08%
+DNN 7.03-7.04,2,0.08%
+Magnolia CMS,2,0.08%
+Adobe Muse,2,0.08%
+Jimdo,2,0.08%
+Adobe Business Catalyst,2,0.08%
+Unbounce,2,0.08%
+Web.com,2,0.08%
+Drupal Version 6.1x,2,0.08%
+Homestead,2,0.08%
+papaya CMS,2,0.08%
+BrowserCMS,2,0.08%
+Ghost 0.7,2,0.08%
+Trac Project,2,0.08%
+GrooveHQ,2,0.08%
+Mambo,2,0.08%
+1C-Bitrix,1,0.04%
+Foswiki,1,0.04%
+Junction Solutions,1,0.04%
+Gannett CMS,1,0.04%
+Discuz!,1,0.04%
+School Newspapers Online,1,0.04%
+Firespring,1,0.04%
+Coppermine gallery,1,0.04%
+Readme.io,1,0.04%
+EIBS Easysite,1,0.04%
+Wild Apricot,1,0.04%
+NodeBB,1,0.04%
+Sitekit,1,0.04%
+Bridgeline Digital,1,0.04%
+Zendesk Expired Account,1,0.04%
+CorePublish,1,0.04%
+October CMS,1,0.04%
+RVSiteBuilder,1,0.04%
+VYRE Unify Content Management,1,0.04%
+PHPWCMS,1,0.04%
+MicroD,1,0.04%
+Atex PoloPoly,1,0.04%
+Marqui,1,0.04%
+1and1 Website Builder,1,0.04%
+Burning Board,1,0.04%
+WordPress 2.5,1,0.04%
+SplashThat,1,0.04%
+Medium,1,0.04%
+Cratejoy,1,0.04%
+Contensis,1,0.04%
+Ellington CMS,1,0.04%
+vBulletin 5.x,1,0.04%
+Igloo Software,1,0.04%
+TYPOlight,1,0.04%
+Mezzanine,1,0.04%
+e107,1,0.04%
+Instapage,1,0.04%
+eSite Builder,1,0.04%
+Selfstarter,1,0.04%
+Contao,1,0.04%
+DNN 7.03,1,0.04%
+Bitrix,1,0.04%
+DNN 7,1,0.04%
+Cargo Collective,1,0.04%
+Tiki Wiki CMS Groupware,1,0.04%
+NetObjects Fusion,1,0.04%
+Idium Portal,1,0.04%
+Phorum,1,0.04%
+CoffeeCup,1,0.04%
+Vivvo,1,0.04%
+Apostrophe,1,0.04%
+BlueVoda,1,0.04%
+LightCMS,1,0.04%
+Vox,1,0.04%
+CM4All Website Creator,1,0.04%
+Squiz Suite,1,0.04%
+b2evolution,1,0.04%
+inSided,1,0.04%
+Anchor CMS,1,0.04%
+Ghost 0.4,1,0.04%
+Cornerstone,1,0.04%
+Web Page Maker,1,0.04%
+Boomtown ROI,1,0.04%
+WebpageFX,1,0.04%
+Wishpond,1,0.04%
+
+Technology mx:,,
+Vendor name,Total count in group,Percentage in group
+SPF,2092,88.68%
+Google Apps for Business,965,40.9%
+Microsoft Azure DNS,735,31.15%
+Microsoft Exchange Online,599,25.39%
+Office 365 Mail,437,18.52%
+Sendgrid,406,17.21%
+Zendesk,365,15.47%
+Google Postini Services,345,14.62%
+Marketo Mail,249,10.55%
+Mandrill,248,10.51%
+DMARC,197,8.35%
+Rackspace Email Hosting,187,7.92%
+Mailgun,186,7.88%
+Amazon SES,173,7.33%
+McAfee SaaS Email,139,5.89%
+MailChimp SPF,137,5.8%
+Salesforce SPF,127,5.38%
+Pardot Mail,121,5.12%
+Symantec.cloud,114,4.83%
+Dyn,88,3.73%
+ExactTarget Email,83,3.51%
+Proofpoint,76,3.22%
+Postmark,71,3.0%
+Campaign Monitor,68,2.88%
+Mimecast,67,2.84%
+Sailthru,65,2.75%
+GoDaddy Email,60,2.54%
+Intermedia,44,1.86%
+Eloqua Mail,42,1.78%
+easyDNS,40,1.69%
+Convio Mail,39,1.65%
+Influitive,37,1.56%
+Help Scout,34,1.44%
+AppRiver,34,1.44%
+Freshdesk,33,1.39%
+Qualtrics Mail,33,1.39%
+Listrak Mail,30,1.27%
+Barracuda Networks,30,1.27%
+BlueHornet,29,1.22%
+Websense,28,1.18%
+AuthSMTP,27,1.14%
+Bronto Email,27,1.14%
+Trustpilot Service,27,1.14%
+Braintree Mail,27,1.14%
+DKIM,26,1.1%
+Q4 Web Systems,24,1.01%
+UserVoice Mail,23,0.97%
+ClearSlide,23,0.97%
+Intercom Mail,23,0.97%
+MailJet,22,0.93%
+iContact Mail,21,0.89%
+Recurly Mail,21,0.89%
+Return Path,19,0.8%
+Oracle CX,16,0.67%
+SilverSky,15,0.63%
+JobVite Mail,15,0.63%
+eNom,15,0.63%
+JangoMail,14,0.59%
+Customer.io Mail,14,0.59%
+ZoneEdit,14,0.59%
+SMTP.com,13,0.55%
+Responsys SPF,13,0.55%
+Blackboard,12,0.5%
+Adestra,12,0.5%
+Emma Inc Email,12,0.5%
+DreamHost,12,0.5%
+Message Bus,11,0.46%
+Elastic Email,11,0.46%
+Apptix,10,0.42%
+EZ Publishing,10,0.42%
+WhatCounts,9,0.38%
+SmartFocus,9,0.38%
+Hostgator Mail,9,0.38%
+Constant Contact Mail,9,0.38%
+BlueHost Mail,8,0.33%
+NetSuite Mail,8,0.33%
+Sprint Business,8,0.33%
+ClickDimensions Mail,8,0.33%
+Epsilon,8,0.33%
+Digital River Email,8,0.33%
+Network Solutions Email Hosting,7,0.29%
+SurveyGizmo,7,0.29%
+TrendMicro Email Services,7,0.29%
+Critsend,7,0.29%
+SparkPost,7,0.29%
+Acquia Cloud,7,0.29%
+Mixpanel Email,6,0.25%
+pair Networks,6,0.25%
+Benchmark Mail,6,0.25%
+BigCommerce Mail,6,0.25%
+Yahoo! Business Email,6,0.25%
+Linode Mail,6,0.25%
+Namecheap,6,0.25%
+FastMail,6,0.25%
+Securence,6,0.25%
+1and1 Email Solutions,5,0.21%
+Greenview Data,5,0.21%
+Blackberry Internet Service,5,0.21%
+WordFly,5,0.21%
+Second Street,4,0.16%
+Email Center Pro,4,0.16%
+MailChannels,4,0.16%
+SMTP2GO,4,0.16%
+EmailCampaigns ,3,0.12%
+Volusion Email,3,0.12%
+Web.com Email,3,0.12%
+Maropost,3,0.12%
+FreshBooks,3,0.12%
+Commtouch,3,0.12%
+FreshService,3,0.12%
+Emarsys,3,0.12%
+Act-On Mail,3,0.12%
+FuseMail,2,0.08%
+Greenhouse MX,2,0.08%
+OVH Mail,2,0.08%
+ContactLab,2,0.08%
+Mail Plus,2,0.08%
+Sitecore Mail,2,0.08%
+CallidusCloud Mail,2,0.08%
+Optivo,2,0.08%
+Blue State Digital,2,0.08%
+Newtek Technology Services,2,0.08%
+CriticalImpact,2,0.08%
+Bounce IO,2,0.08%
+Tripolis,2,0.08%
+CleverReach Mail,2,0.08%
+Copernica,2,0.08%
+Carrier Zone,2,0.08%
+Boomtown ROI Email,1,0.04%
+Smarsh,1,0.04%
+Campaigner,1,0.04%
+Goolara,1,0.04%
+Pure360,1,0.04%
+Virtual Target,1,0.04%
+Mailigen,1,0.04%
+NetTeller,1,0.04%
+Webroot,1,0.04%
+ZScaler,1,0.04%
+GovDelivery ,1,0.04%
+MailUp,1,0.04%
+Comendo,1,0.04%
+Digital Insight,1,0.04%
+Brightpearl Email,1,0.04%
+Everyone.net,1,0.04%
+Locaweb Mail,1,0.04%
+ClickRSVP,1,0.04%
+Conversen,1,0.04%
+Striata,1,0.04%
+Register.com Mail,1,0.04%
+GFI,1,0.04%
+PowWeb Mail,1,0.04%

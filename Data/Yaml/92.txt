@@ -1,0 +1,8 @@
+template:
+  variables:
+    # declare a key/value pair
+    MY_VARIABLE: 'hello'
+    ... # declare as many variables as you want 
+  script:
+    # call its value, this outputs "hello" in the runner
+    - echo $MY_VARIABLE

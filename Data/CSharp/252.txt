@@ -1,0 +1,10 @@
+public ICommand MyCommand { get; }
+public MyViewModel()
+{
+    MyCommand = new Command(async () => await DoAsync());
+}
+
+async Task DoAsync()
+{
+   // do stuff async
+}

@@ -1,0 +1,7 @@
+Jimp.read('http://www.example.com/path/to/lenna.jpg')
+  .then(image => {
+    // Do stuff with the image.
+  })
+  .catch(err => {
+    // Handle an exception.
+  });

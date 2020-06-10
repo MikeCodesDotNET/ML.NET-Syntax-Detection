@@ -1,0 +1,22 @@
+const test = require('baretest')
+      assert = require('assert')
+
+test.before(() => {
+  console.log("Yay! We're about to start!")
+})
+
+test('Proove that 1 == 1', () => {
+  assert.ok(1 == 1)
+})
+
+test('1 + 1 should equal 2', () => {
+  assert.equal(1+1, 2)
+})
+
+test.after(() => {
+  console.log("It was a successful test!")
+})
+
+// Run test!
+
+test.run()

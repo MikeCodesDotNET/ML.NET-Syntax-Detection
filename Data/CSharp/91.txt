@@ -1,0 +1,11 @@
+// objects
+var scores = new List() { 7, 5, 4, 3, 8, 5  };
+
+// XML
+XElement characters = XElement.Load(@"c:\characters.xml");
+
+// DB using Entity Framework
+using (var db = new MovieEntities())
+{    
+    var movies = db.Movies
+}

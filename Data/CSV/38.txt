@@ -1,0 +1,373 @@
+Item_Id,Category,Menu_Item,Store_Name,Price,Sales_Qty,Gross_Sales,Item_Disc,Net_Sales
+4000197,Beverages,Macchiato Medium,Einsteins,3.79,53,200.87,0,200.87
+120029,desserts,1L Smart Water,Coffee Corner,3.15,64,201.6,0,201.6
+516007,snacks,Power Bar,Coffee Corner,2.49,82,204.18,0,204.18
+110037,Brew Coffee,Hot Choc 16,Coffee Corner,3.2,64,204.8,0,204.8
+4001978,food,S MA & CH,Coffee Store/Papa John,4.39,47,206.33,0,206.33
+110121,Other Brew,Iced Tea 16oz,Coffee Corner,2,104,208,0,208
+4003218,snacks,M B Coffee Cake,Einsteins,2.19,95,208.05,0,208.05
+4000144,Beverages,Blkbry Lemonade,Einsteins,2.09,100,209,0,209
+506001,hot beverages,12oz Caffe Mocha,Coffee Shop,3.3,64,211.2,0,211.2
+110027,food,Whole Fruit,Coffee Corner,0.8,266,212.8,0,212.8
+4003221,snacks,Muffin Choc Chip,Einsteins,1.99,107,212.93,0,212.93
+1400331,starbucks coffee,G Iced White Moc,Pub,4.35,49,213.15,0,213.15
+8000238,cold beverages,Powerade FP,Coffee Store/Papa John,2.15,100,215,0,215
+4000155,Beverages,Cappuccino Md,Einsteins,3.49,62,216.38,0,216.38
+4002615,cold beverages,Simply OJ,Jason's Deli,2.49,87,216.63,0,216.63
+30086,hot beverages,Tazo Hot Tea,Food Court,1.2,182,218.4,0,218.4
+4000236,Beverages,VanHazelLatteMd,Einsteins,3.79,58,219.82,0,219.82
+4000267,Breakfast,Deli Sand Combo,Einsteins,8.99,31,221.69,0,221.69
+1400226,starbucks coffee,V- Iced Latte,Pub,4.05,55,222.75,0,222.75
+2100003,appetizers,Chips&Salsa,Pub,3.99,56,223.44,0,223.44
+4002539,entr�e-create,3Combo Salad Dr,Food Court,6.99,32,223.68,0,223.68
+4003262,outtakes,**Limited Time,Grab n go,4.5,50,225,0,225
+4002554,entr�e-create,2Combo sweet,Food Court,5.49,41,225.09,0,225.09
+110104,food,Gum,Coffee Corner,1.99,115,228.85,0,228.85
+8000234,cold beverages,GP Sweet Tea,Coffee Store/Papa John,2.15,107,230.05,0,230.05
+99955,AFC sushi,Sp Tuna Roll SP,Coffee Corner,5.49,42,230.58,0,230.58
+4000698,Combo,Bagel Dog,Einsteins,4.99,47,234.53,0,234.53
+4000135,Beverages,bev-Smt water 20,Einsteins,2.3,102,234.6,0,234.6
+4003217,snacks,CinnamonTwist,Einsteins,1.29,182,234.78,0,234.78
+4000112,Beverages,bev-20oz btl all,Einsteins,1.85,128,236.8,0,236.8
+1400293,starbucks coffee,V- Hot White Moc,Pub,4.65,51,237.15,0,237.15
+2100020,appetizers,Side OnionRings,Pub,0.5,476,238,0,238
+110129,food,Marich Beans,Coffee Corner,2.49,96,239.04,0,239.04
+110082,Brew Coffee,Hot Tea Lg,Coffee Corner,3,80,240,0,240
+4003205,entr�e,1/2 Salmon,Jason's Deli,8.29,29,240.41,0,240.41
+110080,Brew Coffee,Hot Tea Sm,Coffee Corner,2,121,242,0,242
+4003261,entr�e,BYO Sandwich,Jason's Deli,6.29,39,245.31,0,245.31
+99976,AFC sushi,Eel Roll SP,Coffee Corner,5.99,41,245.59,0,245.59
+4000215,Beverages,Lg SB Smoothie,Einsteins,4.79,52,249.08,0,249.08
+1100002,fountain drinks,Diet Coke - Fnt.,Pub,1.55,161,249.55,0,249.55
+1200029,alcohol,Cabernet Sauvign,Pub,4,63,252,0,252
+1700331,starbucks coffee,G- Tea Lemonade,Pub,3,84,252,0,252
+120017,desserts,Milk 16oz,Coffee Corner,1.85,137,253.45,0,253.45
+1100005,fountain drinks,Sprite - Fnt.,Pub,1.55,166,257.3,-1.55,255.75
+110021,Expresso bev,Crml Macc 20oz,Coffee Corner,4.85,53,257.05,0,257.05
+1400263,starbucks coffee,Add Espresso,Pub,0.8,324,259.2,0,259.2
+4000265,Breakfast,BBQ Combo,Einsteins,7.25,36,261,0,261
+4000174,Beverages,FrznCaraMacchiMd,Einsteins,3.79,69,261.51,0,261.51
+110081,Brew Coffee,Hot Tea Md,Coffee Corner,2.5,105,262.5,0,262.5
+509003,hot beverages,16oz Coffee,Coffee Shop,2.1,128,268.8,-6.3,262.5
+10062,cold beverages,Illy Frap Bottle,Grab n go,2.99,88,263.12,0,263.12
+4001157,Breakfast,SW Tky Saus BT,Einsteins,4.79,55,263.45,0,263.45
+512003,Frappuccinos,Mocha Frap,Coffee Shop,4.35,61,265.35,0,265.35
+1200008,fountain drinks,Red Bull 12oz,Pub,2.99,89,266.11,0,266.11
+1200008,bottled drinks,Red Bull 12oz,Pub,2.99,89,266.11,0,266.11
+10039,cold beverages,Milk Pints,Grab n go,1.85,144,266.4,0,266.4
+10047,cold beverages,DS Espresso,Grab n go,2.65,101,267.65,0,267.65
+8000213,miscellaneous,Icee 16oz,Coffee Store/Papa John,1.19,225,267.75,0,267.75
+4000246,Breakfast,1/2 Dozen w/SM,Einsteins,8.99,30,269.7,0,269.7
+1400281,starbucks coffee,T- Hot Chocolate,Pub,2.7,100,270,0,270
+4000111,Beverages,bev Honest Tea,Einsteins,2.15,126,270.9,0,270.9
+505001,hot beverages,12oz Caffe Latte,Coffee Shop,2.8,97,271.6,0,271.6
+4001030,outtakes,Parfait,Coffee Store/Papa John,3.95,69,272.55,0,272.55
+4003265,entr�e,Lite Beefeater,Jason's Deli,6.49,42,272.58,0,272.58
+1400241,starbucks coffee,T- Cappuccino,Pub,2.8,99,277.2,0,277.2
+4000163,Beverages,Jason Btl Soda,Jason's Deli,2.19,129,282.51,0,282.51
+2500029,specials,*Chickn Sandwich,Pub,1,283,283,0,283
+8000216,cold beverages,VanillaMilkShake,Coffee Store/Papa John,2.59,110,284.9,0,284.9
+1400256,starbucks coffee,V- Iced Macchi,Pub,4.85,59,286.15,0,286.15
+4003192,entr�e,Grilled Cheese,Jason's Deli,3.19,90,287.1,0,287.1
+10055,sides,Chips,Grab n go,1.25,230,287.5,0,287.5
+4000317,Breakfast,Buffalo Artisan,Einsteins,5.99,48,287.52,0,287.52
+1200030,alcohol,Chardonnay,Pub,4,72,288,0,288
+4000141,Beverages,bev-Vitm wtr,Einsteins,2.3,126,289.8,0,289.8
+4000696,entr�e,Turkey Club Thin,Einsteins,4.95,59,292.05,0,292.05
+110122,Other Brew,Iced Tea 20oz,Coffee Corner,2.5,117,292.5,0,292.5
+4003240,hot beverages,Drip Coffee Ven,N Brew,2.45,120,294,0,294
+4003248,hot beverages,Red Bull 120z,N Brew,2.99,99,296.01,0,296.01
+4001149,Breakfast,AspMushSwissThin,Einsteins,4.79,62,296.98,0,296.98
+4003204,entr�e,1/2 Beefeater,Jason's Deli,8.29,36,298.44,0,298.44
+4001253,food,DannYogParf12oz,Einsteins,2.79,107,298.53,0,298.53
+4000170,Beverages,Frozen Mocha Md,Einsteins,3.49,86,300.14,0,300.14
+505003,hot beverages,16oz Caffe Latte,Coffee Shop,3.6,84,302.4,0,302.4
+4001670,entr�e,Pepp Pizza Bgl,Einsteins,5.55,55,305.25,0,305.25
+10037,cold beverages,Min. Maid,Grab n go,1.85,165,305.25,0,305.25
+4000117,Beverages,bev-Dasani,Einsteins,1.95,157,306.15,0,306.15
+1400103,starbucks coffee,Venti Coffee,Pub,2.45,125,306.25,0,306.25
+4000169,Beverages,Frozen Mocha Lg,Einsteins,3.99,77,307.23,0,307.23
+4000260,Breakfast,Bagel w/Butter,Einsteins,1.69,185,312.65,0,312.65
+100017,AFC sushi,Spicy Alaska SP,Coffee Corner,5.49,57,312.93,0,312.93
+69975,Pizza,Saus/Pepp XL,Coffee Store/Papa John,17.48,18,314.64,0,314.64
+1400254,starbucks coffee,T- Iced Macchi,Pub,3.6,88,316.8,0,316.8
+4000141,Beverages,bev-Vitm wtr,Coffee Store/Papa John,2.3,138,317.4,0,317.4
+10024,cold beverages,Dasani 1L,Grab n go,2.15,148,318.2,0,318.2
+4003206,entr�e,1/2 Rueben,Jason's Deli,8.29,39,323.31,0,323.31
+30023,cold beverages,Vitamin Water,Food Court,2.3,142,326.6,0,326.6
+1400223,starbucks coffee,V- Latte,Pub,3.95,83,327.85,0,327.85
+120003,desserts,Btld Juice,Coffee Corner,1.69,194,327.86,0,327.86
+120020,Other Brew,Honest Tea,Coffee Corner,2.05,163,334.15,0,334.15
+4000316,Breakfast,BBQ Artisan,Einsteins,5.99,56,335.44,0,335.44
+8000370,Packaged Snack,Cheetos crunchy,Coffee Store/Papa John,3.49,97,338.53,0,338.53
+10060,sides,Fruit,Grab n go,0.8,427,341.6,0,341.6
+4002618,snacks,Brownie,Jason's Deli,1.29,270,348.3,0,348.3
+4000689,entr�e,Buff Chicken BT,Einsteins,4.85,72,349.2,0,349.2
+30029,cold beverages,ENERGY DRINKS,Food Court,2.85,124,353.4,0,353.4
+1700304,starbucks coffee,T- Chai Latte,Pub,3,118,354,0,354
+8000011,desserts,Chocolate Cake,Pub,3.99,89,355.11,0,355.11
+1400282,starbucks coffee,G- Hot Chocolate,Pub,3.2,111,355.2,0,355.2
+10022,cold beverages,Core Power,Grab n go,3.59,99,355.41,0,355.41
+69977,Pizza,Sausage XL,Coffee Store/Papa John,15.49,23,356.27,0,356.27
+69970,Pizza,Spin Alfredo XL,Coffee Store/Papa John,18.99,19,360.81,0,360.81
+2500013,specials,Greek Salad,Pub,6.99,52,363.48,0,363.48
+110036,Brew Coffee,Hot Choc 12,Coffee Corner,2.7,135,364.5,0,364.5
+1700329,starbucks coffee,V- Iced Tea,Pub,2.5,146,365,0,365
+4003213,snacks,C C CoffeeCake,Einsteins,2.19,167,365.73,0,365.73
+4003220,snacks,Muffin Blueberry,Einsteins,1.99,185,368.15,0,368.15
+10014,cold beverages,Powerade,Grab n go,2.15,172,369.8,0,369.8
+4000135,Beverages,bev-Smt water 20,Coffee Store/Papa John,2.3,161,370.3,0,370.3
+2100032,entr�e,Medi Sampler,Pub,6.99,53,370.47,0,370.47
+512001,Frappuccinos,Caramel Frap,Coffee Shop,4.35,86,374.1,0,374.1
+110039,Brew Coffee,Chai Latte 12 oz,Coffee Corner,3,125,375,0,375
+4000152,Beverages,Cafe Mocha Large,Einsteins,3.99,94,375.06,0,375.06
+4002533,sides,Protein x 2,Food Court,1.75,215,376.25,0,376.25
+4002912,entr�e,Cup of Fruit,Jason's Deli,2.79,246,376.65,0,376.65
+99983,AFC sushi,Cream Cheese SP,Coffee Corner,5.49,69,378.81,0,378.81
+4000168,Beverages,FountainDrink-Md,Einsteins,1.9,204,387.6,0,387.6
+10028,cold beverages,Frappuccino LG,N Brew,3.35,118,395.3,0,395.3
+4003214,snacks,C ChunkPoppers,Einsteins,2.99,133,397.67,0,397.67
+4003254,outtakes,Buff Chxn Salad,Grab n go,5.95,67,398.65,0,398.65
+4003167,Soups,Org Veg Cup,Jason's Deli,2.99,205,400.66,0,400.66
+4000697,entr�e,Veg Out,Einsteins,6.49,62,402.38,0,402.38
+120016,Other Brew,Vitamin Water,Coffee Corner,2.3,176,404.8,0,404.8
+2500012,specials,Gard Humm Wrap,Pub,6.99,58,405.42,0,405.42
+1400212,starbucks coffee,G- Americano,Pub,2.6,156,405.6,0,405.6
+10029,cold beverages,Double Shot,N Brew,3.19,129,411.51,0,411.51
+1200034,alcohol,Dos Equis,Pub,3.5,118,413,0,413
+110028,Other Brew,Smart Water 20oz,Coffee Corner,2.19,189,413.91,0,413.91
+509001,hot beverages,12oz Coffee,Coffee Shop,1.8,230,414,0,414
+10025,cold beverages,Smart Water,Grab n go,2.3,180,414,0,414
+40014,sides,Fruit,Food Court,0.8,519,415.2,0,415.2
+4001673,entr�e,Turkey Club,Einsteins,7.69,54,415.26,0,415.26
+4000145,Beverages,Blueberry Smooth,Einsteins,3.79,110,416.9,0,416.9
+4000127,Beverages,bev-Milk,Einsteins,1.85,226,418.1,0,418.1
+110110,food,Soup 16oz,Coffee Corner,2.49,168,418.32,0,418.32
+110017,Expresso bev,Americano 16oz,Coffee Corner,2.6,162,421.2,0,421.2
+110040,Brew Coffee,Chai Latte 16 oz,Coffee Corner,3.7,114,421.8,0,421.8
+99995,AFC sushi,Cali Roll SP,Coffee Corner,4.79,89,426.31,0,426.31
+110016,Expresso bev,Americano 12oz,Coffee Corner,2,214,428,0,428
+120002,cold beverages,Dasani 1L,Food Court,2.15,200,430,0,430
+1400225,starbucks coffee,G- Iced Latte,Pub,3.65,118,430.7,0,430.7
+4000268,Breakfast,Chix Salad Sand,Einsteins,5.49,79,433.71,0,433.71
+4001012,outtakes,Humm Bar Sml,Grab n go,2.99,146,436.54,0,436.54
+10053,hot beverages,Coffee Med,Grab n go,2.1,210,441,-2.1,438.9
+30011,cold beverages,Double Shot,Food Court,3.19,138,440.22,0,440.22
+2100004,appetizers,Artichoke Dip,Pub,6.99,63,440.37,0,440.37
+110003,Expresso bev,White Mocha 20oz,Coffee Corner,4.65,96,446.4,0,446.4
+1400102,starbucks coffee,Grande Coffee,Pub,2.1,224,470.4,-23.1,447.3
+10004,cold beverages,Dr. Pepper,Grab n go,1.85,242,447.7,0,447.7
+4001666,entr�e,Asiago Bagel Dog,Einsteins,4.99,90,449.1,0,449.1
+1700306,starbucks coffee,V- Chai Latte,Pub,3.95,114,450.3,0,450.3
+70000,Pizza,Sausage,Coffee Store/Papa John,5.25,86,451.5,0,451.5
+4000203,Beverages,OJ Fresh Squ-Reg,Einsteins,2.79,164,457.56,0,457.56
+4001158,Breakfast,Swiss with Ham,Einsteins,4.99,92,459.08,0,459.08
+4003193,entr�e,Ham & Cheese,Jason's Deli,7.29,63,459.27,0,459.27
+4001013,outtakes,Humm Bar LG,Grab n go,5.99,78,467.22,0,467.22
+1400232,starbucks coffee,G- Hot Mocha,Pub,4.15,114,473.1,0,473.1
+40064,sides,Gum,Food Court,1.99,238,473.62,0,473.62
+1400211,starbucks coffee,T- Americano,Pub,2,237,474,0,474
+130017,Ice Cream,Helado,Grab n go,1.49,319,475.31,0,475.31
+110106,Other Brew,Red Bull,Coffee Corner,2.29,211,483.19,0,483.19
+110114,salads,Fruit cup,Grab n go,2.95,164,483.8,0,483.8
+1100003,fountain drinks,Dr. Pepper - Fnt,Pub,1.55,314,486.7,-1.55,485.15
+8000321,food,Freal RootB M/S,Coffee Store/Papa John,2.59,188,486.92,0,486.92
+110009,Expresso bev,Latte 20oz,Coffee Corner,4.05,122,494.1,0,494.1
+503005,bottled drinks,Fruit Water,Food Court,1.95,254,495.3,0,495.3
+10022,desserts,Core Power,Coffee Corner,3.59,138,495.42,0,495.42
+10029,cold beverages,Double Shot,Grab n go,3.19,156,497.64,0,497.64
+10026,cold beverages,Smart Water 1L,Grab n go,3.35,152,509.2,0,509.2
+40047,sides,Nature Valley,Food Court,1.59,325,516.75,0,516.75
+10018,cold beverages,Gold Peak Tea,Grab n go,2.15,246,528.9,0,528.9
+110011,Expresso bev,Cappuccino 16oz,Coffee Corner,3.6,147,529.2,0,529.2
+4000692,entr�e,Deli Sandwich,Einsteins,6.49,82,532.18,0,532.18
+110125,desserts,Starbucks D Shot,Coffee Corner,2.79,191,532.89,0,532.89
+1400251,starbucks coffee,T- Hot Macchiato,Pub,3.6,149,536.4,0,536.4
+4000214,Beverages,StraBananaSmooth,Einsteins,3.79,144,545.76,0,545.76
+503016,bottled drinks,Dasani 1L,Coffee Corner,2.15,254,546.1,0,546.1
+4000117,Beverages,bev-Dasani,Coffee Store/Papa John,1.95,281,547.95,0,547.95
+4000165,Beverages,Jasons Water,Jason's Deli,1.89,291,549.99,-1.89,548.1
+4001257,food,FruitSalad(16oz),Einsteins,3.75,147,551.25,0,551.25
+10052,hot beverages,Coffee small,Grab n go,1.8,307,552.6,0,552.6
+10006,cold beverages,Snapple 16 oz,Grab n go,1.75,316,553,0,553
+4003209,entr�e,1/2 Club Royale,Jason's Deli,7.29,76,554.04,0,554.04
+4000290,Breakfast,Bagel Dozen w/Sm,Einsteins,14.99,37,554.63,0,554.63
+69976,Pizza,Spinach Alf,Coffee Store/Papa John,5.25,106,556.5,0,556.5
+1400252,starbucks coffee,G- Hot Macchiato,Pub,4.35,130,565.5,0,565.5
+4003200,entr�e,Spinach Veggie,Jason's Deli,6.59,86,566.74,0,566.74
+1400231,starbucks coffee,T- Hot Mocha,Pub,3.3,173,570.9,0,570.9
+1400101,starbucks coffee,Tall Coffee,Pub,1.8,321,577.8,0,577.8
+110099,food,Candy,Coffee Corner,1.09,533,580.97,0,580.97
+10032,desserts,Red Bull 12oz,Coffee Corner,2.99,195,583.05,0,583.05
+1700332,starbucks coffee,V- Tea Lemonade,Pub,3.5,167,584.5,0,584.5
+30081,cold beverages,Frap. Large,Food Court,3.35,175,586.25,0,586.25
+1400291,starbucks coffee,T- Hot White Moc,Pub,3.6,163,586.8,0,586.8
+1200027,alcohol,Shiner Bock,Pub,3.5,168,588,0,588
+515002,Smoothie,Smoothie / Shake,Coffee Shop,3.25,181,588.25,0,588.25
+4000151,Beverages,Cafe Latte Med,Einsteins,3.49,169,589.81,0,589.81
+10029,cold beverages,Double Shot,Food Court,3.19,188,599.72,0,599.72
+4000158,Beverages,Coffee Large,Einsteins,2.29,266,609.14,0,609.14
+110066,Blended bev,SpecialtySmoothe,Coffee Corner,2.99,204,609.96,0,609.96
+2500039,specials,Tender Special,Pub,7.99,77,615.23,0,615.23
+110030,Brew Coffee,Drip Coffee 20oz,Coffee Corner,2.45,255,624.75,0,624.75
+1700305,starbucks coffee,G- Chai Latte,Pub,3.5,182,637,0,637
+30022,cold beverages,Powerade,Food Court,2.15,297,638.55,0,638.55
+4001156,Breakfast,Spn Mush& Swiss,Einsteins,4.99,128,638.72,0,638.72
+1400255,starbucks coffee,G- Iced Macchi,Pub,4.35,147,639.45,0,639.45
+4003196,entr�e,Ranchero Wrap,Jason's Deli,7.19,89,639.91,0,639.91
+30102,cold beverages,Ftn Drink 16.5,Food Court,1.39,568,789.52,-149.06,640.46
+4000735,Combo,Tasty Turkey,Einsteins,6.99,92,643.08,0,643.08
+110005,Expresso bev,Mocha 16oz,Coffee Corner,4.15,155,643.25,0,643.25
+8000229,cold beverages,Monster,Coffee Store/Papa John,2.75,235,646.25,0,646.25
+2600007,appetizers,Chips & Queso,Pub,4.99,130,648.7,0,648.7
+4000127,Beverages,bev-Milk,Coffee Store/Papa John,1.85,351,649.35,0,649.35
+110024,Brew Coffee,Flavor Shot,Coffee Corner,0.5,1310,655,-0.5,654.5
+110095,Other Brew,Coke,Coffee Corner,1.85,355,656.75,0,656.75
+4003207,entr�e,1/2 Cali Club,Jason's Deli,7.29,91,663.39,0,663.39
+110010,Expresso bev,Cappuccino 12oz,Coffee Corner,2.8,237,663.6,0,663.6
+1400221,starbucks coffee,T- Latte,Pub,2.8,240,672,0,672
+110019,Expresso bev,Crml Macc 12oz,Coffee Corner,3.6,187,673.2,0,673.2
+2400110,sides,Onion Rings,Pub,2.99,229,684.71,0,684.71
+4000693,entr�e,Honey Gl Sm Ham,Einsteins,6.99,98,685.02,0,685.02
+4001073,outtakes,WhiteTunaSldCroi,Grab n go,4.95,141,697.95,0,697.95
+4003089,Soups,Broccoli Cup,Jason's Deli,3.99,346,702.24,0,702.24
+4001151,Breakfast,Cheddar,Einsteins,4.59,153,702.27,0,702.27
+110060,food,Chips,Coffee Corner,1.25,573,716.25,0,716.25
+4002653,entr�e,Nutty Chxn,Jason's Deli,6.99,105,733.95,0,733.95
+10023,cold beverages,Dasani,Grab n go,1.95,378,737.1,0,737.1
+4001155,Breakfast,Santa Fe Wrap,Einsteins,4.99,148,738.52,0,738.52
+8000214,miscellaneous,Icee 24oz,Coffee Store/Papa John,1.59,470,747.3,0,747.3
+30012,cold beverages,Milk (Pint),Food Court,1.85,405,749.25,0,749.25
+120035,food,Clif Bar,Coffee Corner,2.49,302,751.98,0,751.98
+10028,cold beverages,Frappuccino LG,Food Court,3.35,228,763.8,0,763.8
+4001069,outtakes,Turkey/Provo SDT,Grab n go,5.95,129,767.55,0,767.55
+4003257,entr�e,1/2 Santa Fe,Jason's Deli,7.29,106,772.74,0,772.74
+7000001,creamice,Frap Coffee,Pub,3.85,201,773.85,0,773.85
+4003250,hot beverages,Cookies,N Brew,1.99,396,788.04,0,788.04
+1400222,starbucks coffee,G- Latte,Pub,3.65,216,788.4,0,788.4
+4003203,entr�e,Zucchini Grill,Jason's Deli,6.59,120,790.8,0,790.8
+110004,Expresso bev,Mocha 12oz,Coffee Corner,3.3,240,792,0,792
+120014,Other Brew,Large Frap13.7oz,Coffee Corner,3.15,253,796.95,0,796.95
+10033,cold beverages,Monster,Grab n go,2.85,280,798,0,798
+4001669,entr�e,Italian Chxn,Einsteins,7.69,104,799.76,0,799.76
+110051,Blended bev,Caramel Creamice,Coffee Corner,4.35,190,826.5,0,826.5
+4003239,hot beverages,Drip Coffee Gr,N Brew,2.1,399,837.9,-10.5,827.4
+503008,bottled drinks,Dasani 20oz,Coffee Corner,1.95,427,832.65,0,832.65
+1400292,starbucks coffee,G- Hot White Moc,Pub,4.35,193,839.55,0,839.55
+4003175,Soups,SW Chili Cup,Jason's Deli,3.99,339,841.89,0,841.89
+110020,Expresso bev,Crml Macc 16oz,Coffee Corner,4.35,195,848.25,0,848.25
+4002646,entr�e,Chicken Club,Jason's Deli,6.79,126,855.54,0,855.54
+4002656,entr�e,The Big Chef,Jason's Deli,6.19,139,860.41,0,860.41
+4003252,outtakes,Fruit cup,Grab n go,2.95,294,867.3,0,867.3
+4003195,entr�e,Mediterranean W,Jason's Deli,6.59,134,883.06,0,883.06
+69974,Pizza,Garden Frsh XL,Coffee Store/Papa John,18.99,47,892.53,0,892.53
+10033,desserts,Monster,Coffee Corner,2.85,314,894.9,0,894.9
+30038,cold beverages,Dr. Pepper,Food Court,1.85,487,900.95,0,900.95
+110001,Expresso bev,White Mocha 12oz,Coffee Corner,3.6,253,910.8,0,910.8
+4000153,Beverages,Cafe Mocha Med,Einsteins,3.49,261,910.89,0,910.89
+4002538,entr�e-create,2Combo white,Food Court,5.49,166,911.34,0,911.34
+4001152,Breakfast,Cheddar Turk Sau,Einsteins,4.99,184,918.16,0,918.16
+110052,Blended bev,Mocha Creamice,Coffee Corner,4.35,214,930.9,0,930.9
+30019,hot beverages,Coffee 20oz,Food Court,2.45,380,931,0,931
+30043,cold beverages,Simply Orange,Food Court,2.05,457,936.85,0,936.85
+4001079,desserts,Cookie Sundae,Food Court,2.49,387,963.63,0,963.63
+50020,entr�e,Sausage Biscuit,Food Court,1.79,544,973.76,0,973.76
+110002,Expresso bev,White Mocha 16oz,Coffee Corner,4.35,225,978.75,0,978.75
+4002624,outtakes,Chefs Salad,Coffee Corner,4.95,199,985.05,0,985.05
+69969,Pizza,The Works XL,Coffee Store/Papa John,18.99,53,1006.47,0,1006.47
+4003230,outtakes,Buffalo Chxn,Grab n go,5.75,179,1029.25,0,1029.25
+10016,cold beverages,Coca Cola,Grab n go,1.85,567,1048.95,0,1048.95
+7000003,creamice,Frap Mocha,Pub,4.35,246,1070.1,0,1070.1
+10028,cold beverages,Frappuccino LG,Grab n go,3.35,330,1105.5,0,1105.5
+30101,cold beverages,Smart Water 1L,Food Court,3.35,331,1108.85,0,1108.85
+4002536,entr�e-create,Soup Reg,Food Court,2.99,373,1115.27,0,1115.27
+2500008,specials,ChkCaesar Salad,Pub,5.99,187,1120.13,0,1120.13
+4003230,outtakes,Buffalo Chxn,Coffee Corner,5.75,196,1127,0,1127
+8000218,cold beverages,Mango Smoothie,Coffee Store/Papa John,2.59,439,1137.01,0,1137.01
+30079,cold beverages,Smart Water,Food Court,2.3,495,1138.5,0,1138.5
+7000002,creamice,Frap Caramel,Pub,4.35,262,1139.7,0,1139.7
+2200004,Burger,Turkey Burger,Pub,5.99,192,1150.08,0,1150.08
+1100001,fountain drinks,Coca-Cola - Fnt.,Pub,1.55,753,1167.15,-13.95,1153.2
+4003238,hot beverages,Drip Coffee Tall,N Brew,1.8,650,1170,0,1170
+69971,Pizza,The Meats XL,Coffee Store/Papa John,18.99,64,1215.36,0,1215.36
+2200010,entr�e,Chip Hoag Sand,Pub,6.99,174,1216.26,0,1216.26
+4003194,entr�e,Jack Panini,Jason's Deli,7.29,170,1239.3,0,1239.3
+4001073,outtakes,WhiteTunaSldCroi,Coffee Corner,4.95,256,1267.2,0,1267.2
+4003197,entr�e,Reuben The Great,Jason's Deli,8.89,144,1280.16,0,1280.16
+2400106,sides,Fries,Pub,2.99,444,1327.56,0,1327.56
+4003201,entr�e,Turkey Wrap,Jason's Deli,6.59,208,1370.72,0,1370.72
+110031,Brew Coffee,Drip Coffee 16oz,Coffee Corner,2.1,654,1373.4,0,1373.4
+4002598,entr�e,Nova Lox,Einsteins,6.15,227,1396.05,0,1396.05
+4003202,entr�e,Wild Salmonwich,Jason's Deli,8.49,166,1409.34,0,1409.34
+4002624,outtakes,Chefs Salad,Grab n go,4.95,285,1410.75,0,1410.75
+30016,cold beverages,Odwalla 15 oz,Food Court,4.19,338,1416.22,0,1416.22
+2500011,specials,Grilled 2 Cheese,Pub,4.99,287,1432.13,0,1432.13
+10040,cold beverages,Odwalla 15 oz,Grab n go,4.19,349,1462.31,0,1462.31
+110007,Expresso bev,Latte 12oz,Coffee Corner,2.8,530,1484,0,1484
+30010,cold beverages,Ftn Drink 32oz,Food Court,1.65,1275,2103.75,-572.52,1531.23
+4001153,Breakfast,Cheddar w/ Bacon,Einsteins,4.99,309,1541.91,0,1541.91
+4001030,outtakes,Parfait,Coffee Corner,3.95,395,1560.25,0,1560.25
+4000695,entr�e,Turkey BAT,Einsteins,6.99,237,1656.63,0,1656.63
+110008,Expresso bev,latte 16oz,Coffee Corner,3.6,462,1663.2,0,1663.2
+40083,desserts,Bulk Candy,Coffee Corner,0.49,542,1677.41,0,1677.41
+4003188,entr�e,Beefeater,Jason's Deli,7.39,243,1795.77,0,1795.77
+4000112,Beverages,bev-20oz btl all,Coffee Store/Papa John,1.85,973,1800.05,0,1800.05
+4003190,entr�e,Chicken Panini,Jason's Deli,7.49,244,1827.56,0,1827.56
+50018,entr�e,Bacon Egg Cheese,Food Court,2.69,689,1853.41,0,1853.41
+50009,entr�e,CG Chicken Salad,Food Court,7.99,234,1869.66,0,1869.66
+30009,cold beverages,Ftn Drink 24oz,Food Court,1.55,1573,2438.15,-558.89,1879.26
+10018,cold beverages,Gold Peak Tea,Food Court,2.15,881,1894.15,0,1894.15
+120028,desserts,Bon Appetite,Coffee Corner,1.49,1273,1896.77,0,1896.77
+4001030,outtakes,Parfait,Grab n go,3.95,484,1911.8,0,1911.8
+50024,side,Hashbrown,Food Court,0.99,1942,1922.58,0,1922.58
+4002527,entr�e-create,1prot salad1/2,Food Court,4.99,386,1926.14,0,1926.14
+69987,Pizza,The Works,Coffee Store/Papa John,5.25,372,1953,0,1953
+4000148,Beverages,Jasons Fountain,Jason's Deli,1.99,1001,1991.99,-23.88,1968.11
+110025,Brew Coffee,Drip Coffee 12oz,Coffee Corner,1.8,1125,2025,0,2025
+30018,hot beverages,Coffee 16oz,Food Court,2.1,998,2095.8,-12.6,2083.2
+69993,Pizza,Garden Fresh,Coffee Store/Papa John,5.25,399,2094.75,0,2094.75
+4000159,Beverages,Coffee Medium,Einsteins,1.99,1075,2139.25,0,2139.25
+40015,sides,Chips,Food Court,1.25,1716,2145,0,2145
+40026,snacks,$1.99 Cookies,Food Court,1.99,1079,2147.21,0,2147.21
+2200006,Burger,Mushroom Burger,Pub,5.99,371,2222.29,0,2222.29
+2500021,pub specials,Fish and Chips,Pub,5.99,374,2240.26,0,2240.26
+30049,cold beverages,Snapple 16oz,Food Court,1.75,1284,2247,0,2247
+30017,hot beverages,Coffee 12oz,Food Court,1.8,1277,2298.6,0,2298.6
+69978,Pizza,Pepperoni XL,Coffee Store/Papa John,15.49,152,2354.48,0,2354.48
+120001,cold beverages,Dasani 20oz,Food Court,1.95,1218,2375.1,0,2375.1
+2200005,Burger,Black Bean,Pub,6.99,363,2537.37,0,2537.37
+2500007,specials,CHK CAESAR WRAP,Pub,5.99,424,2539.76,0,2539.76
+2600011,pub specials,Quesa Spinach,Pub,5.99,427,2557.73,0,2557.73
+110119,food,Hot Dog,Coffee Corner,2.75,940,2585,0,2585
+69972,Pizza,Cheese XL,Coffee Store/Papa John,13.5,202,2727,0,2727
+4003191,entr�e,Club Royale,Jason's Deli,7.09,387,2743.83,0,2743.83
+69992,Pizza,The Meats,Coffee Store/Papa John,5.25,523,2745.75,0,2745.75
+10033,cold beverages,Monster,Food Court,2.85,1018,2901.3,0,2901.3
+30054,cold beverages,Odwalla 15 oz,Food Court,4.19,702,2941.38,0,2941.38
+10048,Entr�e,Burrito,Grab n go,2.49,1196,2978.04,0,2978.04
+4002526,entr�e-create,1prot saladfull,Food Court,5.99,507,3036.93,0,3036.93
+503007,bottled drinks,Minute Maid,Food Court,1.85,1699,3143.15,0,3143.15
+2200001,Burger,Pub Burger,Pub,5.99,527,3156.73,0,3156.73
+7000015,pub specials,LimitedTimeOffer,Pub,5.99,544,3258.56,0,3258.56
+69994,Pizza,Pepperoni,Coffee Store/Papa John,5.25,625,3281.25,0,3281.25
+69999,Pizza,Cheese,Coffee Store/Papa John,5.25,631,3312.75,0,3312.75
+4003189,entr�e,California Club,Jason's Deli,7.09,518,3672.62,0,3672.62
+2600008,pub specials,Quesa Steak,Pub,5.99,644,3857.56,0,3857.56
+4003199,entr�e,Santa Fe,Jason's Deli,7.19,537,3861.03,0,3861.03
+2600009,pub specials,Quesa Chicken,Pub,5.99,659,3947.41,0,3947.41
+2500006,specials,Buff Chk Wrap,Pub,5.99,719,4306.81,0,4306.81
+2200003,Burger,Texan Burger,Pub,6.99,617,4312.83,0,4312.83
+50017,entr�e,CFA Biscuit,Food Court,2.15,2066,4441.9,0,4441.9
+4002528,entr�e-create,1prot potato sw,Food Court,4.25,1090,4632.5,0,4632.5
+50002,entr�e,Chargrilled,Food Court,3.75,1263,4736.25,0,4736.25
+10049,outtakes,outtakes enterpr,Grab n go,3.572607216,1469,5248.16,0,5248.16
+30082,cold beverages,Coke,Food Court,1.85,3315,6132.75,-0.93,6131.82
+4000257,Breakfast,Bagel w/ CC Shmr,Einsteins,2.59,2440,6319.6,0,6319.6
+2500024,specials,Chickn Tenders,Pub,5.99,1080,6469.2,0,6469.2
+10049,outtakes,outtakes enterpr,Coffee Store/Papa John,2.694251261,4561,12288.48,-1.45,12287.03
+4002529,sides,1prot potato wh,Food Court,4.25,3692,15691,0,15691
+50005,entr�e,8-Nuggets,Food Court,3.09,5295,16361.55,0,16361.55
+50006,entr�e,12-Nuggets,Food Court,4.49,4383,19679.67,0,19679.67
+50008,side,Waffle Fries,Food Court,1.65,15285,25220.25,0,25220.25
+50001,entr�e,CFA Sandwich,Food Court,3.09,12451,38473.59,-160.68,38312.91
+8000006,subway,Subway $,Food Court,5.592655453,11177,62509.11,0,62509.11

@@ -1,0 +1,10 @@
+
+let classroomAverage = average(grades) // 10.2
+let boysAverage = average(getBoys(grades)) // 7
+let girlsAverage = average(getGirls(grades)) // 13.4
+let highestGrade = maxGrade(grades) // 18
+let lowestGrade = minGrade(grades) // 2
+let highestBoysGrade = maxGrade(getBoys(grades)) // 16
+let lowestBoysGrade = minGrade(getBoys(grades)) // 2
+let highestGirlsGrade = maxGrade(getGirls(grades)) // 18
+let lowestGirlsGrade = minGrade(getGirls(grades)) // 9

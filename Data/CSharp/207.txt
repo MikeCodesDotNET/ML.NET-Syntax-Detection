@@ -1,0 +1,1 @@
+var entity = await _client.GetJsonAsync<MyEntity>("/api/entity/get");

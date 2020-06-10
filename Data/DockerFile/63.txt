@@ -1,0 +1,5 @@
+FROM arm32v7/openjdk:9-slim
+COPY target/runtime-*.jar target/dependency/*.jar /function/runtime/
+
+
+ENTRYPOINT [ "/usr/bin/java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-XX:MaxRAMFraction=2", "-XX:+UseSerialGC", "-Xshare:off", "-cp", "/function/app/*:/function/runtime/*", "com.fnproject.fn.runtime.EntryPoint" ]

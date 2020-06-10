@@ -1,0 +1,4 @@
+Vue.component('user-name', {
+  props: ['name'],
+  template: '<p>Hi {{ name }}</p>'
+})

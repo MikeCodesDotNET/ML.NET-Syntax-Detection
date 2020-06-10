@@ -1,0 +1,19 @@
+static void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
+{
+    // The HostingEnvironment comes from the appsetting.json and could be optionally used to configure the mock service
+    if (ctx.HostingEnvironment.IsDevelopment())
+    {
+        // add as a singleton so only one ever will be created.
+        services.AddSingleton<IDataService, MockDataService>();
+    }
+    else
+    {
+        services.AddSingleton<IDataService, MyDataService>();
+    }
+
+    // add the ViewModel, but as a Transient, which means it will create a new one each time.
+    services.AddTransient<MyViewModel>();
+
+    //Another thing we can do is access variables from that json file
+     var world = ctx.Configuration["Hello"];
+}

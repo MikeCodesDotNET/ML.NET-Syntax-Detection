@@ -1,0 +1,6 @@
+func calculateFactorial(fac int) int {
+    if fac == 0 {
+        return 1
+    }
+    return fac * calculateFactorial(fac - 1)
+}

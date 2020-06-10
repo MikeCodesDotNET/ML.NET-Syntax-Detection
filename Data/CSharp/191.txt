@@ -1,0 +1,1 @@
+var query = ListOfThings.Where(t => t.Id > 2);

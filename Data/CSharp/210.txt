@@ -1,0 +1,4 @@
+static string functionEndpoint(WebAssemblyHostBuilder builder) =>
+    builder.Configuration
+        .GetSection(nameof(TokenClient))
+        .GetValue<string>(nameof(CosmosAuthorizationMessageHandler.Endpoint));

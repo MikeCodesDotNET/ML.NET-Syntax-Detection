@@ -1,0 +1,5 @@
+TASK, LOSS FUNCTION(l), EVALUATION METRIC(m), OUTPUT LAYER SIZE(x), OUTPUT LAYER ACTIVATION(a)
+Binary classification, binary_crossentropy,accuracy,1,sigmoid
+Multi classification(integer labels),sparse_categorical_crossentropy,accuracy,number of classes,softmax
+Multi classification(one hot labels),categorical_crossentropy,accuracy,number of classes,softmax
+Regression,mse,mae,1,N/A

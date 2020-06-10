@@ -1,0 +1,1684 @@
+UniqueReferenceNumber(URN),IncidentDate,IncidentCategory,ProductType,ProductOriginCountry,NotifierType,ProductOriginCountry_iso3n
+ICID00033094,2018-10-01,Pesticide Residues,Cereals & Bakery Products,India (IN),Local Authority,356
+ICID00033103,2018-10-01,Allergens,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00033104,2018-10-02,Composition,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),RASFF,156
+ICID00033105,2018-10-02,Labelling Absent / Incomplete / Incorrect,Food Contact Materials,United States (US),Administrative Assistance & Cooperation System (AAC),840
+ICID00033106,2018-10-02,Labelling Absent / Incomplete / Incorrect,Food Contact Materials,United States (US),Administrative Assistance & Cooperation System (AAC),840
+ICID00033109,2018-10-02,Clandestine Detection,Confectionery,Latvia (LV),Border Inspection Posts (BIPs),428
+ICID00033110,2018-10-02,Pathogenic Micro-Organisms,Soups / Broths / Sauces & Condiments,Philippines (PH),RASFF,608
+ICID00033111,2018-10-02,Food Additives & Flavourings,Non-Alcoholic Beverages,Vietnam (VN),RASFF,704
+ICID00033112,2018-10-02,Mycotoxins,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00033113,2018-10-02,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00033115,2018-10-02,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00033116,2018-10-02,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Border Inspection Posts (BIPs),156
+ICID00033117,2018-10-02,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Border Inspection Posts (BIPs),156
+ICID00033118,2018-10-02,Novel Food,Other Food Product / Mixed,United States (US),EU Member States,840
+ICID00033120,2018-10-03,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00033121,2018-10-03,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00033123,2018-10-04,Chemical Contamination (other),Fish & Fish Products,Vietnam (VN),Border Inspection Posts (BIPs),704
+ICID00033129,2018-10-04,Pesticide Residues,Herbs & Spices,India (IN),Health & Safety Executive,356
+ICID00033132,2018-10-04,Clandestine Detection,Fruits & Vegetables,France (FR),Home Office / Border Force,250
+ICID00033135,2018-10-04,Clandestine Detection,Cocoa / Cocoa Preparations / Coffee / Tea,Poland (PL),Home Office / Border Force,616
+ICID00033137,2018-10-05,Clandestine Detection,Confectionery,Tunisia (TN),Industry,788
+ICID00033140,2018-10-05,Allergens,Milk & Milk Products,Germany (DE),Industry,276
+ICID00033146,2018-10-08,Labelling Absent / Incomplete / Incorrect,Crustaceans & Products Thereof,India (IN),Local Authority,356
+ICID00033147,2018-10-08,Pesticide Residues,Nuts / Nut Products / Seeds,Vietnam (VN),Industry,704
+ICID00033153,2018-10-09,Allergens,Prepared Dishes & Snacks,Australia (AU),Industry,36
+ICID00033154,2018-10-09,Mycotoxins,Confectionery,France (FR),Industry,250
+ICID00033156,2018-10-09,Pathogenic Micro-Organisms,Bivalve Molluscs & Products Thereof,Vietnam (VN),Local Authority,704
+ICID00033158,2018-10-09,Mycotoxins,Cereals & Bakery Products,France (FR),RASFF,250
+ICID00033161,2018-10-10,Food Additives & Flavourings,Alcoholic Beverages,Czech Republic (CZ),EU Member States,203
+ICID00033163,2018-10-10,Food Additives & Flavourings,Non-Alcoholic Beverages,United States (US),Border Inspection Posts (BIPs),840
+ICID00033164,2018-10-10,Food Additives & Flavourings,Non-Alcoholic Beverages,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00033165,2018-10-10,Pesticide Residues,Nuts / Nut Products / Seeds,Netherlands (NL),Local Authority,528
+ICID00033166,2018-10-10,Biocontaminants,Fats & Oils,Ukraine (UA),RASFF,804
+ICID00033167,2018-10-11,Allergens,Nuts / Nut Products / Seeds,Egypt (EG),Local Authority,818
+ICID00033170,2018-10-11,Clandestine Detection,Milk & Milk Products,Germany (DE),Home Office / Border Force,276
+ICID00033177,2018-10-12,Pathogenic Micro-Organisms,Milk & Milk Products,Ireland (IE),RASFF,372
+ICID00033179,2018-10-12,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00033180,2018-10-12,Mycotoxins,Nuts / Nut Products / Seeds,Brazil (BR),Port Health Authority (PHA),76
+ICID00033181,2018-10-12,Pesticide Residues,Fruits & Vegetables,Belgium (BE),RASFF,56
+ICID00033189,2018-10-12,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00033191,2018-10-12,Adulteration / Fraud,Non-Alcoholic Beverages,Nigeria (NG),National Food Crime Unit (NFCU),566
+ICID00033193,2018-10-15,Composition,Fish & Fish Products,Vietnam (VN),Local Authority,704
+ICID00033196,2018-10-16,Clandestine Detection,Poultry Meat & Poultry Meat Products,Poland (PL),Home Office / Border Force,616
+ICID00033204,2018-10-17,Labelling Absent / Incomplete / Incorrect,Poultry Meat & Poultry Meat Products,Ireland (IE),Industry,372
+ICID00033209,2018-10-17,Pesticide Residues,Fruits & Vegetables,China (CN),Border Inspection Posts (BIPs),156
+ICID00033211,2018-10-17,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Italy (IT),RASFF,380
+ICID00033213,2018-10-17,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Sudan (SD),RASFF,729
+ICID00033215,2018-10-18,Mycotoxins,Nuts / Nut Products / Seeds,Tanzania United Republic (TZ),Port Health Authority (PHA),834
+ICID00033216,2018-10-17,Food Additives & Flavourings,Fruits & Vegetables,Lebanon (LB),Border Inspection Posts (BIPs),422
+ICID00033217,2018-10-18,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Italy (IT),RASFF,380
+ICID00033218,2018-10-18,Poor or Insufficient Controls,Other Food Product / Mixed,South Africa (ZA),Local Authority,710
+ICID00033221,2018-10-19,Clandestine Detection,Fruits & Vegetables,France (FR),Home Office / Border Force,250
+ICID00033223,2018-10-19,Foreign Bodies,Other Food Product / Mixed,Netherlands (NL),Local Authority,528
+ICID00033224,2018-10-19,Migration,Food Contact Materials,China (CN),Port Health Authority (PHA),156
+ICID00033228,2018-10-19,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Port Health Authority (PHA),404
+ICID00033229,2018-10-20,Clandestine Detection,Soups / Broths / Sauces & Condiments,Italy (IT),Home Office / Border Force,380
+ICID00033230,2018-10-21,Clandestine Detection,Cocoa / Cocoa Preparations / Coffee / Tea,Poland (PL),Home Office / Border Force,616
+ICID00033231,2018-10-21,Clandestine Detection,Milk & Milk Products,Germany (DE),Home Office / Border Force,276
+ICID00033235,2018-10-22,Allergens,Prepared Dishes & Snacks,Belgium (BE),Industry,56
+ICID00033236,2018-10-22,Allergens,Prepared Dishes & Snacks,Netherlands (NL),Local Authority,528
+ICID00033238,2018-10-22,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00033239,2018-10-23,Chemical Contamination (other),Fish & Fish Products,France (FR),General Public,250
+ICID00033240,2018-10-23,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00033241,2018-10-23,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00033243,2018-10-23,Allergens,Prepared Dishes & Snacks,United States (US),Local Authority,840
+ICID00033247,2018-10-23,Pathogenic Micro-Organisms,Crustaceans & Products Thereof,Vietnam (VN),Border Inspection Posts (BIPs),704
+ICID00033250,2018-10-23,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00033251,2018-10-24,Clandestine Detection,Herbs & Spices,Poland (PL),Home Office / Border Force,616
+ICID00033252,2018-10-24,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00033254,2018-10-24,Pesticide Residues,Cereals & Bakery Products,Thailand (TH),RASFF,764
+ICID00033260,2018-10-24,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00033261,2018-10-24,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00033262,2018-10-24,Clandestine Detection,Confectionery,Poland (PL),Police,616
+ICID00033263,2018-10-25,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Netherlands (NL),Local Authority,528
+ICID00033267,2018-10-25,Clandestine Detection,Other Food Product / Mixed,Slovakia (SK),Police,703
+ICID00033268,2018-10-25,Poor or Insufficient Controls,Prepared Dishes & Snacks,Netherlands (NL),General Public,528
+ICID00033269,2018-10-25,Clandestine Detection,Prepared Dishes & Snacks,Slovakia (SK),Home Office / Border Force,703
+ICID00033270,2018-10-25,Labelling Absent / Incomplete / Incorrect,Food Contact Materials,United States (US),Administrative Assistance & Cooperation System (AAC),840
+ICID00033271,2018-10-25,Clandestine Detection,Confectionery,Poland (PL),Police,616
+ICID00033281,2018-10-26,Clandestine Detection,Food Contact Materials,Hungary (HU),Home Office / Border Force,348
+ICID00033282,2018-10-26,Pathogenic Micro-Organisms,Cereals & Bakery Products,Hungary (HU),RASFF,348
+ICID00033284,2018-10-26,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00033286,2018-10-27,Clandestine Detection,Confectionery,Luxembourg (LU),Border Inspection Posts (BIPs),442
+ICID00033287,2018-10-27,Clandestine Detection,Other Food Product / Mixed,France (FR),Border Inspection Posts (BIPs),250
+ICID00033291,2018-10-29,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),EU Member States,616
+ICID00033299,2018-10-29,Labelling Absent / Incomplete / Incorrect,Milk & Milk Products,France (FR),Local Authority,250
+ICID00033301,2018-10-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00033304,2018-10-31,Adulteration / Fraud,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00033306,2018-10-31,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Germany (DE),Department of Health (DH),276
+ICID00033310,2018-10-31,Pathogenic Micro-Organisms,Soups / Broths / Sauces & Condiments,Netherlands (NL),Industry,528
+ICID00033311,2018-10-31,Biocontaminants,Fats & Oils,Sierra Leone (SL),Border Inspection Posts (BIPs),694
+ICID00033312,2018-10-31,Mycotoxins,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00033313,2018-10-31,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00033314,2018-10-31,Pathogenic Micro-Organisms,Soups / Broths / Sauces & Condiments,Italy (IT),RASFF,380
+ICID00032926,2018-09-03,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Italy (IT),Industry,380
+ICID00032928,2018-09-03,Allergens,Cereals & Bakery Products,Denmark (DK),RASFF,208
+ICID00032929,2018-09-03,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Industry,792
+ICID00032936,2018-09-04,Pathogenic Micro-Organisms,Food Contact Materials,China (CN),Administrative Assistance & Cooperation System (AAC),156
+ICID00032937,2018-09-04,Clandestine Detection,Milk & Milk Products,Poland (PL),Home Office / Border Force,616
+ICID00032939,2018-09-05,Clandestine Detection,Fruits & Vegetables,Turkey (TR),EU Member States,792
+ICID00032940,2018-09-05,Mycotoxins,Nuts / Nut Products / Seeds,Netherlands (NL),Industry,528
+ICID00032944,2018-09-06,Poor or Insufficient Controls,Honey & Royal Jelly,Mexico (MX),Border Inspection Posts (BIPs),484
+ICID00032945,2018-09-04,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00032948,2018-09-06,Mycotoxins,Nuts / Nut Products / Seeds,Bolivia (BO),Food Standards Scotland (FSS),68
+ICID00032949,2018-09-04,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Italy (IT),Local Authority,380
+ICID00032950,2018-09-07,Clandestine Detection,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00032952,2018-09-06,Labelling Absent / Incomplete / Incorrect,Poultry Meat & Poultry Meat Products,Poland (PL),FSA England,616
+ICID00032958,2018-09-07,Packaging Defective / Incorrect,Fish & Fish Products,Morocco (MA),Border Inspection Posts (BIPs),504
+ICID00032960,2018-09-07,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Argentina (AR),RASFF,32
+ICID00032962,2018-09-07,Mycotoxins,Nuts / Nut Products / Seeds,Argentina (AR),RASFF,32
+ICID00032966,2018-09-10,Pesticide Residues,Other Food Product / Mixed,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032970,2018-09-10,Foreign Bodies,Other Food Product / Mixed,Belgium (BE),RASFF,56
+ICID00032971,2018-09-10,Chemical Contamination (other),Fats & Oils,Netherlands (NL),RASFF,528
+ICID00032972,2018-09-10,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032973,2018-09-10,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032977,2018-09-11,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032981,2018-09-11,Poor or Insufficient Controls,Confectionery,Netherlands (NL),Local Authority,528
+ICID00032982,2018-09-11,Labelling Absent / Incomplete / Incorrect,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00032983,2018-09-12,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00032984,2018-09-12,Clandestine Detection,Fruits & Vegetables,Poland (PL),Home Office / Border Force,616
+ICID00032985,2018-09-12,Pathogenic Micro-Organisms,Feed Materials,Belgium (BE),RASFF,56
+ICID00032991,2018-09-12,Pathogenic Micro-Organisms,Egg & Egg Products,France (FR),Local Authority,250
+ICID00032993,2018-09-13,Poor or Insufficient Controls,Water,Ireland (IE),EU Member States,372
+ICID00032996,2018-09-13,Pesticide Residues,Non-Alcoholic Beverages,China (CN),Border Inspection Posts (BIPs),156
+ICID00032999,2018-09-13,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),RASFF,840
+ICID00033003,2018-09-14,Poor or Insufficient Controls,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00033004,2018-09-14,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00033006,2018-09-14,Labelling Absent / Incomplete / Incorrect,Non-Alcoholic Beverages,Turkey (TR),Local Authority,792
+ICID00033009,2018-09-14,Clandestine Detection,Milk & Milk Products,Greece (GR),Home Office / Border Force,300
+ICID00033010,2018-09-14,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00033018,2018-09-17,Clandestine Detection,Fruits & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00033022,2018-09-18,Pesticide Residues,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00033024,2018-09-18,Foreign Bodies,Non-Alcoholic Beverages,Thailand (TH),Local Authority,764
+ICID00033025,2018-09-18,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Industry,404
+ICID00033026,2018-09-18,Chemical Contamination (other),Feed Materials,Ukraine (UA),RASFF,804
+ICID00033030,2018-09-19,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Ireland (IE),EU Member States,372
+ICID00033033,2018-09-19,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Hungary (HU),RASFF,348
+ICID00033035,2018-09-19,Clandestine Detection,Cereals & Bakery Products,Italy (IT),Home Office / Border Force,380
+ICID00033042,2018-09-21,Mycotoxins,Nuts / Nut Products / Seeds,India (IN),Port Health Authority (PHA),356
+ICID00033046,2018-09-22,Pathogenic Micro-Organisms,Confectionery,Lithuania (LT),Industry,440
+ICID00033051,2018-09-24,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00033052,2018-09-24,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Paraguay (PY),Industry,600
+ICID00033053,2018-09-24,Pesticide Residues,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00033056,2018-09-25,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Italy (IT),Industry,380
+ICID00033057,2018-09-25,Chemical Contamination (other),Soups / Broths / Sauces & Condiments,Phlippines (PH),EU Member States,608
+ICID00033060,2018-09-25,Chemical Contamination (other),Herbs & Spices,Cameroon (CM),RASFF,120
+ICID00033061,2018-09-25,Allergens,Cereals & Bakery Products,France (FR),Industry,250
+ICID00033062,2018-09-26,Poor or Insufficient Controls,Crustaceans & Products Thereof,India (IN),Border Inspection Posts (BIPs),356
+ICID00033069,2018-09-26,Pesticide Residues,Fruits & Vegetables,Kenya (KE),RASFF,404
+ICID00033070,2018-09-26,Allergens,Cereals & Bakery Products,France (FR),Industry,250
+ICID00033071,2018-09-27,Labelling Absent / Incomplete / Incorrect,Confectionery,Belgium (BE),Industry,56
+ICID00032736,2018-08-01,Food Additives & Flavourings,Confectionery,Sri Lanka (LK),RASFF,144
+ICID00032737,2018-08-01,Foreign Bodies,Cocoa / Cocoa Preparations / Coffee / Tea,Egypt (EG),Industry,818
+ICID00032738,2018-08-02,Labelling Absent / Incomplete / Incorrect,Confectionery,United States (US),Administrative Assistance & Cooperation System (AAC),840
+ICID00032740,2018-08-02,Chemical Contamination (other),Non-Alcoholic Beverages,Germany (DE),Food Standards Scotland (FSS),276
+ICID00032741,2018-08-02,Mycotoxins,Herbs & Spices,China (CN),RASFF,156
+ICID00032742,2018-08-02,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00032743,2018-08-02,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,China (CN),RASFF,156
+ICID00032744,2018-08-03,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00032749,2018-08-03,Poor or Insufficient Controls,Fish & Fish Products,Papua New Guinea (PG),Border Inspection Posts (BIPs),598
+ICID00032750,2018-08-03,Composition,Food Additives & Flavourings,Netherlands (NL),Administrative Assistance & Cooperation System (AAC),528
+ICID00032751,2018-08-03,Foreign Bodies,Fruits & Vegetables,Ireland (IE),EU Member States,372
+ICID00032753,2018-08-03,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00032754,2018-08-03,Pesticide Residues,Fruits & Vegetables,Jamaica (JM),Port Health Authority (PHA),388
+ICID00032757,2018-08-06,Pathogenic Micro-Organisms,Cereals & Bakery Products,China (CN),Home Office / Border Force,156
+ICID00032758,2018-08-06,Poor or Insufficient Controls,Fish & Fish Products,Japan (JP),Border Inspection Posts (BIPs),392
+ICID00032760,2018-08-06,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),Administrative Assistance & Cooperation System (AAC),528
+ICID00032766,2018-08-06,Allergens,Alcoholic Beverages,Poland (PL),Local Authority,616
+ICID00032767,2018-08-07,Clandestine Detection,Confectionery,Spain (ES),Home Office / Border Force,724
+ICID00032768,2018-08-07,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Vietnam (VN),Administrative Assistance & Cooperation System (AAC),704
+ICID00032770,2018-08-07,Pathogenic Micro-Organisms,Cereals & Bakery Products,Nigeria (NG),Administrative Assistance & Cooperation System (AAC),566
+ICID00032772,2018-08-07,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Ireland (IE),FSA Operations Group,372
+ICID00032779,2018-08-08,Labelling Absent / Incomplete / Incorrect,Fruits & Vegetables,India (IN),Administrative Assistance & Cooperation System (AAC),356
+ICID00032780,2018-08-08,Pathogenic Micro-Organisms,Prepared Dishes & Snacks,Netherlands (NL),RASFF,528
+ICID00032781,2018-08-08,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00032782,2018-08-08,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00032784,2018-08-08,Clandestine Detection,Cereals & Bakery Products,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00032790,2018-08-09,Clandestine Detection,Egg & Egg Products,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00032791,2018-08-09,Poor or Insufficient Controls,Soups / Broths / Sauces & Condiments,India (IN),Port Health Authority (PHA),356
+ICID00032792,2018-08-09,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00032793,2018-08-09,Allergens,Confectionery,Thailand (TH),Industry,764
+ICID00032794,2018-08-10,Labelling Absent / Incomplete / Incorrect,Poultry Meat & Poultry Meat Products,Poland (PL),Local Authority,616
+ICID00032797,2018-08-11,Clandestine Detection,Fruits & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00032808,2018-08-14,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Australia (AU),Border Inspection Posts (BIPs),36
+ICID00032809,2018-08-14,Pesticide Residues,Fruits & Vegetables,Netherlands (NL),RASFF,528
+ICID00032816,2018-08-15,Labelling Absent / Incomplete / Incorrect,Confectionery,Netherlands (NL),Local Authority,528
+ICID00032819,2018-08-15,Clandestine Detection,Soups / Broths / Sauces & Condiments,Switzerland (CH),Home Office / Border Force,756
+ICID00032823,2018-08-16,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Switzerland (CH),RASFF,756
+ICID00032824,2018-08-16,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00032825,2018-08-16,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032826,2018-08-16,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00032831,2018-08-17,Clandestine Detection,Cereals & Bakery Products,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00032833,2018-08-17,Pathogenic Micro-Organisms,Other Food Product / Mixed,China (CN),Border Inspection Posts (BIPs),156
+ICID00032835,2018-08-17,Pathogenic Micro-Organisms,Other Food Product / Mixed,China (CN),Border Inspection Posts (BIPs),156
+ICID00032839,2018-08-17,Poor or Insufficient Controls,Fish & Fish Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00032842,2018-08-17,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00032848,2018-08-20,Pesticide Residues,Fruits & Vegetables,India (IN),Health & Safety Executive,356
+ICID00032852,2018-08-20,Composition,Nuts / Nut Products / Seeds,United States (US),Local Authority,840
+ICID00032855,2018-08-21,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00032860,2018-08-21,Clandestine Detection,Meat & Meat Products (other than poultry),Germany (DE),Home Office / Border Force,276
+ICID00032861,2018-08-22,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00032862,2018-08-22,Mycotoxins,Nuts / Nut Products / Seeds,Nicaragua (NI),Port Health Authority (PHA),558
+ICID00032865,2018-08-22,Allergens,Alcoholic Beverages,Chile (CL),Industry,152
+ICID00032866,2018-08-22,Poor or Insufficient Controls,Fish & Fish Products,Vietnam (VN),Port Health Authority (PHA),704
+ICID00032871,2018-08-22,Clandestine Detection,Poultry Meat & Poultry Meat Products,Poland (PL),Home Office / Border Force,616
+ICID00032874,2018-08-22,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032876,2018-08-23,Pathogenic Micro-Organisms,Fish & Fish Products,India (IN),Port Health Authority (PHA),356
+ICID00032878,2018-08-23,Poor or Insufficient Controls,Fish & Fish Products,Poland (PL),Administrative Assistance & Cooperation System (AAC),616
+ICID00032880,2018-08-24,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00032882,2018-08-24,Pathogenic Micro-Organisms,Fish & Fish Products,Belgium (BE),RASFF,56
+ICID00032884,2018-08-24,Allergens,Herbs & Spices,Spain (ES),European Commission (EC),724
+ICID00032886,2018-08-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00032887,2018-08-28,Clandestine Detection,Poultry Meat & Poultry Meat Products,Spain (ES),Home Office / Border Force,724
+ICID00032889,2018-08-24,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Port Health Authority (PHA),156
+ICID00032890,2018-08-17,Mycotoxins,Nuts / Nut Products / Seeds,Netherlands (NL),RASFF,528
+ICID00032891,2018-08-24,Poor or Insufficient Controls,Fish & Fish Products,Sri Lanka (LK),Port Health Authority (PHA),144
+ICID00032895,2018-08-29,Clandestine Detection,Cereals & Bakery Products,Belgium (BE),Home Office / Border Force,56
+ICID00032899,2018-08-28,Pathogenic Micro-Organisms,Herbs & Spices,Guatemala (GT),RASFF,320
+ICID00032904,2018-08-30,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00032905,2018-08-30,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00032909,2018-08-30,Clandestine Detection,Confectionery,Netherlands (NL),Home Office / Border Force,528
+ICID00032910,2018-08-30,Packaging Defective / Incorrect,Fish & Fish Products,Peru (PE),RASFF,604
+ICID00032911,2018-08-30,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Romania (RO),Department for Environment Food & Rural Affairs (Defra),642
+ICID00032912,2018-08-30,Allergens,Prepared Dishes & Snacks,Poland (PL),Local Authority,616
+ICID00032914,2018-08-31,Allergens,Prepared Dishes & Snacks,Ireland (IE),Industry,372
+ICID00032921,2018-08-31,Pathogenic Micro-Organisms,Herbs & Spices,Germany (DE),Industry,276
+ICID00032923,2018-08-31,Pathogenic Micro-Organisms,Herbs & Spices,Spain (ES),RASFF,724
+ICID00032545,2018-07-03,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00032546,2018-07-03,Mycotoxins,Nuts / Nut products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032547,2018-07-03,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00032549,2018-07-03,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00032550,2018-07-04,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),RASFF,616
+ICID00032551,2018-07-04,Clandestine Detection,Other Food Product / Mixed,Romania (RO),Home Office / Border Force,642
+ICID00032552,2018-07-04,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Romania (RO),Administrative Assistance & Cooperation System (AAC),642
+ICID00032555,2018-07-05,Clandestine Detection,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00032557,2018-07-05,Mycotoxins,Nuts / Nut products / Seeds,Zambia (ZM),Local Authority,894
+ICID00032561,2018-07-05,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Police,616
+ICID00032564,2018-07-06,Clandestine Detection,Confectionery,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00032565,2018-07-05,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00032568,2018-07-06,Mycotoxins,Nuts / Nut products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00032569,2018-07-06,Allergens,Poultry Meat & Poultry Meat Products,Germany (DE),Industry,276
+ICID00032571,2018-07-06,Allergens,Meat & Meat Products (other than poultry),Brazil (BR),Local Authority,76
+ICID00032577,2018-07-09,Adulteration / Fraud,Animal By-Products,Spain (ES),Local Authority,724
+ICID00032578,2018-07-09,Poor or Insufficient Controls,Fish & Fish Products,Ghana (GH),Port Health Authority (PHA),288
+ICID00032579,2018-07-04,Chemical Contamination (other),Nuts / Nut products / Seeds,China (CN),Local Authority,156
+ICID00032580,2018-07-09,Poor or Insufficient Controls,Cereals & Bakery Products,Ghana (GH),Port Health Authority (PHA),288
+ICID00032581,2018-07-09,Composition,Prepared Dishes & Snacks,Austria (AT),RASFF,40
+ICID00032582,2018-07-09,Feed Additives,Feed Materials,Spain (ES),RASFF,724
+ICID00032583,2018-07-09,Pesticide Residues,Cereals & Bakery Products,India (IN),Local Authority,356
+ICID00032589,2018-07-10,Poor or Insufficient Controls,Fish & Fish Products,United States (US),Border Inspection Posts (BIPs),840
+ICID00032591,2018-07-10,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),RASFF,616
+ICID00032594,2018-07-10,Poor or Insufficient Controls,Fish & Fish Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00032595,2018-07-10,Pathogenic Micro-Organisms,Nuts / Nut products / Seeds,Sudan (SD),RASFF,729
+ICID00032596,2018-07-10,Mycotoxins,Nuts / Nut products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00032597,2018-07-10,Pathogenic Micro-Organisms,Fish & Fish Products,Ireland (IE),Local Authority,372
+ICID00032598,2018-07-11,Allergens,Soups / Broths / Sauces & Condiments,Italy (IT),RASFF,380
+ICID00032599,2018-07-11,Allergens,Prepared Dishes & Snacks,Syrian Arab Republic (SY),Industry,760
+ICID00032600,2018-07-11,Allergens,Prepared Dishes & Snacks,Bangladesh (BD),Local Authority,50
+ICID00032601,2018-07-11,Poor or Insufficient Controls,Fish & Fish Products,South Africa (ZA),Border Inspection Posts (BIPs),710
+ICID00032604,2018-07-12,Chemical Contamination (other),Nuts / Nut products / Seeds,Poland (PL),Local Authority,616
+ICID00032607,2018-07-12,Heavy Metals,Food Contact Materials,China (CN),RASFF,156
+ICID00032619,2018-07-16,Clandestine Detection,Cereals & Bakery Products,Italy (IT),Police,380
+ICID00032624,2018-07-17,Poor or Insufficient Controls,Bivalve Molluscs & Products Thereof,Mexico (MX),Border Inspection Posts (BIPs),484
+ICID00032625,2018-07-17,Pathogenic Micro-Organisms,Fruits & Vegetables,Belgium (BE),RASFF,56
+ICID00032626,2018-07-19,Pesticide Residues,Fruits & Vegetables,China (CN),Border Inspection Posts (BIPs),156
+ICID00032629,2018-07-18,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Sweden (SE),EU Member States,752
+ICID00032635,2018-07-20,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,Sri Lanka (LK),Local Authority,144
+ICID00032638,2018-07-20,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),EU Member States,840
+ICID00032641,2018-07-21,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Home Office / Border Force,616
+ICID00032642,2018-07-21,Clandestine Detection,Confectionery,Netherlands (NL),Home Office / Border Force,528
+ICID00032643,2018-07-21,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00032645,2018-07-23,Clandestine Detection,Milk & Milk Products,Austria (AT),Border Inspection Posts (BIPs),40
+ICID00032646,2018-07-23,Clandestine Detection,Other Food Product / Mixed,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00032649,2018-07-18,Pathogenic Micro-Organisms,Fruits & Vegetables,Spain (ES),EU Member States,724
+ICID00032652,2018-07-23,Pathogenic Micro-Organisms,Feed Materials,Panama (PA),Border Inspection Posts (BIPs),591
+ICID00032653,2018-07-23,Poor or Insufficient Controls,Nuts / Nut products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00032654,2018-07-23,Poor or Insufficient Controls,Fish & Fish Products,South Africa (ZA),Border Inspection Posts (BIPs),710
+ICID00032657,2018-07-24,Poor or Insufficient Controls,Nuts / Nut products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00032662,2018-07-24,Food Additives & Flavourings,Confectionery,China (CN),FSA Northern Ireland (FSANI),156
+ICID00032663,2018-07-24,Foreign Bodies,Milk & Milk Products,Finland (FI),European Commission (EC),246
+ICID00032664,2018-07-24,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Netherlands (NL),European Commission (EC),528
+ICID00032666,2018-07-24,Allergens,Confectionery,Germany (DE),RASFF,276
+ICID00032667,2018-07-24,Foreign Bodies,Cereals & Bakery Products,Denmark (DK),RASFF,208
+ICID00032668,2018-07-25,Mycotoxins,Nuts / Nut products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00032669,2018-07-25,Allergens,Non-Alcoholic Beverages,United States (US),RASFF,840
+ICID00032670,2018-07-25,Foreign Bodies,Cereals & Bakery Products,France (FR),Local Authority,250
+ICID00032671,2018-07-25,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Zimbabwe (ZW),RASFF,716
+ICID00032672,2018-07-25,Allergens,Prepared Dishes & Snacks,Belgium (BE),Industry,56
+ICID00032675,2018-07-25,Foreign Bodies,Cereals & Bakery Products,Sri Lanka (LK),RASFF,144
+ICID00032682,2018-07-26,Pesticide Residues,Fruits & Vegetables,Uganda (UG),EU Member States,800
+ICID00032684,2018-07-26,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00032685,2018-07-26,Mycotoxins,Nuts / Nut products / Seeds,Nicaragua (NI),RASFF,558
+ICID00032686,2018-07-26,Poor or Insufficient Controls,Fish & Fish Products,Sri Lanka (LK),Port Health Authority (PHA),144
+ICID00032687,2018-07-26,Clandestine Detection,Cereals & Bakery Products,Ukraine (UA),Border Inspection Posts (BIPs),804
+ICID00032689,2018-07-26,Pesticide Residues,Herbs & Spices,China (CN),Local Authority,156
+ICID00032691,2018-07-26,Clandestine Detection,Fruits & Vegetables,Netherlands (NL),Home Office / Border Force,528
+ICID00032693,2018-07-26,Allergens,Prepared Dishes & Snacks,Thailand (TH),Industry,764
+ICID00032694,2018-07-26,Chemical Contamination (other),Nuts / Nut products / Seeds,China (CN),Port Health Authority (PHA),156
+ICID00032696,2018-07-26,Poor or Insufficient Controls,Confectionery,China (CN),RASFF,156
+ICID00032700,2018-07-27,Foreign Bodies,Confectionery,France (FR),Industry,250
+ICID00032704,2018-07-27,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Industry,840
+ICID00032707,2018-07-27,Allergens,Cereals & Bakery Products,Spain (ES),Industry,724
+ICID00032712,2018-07-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00032714,2018-07-30,Pesticide Residues,Fruits & Vegetables,Malaysia (MY),FSA England,458
+ICID00032716,2018-07-30,Mycotoxins,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00032717,2018-07-30,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032718,2018-07-30,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032719,2018-07-30,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032723,2018-07-30,Mycotoxins,Nuts / Nut products / Seeds,China (CN),Port Health Authority (PHA),156
+ICID00032725,2018-07-30,Allergens,Nuts / Nut products / Seeds,Ireland (IE),EU Member States,372
+ICID00032732,2018-07-31,Pesticide Residues,Fruits & Vegetables,China (CN),Industry,156
+ICID00032351,2018-06-01,Clandestine Detection,Cereals & Bakery Products,Germany (DE),EU Member States,276
+ICID00032353,2018-06-01,Chemical Contamination (other),Fats & Oils,Netherlands (NL),Local Authority,528
+ICID00032354,2018-06-01,Poor or Insufficient Controls,Crustaceans & Products Thereof,Sri Lanka (LK),Border Inspection Posts (BIPs),144
+ICID00032355,2018-06-01,Pathogenic Micro-Organisms,Feed Materials,Sweden (SE),Food Standards Scotland (FSS),752
+ICID00032357,2018-06-01,Foreign Bodies,Confectionery,Netherlands (NL),Industry,528
+ICID00032359,2018-06-04,Poor or Insufficient Controls,Fish & Fish Products,Russian Federation (RU),Port Health Authority (PHA),643
+ICID00032360,2018-06-04,Poor or Insufficient Controls,Fish & Fish Products,Russian Federation (RU),Port Health Authority (PHA),643
+ICID00032361,2018-06-04,Poor or Insufficient Controls,Fish & Fish Products,Russian Federation (RU),Port Health Authority (PHA),643
+ICID00032364,2018-06-04,Mycotoxins,Nuts / Nut products / Seeds,Gambia (GM),Port Health Authority (PHA),270
+ICID00032367,2018-06-04,Allergens,Cereals & Bakery Products,India (IN),Industry,356
+ICID00032368,2018-06-04,Mycotoxins,Nuts / Nut products / Seeds,Zambia (ZM),Border Inspection Posts (BIPs),894
+ICID00032369,2018-06-05,Allergens,Other Food Product / Mixed,India (IN),Industry,356
+ICID00032370,2018-06-05,Heavy Metals,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032374,2018-06-05,Labelling Absent / Incomplete / Incorrect,Cereals & Bakery Products,Switzerland (CH),Local Authority,756
+ICID00032375,2018-06-05,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00032377,2018-06-05,Foreign Bodies,Cereals & Bakery Products,Italy (IT),Local Authority,380
+ICID00032378,2018-06-05,Labelling Absent / Incomplete / Incorrect,Confectionery,Denmark (DK),Local Authority,208
+ICID00032380,2018-06-05,Labelling Absent / Incomplete / Incorrect,Cereals & Bakery Products,France (FR),Local Authority,250
+ICID00032381,2018-06-06,Poor or Insufficient Controls,Fish & Fish Products,Vietnam (VN),Port Health Authority (PHA),704
+ICID00032384,2018-06-06,Food Additives & Flavourings,Confectionery,China (CN),Port Health Authority (PHA),156
+ICID00032386,2018-06-07,Clandestine Detection,Milk & Milk Products,Romania (RO),Home Office / Border Force,642
+ICID00032388,2018-06-07,Allergens,Confectionery,Ireland (IE),EU Member States,372
+ICID00032390,2018-06-07,Mycotoxins,Nuts / Nut products / Seeds,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032392,2018-06-07,Mycotoxins,Nuts / Nut products / Seeds,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032393,2018-06-07,Pathogenic Micro-Organisms,Egg & Egg Products,Belgium (BE),RASFF,56
+ICID00032396,2018-06-07,Non-Pathogenic Micro-Organisims,Herbs & Spices,Egypt (EG),European Commission,818
+ICID00032397,2018-06-07,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00032402,2018-06-08,Clandestine Detection,Milk & Milk Products,Belgium (BE),Home Office / Border Force,56
+ICID00032403,2018-06-09,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00032406,2018-06-11,Pathogenic Micro-Organisms,Pet Food,Italy (IT),RASFF,380
+ICID00032407,2018-06-11,Foreign Bodies,Fruits & Vegetables,Turkey (TR),Local Authority,792
+ICID00032409,2018-06-11,Pathogenic Micro-Organisms,Milk & Milk Products,Italy (IT),RASFF,380
+ICID00032410,2018-06-11,Mycotoxins,Nuts / Nut products / Seeds,United States (US),Port Health Authority (PHA),840
+ICID00032411,2018-06-11,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00032412,2018-06-11,Clandestine Detection,Cereals & Bakery Products,Poland (PL),Home Office / Border Force,616
+ICID00032415,2018-06-09,Pesticide Residues,Prepared Dishes & Snacks,Turkey (TR),Port Health Authority (PHA),792
+ICID00032416,2018-06-12,Allergens,Herbs & Spices,India (IN),National Food Crime Unit (NFCU),356
+ICID00032417,2018-06-12,Foreign Bodies,Cereals & Bakery Products,Saudi Arabia (SA),RASFF,682
+ICID00032420,2018-06-12,Food Additives & Flavourings,Fats & Oils,Guinea-Bissau (GW),Port Health Authority (PHA),624
+ICID00032425,2018-06-13,Labelling Absent / Incomplete / Incorrect,Prepared Dishes & Snacks,China (CN),Local Authority,156
+ICID00032434,2018-06-14,Mycotoxins,Nuts / Nut products / Seeds,Austria (AT),EU Member States,40
+ICID00032436,2018-06-14,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00032438,2018-06-14,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00032441,2018-06-15,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Local Authority,586
+ICID00032442,2018-06-15,Composition,Dietetic Foods / Food Supplements / Fortified Foods,India (IN),RASFF,356
+ICID00032443,2018-06-15,Pesticide Residues,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00032449,2018-06-18,Pathogenic Micro-Organisms,Cereals & Bakery Products,United States (US),INFOSAN,840
+ICID00032450,2018-06-18,Allergens,Cereals & Bakery Products,Italy (IT),Industry,380
+ICID00032453,2018-06-18,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),National Food Crime Unit (NFCU),840
+ICID00032457,2018-06-19,Pesticide Residues,Fruits & Vegetables,Italy (IT),RASFF,380
+ICID00032458,2018-06-19,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Administrative Assistance & Cooperation System (AAC),840
+ICID00032459,2018-06-19,Poor or Insufficient Controls,Honey & Royal Jelly,China (CN),Port Health Authority (PHA),156
+ICID00032468,2018-06-21,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Border Inspection Posts (BIPs),156
+ICID00032472,2018-06-21,Clandestine Detection,Confectionery,Germany (DE),Home Office / Border Force,276
+ICID00032475,2018-06-22,Adulteration / Fraud,Meat & Meat Products (other than poultry),Spain (ES),Administrative Assistance & Cooperation System (AAC),724
+ICID00032476,2018-06-21,Poor or Insufficient Controls,Fish & Fish Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00032479,2018-06-22,Clandestine Detection,Other Food Product / Mixed,Romania (RO),Home Office / Border Force,642
+ICID00032483,2018-06-22,Chemical Contamination (other),Confectionery,Germany (DE),EU Member States,276
+ICID00032487,2018-06-25,Pesticide Residues,Fruits & Vegetables,Uganda (UG),Administrative Assistance & Cooperation System (AAC),800
+ICID00032488,2018-06-25,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Spain (ES),RASFF,724
+ICID00032489,2018-06-25,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Germany (DE),Industry,276
+ICID00032490,2018-06-25,Mycotoxins,Fruits & Vegetables,Indonesia (ID),RASFF,360
+ICID00032491,2018-06-25,Mycotoxins,Fruits & Vegetables,India (IN),RASFF,356
+ICID00032492,2018-06-25,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00032493,2018-06-25,Adulteration / Fraud,Honey & Royal Jelly,New Zealand (NZ),Border Inspection Posts (BIPs),554
+ICID00032495,2018-06-25,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00032499,2018-06-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00032501,2018-06-26,Allergens,Prepared Dishes & Snacks,Italy (IT),RASFF,380
+ICID00032503,2018-06-26,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Sweden (SE),RASFF,752
+ICID00032506,2018-06-26,Composition,Cereals & Bakery Products,Argentina (AR),RASFF,32
+ICID00032511,2018-06-27,Pathogenic Micro-Organisms,Crustaceans & Products Thereof,India (IN),Border Inspection Posts (BIPs),356
+ICID00032512,2018-06-26,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Spain (ES),RASFF,724
+ICID00032513,2018-06-26,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Netherlands (NL),Local Authority,528
+ICID00032515,2018-06-26,Mycotoxins,Herbs & Spices,Sri Lanka (LK),Border Inspection Posts (BIPs),144
+ICID00032516,2018-06-27,Composition,Confectionery,China (CN),Local Authority,156
+ICID00032517,2018-06-26,Poor or Insufficient Controls,Fish & Fish Products,Mexico (MX),Border Inspection Posts (BIPs),484
+ICID00032521,2018-06-28,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),New Zealand (NZ),FSA England,554
+ICID00032522,2018-06-28,Pathogenic Micro-Organisms,Herbs & Spices,Lao People's Democratic Republic (LA),Border Inspection Posts (BIPs),418
+ICID00032524,2018-06-28,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00032525,2018-06-28,Pathogenic Micro-Organisms,Poultry Meat & Polutry Meat Products,France (FR),RASFF,250
+ICID00032526,2018-06-28,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00032527,2018-06-29,Composition,Cereals & Bakery Products,United States (US),RASFF,840
+ICID00032531,2018-06-29,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Poland (PL),RASFF,616
+ICID00032534,2018-06-29,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00032535,2018-06-30,Packaging Defective / Incorrect,Non-Alcoholic Beverages,France (FR),RASFF,250
+ICID00032544,2018-06-28,Packaging Defective / Incorrect,Confectionery,Australia (AU),Local Authority,36
+ICID00032129,2018-05-01,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00032132,2018-05-01,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),Industry,250
+ICID00032137,2018-05-01,Labelling Absent / Incomplete / Incorrect,Fruits & Vegetables,Ghana (GH),Local Authority,288
+ICID00032140,2018-05-02,Pesticide Residues,Fruits & Vegetables,Somalia (SO),Port Health Authority (PHA),706
+ICID00032141,2018-05-01,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00032143,2018-05-02,Foreign Bodies,Milk & Milk Products,Ireland (IE),EU Member States,372
+ICID00032145,2018-05-02,Clandestine Detection,Soups / Broths / Sauces & Condiments,Poland (PL),Home Office / Border Force,616
+ICID00032149,2018-05-02,Feed Additives,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032150,2018-05-02,Chemical Contamination (other),Nuts / Nut products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00032151,2018-05-02,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032154,2018-05-03,Food Additives & Flavourings,Cereals & Bakery Products,Trinidad & Tobago (TT),Border Inspection Posts (BIPs),780
+ICID00032155,2018-05-03,Mycotoxins,Nuts / Nut products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00032159,2018-05-03,Poor or Insufficient Controls,Feed Materials,China (CN),Border Inspection Posts (BIPs),156
+ICID00032160,2018-05-04,Novel Food,Cocoa / Cocoa Preparations / Coffee / Tea,India (IN),Local Authority,356
+ICID00032163,2018-05-04,Novel Food,Cocoa / Cocoa Preparations / Coffee / Tea,United States (US),Local Authority,840
+ICID00032164,2018-05-04,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00032165,2018-05-04,Chemical Contamination (other),Meat & Meat Products (other than poultry),Brazil (BR),RASFF,76
+ICID00032167,2018-05-04,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032169,2018-05-04,Mycotoxins,Nuts / Nut products / Seeds,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032170,2018-05-04,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032172,2018-05-08,Labelling Absent / Incomplete / Incorrect,Other Food Product / Mixed,Palestinian Territory Occupied (PS),FSA Wales,275
+ICID00032173,2018-05-08,Chemical Contamination (other),Alcoholic Beverages,France (FR),FSA England,250
+ICID00032174,2018-05-08,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,Mongolia (MN),RASFF,496
+ICID00032176,2018-05-08,Poor or Insufficient Controls,Confectionery,Bangladesh (BD),Food Standards Scotland (FSS),50
+ICID00032177,2018-05-08,Labelling Absent / Incomplete / Incorrect,Milk & Milk Products,Italy (IT),Industry,380
+ICID00032180,2018-05-08,Allergens,Confectionery,Pakistan (PK),European Commission (EC),586
+ICID00032182,2018-05-09,Chemical Contamination (other),Fats & Oils,Belgium (BE),RASFF,56
+ICID00032183,2018-05-09,Chemical Contamination (other),Nuts / Nut products / Seeds,Afganistan (AF),Border Inspection Posts (BIPs),4
+ICID00032196,2018-05-10,Novel Food,Soups / Broths / Sauces & Condiments,United States (US),Local Authority,840
+ICID00032197,2018-05-08,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00032198,2018-05-10,Mycotoxins,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00032199,2018-05-10,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,India (IN),RASFF,356
+ICID00032200,2018-05-10,Poor or Insufficient Controls,Fish & Fish Products,Japan (JP),Port Health Authority (PHA),392
+ICID00032203,2018-05-10,Allergens,Cereals & Bakery Products,Ireland (IE),EU Member States,372
+ICID00032204,2018-05-10,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),EU Member States,840
+ICID00032206,2018-05-10,Clandestine Detection,Prepared Dishes & Snacks,Romania (RO),Home Office / Border Force,642
+ICID00032208,2018-05-11,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00032210,2018-05-11,Feed Additives,Feed Materials,Ireland (IE),RASFF,372
+ICID00032211,2018-05-11,Pathogenic Micro-Organisms,Dietetic Foods / Food Supplements / Fortified Foods,Germany (DE),RASFF,276
+ICID00032212,2018-05-11,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Hungary (HU),Local Authority,348
+ICID00032214,2018-05-14,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Ireland (IE),Local Authority,372
+ICID00032220,2018-05-15,Clandestine Detection,Fruits & Vegetables,France (FR),Border Inspection Posts (BIPs),250
+ICID00032225,2018-05-15,Organoleptic Aspects,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00032226,2018-05-15,Poor or Insufficient Controls,Milk & Milk Products,Philippines (PH),RASFF,608
+ICID00032228,2018-05-15,Allergens,Prepared Dishes & Snacks,Germany (DE),EU Member States,276
+ICID00032232,2018-05-16,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00032234,2018-05-16,Food Additives & Flavourings,Cereals & Bakery Products,United States (US),Local Authority,840
+ICID00032235,2018-05-16,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00032242,2018-05-17,Mycotoxins,Feed Materials,Nicaragua (NI),Border Inspection Posts (BIPs),558
+ICID00032243,2018-05-17,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032244,2018-05-17,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032245,2018-05-17,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032246,2018-05-17,Mycotoxins,Feed Materials,Gambia (GM),Border Inspection Posts (BIPs),270
+ICID00032249,2018-05-17,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00032250,2018-05-17,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00032252,2018-05-17,Pathogenic Micro-Organisms,Crustaceans & Products Thereof,Ireland (IE),RASFF,372
+ICID00032253,2018-05-18,Residues of Veterinary Medicinal Products,Crustaceans & Products Thereof,India (IN),Border Inspection Posts (BIPs),356
+ICID00032255,2018-05-18,Pathogenic Micro-Organisms,Feed Premixtures,China (CN),Industry,156
+ICID00032258,2018-05-20,Mycotoxins,Nuts / Nut products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032259,2018-05-20,Clandestine Detection,Other Food Product / Mixed,France (FR),Home Office / Border Force,250
+ICID00032260,2018-05-21,Poor or Insufficient Controls,Fish & Fish Products,Columbia (CO),Port Health Authority (PHA),170
+ICID00032262,2018-05-21,Composition,Dietetic Foods / Food Supplements / Fortified Foods,South Africa (ZA),Industry,710
+ICID00032263,2018-05-21,Composition,Confectionery,Malaysia (MY),Local Authority,458
+ICID00032266,2018-05-21,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),Local Authority,724
+ICID00032268,2018-05-21,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Home Office / Border Force,616
+ICID00032271,2018-05-22,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Australia (AU),FSA England,36
+ICID00032276,2018-05-22,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032277,2018-05-22,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Germany (DE),General Public,276
+ICID00032278,2018-05-22,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032280,2018-05-23,Poor or Insufficient Controls,Fish & Fish Products,South Africa (ZA),Port Health Authority (PHA),710
+ICID00032282,2018-05-23,Mycotoxins,Nuts / Nut products / Seeds,Argentina (AR),Port Health Authority (PHA),32
+ICID00032283,2018-05-23,Food Additives & Flavourings,Confectionery,China (CN),Local Authority,156
+ICID00032284,2018-05-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00032285,2018-05-23,Pathogenic Micro-Organisms,Non-Alcoholic Beverages,Belgium (BE),RASFF,56
+ICID00032287,2018-05-23,Clandestine Detection,Fruits & Vegetables,France (FR),Home Office / Border Force,250
+ICID00032289,2018-05-23,Clandestine Detection,Confectionery,Germany (DE),Home Office / Border Force,276
+ICID00032290,2018-05-23,Food Additives & Flavourings,Confectionery,Bangladesh (BD),Local Authority,50
+ICID00032291,2018-05-23,Feed Additives,Feed Premixtures,Netherlands (NL),RASFF,528
+ICID00032292,2018-05-23,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Belgium (BE),RASFF,56
+ICID00032293,2018-05-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00032295,2018-05-24,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Industry,840
+ICID00032296,2018-05-23,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00032297,2018-05-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00032298,2018-05-24,Poor or Insufficient Controls,Crustaceans & Products Thereof,Ecuador (EC),Port Health Authority (PHA),218
+ICID00032299,2018-05-24,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Ireland (IE),FSA Operations Group,372
+ICID00032311,2018-05-21,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),Local Authority,156
+ICID00032312,2018-05-25,Mycotoxins,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00032320,2018-05-26,Clandestine Detection,Fruits & Vegetables,France (FR),Home Office / Border Force,250
+ICID00032321,2018-05-25,Foreign Bodies,Soups / Broths / Sauces & Condiments,France (FR),RASFF,250
+ICID00032325,2018-05-28,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),RASFF,156
+ICID00032326,2018-05-28,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Ireland (IE),Local Authority,372
+ICID00032329,2018-05-29,Pathogenic Micro-Organisms,Nuts / Nut products / Seeds,United States (US),European Commission (EC),840
+ICID00032330,2018-05-29,Poor or Insufficient Controls,Confectionery,China (CN),Local Authority,156
+ICID00032333,2018-05-29,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),RASFF,356
+ICID00032334,2018-05-29,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00032335,2018-05-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00032336,2018-05-30,Poor or Insufficient Controls,Confectionery,China (CN),Local Authority,156
+ICID00032337,2018-05-29,Foreign Bodies,Prepared Dishes & Snacks,Italy (IT),Local Authority,380
+ICID00032338,2018-05-30,Non-Pathogenic Micro-Organisims,Nuts / Nut products / Seeds,United States (US),RASFF,840
+ICID00032342,2018-05-31,Labelling Absent / Incomplete / Incorrect,Feed Premixtures,Netherlands (NL),Industry,528
+ICID00032344,2018-05-30,Mycotoxins,Feed Materials,India (IN),Border Inspection Posts (BIPs),356
+ICID00032347,2018-05-31,Food Additives & Flavourings,Fruits & Vegetables,Syrian Arab Republic (SY),Border Inspection Posts (BIPs),760
+ICID00032348,2018-05-30,Poor or Insufficient Controls,Feed Materials,Netherlands (NL),Local Authority,528
+ICID00032349,2018-05-31,Pesticide Residues,Fruits & Vegetables,Uganda (UG),Border Inspection Posts (BIPs),800
+ICID00031959,2018-04-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00031961,2018-04-03,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),France (FR),FSA Operations Group,250
+ICID00031963,2018-04-04,Allergens,Ices & Desserts,United States (US),Industry,840
+ICID00031965,2018-04-04,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),RASFF,152
+ICID00031968,2018-04-04,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00031969,2018-04-05,Foreign Bodies,Alcoholic Beverages,Belgium (BE),RASFF,56
+ICID00031970,2018-04-05,Allergens,Other Food Product / Mixed,Poland (PL),EU Member States,616
+ICID00031972,2018-04-05,Chemical Contamination (other),Dietetic Foods / Food Supplements / Fortified Foods,United States (US),General Public,840
+ICID00031975,2018-04-05,Pathogenic Micro-Organisms,Fruits & Vegetables,Philippines (PH),Third Country,608
+ICID00031976,2018-04-05,Food Additives & Flavourings,Fish & Fish Products,South Korea (KR),Border Inspection Posts (BIPs),410
+ICID00031977,2018-04-05,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031981,2018-04-05,Pathogenic Micro-Organisms,Milk & Milk Products,Romania (RO),Local Authority,642
+ICID00031982,2018-04-07,Clandestine Detection,Cereals & Bakery Products,Greece (GR),Home Office / Border Force,300
+ICID00031983,2018-04-07,Clandestine Detection,Fruits & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00031984,2018-04-07,Clandestine Detection,Nuts / Nut Products / Seeds,France (FR),Home Office / Border Force,250
+ICID00031988,2018-04-09,Poor or Insufficient Controls,Food Additives & Flavourings,India (IN),Port Health Authority (PHA),356
+ICID00031990,2018-04-10,Allergens,Soups / Broths / Sauces & Condiments,Egypt (EG),Local Authority,818
+ICID00031993,2018-04-10,Clandestine Detection,Soups / Broths / Sauces & Condiments,Germany (DE),Home Office / Border Force,276
+ICID00031994,2018-04-10,Clandestine Detection,Food Contact Materials,Germany (DE),Port Health Authority (PHA),276
+ICID00031996,2018-04-10,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Port Health Authority (PHA),152
+ICID00031997,2018-04-10,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032000,2018-04-10,Allergens,Confectionery,United States (US),Local Authority,840
+ICID00032001,2018-04-10,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,India (IN),Medicine & Healthcare products Regulatory Agency (MHRA),356
+ICID00032003,2018-04-11,Clandestine Detection,Water,France (FR),Home Office / Border Force,250
+ICID00032004,2018-04-11,Clandestine Detection,Meat & Meat Products (other than poultry),Italy (IT),Home Office / Border Force,380
+ICID00032007,2018-04-11,Clandestine Detection,Other Food Product / Mixed,France (FR),Police,250
+ICID00032009,2018-04-12,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00032010,2018-04-12,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032011,2018-04-12,Poor or Insufficient Controls,Cereals & Bakery Products,Belgium (BE),Border Inspection Posts (BIPs),56
+ICID00032012,2018-04-12,Chemical Contamination (other),Fats & Oils,Nigeria (NG),RASFF,566
+ICID00032013,2018-04-12,Chemical Contamination (other),Fats & Oils,Nigeria (NG),RASFF,566
+ICID00032014,2018-04-12,Pesticide Residues,Fruits & Vegetables,Uganda (UG),Port Health Authority (PHA),800
+ICID00032017,2018-04-13,Clandestine Detection,Food Contact Materials,France (FR),Border Inspection Posts (BIPs),250
+ICID00032019,2018-04-13,Chemical Contamination (other),Meat & Meat Products (other than poultry),United States (US),Border Inspection Posts (BIPs),840
+ICID00032022,2018-04-13,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Netherlands (NL),RASFF,528
+ICID00032025,2018-04-13,Poor or Insufficient Controls,Fruits & Vegetables,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00032027,2018-04-13,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Sudan (SD),RASFF,729
+ICID00032028,2018-04-13,Chemical Contamination (other),Herbs & Spices,Poland (PL),RASFF,616
+ICID00032029,2018-04-13,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032031,2018-04-15,Pathogenic Micro-Organisms,Fruits & Vegetables,Spain (ES),Industry,724
+ICID00032032,2018-04-16,Clandestine Detection,Fruits & Vegetables,Hungary (HU),Home Office / Border Force,348
+ICID00032035,2018-04-16,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00032038,2018-04-17,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00032039,2018-04-17,Clandestine Detection,Other Food Product / Mixed,Italy (IT),Home Office / Border Force,380
+ICID00032040,2018-04-17,Allergens,Other Food Product / Mixed,Italy (IT),Local Authority,380
+ICID00032041,2018-04-17,Poor or Insufficient Controls,Fish & Fish Products,Canada (CA),Border Inspection Posts (BIPs),124
+ICID00032042,2018-04-17,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00032043,2018-04-17,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00032044,2018-04-17,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Ireland (IE),RASFF,372
+ICID00032047,2018-04-17,Allergens,Confectionery,South Korea (KR),Local Authority,410
+ICID00032049,2018-04-17,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Sudan (SD),RASFF,729
+ICID00032054,2018-04-18,Heavy Metals,Feed Materials,United States (US),Industry,840
+ICID00032056,2018-04-18,Composition,Herbs & Spices,Spain (ES),Local Authority,724
+ICID00032059,2018-04-19,Residues of Veterinary Medicinal Products,Meat & Meat Products (other than poultry),Belgium (BE),RASFF,56
+ICID00032061,2018-04-19,Pathogenic Micro-Organisms,Fruits & Vegetables,Sri Lanka (LK),RASFF,144
+ICID00032068,2018-04-20,Composition,Herbs & Spices,Spain (ES),Local Authority,724
+ICID00032070,2018-04-20,Foreign Bodies,Soups / Broths / Sauces & Condiments,Poland (PL),Local Authority,616
+ICID00032072,2018-04-23,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00032073,2018-04-23,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032076,2018-04-23,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Ireland (IE),Local Authority,372
+ICID00032077,2018-04-23,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Ireland (IE),Local Authority,372
+ICID00032078,2018-04-23,Clandestine Detection,Other Food Product / Mixed,Belgium (BE),Home Office / Border Force,56
+ICID00032085,2018-04-23,Heavy Metals,Fish & Fish Products,Vietnam (VN),Port Health Authority (PHA),704
+ICID00032086,2018-04-23,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00032088,2018-04-17,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00032093,2018-04-25,Pesticide Residues,Fruits & Vegetables,China (CN),RASFF,156
+ICID00032094,2018-04-24,Pesticide Residues,Fruits & Vegetables,Vietnam (VN),Health & Safety Executive,704
+ICID00032096,2018-04-25,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Chile (CL),Port Health Authority (PHA),152
+ICID00032097,2018-04-25,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Port Health Authority (PHA),840
+ICID00032100,2018-04-26,Clandestine Detection,Alcoholic Beverages,Netherlands (NL),Border Inspection Posts (BIPs),528
+ICID00032101,2018-04-25,Heavy Metals,Fish & Fish Products,Vietnam (VN),Local Authority,704
+ICID00032103,2018-04-26,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),EU Member States,250
+ICID00032104,2018-04-26,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00032106,2018-04-26,Mycotoxins,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00032108,2018-04-26,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Switzerland (CH),RASFF,756
+ICID00032111,2018-04-27,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),European Commission (EC),724
+ICID00032114,2018-04-27,Composition,Pet Food,Czech Republic (CZ),Industry,203
+ICID00032115,2018-04-27,Chemical Contamination (other),Cereals & Bakery Products,France (FR),European Commission (EC),250
+ICID00032116,2018-04-29,Clandestine Detection,Fruits & Vegetables,France (FR),Port Health Authority (PHA),250
+ICID00032120,2018-04-30,Mycotoxins,Feed Materials,Zambia (ZM),Border Inspection Posts (BIPs),894
+ICID00032121,2018-04-30,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),Local Authority,724
+ICID00032123,2018-04-30,Pesticide Residues,Other Food Product / Mixed,United States (US),RASFF,840
+ICID00032125,2018-04-30,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Kazakhstan (KZ),RASFF,398
+ICID00032130,2018-04-30,Labelling Absent / Incomplete / Incorrect,Food Additives & Flavourings,India (IN),RASFF,356
+ICID00032131,2018-04-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00031719,2018-03-01,Pesticide Residues,Fruits & Vegetables,India (IN),RASFF,356
+ICID00031724,2018-03-01,Pesticide Residues,Fruits & Vegetables,India (IN),Administrative Assistance and Cooperation System (AAC),356
+ICID00031725,2018-03-01,Pesticide Residues,Herbs & Spices,India (IN),Administrative Assistance and Cooperation System (AAC),356
+ICID00031729,2018-03-01,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031730,2018-03-02,Mycotoxins,Fruits & Vegetables,Turkey (TR),RASFF,792
+ICID00031733,2018-03-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Germany (DE),RASFF,276
+ICID00031735,2018-03-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Germany (DE),RASFF,276
+ICID00031740,2018-03-05,Poor or Insufficient Controls,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031741,2018-03-05,Pesticide Residues,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031743,2018-03-02,Allergens,Cereals & Bakery Products,China (CN),RASFF,156
+ICID00031748,2018-03-06,Pesticide Residues,Non-Alcoholic Beverages,China (CN),Border Inspection Posts (BIPs),156
+ICID00031749,2018-03-06,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031751,2018-03-06,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Local Authority,616
+ICID00031753,2018-03-06,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031754,2018-03-06,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Germany (DE),Local Authority,276
+ICID00031757,2018-03-06,Labelling Absent / Incomplete / Incorrect,Cereals & Bakery Products,Austrailia (AU),Local Authority,36
+ICID00031763,2018-03-06,Allergens,Prepared Dishes & Snacks,India (IN),Local Authority,356
+ICID00031770,2018-03-07,Allergens,Cereals & Bakery Products,Germany (DE),EU Member States,276
+ICID00031777,2018-03-08,Feed Additives,Milk & Milk Products,France (FR),Local Authority,250
+ICID00031778,2018-03-08,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Canada (CA),Local Authority,124
+ICID00031779,2018-03-08,Foreign Bodies,Fruits & Vegetables,Bulgaria (BG),Local Authority,100
+ICID00031780,2018-03-05,Composition,Food Additives & Flavourings,Philippines (PH),RASFF,608
+ICID00031782,2018-03-08,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Cyprus (CY),RASFF,196
+ICID00031783,2018-03-09,Poor or Insufficient Controls,Other Food Product / Mixed,Germany (DE),Police,276
+ICID00031787,2018-03-09,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031791,2018-03-12,Allergens,Herbs & Spices,South Africa (ZA),Local Authority,710
+ICID00031793,2018-03-12,Mycotoxins,Nuts / Nut Products / Seeds,Argentina (AR),Border Inspection Posts (BIPs),32
+ICID00031794,2018-03-12,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031796,2018-03-12,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Lithuania (LT),Local Authority,440
+ICID00031797,2018-03-12,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00031798,2018-03-12,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00031799,2018-03-13,Mycotoxins,Nuts / Nut Products / Seeds,Argentina (AR),Border Inspection Posts (BIPs),32
+ICID00031800,2018-03-13,Foreign Bodies,Cereals & Bakery Products,India (IN),Local Authority,356
+ICID00031806,2018-03-13,Mycotoxins,Nuts / Nut Products / Seeds,Sudan (SD),Border Inspection Posts (BIPs),729
+ICID00031808,2018-03-13,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Belgium (BE),RASFF,56
+ICID00031809,2018-03-13,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031821,2018-03-12,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00031822,2018-03-14,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031823,2018-03-14,Foreign Bodies,Meat & Meat Products (other than poultry),Belgium (BE),RASFF,56
+ICID00031824,2018-03-15,Pathogenic Micro-Organisms,Cereals & Bakery Products,Austria (AT),Industry,40
+ICID00031827,2018-03-14,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031832,2018-03-15,Food Additives & Flavourings,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Border Inspection Posts (BIPs),840
+ICID00031834,2018-03-15,Food Additives & Flavourings,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Border Inspection Posts (BIPs),840
+ICID00031837,2018-03-15,Pathogenic Micro-Organisms,Herbs & Spices,Vietnam (VN),Port Health Authority (PHA),704
+ICID00031838,2018-03-15,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Austria (AT),RASFF,40
+ICID00031839,2018-03-15,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Ireland (IE),EU Member States,372
+ICID00031840,2018-03-15,Allergens,Poultry Meat & Poultry Meat Products,Ireland (IE),EU Member States,372
+ICID00031841,2018-03-15,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Hungary (HU),RASFF,348
+ICID00031842,2018-03-15,Composition,Fruits & Vegetables,Italy (IT),RASFF,380
+ICID00031843,2018-03-15,Allergens,Confectionery,Islamic Republic of Iran (IR),Local Authority,364
+ICID00031849,2018-03-16,Labelling Absent / Incomplete / Incorrect,Confectionary,Turkey (TR),Local Authority,792
+ICID00031850,2018-03-16,Labelling Absent / Incomplete / Incorrect,Ices & Desserts,Pakistan (PK),RASFF,586
+ICID00031854,2018-03-15,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Germany (DE),General Public,276
+ICID00031855,2018-03-16,Allergens,Soups / Broths / Sauces & condiments,China (CN),Local Authority,156
+ICID00031856,2018-03-17,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031858,2018-03-19,Allergens,Prepared Dishes & Snacks,Belgium (BE),Local Authority,56
+ICID00031861,2018-03-19,Food Additives & Flavourings,Prepared Dishes & Snacks,Nigeria (NG),Port Health Authority (PHA),566
+ICID00031863,2018-03-19,Pathogenic Micro-Organisms,Milk & Milk Products,Romania (RO),Local Authority,642
+ICID00031866,2018-03-19,Pathogenic Micro-Organisms,Milk & Milk Products,Netherlands (NL),RASFF,528
+ICID00031869,2018-03-20,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Port Health Authority (PHA),152
+ICID00031870,2018-03-20,Foreign Bodies,Poultry Meat & Poultry Meat Products,Poland (PL),Local Authority,616
+ICID00031872,2018-03-20,Composition,Fruits & Vegetables,Croatia (HR),Administrative Assistance and Cooperation System (AAC),191
+ICID00031876,2018-03-20,Clandestine Detection,Meat & Meat Products (other than poultry),Germany (DE),Border Inspection Posts (BIPs),276
+ICID00031883,2018-03-21,Packaging Defective / Incorrect,Cocoa & cocoa preparations coffee & tea,Italy (IT),RASFF,380
+ICID00031884,2018-03-22,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031885,2018-03-22,Food Additives & Flavourings,Milk & Milk Products,France (FR),Local Authority,250
+ICID00031886,2018-03-22,Pathogenic Micro-Organisms,Cereals & Bakery Products,Austria (AT),Local Authority,40
+ICID00031888,2018-03-21,Pathogenic Micro-Organisms,Feed Premixtures,Germany (DE),RASFF,276
+ICID00031890,2018-03-21,Poor or Insufficient Controls,Food Additives & Flavourings,Turkey (TR),FSA Operations Group,792
+ICID00031892,2018-03-15,Labelling Absent / Incomplete / Incorrect,Ices & Desserts,Pakistan (PK),RASFF,586
+ICID00031894,2018-03-23,Composition,Confectionery,China (CN),Local Authority,156
+ICID00031895,2018-03-23,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,China (CN),Local Authority,156
+ICID00031896,2018-03-23,Allergens,Fruit & Vegetables,Philippines (PH),Industry,608
+ICID00031897,2018-03-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00031898,2018-03-23,Composition,Meat & Meat Products (other than poultry),Belgium (BE),RASFF,56
+ICID00031899,2018-03-23,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00031904,2018-03-26,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),RASFF,356
+ICID00031905,2018-03-26,Pathogenic Micro-Organisms,Milk & Milk Products,Romania (RO),Local Authority,642
+ICID00031906,2018-03-21,Allergens,Confectionary,China (CN),Local Authority,156
+ICID00031909,2018-03-26,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031910,2018-03-26,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031915,2018-03-27,Poor or Insufficient Controls,Fish & Fish Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00031916,2018-03-27,Packaging Defective / Incorrect,Non-Alcoholic Beverages,Italy (IT),RASFF,380
+ICID00031917,2018-03-27,Pathogenic Micro-Organisms,Pet Food,China (CN),Border Inspection Posts (BIPs),156
+ICID00031918,2018-03-27,Foreign Bodies,Prepared Dishes & Snacks,China (CN),European Commission (EC),156
+ICID00031920,2018-03-27,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Home Office / Border Force,616
+ICID00031923,2018-03-28,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031925,2018-03-28,Pathogenic Micro-Organisms,Milk & Milk Products,Poland (PL),Local Authority,616
+ICID00031926,2018-03-28,Food Additives & Flavourings,Confectionery,United States (US),EU Member States,840
+ICID00031927,2018-03-28,Allergens,Meat & Meat Products (other than poultry),Ireland (IE),Local Authority,372
+ICID00031929,2018-03-28,Pathogenic Micro-Organisms,Milk & Milk Products,Netherlands (NL),Local Authority,528
+ICID00031932,2018-03-29,Allergens,Fish & Fish Products,Denmark (DK),EU Member States,208
+ICID00031933,2018-03-28,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00031934,2018-03-28,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,Canada (CA),Local Authority,124
+ICID00031936,2018-03-29,Allergens,Prepared Dishes & Snacks,Belgium (BE),Industry,56
+ICID00031937,2018-03-29,Composition,Soups / Broths / Sauces & condiments,Thailand (TH),Local Authority,764
+ICID00031938,2018-03-29,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00031945,2018-03-30,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00031946,2018-03-30,Chemical Contamination (other),Milk & Milk Products,France (FR),RASFF,250
+ICID00031949,2018-03-30,Pathogenic Micro-Organisms,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00031960,2018-03-30,Mycotoxins,Nuts / Nut Products / Seeds,Netherlands (NL),RASFF,528
+ICID00031962,2018-03-28,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00031538,2018-02-01,Clandestine Detection,Cereal & Bakery Products,Belgium (BE),Police,56
+ICID00031541,2018-02-01,Pathogenic Micro-Organisms,Pet Food,Germany (DE),RASFF,276
+ICID00031542,2018-02-01,Allergens,Prepared Dishes & Snacks,Belgium (BE),RASFF,56
+ICID00031543,2018-02-01,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),Local Authority,528
+ICID00031544,2018-02-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031545,2018-02-02,Pathogenic Micro-Organisms,Soups / Broths / Sauces & Condiments,Bangladesh (BD),Border Inspection Posts (BIPs),50
+ICID00031550,2018-02-05,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031551,2018-02-01,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),RASFF,764
+ICID00031552,2018-02-02,Pesticide Residues,Fats and Oils,Argentina (AR),Industry,32
+ICID00031553,2018-02-05,Foreign Bodies,Poultry Meat & Poultry Meat Products,Poland (PL),Local Authority,616
+ICID00031554,2018-02-05,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031555,2018-02-05,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),RASFF,528
+ICID00031556,2018-02-06,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00031557,2018-02-06,Allergens,Fats and Oils,Spain (ES),Industry,724
+ICID00031558,2018-02-06,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031561,2018-02-06,Pathogenic Micro-Organisms,Food Contact Materials,Ireland (IE),Industry,372
+ICID00031566,2018-02-07,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031569,2018-02-08,Pesticide Residues,Fruits & Vegetables,China (CN),Border Inspection Posts (BIPs),156
+ICID00031572,2018-02-08,Pathogenic Micro-Organisms,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00031574,2018-02-08,Mycotoxins,Nuts / Nut Products / Seeds,Belgium (BE),RASFF,56
+ICID00031575,2018-02-08,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00031576,2018-02-08,Mycotoxins,Feed Materials,China (CN),Border Inspection Posts (BIPs),156
+ICID00031578,2018-02-08,Chemical Contamination (other),Nuts / Nut Products / Seeds,Uzbekistan (UZ),RASFF,860
+ICID00031579,2018-02-08,Poor or Insufficient Controls,Confectionery,China (CN),Food Standards Scotland (FSS),156
+ICID00031585,2018-02-09,Mycotoxins,Nuts / Nut Products / Seeds,Germany (DE),RASFF,276
+ICID00031586,2018-02-09,Allergens,Fruits & Vegetables,South Africa (ZA),RASFF,710
+ICID00031587,2018-02-09,Allergens,Prepared Dishes & Snacks,Belgium (BE),RASFF,56
+ICID00031589,2018-02-09,Poor or Insufficient Controls,Confectionery,China (CN),Food Standards Scotland (FSS),156
+ICID00031590,2018-02-11,Chemical Contamination (other),Fish & Fish Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00031595,2018-02-12,Pesticide Residues,Fruits & Vegetables,Poland (PL),FSA Policy,616
+ICID00031599,2018-02-12,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031600,2018-02-12,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Germany (DE),Administrative Assistance and Cooperation System (AAC),276
+ICID00031604,2018-02-12,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),EU Member States,764
+ICID00031605,2018-02-13,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Port Health Authority (PHA),156
+ICID00031609,2018-02-12,Heavy Metals,Fish & Fish Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00031613,2018-02-13,Pathogenic Micro-Organisms,Fish & Fish Products,France (FR),RASFF,250
+ICID00031615,2018-02-14,Pathogenic Micro-Organisms,Milk & Milk Products,Greece (GR),Local Authority,300
+ICID00031616,2018-02-15,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031617,2018-02-14,Labelling Absent / Incomplete / Incorrect,Other Food Product / Mixed,Cameroon (CM),Port Health Authority (PHA),120
+ICID00031618,2018-02-15,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00031623,2018-02-15,Food Additives & Flavourings,Non-Alcoholic Beverages,South Africa (ZA),Local Authority,710
+ICID00031626,2018-02-15,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031627,2018-02-15,Pesticide Residues,Fruits & Vegetables,Peru (PE),RASFF,604
+ICID00031628,2018-02-14,Adulteration / Fraud,Poultry Meat & Poultry Meat Products,Poland (PL),Local Authority,616
+ICID00031632,2018-02-15,Pathogenic Micro-Organisms,Fruits & Vegetables,Hungary (HU),Public Health England (PHE),348
+ICID00031633,2018-02-16,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),Industry,528
+ICID00031634,2018-02-16,Radiation,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00031640,2018-02-19,Food Additives & Flavourings,Herbs & Spices,South Africa (ZA),Local Authority,710
+ICID00031645,2018-02-19,Foreign Bodies,Confectionery,Sweden (SE),Industry,752
+ICID00031649,2018-02-20,Adulteration / Fraud,Meat & Meat Products (other than poultry),Poland (PL),Industry,616
+ICID00031652,2018-02-20,Chemical Contamination (other),Nuts / Nut Products / Seeds,Pakistan (PK),RASFF,586
+ICID00031656,2018-02-21,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00031657,2018-02-16,Poor or Insufficient Controls,Feed Premixtures,Germany (DE),Local Authority,276
+ICID00031658,2018-02-21,Poor or Insufficient Controls,Non-Alcoholic Beverages,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00031660,2018-02-21,Poor or Insufficient Controls,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Medicines & Healthcare Regulatory Agency (MHRA),840
+ICID00031663,2018-02-21,Poor or Insufficient Controls,Alcoholic Beverages,Belgium (BE),Police,56
+ICID00031667,2018-02-21,Poor or Insufficient Controls,Other Food Product / Mixed,Portugal (PT),Police,620
+ICID00031672,2018-02-21,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031673,2018-02-22,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031679,2018-02-23,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Vietnam (VN),EU Member States,704
+ICID00031681,2018-02-23,Mycotoxins,Nuts / Nut Products / Seeds,Sudan (SD),Border Inspection Posts (BIPs),729
+ICID00031685,2018-02-23,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00031688,2018-02-23,Allergens,Confectionery,Germany (DE),EU Member States,276
+ICID00031689,2018-02-23,Clandestine Detection,Confectionery,Switzerland (CH),Home Office / Border Force,756
+ICID00031691,2018-02-24,Chemical Contamination (other),Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031692,2018-02-26,Allergens,Confectionery,Greece (GR),EU Member States,300
+ICID00031698,2018-02-26,Labelling Absent / Incomplete / Incorrect,Cephalopods & Products Thereof,Greece (GR),Industry,300
+ICID00031701,2018-02-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031702,2018-02-27,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00031703,2018-02-27,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Chile (CL),Border Inspection Posts (BIPs),152
+ICID00031705,2018-02-27,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031707,2018-02-27,Chemical Contamination (other),Dietetic Foods / Food Supplements / Fortified Foods,Ireland (IE),Administrative Assistance and Cooperation System (AAC),372
+ICID00031708,2018-02-27,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031710,2018-02-27,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),General Public,616
+ICID00031713,2018-02-28,Labelling Absent / Incomplete / Incorrect,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00031716,2018-02-28,Food Additives & Flavourings,Confectionary,China (CN),Local Authority,156
+ICID00031717,2018-02-28,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031718,2018-02-19,Poor or Insufficient Controls,Fish & Fish Products,Canada (CA),Border Inspection Posts (BIPs),124
+ICID00031351,2018-01-02,Allergens,Milk & Milk Products,Bulgaria (BG),Industry,100
+ICID00031353,2018-01-02,Poor or Insufficient Controls,Confectionery,Turkey (TR),Port Health Authority (PHA),792
+ICID00031355,2018-01-02,Poor or Insufficient Controls,Confectionery,Turkey (TR),Port Health Authority (PHA),792
+ICID00031356,2018-01-02,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Islamic Republic of Iran (IR),Port Health Authority (PHA),364
+ICID00031357,2018-01-02,Poor or Insufficient Controls,Fruits & Vegetables,Islamic Republic of Iran (IR),Port Health Authority (PHA),364
+ICID00031358,2018-01-02,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Finland (FI),RASFF,246
+ICID00031359,2018-01-02,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Islamic Republic of Iran (IR),Port Health Authority (PHA),364
+ICID00031360,2018-01-02,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Islamic Republic of Iran (IR),Port Health Authority (PHA),364
+ICID00031361,2018-01-03,Allergens,Other Food Product / Mixed,United States (US),General Public,840
+ICID00031364,2018-01-03,Mycotoxins,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00031366,2018-01-03,Poor or Insufficient Controls,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00031367,2018-01-03,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00031369,2018-01-03,Mycotoxins,Feed Premixtures,Argentina (AR),Border Inspection Posts (BIPs),32
+ICID00031374,2018-01-04,Pesticide Residues,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00031375,2018-01-04,Pesticide Residues,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031377,2018-01-04,Pathogenic Micro-Organisms,Pet Food,Iceland (IS),Industry,352
+ICID00031379,2018-01-05,Poor or Insufficient Controls,Crustaceans & Products Thereof,Vietnam (VN),Border Inspection Posts (BIPs),704
+ICID00031383,2018-01-03,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Germany (DE),Local Authority,276
+ICID00031386,2018-01-05,Chemical Contamination (other),Herbs & Spices,India (IN),RASFF,356
+ICID00031387,2018-01-05,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Poland (PL),RASFF,616
+ICID00031389,2018-01-08,Allergens,Confectionery,Turkey (TR),Industry,792
+ICID00031391,2018-01-08,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Spain (ES),Local Authority,724
+ICID00031393,2018-01-08,Composition,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),European Commission (EC),156
+ICID00031394,2018-01-08,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031396,2018-01-08,Pesticide Residues,Non-Alcoholic Beverages,China (CN),Border Inspection Posts (BIPs),156
+ICID00031397,2018-01-09,Composition,Honey & Royal Jelly,Czech Republic (DO),Administrative Assistance and Cooperation System (AAC),214
+ICID00031398,2018-01-09,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Hungary (HU),Local Authority,348
+ICID00031402,2018-01-09,Packaging defective / incorrect,Food Contact Materials,France (FR),Medicine & Healthcare Regulatory Agency (MHRA),250
+ICID00031403,2018-01-06,Poor or Insufficient Controls,Confectionery,Switzerland (CH),Border Inspection Posts (BIPs),756
+ICID00031404,2018-01-06,Poor or Insufficient Controls,Alcoholic Beverages,France (FR),Police,250
+ICID00031406,2018-01-09,Labelling Absent / Incomplete / Incorrect,Soup / Broths / Sauces & Condiments,Turkey (TR),Local Authority,792
+ICID00031408,2018-01-09,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031409,2018-01-09,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031410,2018-01-10,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031411,2018-01-10,Poor or Insufficient Controls,Soup / Broths / Sauces & Condiments,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00031412,2018-01-10,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),RASFF,156
+ICID00031413,2018-01-10,Poor or Insufficient Controls,Soup / Broths / Sauces & Condiments,Germany (DE),Department of Agriculture & Rural Development (DARD),276
+ICID00031416,2018-01-11,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Local Authority,764
+ICID00031418,2018-01-12,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031419,2018-01-12,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),RASFF,840
+ICID00031421,2018-01-12,Pathogenic Micro-Organisms,Crustaceans & Products Thereof,India (IN),Local Authority,356
+ICID00031422,2018-01-12,Labelling Absent / Incomplete / Incorrect,Pet Food,Belgium (BE),Local Authority,56
+ICID00031423,2018-01-12,Labelling Absent / Incomplete / Incorrect,Feed Materials,Germany (DE),Local Authority,276
+ICID00031424,2018-01-12,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Denmark (DK),RASFF,208
+ICID00031428,2018-01-13,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031432,2018-01-12,Mycotoxins,Dietetic Foods / Food Supplements / Fortified Foods,Taiwan Province of China (TW),RASFF,158
+ICID00031433,2018-01-15,Poor or Insufficient Controls,Crustaceans & Products Thereof,India (IN),EU Member States,356
+ICID00031435,2018-01-15,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00031437,2018-01-15,Mycotoxins,Nuts / Nut Products / Seeds,Australia (AU),Local Authority,36
+ICID00031439,2018-01-15,Allergens,Nuts / Nut Products / Seeds,China (CN),Local Authority,156
+ICID00031440,2018-01-15,Foreign Bodies,Fruits & Vegetables,France (FR),Local Authority,250
+ICID00031444,2018-01-16,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Lithuania (LT),Local Authority,440
+ICID00031445,2018-01-16,Food Additives & Flavourings,Ices & Desserts,Malaysia (MY),RASFF,458
+ICID00031446,2018-01-17,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031447,2018-01-17,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031448,2018-01-17,Foreign Bodies,Cereals & Bakery Products,Poland (PL),Industry,616
+ICID00031450,2018-01-17,Pathogenic Micro-Organisms,Herbs & Spices,Egypt (EG),EU Member States,818
+ICID00031451,2018-01-17,Composition,Honey & Royal Jelly,Czech Republic (DO),Administrative Assistance and Cooperation System (AAC),214
+ICID00031453,2018-01-18,Poor or Insufficient Controls,Non-Alcoholic Beverages,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00031454,2018-01-18,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031455,2018-01-18,Pathogenic Micro-Organisms,Herbs and Spices,Philippines (PH),Local Authority,608
+ICID00031456,2018-01-17,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031458,2018-01-18,Pesticide Residues,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00031460,2018-01-19,Poor or Insufficient Controls,Fruits & Vegetables,Portugal (PT),Border Inspection Posts (BIPs),620
+ICID00031461,2018-01-19,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00031463,2018-01-19,Poor or Insufficient Controls,Fruits & Vegetables,Japan (JP),Border Inspection Posts (BIPs),392
+ICID00031467,2018-01-19,Food Additives & Flavourings,Fats & Oils,Ghana (GH),Port Health Authority (PHA),288
+ICID00031468,2018-01-10,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031469,2018-01-10,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031471,2018-01-19,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031472,2018-01-19,Pesticide Residues,Prepared Dishes & Snacks,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031473,2018-01-19,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031474,2018-01-19,Pathogenic Micro-Organisms,Soup / Broths / Sauces & Condiments,Italy (IT),RASFF,380
+ICID00031475,2018-01-20,Clandestine Detection,Confectionery,Italy (IT),Home Office / Border Force,380
+ICID00031476,2018-01-22,Foreign Bodies,Fruits & Vegetables,Islamic Republic of Iran (IR),Local Authority,364
+ICID00031478,2018-01-22,Allergens,Soup / Broths / Sauces & Condiments,Netherlands (NL),Industry,528
+ICID00031479,2018-01-22,Allergens,Confectionery,India (IN),Local Authority,356
+ICID00031480,2018-01-20,Allergens,Confectionery,Belgium (BE),Industry,56
+ICID00031482,2018-01-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00031486,2018-01-23,Pesticide Residues,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00031487,2018-01-23,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),Administrative Assistance and Cooperation System (AAC),528
+ICID00031489,2018-01-19,Pesticide Residues,Fruits & Vegetables,Pakistan (PK),Port Health Authority (PHA),586
+ICID00031491,2018-01-22,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00031492,2018-01-24,Migration,Food Contact Materials,China (CN),Border Inspection Posts (BIPs),156
+ICID00031493,2018-01-23,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031494,2018-01-24,Pesticide Residues,Herbs & Spices,Turkey (TR),RASFF,792
+ICID00031495,2018-01-24,Food Additives & Flavourings,Non-Alcoholic Beverages,Malaysia (MY),Local Authority,458
+ICID00031499,2018-01-24,Poor or Insufficient Controls,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00031500,2018-01-24,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Port Health Authority (PHA),840
+ICID00031501,2018-01-25,Clandestine Detection,Milk & Milk Products,Poland (PL),Home Office / Border Force,616
+ICID00031504,2018-01-23,Poor or Insufficient Controls,Milk & Milk Products,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00031505,2018-01-25,Mycotoxins,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00031508,2018-01-25,Pesticide Residues,Fruits & Vegetables,China (CN),EU Member States,156
+ICID00031515,2018-01-09,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00031519,2018-01-27,Poor or Insufficient Controls,Crustaceans & Products Thereof,China (CN),Border Inspection Posts (BIPs),156
+ICID00031520,2018-01-26,Foreign Bodies,Soup / Broths / Sauces & Condiments,China (CN),Industry,156
+ICID00031522,2018-01-29,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),European Commission (EC),76
+ICID00031523,2018-01-30,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),European Commission (EC),76
+ICID00031524,2018-01-30,Foreign Bodies,Cereals & Bakery Products,Netherlands (NL),Local Authority,528
+ICID00031528,2018-01-31,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Thailand (TH),European Commission (EC),764
+ICID00031530,2018-01-31,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Local Authority,764
+ICID00031531,2018-01-31,Foreign Bodies,Feed Materials,Germany (DE),RASFF,276
+ICID00031532,2018-01-31,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Spain (ES),Local Authority,724
+ICID00031534,2018-01-31,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031536,2018-01-31,Feed Additives,Feed Additives,United States (US),Industry,840
+ICID00031167,2017-12-01,Clandestine Detection,Fruits & Vegetables,Netherlands (NL),Home Office / Border Force,528
+ICID00031168,2017-12-01,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),New Zealand (NZ),Local Authority,554
+ICID00031169,2017-12-01,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031170,2017-12-01,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00031171,2017-12-01,Allergens,Prepared Dishes & Snacks,Vietnam (VN),Industry,704
+ICID00031173,2017-12-01,Poor or Insufficient Controls,Confectionery,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00031174,2017-12-01,Foreign Bodies,Meat & Meat Products (other than poultry),Romania (RO),Industry,642
+ICID00031175,2017-12-02,Poor or Insufficient Controls,Confectionery,Belgium (BE),Police,56
+ICID00031176,2017-12-02,Poor or Insufficient Controls,Non-Alcoholic Beverages,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00031177,2017-12-03,Poor or Insufficient Controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00031178,2017-12-01,Food Additives & Flavourings,Cereals & Bakery Products,Philippines (PH),RASFF,608
+ICID00031179,2017-12-01,Foreign Bodies,Prepared Dishes & Snacks,Netherlands (NL),RASFF,528
+ICID00031180,2017-12-04,Labelling Absent / Incomplete / Incorrect,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00031182,2017-12-04,Foreign Bodies,Confectionery,United States (US),Local Authority,840
+ICID00031184,2017-12-04,Poor or Insufficient Controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00031187,2017-12-04,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031188,2017-12-05,Pesticide Residues,Fruits & Vegetables,China (CN),RASFF,156
+ICID00031189,2017-12-01,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Port Health Authority (PHA),214
+ICID00031190,2017-12-05,Allergens,Poultry Meat & Poultry Meat Products,Russian Federation (RU),Local Authority,643
+ICID00031191,2017-12-05,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031195,2017-12-05,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00031196,2017-12-05,Allergens,Poultry Meat & Poultry Meat Products,Brazil (BR),Industry,76
+ICID00031200,2017-12-06,Poor or Insufficient Controls,Confectionery,Switzerland (CH),Police,756
+ICID00031201,2017-12-06,Clandestine Detection,Confectionery,Germany (DE),Home Office / Border Force,276
+ICID00031202,2017-12-06,Allergens,Meat & Meat Products (other than poultry),Ireland (IE),Industry,372
+ICID00031205,2017-12-06,Poor or Insufficient Controls,Cereals & Bakery Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00031208,2017-12-06,Allergens,Meat & Meat Products (other than poultry),Brazil (BR),Local Authority,76
+ICID00031212,2017-12-07,Clandestine Detection,Fruits & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00031213,2017-12-06,Pathogenic Micro-Organisms,Fruits & Vegetables,Syrian Arab Republic (SY),Border Inspection Posts (BIPs),760
+ICID00031216,2017-12-07,Clandestine Detection,Meat & Meat Products (other than poultry),Italy (IT),Home Office / Border Force,380
+ICID00031222,2017-12-07,Labelling Absent / Incomplete / Incorrect,Confectionery,Pakistan (PK),General Public,586
+ICID00031223,2017-12-08,Poor or Insufficient Controls,Milk & Milk Products,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00031224,2017-12-08,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Hungary (HU),RASFF,348
+ICID00031226,2017-12-08,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031229,2017-12-08,Chemical Contamination (other),Confectionary,Denmark (DK),Industry,208
+ICID00031230,2017-12-09,Poor or Insufficient Controls,Other Food Product / Mixted,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00031231,2017-12-11,Poor or Insufficient Controls,Confectionery,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00031233,2017-12-11,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00031236,2017-12-11,Migration,Fats & Oils,France (FR),RASFF,250
+ICID00031243,2017-12-11,Migration,Fats & Oils,France (FR),RASFF,250
+ICID00031245,2017-12-12,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00031247,2017-12-12,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Switzerland (CH),Industry,756
+ICID00031255,2017-12-13,Pathogenic Micro-Organisms,Herbs and Spices,Israel (IL),Local Authority,376
+ICID00031256,2017-12-13,Pathogenic Micro-Organisms,Milk & Milk Products,Romania (RO),Local Authority,642
+ICID00031257,2017-12-13,Poor or Insufficient Controls,Fruits & Vegetables,Belgium (BE),Border Inspection Posts (BIPs),56
+ICID00031261,2017-12-14,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00031262,2017-12-14,Poor or Insufficient Controls,Cereals & Bakery Products,Italy (IT),Border Inspection Posts (BIPs),380
+ICID00031265,2017-12-14,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00031268,2017-12-15,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00031270,2017-12-14,Mycotoxins,Fruits & Vegetables,Turkey (TR),Port Health Authority (PHA),792
+ICID00031278,2017-12-16,Poor or Insufficient Controls,Confectionery,Slovakia (SK),Border Inspection Posts (BIPs),703
+ICID00031279,2017-12-18,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00031282,2017-12-18,Migration,Cereals & Bakery Products,Kazakhstan (KZ),RASFF,398
+ICID00031283,2017-12-15,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00031284,2017-12-15,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00031286,2017-12-18,Poor or Insufficient Controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00031288,2017-12-19,Pesticide Residues,Non-Alcoholic Beverages,Taiwan Province of China (TW),Border Inspection Posts (BIPs),158
+ICID00031290,2017-12-19,Composition,Food Additives & Flavourings,Uganda (UG),Industry,800
+ICID00031294,2017-12-20,Heavy Metals,Food Additives & Flavourings,South Africa (ZA),Industry,710
+ICID00031295,2017-12-19,Poor or Insufficient Controls,Non-Alcoholic Beverages,Romania (RO),Police,642
+ICID00031298,2017-12-20,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00031300,2017-12-20,Pathogenic Micro-Organisms,Feed Materials,Germany (DE),RASFF,276
+ICID00031301,2017-12-18,Composition,Confectionery,Taiwan Province of China (TW),Local Authority,158
+ICID00031302,2017-12-21,Mycotoxins,Nuts / Nut Products / Seeds,Islamic Republic of Iran (IR),Border Inspection Posts (BIPs),364
+ICID00031304,2017-12-21,Allergens,Meat & Meat Products (other than poultry),Germany (DE),Local Authority,276
+ICID00031306,2017-12-21,Clandestine Detection,Animal By-Products,Spain (ES),Home Office / Border Force,724
+ICID00031307,2017-12-21,Allergens,Nuts / Nut Products / Seeds,Netherlands (NL),Industry,528
+ICID00031309,2017-12-21,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),European Commission (EC),840
+ICID00031310,2017-12-21,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Poland (PL),European Commission (EC),616
+ICID00031319,2017-12-22,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Slovenia (SI),European Commission (EC),705
+ICID00031323,2017-12-22,Pesticide Residues,Fruits & Vegetables,Vietnam (VN),RASFF,704
+ICID00031326,2017-12-22,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Port Health Authority (PHA),792
+ICID00031327,2017-12-22,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),Port Health Authority (PHA),792
+ICID00031335,2017-12-27,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00031341,2017-12-27,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Czech Republic (DO),RASFF,214
+ICID00031343,2017-12-29,Poor or Insufficient Controls,Cereals & Bakery Products,Lithuania (LT),Border Inspection Posts (BIPs),440
+ICID00031345,2017-12-29,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Italy (IT),Local Authority,380
+ICID00031346,2017-12-29,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00031382,2017-12-22,Composition,Alcoholic Beverages,Germany (DE),Local Authority,276
+ICID00030962,2017-11-01,Allergens,Fruits & Vegetables,Lithuania (LT),Local Authority,440
+ICID00030965,2017-11-01,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030972,2017-11-01,Foreign Bodies,Confectionery,Netherlands (NL),Local Authority,528
+ICID00030974,2017-11-01,Clandestine Detection,Confectionery,France (FR),Home Office / Border Force,250
+ICID00030977,2017-11-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00030981,2017-11-02,Radiation,Meat & Meat Products (other than poultry),Vietnam (VN),Port Health Authority (PHA),704
+ICID00030982,2017-11-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00030986,2017-11-02,Foreign Bodies,Confectionery,Denmark (DK),RASFF,208
+ICID00030988,2017-11-03,Clandestine Detection,Fruits & Vegetables,Netherlands (NL),Home Office / Border Force,528
+ICID00030991,2017-11-03,Chemical Contamination (other),Egg & Egg Products,Poland (PL),RASFF,616
+ICID00030995,2017-11-06,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Home Office / Border Force,616
+ICID00030996,2017-11-03,Allergens,Confectionery,Germany (DE),EU Member States,276
+ICID84289699,2017-11-03,Clandestine Detection,Cereals & Bakery Products,France (FR),Border Inspection Posts (BIPs),250
+ICID52258291,2017-11-03,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030998,2017-11-09,Radiation,Water,Belarus (BY),Local Authority,112
+ICID00031004,2017-11-03,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031005,2017-11-03,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Hungary (HU),Local Authority,348
+ICID00031006,2017-11-08,Clandestine Detection,Non-Alcoholic Beverages,Switzerland (CH),Home Office / Border Force,756
+ICID00031008,2017-11-08,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00031011,2017-11-08,Clandestine Detection,Food Contact Materials,Slovakia (SK),Home Office / Border Force,703
+ICID00031015,2017-11-10,Clandestine Detection,Fruits & Vegetables,Romania (RO),Home Office / Border Force,642
+ICID00031016,2017-11-08,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Ireland (IE),Local Authority,372
+ICID00031018,2017-11-10,Foreign Bodies,Cereals & Bakery Products,Netherlands (NL),RASFF,528
+ICID00031019,2017-11-10,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031020,2017-11-10,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00031021,2017-11-10,Chemical Contamination (other),Fruits & Vegetables,Thailand (TH),RASFF,764
+ICID00031027,2017-11-07,Mycotoxins,Feed Premixtures,Argentina (AR),Border Inspection Posts (BIPs),32
+ICID00031028,2017-11-07,Poor or Insufficient Controls,Fish & Fish Products,Phillippines (PH),Border Inspection Posts (BIPs),608
+ICID00031033,2017-11-10,Clandestine Detection,Fruits & Vegetables,Spain (ES),Local Authority,724
+ICID00031034,2017-11-13,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031038,2017-11-13,Clandestine Detection,Fruits & Vegetables,France (FR),Local Authority,250
+ICID00031041,2017-11-14,Composition,Fats & Oils,Ukraine (UA),RASFF,804
+ICID00031042,2017-11-14,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031044,2017-11-14,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031048,2017-11-15,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031049,2017-11-15,Poor or Insufficient Controls,Animal By-Products,Portugal (PT),RASFF,620
+ICID00031050,2017-11-15,Allergens,Cereals & Bakery Products,Ireland (IE),EU Member States,372
+ICID00031051,2017-11-15,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00031052,2017-11-15,Composition,Fruits & Vegetables,China (CN),RASFF,156
+ICID00031059,2017-11-17,Clandestine Detection,Cereals & Bakery Products,Netherlands (NL),Home Office / Border Force,528
+ICID00031063,2017-11-17,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00031064,2017-11-17,Poor or Insufficient Controls,Fruits & Vegetables,India (IN),Port Health Authority (PHA),356
+ICID00031067,2017-11-17,Pathogenic Micro-Organisms,Fish & Fish Products,Romania (RO),Local Authority,642
+ICID00031071,2017-11-18,Clandestine Detection,Confectionary,Hungary (HU),Home Office / Border Force,348
+ICID00031072,2017-11-20,Labelling Absent / Incomplete / Incorrect,Non-Alcoholic Beverages,Czech Republic (DO),Administrative Assistance and Cooperation System (AAC),214
+ICID00031075,2017-11-20,Allergens,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031076,2017-11-21,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031077,2017-11-20,Pesticide Residues,Non-Alcoholic Beverages,India (IN),RASFF,356
+ICID00031079,2017-11-21,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Border Inspection Posts (BIPs),840
+ICID00031080,2017-11-21,Pathogenic Micro-Organisms,Pet Food,Netherlands (NL),RASFF,528
+ICID00031081,2017-11-21,Poor or insufficient controls,Cereals & Bakery Products,China (CN),Border Inspection Posts (BIPs),156
+ICID00031082,2017-11-21,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00031084,2017-11-21,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00031085,2017-11-21,Allergens,Cereals & Bakery Products,Thailand (TH),Local Authority,764
+ICID00031086,2017-11-21,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Border Inspection Posts (BIPs),404
+ICID00031087,2017-11-21,Composition,Food Contact Materials,Germany (DE),RASFF,276
+ICID00031088,2017-11-21,Pathogenic Micro-Organisms,Confectionery,Canada (CA,Third Country,124
+ICID00031089,2017-11-21,Pathogenic Micro-Organisms,Fish & Fish Products,Italy (IT),RASFF,380
+ICID00031090,2017-11-21,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00031091,2017-11-21,Allergens,Soups / Broths / Sauces & Condiments,Sweden (SE),Industry,752
+ICID00031092,2017-11-21,Poor or Insufficient Controls,Prepared Dishes & Snacks,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031093,2017-11-21,Poor or Insufficient Controls,Prepared Dishes & Snacks,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031094,2017-11-22,Mycotoxins,Fruits & Vegetables,Ghana (GH),Local Authority,288
+ICID00031098,2017-11-22,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031099,2017-11-22,Mycotoxins,Nuts / Nut Products / Seeds,Senegal (SN),Port Health Authority (PHA),686
+ICID00031100,2017-11-22,Mycotoxins,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00031101,2017-11-22,Pesticide Residues,Fruits & Vegetables,China (CN),RASFF,156
+ICID00031103,2017-11-23,Pathogenic Micro-Organisms,Confectionery,Canada (CA),Public Health England (PHE),124
+ICID00031106,2017-11-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00031107,2017-11-24,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00031109,2017-11-24,Mycotoxins,Nuts / Nut Products / Seeds,Islamic Republic Of Iran (IR),RASFF,364
+ICID00031112,2017-11-24,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Spain (ES),RASFF,724
+ICID00031113,2017-11-24,Poor or Insufficient Controls,Confectionery,Switzerland (CH),Border Inspection Posts (BIPs),756
+ICID00031114,2017-11-24,Poor or Insufficient Controls,Fruits & Vegetables,Romania (RO),Police,642
+ICID00031115,2017-11-24,Poor or Insufficient Controls,Soups / Broths / Sauces & Condiments,Poland (PL),Police,616
+ICID00031118,2017-11-27,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00031122,2017-11-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00031124,2017-11-28,Poor or insufficient controls,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),Local Authority,724
+ICID00031126,2017-11-28,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),RASFF,616
+ICID00031127,2017-11-24,Food Additives & Flavourings,Non-Alcoholic Beverages,Israel (IL),Border Inspection Posts (BIPs),376
+ICID00031128,2017-11-28,Allergens,Cereals & Bakery Products,United States (US),European Commission (EC),840
+ICID00031129,2017-11-28,Pesticide Residues,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00031134,2017-11-27,Chemical Contamination (other),Herbs and Spices,Poland (PL),RASFF,616
+ICID00031140,2017-11-29,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00031149,2017-11-29,Chemical Contamination (other),Fats & Oils,Ghana (GH),Border Inspection Posts (BIPs),288
+ICID00031153,2017-11-29,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00031155,2017-11-29,Poor Or Insufficient Controls,Other Food Product / Mixed,Italy (IT),Police,380
+ICID00031158,2017-11-29,Poor or Insufficient Controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00031159,2017-11-29,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Spain (ES),RASFF,724
+ICID00031161,2017-11-30,Allergens,Cereals & Bakery Products,Italy (IT),Local Authority,380
+ICID00031164,2017-11-30,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Slovakia (SK),Local Authority,703
+ICID00031165,2017-11-30,Poor Or Insufficient Controls,Cofectionery,Poland (PL),Police,616
+ICID00031186,2017-11-07,Chemical Contamination (other),Soups / Broths / Sauces & Condiments,Phillippines (PH),RASFF,608
+ICID00031215,2017-11-25,Clandestine Detection,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00031217,2017-11-26,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00031218,2017-11-26,Clandestine Detection,Confectionery,Germany (DE),Home Office / Border Force,276
+ICID00031220,2017-11-30,Packaging defective / incorrect,Meat & Meat Products (other than poultry),Slovakia (SK),Local Authority,703
+ICID00030756,2017-10-02,Clandestine Detection,Cereals & Bakery Products,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00030758,2017-10-02,Clandestine Detection,Confectionery,France (FR),Home Office / Border Force,250
+ICID00030759,2017-10-02,Parasitic Infestation,Fish & Fish Products,Ghana (GH),Port Health Authority (PHA),288
+ICID00030761,2017-10-02,Poor or Insufficient Controls,Cereals & Bakery Products,China (CN),Port Health Authority (PHA),156
+ICID00030764,2017-10-02,Labelling Absent / Incomplete / Incorrect,Confectionery,Turkey (TR),EU Member States,792
+ICID00030768,2017-10-03,Poor or Insufficient Controls,Fruits & Vegetables,Brazil (BR),Local Authority,76
+ICID00030769,2017-10-03,Pesticide Residues,Fruits & Vegetables,China (CN),RASFF,156
+ICID00030770,2017-10-04,Clandestine Detection,Non-Alcoholic Beverages,France (FR),Home Office / Border Force,250
+ICID00030771,2017-10-04,Clandestine Detection,Non-Alcoholic Beverages,France (FR),Home Office / Border Force,250
+ICID00030772,2017-10-03,Clandestine Detection,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00030773,2017-10-04,Allergens,Meat and Meat Products (other than poultry),Germany (DE),Industry,276
+ICID00030774,2017-10-04,Allergens,Other Food Product / Mixed,United States (US),Local Authority,840
+ICID00030775,2017-10-04,Allergens,Cereals & Bakery Products,United States (US),Local Authority,840
+ICID00030776,2017-10-04,Pathogenic Micro-Organisms,Pet Food,Argentina (AR),RASFF,32
+ICID00030779,2017-10-04,Pathogenic Micro-Organisms,Herbs and Spices,India (IN),Industry,356
+ICID00030780,2017-10-04,Pathogenic Micro-Organisms,Herbs and Spices,India (IN),Industry,356
+ICID00030783,2017-10-04,Pathogenic Micro-Organisms,Herbs and Spices,Thailand (TH),Local Authority,764
+ICID00030784,2017-10-04,Poor or Insufficient Controls,Milk & Milk Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030789,2017-10-05,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),RASFF,356
+ICID00030792,2017-10-05,Allergens,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00030795,2017-10-05,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Luxembourg (LU),European Commission (EC),442
+ICID00030798,2017-10-05,Poor or Insufficient Controls,Fish & Fish Products,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030800,2017-10-06,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),EU Member States,764
+ICID00030804,2017-10-06,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030810,2017-10-08,Clandestine Detection,Water,Ireland (IE),Home Office / Border Force,372
+ICID00030811,2017-10-06,Pesticide Residues,Fruits & Vegetables,Thailand (TH),FSA Survey,764
+ICID00030813,2017-10-09,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030817,2017-10-10,Poor or Insufficient Controls,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030820,2017-10-10,Poor or Insufficient Controls,Fruits & Vegetables,India (IN),Local Authority,356
+ICID00030822,2017-10-10,Poor or Insufficient Controls,Fish & Fish Products,Senegal (SN),Border Inspection Posts (BIPs),686
+ICID00030823,2017-10-10,Allergens,Other Food Product / Mixed,France (FR),RASFF,250
+ICID00030828,2017-10-10,Pathogenic Micro-Organisms,Milk & Milk Products,Ireland (IE),RASFF,372
+ICID00030829,2017-10-05,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Luxembourg (LU),European Commission (EC),442
+ICID00030833,2017-10-10,Poor or Insufficient Controls,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030834,2017-10-11,Clandestine Detection,Milk & Milk Products,Germany (DE),Home Office / Border Force,276
+ICID00030837,2017-10-12,Clandestine Detection,Cereals & Bakery Products,Czech Republic (DO),Home Office / Border Force,214
+ICID00030838,2017-10-12,Allergens,Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00030841,2017-10-12,Clandestine Detection,Milk & Milk Products,Belgium (BE),Home Office / Border Force,56
+ICID00030842,2017-10-12,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Luxembourg (LU),Administrative Assistance and Cooperation System (AAC),442
+ICID00030845,2017-10-11,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Lithuania (LT),European Commission (EC),440
+ICID00030850,2017-10-13,Novel Food,Fruits & Vegetables,United States (US),Third Country,840
+ICID00030851,2017-10-13,Clandestine Detection,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00030853,2017-10-13,Residues of Veterinary Medicinal Products,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00030854,2017-10-13,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030855,2017-10-13,Clandestine Detection,Milk & Milk Products,France (FR),Police,250
+ICID00030857,2017-10-14,Clandestine Detection,Fruits & Vegetables,France (FR),Police,250
+ICID00030859,2017-10-15,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030861,2017-10-16,Labelling Absent / Incomplete / Incorrect,Non-Alcoholic Beverages,United States (US),Administrative Assistance and Cooperation System (AAC),840
+ICID00030863,2017-10-16,Heavy Metals,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00030864,2017-10-13,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030866,2017-10-16,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030867,2017-10-17,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Denmark (DK),RASFF,208
+ICID00030868,2017-10-17,Biotoxins (other),Fish & Fish Products,Ecuador (EC),Local Authority,218
+ICID00030869,2017-10-17,Heavy Metals,Feed Additives,United States (US),RASFF,840
+ICID00030870,2017-10-17,Chemical Contamination (other),Fish & Fish Products,Belgium (BE),RASFF,56
+ICID00030876,2017-10-17,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030880,2017-10-18,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Border Inspection Posts (BIPs),404
+ICID00030881,2017-10-18,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030885,2017-10-18,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030886,2017-10-18,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),RASFF,528
+ICID00030889,2017-10-19,Clandestine Detection,Non-Alcoholic Beverages,Germany (DE),Home Office / Border Force,276
+ICID00030891,2017-10-19,Mycotoxins,Nuts / Nut Products / Seeds,United Republic Tanzania (TZ),Border Inspection Posts (BIPs),834
+ICID00030892,2017-10-17,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030893,2017-10-19,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030897,2017-10-20,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030904,2017-10-20,Clandestine Detection,Prepared Dishes & Snacks,Hungary (HU),Home Office / Border Force,348
+ICID00030911,2017-10-23,Clandestine Detection,Meat & Meat Products (other than poultry),Spain (ES),Home Office / Border Force,724
+ICID00030913,2017-10-23,Pathogenic Micro-Organisms,Soups / Broths / Sauces & Condiments,Netherlands (NL),RASFF,528
+ICID00030924,2017-10-25,Pathogenic Micro-Organisms,Feed Materials,Belgium (BE),RASFF,56
+ICID00030927,2017-10-25,Poor or Insufficient Controls,Milk & Milk Products,France (FR),Industry,250
+ICID00030930,2017-10-26,Labelling Absent / Incomplete / Incorrect,Cereals & Bakery Products,Netherlands (NL),Local Authority,528
+ICID00030932,2017-10-26,Chemical Contamination (other),Fruits & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00030933,2017-10-26,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00030935,2017-10-26,Pathogenic Micro-Organisms,Herbs & Spices,Egypt (EG),RASFF,818
+ICID00030941,2017-10-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030942,2017-10-26,Poor or Insufficient Controls,Crustaceans & Products Thereof,United States (US),Border Inspection Posts (BIPs),840
+ICID00030943,2017-10-26,Foreign Bodies,Fruits & Vegetables,India (IN),EU Member States,356
+ICID00030945,2017-10-27,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Administrative Assistance and Cooperation System (AAC),840
+ICID00030947,2017-10-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030948,2017-10-27,Allergens,Soups / Broths / Sauces & Condiments,Netherlands (NL),RASFF,528
+ICID00030949,2017-10-27,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030951,2017-10-27,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),Industry,528
+ICID00030953,2017-10-29,Clandestine Detection,Confectionery,Turkey (TR),Home Office / Border Force,792
+ICID00030954,2017-10-27,Mycotoxins,Nuts / Nut Products / Seeds,United States (US),Port Health Authority (PHA),840
+ICID00030955,2017-10-30,Mycotoxins,Fruits & Vegetables,Spain (ES),RASFF,724
+ICID00030956,2017-10-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030957,2017-10-31,Clandestine Detection,Prepared Dishes & Snacks,Bulgaria (BG),Home Office / Border Force,100
+ICID00030959,2017-10-31,Foreign Bodies,Fish and Fish Products,Spain (ES),Industry,724
+ICID00030960,2017-10-31,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00030961,2017-10-31,Clandestine Detection,Herbs & Spices,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030963,2017-10-31,Clandestine Detection,Cereals & Bakery Products,Bulgaria (BG),Home Office / Border Force,100
+ICID00030964,2017-10-31,Clandestine Detection,Confectionery,Poland (PL),Home Office / Border Force,616
+ICID00030989,2017-10-12,Mycotoxins,Nuts / Nut Products / Seeds,Argentina (AR),Border Inspection Posts (BIPs),32
+ICID00031214,2017-10-10,Clandestine Detection,Confectionery,France (FR),Home Office / Border Force,250
+ICID00030529,2017-09-01,Clandestine Detection,Fruits & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00030531,2017-09-01,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030534,2017-09-01,Poor or Insufficient Controls,Fruits & Vegetables,Islamic Republic of Iran (IR),Border Inspection Posts (BIPs),364
+ICID00030535,2017-09-02,Pesticide Residues,Non-Alcoholic Beverages,Sri Lanka (LK),Border Inspection Posts (BIPs),144
+ICID00030537,2017-09-03,Clandestine Detection,Other Food Product / Mixed,Spain (ES),Home Office / Border Force,724
+ICID00030539,2017-09-04,Clandestine Detection,Milk & Milk Products,France (FR),Police,250
+ICID00030543,2017-09-05,Clandestine Detection,Non-Alcoholic Beverages,Netherlands (NL),Home Office / Border Force,528
+ICID00030545,2017-09-05,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00030547,2017-09-05,Clandestine Detection,Herbs & Spices,Spain (ES),Police,724
+ICID00030548,2017-09-05,Heavy Metals,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00030550,2017-09-06,Labelling Absent / Incomplete / Incorrect,Confectionary,Netherlands (NL),Local Authority,528
+ICID00030551,2017-09-06,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Port Health Authority (PHA),356
+ICID00030552,2017-09-05,Poor or Insufficient Controls,Cereals & Bakery Products,Pakistan (PK),Local Authority,586
+ICID00030554,2017-09-05,Pathogenic Micro-Organisms,Animal By-Products,Poland (PL),RASFF,616
+ICID00030555,2017-09-06,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Port Health Authority (PHA),356
+ICID00030557,2017-09-06,Poor or Insufficient Controls,Other Food Product / Mixed,South Africa (ZA),Port Health Authority (PHA),710
+ICID00030559,2017-09-07,Clandestine Detection,Alcoholic Beverages,Belgium (BE),Home Office / Border Force,56
+ICID00030560,2017-09-07,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030561,2017-09-06,Heavy Metals,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030565,2017-09-08,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Romania (RO),RASFF,642
+ICID00030566,2017-09-08,Pathogenic Micro-Organisms,Gastropods,Zimbabwe (ZW),Border Inspection Posts (BIPs),716
+ICID00030574,2017-09-08,Clandestine Detection,Other Food Product / Mixed,Germany (DE),Home Office / Border Force,276
+ICID00030577,2017-09-08,Labelling Absent / Incomplete / Incorrect,Poultry Meat & Poultry Meat Products,Germany (DE),Local Authority,276
+ICID00030578,2017-09-08,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030579,2017-09-08,Clandestine Detection,Non-Alcoholic Beverages,Lithuania (LT),Home Office / Border Force,440
+ICID00030581,2017-09-08,Clandestine Detection,Confectionary,France (FR),Home Office / Border Force,250
+ICID00030583,2017-09-09,Clandestine Detection,Confectionary,Switzerland (CH),Border Inspection Posts (BIPs),756
+ICID00030586,2017-09-01,Poor or Insufficient Controls,Non-Alcoholic Beverages,Sri Lanka (LK),Local Authority,144
+ICID00030592,2017-09-11,Pesticide Residues,Fruits & Vegetables,China (CN),Industry,156
+ICID00030593,2017-09-11,Pesticide Residues,Fruits & Vegetables,Brazil (BR),Industry,76
+ICID00030594,2017-09-12,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030595,2017-09-12,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030596,2017-09-12,Pathogenic Micro-Organisms,Herbs & Spices,Lao People's Democratic Republic (LA),Border Inspection Posts (BIPs),418
+ICID00030597,2017-09-12,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030598,2017-09-12,Poor or Insufficient Controls,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00030599,2017-09-12,Pathogenic Micro-Organisms,Herbs & Spices,Lao People's Democratic Republic (LA),Border Inspection Posts (BIPs),418
+ICID00030602,2017-09-12,Allergens,Cereals & Bakery Products,Germany (DE),Industry,276
+ICID00030604,2017-09-13,Heavy Metals,Dietetic Foods / Food Supplements / Fortified Foods,Germany (DE),RASFF,276
+ICID00030606,2017-09-13,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030607,2017-09-13,Chemical Contamination (other),Fish & Fish Products,Chile (CL),RASFF,152
+ICID00030608,2017-09-13,Clandestine Detection,Egg & Egg Products,Spain (ES),Home Office / Border Force,724
+ICID00030609,2017-09-13,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030610,2017-09-13,Poor or Insufficient Controls,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030611,2017-09-13,Allergens,Soups / Broths / Sauces & Condiments,Australia (AU),Industry,36
+ICID00030612,2017-09-13,Clandestine Detection,Non-Alcoholic Beverages,Netherlands (NL),Home Office / Border Force,528
+ICID00030613,2017-09-13,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US,RASFF,840
+ICID00030618,2017-09-14,Clandestine Detection,Confectionary,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00030619,2017-09-14,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030621,2017-09-14,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030622,2017-09-14,Clandestine Detection,Confectionary,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030623,2017-09-14,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Greece (GR),Administrative Assistance and Cooperation System (AAC),300
+ICID00030624,2017-09-15,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00030632,2017-09-15,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00030636,2017-09-15,Food Additives & Flavourings,Cocoa & Coca Preparations,France (FR),RASFF,250
+ICID00030638,2017-09-18,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030639,2017-09-18,Foreign Bodies,Meat & Meat Products (other than poultry),Brazil (BR),Local Authority,76
+ICID00030641,2017-09-18,Foreign Bodies,Prepared Dishes & Snacks,Belgium (BE),Industry,56
+ICID00030648,2017-09-18,Allergens,Milk & Milk Products,France (FR),RASFF,250
+ICID00030649,2017-09-18,Chemical Contamination (other),Poultry Meat & Poultry Meat Products,Spain (ES),RASFF,724
+ICID00030650,2017-09-18,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030652,2017-09-19,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030655,2017-09-19,Clandestine Detection,Other Food Product / Mixed,France (FR),Home Office / Border Force,250
+ICID00030657,2017-09-19,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030661,2017-09-19,Pathogenic Micro-Organisms,Fruits & Vegetables,Bangladesh (BD),Local Authority,50
+ICID00030662,2017-09-19,Poor or Insufficient Controls,Egg & Egg Products,United States (US),Local Authority,840
+ICID00030663,2017-09-20,Clandestine Detection,Prepared Dishes & Snacks,Romania (RO),Home Office / Border Force,642
+ICID00030668,2017-09-19,Poor or Insufficient Controls,Crustaceans & products Thereof,France (FR),EU Member States,250
+ICID00030670,2017-09-20,Pathogenic Micro-Organisms,Milk & Milk Products,Italy (IT),RASFF,380
+ICID00030671,2017-09-21,Clandestine Detection,Fruits & Vegetables,France (FR),Border Inspection Posts (BIPs),250
+ICID00030672,2017-09-21,Clandestine Detection,Fish & Fish Products,Poland (PL),Home Office / Border Force,616
+ICID00030673,2017-09-21,Clandestine Detection,Meat & Meat Products (other than poultry),Italy (IT),Home Office / Border Force,380
+ICID00030676,2017-09-21,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030679,2017-09-21,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030680,2017-09-21,Foreign Bodies,Cereals & Bakery Products,Netherlands (NL),Local Authority,528
+ICID00030684,2017-09-22,Clandestine Detection,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00030685,2017-09-21,Mycotoxins,Fruits & Vegetables,Sri Lanka (LK),Border Inspection Posts (BIPs),144
+ICID00030687,2017-09-22,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00030691,2017-09-22,Poor or Insufficient Controls,Crustaceans & Products Thereof,Canada (CA),Border Inspection Posts (BIPs),124
+ICID00030695,2017-09-22,Poor or Insufficient Controls,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00030697,2017-09-24,Clandestine Detection,Meat & Meat Products (other than poultry),Italy (IT),Home Office / Border Force,380
+ICID00030699,2017-09-25,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,South Africa (ZA),RASFF,710
+ICID00030700,2017-09-25,Poor or Insufficient Controls,Cereals & Bakery Products,Poland (PL),Industry,616
+ICID00030704,2017-09-25,Clandestine Detection,Confectionery,Spain (ES),Home Office / Border Force,724
+ICID00030708,2017-09-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030713,2017-09-26,Foreign Bodies,Confectionery,Italy (IT),Industry,380
+ICID00030715,2017-09-26,Clandestine Detection,Confectionery,France (FR),Home Office / Border Force,250
+ICID00030716,2017-09-27,Clandestine Detection,Non-Alcoholic Beverages,Switzerland (CH),Home Office / Border Force,756
+ICID00030717,2017-09-27,Allergens,Confectionery,Belgium (BE),Local Authority,56
+ICID00030718,2017-09-27,Allergens,Cereals & Bakery Products,Germany (DE),Local Authority,276
+ICID00030719,2017-09-21,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00030720,2017-09-26,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Third Country,840
+ICID00030721,2017-09-27,Chemical Contamination (other),Soups / Broths / Sauces & Condiments,Philippines (PH),RASFF,608
+ICID00030725,2017-09-27,Allergens,Meat & Meat Products (other than poultry),Netherlands (NL),RASFF,528
+ICID00030726,2017-09-27,Food Additives & Flavourings,Non-Alcoholic Beverages,United States (US),Local Authority,840
+ICID00030727,2017-09-26,Food Additives & Flavourings,Non-Alcoholic Beverages,United States (US),Administrative Assistance and Cooperation System (AAC),840
+ICID00030731,2017-09-27,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030732,2017-09-28,Composition,Other Food Product / Mixed,Nigeria (NG),Administrative Assistance and Cooperation System (AAC),566
+ICID00030734,2017-09-28,Allergens,Nuts / Nut Products / Seeds,India (IN),Local Authority,356
+ICID00030737,2017-09-28,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030738,2017-09-28,Allergens,Prepared Dishes & Snacks,India (IN),Local Authority,356
+ICID00030739,2017-09-28,Clandestine Detection,Other Food Product / Mixed,France (FR),Home Office / Border Force,250
+ICID00030743,2017-09-28,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030746,2017-09-29,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030749,2017-09-30,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030752,2017-09-29,Pathogenic Micro-Organisms,Herbs & Spices,China (CN),RASFF,156
+ICID00030755,2017-09-29,Clandestine Detection,Cereals & Bakery Products,Italy (IT),Home Office / Border Force,380
+ICID00030760,2017-09-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),Local Authority,528
+ICID00030793,2017-09-28,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,Switzerland (CH),RASFF,756
+ICID00030819,2017-09-27,Composition,Food Additives & Flavourings,India (IN),Local Authority,356
+ICID00030874,2017-09-27,Composition,Food Additives & Flavourings,India (IN),Local Authority,356
+ICID00030325,2017-08-01,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030330,2017-08-01,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030336,2017-08-02,Heavy Metals,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00030338,2017-08-02,Poor or Insufficient Controls,Crustaceans & Products Thereof,China (CN),Border Inspection Posts (BIPs),156
+ICID00030339,2017-08-02,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),France (FR),RASFF,250
+ICID00030341,2017-08-03,Clandestine Detection,Confectionery,Lithuania (LT),Home Office / Border Force,440
+ICID00030346,2017-08-03,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),France (FR),RASFF,250
+ICID00030347,2017-08-03,Packaging Defective / Incorrect,Fish & Fish Products,Morocco (MA),Port Health Authority (PHA),504
+ICID00030348,2017-08-03,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00030349,2017-08-03,Poor or Insufficient Controls,Crustaceans & Products Thereof,India (IN),RASFF,356
+ICID00030350,2017-08-03,Poor or Insufficient Controls,Herbs and Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030351,2017-08-03,Chemical Contamination (other),Fish and Fish Products,Ecuador (EC),Local Authority,218
+ICID00030352,2017-08-03,Pesticide Residues,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00030354,2017-08-03,Pathogenic Micro-Organisms,Herbs and Spices,India (IN),Industry,356
+ICID00030357,2017-08-04,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030358,2017-08-04,Clandestine Detection,Cereals & Bakery Products,Germany (DE),Home Office / Border Force,276
+ICID00030363,2017-08-07,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030365,2017-08-07,Clandestine Detection,Other Food Product / Mixed,Spain (ES),Home Office / Border Force,724
+ICID00030372,2017-08-08,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00030373,2017-08-08,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030375,2017-08-08,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030379,2017-08-09,Pathogenic Micro-Organisms,Fish & Fish Products,Phillipines (PH),Local Authority,608
+ICID00030383,2017-08-10,Pesticide Residues,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00030389,2017-08-11,Allergens,Milk & Milk Products,Lithuania (LT),Local Authority,440
+ICID00030390,2017-08-11,Clandestine Detection,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030391,2017-08-11,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030393,2017-08-11,Allergens,Poultry Meat & Poultry Meat Products,Netherlands (NL),Industry,528
+ICID00030397,2017-08-14,Clandestine Detection,Soups / Broths / Sauces & Condiments,France (FR),Home Office / Border Force,250
+ICID00030399,2017-08-14,Poor or Insufficient Controls,Crustaceans & Products Thereof,China (CN),Border Inspection Posts (BIPs),156
+ICID00030400,2017-08-14,Pathogenic Micro-Organisms,Herbs and Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030402,2017-08-14,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Netherlands (NL),RASFF,528
+ICID00030405,2017-08-14,Food Additives & Flavourings,Poultry Meat & Poultry Meat Products,Thailand (TH),Industry,764
+ICID00030406,2017-08-15,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00030408,2017-08-15,Mycotoxins,Nuts / Nut Products / Seeds,Islamic Republic of Iran (IR),Port Health Authority (PHA),364
+ICID00030409,2017-08-15,Foreign Bodies,Nuts / Nut Products / Seeds,Kazakhstan (KZ),Local Authority,398
+ICID00030410,2017-08-15,Migration,Fats & Oils,United States (US),RASFF,840
+ICID00030411,2017-08-15,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Administrative Assistance and Cooperation System (AAC),616
+ICID00030412,2017-08-15,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Administrative Assistance and Cooperation System (AAC),616
+ICID00030414,2017-08-15,Poor or Insufficient Controls,Honey & Royal Jelly,New Zealand (NZ),Border Inspection Posts (BIPs),554
+ICID00030415,2017-08-15,Allergens,Meat & Meat Products (other than poultry),Spain (ES),Local Authority,724
+ICID00030416,2017-08-15,Allergens,Prepared Dishes & Snacks,Germany (DE),RASFF,276
+ICID00030419,2017-08-16,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),RASFF,764
+ICID00030421,2017-08-16,Clandestine Detection,Other Food Product / Mixed,Spain (ES),Police,724
+ICID00030423,2017-08-16,Foreign Bodies,Nuts / Nut Products / Seeds,Poland (PL),Industry,616
+ICID00030424,2017-08-11,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030426,2017-08-09,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030429,2017-08-16,Residues of Veterinary Medicinal Products,Fish & Fish Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00030431,2017-08-18,Clandestine Detection,Milk & Milk Products,Switzerland (CH),Home Office / Border Force,756
+ICID00030435,2017-08-18,Food Additives & Flavourings,Confectionery,China (CN),Border Inspection Posts (BIPs),156
+ICID00030436,2017-08-15,Mycotoxins,Fruits & Vegetables,Islamic Republic of Iran (IR),Border Inspection Posts (BIPs),364
+ICID00030438,2017-08-18,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00030439,2017-08-19,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00030448,2017-08-21,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,Luxembourg (LU),RASFF,442
+ICID00030449,2017-08-14,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Greece (GR),Local Authority,300
+ICID00030450,2017-08-22,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Belgium (BE),Local Authority,56
+ICID00030451,2017-08-22,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Belgium (BE),Local Authority,56
+ICID00030452,2017-08-22,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Belgium (BE),Local Authority,56
+ICID00030453,2017-08-14,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Italy (IT),Local Authority,380
+ICID00030454,2017-08-22,Allergens,Nuts / Nut Products / Seeds,Pakistan (PK),Local Authority,586
+ICID00030455,2017-08-22,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030458,2017-08-14,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Spain (ES),Local Authority,724
+ICID00030459,2017-08-22,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Italy (IT),EU Member States,380
+ICID00030460,2017-08-23,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00030465,2017-08-23,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030466,2017-08-23,Poor or Insufficient Controls,Other Food Product / Mixed,Spain (ES),Local Authority,724
+ICID00030467,2017-08-23,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00030469,2017-08-24,Allergens,Meat & Meat Products (other than poultry),Denmark (DK),Industry,208
+ICID00030470,2017-08-24,Poor or Insufficient Controls,Fish & Fish Products,United States (US),Border Inspection Posts (BIPs),840
+ICID00030472,2017-08-24,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030473,2017-08-24,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00030475,2017-08-24,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030476,2017-08-24,Clandestine Detection,Non-Alcoholic Beverages,Czech Republic (DO),Border Inspection Posts (BIPs),214
+ICID00030478,2017-08-24,Poor or Insufficient Controls,Fish & Fish Products,Republic of Korea (KR),Border Inspection Posts (BIPs),410
+ICID00030479,2017-08-24,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Netherlands (NL),RASFF,528
+ICID00030483,2017-08-24,Mycotoxins,Herbs and Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030493,2017-08-27,Clandestine Detection,Poultry Meat & Poultry Meat Products,Romania (RO),Home Office / Border Force,642
+ICID00030494,2017-08-28,Allergens,Meat & Meat Products (other than poultry),Denmark (DK),RASFF,208
+ICID00030495,2017-08-28,Heavy Metals,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),RASFF,156
+ICID00030497,2017-08-29,Mycotoxins,Herbs and Spices,Ethiopia (ET),Border Inspection Posts (BIPs),231
+ICID00030500,2017-08-25,Poor or Insufficient Controls,Honey & Royal Jelly,China (CN),Border Inspection Posts (BIPs),156
+ICID00030504,2017-08-29,Mycotoxins,Herbs and Spices,Malawi (MW),Border Inspection Posts (BIPs),454
+ICID00030508,2017-08-29,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030511,2017-08-30,Labelling Absent / Incomplete / Incorrect,Confectionery,Belgium (BE),Local Authority,56
+ICID00030513,2017-08-30,Pathogenic Micro-Organisms,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Industry,840
+ICID00030516,2017-08-31,Clandestine Detection,Herbs and Spices,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030517,2017-08-30,Mycotoxins,Nuts / Nut Products / Seeds,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030519,2017-08-31,Poor or Insufficient Controls,Soups / Broths / Sauces & Condiments,United States (US),Local Authority,840
+ICID00030521,2017-08-31,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),RASFF,76
+ICID00030523,2017-08-31,Pathogenic Micro-Organisms,Herbs and Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030134,2017-07-03,Chemical Contamination (other),Cereals & Bakery Products,Belgium (BE),Industry,56
+ICID00030136,2017-07-03,Heavy Metals,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00030137,2017-07-03,Composition,Non-Alcoholic Beverages,United States (US),Industry,840
+ICID00030138,2017-07-03,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00030139,2017-07-03,Mycotoxins,Nuts / Nut Products / Seeds,Turkey (TR),RASFF,792
+ICID00030140,2017-07-04,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030141,2017-07-04,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Port Health Authority (PHA),156
+ICID00030144,2017-07-03,Labelling Absent / Incomplete / Incorrect,Confectionary,Netherlands (NL),Local Authority,528
+ICID00030147,2017-07-04,Foreign Bodies,Prepared Dishes & Snacks,Belgium (BE),Industry,56
+ICID00030148,2017-07-04,Clandestine Detection,Fruits & Vegetables,Czech Republic (DO),Home Office / Border Force,214
+ICID00030155,2017-07-06,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030156,2017-07-06,Allergens,Dietetic Foods / Food Supplements / Fortified Foods,Canada (CA),EU Member States,124
+ICID00030157,2017-07-06,Pathogenic Micro-Organisms,Herbs & Spices,Sri Lanka (LK),Local Authority,144
+ICID00030161,2017-07-06,Food Additives & Flavourings,Non-Alcoholic Beverages,India (IN),Border Inspection Posts (BIPs),356
+ICID00030165,2017-07-08,Clandestine Detection,Fruits & Vegetables,Greece (GR),Border Inspection Posts (BIPs),300
+ICID00030166,2017-07-08,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Thailand (TH),Port Health Authority (PHA),764
+ICID00030169,2017-07-09,Clandestine Detection,Fruits & Vegetables,Greece (GR),Police,300
+ICID00030170,2017-07-04,Clandestine Detection,Milk & Milk Products,Italy (IT),Home Office / Border Force,380
+ICID00030172,2017-07-10,Clandestine Detection,Confectionary,Switzerland (CH),Home Office / Border Force,756
+ICID00030174,2017-07-10,Composition,Other Food Product / Mixed,France (FR),Administrative Assistance and Cooperation System (AAC),250
+ICID00030176,2017-07-07,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030177,2017-07-10,Food Additives & Flavourings,Confectionary,Philippines (PH),RASFF,608
+ICID00030178,2017-07-10,Clandestine Detection,Fruits & Vegetables,Austria (AT),Home Office / Border Force,40
+ICID00030179,2017-07-11,Chemical Contamination (other),Feed Additives,Lithuaina (LT),Local Authority,440
+ICID00030182,2017-07-11,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Netherlands (NL),RASFF,528
+ICID00030185,2017-07-11,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030186,2017-07-10,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),China (CN),Port Health Authority (PHA),156
+ICID00030187,2017-07-11,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030189,2017-07-12,Poor or insufficient controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030190,2017-07-12,Pathogenic Micro-Organisms,Fruits & Vegetables,Netherlands (NL),RASFF,528
+ICID00030194,2017-07-12,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030196,2017-07-13,Mycotoxins,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030197,2017-07-13,Chemical Contamination (other),Nuts / Nut Products / Seeds,China (CN),Local Authority,156
+ICID00030198,2017-07-13,Foreign Bodies,Prepared Dishes & Snacks,India (IN),Food Standards Scotland (FSS),356
+ICID00030200,2017-07-13,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030201,2017-07-13,Poor or Insufficient Controls,Fruits & Vegetables,Islamic Republic of Iran (IR),Border Inspection Posts (BIPs),364
+ICID00030205,2017-07-13,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030211,2017-07-15,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030212,2017-07-15,Clandestine Detection,Non-Alcoholic Beverages,Poland (PL),Home Office / Border Force,616
+ICID00030213,2017-07-14,Poor or Insufficient Controls,Pet Food,India (IN),Border Inspection Posts (BIPs),356
+ICID00030215,2017-07-17,Poor or Insufficient Controls,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030216,2017-07-17,Poor or Insufficient Controls,Pet Food,India (IN),Border Inspection Posts (BIPs),356
+ICID00030217,2017-07-17,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030219,2017-07-17,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030226,2017-07-18,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),Poland (PL),Local Authority,616
+ICID00030227,2017-07-18,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00030228,2017-07-18,Poor or Insufficient Controls,Fish & Fish Products,South Africa (ZA),Border Inspection Posts (BIPs),710
+ICID00030230,2017-07-19,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00030231,2017-07-18,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00030236,2017-07-19,Clandestine Detection,Fruits & Vegetables,Germany (DE),Home Office / Border Force,276
+ICID00030239,2017-07-19,Clandestine Detection,Fruit & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00030240,2017-07-20,Poor or Insufficient Controls,Poultry Meat & Poultry Meat Products,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030241,2017-07-20,Chemical Contamination (other),Fish & Fish Products,Spain (ES),Administrative Assistance and Cooperation System (AAC),724
+ICID00030242,2017-07-20,Clandestine Detection,Cereals & Bakery Products,Slovakia (SI),Police,705
+ICID00030249,2017-07-21,Chemical Contamination (other),Cereals & Bakery Products,Spain (ES),RASFF,724
+ICID00030258,2017-07-21,Clandestine Detection,Other Food Product / Mixed,Romania (RO),Police,642
+ICID00030259,2017-07-22,Clandestine Detection,Other Food Product / Mixed,Germany (DE),Home Office / Border Force,276
+ICID00030262,2017-07-23,Clandestine Detection,Non-Alcoholic Beverages,Spain (ES),Home Office / Border Force,724
+ICID00030271,2017-07-24,Poor or Insuficient Controls,Meat & Meat Products (other than poultry),Poland (PL),FSA Operations Group,616
+ICID00030273,2017-07-24,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),EU Member States,76
+ICID00030276,2017-07-24,Allergens,Meat & Meat Products (other than poultry),Romania (RO),Local Authority,642
+ICID00030280,2017-07-25,Heavy Metals,Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00030281,2017-07-25,Allergens,Herbs & Spices,France (FR),Industry,250
+ICID00030283,2017-07-26,Allergens,Meat & Meat Products (other than poultry),Germany (DE),Local Authority,276
+ICID00030285,2017-07-26,Composition,Non-Alcoholic Beverages,Netherlands (NL),RASFF,528
+ICID00030286,2017-07-26,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Nigeria (NG),Port Health Authority (PHA),566
+ICID00030287,2017-07-26,Poor or Insufficient Controls,Herbs & Spices,Ethiopia (ET),Border Inspection Posts (BIPs),231
+ICID00030288,2017-07-26,Clandestine Detection,Pet Food,France (FR),Home Office / Border Force,250
+ICID00030289,2017-07-27,Clandestine Detection,Other Food Product / Mixed,Bulgaria (BG),Home Office / Border Force,100
+ICID00030290,2017-07-27,Clandestine Detection,Non-Alcoholic Beverages,Germany (DE),Home Office / Border Force,276
+ICID00030291,2017-07-27,Mycotoxins,Nuts / Nut Products / Seeds,China (CN),Port Health Authority (PHA),156
+ICID00030296,2017-07-27,Pathogenic Micro-Organisms,Fruits & Vegetables,Thailand (TH),Border Inspection Posts (BIPs),764
+ICID00030297,2017-07-27,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030299,2017-07-28,Pathogenic Micro-Organisms,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030300,2017-07-28,Clandestine Detection,Fruits & Vegetables,Bulgaria (BG),Home Office / Border Force,100
+ICID00030301,2017-07-26,Poor or Insufficient Controls,Gastropods,Cameroon (CM),Border Inspection Posts (BIPs),120
+ICID00030303,2017-07-27,Poor or Insufficient Controls,Fish & Fish Products,China (CN),Port Health Authority (PHA),156
+ICID00030304,2017-07-28,Pathogenic Micro-Organisms,Fish & Fish Products,Ireland (IE),Industry,372
+ICID00030306,2017-07-28,Food Additives & Flavourings,Other Food Product / Mixed,United States (US),RASFF,840
+ICID00030310,2017-07-28,Clandestine Detection,Other Food Product / Mixed,Bulgaria (BG),Home Office / Border Force,100
+ICID00030311,2017-07-27,Pesticide Residues,Other Food Product / Mixed,Netherlands (NL),European Commission (EC),528
+ICID00030320,2017-07-31,Poor or Insufficient Controls,Other Food Product / Mixed,China (CN),Border Inspection Posts (BIPs),156
+ICID00030322,2017-07-31,Mycotoxins,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00030376,2017-07-20,Poor or Insufficient Controls,Other Food Product / Mixed,Netherlands (NL),Industry,528
+ICID00030971,2017-07-31,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029943,2017-06-01,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00029944,2017-06-01,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00029947,2017-06-02,Pesticide Residues,Non-Alcoholic Beverages,China (CN),Port Health Authority (PHA),156
+ICID00029950,2017-06-02,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029952,2017-06-03,Clandestine Detection,Fruit & Vegetables,France (FR),Border Inspection Posts (BIPs),250
+ICID00029954,2017-06-04,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00029956,2017-06-01,Novel Food,Dietetic foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00029958,2017-06-05,Composition,Non-Alcoholic Beverages,Bulgaria (BG),Local Authority,100
+ICID00029959,2017-06-05,Poor or Insufficient Controls,Herbs & Spices,India (IN),Port Health Authority (PHA),356
+ICID00029960,2017-06-06,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029962,2017-06-06,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029964,2017-06-06,Poor or Insufficient Controls,Fruit & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00029966,2017-06-06,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00029967,2017-06-01,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Uruguay (UY),Animal and Plant Health Agency (APHA),858
+ICID00029971,2017-06-07,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00029972,2017-06-07,Clandestine Detection,Milk & Milk Products,France (FR),Home Office / Border Force,250
+ICID00029975,2017-06-07,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Austailia (AU),RASFF,36
+ICID00029976,2017-06-07,Poor or Insufficient Controls,Crustaceans & Products Thereof,Indonesia (ID),Border Inspection Posts (BIPs),360
+ICID00029978,2017-06-07,Composition,Dietetic Food / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00029982,2017-06-08,Clandestine Detection,Alcoholic Beverages,France (FR),Border Inspection Posts (BIPs),250
+ICID00029983,2017-06-08,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Argentina (AR),RASFF,32
+ICID00029985,2017-06-09,Allergens,Alcoholic Beverages,New Zealand (NZ),European Commission (EC),554
+ICID00029988,2017-06-09,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Bosnia & Herzegovina (BA),Border Inspection Posts (BIPs),70
+ICID00029990,2017-06-09,Clandestine Detection,Fruit & Vegetables,Netherlands (NL),Home Office / Border Force,528
+ICID00029994,2017-06-10,Clandestine Detection,Non-Alcoholic Beverages,Germany (DE),Home Office / Border Force,276
+ICID00029995,2017-06-10,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029999,2017-06-09,Allergens,Fruit & Vegetables,China (CN),Local Authority,156
+ICID00030000,2017-06-13,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00030005,2017-06-13,Composition,Dietetic Food / Food Supplements / Fortified Foods,Cyprus (CY),Local Authority,196
+ICID00030006,2017-06-13,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030007,2017-06-05,Pesticide Residues,Fruit & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00030010,2017-06-13,Composition,Dietetic Food / Food Supplements / Fortified Foods,Canada (CA),RASFF,124
+ICID00030013,2017-06-14,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Port Health Authority (PHA),356
+ICID00030015,2017-06-14,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Poland (PL),Industry,616
+ICID00030016,2017-06-14,Chemical Contamination (other),Fish & Fish Products,Vietnam (VN),RASFF,704
+ICID00030017,2017-06-14,Pathogenic Micro-Organisims,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030018,2017-06-14,Labelling Abesent/Incomplete/Incorrect,Cereals & Bakery Products,Spain (ES),RASFF,724
+ICID00030020,2017-06-15,Poor or Insufficient Controls,Fish & Fish Products,Papua New Guinea (PG),Border Inspection Posts (BIPs),598
+ICID00030021,2017-06-13,Composition,Dietetic Food / Food Supplements / Fortified Foods,United States (US),EU Member States,840
+ICID00030025,2017-06-15,Clandestine Detection,Cereals & Bakery Products,Hungary (HU),Home Office / Border Force,348
+ICID00030027,2017-06-16,Clandestine Detection,Fruit & Vegetables,Spain (ES),Police,724
+ICID00030030,2017-06-16,Chemical Contamination (other),Fish & Fish Products,France (FR),RASFF,250
+ICID00030031,2017-06-16,Poor or Insufficient Controls,Herbs & Spices,Ethiopia (ET),Border Inspection Posts (BIPs),231
+ICID00030032,2017-06-17,Pesticide Residues,Nuts / Nut Products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030033,2017-06-17,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030035,2017-06-19,Poor or Insufficient Controls,Non-Alcoholic Beverages,Germany (DE),Border Inspection Posts (BIPs),276
+ICID00030036,2017-06-19,Poor or Insufficient Controls,Cereals & Bakery Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00030038,2017-06-19,Labelling Absent / Incomplete / Incorrect,Meat & Meat Products (other than poultry),France (FR),Local Authority,250
+ICID00030044,2017-06-20,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Border Inspection Posts (BIPs),404
+ICID00030046,2017-06-20,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030047,2017-06-20,Pathogenic Micro-Organisms,Feed Materials,Brazil (BR),RASFF,76
+ICID00030048,2017-06-20,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030049,2017-06-20,Food Additives & Flavourings,Confectionairy,Malaysia (MY),Local Authority,458
+ICID00030050,2017-06-20,Pesticide Residues,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00030052,2017-06-21,Clandestine Detection,Confectionery,France (FR),Border Inspection Posts (BIPs),250
+ICID00030053,2017-06-20,Food Additives & Flavourings,Non-Alcoholic Beverages,Netherlands (NL),Local Authority,528
+ICID00030061,2017-06-21,Pathogenic Micro-Organisms,Dietetic Food / Food Supplements / Fortified Foods,United States (US),Third Country,840
+ICID00030067,2017-06-22,Pesticide Residues,Fruit & Vegetables,Benin (BJ),Border Inspection Posts (BIPs),204
+ICID00030070,2017-06-22,Clandestine Detection,Cereals & Bakery Products,France (FR),Home Office / Border Force,250
+ICID00030072,2017-06-22,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00030073,2017-06-23,Mycotoxins,Cereals & Bakery Products,Poland (PL),RASFF,616
+ICID00030075,2017-06-23,Biotoxins (other),Fish & Fish Products,India (IN),Local Authority,356
+ICID00030076,2017-06-23,Heavy Metals,Fish & Fish Products,Taiwan (TW),Local Authority,158
+ICID00030077,2017-06-23,Poor or Insufficient Controls,Non-Alcoholic Beverages,France (FR),Border Inspection Posts (BIPs),250
+ICID00030078,2017-06-23,Poor or Insufficient Controls,Prepared Dishes & Snacks,India (IN),Local Authority,356
+ICID00030079,2017-06-23,Pesticide Residues,Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00030082,2017-06-23,Heavy Metals,Dietetic Food / Food Supplements / Fortified Foods,India (IN),Local Authority,356
+ICID00030084,2017-06-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030087,2017-06-24,Clandestine Detection,Fruit & Vegetables,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00030090,2017-06-25,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00030093,2017-06-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030094,2017-06-26,Poor or Insufficient Controls,Fruit & Vegetables,Nigeria (NG),Port Health Authority (PHA),566
+ICID00030095,2017-06-26,Poor or Insufficient Controls,Prepared Dishes & Snacks,China (CN),Local Authority,156
+ICID00030096,2017-06-26,Mycotoxins,Fish & Fish Products,Taiwan (TW),Border Inspection Posts (BIPs),158
+ICID00030098,2017-06-26,Labelling Absent / Incomplete / Incorrect,Alcoholic Beverages,Spain (ES),Local Authority,724
+ICID00030101,2017-06-27,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030106,2017-06-27,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030107,2017-06-27,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030108,2017-06-27,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030109,2017-06-27,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00030110,2017-06-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030114,2017-06-28,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00030116,2017-06-28,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00030118,2017-06-28,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Local Authority,356
+ICID00030124,2017-06-29,Composition,Dietetic Food / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00030125,2017-06-29,Chemical Contamination (other),Fish & Fish Products,India (IN),RASFF,356
+ICID00030126,2017-06-29,Pathogenic Micro-Organisms,Fruit & Vegetables,France (FR),Local Authority,250
+ICID00030127,2017-06-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00030128,2017-06-30,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00030129,2017-06-30,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Belgium (BE),RASFF,56
+ICID00030131,2017-06-29,Allergens,Confectionery,Denmark (DK),Local Authority,208
+ICID00030132,2017-06-30,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Local Authority,356
+ICID00029730,2017-05-01,Labelling Absent / Incomplete / Incorrect,Fats & Oils,Ghana (GH),Border Inspection Posts (BIPs),288
+ICID00029738,2017-05-03,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Border Inspection Posts (BIPs),404
+ICID00029741,2017-05-03,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Local Authority,616
+ICID00029742,2017-05-03,Pesticide Residues,Fruit & Vegetables,Turkey (TR),RASFF,792
+ICID00029745,2017-05-03,Pesticide Residues,Non-Alcoholic Beverages,China (CN),Border Inspection Posts (BIPs),156
+ICID00029746,2017-05-04,Clandestine Detection,Fruit & Vegetables,Belgium (BE),Home Office / Border Force,56
+ICID00029747,2017-05-04,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029748,2017-05-04,Allergens,Confectionary,Netherlands (NL),RASFF,528
+ICID00029754,2017-05-05,Clandestine Detection,Herbs & Spices,Czech Republic (DO),Home Office / Border Force,214
+ICID00029755,2017-05-04,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029756,2017-05-04,Labelling Absent / Incomplete / Incorrect,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029761,2017-05-05,Pesticide Residues,Fruits & Vegetables,Turkey (TR),RASFF,792
+ICID00029765,2017-05-05,Food Additives & Flavourings,Non-Alcoholic Beverages,United States (US),Local Authority,840
+ICID00029766,2017-05-05,Migration,Food Contact Materials,China (CN),RASFF,156
+ICID00029771,2017-05-07,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029773,2017-05-07,Clandestine Detection,Fruit & Vegetables,Romania (RO),Home Office / Border Force,642
+ICID00029774,2017-05-08,Clandestine Detection,Fruit & Vegetables,Spain (ES),Police,724
+ICID00029778,2017-05-08,Clandestine Detection,Fruit & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00029781,2017-05-09,Mycotoxins,Nuts / Nut Products / Seeds,Ghana (GH),Border Inspection Posts (BIPs),288
+ICID00029782,2017-05-09,Mycotoxins,Nuts / Nut Products / Seeds,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00029783,2017-05-09,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00029788,2017-05-09,Composition,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),Local Authority,840
+ICID00029793,2017-05-10,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Border Inspection Posts (BIPs),616
+ICID00029798,2017-05-10,Clandestine Detection,Milk & Milk Products,France (FR),Border Inspection Posts (BIPs),250
+ICID00029801,2017-05-09,Poor or Insufficient Controls,Gastropods,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00029802,2017-05-10,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),France (FR),Food Standards Scotland (FSS),250
+ICID00029803,2017-05-09,Pesticide Residues,Fruit & Vegetables,Uganda (UG),Border Inspection Posts (BIPs),800
+ICID00029804,2017-05-10,Chemical Contamination (other),Nuts / Nut Products / Seeds,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00029812,2017-05-11,Mycotoxins,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00029813,2017-05-11,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029815,2017-05-11,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029816,2017-05-11,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029823,2017-05-12,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029824,2017-05-12,Pathogenic Micro-Organisms,Milk & Milk Products,France (FR),RASFF,250
+ICID00029827,2017-05-15,Poor or Insufficient Controls,Fish and Fish Products,Ghana (GH),Local Authority,288
+ICID00029828,2017-05-12,Food Additives & Flavourings,Confectionery,Malaysia (MY),FSA Operations Group,458
+ICID00029831,2017-05-15,Migration,Food Contact Materials,China (CN),Border Inspection Posts (BIPs),156
+ICID00029833,2017-05-15,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00029835,2017-05-15,Poor or Insufficient Controls,Fish & Fish Products,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00029836,2017-05-15,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Spain (ES),Industry,724
+ICID00029840,2017-05-16,Allergens,Fruit & Vegetables,France (FR),Industry,250
+ICID00029842,2017-05-17,Poor or Insufficient Controls,Fish & Fish Products,Spain (ES),Port Health Authority (PHA),724
+ICID00029845,2017-05-17,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029846,2017-05-17,Pesticide Residues,Cereals & Bakery Products,United States (US),Border Inspection Posts (BIPs),840
+ICID00029849,2017-05-18,Migration,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00029856,2017-05-18,Clandestine Detection,Herbs & Spices,Poland (PL),Home Office / Border Force,616
+ICID00029857,2017-05-19,Clandestine Detection,Non-Alcoholic Beverages,Spain (ES),Home Office / Border Force,724
+ICID00029864,2017-05-18,Food Additives & Flavourings,Non-Alcoholic Beverages,United Arab Emirates (AE),Border Inspection Posts (BIPs),784
+ICID00029866,2017-05-19,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),RASFF,76
+ICID00029867,2017-05-19,Novel Food,Dietetic Foods / Food Supplements / Fortified Foods,United States (US),RASFF,840
+ICID00029869,2017-05-18,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00029870,2017-05-18,Poor or Insufficient Controls,Nuts / Nut Products / Seeds,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00029871,2017-05-19,Pesticide Residues,Non-Alcoholic Beverages,Morocco (MA),Border Inspection Posts (BIPs),504
+ICID00029872,2017-05-19,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00029874,2017-05-22,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029875,2017-05-22,Poor or Insufficient Controls,Fish & Fish Products,Turkey (TR),European Commission (EC),792
+ICID00029877,2017-05-22,Poor or Insufficient Controls,Fish & Fish Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00029879,2017-05-22,Labelling Absent / Incomplete / Incorrect,Dietetic Foods / Food Supplements / Fortified Foods,China (CN),Local Authority,156
+ICID00029880,2017-05-22,Poor or Insufficient Controls,Fish & Fish Products,Turkey (TR),Border Inspection Posts (BIPs),792
+ICID00029881,2017-05-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029886,2017-05-23,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00029887,2017-05-23,Poor or Insufficient Controls,Confectionery,India (IN),Border Inspection Posts (BIPs),356
+ICID00029888,2017-05-23,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029889,2017-05-24,Labelling Absent / Incomplete / Incorrect,Fish & Fish Products,Netherlands (NL),RASFF,528
+ICID00029890,2017-05-12,Labelling Absent / Incomplete / Incorrect,Nuts / Nut Products / Seeds,Ireland (IE),Local Authority,372
+ICID00029891,2017-05-24,Mycotoxins,Nuts / Nut Products / Seeds,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00029894,2017-05-24,Allergens,Alcoholic Beverages,France (FR),Industry,250
+ICID00029899,2017-05-24,Allergens,Herbs & Spices,Denmark (DK),RASFF,208
+ICID00029900,2017-05-24,Clandestine Detection,Other Food Product / Mixed,Poland (PL),Police,616
+ICID00029903,2017-05-25,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029911,2017-05-26,Heavy Metals,Fruits & Vegetables,France (FR),RASFF,250
+ICID00029914,2017-05-26,Poor or Insufficient Controls,Crustaceans & Products Thereof,United States (US),Border Inspection Posts (BIPs),840
+ICID00029917,2017-05-26,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029918,2017-05-26,Clandestine Detection,Fruit & Vegetables,Italy (IT),Home Office / Border Force,380
+ICID00029919,2017-05-27,Clandestine Detection,Fruit & Vegetables,Spain (ES),Home Office / Border Force,724
+ICID00029923,2017-05-28,Clandestine Detection,Fish & Fish Products,Norway (NO),Home Office / Border Force,578
+ICID00029929,2017-05-26,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Local Authority,616
+ICID00029931,2017-05-30,Pathogenic Micro-Organisms,Prepared Dishes & Snacks,France (FR),RASFF,250
+ICID00029932,2017-05-31,Clandestine Detection,Herbs & Spices,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00029933,2017-05-30,Pesticide Residues,Fruits & Vegetables,Dominican Republic (DO),Border Inspection Posts (BIPs),214
+ICID00029934,2017-05-31,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00029935,2017-05-31,Food Additives & Flavourings,Non-Alcoholic Beverages,United States (US),Local Authority,840
+ICID00029936,2017-05-30,Composition,Dietetic Foods / Food Supplements / Fortified Foods,Poland (PL),Local Authority,616
+ICID00029939,2017-05-31,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Port Health Authority (PHA),76
+ICID00029951,2017-05-24,Pathogenic Micro-Organisms,Nuts / Nut Products / Seeds,Nigeria (NG),RASFF,566
+ICID00029550,2017-04-01,Clandestine Detection,Milk & Milk Products,Poland (PL),Home Office/Border Force,616
+ICID00029552,2017-04-02,Clandestine Detection,Fruits & Vegetables,Spain (ES),Police,724
+ICID00029553,2017-04-03,Clandestine Detection,Confectionery,Romania (RO),Home Office/Border Force,642
+ICID00029555,2017-04-03,Foreign Bodies,Prepared Dishes & Snacks,Italy (IT),Local Authority,380
+ICID00029562,2017-04-04,Pathogenic Micro-Organisms,Milk & Milk Products,China (CN),Border Inspection Posts (BIPs),156
+ICID00029563,2017-04-03,Mycotoxins,Nuts/Nut Products/Seeds,India (IN),Port Health Authority (PHA),356
+ICID00029564,2017-04-03,Mycotoxins,Nuts/Nut Products/Seeds,India (IN),Port Health Authority (PHA),356
+ICID00029565,2017-04-04,Clandestine Detection,Fruits & Vegetables,Spain (ES),Home Office/Border Force,724
+ICID00029566,2017-04-04,Mycotoxins,Herbs & Spices,India (IN),RASFF,356
+ICID00029568,2017-04-04,Pesticide Residues,Fruits & Vegetables,Nigeria (NG),Port Health Authority (PHA),566
+ICID00029569,2017-04-04,Clandestine Detection,Other Food Product/Mixed,France (FR),Police,250
+ICID00029578,2017-04-05,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Spain (ES),Industry,724
+ICID00029582,2017-04-06,Mycotoxins,Nuts/Nut Products/Seeds,China (CN),Border Inspection Posts (BIPs),156
+ICID00029583,2017-04-06,Pathogenic Micro-Organisms,Cereals & Bakery Products,Ireland (IE),EU Member States,372
+ICID00029585,2017-04-06,Mycotoxins,Herbs & Spices,Nigeria (NG),RASFF,566
+ICID00029587,2017-04-07,Mycotoxins,Nuts/Nut Products/Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00029588,2017-04-07,Pathogenic Micro-Organisms,Nuts/Nut Products/Seeds,India (IN),Border Inspection Posts (BIPs),356
+ICID00029589,2017-04-07,Adulteration / Fraud,Herbs & Spices,Islamic Republic of Iran (IR),Local Authority,364
+ICID00029593,2017-04-09,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Romania (RO),Border Inspection Posts (BIPs),642
+ICID00029596,2017-04-10,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Spain (ES),Border Inspection Posts (BIPs),724
+ICID00029598,2017-04-11,Novel Food,Dietetic Foods/Food Supplements/Fortified Foods,Poland (PL),EU Member States,616
+ICID00029599,2017-04-11,Mycotoxins,Herbs & Spices,Pakistan (PK),Border Inspection Posts (BIPs),586
+ICID00029601,2017-04-11,Poor or Insufficient Controls,Cereals & Bakery Products,Australia (AU),General Public,36
+ICID00029602,2017-04-10,Labelling (absent / incomplete / incorrect),Fruits & Vegetables,Uganda (UG),Border Inspection Posts (BIPs),800
+ICID00029607,2017-04-11,Pathogenic Micro-Organisms,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029609,2017-04-12,Poor or Insufficient Controls,Non-Alcoholic Beverages,China (CN),Border Inspection Posts (BIPs),156
+ICID00029610,2017-04-12,Foreign Bodies,Meat & Meat Products (other than poultry),Poland (PL),Local Authority,616
+ICID00029613,2017-04-13,Poor or Insufficient Controls,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029614,2017-04-14,Allergens,Confectionary,Bulgaria (BG),Industry,100
+ICID00029615,2017-04-13,Food Additives & Flavourings,Herbs & Spices,India (IN),Local Authority,356
+ICID00029616,2017-04-12,Residues or Veterinary Medicinal Products,Meat & Meat Products (other than poultry),Ireland (IE),Department of Agriculture & Rural Development (DARD),372
+ICID00029618,2017-04-14,Clandestine Detection,Fruits & Vegetables,Portugal (PT),Home Office/Border Force,620
+ICID00029620,2017-04-17,Poor or Insufficient Controls,Fish & Fish Products,India (IN),Border Inspection Posts (BIPs),356
+ICID00029626,2017-04-14,Residues or Veterinary Medicinal Products,Meat & Meat Products (other than poultry),Ireland (IE),Department of Agriculture & Rural Development (DARD),372
+ICID00029627,2017-04-13,Poor or Insufficient Controls,Fruits & Vegetables,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00029629,2017-04-18,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029630,2017-04-18,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029632,2017-04-18,Poor or Insufficient Controls,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029638,2017-04-19,Pesticide Residues,Fruits & Vegetables,Brazil (BR),Public Analyst/Laboratory,76
+ICID00029639,2017-04-20,Packaging (defective / incorrect),Fish & Fish Products,Vietnam (VN),Border Inspection Posts (BIPs),704
+ICID00029645,2017-04-20,Foreign Bodies,Fruits & Vegetables,Egypt (EG),National Crime Agency (NCA),818
+ICID00029649,2017-04-20,Organoleptic Aspects,Dietetic Foods/Food Supplements/Fortified Foods,Germany (DE),Administrative Assistance and Cooperation System (AAC),276
+ICID00029651,2017-04-20,Allergens,Confectionery,Belgium (BE),Local Authority,56
+ICID00029652,2017-04-20,Mycotoxins,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00029655,2017-04-20,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029656,2017-04-21,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029657,2017-04-21,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029658,2017-04-23,Clandestine Detection,Fruits & Vegetables,Ireland (IE),Home Office/Border Force,372
+ICID00029667,2017-04-24,Food Additives & Flavourings,Confectionery,China (CN),Border Inspection Posts (BIPs),156
+ICID00029668,2017-04-24,Foreign Bodies,Fruits & Vegetables,Italy (IT),RASFF,380
+ICID00029676,2017-04-25,Poor or Insufficient Controls,Fruits & Vegetables,Spain (ES),Border Inspection Posts (BIPs),724
+ICID00029679,2017-04-13,Novel Food,Dietetic Foods/Food Supplements/Fortified Foods,United States (US),RASFF,840
+ICID00029680,2017-04-24,Pesticide Residues,Fruits & Vegetables,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00029681,2017-04-25,Poor or Insufficient Controls,Cephalopods & Products Thereof,New Zealand (NZ),Border Inspection Posts (BIPs),554
+ICID00029682,2017-04-25,Novel Food,Dietetic Foods/Food Supplements/Fortified Foods,Poland (PL),Administrative Assistance and Cooperation System (AAC),616
+ICID00029685,2017-04-25,Heavy Metals,Herbs & Spices,India (IN),Industry,356
+ICID00029687,2017-04-25,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Netherlands (NL),RASFF,528
+ICID00029691,2017-04-26,Pathogenic Micro-Organisms,Poultry Meat & Poultry Meat Products,Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029694,2017-04-26,Clandestine Detection,Milk & Milk Products,France (FR),Home Office/Border Force,250
+ICID00029696,2017-04-26,Poor or Insufficient Controls,Herbs & Spices,Ethiopia (ET),Border Inspection Posts (BIPs),231
+ICID00029699,2017-04-27,Mycotoxins,Feed Materials,India (IN),Border Inspection Posts (BIPs),356
+ICID00029701,2017-04-26,Residues or Veterinary Medicinal Products,Meat & Meat Products (other than poultry),Ireland (IE),Department of Agriculture & Rural Development (DARD),372
+ICID00029703,2017-04-26,Poor or Insufficient Controls,Fish & Fish Products,Nigeria (NG),Border Inspection Posts (BIPs),566
+ICID00029706,2017-04-27,Novel Food,Dietetic Foods/Food Supplements/Fortified Foods,Poland (PL),Administrative Assistance and Cooperation System (AAC),616
+ICID00029708,2017-04-27,Radiation,Dietetic Foods/Food Supplements/Fortified Foods,United States (US),RASFF,840
+ICID00029709,2017-04-27,Adulteration / Fraud,Meat & Meat Products (other than poultry),Nigeria (NG),Local Authority,566
+ICID00029713,2017-04-27,Chemical Contamination (other),Cereals & Bakery Products,Netherlands (NL),Administrative Assistance and Cooperation System (AAC),528
+ICID00029715,2017-04-27,Adulteration / Fraud,Confectionery,China (CN),Port Health Authority (PHA),156
+ICID00029716,2017-04-27,Foreign Bodies,Other Food Product/Mixed,Turkey (TR),Local Authority,792
+ICID00029717,2017-04-27,Clandestine Detection,Cereals & Bakery Products,Romania (RO),Home Office/Border Force,642
+ICID00029718,2017-04-27,Food Additives & Flavourings,Confectionery,Malaysia (MY),Border Inspection Posts (BIPs),458
+ICID00029719,2017-04-27,Pesticide Residues,Fruits & Vegetables,India (IN),Border Inspection Posts (BIPs),356
+ICID00029720,2017-04-27,Allergens,Dietetic Foods/Food Supplements/Fortified Foods,Canada (CA),Industry,124
+ICID00029721,2017-04-28,Pesticide Residues,Herbs & Spices,India (IN),Border Inspection Posts (BIPs),356
+ICID00029722,2017-04-28,Pathogenic Micro-Organisms,Meat & Meat Products (other than poultry),Brazil (BR),Border Inspection Posts (BIPs),76
+ICID00029723,2017-04-28,Chemical Contamination (other),Fish & Fish Products,Senegal (SN),Industry,686
+ICID00029724,2017-04-28,Pesticide Residues,Fruits & Vegetables,Kenya (KE),Border Inspection Posts (BIPs),404
+ICID00029726,2017-04-28,Poor or Insufficient Controls,Fish & Fish Products,Morocco (MA),Border Inspection Posts (BIPs),504
+ICID00029727,2017-04-28,Mycotoxins,Feed Premixtures,Egypt (EG),Border Inspection Posts (BIPs),818
+ICID00029744,2017-04-20,Labelling (absent / incomplete / incorrect),Dietetic foods/Food supplements/Fortified foods,Netherlands (NL),Local Authority,528
+ICID00029883,2017-04-27,Chemical Contamination (other),Non-Alcoholic Beverages,Nigeria (NG),General Public,566

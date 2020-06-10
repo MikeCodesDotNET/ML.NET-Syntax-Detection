@@ -1,0 +1,14 @@
+ import UserModel from '../models/user';
+  import CompanyModel from '../models/company';
+  import SalaryModel from '../models/salary';
+
+  export default class UserService() {
+
+    async Signup(user) {
+      const userRecord = await this.userModel.create(user);
+      const companyRecord = await this.companyModel.create(user);
+      this.eventEmitter.emit('user_signup', { user: userRecord, company: companyRecord })
+      return userRecord
+    }
+
+  }

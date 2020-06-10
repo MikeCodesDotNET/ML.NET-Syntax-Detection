@@ -1,0 +1,10 @@
+const test = require('baretest')
+      assert = require('assert')
+
+test('Proove that 1 == 1', () => {
+  assert.ok(1 == 1)
+})
+
+test.only('1 + 1 should equal 2', () => {
+  assert.equal(1+1, 2)
+})

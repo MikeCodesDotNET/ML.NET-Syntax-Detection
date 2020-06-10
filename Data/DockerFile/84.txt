@@ -1,0 +1,27 @@
+FROM mcr.microsoft.com/dotnet/core-nightly/sdk:3.0.100-rc1-alpine3.9 AS build
+
+# REMOVE THIS ONCE A DECENT VERSION COMES OUT
+WORKDIR /dotnet22
+RUN wget "https://download.visualstudio.microsoft.com/download/pr/bcf3b2eb-a5ed-4829-b2c9-6fc5d41f79e2/30dfae04f6bb726fd763d52f0a42501a/dotnet-sdk-2.2.300-linux-musl-x64.tar.gz"
+RUN tar zxvf dotnet-sdk-2.2.300-linux-musl-x64.tar.gz
+RUN rm dotnet-sdk-2.2.300-linux-musl-x64.tar.gz
+RUN cp -Rapf ./shared/Microsoft.NETCore.App/2.2.5 /usr/share/dotnet/shared/Microsoft.NETCore.App
+RUN cp -Rapf ./sdk/2.2.300 /usr/share/dotnet/sdk/
+ENV LD_LIBRARY_PATH="/usr/share/dotnet/shared/Microsoft.NETCore.App/2.2.5:${LD_LIBRARY_PATH}"
+# /REMOVE
+
+WORKDIR /src
+RUN dotnet restore SampleProject/SampleProject.csproj
+COPY . .
+
+WORKDIR /src/SampleProject
+RUN dotnet build SampleProject.csproj -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish SampleProject.csproj -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+
+ENTRYPOINT ["dotnet", "SampleProject.dll"]

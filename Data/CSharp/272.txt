@@ -1,0 +1,50 @@
+public async Task<Dictionary<Permission, PermissionStatus>> RequestPermissionsAsync(params Permission[] permissions)
+{
+    var results = new Dictionary<Permission, PermissionStatus>();
+    foreach (var permission in permissions)
+    {
+        if (results.ContainsKey(permission))
+            continue;
+
+        switch (permission)
+        {
+            case Permission.Calendar:
+                results.Add(permission, await RequestEventPermission(EKEntityType.Event));
+                break;
+            case Permission.Camera:
+                results.Add(permission, await RequestAVPermissionStatusAsync(AVMediaType.Video));
+                break;
+            case Permission.Contacts:
+                results.Add(permission, await RequestContactsPermission());
+                break;
+            case Permission.LocationWhenInUse:
+            case Permission.LocationAlways:
+            case Permission.Location:
+                results.Add(permission, await RequestLocationPermission(permission));
+                break;
+            case Permission.MediaLibrary:
+                results.Add(permission, await RequestMediaLibraryPermission());
+                break;
+            case Permission.Microphone:
+                results.Add(permission, await RequestAVPermissionStatusAsync(AVMediaType.Audio));
+                break;
+            case Permission.Photos:
+                results.Add(permission, await RequestPhotosPermission());
+                break;
+            case Permission.Reminders:
+                results.Add(permission, await RequestEventPermission(EKEntityType.Reminder));
+                break;
+            case Permission.Sensors:
+                results.Add(permission, await RequestSensorsPermission());
+                break;
+            case Permission.Speech:
+                results.Add(permission, await RequestSpeechPermission());
+                break;
+        }
+
+        if (!results.ContainsKey(permission))
+            results.Add(permission, PermissionStatus.Granted);
+    }
+
+    return results;
+}

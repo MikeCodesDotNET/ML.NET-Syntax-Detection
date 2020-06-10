@@ -1,0 +1,3 @@
+
+include:
+  - local: 'install.yml' # path to `install.yml`

@@ -1,0 +1,19 @@
+FROM app:dev as dev
+RUN yarn --production
+
+# Stage 1 - Create the final production image
+# Only copy the necessary source files over from the dev image.
+# Since we're starting from a fresh Node image, we don't have
+# any of the non-essential Alpine build dependencies available anymore.
+#
+# Thankfully, this no longer matters since our build steps are already
+# completed and we no longer need any bloated build dependencies.
+FROM node:10.16.3-alpine
+WORKDIR /var/app
+
+# Copy production app files over
+COPY --from=dev /var/app/node_modules ./node_modules
+COPY --from=dev /var/app/lib ./lib
+COPY --from=dev /var/app/app.js ./app.js
+
+CMD ["node","app.js"]

@@ -1,0 +1,12 @@
+test("user is able to convert from fahrenheit to celsius", () => {
+  render(<App />);
+  const fahrenheitOption = screen.getByLabelText("Fahrenheit to Celsius");
+  userEvent.click(fahrenheitOption);
+  const input = screen.getByLabelText("Temperature:");
+  userEvent.type(input, "77");
+  expect(screen.getByText("77ºF equals to 25ºC")).toBeTruthy();
+  userEvent.type(input, "32");
+  expect(screen.getByText("32ºF equals to 0ºC")).toBeTruthy();
+  userEvent.type(input, "banana");
+  expect(screen.queryByTestId("result")).toBeFalsy();
+});

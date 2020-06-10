@@ -1,0 +1,5 @@
+let random = function(){
+    return Math.random()
+}
+
+let giveMeRandom = random // assigning random to a variable

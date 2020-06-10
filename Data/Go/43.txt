@@ -1,0 +1,14 @@
+package main
+
+import (  
+    "fmt"
+)
+
+func main() {  
+    x, y := 2.12, 5.4
+
+    sum := x + y
+    diff := x - y
+
+    fmt.Println("the sum: ", sum, "diff: ", diff)
+}

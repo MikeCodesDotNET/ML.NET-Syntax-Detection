@@ -1,0 +1,16 @@
+func (h Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+    err := h(w, r)
+    if err == nil {
+        return
+    }
+
+    appError := new(errors2.AppError)
+    if errors.As(err, &appError) { // client error
+        writeError(w, err.Error(), errTypeStatusCode(appError.Type()))
+        return
+    }
+
+    // server error
+    log.Println("server error:", err)
+    writeError(w, "Internal Server Error", http.StatusInternalServerError)
+}

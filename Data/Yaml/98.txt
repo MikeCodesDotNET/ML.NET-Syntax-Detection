@@ -1,0 +1,12 @@
+version: 1
+environments:
+  production:
+    # Important to everyone see how to deploy
+    respond_in_channel: true
+    # For notifications
+    channel: ops
+    checks:
+      - buildkite/mono-tests
+    auto_deploy:
+      # auto deploy master
+      ref: refs/heads/master

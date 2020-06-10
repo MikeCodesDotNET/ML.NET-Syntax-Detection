@@ -1,0 +1,6 @@
+public string Text { get; set; } = "Click the button to change this.";
+public async void GetText()
+{
+    Text = await ExampleJsInterop.Prompt(JsRuntime, "Enter your text:");
+    StateHasChanged();
+}

@@ -1,0 +1,10 @@
+using System.Threading.Tasks;
+using GraphQL;
+using Microsoft.AspNetCore.Mvc;
+using Api.Graphql;
+
+[Route("graphql")]
+[ApiController]
+public class GraphqlController: ControllerBase 
+{
+}

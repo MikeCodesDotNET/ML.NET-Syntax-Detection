@@ -1,0 +1,5 @@
+public MonkeysPage()
+{
+    InitializeComponent();
+    BindingContext = new MonkeysViewModel();
+}

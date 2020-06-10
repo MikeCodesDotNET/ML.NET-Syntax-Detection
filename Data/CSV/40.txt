@@ -1,0 +1,4 @@
+--num-envs,1,2,4,6,8
+(Single Process),49.7,55.3,44.6,29.3,17.5
+(Multiprocess) -mp,53,106.5,148.5,148.5,122.7
+(Multiprocess) -mp -gpus 2,N.A.,108.8,171.1,177.1,128.7

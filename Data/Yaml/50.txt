@@ -1,0 +1,8 @@
+# Nineteen eighty four novel data.
+nineteen-eighty-four:
+    author: George Orwell
+    published-at: 1949-06-08
+    page-count: 328
+    description: |
+        A Novel, often published as 1984, is a dystopian novel by English novelist George Orwell.
+        It was published in June 1949 by Secker & Warburg as Orwell's ninth and final book.

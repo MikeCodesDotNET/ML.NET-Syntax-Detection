@@ -1,0 +1,15 @@
+import firebase from "firebase";
+
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyC9J2hIQ1XQFZZZZZZZZZZZZZZZZZ",
+  authDomain: "employee-crud-ZZZZZZZZZ.firebaseapp.com",
+  databaseURL: "https://employee-crud-ZZZZZZ.firebaseio.com",
+  projectId: "employee-crud-XXXXXXXX",
+  storageBucket: "employee-crud-ZZZZZ.appspot.com",
+  messagingSenderId: "8761301111111",
+  appId: "1:87613015171:web:e60ee5139c5ZZZZZZZ"
+};
+
+// Initialize Firebase
+export default firebase.initializeApp(firebaseConfig);

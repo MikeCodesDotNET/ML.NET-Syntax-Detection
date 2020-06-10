@@ -1,0 +1,15 @@
+0. Source,     https://github.com/qqwweee/keras-yolo3, ,
+1. Training,   1.1. create mydata_train.txt, , ref: train.txt
+,              1.2. create mydata_class.txt, , ref: model_data/voc_classes.txt
+,              1.3. change train.py to train_mydata.py, 1.3.1. annotation_path = 'mydata_train.txt', ref: 1.1
+,                                          , 1.3.2. classes_path = 'model_data/mydata_classes.txt', ref: 1.2
+,                                          , 1.3.3. create_model with load_pretrained=False, optional (if pre-trained weight doesn't work)
+,                                          , 1.3.4. model.save('mymodel.h5'), save model and weight for prediction
+,                                          , 1.3.5. change epochs from 50 to 5, optional (check if it works or not)
+,                                          , 1.3.6. change batch_size from 32 to 8, optional (if it has some memory problems) 
+,                                          , 1.3.7. remove training in the second stage, optional (if the first stage is without pre-trained weight)
+,              1.4. python train_mydata.py, ,
+2. Detection,  2.1 change yolo.py,           2.1.1. change model_path to 'mymodel.h5', ref: 1.3.4
+,                                          , 2.1.2. change classes_path to 'model_data/mydata_classes.txt', ref: 1.3.2
+,                                          , 2.1.3. change score to 0.0, optional (for debug/if no object is detected)
+,              2.2 python yolo_video.py --image, ,

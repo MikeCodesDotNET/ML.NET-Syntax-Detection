@@ -1,0 +1,22 @@
+type getBookResponse struct {
+    Book *models.Book `json:"book"`
+}
+
+func (u handler) GetBook(w http.ResponseWriter, r *http.Request) error {
+    // ...
+    return responses.OK("We found your book!", getBookResponse{retrievedBook}).ToJSON(w)
+}
+
+// handlers/handler.go
+func (h Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+    // ...
+
+    if errors.As(err, &appError) { // client error
+        responses.Fail(err.Error(), errTypeStatusCode(appError.Type())).ToJSON(w)
+        return
+    }
+
+    // server error
+    log.Println("server error:", err)
+    responses.Fail("Internal Server Error", http.StatusInternalServerError).ToJSON(w)
+}

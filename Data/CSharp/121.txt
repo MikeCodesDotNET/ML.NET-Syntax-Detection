@@ -1,0 +1,3 @@
+shipmentServiceMock.Verify(s => s.Ship(addressInfoMock.Object, items.AsEnumerable()), Times.Once());
+
+Assert.AreEqual("charged", result);

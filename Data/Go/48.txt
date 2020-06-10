@@ -1,0 +1,5 @@
+  type A struct {
+    Model // hello, I'm embedding myself into A
+
+    Name string `sql:",notnull" json:"name"`
+  }

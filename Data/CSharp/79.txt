@@ -1,0 +1,15 @@
+[FunctionName("GetBookmark")]
+public static IActionResult GetBookmark(
+  [HttpTrigger(AuthorizationLevel.Function, "get", Route=null)] HttpRequest req,
+  [CosmosDB(
+  "database-chris",
+  "Bookmarks",
+  ConnectionStringSetting = "CosmosDB", 
+  Id = "id",
+  PartitionKey = "{Query.id}"
+)]Bookmark bookmark, 
+  ILogger log
+)
+{
+  return (ActionResult) new OkObjectResult(bookmark);
+}

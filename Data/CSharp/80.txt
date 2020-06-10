@@ -1,0 +1,14 @@
+[FunctionName("CreateBookmark")]
+ public static IActionResult CreateBookmark(
+        [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route=null)] HttpRequest req,
+        [CosmosDB("database-chris","Bookmarks",
+            ConnectionStringSetting = "CosmosDB")]out dynamic bookmark,
+            ILogger log
+    ) {
+        string id = req.Query["id"];
+        string url = req.Query["url"];
+
+        bookmark = new { id = id, url = url };
+
+        return (ActionResult)new OkObjectResult("created");
+    }

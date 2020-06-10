@@ -1,0 +1,19 @@
+<script>
+export default {
+  data() {
+    return {
+      name: 'Flavio'
+    }
+  },
+  methods: {
+    changeName: function() {
+      this.name = 'Flavius'
+    }
+  },
+  watch: {
+    name: function() {
+      console.log(this.name)
+    }
+  }
+}
+</script>

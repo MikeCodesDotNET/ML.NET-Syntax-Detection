@@ -1,0 +1,9 @@
+FROM php:7.2-fpm
+
+# Necessary packages for PDO PgSQL
+# See https://github.com/docker-library/php/issues/221
+RUN apt-get update && apt-get install -y libpq-dev \
+  && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
+  && docker-php-ext-install pdo pdo_pgsql pgsql
+
+RUN docker-php-ext-install pdo_pgsql

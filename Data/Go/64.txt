@@ -1,0 +1,6 @@
+data := make(map[string]int)
+data["result"] = 20
+val, ok := data["result"] // returns false if key isn't found
+if !ok {
+    log.info("Value for key not found!!")
+}

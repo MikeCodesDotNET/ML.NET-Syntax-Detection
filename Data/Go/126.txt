@@ -1,0 +1,18 @@
+func (u handler) GetBook(w http.ResponseWriter, r *http.Request) error {
+
+    if {
+        return errors.Error("invalid vendor ID")
+    }
+
+  
+}
+
+// errors/error.go
+const (
+    TypeBadRequest Type = "bad_request_error"
+    TypeNotFound Type = "not_found_error"
+)
+
+func Error(text string) error {
+    return &AppError{text: text, errType: TypeBadRequest}
+}

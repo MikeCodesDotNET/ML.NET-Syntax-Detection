@@ -1,0 +1,2 @@
+var jsonStr = File.ReadAllText("rules.json");
+var jsonDocument = JsonDocument.Parse(jsonStr);

@@ -1,0 +1,8 @@
+# The following value should be an int, no matter what:
+should-be-int: !!int 3.2
+
+# Parse any value to string:
+should-be-string: !!str 30.25
+
+# I need the next value to be boolean:
+should-be-boolean: !!bool yes

@@ -1,0 +1,7 @@
+var conditions = ParseTree<T>(doc.RootElement, itemExpression);
+if (conditions.CanReduce)
+{
+    conditions = conditions.ReduceAndCheck();
+}
+var query = Expression.Lambda<Func<T, bool>>(conditions, itemExpression);
+return query.Compile();

@@ -1,0 +1,8 @@
+var client = new CosmosClient(
+   "[CosmosEndpoint]",
+   "[CosmosKey]",
+   new CosmosClientOptions()
+   {
+      ConnectionMode = ConnectionMode.Gateway,
+      LimitToEndpoint = true
+   });

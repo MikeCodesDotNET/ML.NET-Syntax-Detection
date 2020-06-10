@@ -1,0 +1,6 @@
+readonly WeakEventManager weakEventManager = new WeakEventManager();
+public event EventHandler CanExecuteChanged
+{
+    add { weakEventManager.AddEventHandler(value); }
+    remove { weakEventManager.RemoveEventHandler(value); }
+}

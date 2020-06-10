@@ -1,0 +1,11 @@
+async Task Connect()
+{
+    try
+    {                
+        await hubConnection.StartAsync();
+    }
+    catch (Exception ex)
+    {
+        // Something has gone wrong
+    }
+}

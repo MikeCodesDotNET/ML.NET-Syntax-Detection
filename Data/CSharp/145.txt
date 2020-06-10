@@ -1,0 +1,9 @@
+switch(character) 
+{
+    case Hero hero1:
+        ability = hero1.Healing();
+        break;
+    case Villain villain1:
+        ability = villain1.Lightning();
+        break;
+}

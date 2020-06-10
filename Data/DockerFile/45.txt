@@ -1,0 +1,28 @@
+#stable 4.x 버전
+FROM node:4.1.2
+
+MAINTAINER SangHakLee <code.ryan.lee@gmail.com>
+
+# /home/dev 를 작업 디렉토리로 설정
+RUN mkdir -p /home/dev
+
+WORKDIR /home/dev
+ADD . /home/dev
+
+RUN npm install -g nodemon
+
+# development: 개발 환경 production: 운영환경
+ENV NODE_ENV development
+
+# 소스코드 가져오기 url 부분에 실제 코드 주소 넣기
+# RUN git clone [url]
+
+# config/ 아래 파일은 버전관리 x
+COPY config/ home/dev/config/
+
+RUN npm install
+
+EXPOSE 3000
+
+#nodemon 으로 실행
+CMD ["nodemon", "bin/www"]

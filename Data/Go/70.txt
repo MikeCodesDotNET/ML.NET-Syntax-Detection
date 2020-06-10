@@ -1,0 +1,9 @@
+var tests = []struct {
+    name string
+    word string
+    want []string
+}{
+    {"empty input string", "", []string{}},
+    {"two anagrams", "Protectionism", []string{"Cite no imports", "Nice to imports"}},
+    {"input with space", "Real fun", []string{"funeral"}},
+}

@@ -1,0 +1,3 @@
+var secondQuery = someNumbers.Where(n => n > 10)
+    .OrderByDescending(n => n)
+    .Select(n => n.ToString());

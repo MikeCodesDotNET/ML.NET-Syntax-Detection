@@ -1,0 +1,7 @@
+public int Count { get; set; }
+        
+void ButtonClick_Clicked(object sender, EventArgs e)
+{
+    Count++;
+    OnPropertyChanged(nameof(Count));
+}

@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+  c1 := complex(2, 3)
+  c2 := 2 + 47i
+
+  cadd := c1 + c2
+
+  fmt.Println("sum:", cadd)
+
+  cmul := c1 * c2
+  fmt.Println("product:", cmul)
+}

@@ -1,0 +1,5 @@
+t.Run(tt.name, func(subtest *testing.T) {
+    subtest.Parallel()
+    got := FindAnagrams(tt.word)
+    // assertion
+})

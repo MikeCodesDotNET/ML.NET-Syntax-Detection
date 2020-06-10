@@ -1,0 +1,12 @@
+public class CosmosAuthorizationMessageHandler : AuthorizationMessageHandler
+{
+    public CosmosAuthorizationMessageHandler(
+        IConfiguration config,
+        IAccessTokenProvider provider,
+        NavigationManager navigation) : base(provider, navigation)
+    {
+        var section = config.GetSection(nameof(TokenClient));
+        var endpoint = section.GetValue<string>(nameof(TokenClient.Endpoint));
+        ConfigureHandler(new[] { endpoint });
+    }
+}

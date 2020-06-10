@@ -1,0 +1,12 @@
+FROM soluto/the_other_dockerfile_that_i_havent_named_yet
+
+# Copy in app source and build
+COPY . /app/
+WORKDIR /app
+RUN yarn
+WORKDIR /app/mobile
+RUN yarn build:detox android.release
+
+COPY emulator/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+CMD ["/entrypoint.sh"]

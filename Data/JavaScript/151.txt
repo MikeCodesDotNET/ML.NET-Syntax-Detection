@@ -1,0 +1,15 @@
+import {Head, Link} from 'blitz'
+const Home = () => (
+  <div className="container">
+    <Head>
+      <title>myBlitzApp</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+    <main>
+        <Link href="/projects">
+          <a>/projects</a>
+        </Link>
+    </main>
+  </div>
+)
+export default Home

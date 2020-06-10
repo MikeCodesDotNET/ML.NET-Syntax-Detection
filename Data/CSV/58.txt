@@ -1,0 +1,32 @@
+Tujuan,Berangkat,Sampai,Perkiraan Waktu,Transportasi,Biaya,Keterangan
+Apato-Tokaigakuen-Mae Station,,,,Sepeda,,
+Tokaigakuen-Mae Station - Kumamoto Station,05:31,05:44,±15 menit,JR Hohi Line Local Kumamoto,JR Pass,https://goo.gl/maps/9Fv49rb7EChoVFC28
+Kumamoto Station - Hakata Station,06:01,06:50,49 Menit,Shinkansen,JR Pass,
+Beli One Day Subway Pass,,,,,620 Yen,
+Hakata Subway Station - Ohorikoen Station,,,9 Menit,Subway,One Day Subway Pass,
+Ohorikoen Station - Maizuru Park,,,10 menit,Jalan Kaki,,
+Maizuru Park,,,1 jam,,,
+Maizuru Park - Ohorikoen Station,,,10 menit,Jalan Kaki,,
+Ohorikoen Station - Tenjin Station,,,4 Menit,Subway,One Day Subway Pass,
+Tenjin Station - Saizeriya,,,4 Menit,Jalan kaki,,
+Saizeriya,,,1 jam,,,
+Saizeriya - Tenjin Station,,,4 Menit,Jalan kaki,,
+Tenjin Station - Hakata Subway Station,,,9 Menit,Subway,One Day Subway Pass,
+Hakata Station - Shin-Tosu Station,,,±36 menit,JR Kyushu Shinkansen Sakura Shin-Osaka,JR Pass,
+Shin-Tosu Station - Yoshinogari-Kōen,,,±10 menit,JR Nagasaki Line Local Tosu,JR Pass,
+Yoshinogari-Kōen - Yoshinogari Historical Park,,,±13 menit,,Jalan kaki,
+Yoshinogari Historical Park,,,1 Jam,,,
+Yoshinogari Historical Park - Yoshinogari-Kōen,,,±13 menit,,Jalan kaki,
+Yoshinogari-Kōen - Hizen-Yamaguchi Station,06:59,07:21,±22 menit,JR Kamome 3 Limited Express Nagasaki,JR Pass,
+Hizen-Yamaguchi Station - Takeo-Onsen Station,07:24,07:40,±16 menit,JR Sasebo Line Local Sasebo,JR Pass,
+Takeo-Onsen Station - Takeo no Okutsu,,,,Jalan kaki,,https://www.kyushuandtokyo.org/spot_47/
+Takeo no Okutsu - Takeoonsen Ekiminamiguchi Bus Stop,,,,Jalan kaki,,
+Takeoonsen Ekiminamiguchi Bus Stop - Mifuneyamarakuen Bus Stop,,,±18 menit,Bus,170 Yen,
+Mifuneyamarakuen Bus Stop - Mifuneyama Rakuen,,,±3 menit,,Jalan kaki,
+Mifuneyama Rakuen,16:00,19:00,3 Jam,,900 Yen,
+Mifuneyama Rakuen - Mifuneyamarakuen Bus Stop,,,±3 menit,,Jalan kaki,https://goo.gl/maps/rwZEPs2JV2BVM6966
+Mifuneyamarakuen Bus Stop - Takeochuokoemmae,19:05,19:10,±18 menit,Bus,170 Yen,
+Takeochuokoemmae - Takeo-Onsen Station,,,±9 menit,Jalan kaki,,
+Takeo-Onsen Station - Shin-Tosu Station,19:28,20:07,±26 menit,Midori-Huis Ten Bosch Huis Ten Bosch 16 Limited Express Hakata,JR Pass,
+Shin-Tosu Station - Kumamoto Station,20:29,21:06,±37 menit,Shinkansen,JR Pass,Last Train 23:10
+Kumamoto Station - Tokaigakuen-Mae Station ,,,±15 Menit,Kereta,JR Pass,

@@ -1,0 +1,6 @@
+package main
+
+import (
+    dom "github.com/siongui/godom/wasm"
+    "syscall/js"
+)

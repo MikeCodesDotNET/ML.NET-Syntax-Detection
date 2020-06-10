@@ -1,0 +1,10 @@
+static async Task<int> Sum2(int a, int ab) 
+{
+  var result = await Task.Run(() => {
+    // do some time-consuming work
+    return a + b;
+  })
+  return result;
+}
+
+await Sum2(1,2)

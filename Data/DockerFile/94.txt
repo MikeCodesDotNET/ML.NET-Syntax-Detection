@@ -1,0 +1,17 @@
+FROM node:9.11.1
+
+ENV NPM_CONFIG_LOGLEVEL warn
+ENV NODE_PATH=/node_modules
+
+# Seems react drops path-expected binaries, so we just add node’s bin folder to the PATH
+ENV PATH=$PATH:/node_modules/.bin
+
+COPY app/package.json /
+RUN cd /
+RUN npm install
+
+COPY app /application
+WORKDIR /application
+
+CMD ["npm", "run", "start"]
+# CMD ["bash", "/app/scripts/run"]

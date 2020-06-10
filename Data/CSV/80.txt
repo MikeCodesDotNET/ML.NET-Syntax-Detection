@@ -1,0 +1,1846 @@
+channel_title,trending_count,views,subscribers,classification
+12 News,1,85643,2710.0,Traditional Media
+1MILLION Dance Studio,4,433369,8528852.0,Commercial
+20th Century Fox,17,2857190,2453494.0,Movie Trailer
+2CELLOS,1,205869,3073400.0,Music
+3Blue1Brown,3,254965,789986.0,Youtuber
+3D Printing Nerd,2,44170,183465.0,Youtuber
+42Fab - Metalworking and Multi-Medium Fabrication,1,17812,3311.0,Conventional Viral
+494ta,1,637942,115.0,Conventional Viral
+5-Minute Crafts,3,3907731,14960134.0,Traditional Media
+52 Skillz,1,29469,30616.0,Youtuber
+5FDPVEVO,2,405799,1358269.0,Music
+5MadMovieMakers,2,330721,247252.0,Youtuber
+5SOSVEVO,3,604619,3969847.0,Music
+60 Minutes,2,99118,140963.0,Traditional Media
+730 WVFN,1,6064,326.0,Conventional Viral
+9-1-1 on FOX,1,1172,8871.0,Traditional Media
+90s Commercials,1,773,1752.0,Youtuber
+A Chick Called Albert,1,1481728,659954.0,Youtuber
+A24,5,388904,189346.0,Movie Trailer
+ABC Action News,3,633042,150769.0,Traditional Media
+ABC News,22,179591,3346641.0,Traditional Media
+ABC Television Network,4,1075313,0.0,Traditional Media
+ABC7,1,299090,10445.0,Traditional Media
+AFP news agency,1,3634,203158.0,Traditional Media
+AIA awards,1,66888,13062.0,Commercial
+ALL URBAN CENTRAL,1,481171,521624.0,Traditional Media
+ANDREW HUANG,5,161815,1267765.0,Youtuber
+ASMR Darling,1,555758,1473338.0,Youtuber
+AT&T,1,130858,181136.0,Commercial
+ATPWorldTour,1,33042,3311.0,Traditional Media
+AaronsAnimals,5,238577,387118.0,Youtuber
+Abhishek Singh,1,199488,3359.0,Conventional Viral
+Abroad in Japan,2,127351,770495.0,Youtuber
+Absolut,1,586498,0.0,Commercial
+Access,2,511901,156448.0,Traditional Media
+Access Hollywood,4,53699,156448.0,Traditional Media
+Adam Neely,1,208289,386201.0,Youtuber
+Adam Smith,1,1697125,2358.0,Conventional Viral
+Adam Whitley,1,943,72.0,Traditional Media
+Adam's Apple,1,201784,915.0,Conventional Viral
+AdelaineMorin,2,421268,2336919.0,Youtuber
+Adult Swim,1,1980168,2778467.0,Traditional Media
+Adult Swim UK,1,23468,439014.0,Traditional Media
+Aerie,1,5144,14652.0,Commercial
+AirPano,1,44813,36463.0,Youtuber
+Al Jazeera English,5,21358,1957681.0,Traditional Media
+Alabama Crimson Tide on AL.com,1,315661,34435.0,Traditional Media
+Alan Walker,6,602879,12672164.0,Music
+Alec Steele,1,159742,734669.0,Youtuber
+Alesso,1,373301,780937.0,Music
+Alex Aiono,1,177486,5554364.0,Music
+Alex Gilbert,1,193082,2312.0,Youtuber
+Alex Meyers,1,109050,270924.0,Youtuber
+Alicia Keys,1,95944,198682.0,Music
+AlishaMarie,4,1075018,7058098.0,Youtuber
+Alissa Ashley,4,218820,1173240.0,Youtuber
+All is Art,1,282383,6376.0,Conventional Viral
+Allie Glines,1,49064,161411.0,Youtuber
+Allure,4,230582,478192.0,Commercial
+AlmazanKitchen,1,141225,1074281.0,Youtuber
+Alpha Entertainment,1,110404,4975.0,Youtuber
+Alto's Adventure,1,73724,3685.0,Movie Trailer
+Amanda Palmer,1,28129,93330.0,Music
+AmandaMoor & Craft Ideas,1,11028,0.0,Traditional Media
+Amarullah Rizky,1,10186,86.0,Conventional Viral
+AmazingPhil,3,1099200,4232293.0,Youtuber
+Amazon Studios,5,484394,17775.0,Movie Trailer
+Amazon.co.uk,1,26000,51151.0,Commercial
+Amber Liu,1,109642,741519.0,Music
+Amber Scholl,9,484092,1449988.0,Youtuber
+Amelia Liana,1,58535,472943.0,Youtuber
+American Bridge 21st Century,1,22690,1960.0,Traditional Media
+Anaki Abo,1,358597,25.0,Conventional Viral
+Andre Black Nerd,4,63211,656848.0,Youtuber
+Andrew Lowe,1,73104,686603.0,Youtuber
+Andrew Rowland,1,213782,392.0,Conventional Viral
+Andy Grammer,1,33315,344326.0,Music
+Anew Start,1,143375,5613.0,Conventional Viral
+Animal Adventure Park,2,73165,490822.0,Youtuber
+Animal Planet,1,106605,2411265.0,Traditional Media
+Anna Akana,7,170599,2063826.0,Youtuber
+Anna Saccone,1,944695,1149117.0,Youtuber
+AnselElgortVEVO,1,346318,369406.0,Music
+Anthem Lights,1,71008,770458.0,Music
+AnthonyPadilla,9,179165,2632553.0,Youtuber
+AntsCanada,2,468740,1497092.0,Youtuber
+Anwar Jibawi,7,1086693,2613499.0,Youtuber
+Any rubbish,1,4596,0.0,Conventional Viral
+Apple,4,3464000,6034037.0,Commercial
+Apple Support,2,16553,72169.0,Commercial
+Applied Science,3,56345,418455.0,Youtuber
+Architectural Digest,3,770099,156485.0,Commercial
+Arden Rose,2,84305,1470844.0,Youtuber
+AsapSCIENCE,13,1617297,7518838.0,Youtuber
+Asian Boss,2,79668,649778.0,Youtuber
+Associated Press,8,10012,793607.0,Traditional Media
+Asthmatic Kitty Records,1,198436,40331.0,Music
+Atlanta Hawks,1,2394,18201.0,Traditional Media
+Atlantic Records,8,427335,7296670.0,Music
+Attaullah Malik,1,390964,1228.0,Conventional Viral
+Audience Network,1,11807,19353.0,Movie Trailer
+Aunty Donna,1,68835,178590.0,Youtuber
+Auralnauts,1,66800,227803.0,Youtuber
+Austin Burk,1,5444,610.0,Conventional Viral
+Austin Evans,9,352126,2882287.0,Youtuber
+Australia,1,103683,34916.0,Commercial
+Australian Open TV,5,343115,246468.0,Traditional Media
+AutoGuide.com,1,47430,296490.0,Commercial
+AvE,1,691592,760768.0,Youtuber
+AviciiOfficialVEVO,1,965999,11585128.0,Music
+Avocados From Mexico,1,21278,7320.0,Commercial
+Awkward Puppets,1,257059,709409.0,Youtuber
+Aymeric Favard,1,16231,14.0,Conventional Viral
+BAFTA,1,24248,35698.0,Traditional Media
+BANGTANTV,4,2745463,6706971.0,Traditional Media
+BBC,6,580469,4488789.0,Traditional Media
+BBC America,2,133829,689810.0,Traditional Media
+BBC Earth,7,61596,2011793.0,Traditional Media
+BBC Music,1,893462,645538.0,Music
+BBC News,19,214379,2119249.0,Traditional Media
+BBC Radio 1,20,539690,4551034.0,Traditional Media
+BBC Three,4,182222,630199.0,Traditional Media
+BBCRadio1VEVO,5,183205,1167783.0,Music
+BETNetworks,2,134516,387132.0,Traditional Media
+BLACKPINK,1,2638161,5997223.0,Music
+BMW USA,1,907516,182809.0,Commercial
+BRIGHT SIDE,1,711209,8419935.0,Youtuber
+BRITs,1,130198,666004.0,Traditional Media
+BUILD Series,4,11299,86774.0,Traditional Media
+BURGER KING,2,587365,69769.0,Traditional Media
+Bachelor Nation on ABC,3,82835,9423.0,Traditional Media
+BachelorsPadTv,1,242627,1735104.0,Youtuber
+BaconLegs,1,86188,276.0,Conventional Viral
+Bad Lip Reading,9,1953917,6673117.0,Youtuber
+Banana Culture Music,1,1282399,92491.0,Music
+Barcroft Animals,2,19109,414563.0,Traditional Media
+Barn Sanctuary,1,143373,4016.0,Youtuber
+Barstool Sports,1,20063,113746.0,Traditional Media
+Battle Universe!,2,558076,2103935.0,Youtuber
+Be Amazed,1,47661,2378320.0,Youtuber
+BeOurGuest,1,85478,35813.0,Youtuber
+Beats 1 Radio,4,554133,172987.0,Music
+Beats by Dre,2,1590675,577789.0,Commercial
+Bebe Rexha,4,455842,3370756.0,Music
+Because Science,3,230248,216791.0,Youtuber
+BeckVEVO,1,83625,220521.0,Music
+Bee Ly TV,1,2234,20210.0,Youtuber
+BehindTheSounds,1,86744,6890.0,Conventional Viral
+BellaThorneVEVO,1,63926,424665.0,Music
+BellatorMMA,1,1249702,228579.0,Traditional Media
+Beme News,3,96588,284533.0,Youtuber
+Ben Actis,1,419483,1644.0,Conventional Viral
+Ben Pluimer,1,931830,9419.0,Youtuber
+Ben Rohrbach,1,945,517.0,Conventional Viral
+BenDeen,1,47399,350860.0,Youtuber
+BenTheBondsman,1,9015,5158.0,Conventional Viral
+Benn and Gear,1,28266,4163.0,Music
+Berd,2,68237,367643.0,Youtuber
+BerkleyLovesTori,1,62995,4773.0,Youtuber
+Bethany Mota,1,987801,10534195.0,Youtuber
+Bethel Music,1,60586,1070906.0,Music
+Beyonce,1,1671461,0.0,Music
+Beyond The Trailer,1,99566,703350.0,Movie Trailer
+BeyondSlowMotion,1,12468,186835.0,Youtuber
+Big Cat Rescue,1,30576,598570.0,Youtuber
+Big Marvel,5,578233,2147756.0,Music
+Big Ten Network,1,71072,0.0,Traditional Media
+Bill Gates,2,178938,337511.0,Traditional Media
+Billboard,8,700108,1315462.0,Music
+Billboard News,1,3696,0.0,Traditional Media
+Billions,1,12523,26248.0,Movie Trailer
+Billy Graham Evangelistic Association,1,35053,87149.0,Commercial
+Binging with Babish,10,712381,2322199.0,Conventional Viral
+Bini the Bunny,1,26102,121228.0,Youtuber
+Birdbox Studio,1,22695,223793.0,Youtuber
+BishopBriggsVEVO,1,41956,237964.0,Music
+Bkav Corp,1,1080230,5890.0,Youtuber
+Blake Shelton,1,279586,1527298.0,Music
+BleachersVEVO,1,43931,77299.0,Music
+Bleecker Street,4,783814,35131.0,Movie Trailer
+Blockbuster,1,12609,5616.0,Commercial
+Blonded,1,1137333,130048.0,Music
+Bloomberg,1,22195,863826.0,Traditional Media
+Bloomberg Politics,1,6979,46825.0,Traditional Media
+Blue Origin,3,95003,71726.0,Commercial
+Blurred Culture,1,19048,22462.0,Traditional Media
+Bob Przybylo,1,10720,95.0,Conventional Viral
+Bobby Duke Arts,2,475480,624702.0,Youtuber
+Boldly,5,1710859,9230156.0,Traditional Media
+BostonDynamics,5,1941672,824219.0,Youtuber
+BowlFullofAwesome,1,89829,1309.0,Conventional Viral
+Brad Mondo,3,341986,1017715.0,Youtuber
+Braille Skateboarding,1,104291,3116401.0,Youtuber
+BrantleyGilbertVEVO,1,84155,654537.0,Music
+BrasherN,1,80760,2290.0,Conventional Viral
+Brat,1,2437554,1288271.0,Traditional Media
+Brave Wilderness,13,963516,9715867.0,Youtuber
+Bravo,2,179387,154612.0,Traditional Media
+Braxen McConnell,1,9094,568.0,Conventional Viral
+Breakfast Club Power 105.1 FM,11,531234,1858919.0,Traditional Media
+BreakingBenjaminVEVO,1,334173,547793.0,Music
+Brent Pella,1,462490,20883.0,Traditional Media
+Bret Baier,1,35891,11764.0,Conventional Viral
+BrettYoungVEVO,2,127317,438908.0,Music
+Brian Hull,3,72938,1114778.0,Youtuber
+Brian Klug,1,41335,377.0,Conventional Viral
+BrianJustinCrum,1,27010,112761.0,Music
+Brothers Green Eats,1,77630,1042390.0,Youtuber
+Bruce Land,1,52107,26790.0,Youtuber
+Bruno Mars,2,424943,20322469.5,Music
+Bud Light,1,3199087,0.0,Commercial
+Budweiser,2,1814436,0.0,Commercial
+Bundesliga,1,98835,1143586.0,Traditional Media
+Business Insider,11,265597,580958.8,Traditional Media
+Business Insider UK,3,9023,34587.0,Traditional Media
+Business InsiderAu,1,10477,109.0,Traditional Media
+"But First, Coffee",1,1485647,230054.0,Youtuber
+Butch Hartman,3,495881,675157.0,Traditional Media
+Buttered Side Down,3,57156,230279.0,Youtuber
+BuzzFeed Celeb,5,1718990,1360210.0,Traditional Media
+BuzzFeed Nifty,8,76487,577026.0,Traditional Media
+BuzzFeedBlue,10,1100563,7645824.0,Traditional Media
+BuzzFeedVideo,40,1218782,14889874.0,Traditional Media
+ByronTalbott,3,56280,1387255.0,Youtuber
+C-SPAN,6,144242,188161.0,Traditional Media
+CAguileraVEVO,5,1365860,2585885.0,Music
+CBC News,6,315745,569585.0,Traditional Media
+CBS,2,254930,927345.0,Traditional Media
+CBS Chicago,1,9489,0.0,Traditional Media
+CBS Evening News,3,91427,160469.66666666666,Traditional Media
+CBS Films,1,1786869,28550.0,Movie Trailer
+CBS Los Angeles,8,121245,91786.0,Traditional Media
+CBS Miami,2,147753,0.0,Traditional Media
+CBS New York,2,258824,0.0,Traditional Media
+CBS News,18,187659,599310.0,Traditional Media
+CBS Philly,1,12621,0.0,Traditional Media
+CBS Sunday Morning,3,45951,169723.0,Traditional Media
+CBS This Morning,17,283484,299361.4285714286,Traditional Media
+CFL Insider,1,29733,1558.0,Traditional Media
+CGP Grey,2,665368,3342019.0,Youtuber
+CHRIS-RS,1,701821,151659.0,Youtuber
+CHauserable,1,1807,4248.0,Conventional Viral
+CIRCUITBEARD,1,3114,221.0,Conventional Viral
+CMAVEVO,1,46746,66329.0,Music
+CMT,1,3003,116118.0,Traditional Media
+CNBC,7,109199,230748.0,Traditional Media
+CNET,6,104919,1612248.0,Traditional Media
+CNLohr,1,5224,30249.0,Youtuber
+CNN,52,430132,3095131.0,Traditional Media
+CNNMoney,2,237086,339355.0,Traditional Media
+COVERGIRL,1,5193,466312.0,Traditional Media
+CS Dojo,1,124380,303614.0,Youtuber
+CYNVEVO,1,28983,3943.0,Music
+CalumScottVEVO,5,499861,1081379.0,Music
+Calvin Klein,2,4282939,145441.0,Commercial
+CalvinHarrisVEVO,3,2108060,12799873.0,Music
+Cam'ron,1,664666,23765.0,Music
+CamVEVO,1,41441,128243.0,Music
+Camila Cabello,3,455339,6358719.0,Music
+CamilaCabelloVEVO,6,3838989,6358719.0,Music
+Campari,1,99674,11480.0,Commercial
+Campo Santo Productions,1,35817,9848.0,Movie Trailer
+Canada Soccer,1,41029,13446.0,Traditional Media
+Candide Thovex,1,388810,263539.0,Youtuber
+Capital FM,2,714905,2137177.0,Music
+CaptainDisillusion,2,204170,660643.0,Youtuber
+Car Commercials of the Past,1,4631,266.0,Youtuber
+Car Throttle,1,235077,1956651.0,Youtuber
+Caravan Carolyn,1,23795,28857.0,Youtuber
+Cardi B,2,4223448,2174323.0,Youtuber
+Cards Against Humanity,1,295217,17212.0,Commercial
+Carla Resendiz,1,349459,1514.0,Conventional Viral
+Carlos Campos,1,3551,4.0,Conventional Viral
+Carly and Erin,1,79099,342727.0,Youtuber
+Cartoon Hangover,1,64714,2027927.0,Traditional Media
+Casey Holmes,5,193391,1615706.0,Youtuber
+CaseyNeistat,12,1602608,9086142.0,Youtuber
+Caspar,1,208892,7585114.0,Youtuber
+Casually Explained,2,1173714,1583040.0,Youtuber
+Cat Man Chris,2,217269,164976.0,Youtuber
+CatCreature,3,60636,328706.0,Youtuber
+CatPusic,2,312910,294333.0,Youtuber
+Caterham Cars,1,4850,3529.0,Conventional Viral
+Caters Clips,1,90454,247379.0,Commercial
+Chad Kroeger,1,412812,10857.0,Music
+ChainsmokersVEVO,5,1308915,12481717.0,Music
+ChangeofplanZ,1,345571,2795.0,Music
+Channel 4,1,22231,573483.0,Traditional Media
+Channel Awesome,2,395414,1074789.0,Youtuber
+Channon Rose Vlogs,1,110470,279844.0,Youtuber
+Chappell Roan,1,23755,6627.0,Music
+Charles Chan,1,12515,270.0,Conventional Viral
+Charlie Puth,9,1195792,10479360.0,Music
+Check It Out,1,894787,16925.0,Youtuber
+Chevrolet,1,57915,586473.0,Commercial
+Chicago Sun-Times,2,37755,11133.0,Traditional Media
+Chili Klaus,1,572170,86311.0,Youtuber
+Chilly Willy,1,402547,1333.0,Traditional Media
+Chloe x Halle,2,71609,862157.0,Music
+ChloexHalleVEVO,2,78595,37011.0,Music
+Choir! Choir! Choir!,1,72339,85317.0,Music
+Chris Hadfield's Rare Earth,1,41073,507181.0,Youtuber
+Chris Reinacher,1,42826,531509.0,Youtuber
+Chris Rosa,1,2729389,2189.0,Conventional Viral
+Chris Smoove,3,511775,3975155.0,Youtuber
+Chris Stuckmann,4,473456,1251787.0,Youtuber
+Chris Sturgeon,1,3438,48.0,Conventional Viral
+Chris Turner,1,221067,348.0,Traditional Media
+Chris and Jack,1,108618,73378.0,Youtuber
+ChrisBrownVEVO,1,400949,12484186.0,Music
+ChrisStapletonVEVO,4,121311,553978.0,Music
+ChrisYoungVEVO,1,76832,503544.0,Music
+Chriselle Lim,1,31765,754014.0,Youtuber
+Christen Dominique,5,301657,3688304.0,Youtuber
+Christine Sydelko,1,455870,1330133.0,Youtuber
+Christopher Davis,1,66943,17.0,Conventional Viral
+Chubbyemu,2,494898,518118.0,Youtuber
+ChvrchesVEVO,2,157452,235681.0,Music
+CinemaSins,14,1400726,7579253.0,Youtuber
+Circus HalliGalli,1,175591,749228.0,Traditional Media
+CityNews Toronto,1,34133,24942.0,Traditional Media
+Claire Marshall,1,153053,941387.0,Youtuber
+Clark Zhu,1,3888,918.0,Movie Trailer
+Cleveland Browns,1,1164,15178.0,Traditional Media
+Cleveland Cavaliers on cleveland.com,1,27943,23612.0,Traditional Media
+Clevver News,7,229996,3909987.0,Traditional Media
+Clevver Style,5,329917,2603964.0,Youtuber
+Clicknetwork,1,65823,1148769.0,Traditional Media
+Cloth Map,1,72789,59090.0,Conventional Viral
+ClovesVEVO,1,30260,82296.0,Music
+Cobra Kai,5,1559658,0.0,Youtuber
+Coca-Cola,1,413417,2169695.0,Commercial
+Cody'sBLab,1,102900,186233.0,Youtuber
+Cody'sLab,2,188078,1403175.0,Youtuber
+Cody'sLab Backup,1,52607,186233.0,Youtuber
+CoinDaddy,1,9577,2442.0,Conventional Viral
+ColdFusion,1,217582,1482714.0,Youtuber
+Cole and Marmalade,7,185418,780468.0,Youtuber
+Colleen Ballinger,2,395330,5436226.0,Youtuber
+Colleen Vlogs,2,183016,1327783.0,Youtuber
+CollegeHumor,25,564244,12641442.0,Youtuber
+ColliderVideos,17,63291,435897.0,Traditional Media
+Collins Key,1,5275682,10740733.0,Youtuber
+Comedy Central,2,187456,6126683.0,Traditional Media
+Comicbook.com,3,210946,587231.0,Traditional Media
+Commercials Funny,1,22034,23053.0,Youtuber
+Complex,14,780839,2018112.0,Traditional Media
+Confuse News,1,90680,0.0,Conventional Viral
+ConnorFranta,6,151434,5608973.0,Youtuber
+Conor Maynard,1,6952956,7126502.0,Music
+Context Information Security,1,3595,65.0,Conventional Viral
+Corinne Leigh,1,330124,1147860.0,Youtuber
+Corridor,1,414045,4631217.0,Youtuber
+Cosmopolitan.com,3,118735,614778.0,Traditional Media
+Cracked,7,246606,2158902.0,Youtuber
+Crafty Panda,1,7638,1142.0,Youtuber
+CrashCourse,1,35892,7348299.0,Youtuber
+CrashRacing,1,831968,19969.0,Youtuber
+CrazyLaughAction,1,95668,32676.0,Conventional Viral
+CrazyRussianHacker,15,724276,10474796.0,Youtuber
+Cristi Cristian,1,699223,2717.0,Conventional Viral
+CrossKut316,1,113672,917.0,Music
+CrowsEyeProductions,1,61251,6596.0,Youtuber
+Crusoe the Celebrity Dachshund,1,10521,145653.0,Youtuber
+Cultaholic,1,132395,265662.0,Youtuber
+CupcakeJemma,5,64625,1206997.0,Youtuber
+Cut,8,514690,4296125.0,Youtuber
+CyclingTips,1,4562,11596.0,Youtuber
+"Cyprus Air Heating, Cooling and Fireplaces",1,118344,229.0,Commercial
+D3sports.com,1,4569,1387.0,Movie Trailer
+DJI,1,82977,534597.0,Commercial
+DJSnakeVEVO,1,673010,6582759.0,Music
+DKDKTV,1,6179,179574.0,Youtuber
+DaHoopSpot Productions,1,2493,3298.0,Youtuber
+Daelric,1,48372,6.0,Youtuber
+Daily Caller,1,1142585,1027.0,Traditional Media
+Daily Davidsons,1,25211,232191.0,Youtuber
+Daily Dose Of Internet,5,1689670,1165807.0,Youtuber
+Daisy Marquez,3,399433,891449.0,Youtuber
+Dale Dai,1,1392244,1774.0,Conventional Viral
+DamonAndJo,7,40314,882394.0,Youtuber
+DanAndPhilGAMES,1,580796,3102660.0,Youtuber
+DanTDM,3,1380723,18185017.0,Youtuber
+Dancing On Ice,1,59606,12819.0,Traditional Media
+Dancing With The Stars,7,225230,578344.0,Traditional Media
+Dani Ochoa,2,377266,40357.0,Conventional Viral
+Daniel Howell,1,1757966,6564976.0,Youtuber
+Danny Sapko,1,493662,5467.0,Conventional Viral
+Darren Criss,1,31034,174255.0,Music
+Dave Lee,2,259812,1169792.0,Youtuber
+Davey Swatpaz,1,8014,5064.0,Conventional Viral
+David Archuleta,1,54209,209832.0,Music
+David Guetta,4,594925,15730009.0,Music
+David Jardine,1,25084,1164.0,Conventional Viral
+David Sistaro,1,60079,56.0,Conventional Viral
+David Steuer,1,27779,3.0,Conventional Viral
+David Windestal,1,18744,108239.0,Youtuber
+Davie504,5,625606,1295228.0,Music
+Dawid Szmandra,1,67876,4703.0,Conventional Viral
+Daz Games,1,268199,1891854.0,Youtuber
+Dean Anderson,1,7325,0.0,Conventional Viral
+Define American,1,1456,2884.0,Traditional Media
+Demi Lovato,1,208117,2241908.0,Music
+DemiLovatoVEVO,3,2844684,12155465.0,Music
+Dennis Kapatos,1,87209,321.0,Conventional Viral
+Derek Hough,1,50722,27817.0,Music
+Desi Perkins,5,351210,2979592.0,Youtuber
+Desimpedidos,1,3990953,5390215.0,Youtuber
+Desktop Makes,1,3390,5091.0,Conventional Viral
+Desus & Mero,1,104785,200982.0,Traditional Media
+Diet Coke,1,363422,11954.0,Commercial
+Dina Tokio,1,72626,730238.0,Youtuber
+Diplo,4,1857403,367129.0,Music
+Dish Nation,1,10640,146481.0,Traditional Media
+Disney Descendants,1,87832,1069029.0,Traditional Media
+Disney Movie Trailers,7,1682290,1207358.0,Movie Trailer
+Disney Parks,4,119434,820614.0,Commercial
+DisneyMusicVEVO,3,826708,9420289.0,Music
+Disneyland Experience,1,8696,54913.0,Traditional Media
+Dj Earworm,1,124338,844033.0,Music
+Doctor Mike,3,638000,351100.0,Youtuber
+Doctor Who,1,747653,1028817.0,Traditional Media
+Dolan Twins,2,1138065,5190943.0,Youtuber
+Domain of Science,1,30134,204562.0,Youtuber
+Domics,7,1678427,4932426.0,Youtuber
+DonDiablo,1,251014,622719.0,Music
+Donut Media,1,93829,535963.0,Youtuber
+DoodleChaos,1,221145,44116.0,Youtuber
+DopeBoyTroy,1,12100,0.0,Youtuber
+Dorkly,1,931112,2498166.0,Traditional Media
+Doug DeMuro,6,813826,1414188.0,Youtuber
+Doug Ellison,1,49993,3035.0,Conventional Viral
+Doug Jones for Senate,1,49472,718.0,Traditional Media
+Dr. Sandra Lee (aka Dr. Pimple Popper),3,148503,3482825.0,Youtuber
+DrMachakil,1,25082,25929.0,Youtuber
+DraftExpress,1,1432,108205.0,Youtuber
+DragTimes,1,30484,103039.0,Youtuber
+DrakeBellVEVO,1,65973,141333.0,Music
+DreamCastle_629,1,14071,50.0,Conventional Viral
+Drew Lynch,2,83144,1310243.0,Youtuber
+Dua Lipa,2,2761725,5404909.0,Music
+Duan Mackenzie,1,60072,34941.0,Youtuber
+Dude Perfect,12,9002021,27998379.0,Youtuber
+Duncan Sinfield,1,279812,12199.0,Youtuber
+DunkFest,2,72675,25589.0,Youtuber
+Dustin Penner,1,43564,209052.0,Youtuber
+Duston Ward,1,578128,3333.0,Youtuber
+Dwarf Mamba,1,4575521,1968818.0,Youtuber
+Dylan Locke,1,34551,9122.0,Youtuber
+E! Entertainment,18,457316,901160.75,Traditional Media
+E! Live from the Red Carpet,4,228494,99821.0,Traditional Media
+E! News,3,10543,242795.0,Traditional Media
+EA SPORTS FIFA,1,674446,3150213.0,Commercial
+ELLE,5,314393,214786.0,Traditional Media
+ELLEUKTV,1,18032,19328.0,Commercial
+ESPN,84,496953,2702088.0,Traditional Media
+ET Canada,1,648544,0.0,Traditional Media
+EVNautilus,1,89132,114045.0,Youtuber
+East Idaho News,1,3077,2779.0,Traditional Media
+Eater,6,113692,689083.0,Youtuber
+Ed Sheeran,5,10890771,28676937.0,Music
+Edward Avila,1,45065,759167.0,Youtuber
+ElbowVEVO,1,154494,34590.0,Music
+ElectroBOOM,4,309891,1346352.0,Youtuber
+Electron Dust,1,4610,1013.0,Conventional Viral
+ElleOfTheMills,4,550383,1121792.0,Youtuber
+Ellie and Jared,2,310056,1392742.0,Youtuber
+EllieGouldingVEVO,2,120553,8110145.0,Music
+Elton John,1,60398,46779.0,Music
+EltonJohnVEVO,1,806841,569824.0,Music
+Elvis Duran Show,1,8941,92194.0,Traditional Media
+EminemVEVO,4,7806622,26383080.0,Music
+Emirates,1,141148,313288.0,Commercial
+Emma Massingale,1,13670,4395.0,Conventional Viral
+Empire,1,22659,954360.0,Traditional Media
+End of Ze World,1,125897,1860.0,Conventional Viral
+Engineering Explained,2,304310,1631073.0,Youtuber
+Enter Shikari,1,99619,0.0,Music
+Entertainment Tonight,13,267215,1006866.0,Traditional Media
+Entertainment Weekly,2,3404,145315.0,Traditional Media
+EntertainmentVevo,1,845262,25803.0,Music
+Epicurious,5,535304,130054.0,Traditional Media
+Eric Strebel,3,3783,11912.0,Youtuber
+Erin Noelle,1,206669,117525.0,Youtuber
+Errant Signal,1,41268,131038.0,Youtuber
+Esther Bellido,1,583360,828.0,Conventional Viral
+"European Space Agency, ESA",1,74720,249771.0,Traditional Media
+Eva Lunde Bentley,1,42513,390.0,Conventional Viral
+Evan Edinger,1,138218,454698.0,Youtuber
+Everyday Astronaut,3,109016,101616.0,Youtuber
+EverythingApplePro,8,617154,5265974.0,Youtuber
+Exploring Alternatives,1,109455,410838.0,Youtuber
+ExplosmEntertainment,12,884363,7937284.0,Traditional Media
+Extra Credits,2,221924,1374020.0,Youtuber
+F Milburn,1,2612,2.0,Conventional Viral
+FBE,25,1321006,16874196.0,Youtuber
+FC Barcelona,9,277508,3938715.0,Traditional Media
+FIFATV,1,222827,2069402.0,Traditional Media
+FILMWEBTV,1,23433,1450.0,Traditional Media
+FOX,3,13125,968243.0,Traditional Media
+FOX Soccer,10,525325,279693.0,Traditional Media
+FOX Sports,4,122594,446487.0,Traditional Media
+FRANKIEmusicVEVO,1,6383,8992.0,Music
+FX Networks,4,52457,125215.0,Traditional Media
+FaZe Rug,5,1403514,7840878.0,Youtuber
+Facelesstech,1,1237,114.0,Youtuber
+FacelesswithEyesOpen,1,2896,8844.0,Conventional Viral
+FaeryInLoveInc,1,50867,44.0,Conventional Viral
+FailArmy,1,2154298,13501782.0,Youtuber
+FallOutBoyVEVO,4,654358,3864568.0,Music
+Famous Celebrities Snaps,1,5751,15382.0,Traditional Media
+Fancy Vlogs By Gab,1,441809,1716488.0,Youtuber
+Feast Of Fiction,3,72033,1069169.0,Youtuber
+Feelunique,1,12790,10778.0,Commercial
+FerrasVEVO,1,12866,13365.0,Music
+Fifty Shades,1,244539,383936.0,Movie Trailer
+FiftyShadesVEVO,4,1128635,476614.0,Music
+FightHype.com,3,122422,253444.0,Traditional Media
+First Aid Kit,1,13128,32907.0,Music
+First We Feast,31,573546,2872375.16,Youtuber
+Fleur DeForce,4,256468,1466098.0,Youtuber
+FliteTest,3,99609,813417.0,Commercial
+FloSports,1,28954,33697.0,Traditional Media
+Focus Features,7,1351522,173457.0,Movie Trailer
+Fontgod,1,9666,45.0,Conventional Viral
+Food Wishes,6,145606,2278592.0,Youtuber
+Foot Locker,1,1120841,155596.0,Commercial
+Ford Europe,1,10020,63660.0,Commercial
+Ford Motor Company,1,83525,1556008.0,Commercial
+Forgotten Weapons,1,176785,680798.0,Youtuber
+Fox Business,1,20955,185033.0,Traditional Media
+Fox News,7,166404,951035.0,Traditional Media
+FoxSearchlight,3,315567,208047.0,Movie Trailer
+Frank May,1,399491,1105.0,Conventional Viral
+Frankie Vision,1,220548,97147.0,Traditional Media
+Freddie Lister,1,662308,899.0,Conventional Viral
+FreeDawkins,6,36028,590200.0,Traditional Media
+Freedom of the Press Foundation,1,29301,3384.0,Conventional Viral
+Freeform,1,7978,403163.0,Traditional Media
+Freemeo,1,10559,5302.0,Movie Trailer
+FrenchMontanaVEVO,1,607810,2408862.0,Music
+Frog The Rooster,1,176079,1232.0,Conventional Viral
+FrownsUpsideDown,1,3644,3413.0,Conventional Viral
+Fueled By Ramen,6,339772,9945071.0,Music
+Full Frontal with Samantha Bee,9,327134,827892.0,Traditional Media
+FunForLouis,1,43226,2000968.0,Youtuber
+Function,1,13564,11647.0,Youtuber
+FundingCircleUK,1,331939,612.0,Conventional Viral
+Funny Commercials,1,385563,8044.0,Conventional Viral
+Funny News,1,339263,177.0,Conventional Viral
+Funny Or Die,3,27080,2203552.0,Youtuber
+GEazyMusicVEVO,4,2563426,4756225.0,Music
+GQ,9,445485,1882344.0,Traditional Media
+Galantis,1,197485,2482552.0,Music
+GamingWithJen,1,114829,3763797.0,Movie Trailer
+Gatorade,1,957603,133240.0,Commercial
+Gcincorp Ecommerce and Real Estate,1,106523,144.0,Conventional Viral
+Gemma Stafford,2,54391,1549469.0,Youtuber
+Genius,6,303316,2282860.0,Traditional Media
+Gentle Whispering ASMR,1,428389,1227135.0,Youtuber
+Genuine Survival Research Labs,1,19006,1895.0,Traditional Media
+Geoff Mallinson,1,4681,37.0,Conventional Viral
+GeorgeEzraVEVO,2,165111,596628.0,Music
+Gerry Litwin,1,1202896,6588.0,Conventional Viral
+Gibi ASMR,3,359742,787225.0,Youtuber
+Gigi Gorgeous,3,347163,2776381.0,Youtuber
+GinWigmoreVEVO,1,4843,48559.0,Music
+Glam&Gore,6,298244,2364565.0,Youtuber
+Glamour Magazine,5,415262,868150.0,Traditional Media
+GoDucksdotcom,1,687,41670.0,Traditional Media
+GoPro,5,60194,5525136.0,Commercial
+GohmertTX01,1,22283,3678.0,Traditional Media
+Golden State Warriors,1,101590,549417.0,Traditional Media
+Gondwana Collection Namibia,1,213584,1276.0,Commercial
+Good Morning America,12,258681,362412.0,Traditional Media
+Good Morning Britain,1,52602,148078.0,Traditional Media
+Good Mythical Morning,23,559872,13186408.0,Youtuber
+Goodwillsandusky,1,228745,33.0,Conventional Viral
+Google,5,243017,5980584.0,Commercial
+GrDrtube,1,14289,737.0,Conventional Viral
+Grace Helbig,12,167835,3008137.0,Traditional Media
+GraceVanderWaalVEVO,3,671924,1759496.0,Music
+Graham The Christian,1,798567,934482.0,Youtuber
+Grandpa Kitchen,1,110091,1479361.0,Youtuber
+Great Big Story,26,229710,2060009.0,Traditional Media
+GreatScott!,3,164930,742236.0,Youtuber
+Green Day,2,382354,2659129.0,Music
+Gregg Peterson,1,6684,2869.0,Conventional Viral
+Grist,1,3133,10664.0,Youtuber
+Groupon,1,601853,26164.0,Commercial
+Guardian News,14,188614,82521.0,Traditional Media
+Guava Juice,9,991869,9135635.0,Youtuber
+Guinness World Records,1,28539,2714835.0,Traditional Media
+Guldies,1,61240,284109.0,Youtuber
+Gus Johnson,9,265348,335046.0,Youtuber
+Guy Tang,1,828909,1951736.0,Youtuber
+GwenStefaniVEVO,1,94643,1133871.0,Music
+H&M,2,193657,295487.5,Commercial
+HACKADAY,4,2287,95190.0,Youtuber
+HANSON,2,42343,59144.0,Music
+HARRY,1,3560,52856.0,Music
+HBO,13,652496,1099202.0,Traditional Media
+HOT 97,1,757804,1836870.0,Traditional Media
+HOTSPOTATL,1,2929,4500.0,Movie Trailer
+HQVideoDude,1,60828,16892.0,Music
+HaileeSteinfeldVEVO,1,751525,2631801.0,Music
+HaimVEVO,1,118160,292985.0,Music
+Hak5,1,10914,409334.0,Youtuber
+Half as Interesting,10,299221,453620.0,Youtuber
+Halfway Anywhere,1,49091,2191.0,Conventional Viral
+HalseyVEVO,3,895648,3087452.0,Music
+Hamilton: An American Musical,2,438852,292884.0,Traditional Media
+Hannah Meloche,1,69028,267317.0,Youtuber
+Hannah Stocking,12,1339556,2644692.0,Traditional Media
+Hannah Witton,1,25780,432927.0,Youtuber
+HarryStylesVEVO,2,5114138,3291974.0,Music
+Haru the Shiba Inu,1,43437,138688.0,Youtuber
+Hayley Kiyoko,1,966029,1086246.0,Music
+Hazel Hayes,1,93375,258368.0,Youtuber
+Healthcare Triage,2,13384,272904.0,Youtuber
+Helen Anderson,1,73427,590048.0,Youtuber
+HellthyJunkFood,22,310401,1568812.0,Youtuber
+Henry Prince Mak,1,35704,0.0,Traditional Media
+Hevesh5,5,168730,1625338.0,Youtuber
+HiHo Kids,2,146806,1050076.0,Commercial
+Highlight Heaven,2,352882,278474.5,Traditional Media
+Highsnobiety,1,26906,231627.0,Traditional Media
+Hillsong Worship,1,106144,1723036.0,Music
+Hin Nya,1,218855,2734.0,Conventional Viral
+Hollyscoop,1,20612,765520.0,Traditional Media
+HollywoodLife,2,990382,1632710.0,Traditional Media
+Honda,1,20188,305851.0,Commercial
+Hope For Paws - Official Rescue Channel,5,333752,2205605.0,Youtuber
+Hopeless Records,1,195685,941941.0,Music
+Horizon Productions SFL,1,108646,4978.0,Conventional Viral
+Hot Dad,1,13676,108359.0,Youtuber
+HouzzTV,2,234563,342820.0,Traditional Media
+How Ridiculous,6,3328850,1245303.0,Youtuber
+How To Cake It,8,318569,3588443.0,Youtuber
+How To Cook That,7,141293,3409429.0,Youtuber
+How To Make Everything,2,128098,505241.0,Youtuber
+How to DAD,3,139335,192324.0,Youtuber
+HowToBasic,2,1966278,10365977.0,Youtuber
+Howl Of A Dog,1,462463,381781.0,Youtuber
+Hudson Moore,1,52628,10327.0,Music
+Hulu,6,2389977,1162073.0,Commercial
+Humble Design,1,23634,698.0,Conventional Viral
+Hunter Hayes,3,21416,658161.0,Music
+Hush Kit,1,84198,4355.0,Youtuber
+Huw Parkinson,1,7658,18970.0,Youtuber
+Huxley Berg Studios,1,33856,52923.0,Youtuber
+HvdH-Plane-Spotter,1,4361881,18378.0,Youtuber
+Hybrid Network,1,8088,278080.0,Youtuber
+Hydraulic Press Channel,7,465326,1824589.0,Youtuber
+HyundaiUSA,2,870341,163289.0,Commercial
+I Like To Make Stuff,2,530377,1709788.0,Youtuber
+I'm With Her,1,6148,3128.0,Music
+I.T. Channel,1,117394,34357.0,Youtuber
+IAmAnneMarie,1,151222,997811.0,Conventional Viral
+IFC,1,91445,83296.0,Traditional Media
+IFC Films,3,337849,63986.0,Movie Trailer
+IGN,10,475895,9401388.0,Traditional Media
+IGN News,2,9722,344968.0,Traditional Media
+IISuperwomanII,18,1205880,13357328.0,Youtuber
+INQUIRER.net,1,44295,92552.0,Traditional Media
+INSIDER,34,451044,1461545.0,Traditional Media
+ImagineDragonsVEVO,5,1306700,10199977.0,Music
+Inanna Sarkis,2,1129547,2310107.0,Youtuber
+IncubusVEVO,2,67896,406273.0,Music
+India Love,1,76285,9426.0,Music
+India Survival Guide,1,365603,25514.0,Youtuber
+Ingrid Nilsen,3,60412,3889712.0,Youtuber
+Inside Edition,15,201957,2081261.0,Traditional Media
+Inside the Magic,1,80200,894319.0,Traditional Media
+Interscope Records,1,125684,441374.0,Music
+Inthefrow,1,80945,579943.0,Commercial
+Intuit,1,10008678,28705.0,Commercial
+Invisible People,1,33685,90396.0,Youtuber
+Iris,1,676024,344282.0,Conventional Viral
+IsraeliPM,1,3741,46483.0,Traditional Media
+It's Okay To Be Smart,3,183153,2048495.0,Youtuber
+It's a Southern Thing,1,114552,34188.0,Youtuber
+It's a small world,1,22963,180171.0,Music
+Itzztonytony,1,261544,14.0,Conventional Viral
+Ivan Miranda,1,47464,43737.0,Youtuber
+Izac Less,1,82783,4119.0,Conventional Viral
+J Gasser,1,987,13.0,Youtuber
+J S,1,212858,28.0,Traditional Media
+J.J. McCullough,1,13205,41315.0,Youtuber
+JAY,1,48982,696.0,Youtuber
+JK Brickworks,1,39096,322357.0,Youtuber
+JOLLY,3,253086,658657.0,Youtuber
+JP & Julia,1,187452,132323.0,Youtuber
+Jack Coyne,2,274132,183954.0,Youtuber
+Jack and Dean,2,127124,603181.0,Youtuber
+JackJohnsonVEVO,2,20200,286807.0,Music
+JackWhiteVEVO,2,326313,261596.0,Music
+Jackie Aina,8,397263,2168843.0,Youtuber
+Jaclyn Hill,4,787397,4980067.0,Youtuber
+Jacob Collier,1,40117,199298.0,Music
+Jaiden Animations,5,2350534,3497340.0,Youtuber
+Jake Roper,1,143597,303140.0,Youtuber
+Jalopnik,1,37522,195154.0,Youtuber
+James Charles,14,1521077,3225647.0,Youtuber
+James Veitch,1,139989,321099.0,Youtuber
+JamesAVEVO,1,297306,2352854.0,Music
+JamesBayVEVO,3,260828,1214545.0,Music
+JamesBlakeVEVO,1,130569,28321.0,Music
+Jamie Demeter,1,163780,496.0,Conventional Viral
+JanPaul123,1,4253,48.0,Conventional Viral
+JarJar Abrams,1,643117,7758.0,Conventional Viral
+Jason Derulo,3,1573905,9076056.0,Music
+Jason Yu,1,296633,563.0,Conventional Viral
+JasonAldeanVEVO,2,257293,1137557.0,Music
+JayRockVEVO,1,4014741,123148.0,Music
+JayZVEVO,1,1722568,856394.0,Music
+Jeep,1,778702,112402.0,Commercial
+Jenn Im,3,214795,2127866.0,Youtuber
+JennaMarbles,4,1837716,17971299.0,Youtuber
+JenniferLopezVEVO,4,6009887,7257810.0,Music
+Jenny Hanell,1,1827,5.0,Conventional Viral
+Jenny Nicholson,9,108957,214706.0,Youtuber
+Jeopardy!,2,458172,12873.0,Traditional Media
+Jeremy Jahns,6,430576,1400125.0,Youtuber
+JerryRigEverything,9,275846,1689905.0,Youtuber
+Jesse,1,576294,10436890.0,Youtuber
+Jessica Braun | JAMbeauty89,1,56771,468477.0,Youtuber
+Jessica Clements,2,103655,709013.0,Youtuber
+Jessica Kellgren-Fozard,1,13110,225449.0,Youtuber
+Jessica Vu,1,41407,405813.0,Youtuber
+JessieJVEVO,1,483212,6930255.0,Music
+Jessii Vee,1,77486,888476.0,Youtuber
+JheneAikoVEVO,1,1063246,1012468.0,Music
+JimBrowski 96HourNews,1,9132,1544.0,Youtuber
+Jimmy Built,1,140973,1041.0,Music
+Jimmy Kimmel Live,70,903864,11262900.23076923,Traditional Media
+Joan Kim,3,56152,357133.0,Youtuber
+JoergSprave,1,105115,1937270.0,Youtuber
+Joey Graceffa,3,301967,8618223.0,Youtuber
+John Campea,17,49949,116972.0,Youtuber
+John Lewis,1,7224515,135706.0,Commercial
+John Maclean,2,166845,183889.0,Youtuber
+John Sellars,1,1480,157.0,Conventional Viral
+John Varvatos,1,3917,4307.0,Commercial
+JohnnyQ90,1,82407,373177.0,Youtuber
+Jon B.,2,85399,759637.0,Youtuber
+Jon Olsson,1,222260,1088076.0,Youtuber
+JonTronShow,1,2519348,4002256.0,Youtuber
+Jonathan Morrison,4,285749,2397437.0,Youtuber
+Jordan Wilson,1,706989,6179.0,Youtuber
+Josh Groban,3,62655,258749.0,Music
+Josh Levine,1,1719,607.0,Conventional Viral
+Joshua Levin,1,5391,11.0,Conventional Viral
+JuJu Smith-Schuster,1,283692,357021.0,Traditional Media
+Julien Solomita,2,137721,1425639.0,Youtuber
+JunsKitchen,5,920267,1715948.0,Youtuber
+Just Between Us,3,75044,760517.0,Youtuber
+Just Jared Jr,1,37812,44480.0,Youtuber
+Just Marcus,1,46706,2061793.0,Youtuber
+Just Wow me,1,601839,239464.0,Youtuber
+K Yuen,1,33260,51.0,Traditional Media
+KATC,1,316092,5313.0,Traditional Media
+KBAK - KBFX - Eyewitness News - BakersfieldNow,1,875327,2570.0,Traditional Media
+KBS World TV,1,2294643,5708013.0,Traditional Media
+KBSKpop,1,654296,1757236.0,Music
+KFC,1,20740,404606.0,Commercial
+KFlayVEVO,1,26093,96542.0,Music
+KIND Snacks,1,48811,1658.0,Commercial
+KISS FM UK,1,14086,119533.0,Music
+KKandbabyJ,3,269483,757407.0,Youtuber
+KSNV News 3 Las Vegas,1,169511,471.0,Traditional Media
+KTVU,1,78841,14194.0,Traditional Media
+Kacey Musgraves - Topic,1,30096,170879.0,Music
+Kandee Johnson,5,206190,3955868.3333333335,Youtuber
+KaneBrownVEVO,2,105944,645657.0,Music
+Kaplamino,2,209583,94703.0,Youtuber
+Karim Jovian,1,20566,1587742.0,Traditional Media
+Karina Garcia,2,1102666,7372555.0,Youtuber
+Kat Cunning,1,15570,424.0,Music
+KathleenLights,8,339909,3645988.0,Youtuber
+Katy Perry,1,56012,2603695.0,Music
+KatyPerryVEVO,2,1608831,26735363.0,Music
+Katzun,2,118039,375393.0,Youtuber
+Kayley Melissa,3,28127,1525996.0,Youtuber
+Keith Urban,2,409350,174968.0,Music
+KeithUrbanVEVO,4,157787,635325.0,Music
+Keke Palmer,2,58953,454266.0,Traditional Media
+Kelly Clarkson,4,381779,259619.0,Music
+Kelly Eden,1,9567,183077.0,Traditional Media
+KendrickLamarVEVO,5,2592083,5542020.0,Music
+Kerry Wong,1,3345,4187.0,Conventional Viral
+Kevin Durant,1,162597,620050.0,Traditional Media
+Kevin Noonan,1,12850,1634.0,Conventional Viral
+Kevin Rabatin,1,1820,1.0,Conventional Viral
+Kevin Stein,1,2302,4.0,Conventional Viral
+KhalidVEVO,3,609938,1992567.0,Music
+Kia Motors America,1,206006,111626.0,Commercial
+KickThePj,1,83200,1426409.0,Youtuber
+Kid Rock,1,101830,732301.0,Music
+King Princess,1,23506,5749.0,Music
+Kingsley,1,23187,2970837.0,Youtuber
+KipMooreVEVO,1,61359,203903.0,Music
+Kita Osaka,1,5580,107.0,Conventional Viral
+Kitchen Nightmares,4,987234,2010225.0,Traditional Media
+Kitten Lady,3,60929,412952.0,Youtuber
+Klossy,5,271532,689063.0,Traditional Media
+Kortney Steury,1,303335,98.0,Conventional Viral
+Kotaku,1,63531,265701.0,Traditional Media
+Kraft Brand,1,8750,2039.0,Commercial
+Kris Harbour,1,253926,50701.0,Youtuber
+KygoOfficialVEVO,1,753671,3145243.0,Music
+Kyle Gunderson,1,49461,125.0,Conventional Viral
+Kyle Jennermann,1,52022,180298.0,Youtuber
+Kylie Cosmetics,2,625244,754263.0,Commercial
+Kylie Jenner,1,20921796,2450096.0,Traditional Media
+Kylie Moy,1,674629,3094.0,Conventional Viral
+KylieMinogueOnVEVO,2,333148,23455.0,Music
+L2inc,1,340746,266403.0,Youtuber
+LD Entertainment,1,131430,403.0,Movie Trailer
+LGR,1,194210,818133.0,Youtuber
+LIL UZI VERT,1,682894,3656237.0,Music
+LIVEKellyandRyan,8,57889,0.0,Traditional Media
+LOFTON SHAW,1,5119,118.0,Conventional Viral
+LOL Network,9,664027,1367081.0,Traditional Media
+LOOK MUM NO COMPUTER,1,230858,72736.0,Music
+LaMadelynn,3,22690,992233.0,Youtuber
+LaToya Forever,1,38355,1412079.0,Youtuber
+LadBaby Official,3,109759,158197.0,Youtuber
+LadyGagaVEVO,3,710445,9506149.0,Music
+Lamborghini,1,17746,584223.0,Commercial
+Land Rover,1,1333918,178153.0,Commercial
+Lane Anderson,1,225748,473.0,Conventional Viral
+LastWeekTonight,4,2403971,5937292.0,Traditional Media
+Late Night with Seth Meyers,37,557837,1968678.0,Traditional Media
+Late Show with David Letterman,1,192609,0.0,Traditional Media
+LaurDIY,6,838034,7346576.0,Youtuber
+Laura Kampf,3,80719,245559.0,Youtuber
+Laura Lee,8,530648,4285014.0,Youtuber
+Laura in the Kitchen,4,50557,3049000.0,Youtuber
+Lauren Elizabeth,1,50702,1282537.0,Youtuber
+Lauv,4,374770,463164.0,Music
+Lawrence Livermore National Laboratory,1,30361,36302.0,Youtuber
+LecraeVEVO,2,60235,315481.0,Music
+Legendary,1,1500108,233174.0,Movie Trailer
+Lele Pons,10,3970311,8499294.0,Youtuber
+Leroy Sanchez,2,416607,3469860.0,Music
+Let Me Explain Studios,1,816933,984766.0,Youtuber
+LetsGoWarriors,1,16305,35371.0,Traditional Media
+LewisCapaldiVEVO,1,62052,114950.0,Music
+LexusVehicles,2,871159,90888.0,Commercial
+Liam Gallagher,1,187052,123984.0,Music
+LiamPayneVEVO,2,2394223,1729711.0,Music
+Life Noggin,25,308973,2098070.0,Youtuber
+LifeAccordingToJimmy,1,171311,2927772.0,Youtuber
+Lifetime,1,37447,1562314.0,Traditional Media
+Like Stories of Old,1,160078,54529.0,Youtuber
+Lil Peep,1,1514148,1328578.0,Music
+Lil Wayne,1,2313884,1019660.0,Music
+Lily Pebbles,1,91167,459128.0,Youtuber
+Lindsey Stirling,5,521991,10515264.0,Music
+Linkin Park,4,557595,11325240.0,Music
+Linus Tech Tips,7,975268,5451294.0,Youtuber
+Lionsgate Movies,5,2286259,635137.0,Movie Trailer
+Lip Sync Battle,13,134426,2459221.0,Traditional Media
+Lisa Eldridge,3,128657,1762070.0,Traditional Media
+LissieVEVO,1,6598,72681.0,Music
+LiveOverflow,1,43554,79869.0,Youtuber
+Livia Giustiniani,1,49942,76.0,Conventional Viral
+Liza Koshy,6,2735054,13857473.0,Youtuber
+Liza Koshy Too,4,1946007,5798293.0,Youtuber
+LoeyLane,1,104407,1388481.0,Youtuber
+Lofty Pursuits,1,229000,305267.0,Youtuber
+Logan Paul Vlogs,4,10698617,16927506.0,Youtuber
+Looper,2,509815,2421086.0,Youtuber
+Lorraine,2,113998,54881.0,Traditional Media
+Los Angeles Times,2,23360,116532.0,Traditional Media
+Lotto New Zealand,1,70581,1229.0,Traditional Media
+Loudwire,1,14645,712319.0,Traditional Media
+LouisTomlinsonVEVO,1,985998,1664230.0,Music
+Lucas,3,92754,2683631.0,Youtuber
+Lucas the Spider,5,1736791,1410546.0,Youtuber
+Lucy Moon,3,32870,313662.0,Youtuber
+LuisFonsiVEVO,1,499946,18320865.0,Music
+Luke Korns,1,165309,1746763.0,Youtuber
+LukeBryanVEVO,3,77391,1641737.0,Music
+LukeCombsVEVO,2,119697,321517.0,Music
+LustreLux,1,49037,1868857.0,Youtuber
+Lyft,1,31088,182074.0,Commercial
+MARIO TESTINO,1,6271,0.0,Traditional Media
+MAZELEE,1,142935,497924.0,Youtuber
+MDNA SKIN,1,53321,1183.0,Commercial
+MGM,1,3543813,32695.0,Movie Trailer
+MGMTVEVO,1,407313,431920.0,Music
+MILCK,1,5092,18444.0,Music
+MITCHELL WIGGS,1,1458959,0.0,Youtuber
+MK Dons,1,17987,4460.0,Conventional Viral
+MLB,2,528856,1015229.0,Traditional Media
+MLG Highlights,8,3125635,684919.0,Traditional Media
+MLive,3,416997,47647.0,Traditional Media
+MN khan,1,785922,0.0,Conventional Viral
+MOBO Awards,1,32219,27746.0,Traditional Media
+MODSUN,1,180919,104929.0,Music
+MOMOMOYOUTHVEVO,2,477388,853329.0,Music
+MSNBC,8,98547,791390.0,Traditional Media
+MTV International,1,171804,630440.0,Traditional Media
+MYSTERY SCIENCE THEATER 3000,1,18959,117528.0,Traditional Media
+MaccabeatsVideos,1,77201,63018.0,Music
+Macklemore LLC,1,408491,5983561.0,Music
+Maddie Lymburner,1,24530,196735.0,Youtuber
+Maddie Ziegler,2,340194,2138046.0,Traditional Media
+Madelaine Petsch,7,220091,1197970.0,Traditional Media
+Madmorda,1,4541,338.0,Conventional Viral
+Maggie Lindemann,2,252615,659933.0,Music
+Magnolia Pictures & Magnet Releasing,2,108031,89624.0,Movie Trailer
+Major Lazer,2,340783,10098171.0,Music
+Maker's Box,1,8219,553.0,Conventional Viral
+Makeupshayla,1,197950,522070.0,Youtuber
+Malik Nabee,1,231920,64.0,Conventional Viral
+Mamrie Hart,2,74997,1212390.0,Youtuber
+Man About Cake,3,112914,333471.0,Youtuber
+MandisaVEVO,1,71574,162587.0,Music
+Manny Mua,2,1983832,4484360.0,Youtuber
+Marco Reps,2,30456,35560.0,Youtuber
+Marcos Horacio,1,13531,6.0,Conventional Viral
+MariahCareyVEVO,2,158840,3188673.0,Music
+Marie McGann,1,7432,8.0,Conventional Viral
+Mark Ferris,1,34138,640798.0,Youtuber
+Mark Linsangan,1,9036,14471.0,Commercial
+Mark Rober,4,1487690,3025247.0,Youtuber
+Mark Sales,1,681390,2713.0,Youtuber
+Markiplier,6,706467,19816154.0,Youtuber
+Maroon5VEVO,5,2115206,15600360.0,Music
+Marques Brownlee,22,1188264,5887416.0,Youtuber
+Marteen Estevez,1,21437,36171.0,Music
+Martin Garrix,1,1418342,8428596.0,Music
+Marvel Entertainment,16,5010713,6291279.333333333,Movie Trailer
+Marzia,6,396198,7252881.0,Youtuber
+Mashable Daily,1,300407,37392.0,Traditional Media
+Mashed,1,191764,95100.0,Movie Trailer
+MassLive,1,5938,9416.0,Traditional Media
+MassMutual,1,18336,4960.0,Commercial
+MasterClass,1,1513004,176553.0,Commercial
+Masters Of The Sun,1,4143,154.0,Music
+Matoma,1,15353,106780.0,Music
+Matt Steffanina,1,293758,7464866.0,Youtuber
+Matt and Kim,1,38001,76289.0,Music
+MattMasonPhotography,1,94694,99.0,Youtuber
+MatthewSantoro,6,244910,5988586.0,Youtuber
+Matthias,7,860546,4996469.0,Youtuber
+Matthias Wandel,4,183491,1281338.0,Youtuber
+Max Fagin,1,55323,1852.0,Conventional Viral
+Max Hertan,1,9977,8171.0,Youtuber
+Max Joseph,1,895352,137352.0,Traditional Media
+Max Skipper,1,129038,698.0,Conventional Viral
+Mayim Bialik,4,83218,353057.0,Traditional Media
+Maymo,1,121912,1303105.0,Youtuber
+Mayo Clinic,1,237307,73242.0,Commercial
+McDonald's,2,812990,361329.0,Commercial
+Mecum Auctions,1,90556,21397.0,Traditional Media
+MeganBatoon,2,87478,874240.0,Youtuber
+MeghanTrainorVEVO,4,850417,8954032.0,Music
+Mental Floss,5,27342,1346893.0,Youtuber
+Mercedes-AMG Petronas Motorsport,1,123573,212330.0,Traditional Media
+Mercedes-Benz,1,38585,586437.0,Commercial
+Merrell Twins Live,3,50850,214810.0,Youtuber
+Michael Callaghan,1,26096,61.0,Conventional Viral
+Michael Dapaah,2,1721959,983700.0,Youtuber
+Michael Rigsby,1,1415,16.0,Conventional Viral
+Michelle Khare,9,201428,694662.0,Youtuber
+Michelob ULTRA,2,470674,0.0,Commercial
+MickMake,1,3237,24695.0,Youtuber
+MiddleKidsVEVO,1,14839,1970.0,Music
+Midnight Video,1,60262,2117.0,Conventional Viral
+MigosVEVO,2,2501133,1495629.0,Music
+MiguelVEVO,3,618382,897979.0,Music
+Mike Austin,1,953860,5594.0,Conventional Viral
+Mike Boyd,7,324351,790164.0,Youtuber
+Mike Diva,1,55556,633038.0,Youtuber
+Mike H,1,8502,39.0,Youtuber
+Mike Olbinski,1,8177,14303.0,Youtuber
+Mikey Murphy,1,621594,1536731.0,Youtuber
+Milkmen Design,1,4387,15.0,Conventional Viral
+Millie T,1,99243,1014038.0,Youtuber
+MinuteEarth,5,209460,1881592.0,Youtuber
+Miranda Sings,4,636731,8650805.5,Youtuber
+Miss Universe,1,437779,290470.0,Traditional Media
+Missguided,1,4371,14841.0,Commercial
+Missouri Star Quilt Company,2,39810,459037.0,Commercial
+MisterWivesVEVO,1,7544,115796.0,Music
+Mnet K-POP,2,3853250,5910437.0,Music
+Moby,1,41958,267824.0,Music
+Molly Burke,4,104128,274004.0,Youtuber
+Mom Will Be Proud,1,27982,585.0,Conventional Viral
+Momentum Pictures,3,20280,2212.0,Movie Trailer
+Monster Cable Products,1,23308,10786.0,Commercial
+Monster Energy,1,105091,1504844.0,Commercial
+MoreZoella,1,533590,4877657.0,Youtuber
+Morgan Adams,3,778160,707439.0,Youtuber
+Motherboard,2,379394,985681.0,Traditional Media
+Mountain Dew,1,179107,131421.0,Commercial
+Movie Munchies,1,79863,224603.0,Youtuber
+Movie'n'co UK,1,27234,430.0,Conventional Viral
+MovieAccessTrailers,1,16287,372061.0,Movie Trailer
+Movieclips Coming Soon,1,96416,1727882.0,Movie Trailer
+Movieclips Film Festivals & Indie Films,1,26033,969847.0,Movie Trailer
+Movieclips Trailers,5,406049,11843142.0,Movie Trailer
+Mr Ben Brown,1,28731,713426.0,Youtuber
+Mr Sunday Movies,2,231767,834261.0,Youtuber
+Mr. Kate,7,540776,2199425.0,Youtuber
+MrBeast,1,2348594,3681360.0,Youtuber
+MrMobile [Michael Fisher],1,239189,569870.0,Youtuber
+MrNorrisVideos,1,127521,23185.0,Traditional Media
+MrTreknation,1,12769,29784.0,Youtuber
+MsAaliyahJay,1,219030,1090721.0,Youtuber
+Munchies,3,239102,2172681.0,Traditional Media
+Muse,1,585170,2197048.0,Music
+Muselk,1,443919,4053584.0,Youtuber
+Must Love Science,1,5775,133.0,Conventional Viral
+Mustache Wax,1,16690,75102.0,Youtuber
+My Self Reliance,2,122555,308385.0,Youtuber
+My Virgin Kitchen,2,56419,685994.0,Youtuber
+MyHarto,6,165749,2533984.0,Youtuber
+MyLifeAsEva,3,787579,8498418.0,Youtuber
+N W,1,193090,127.0,Conventional Viral
+NARLtv,1,3545,80.0,Conventional Viral
+NASA,1,26527,1976807.0,Traditional Media
+NASA Goddard,2,699274,427733.0,Traditional Media
+NASA Jet Propulsion Laboratory,3,421240,322385.0,Traditional Media
+NASCAR,2,36932,247825.0,Traditional Media
+NBA,55,284134,8707071.0,Traditional Media
+NBA Stats All Seasons,1,122049,21333.0,Youtuber
+NBA on ESPN,1,5813,103143.0,Traditional Media
+NBA on TNT,3,439053,386121.0,Commercial
+NBC,4,82367,567001.3333333334,Traditional Media
+NBC News,21,152153,647451.0,Traditional Media
+NBC Sports,19,423966,452868.5333333333,Traditional Media
+NFL,36,765653,3212413.0,Traditional Media
+NFL Network,1,821663,246465.0,Traditional Media
+NFL World,1,8440,75311.0,Traditional Media
+NFVEVO,2,1401675,1525232.0,Music
+NIXOLAS,1,9510,3833.0,Conventional Viral
+NJ.com,3,169937,67933.0,Traditional Media
+NOLA.com,1,17627,26869.0,Traditional Media
+NOVA's Secret Life of Scientists and Engineers,1,2992,9348.0,Traditional Media
+NWSSanDiego,1,4636,989.0,Traditional Media
+NZPoliceRecruitment,1,93383,2967.0,Commercial
+Nahre Sol,1,5149,5526.0,Youtuber
+Nat Geo WILD,2,101726,1458519.0,Traditional Media
+Natalies Outlet,2,1151244,5799975.0,Youtuber
+Nathan C,1,21723,509.0,Music
+Nathan Robinson,1,264408,370.0,Conventional Viral
+National Geographic,12,161825,7552015.0,Traditional Media
+National Safety Council,1,1967,3200.0,Traditional Media
+Navenanthen Gepardieu,1,21063,177.0,Conventional Viral
+Neil Fraser,1,1866,202.0,Conventional Viral
+Nerdist,3,907777,2421156.0,Youtuber
+Nerdwriter1,8,269472,2049015.0,Youtuber
+Netflix,58,421700,3181914.0,Commercial
+Netflix Asia,1,114276,81595.0,Commercial
+New England Patriots,1,73662,40890.0,Traditional Media
+New Orleans Saints on NOLA.com,2,190113,4124.0,Traditional Media
+New Scientist,1,465893,165714.0,Traditional Media
+New York Daily News,2,72174,88405.0,Traditional Media
+New York Magazine,1,3154,89945.0,Traditional Media
+News 5 Cleveland,1,265128,53601.0,Traditional Media
+NewsFunnies,2,107242,6564.0,Conventional Viral
+Newsflare,1,116946,57394.0,Youtuber
+Newsy,2,818,63781.0,Traditional Media
+NiallHoranVEVO,3,504112,2360833.0,Music
+Nick Ramos,1,994747,7.0,Conventional Viral
+NickJonasVEVO,4,102816,0.0,Music
+Nickelback,1,57169,1935019.0,Music
+Nickelodeon,2,174288,3256225.0,Traditional Media
+Nicki Shields,1,32749,14339.0,Traditional Media
+Nicol Concilio,2,173991,755675.0,Youtuber
+Nicole Guerriero,2,253001,2888798.0,Youtuber
+Nike,1,403613,760784.0,Commercial
+Niki and Gabi,2,1234198,6434929.0,Youtuber
+Nikita Dragun,2,571044,981974.0,Youtuber
+NikkieTutorials,12,1646071,9287122.5,Youtuber
+Nile Wilson,2,244095,684371.0,Youtuber
+NinaNesbittMusicVEVO,1,135517,250469.0,Music
+Nintendo,14,965954,3769964.6666666665,Movie Trailer
+NitroV2,1,25923,12078.0,Conventional Viral
+Noah Nicholls,1,1288977,190.0,Conventional Viral
+NoahCyrusVEVO,1,148257,1120852.0,Music
+NoahKahanVEVO,1,8690,21794.0,Music
+Nobrand,1,98966,125.0,Youtuber
+Now You See It,1,206319,545240.0,Youtuber
+NowThis World,1,544770,1740822.0,Traditional Media
+Numberphile,5,130649,2404027.0,Youtuber
+OK Go,1,2618344,763901.0,Music
+ONE Media,6,490627,0.0,Movie Trailer
+OVO Sound,1,4569886,172633.0,Music
+Obama Foundation,1,42194,79308.0,Traditional Media
+Oceana,1,4178,2864.0,Conventional Viral
+Official Charts,1,15672,9129.0,Traditional Media
+OjO Commuter Scooter by OjO Electric,1,789,152.0,Commercial
+OlanRogers,1,76044,967054.0,Traditional Media
+Olympic,4,296986,2406117.0,Traditional Media
+Omaze,2,27569,129814.0,Commercial
+Omeleto,2,121578,1361399.0,Movie Trailer
+"One List , One Life",1,32385,23282.0,Youtuber
+OneBitMusicVEVO,1,585180,19888.0,Music
+Open Road Films,1,1216410,51758.0,Movie Trailer
+Orion Pictures,1,105229,3195.0,Movie Trailer
+Oscar Fury,1,17068,9.0,Conventional Viral
+Oscars,1,952863,821330.0,Traditional Media
+Outback Steakhouse,1,9387,13232.0,Commercial
+Owen Harvey,1,110072,75.0,Conventional Viral
+Ozuna,1,1498866,13157836.0,Music
+PAC ENTRETENIMENTO / DJ IVAN DAVIS,1,165957,8717.0,Youtuber
+PB Comps,1,434617,146840.0,Traditional Media
+PBS Eons,4,362694,227685.0,Traditional Media
+PBS NewsHour,8,626539,634903.0,Traditional Media
+PESfilm,1,34434,1476954.0,Youtuber
+PHP,1,1959044,12803.0,Traditional Media
+PK Inventor,1,5509,0.0,Conventional Viral
+PLAYERUNKNOWN'S BATTLEGROUNDS,1,367796,37042.0,Movie Trailer
+PONY Syndrome,1,320038,3656884.0,Youtuber
+POPSUGAR,1,36588,571006.0,Traditional Media
+PTXofficial,8,1001412,14828172.0,Music
+Pac-12 Networks,1,19333,33950.0,Traditional Media
+Palo Alto Online,1,658,1553.0,Conventional Viral
+Panic! At The Disco,2,489663,1241220.0,Music
+Paramount Network,2,86206,0.0,Commercial
+Paramount Pictures,7,3150119,652202.0,Movie Trailer
+Paris Hilton,1,134817,56734.0,Traditional Media
+Parks and Recreation,1,55974,85905.0,Traditional Media
+ParsonJamesVEVO,2,54324,57374.0,Music
+Passenger,1,144177,3854868.0,Music
+Patricia Bright,2,406775,2179623.0,Youtuber
+Patrick Nan,1,546909,4717.0,Conventional Viral
+PatrickStarrr,3,343736,3512637.0,Youtuber
+Paul Sellers,1,32987,274519.0,Youtuber
+Peaceful Cuisine,1,42033,1234505.0,Youtuber
+PekingDukVEVO,1,26117,24847.0,Music
+Peloton,1,95174,4857.0,Commercial
+Penguin Books South Africa,1,2075,748.0,Commercial
+Penguin Books UK,1,51474,15889.0,Commercial
+People are Awesome,2,378201,2376164.0,Youtuber
+PeopleTV,2,84053,253905.0,Traditional Media
+Pepsi,2,2047211,806108.0,Commercial
+Pero Like,1,306854,724998.0,Youtuber
+Persil ProClean,1,8300,4231.0,Commercial
+PetaPixel,1,2457408,5912.0,Youtuber
+Peter Brown,2,164001,556911.0,Youtuber
+Peter Caine Dog Training,1,169390,43211.0,Youtuber
+Peter McKinnon,4,302328,1819347.0,Youtuber
+PeterSripol,1,97007,483293.0,Youtuber
+PhakeNam,1,18264,3026.0,Conventional Viral
+PhilPhillipsVEVO,1,38068,461134.0,Music
+Philadelphia 76ers,1,12831,15199.0,Traditional Media
+Philadelphia Eagles,1,213825,44918.0,Traditional Media
+Philip DeFranco,2,1454891,6066228.0,Youtuber
+Physics Girl,3,259343,830493.0,Youtuber
+Pies Are Awesome,1,1515,1576.0,Conventional Viral
+Pinball Wiz,1,1692774,3882.0,Conventional Viral
+PinkVEVO,3,1103074,7582837.0,Music
+PitbullVEVO,2,812864,10007174.0,Music
+Pitch Perfect,2,494560,351366.0,Traditional Media
+Pitchfork,1,81488,720111.0,Traditional Media
+Pittsburgh Dad,1,186178,147990.0,Youtuber
+Pixielocks,3,27004,171811.0,Youtuber
+Plasma Channel,2,4602,6120.0,Youtuber
+PlayOverwatch,3,985287,2252103.0,Commercial
+PlayStation,1,938603,6392659.0,Commercial
+PointlessBlogVlogs,1,430932,4097105.0,Youtuber
+Polyphonic,1,138563,198966.0,Youtuber
+Pomegranate Sunshine,1,65758,422.0,Conventional Viral
+Pop & Sports HQ,1,305899,15015.0,Youtuber
+Popcorn with Peter Travers,1,86360,16391.0,Traditional Media
+Poppy,4,404475,0.0,Youtuber
+Popular Woodworking,1,34650,107718.0,Commercial
+Portugal. The Man,3,93035,402523.0,Music
+PostmodernJukebox,2,194267,3292548.0,Music
+Practical Engineering,2,148709,474455.0,Youtuber
+PrettyMuchVEVO,2,107380,214785.0,Music
+Prime Video,1,1421492,135383.0,Movie Trailer
+Primitive Technology,3,3144758,7412758.0,Youtuber
+Prince Marcus,1,5876,1185.0,Conventional Viral
+PrincessPiaMiaVEVO,1,102357,1008419.0,Music
+ProZD,4,740112,1198769.0,Youtuber
+PsychoSoprano,2,470916,5436226.0,Youtuber
+QUARTZ,1,65409,53.0,Traditional Media
+Quad9 DNS,1,4759,273.0,Conventional Viral
+Queen Naija,3,2699316,1875951.0,Youtuber
+Quicken Loans,1,83386,7510.0,Commercial
+R3HAB,2,293814,785648.0,Music
+RAP DAILY,1,283379,0.0,Music
+REACT,14,796529,8955718.0,Youtuber
+RESSENCE WATCHES,1,10731,0.0,Commercial
+RM Videos,12,81922,100966.0,Youtuber
+ROME REPORTS in English,1,8128,72566.0,Traditional Media
+RZSS Highland Wildlife Park,1,3393,413.0,Conventional Viral
+Rachel and Jun,1,1098897,1361647.0,Youtuber
+RachelPlattenVEVO,1,33887,1169430.0,Music
+Rachelleea,1,10881,511722.0,Youtuber
+RackaRacka,1,1133142,4563294.0,Youtuber
+Radio Andy,1,36270,1976.0,Traditional Media
+Radio Physics and Electronics,1,3287,1626.0,Youtuber
+Radovan Lazic,1,1136686,16644.0,Music
+RagnBoneManVEVO,1,67815,1486849.0,Music
+Rainer Hilland,1,19575,31.0,Conventional Viral
+Rainsford,1,6593,1011.0,Music
+Ram Trucks,2,1534871,59163.0,Commercial
+Ranz Kyle,3,288131,3919412.0,Music
+Rapid Trailer,2,260295,174845.0,Movie Trailer
+Rappler,1,59466,261852.0,Traditional Media
+RawBeautyKristi,1,75912,340914.0,Youtuber
+Rclbeauty101,1,467983,12985195.0,Youtuber
+Reach Records,1,21193,557176.0,Music
+Real Engineering,1,539560,934871.0,Youtuber
+Real Madrid C.F.,2,503325,2869728.0,Traditional Media
+Real World Records,1,14311,24473.0,Music
+RealLifeLore,4,543355,1904153.0,Youtuber
+Rebel Wilson,1,6624,3538.0,Traditional Media
+Recode,1,28626,91793.0,Traditional Media
+Recording Academy / GRAMMYs,2,358526,344462.0,Traditional Media
+Red Bull,9,553310,6928375.0,Commercial
+Red Bull Records,1,5226,508834.0,Music
+Red Robot - Intelligent Distribution,1,84474,7327.0,Commercial
+RedCurtainEnt,1,1314250,2865.0,Conventional Viral
+Redline Reviews,1,96774,361259.0,Youtuber
+Refinery29,40,61389,890739.0,Traditional Media
+Rella On the radio,1,720285,959.0,Conventional Viral
+RemyMaVEVO,4,676781,106500.0,Music
+Renault Sport,1,54198,33377.0,Commercial
+Represent.Us,1,11023,33661.0,Traditional Media
+RetroManCave,2,12964,31169.0,Youtuber
+Revolt TV,1,847289,251492.0,Youtuber
+Ricky Dillon,1,351073,3338378.0,Youtuber
+RickyMartinVEVO,1,216607,4145654.0,Music
+RihannaNavyVevo,1,10754,2232.0,Music
+Rise,1,23819,2495.0,Traditional Media
+Rita Ora,2,1430352,530742.0,Music
+Roadshow,1,49536,108136.0,Youtuber
+Rob Bliss,1,466511,30383.0,Youtuber
+Rob Scallon,3,288742,1326686.0,Youtuber
+Rock & Roll Hall of Fame,1,5625,246647.0,Traditional Media
+"Rock me, Joey Santiago.",1,94088,442.0,Conventional Viral
+RocketJump Film School,1,22294,440035.0,Youtuber
+RomanAtwoodVlogs,2,1814499,14351304.0,Youtuber
+Rooster Teeth,4,395528,9441487.0,Youtuber
+Rosanna Pansino,12,423365,9680325.0,Youtuber
+Ross Kempsell,1,2975,579.0,Youtuber
+Roy Moore for Senate,1,51139,2037.0,Traditional Media
+Royal Academy of Arts,1,17164,6809.0,Traditional Media
+Royal Blood,1,56553,314490.0,Music
+Rudimental,3,357397,924651.0,Music
+Rudy Mancuso,8,1486904,4198824.4,Youtuber
+Russell Howard,1,516045,550888.0,Traditional Media
+Ryan,1,241409,2818.0,Conventional Viral
+Ryan Calme,1,159679,2147.0,Conventional Viral
+Ryan Canty,1,563246,3232.0,Conventional Viral
+Ryan Davidson,1,62484,198.0,Conventional Viral
+Ryan Is Driving,1,592963,387120.0,Youtuber
+Ryan Northover,1,24200,4831.0,Conventional Viral
+Ryan Williams,1,74609,720787.0,Youtuber
+Ryland Adams,2,1208189,1728339.0,Youtuber
+SB Nation,3,237414,215432.0,Traditional Media
+SHOWTIME,1,546964,329821.0,Traditional Media
+SHOWTIME Sports,2,165046,488563.0,Traditional Media
+SIRAH,1,18317,19944.0,Music
+SKITTLESbrand,2,32090,0.0,Commercial
+SMTOWN,11,2978545,13551673.0,Music
+SPORTSNET,3,101089,141085.0,Traditional Media
+SR Trailers and Interviews,1,9812,0.0,Movie Trailer
+SRAM MTB,1,53923,55118.0,Youtuber
+STX Entertainment,2,1301665,92155.0,Traditional Media
+SUPERFRUIT,3,354659,2545188.0,Music
+SZAVEVO,3,1466427,771269.0,Music
+Safiya Nygaard,18,2723984,4169227.0,Youtuber
+SaggyJ,1,151917,2308.0,Conventional Viral
+Sailing La Vagabonde,1,182778,375617.0,Youtuber
+Sailor J,6,99310,232414.0,Youtuber
+Saint Louis Chess Club,3,96662,147718.0,Youtuber
+Sam Chui,1,1126715,398881.0,Youtuber
+Sam Sheffer,1,47385,147934.0,Youtuber
+SamSmithWorldVEVO,3,866778,7528728.0,Music
+Samantha Maria,2,64516,1838832.0,Youtuber
+Samsung,1,1868552,2503648.0,Commercial
+Samsung Mobile USA,1,52154,858335.0,Commercial
+Sara Dietschy,5,48103,314532.0,Youtuber
+Sarasota Police Department,1,1338,738.0,Traditional Media
+Saskatchewan Rush,1,2025,1064.0,Traditional Media
+Saturday Night Live,35,1298101,5293475.19047619,Traditional Media
+Sauber F1 Team,1,119235,55338.0,Traditional Media
+Saved By The Max,1,2078,239.0,Conventional Viral
+SciShow,26,202152,4853444.0,Youtuber
+Science Magazine,2,1138525,71186.0,Traditional Media
+Science vs Cinema,1,6320,54473.0,Youtuber
+Scott Manley,1,48505,692776.0,Youtuber
+Scotty Sire,1,488580,1818318.0,Youtuber
+ScottyMcCreeryVEVO,1,46683,302529.0,Music
+Screen Junkies,25,1111382,6366779.0,Youtuber
+ScreenJunkies News,11,48803,1521403.0,Youtuber
+ScreenPrism,4,108416,284965.0,Traditional Media
+SeanPaulVEVO,1,243220,1035708.0,Music
+See You Yang,1,124877,89.0,Conventional Viral
+SelenaGomezVEVO,3,3620076,15648088.0,Music
+Senator Chris Murphy,1,16080,1041.0,Traditional Media
+Seonkyoung Longest,1,13596,635670.0,Youtuber
+Sesame Street,1,318249,3412673.0,Traditional Media
+Seth's Bike Hacks,1,183149,623787.0,Youtuber
+Sevdaliza,1,90206,153622.0,Music
+Shaaanxo,1,178832,3129087.0,Youtuber
+Shade 45,1,26393,1894.0,Traditional Media
+Shameless Maya,2,100979,1095997.0,Youtuber
+Shantell Martin,1,42336,57809.0,Traditional Media
+Shawn Johnson East,2,297203,511999.0,Youtuber
+ShawnMendesVEVO,5,1599466,11639643.0,Music
+Shay Mitchell,2,1885595,3112713.0,Youtuber
+Sherylcrow,1,41174,17397.0,Traditional Media
+Shesez,1,300203,331538.0,Youtuber
+ShibSibs,1,107663,151756.0,Youtuber
+Shmee150,1,298744,1193570.0,Commercial
+Shoshana Bean,2,97472,24589.0,Youtuber
+Shyrynne,1,1035381,1175.0,Conventional Viral
+SiaVEVO,7,1477637,10530112.0,Music
+Sieuwe Elferink,1,4168,10.0,Conventional Viral
+SigridVEVO,4,240409,198433.0,Music
+Simon and Martina,4,151292,1319982.0,Youtuber
+Simon's Cat,13,212000,4673210.0,Youtuber
+Simone Giertz,7,480225,946822.0,Youtuber
+Simply Nailogical,12,1961950,5008492.0,Youtuber
+Simply Not Logical,3,617598,1889896.0,Youtuber
+Single Shot,1,920,3395.0,Conventional Viral
+SiriusXM,2,9119,471492.0,Traditional Media
+Skelly Robot,1,4767,53.0,Conventional Viral
+Slednecks,1,4442,8393.0,Youtuber
+Slooh,1,269906,0.0,Youtuber
+SmarterEveryDay,3,506907,5495041.0,Youtuber
+Smequle,1,22835,100331.0,Youtuber
+Smosh,16,947197,22919161.0,Youtuber
+Smyang Piano,1,33211,672714.0,Music
+Snapchat,1,867588,163858.0,Commercial
+SnekTek,1,61317,1217.0,Conventional Viral
+SnoopDoggVEVO,2,169859,2116714.0,Music
+So I Had This Idea...,1,97217,1101.0,Conventional Viral
+Solid Gold Aquatics,1,176544,236380.0,Youtuber
+Song Of Style,1,23405,249389.0,Youtuber
+Sony Pictures Entertainment,10,5286249,1869690.0,Movie Trailer
+Sound Bites,1,13845,6098.0,Conventional Viral
+Southwest Florida Eagle Cam,1,95988,89546.0,Youtuber
+SpaceX,10,1746767,1659145.0,Commercial
+Sparkee Music,1,59297,2832.0,Music
+Special Books by Special Kids,2,39833,366224.0,Youtuber
+Specialized Bicycles,1,45844,264592.0,Commercial
+Spectrum Haleskarth,1,5997,11.0,Conventional Viral
+Speks,1,2178,154.0,Conventional Viral
+Spinach Dippa,1,56197,122.0,Conventional Viral
+Sport Hub,1,4206,0.0,Youtuber
+Sports Illustrated,1,34997,142387.0,Commercial
+Spotify,1,20646,187603.0,Commercial
+Sprinkleofglitter,3,435052,2609997.0,Youtuber
+Sprint,1,637000,62125.0,Commercial
+Squarespace,1,378593,23963.0,Commercial
+Squirrel Monkey,1,45052,23510.0,Youtuber
+Srinath .S,1,87105,93.0,Conventional Viral
+Sriram Murali,1,7938,693.0,Conventional Viral
+StanDrawsSpaceships,1,164800,14403.0,Youtuber
+Star Wars,15,1429360,2516341.0,Traditional Media
+Star Wars Coffee,1,16031,16235.0,Commercial
+Star Wars HQ,1,127452,719445.0,Youtuber
+Steeper33,1,63007,20776.0,Youtuber
+Stefany Gonzalez,1,11630,55.0,Conventional Viral
+Step Up: High Water,1,238647,340041.0,Traditional Media
+Steve Kovach,1,2259,325.0,Conventional Viral
+Steve TV Show,2,44159,1789052.0,Traditional Media
+Stewart Brand,1,6412,1319.0,Conventional Viral
+StingVEVO,1,101310,434823.0,Music
+StorrorBlog,1,665163,935362.0,Youtuber
+StoryCorps,1,26282,212068.0,Youtuber
+Storyful News,1,244532,49239.0,Traditional Media
+Strange Parts,2,250906,543377.0,Youtuber
+Stratolaunch,1,106360,1303.0,Commercial
+Street Speed 717,1,229570,654874.0,Youtuber
+Strictly Dumpling,5,456040,1045509.0,Youtuber
+Studio C,6,317852,1760515.0,Traditional Media
+StudiocanalUK,1,21573,59581.0,Movie Trailer
+Sufficiently Advanced,1,104510,516797.0,Youtuber
+Sugar Pine 7,3,204419,1092632.0,Youtuber
+SugarlandVEVO,2,334901,318614.0,Music
+Summit,1,4009,3152.0,Youtuber
+Summoning Salt,1,312354,204181.0,Youtuber
+SuperCarlinBrothers,3,241696,1545575.0,Youtuber
+SuperwomanVlogs,3,138554,2404615.0,Youtuber
+SupremeSounds,1,443055,63942.0,Music
+Swish Daily,1,731035,16988.0,Traditional Media
+Sylvia Gani,3,552924,1827249.0,Youtuber
+Symon,1,59638,0.0,Music
+Syracuse Orange,1,12994,11943.0,Traditional Media
+T-Mobile,2,869876,160720.0,Commercial
+TBS,4,595553,394290.0,Traditional Media
+TDAmeritrade,1,3831,13873.0,Commercial
+TED,3,84282,9314118.0,Traditional Media
+TED-Ed,22,249188,6091542.0,Youtuber
+TIME,12,272864,328272.0,Traditional Media
+TMZ,11,466386,2786000.0,Traditional Media
+TMZSports,2,1982776,315105.0,Traditional Media
+TNT,2,33113,119464.0,Traditional Media
+TODAY,20,337074,630508.0,Traditional Media
+TRL,2,406315,191810.0,Traditional Media
+TRYANGLE FILMS,1,4196683,350178.0,Youtuber
+TSN Tube,1,141052,62347.0,Youtuber
+TV One,1,157494,69011.0,Traditional Media
+TV Promos,5,139532,666565.0,Movie Trailer
+Talks at Google,1,53000,704100.0,Traditional Media
+Tamar Chronicles,1,451356,19264.0,Traditional Media
+Tamika Hall,1,4970,2124.0,Youtuber
+Tanner Braungardt,1,1803724,3892880.0,Youtuber
+Tanya Burr,2,407628,3694131.0,Traditional Media
+Tasty,28,812419,6205584.0,Youtuber
+Tati,15,619654,3887047.0,Youtuber
+Taylor Alexander,1,5584,374.0,Conventional Viral
+Taylor Nicole Dean,4,378875,1176502.0,Youtuber
+Taylor R,1,124439,807139.0,Youtuber
+Taylor Swift,3,224157,2114165.0,Music
+TaylorSwiftVEVO,4,7682388,27907431.0,Music
+Team Coco,16,685056,5600865.0,Traditional Media
+Team Edge,6,1108443,3719925.0,Youtuber
+Tech Insider,8,245309,1420833.0,Traditional Media
+TechCrunch,2,152333,338234.0,Commercial
+TechRax,3,1076048,6012684.0,Youtuber
+TechSmartt,3,857624,2660316.0,Youtuber
+Techmoan,1,116907,614764.0,Youtuber
+Technology Connections,1,111825,72994.0,Youtuber
+Techquickie,1,230223,1980988.0,Youtuber
+Teen Vogue,7,183886,833314.0,Traditional Media
+Tegan and Sara,1,5258,250147.0,Music
+Tentmaker Pictures,1,2068,45.0,Youtuber
+Terrormink,1,11384,209.0,Conventional Viral
+Tessa Violet,2,66202,1165294.0,Music
+Tested,3,162542,3188804.0,Youtuber
+That Japanese Man Yuta,1,1111674,527371.0,Youtuber
+The 2x Family,1,983779,1886581.0,Youtuber
+The ACE Family,1,4990782,5975627.0,Youtuber
+The Action Lab,4,3563379,787905.0,Youtuber
+The Alex Jones Channel,2,62216,2297122.0,Traditional Media
+The Angie Martinez Show,1,22108,0.0,Traditional Media
+The Anna Edit,1,112510,449860.0,Youtuber
+The Atlantic,3,18175,93238.0,Traditional Media
+The Bachelor Insider,1,59833,14080.0,Traditional Media
+The Bella Twins,2,301545,1230902.0,Youtuber
+The CGBros,1,24543,1943512.0,Youtuber
+The CW Television Network,6,190481,1011350.0,Traditional Media
+The Cincinnati Zoo & Botanical Garden,1,50547,81399.0,Youtuber
+The Cuddle Squad,2,60161,1013.0,Conventional Viral
+The Current Source,1,3391,3119.0,Conventional Viral
+The Daily Show with Trevor Noah,10,719562,2940431.0,Traditional Media
+The Deal Guy,2,85521,416583.0,Traditional Media
+The Dodo,18,303793,1062478.0,Traditional Media
+The Film Theorists,12,1994288,6039808.0,Youtuber
+The Food Ranger,6,425855,1443945.0,Youtuber
+The Graham Norton Show,15,943099,1676098.0,Traditional Media
+The Grand Tour,4,403726,739264.0,Traditional Media
+The Hollywood Reporter,7,64317,333336.0,Traditional Media
+The Inertia,1,65371,17610.0,Traditional Media
+The Infographics Show,10,325935,1607518.0,Youtuber
+The Key of Awesome,1,211001,5355670.0,Youtuber
+The King of Random,21,616563,9133669.0,Youtuber
+The Late Late Show with James Corden,46,1106658,13609192.346153846,Traditional Media
+The Late Show with Stephen Colbert,58,598374,3965373.0,Traditional Media
+The Lore Master,1,113048,449092.0,Youtuber
+The Modern Rogue,1,151574,561122.0,Youtuber
+The New York Times,17,142533,1186609.0,Traditional Media
+The New Yorker,2,1883102,157379.0,Traditional Media
+The Nocturnal Alchemist,1,1833,0.0,Conventional Viral
+The Office US,1,200060,355375.0,Traditional Media
+The Ohana Adventure,2,66028,1201497.0,Youtuber
+The Orchard Movies,2,210816,36209.0,Movie Trailer
+The Oregonian,1,194519,38188.0,Traditional Media
+The Pet Collective,1,38257,1246106.0,Youtuber
+The Players' Tribune,1,12352,0.0,Traditional Media
+The Real Daytime,5,166483,1131789.0,Traditional Media
+The Ringer,1,14865,36826.0,Traditional Media
+The Rock,1,47974,2823910.0,Traditional Media
+The Royal Family,1,1379675,215081.0,Traditional Media
+The Royal Family Channel,5,136416,140672.0,Traditional Media
+The Royal Ocean Film Society,1,25096,98952.0,Youtuber
+The Scam On Demand,1,1591,143.0,Conventional Viral
+The School of Life,9,142682,3331145.0,Youtuber
+The Scran Line,8,28463,387825.0,Youtuber
+The Slow Mo Guys,18,1291600,10647755.0,Youtuber
+The Sports King,1,15117,104.0,Conventional Viral
+The Square to Spare,1,45164,287837.0,Youtuber
+The Sydney Morning Herald,1,2785,5459.0,Traditional Media
+The Talk,4,81097,73487.0,Traditional Media
+The Telegraph,1,279561,334321.0,Traditional Media
+The Thought Emporium,1,82752,54970.0,Youtuber
+The Tommy Edison Experience,1,19261,601630.0,Youtuber
+The Tonight Show Starring Jimmy Fallon,72,747330,15771066.18367347,Traditional Media
+The Unipiper,1,35372,17190.0,Youtuber
+The University of Chicago,1,7188,32678.0,Traditional Media
+The Valleyfolk,2,179848,196348.0,Youtuber
+The Verge,18,392920,1819334.0,Traditional Media
+The View,18,214457,381328.86666666664,Traditional Media
+The Voice,18,561376,5808435.4,Traditional Media
+The Warp Zone,1,44851,1997141.0,Youtuber
+The Weather Channel,1,60509,245120.0,Traditional Media
+The White House,2,144212,1036582.0,Traditional Media
+The X Factor UK,2,653186,6278831.0,Traditional Media
+The king of DIY,2,176798,725479.0,Youtuber
+TheAngryGrandpaShow,2,3531622,3829433.0,Youtuber
+TheBackyardScientist,1,588908,3299643.0,Youtuber
+TheBeatlesVEVO,1,300775,1283207.0,Music
+TheCubician,1,95697,776.0,Conventional Viral
+TheEllenShow,74,966796,23760020.0,Traditional Media
+TheGracieC,1,51932,8.0,Conventional Viral
+TheHoonigans,1,321245,1418025.0,Conventional Viral
+TheJuicyJVEVO,1,121274,892807.0,Music
+TheKillersVEVO,1,177747,1428394.0,Music
+TheMeanKitty,2,244192,561797.0,Youtuber
+TheOdd1sOut,1,3411062,6200702.0,Youtuber
+ThePianoGuys,1,150941,5990470.0,Youtuber
+TheReportOfTheWeek,6,420724,770330.0,Youtuber
+TheScriptVEVO,3,95690,2475056.0,Music
+TheSorryGirls,4,129177,1217638.0,Youtuber
+TheTimTracker,3,96636,345366.0,Youtuber
+TheUnlockr,1,7973,457671.0,Youtuber
+TheVampsVEVO,1,91620,2319958.0,Music
+Theme Park Review,1,29017,1069645.0,Youtuber
+Third Leg Studios,2,92233,42942.0,Youtuber
+ThirtySecondsToMarsVEVO,2,1052581,2126409.0,Music
+This Is Us,2,172201,76785.0,Traditional Media
+This Morning,1,198437,591802.0,Traditional Media
+ThisDustIn,1,59352,6302.0,Youtuber
+Thomas Sanders,4,149171,2496693.0,Youtuber
+Thomas Sebastian,1,3788,471.0,Conventional Viral
+ThomasRhettVEVO,1,851835,723866.0,Music
+ThreadBanger,9,738448,3877691.0,Youtuber
+ThreeDaysGraceVEVO,1,239907,1822800.0,Music
+Tia Mowry's Quick Fix,2,333576,254827.0,Youtuber
+Tide,1,671618,115478.0,Commercial
+TiffyQuake,2,22772,1325186.0,Youtuber
+Tim Barrett,1,26185,1018.0,Youtuber
+Tim Gray,1,87357,5207.0,Movie Trailer
+TimandFaithVEVO,1,18346,59665.0,Music
+Tina Nguyen,1,16823,1588.0,Youtuber
+Tina Yong,3,348023,2096573.0,Youtuber
+TinasheOfficialVEVO,3,992245,1095121.0,Music
+TobyMacVEVO,1,99535,464483.0,Music
+Today I Found Out,5,310658,1329951.0,Youtuber
+Tom Daley,2,30181,571111.0,Youtuber
+Tom Harlock,1,71264,560026.0,Youtuber
+Tom Scott,24,313252,1096490.0,Youtuber
+Tom Stanton,3,92409,71451.0,Youtuber
+Tom Thum,1,18229,279564.0,Youtuber
+ToniBraxtonVEVO,2,528906,722046.0,Music
+Tony Baker Comedy,1,27499,46577.0,Youtuber
+Tony Berza,1,31576,5760.0,Conventional Viral
+Top Korean News,1,168675,0.0,Traditional Media
+TopClips247,1,740553,206406.0,Youtuber
+Topi The Corgi,3,26987,48569.0,Youtuber
+Topic,1,11054,20905.0,Music
+Torm place,1,26495,84.0,Conventional Viral
+Total Combat,1,1722,45196.0,Traditional Media
+ToveLoVEVO,1,126419,2327668.0,Music
+Townsends,2,35655,489630.0,Youtuber
+Toyota Global,1,64002,51039.0,Commercial
+Toyota USA,1,33447,235454.0,Commercial
+Tpindell,1,218992,2280407.0,Youtuber
+Trace Cyrus,1,76871,4826.0,Music
+TraceyThornVEVO,1,9395,1959.0,Music
+Trailers Promos Teasers,2,60649,18000.0,Movie Trailer
+TrainVEVO,1,30021,970542.0,Music
+Trevor Moran,1,553866,1472846.0,Youtuber
+Trevor Wallace,1,6335,39234.0,Youtuber
+TromaMovies,1,265204,290597.0,Youtuber
+Troom Troom,2,2795627,4367461.0,Youtuber
+Troye Sivan,1,349419,4527765.0,Music
+TroyeSivanVEVO,7,828085,2791783.0,Music
+Tryst Network,1,36744,0.0,Traditional Media
+Tucker Gott,1,175852,570857.0,Youtuber
+Turbo Conquering Mega Eagle,1,17592,10233.0,Youtuber
+TurboTax,2,257320,30030.0,Commercial
+Turkish Airlines,1,936185,229583.0,Commercial
+Turn10Studios,1,20986,58916.0,Movie Trailer
+Twin Shadow,1,21254,20723.0,Music
+Tyler Oakley,7,100383,7833372.0,Youtuber
+Tyler Stalman,3,62267,70984.0,Youtuber
+Tyler Williams,2,727844,547671.0,Youtuber
+U.S. Navy,1,105058,85555.0,Commercial
+U2VEVO,4,76707,1060292.0,Music
+UCAN Zippers USA,1,4321,11233.0,Commercial
+UFC - Ultimate Fighting Championship,3,291664,4381391.0,Traditional Media
+UJ,1,53942,17.0,Conventional Viral
+USA TODAY,8,38183,521239.0,Traditional Media
+Ultra Music,2,494303,10467649.0,Music
+Unbox Therapy,9,2216412,10286333.0,Youtuber
+Unique Vibes,1,4938,26249.0,Music
+United Launch Alliance,2,144785,25210.0,Commercial
+Universal Pictures,14,3004366,1446544.0,Movie Trailer
+University of Rochester EEOC Complainants,1,884,4.0,Conventional Viral
+UrAvgConsumer,1,259918,1737809.0,Youtuber
+Us Weekly,1,31829,0.0,Traditional Media
+Useless Duck Company,1,42737,93900.0,Conventional Viral
+VICE,2,239967,8878618.0,Traditional Media
+VICE News,4,124179,2727992.0,Traditional Media
+VICELAND,2,146543,958004.0,Traditional Media
+VOsprey22,1,2460,16.0,Conventional Viral
+Valk Aviation,1,571588,5342.0,Conventional Viral
+Vance Joy,2,163810,267308.0,Music
+Vanity Fair,22,347166,640271.0,Traditional Media
+Variety,6,187750,230720.0,Traditional Media
+Vat19Nvjds,1,14967,13362.0,Youtuber
+Veritasium,2,536326,4651800.0,Youtuber
+Verizon,2,1321193,114505.0,Commercial
+Vet Ranch,1,295258,2058497.0,Youtuber
+Vevo,1,4866576,16230407.0,Music
+Vic Dibitetto,1,88878,125415.0,Traditional Media
+Victoria's Secret,1,211403,1471450.0,Commercial
+VidCon,1,133433,187094.0,Youtuber
+Video Library,1,12212,1697.0,Conventional Viral
+VideoGameAds,1,3791,2352.0,Movie Trailer
+Vinheteiro,1,134931,1508778.0,Youtuber
+Violin MD,1,16370,64575.0,Youtuber
+Viral Paws,1,6018,48112.0,Youtuber
+ViralHog,14,63480,282774.0,Youtuber
+Viva La Dirt League,1,50014,319685.0,Youtuber
+Vlogs By DK4L,1,316768,1662479.0,Youtuber
+Vogue,25,697193,2188912.0,Traditional Media
+Voicebot,1,2869,36.0,Conventional Viral
+Voltfolio,1,2604,49.0,Conventional Viral
+Vostok.bike,1,1118,52.0,Commercial
+Vote The Process,1,88257,32.0,Conventional Viral
+Vox,47,485457,3808198.0,Traditional Media
+Vsauce2,2,549388,3817045.0,Youtuber
+WE tv,2,10634,170646.0,Traditional Media
+WFLA News Channel 8,1,69716,16771.0,Traditional Media
+WGA West,1,12963,5829.0,Traditional Media
+WHAT'S INSIDE? FAMILY,2,84414,745912.0,Youtuber
+WIRED,26,704932,1866109.0,Traditional Media
+WLKY News Louisville,1,6685,22218.0,Traditional Media
+WOWPresents,9,202724,928880.0,Youtuber
+WQAD News 8,1,6982,342.0,Traditional Media
+WTHR,1,11484,13202.0,Traditional Media
+WWE,34,1788304,23182596.0,Traditional Media
+WXYZ-TV Detroit | Channel 7,1,215733,121989.0,Traditional Media
+Walking With Giants,1,10765,744307.0,Youtuber
+Wall Street Journal,2,55509,779018.0,Traditional Media
+Wallows,1,22580,30262.0,Music
+Walt Disney Animation Studios,2,3246662,2947234.0,Commercial
+Warner Bros. Pictures,24,1816729,5029965.0,Movie Trailer
+Warner Bros. UK,1,159782,521599.0,Movie Trailer
+Washington Post,27,181788,243135.45833333334,Traditional Media
+Wassabi Productions,2,717201,10035854.0,Youtuber
+Watch What Happens Live with Andy Cohen,21,116847,348382.0,Traditional Media
+Waterjet Channel,4,601407,488286.0,Commercial
+Waymo,1,161040,18298.0,Commercial
+WeatherTech,1,179610,4733.0,Commercial
+Wendover Productions,7,443332,1120982.0,Youtuber
+Wendy Williams,8,341112,1624384.0,Traditional Media
+Wendy's,1,124022,77508.0,Commercial
+Wengie,1,1048933,10719785.0,Youtuber
+West Midlands Police,1,167753,15523.0,Conventional Viral
+What I've Learned,1,182250,437483.0,Youtuber
+What's Inside?,7,595415,5376647.0,Youtuber
+WhatCulture Wrestling,1,309747,1327629.0,Traditional Media
+WhatsApp Wacky,1,2585,15.0,Conventional Viral
+WhatsUpMoms,1,262626,2026003.0,Youtuber
+Whistle Sports,1,1820947,1033788.0,Traditional Media
+Whitney Avalon,1,15307,1314628.0,Youtuber
+Whitney Port,1,55398,71090.0,Youtuber
+Why Don't We,1,626351,1593332.0,Music
+Whyte Foxx Music Videos & More,1,33285,268.0,Music
+WildTurkeyBourbon,1,21194,4537.0,Commercial
+Will Darbyshire,1,23116,693230.0,Youtuber
+Will Smith,9,669873,1107952.0,Traditional Media
+William Osman,11,273290,417019.0,Youtuber
+Wintergatan,1,183331,880711.0,Youtuber
+Wix.com,1,229709,75164.0,Commercial
+Wong Fu Productions,6,233085,3063323.0,Youtuber
+World Eyes,1,10358,13.0,Traditional Media
+Writers Guild of America East,1,23866,870.0,Traditional Media
+X Factor Italia,1,199429,359287.0,Traditional Media
+X Games,2,35701,559923.0,Traditional Media
+XAmbassadorsVEVO,2,85555,659876.0,Music
+XFL,1,24203,3718.0,Traditional Media
+Xbox,1,48735,2390960.0,Commercial
+XenonJohn,1,15745,833.0,Conventional Viral
+Xscape - Topic,1,24972,10263.0,Music
+YBF Chic,4,3084,4380.0,Conventional Viral
+YTN NEWS,1,52869,499159.0,Traditional Media
+Yes Theory,3,405930,1145860.0,Youtuber
+Yoga With Adriene,1,265038,3264529.0,Youtuber
+You Suck At Cooking,10,407914,1115811.0,Youtuber
+YouTube Spotlight,3,8730781,27221198.0,Youtuber
+Youtube Tea,2,38638,0.0,Conventional Viral
+ZEDDVEVO,2,328524,4015047.0,Music
+Zach Simmons,1,28371,12322.0,Music
+Zebra Corner,1,902301,457094.0,Youtuber
+Zendaya,1,545535,810427.0,Music
+Zero Media,1,1751064,973496.0,Movie Trailer
+Zoella,6,742134,12093428.0,Youtuber
+adidas Football,1,1624478,1275884.0,Commercial
+alt-J,1,133212,739936.0,Music
+amazon,2,2376599,280862.0,Commercial
+amc,3,230378,657573.0,Traditional Media
+astroboy1960,1,15382,309.0,Conventional Viral
+austinmcconnell,2,40789,397521.0,Youtuber
+automotivemaster1972,1,1736,1768.0,Conventional Viral
+bigclivedotcom,1,49914,346440.0,Youtuber
+bill wurtz,4,870973,2344302.0,Youtuber
+bitluni's lab,1,10891,38872.0,Youtuber
+blackbearVEVO,1,524944,506303.0,Music
+boogie2988,1,488915,4448995.0,Youtuber
+carrieunderwoodVEVO,3,686108,1337356.0,Music
+cgriesemer,1,19703,28.0,Conventional Viral
+chris lee,1,160012,10405.0,Youtuber
+cicigoodies2011,1,5270,6141.0,Music
+cineytele,1,173027,2356.0,Conventional Viral
+clothesencounters,4,201105,2127866.0,Youtuber
+cocheusadoooo,1,148226,1409.0,Conventional Viral
+colinfurze,7,897166,5735802.0,Youtuber
+colourpopcosmetics,1,64817,111909.0,Commercial
+communitychannel,1,164324,1885749.0,Youtuber
+danisnotinteresting,1,168637,1843744.0,Youtuber
+dannotv,1,258506,1234.0,Conventional Viral
+daronjay,1,3390,4.0,Youtuber
+dekuNukem,1,1425,5135.0,Conventional Viral
+devinsupertramp,2,109493,4884611.0,Youtuber
+doddleoddle,1,390631,1470748.0,Music
+doddlevloggle,1,292107,813720.0,Youtuber
+dodieVEVO,2,182793,356570.0,Music
+dope2111,1,1456472,5019780.0,Youtuber
+eba era,1,2910,113.0,Conventional Viral
+edlover4real,1,6172,63941.0,Youtuber
+ekaggrat singh kalsi,1,4810,779.0,Conventional Viral
+emma chamberlain,1,126438,744919.0,Youtuber
+emmymadeinjapan,6,116527,1040049.0,Youtuber
+empireofthesunvevo,1,138988,252011.0,Music
+engineerguy,1,93244,697942.0,Youtuber
+euronews (in English),5,54778,399408.0,Traditional Media
+fantano,3,132779,327918.0,Youtuber
+flirppy242,1,26482,15.0,Conventional Viral
+foofightersVEVO,1,130954,1420400.0,Music
+fosterthepeopleVEVO,2,214534,1502923.0,Music
+fuzywazacolin,1,23889,389.0,Conventional Viral
+gamelovercommercials,1,11204,907.0,Conventional Viral
+geicocaveman2012,1,176871,300.0,Conventional Viral
+grandayy,1,534278,689832.0,Youtuber
+grav3yardgirl,4,1168504,8165952.0,Youtuber
+greeenpro,1,10909,31333.0,Youtuber
+greyson97,1,19561,527722.0,Music
+gzumwalt,1,10386,903.0,Conventional Viral
+heroedelahistoria,1,48682,32.0,Conventional Viral
+heyitsfeiii,3,317534,929041.0,Youtuber
+hp_overload,1,98378,37489.0,Commercial
+hudsonunionsociety,1,15058,6095.0,Traditional Media
+hwow,1,124554,228.0,Conventional Viral
+iDB,1,3939,287759.0,Traditional Media
+iHasCupquake,2,294789,6206493.0,Youtuber
+iJustine,13,188380,4652602.0,Youtuber
+iKON,1,4475534,1888032.0,Music
+ibighit,9,11470664,9883887.0,Music
+iggyazaleamusicVEVO,2,490099,5259059.0,Music
+ilikeweylie,1,62061,1666933.0,Traditional Media
+iotexpert,1,3221,31.0,Conventional Viral
+itsAlexClark,11,507091,2282796.0,Youtuber
+jacksfilms,23,1023822,3947725.0,Youtuber
+jbalvinVEVO,1,497116,14095890.0,Music
+jeffreestar,4,1683868,6449009.0,Youtuber
+jenniferhudsonVEVO,1,81509,356643.0,Music
+jennxpenn,5,261473,3141857.0,Youtuber
+jeremiah johnson,1,2860,2351.0,Youtuber
+jessiepaege,3,78987,1462446.0,Youtuber
+joyner lucas,1,1032297,1463836.0,Music
+justintimberlakeVEVO,6,2156592,7065880.0,Music
+jypentertainment,7,12479557,7092637.0,Music
+kawaiisweetworld,1,72234,1182847.0,Youtuber
+kehlani parrish,1,136027,0.0,Music
+keshaVEVO,2,270331,2833032.0,Music
+kimbramusic,1,165698,235528.0,Music
+kmichelle,1,103737,641072.0,Music
+lara6683,1,87397,180388.0,Youtuber
+legofreedom1,1,8116,755.0,Youtuber
+leonalewis,1,119502,128503.0,Music
+lisbug,1,47287,2239082.0,Youtuber
+littleBits Electronics,1,1387,24162.0,Commercial
+littlemixVEVO,1,432367,8386430.0,Music
+lugeyps3,1,24492,582423.0,Youtuber
+lugnutsoldcrap,1,6491,3301.0,Conventional Viral
+mariahxlambily,1,878841,41039.0,Music
+marjolijn2,1,31145,65.0,Conventional Viral
+marshmello,2,775414,11146743.0,Music
+matt,1,342214,2162.0,Youtuber
+mayratouchofglam,1,103927,1890090.0,Youtuber
+melodysheep,1,21953,376970.0,Youtuber
+merrelltwins,4,435572,3006038.0,Youtuber
+misleadingsilhouette,1,45096,1925.0,Music
+mittromney,1,32662,32426.0,Traditional Media
+mmschocolate,3,72871,129063.0,Commercial
+monatheband,1,135252,4823.0,Music
+"monday.com, formerly dapulse",1,3931,4016.0,Commercial
+mugumogu,2,43018,588371.0,Youtuber
+negermano,1,2492,21.0,Conventional Viral
+neilyoungchannel,1,72321,101448.0,Music
+nickjonas,1,14727,0.0,Music
+nigahiga,7,2805999,20563106.0,Youtuber
+nothorwitzer,1,30550,167.0,Conventional Viral
+officer401,1,67661,410738.0,Youtuber
+officialcharlixcx,2,57587,1827545.0,Music
+ombremor,1,112310,759.0,Traditional Media
+onsetfacilities.com,1,404058,554.0,Commercial
+paul wheaton,1,73685,70826.0,Youtuber
+pjmorton,1,15495,12200.0,Music
+poofables,1,95085,30.0,Conventional Viral
+razzark666,1,51984,355.0,Conventional Viral
+reputationswift,1,3006,699.0,Music
+revlon,1,7130,89181.0,Commercial
+rock on,1,21361,2305.0,Youtuber
+rollingstoneonline,1,41535,2950.0,Traditional Media
+sWooZie,2,1305702,5594758.0,Youtuber
+samfryltd,1,377085,10915.0,Conventional Viral
+shakiraVEVO,1,6469935,19537583.0,Music
+shane,2,3041770,12480763.0,Youtuber
+shoaib246,1,25796,289.0,Conventional Viral
+shurap,1,72514,132626.0,Youtuber
+slaymeclarkson c:,1,54002,11143.0,Music
+smoothiethecat,1,50131,56777.0,Youtuber
+souviendra,1,51146,284.0,Conventional Viral
+stacyvlogs,2,170026,383112.0,Youtuber
+standupmaths,2,92544,374876.0,Youtuber
+startelegramvideo,1,25108,14523.0,Traditional Media
+taalk com,1,1107,20.0,Conventional Viral
+the Hacksmith,2,843365,2463229.0,Youtuber
+theCHIVE,1,158013,52560.0,Commercial
+theSkimm,1,11216,1038.0,Traditional Media
+thegameawards,1,1287342,88587.0,Movie Trailer
+theneedledrop,6,151689,1329828.0,Youtuber
+thevirts,1,91085,110338.0,Youtuber
+todrickhall,4,173320,2842339.0,Music
+tonyvera1902,1,103423,42298.0,Youtuber
+toofacedcosmetics,1,13747,284512.0,Commercial
+tovestyrkeVEVO,1,8720,81417.0,Music
+truTV,5,184654,1358036.0,Traditional Media
+videogamedunkey,3,2709544,4524084.0,Youtuber
+vlogbrothers,11,159271,3111110.0,Youtuber
+vnbreyes,1,2863,1014.0,Traditional Media
+voordeel,1,50741,49700.0,Youtuber
+wdwmagic,1,188213,9790.0,Youtuber
+yeokm1,1,24311,61.0,Conventional Viral
+yovo68,1,304017,40167.0,Youtuber

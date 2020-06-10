@@ -1,0 +1,9 @@
+package service
+
+import "context"
+
+// BugsService describes the service.
+type BugsService interface {
+    // Add your methods here
+    Create(ctx context.Context, bug string) error
+}

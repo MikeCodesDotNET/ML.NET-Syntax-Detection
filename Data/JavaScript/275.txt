@@ -1,0 +1,3 @@
+const helloWorld = (name, emoji) => {
+  console.log(emoji + ' Hello ' + name);
+}

@@ -1,0 +1,9 @@
+readonly Animation rotation;
+        
+
+public SubmitFriendRequestPage()
+{
+    rotation = new Animation(v => LabelRotateIcon.Rotation = v, 0, 360);
+
+    VM.PropertyChanged += OnPropertyChanged;
+}

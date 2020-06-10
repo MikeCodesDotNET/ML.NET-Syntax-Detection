@@ -1,0 +1,26 @@
+trigger:
+  - master
+
+pool:
+  vmImage: "ubuntu-latest"
+
+stages:
+  - stage: build
+    jobs:
+      - job:
+        steps:
+          - script: echo Hello, world!
+
+  - stage: deploy_dev
+    displayName: Deploy to development
+    jobs:
+      - job:
+        steps:
+          - script: echo Hello, world!
+
+  - stage: deploy_prod
+    displayName: Deploy to production
+    jobs:
+      - job:
+        steps:
+          - script: echo Hello, world!

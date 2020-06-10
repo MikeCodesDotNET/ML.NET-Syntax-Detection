@@ -1,0 +1,5 @@
+object val = (type == StringStr || type == BooleanStr) ?
+    (object)value.GetString() : value.GetDecimal();
+var toCompare = Expression.Constant(val);
+var right = Expression.Equal(property, toCompare);
+left = bind(left, right);

@@ -1,0 +1,10 @@
+import { Injectable } from '@nestjs/common';
+import { Repository, InjectRepository } from '@nestjs/azure-database';
+import { Cat } from './cat.entity';
+
+@Injectable()
+export class CatService {
+  constructor(
+    @InjectRepository(Cat)
+    private readonly catRepository: Repository<Cat>,
+  ) {}

@@ -1,0 +1,4 @@
+string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+log.LogInformation("request body", requestBody);
+dynamic data = JsonConvert.DeserializeObject(requestBody);
+name = name ?? data?.name;

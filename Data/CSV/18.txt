@@ -1,0 +1,3 @@
+"label","population","country","x","y"
+"Rome", 25000, "Italy", 76, 88
+"Rio",45555, "Brazil",-54, -86

@@ -1,0 +1,26 @@
+var order = new Order()
+{
+    Id = 1,
+    Created = DateTime.Now,
+    OrderItems = new List<OrderItem>()
+    {
+        new OrderItem()
+        {
+            Quantity = 1,
+            Price = 10,
+            Product = new Product()
+            {
+                Name = "Random ssschwaag"
+            }
+        },
+        new OrderItem()
+        {
+            Quantity = 3,
+            Price = 100,
+            Product = new Product()
+            {
+                Name = "Stickers pack"
+            }
+        }
+    }
+};

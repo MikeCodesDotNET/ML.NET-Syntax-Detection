@@ -1,0 +1,13 @@
+package main
+
+import (
+  "log"
+
+  "github.com/sclevine/agouti"
+)
+
+func main() {
+  // driver := agouti.PhantomJS()
+  // driver := agouti.ChromeDriver()
+  driver := agouti.ChromeDriver(
+    agouti.ChromeOptions("args", [

@@ -1,0 +1,4 @@
+[FunctionName(nameof(SearchWorkflow))]
+public static async Task<string[]> SearchWorkflow(
+    [OrchestrationTrigger]IDurableOrchestrationContext context,
+    ILogger logger)

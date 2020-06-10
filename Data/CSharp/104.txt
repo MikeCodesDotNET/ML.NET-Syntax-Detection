@@ -1,0 +1,8 @@
+var resultJoined = 
+  from m in movies
+  join c in characters on m.Id equals c.MovieId
+  select new
+  {
+      Name = c.Name,
+      Movie = m.Name
+  };

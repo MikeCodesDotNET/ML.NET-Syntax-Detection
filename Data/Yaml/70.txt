@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  watch
+    types: [started]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    if: github.actor == github.event.repository.owner.login
+
+    steps:
+       - name: Checkout repository
+         uses: actions/checkout@v2
+        #  add more ...

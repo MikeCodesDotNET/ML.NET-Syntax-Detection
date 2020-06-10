@@ -1,0 +1,11 @@
+public void SetStatusBarColor(System.Drawing.Color color, bool darkStatusBarTint)
+{
+    if (Build.VERSION.SdkInt < Android.OS.BuildVersionCodes.Lollipop)
+        return;
+        
+    var activity = Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity;
+    var window = activity.Window;
+    window.AddFlags(Android.Views.WindowManagerFlags.DrawsSystemBarBackgrounds);
+    window.ClearFlags(Android.Views.WindowManagerFlags.TranslucentStatus);
+    window.SetStatusBarColor(color.ToPlatformColor());
+}

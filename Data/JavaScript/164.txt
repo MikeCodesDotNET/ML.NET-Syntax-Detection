@@ -1,0 +1,16 @@
+const asyncFunction = (callback) => {
+  setTimeout(() => {
+    callback(new Error('I got an error'))
+  }, 500)
+}
+
+// callback for our async function
+const callbackFunction = (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+}
+
+asyncFunction(callbackFunction);
