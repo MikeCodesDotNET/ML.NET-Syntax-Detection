@@ -1,10 +1,20 @@
-# Syntax Detection ML.NET Sample
+<br/>
+<div align="center">
+  <img src="resources/project-logo.png" width="110" height="110" alt="Project Logo"/>
+</div>
+<br/>
+
+# Syntax Detection [ML.NET](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro?WT.mc_id=personal-blog-mijam) Sample
+[![GitHub license](https://img.shields.io/github/license/sultan99/react-on-lambda.svg)](https://github.com/sultan99/react-on-lambda/blob/master/LICENSE)
  
-This is a demo project, showing how to I used ML.NET to identify various programming language syntax. It's reporting approximately 70% accuracy having been trained on a using a modest amount of training data of ~1800 snippets.
+ > A example project demonstating how to use ML.NET to detect different programming languages from small snippets.
+<br/>
 
-![screenshot](mlscreenshot.png)
+This is a demo project can identify various programming language syntax with minimal input. It's reporting approximately 70% accuracy having been trained on a modest amount of training data (~1800 snippets).
 
-### Supported Syntax
+![screenshot](resources/mlscreenshot.png)
+
+## Supported Syntax
 * C#
 * CSV
 * DockerFiles 
@@ -23,7 +33,35 @@ This is a demo project, showing how to I used ML.NET to identify various program
 * TypeScript
 * YAML
 
-### How to use 
-If you want to add more training data, then you'll need to copy and paste individual code snippets into the correct syntax directory. Once you've done this, delete the merged.csv file and run the TrainingDataSetBuilder console app. 
+## Getting started
 
-The console app will generate a new csv file which can be passed to ML.NET for further training. 
+If you want to run this yourself then you'll need to want Visual Studio's model builder to the merged.csv file found in the /resources/Data directory. 
+
+### Prerequisites
+* [Visual Studio 2019 16.6.1 or later](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=community&rel=16)
+* [Model Builder VS Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.07)
+
+**Test input**
+You can modify the [test input](https://github.com/MikeCodesDotNET/ML.NET-Syntax-Detection/blob/9e12eee9744fd55d649acd79cc4c36b8c579f84e/LanguageDetectionMLML.ConsoleApp/Program.cs#L16) in the ConsoleApp for quick testing. 
+```cs
+//Passes in a JS snippet.
+ModelInput sampleData = new ModelInput()
+    {
+        Content = "'const arr = [\"This\", \"Little\", \"Piggy\"]; const first = arr.pop(); console.log(first);')"
+    };
+```
+**Add more training data**
+
+The training data is organised by into directories named after the syntax contained within. I've written a [small console app](https://github.com/MikeCodesDotNET/ML.NET-Syntax-Detection/blob/9e12eee9744fd55d649acd79cc4c36b8c579f84e/TrainingDataSetBuilder/Program.cs#L9) which will use the directry>snippet.txt structure to produce a CSV file that can be used with ML.NET model builder. Once it's generated a new merged.csv file, you can retrain and see if you've improved the accuracy. 
+
+## Learn More 
+* [Announcment Blog post](https://devblogs.microsoft.com/dotnet/ml-net-model-builder-is-now-a-part-of-visual-studio/)
+* [Model Buidler Repo](https://github.com/dotnet/machinelearning-modelbuilder)
+* [ML.NET Customer Showcase](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/scancam)
+
+
+## Feedback 
+Any questions or suggestions?
+
+You are welcome to discuss in an [Issue](https://github.com/MikeCodesDotNET/ML.NET-Syntax-Detection/issues/new?body=**Feature%20Suggestion:**%0A%20I%20woud%20love%20to%20see..%20%0A%0A%0A---%0A%20) or [Tweet](https://twitter.com/mikecodesdotnet) at me. 
+
