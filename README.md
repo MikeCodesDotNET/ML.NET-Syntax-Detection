@@ -38,8 +38,8 @@ This is a demo project can identify various programming language syntax with min
 If you want to run this yourself then you'll need to want Visual Studio's model builder to the merged.csv file found in the /resources/Data directory. 
 
 ### Prerequisites
-* [Visual Studio 2019 16.6.1 or later](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=community&rel=16&WT.mc_id=ml.netsyntaxdetection-github-mijam)
-* [Model Builder VS Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.07&WT.mc_id=ml.netsyntaxdetection-github-mijam)
+* [Visual Studio 2019 16.6.1 or later](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=community&rel=16&WT.mc_id=mlnetsyntaxdetection-github-mijam)
+* [Model Builder VS Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.07&WT.mc_id=mlnetsyntaxdetection-github-mijam)
 
 **Test input**
 You can modify the [test input](https://github.com/MikeCodesDotNET/ML.NET-Syntax-Detection/blob/9e12eee9744fd55d649acd79cc4c36b8c579f84e/LanguageDetectionMLML.ConsoleApp/Program.cs#L16) in the ConsoleApp for quick testing. 
@@ -55,9 +55,9 @@ ModelInput sampleData = new ModelInput()
 The training data is organised by into directories named after the syntax contained within. I've written a [small console app](https://github.com/MikeCodesDotNET/ML.NET-Syntax-Detection/blob/9e12eee9744fd55d649acd79cc4c36b8c579f84e/TrainingDataSetBuilder/Program.cs#L9) which will use the directry>snippet.txt structure to produce a CSV file that can be used with ML.NET model builder. Once it's generated a new merged.csv file, you can retrain and see if you've improved the accuracy. 
 
 ## Learn More 
-* [Announcement Blog post](https://devblogs.microsoft.com/dotnet/ml-net-model-builder-is-now-a-part-of-visual-studio/?WT.mc_id=ml.netsyntaxdetection-github-mijam)
+* [Announcement Blog post](https://devblogs.microsoft.com/dotnet/ml-net-model-builder-is-now-a-part-of-visual-studio/?WT.mc_id=mlnetsyntaxdetection-github-mijam)
 * [Model Builder Repo](https://github.com/dotnet/machinelearning-modelbuilder)
-* [ML.NET Customer Showcase](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/scancam?WT.mc_id=ml.netsyntaxdetection-github-mijam)
+* [ML.NET Customer Showcase](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/scancam?WT.mc_id=mlnetsyntaxdetection-github-mijam)
 
 
 ## Feedback 
